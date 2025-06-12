@@ -1,0 +1,24 @@
+{
+    "id": "24219f0e-a73e-40a4-a07c-5c50dbc2a2e0",
+    "author": "fawaz",
+    "widgets": [
+        {
+            "id": "sankey",
+            "name": "sankeycombinedfinal",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}

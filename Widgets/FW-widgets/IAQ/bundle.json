@@ -1,0 +1,24 @@
+{
+    "id": "dafdbec3-d474-4b36-f992-efd17e83bc12",
+    "author": "fawaz",
+    "widgets": [
+        {
+            "id": "iaq",
+            "name": "iaq",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}

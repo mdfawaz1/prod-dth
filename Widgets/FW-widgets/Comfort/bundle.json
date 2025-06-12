@@ -1,0 +1,24 @@
+{
+    "id": "dae5149f-653c-4ed0-ca89-20fd8e03a42c",
+    "author": "fawaz",
+    "widgets": [
+        {
+            "id": "comforty",
+            "name": "comforty",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}
