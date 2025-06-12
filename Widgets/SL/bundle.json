@@ -1,0 +1,24 @@
+{
+    "id": "b75fc135-16a6-49d0-a14a-8e33cf233789",
+    "author": "fawaz",
+    "widgets": [
+        {
+            "id": "site_left_panel",
+            "name": "site_left_panel",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}

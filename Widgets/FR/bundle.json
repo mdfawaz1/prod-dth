@@ -1,0 +1,24 @@
+{
+    "id": "fa162c64-8afb-49da-ffa0-24b8a1ea1457",
+    "author": " lahiru nirmal",
+    "widgets": [
+        {
+            "id": "floor_right_panel",
+            "name": "floor_right_panel",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}
