@@ -1,0 +1,24 @@
+{
+    "id": "e2bc4d08-5047-47a5-cf18-2f5901ca5d15",
+    "author": "lahiru nirmal",
+    "widgets": [
+        {
+            "id": "equipment_left_panel",
+            "name": "equipment_left_panel",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}

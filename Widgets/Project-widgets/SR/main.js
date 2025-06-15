@@ -33,7 +33,7 @@ module.exports = {};
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".energy-widget {\n  width: 100%;\n  padding: 1.5rem;\n  border-radius: 1.5rem;\n  background-color: transparent;\n  font-family: \"Segoe UI\", sans-serif;\n  color: #1f2937;\n  box-sizing: border-box;\n  background: rgba(30, 34, 40, 0.45);\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1254901961);\n  border: 1px solid rgba(255, 255, 255, 0.24);\n  backdrop-filter: blur(8px);\n  /* .dark & {\n    color: #e5e7eb;\n  } */\n}\n.energy-widget .header {\n  margin-bottom: 1rem;\n  color: #ffffff;\n}\n.energy-widget .header .widget-heading {\n  margin: 0 0 5px;\n  font-size: 15px;\n  font-weight: 600;\n}\n.energy-widget .header .widget-heading:before {\n  width: 12px;\n  height: 12px;\n  margin-inline-end: 5px;\n  border-radius: 50%;\n  content: \"\";\n  display: inline-block;\n  overflow: hidden;\n  pointer-events: none;\n  visibility: visible;\n  background-color: #22c55e;\n}\n.energy-widget .header .widget-sub-heading {\n  font-size: 14px;\n  color: #ffffff;\n}\n.energy-widget .circular-meter {\n  position: relative;\n  max-width: 110px;\n  margin: 30px auto -35px;\n}\n.energy-widget .circular-meter .circular-chart {\n  width: 100%;\n  height: auto;\n  transform: rotate(-90deg);\n}\n.energy-widget .circular-meter .circular-chart circle {\n  fill: none;\n  stroke-width: 2.8;\n  stroke-linecap: butt;\n}\n.energy-widget .circular-meter .circular-chart .red {\n  stroke: #ef4444;\n}\n.energy-widget .circular-meter .circular-chart .yellow {\n  stroke: #facc15;\n}\n.energy-widget .circular-meter .circular-chart .green {\n  stroke: #22c55e;\n}\n.energy-widget .circular-meter .circular-chart .gray {\n  stroke: #6b7280;\n}\n.dark .energy-widget .circular-meter .circular-chart .gray {\n  stroke: #374151;\n}\n.energy-widget .circular-meter .center-label {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n}\n.energy-widget .circular-meter .center-label .value {\n  margin-bottom: 3px;\n  font-size: 1.35rem;\n  font-weight: bold;\n  color: #3b82f6;\n}\n.energy-widget .circular-meter .center-label .unit {\n  font-size: 0.75rem;\n  color: #e5e7eb;\n}\n.dark .energy-widget .circular-meter .center-label .unit {\n  color: #9ca3af;\n}\n.energy-widget .circular-meter .legend-info {\n  position: absolute;\n  top: -20px;\n  right: -15px;\n  z-index: 2;\n}\n.energy-widget .circular-meter .legend-info .info-icon {\n  cursor: pointer;\n  font-size: 1rem;\n  color: white;\n  border-radius: 50%;\n  padding: 4px;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  width: 20px;\n  height: 20px;\n}\n.energy-widget .circular-meter .legend-info .popup {\n  position: absolute;\n  top: 30px;\n  right: 0;\n  background-color: rgba(255, 255, 255, 0.95);\n  color: #1f2937;\n  border-radius: 0.5rem;\n  padding: 0.75rem;\n  font-size: 0.75rem;\n  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);\n  z-index: 10;\n  width: max-content;\n  min-width: 100px;\n  display: none;\n}\n.dark .energy-widget .circular-meter .legend-info .popup {\n  background-color: rgba(31, 41, 55, 0.95);\n  color: #e5e7eb;\n}\n.energy-widget .circular-meter .legend-info .popup div {\n  display: flex;\n  align-items: center;\n  margin: 0.4rem 0;\n  gap: 0.5rem;\n}\n.energy-widget .circular-meter .legend-info .popup .dot {\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n}\n.energy-widget .circular-meter .legend-info .popup .dot.red {\n  background-color: #ef4444;\n}\n.energy-widget .circular-meter .legend-info .popup .dot.yellow {\n  background-color: #facc15;\n}\n.energy-widget .circular-meter .legend-info .popup .dot.green {\n  background-color: #22c55e;\n}\n.energy-widget .circular-meter .legend-info .popup .dot.gray {\n  background-color: #6b7280;\n}\n.dark .energy-widget .circular-meter .legend-info .popup .dot.gray {\n  background-color: #374151;\n}\n.energy-widget .circular-meter .legend-info:hover .popup {\n  display: block;\n}\n.energy-widget .weekly-trend {\n  margin-top: 1rem;\n}\n.energy-widget .weekly-trend .trend-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  font-size: 15px;\n  color: #ffffff;\n  font-weight: 600;\n}\n.energy-widget .weekly-trend .trend-header .badge {\n  background-color: rgba(55, 55, 55, 0.8901960784);\n  color: #ffffff;\n  font-size: 12px;\n  padding: 8px 10px 6px;\n  border-radius: 0.5rem;\n  /* .dark & {\n    background-color: #1f2937;\n    color: #d1d5db;\n  } */\n}\n.energy-widget .weekly-trend .trend-header .badge .recharts-text {\n  fill: #ffffff;\n}\n.energy-widget .weekly-trend .chart-container {\n  width: 100%;\n  min-height: 180px;\n  height: 180px;\n}\n.energy-widget .status-cards {\n  margin-top: 1.5rem;\n  display: flex;\n  gap: 1rem;\n  flex-direction: row;\n  flex-wrap: wrap;\n}\n.energy-widget .status-cards .card {\n  flex: 1;\n  min-width: 120px;\n  padding: 0.75rem;\n  border-radius: 1rem;\n  text-align: center;\n}\n.energy-widget .status-cards .card:before {\n  width: 25px;\n  height: 25px;\n  margin-bottom: 3px;\n  background: #f79514;\n  border-radius: 50%;\n  content: \"\";\n  display: inline-block;\n  overflow: hidden;\n  pointer-events: none;\n  visibility: visible;\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' fill='%23fff' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='122.88px' height='116.864px' viewBox='0 0 122.88 116.864' enable-background='new 0 0 122.88 116.864' xml:space='preserve'%3E%3Cg%3E%3Cpolygon fill-rule='evenodd' clip-rule='evenodd' points='61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0'/%3E%3C/g%3E%3C/svg%3E\");\n  background-size: 60%;\n  background-repeat: no-repeat;\n  background-position: center center;\n}\n.energy-widget .status-cards .card .label {\n  margin-bottom: 5px;\n  font-weight: 600;\n}\n.energy-widget .status-cards .card .description {\n  margin: 1px 0;\n  font-size: 10px;\n}\n.energy-widget .status-cards .card.current {\n  border: 1px solid #f79514;\n  background-color: rgba(255, 145, 0, 0.2392156863);\n  color: #fff;\n  /* .dark & {\n    background-color: rgba(255, 255, 0, 0.1);\n    color: #facc15;\n  } */\n}\n.energy-widget .status-cards .card.target {\n  border: 1px solid #65a765;\n  background-color: rgba(27, 85, 27, 0.5215686275);\n  color: #fff;\n  /* dark & {\n    background-color: rgba(34, 197, 94, 0.1);\n    color: #22c55e;\n  } */\n}\n.energy-widget .status-cards .card.target:before {\n  background-color: #65a765;\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' fill='%23fff' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='122.877px' height='101.052px' viewBox='0 0 122.877 101.052' enable-background='new 0 0 122.877 101.052' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M4.43,63.63c-2.869-2.755-4.352-6.42-4.427-10.11c-0.074-3.689,1.261-7.412,4.015-10.281 c2.752-2.867,6.417-4.351,10.106-4.425c3.691-0.076,7.412,1.255,10.283,4.012l24.787,23.851L98.543,3.989l1.768,1.349l-1.77-1.355 c0.141-0.183,0.301-0.339,0.479-0.466c2.936-2.543,6.621-3.691,10.223-3.495V0.018l0.176,0.016c3.623,0.24,7.162,1.85,9.775,4.766 c2.658,2.965,3.863,6.731,3.662,10.412h0.004l-0.016,0.176c-0.236,3.558-1.791,7.035-4.609,9.632l-59.224,72.09l0.004,0.004 c-0.111,0.141-0.236,0.262-0.372,0.368c-2.773,2.435-6.275,3.629-9.757,3.569c-3.511-0.061-7.015-1.396-9.741-4.016L4.43,63.63 L4.43,63.63z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n@media (max-width: 600px) {\n  .energy-widget .status-cards {\n    flex-direction: column;\n  }\n}", ""]);
+exports.push([module.id, ".energy-widget {\n  width: 100%;\n  padding: 1.5rem;\n  border-radius: 1.5rem;\n  background-color: transparent;\n  font-family: \"Segoe UI\", sans-serif;\n  color: #1f2937;\n  box-sizing: border-box;\n  background: rgba(30, 34, 40, 0.45);\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1254901961);\n  border: 1px solid rgba(255, 255, 255, 0.24);\n  backdrop-filter: blur(2px);\n  /* .dark & {\n    color: #e5e7eb;\n  } */\n}\n.energy-widget .header {\n  color: #ffffff;\n}\n.energy-widget .header .widget-heading {\n  margin: 0 0 5px;\n  font-size: 18px;\n  font-weight: 600;\n}\n.energy-widget .header .widget-heading:before {\n  width: 12px;\n  height: 12px;\n  margin-inline-end: 5px;\n  border-radius: 50%;\n  content: \"\";\n  display: inline-block;\n  overflow: hidden;\n  pointer-events: none;\n  visibility: visible;\n  background-color: #22c55e;\n}\n.energy-widget .header .widget-sub-heading {\n  font-size: 16px;\n  color: #ffffff;\n}\n.energy-widget .circular-meter {\n  position: relative;\n  max-width: 110px;\n  margin: 30px auto 10px;\n}\n.energy-widget .circular-meter .circular-chart {\n  width: 100%;\n  height: auto;\n  transform: rotate(-90deg);\n}\n.energy-widget .circular-meter .circular-chart circle {\n  fill: none;\n  stroke-width: 2.8;\n  stroke-linecap: butt;\n}\n.energy-widget .circular-meter .circular-chart .red {\n  stroke: #ef4444;\n}\n.energy-widget .circular-meter .circular-chart .yellow {\n  stroke: #facc15;\n}\n.energy-widget .circular-meter .circular-chart .green {\n  stroke: #22c55e;\n}\n.energy-widget .circular-meter .circular-chart .gray {\n  stroke: #6b7280;\n}\n.dark .energy-widget .circular-meter .circular-chart .gray {\n  stroke: #374151;\n}\n.energy-widget .circular-meter .center-label {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n}\n.energy-widget .circular-meter .center-label .value {\n  margin-bottom: 3px;\n  font-size: 20px;\n  font-weight: bold;\n  color: #3b82f6;\n}\n.energy-widget .circular-meter .center-label .unit {\n  font-size: 0.75rem;\n  color: #ffffff;\n}\n.dark .energy-widget .circular-meter .center-label .unit {\n  color: #ffffff;\n}\n.energy-widget .circular-meter .legend-info {\n  position: absolute;\n  top: -20px;\n  right: -15px;\n  z-index: 2;\n}\n.energy-widget .circular-meter .legend-info .info-icon {\n  cursor: pointer;\n  font-size: 1rem;\n  color: white;\n  border-radius: 50%;\n  padding: 4px;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  width: 20px;\n  height: 20px;\n}\n.energy-widget .circular-meter .legend-info .popup {\n  position: absolute;\n  top: 30px;\n  right: 0;\n  background-color: rgba(255, 255, 255, 0.95);\n  color: #1f2937;\n  border-radius: 0.5rem;\n  padding: 0.75rem;\n  font-size: 0.75rem;\n  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);\n  z-index: 10;\n  width: max-content;\n  min-width: 100px;\n  display: none;\n}\n.dark .energy-widget .circular-meter .legend-info .popup {\n  background-color: rgba(31, 41, 55, 0.95);\n  color: #e5e7eb;\n}\n.energy-widget .circular-meter .legend-info .popup div {\n  display: flex;\n  align-items: center;\n  margin: 0.4rem 0;\n  gap: 0.5rem;\n}\n.energy-widget .circular-meter .legend-info .popup .dot {\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n}\n.energy-widget .circular-meter .legend-info .popup .dot.red {\n  background-color: #ef4444;\n}\n.energy-widget .circular-meter .legend-info .popup .dot.yellow {\n  background-color: #facc15;\n}\n.energy-widget .circular-meter .legend-info .popup .dot.green {\n  background-color: #22c55e;\n}\n.energy-widget .circular-meter .legend-info .popup .dot.gray {\n  background-color: #6b7280;\n}\n.dark .energy-widget .circular-meter .legend-info .popup .dot.gray {\n  background-color: #374151;\n}\n.energy-widget .circular-meter .legend-info:hover .popup {\n  display: block;\n}\n.energy-widget .weekly-trend {\n  margin-top: 1rem;\n}\n.energy-widget .weekly-trend .trend-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  font-size: 18px;\n  color: #ffffff;\n  font-weight: 600;\n}\n.energy-widget .weekly-trend .trend-header .badge {\n  background-color: rgba(55, 55, 55, 0.8901960784);\n  color: #ffffff;\n  font-size: 14px;\n  padding: 8px 10px 6px;\n  border-radius: 0.5rem;\n  /* .dark & {\n    background-color: #1f2937;\n    color: #d1d5db;\n  } */\n}\n.energy-widget .weekly-trend .trend-header .badge .recharts-text {\n  fill: #ffffff;\n}\n.energy-widget .weekly-trend .chart-container {\n  width: 100%;\n  min-height: 120px;\n  height: 120px;\n}\n.energy-widget .status-cards {\n  display: flex;\n  gap: 1rem;\n}\n.energy-widget .status-cards .card {\n  flex: 1;\n  padding: 0.15rem;\n  border-radius: 1rem;\n  text-align: center;\n}\n.energy-widget .status-cards .card:before {\n  width: 25px;\n  height: 25px;\n  margin-bottom: 1px;\n  background: #f79514;\n  border-radius: 50%;\n  content: \"\";\n  display: inline-block;\n  overflow: hidden;\n  pointer-events: none;\n  visibility: visible;\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' fill='%23fff' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='122.88px' height='116.864px' viewBox='0 0 122.88 116.864' enable-background='new 0 0 122.88 116.864' xml:space='preserve'%3E%3Cg%3E%3Cpolygon fill-rule='evenodd' clip-rule='evenodd' points='61.44,0 78.351,41.326 122.88,44.638 88.803,73.491 99.412,116.864 61.44,93.371 23.468,116.864 34.078,73.491 0,44.638 44.529,41.326 61.44,0'/%3E%3C/g%3E%3C/svg%3E\");\n  background-size: 60%;\n  background-repeat: no-repeat;\n  background-position: center center;\n}\n.energy-widget .status-cards .card .label {\n  font-weight: 600;\n  font-size: 18px;\n}\n.energy-widget .status-cards .card .description {\n  margin: 1px 0;\n  font-size: 15px;\n}\n.energy-widget .status-cards .card.current {\n  border: 1px solid #f79514;\n  background-color: rgba(255, 145, 0, 0.2392156863);\n  color: #fff;\n  /* .dark & {\n    background-color: rgba(255, 255, 0, 0.1);\n    color: #facc15;\n  } */\n}\n.energy-widget .status-cards .card.target {\n  border: 1px solid #65a765;\n  background-color: rgba(27, 85, 27, 0.5215686275);\n  color: #fff;\n  /* dark & {\n    background-color: rgba(34, 197, 94, 0.1);\n    color: #22c55e;\n  } */\n}\n.energy-widget .status-cards .card.target:before {\n  background-color: #65a765;\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' fill='%23fff' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='122.877px' height='101.052px' viewBox='0 0 122.877 101.052' enable-background='new 0 0 122.877 101.052' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M4.43,63.63c-2.869-2.755-4.352-6.42-4.427-10.11c-0.074-3.689,1.261-7.412,4.015-10.281 c2.752-2.867,6.417-4.351,10.106-4.425c3.691-0.076,7.412,1.255,10.283,4.012l24.787,23.851L98.543,3.989l1.768,1.349l-1.77-1.355 c0.141-0.183,0.301-0.339,0.479-0.466c2.936-2.543,6.621-3.691,10.223-3.495V0.018l0.176,0.016c3.623,0.24,7.162,1.85,9.775,4.766 c2.658,2.965,3.863,6.731,3.662,10.412h0.004l-0.016,0.176c-0.236,3.558-1.791,7.035-4.609,9.632l-59.224,72.09l0.004,0.004 c-0.111,0.141-0.236,0.262-0.372,0.368c-2.773,2.435-6.275,3.629-9.757,3.569c-3.511-0.061-7.015-1.396-9.741-4.016L4.43,63.63 L4.43,63.63z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n@media (max-width: 600px) {\n  .energy-widget .status-cards {\n    flex-direction: column;\n  }\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -50,7 +50,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".dt-widgets-right-panel {\n  background: rgba(0, 0, 0, 0.1);\n  padding: 15px;\n  overflow-y: auto;\n  scrollbar-width: none;\n}\n.dt-widgets-right-panel .energy-widget {\n  background: rgba(30, 34, 44, 0.2);\n  margin-bottom: 15px;\n}", ""]);
+exports.push([module.id, ".dt-widgets-right-panel {\n  background: rgba(0, 0, 0, 0.1);\n  padding: 15px;\n  overflow-y: auto;\n  scrollbar-width: none;\n}\n.dt-widgets-right-panel .energy-widget {\n  background: none;\n  background: rgba(30, 34, 44, 0.3);\n  backdrop-filter: blur(4px);\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -35741,7 +35741,7 @@ const energy_widget_1 = __importDefault(__webpack_require__(/*! ./prod/energy_wi
 const EnergyTracking_1 = __importDefault(__webpack_require__(/*! ./prod/EnergyTracking */ "./src/prod/EnergyTracking.tsx"));
 const Site_right_panelWidget = (props) => {
     return (React.createElement(components_1.WidgetWrapper, { className: "dt-widgets-right-panel site" },
-        React.createElement(EnergyTracking_1.default, null),
+        React.createElement(EnergyTracking_1.default, { LocationKey: props.LocationKey, uxpContext: props.uxpContext }),
         React.createElement(energy_widget_1.default, { LocationKey: props.LocationKey, uxpContext: props.uxpContext })));
 };
 /**
@@ -35876,6 +35876,15 @@ registerCustomWidgetTemplate({
 
 "use strict";
 
+// import React, { useEffect, useRef } from "react";
+// import {
+//   sankey as d3sankey,
+//   sankeyLinkHorizontal,
+//   SankeyNode,
+//   SankeyLink,
+// } from "d3-sankey";
+// import * as d3 from "d3";
+// import { registerWidget, registerLink, registerUI, IContextProvider, } from "../uxp";;
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
@@ -35900,63 +35909,410 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
+// export interface IWidgetProps {
+//   uxpContext?: IContextProvider, 
+//   LocationKey?: string,
+// }
+// type NodeType = { name: string };
+// type LinkType = {
+//   source: number;
+//   target: number;
+//   value: number;
+//   color: string;
+// };
+// const nodes: NodeType[] = [
+//   { name: "Non Renewable" },
+//   { name: "HVAC High Side" },
+//   { name: "IT Load" },
+//   { name: "HVAC Low Side" },
+//   { name: "Others" },
+//   { name: "Indoor Lighting" },
+// ];
+// // const linkColors = [
+// //   '#82CFFF', '#A0D868', '#A59FF0', '#FF8080', '#FFD85A', '#F27171',
+// //   '#BFBFBF', '#7FD9D9', '#B9E6A8', '#EC8FD1', '#FFA0A0', '#E288A1', '#999999'
+// // ];
+// // const linkColors = [
+// //   '#3386a6', // darkened #82CFFF
+// //   '#6b9e3e', // darkened #A0D868
+// //   '#6a5fa6', // darkened #A59FF0
+// //   '#b34d4d', // darkened #FF8080
+// //   '#bfa63c', // darkened #FFD85A
+// //   '#b24e4e', // darkened #F27171
+// //   '#8c8c8c', // darkened #BFBFBF
+// //   '#4ca3a3', // darkened #7FD9D9
+// //   '#7ca86a', // darkened #B9E6A8
+// //   '#a05f8a', // darkened #EC8FD1
+// //   '#b26a6a', // darkened #FFA0A0
+// //   '#a25a6e', // darkened #E288A1
+// //   '#666666', // darkened #999999
+// // ];
+// const linkColors = [
+//   "#2970a3", // darker #82CFFF
+//   "#6b9e3e", // darker #A0D868
+//   "#574e99", // darker #A59FF0
+//   "#b33c3c", // darker #FF8080
+//   "#bfa63c", // darker #FFD85A
+//   //   '#b24e4e', // darker #F27171
+//   //   '#8c8c8c', // darker #BFBFBF
+//   "#3a8c8c", // darker #7FD9D9
+//   "#5e8c5e", // darker #B9E6A8
+//   "#8a4c6e", // darker #EC8FD1
+//   "#a05a5a", // darker #FFA0A0
+//   "#8c4c5e", // darker #E288A1
+//   //   '#555555', // darker #999999
+// ];
+// const links: LinkType[] = [
+//   { source: 0, target: 1, value: 78, color: linkColors[0] },
+//   { source: 0, target: 2, value: 45, color: linkColors[1] },
+//   { source: 0, target: 3, value: 50, color: linkColors[2] },
+//   { source: 0, target: 4, value: 60, color: linkColors[3] },
+//   { source: 0, target: 5, value: 55, color: linkColors[4] },
+// ];
+// const width = 370;
+// const height = 260;
+// // const EnergyTracking: React.FC = () => {
+// const EnergyTracking: React.FC<IWidgetProps> = (props) => {
+//   const svgRef = useRef<SVGSVGElement>(null);
+// //test props
+// //  useEffect(() => {
+// //     console.log("LocationKey prop:", props.LocationKey);
+// //   }, [props.LocationKey]);
+//   useEffect(() => {
+//     d3.select(svgRef.current).selectAll("*").remove();
+//     const sankeyGen = d3sankey<NodeType, LinkType>()
+//       .nodeWidth(0)
+//       .nodePadding(34)
+//       .extent([
+//         [1, 1],
+//         [width - 1, height - 1],
+//       ]);
+//     const graph = sankeyGen({
+//       nodes: nodes.map((d) => ({ ...d })),
+//       links: links.map((d) => ({ ...d })),
+//     });
+//     const svg = d3.select(svgRef.current);
+//     svg
+//       .append("g")
+//       .selectAll("path")
+//       .data(graph.links)
+//       .enter()
+//       .append("path")
+//       .attr("d", sankeyLinkHorizontal())
+//       .attr("stroke", (d, i) => `url(#link-gradient-${i})`)
+//       .attr("stroke-width", (d: SankeyLink<NodeType, LinkType>) =>
+//         Math.max(1, d.width)
+//       )
+//       .attr("fill", "none")
+//       .attr("opacity", 0.85);
+//     svg
+//       .append("g")
+//       .selectAll("text")
+//       .data(graph.links)
+//       .enter()
+//       .append("text")
+//       .attr("x", (d: SankeyLink<NodeType, LinkType>) => {
+//         const name = (d.target as SankeyNode<NodeType, LinkType>).name;
+//         const baseX =
+//           ((d.source as SankeyNode<NodeType, LinkType>).x1! +
+//             (d.target as SankeyNode<NodeType, LinkType>).x0!) /
+//             2 +
+//           24;
+//         // Move "HVAC Low Side" a bit more right
+//         if (name === "HVAC Low Side") return baseX + 15;
+//         if (name === "HVAC High Side") return baseX + 15; // no extra space
+//         if (name === "IT Load") return baseX + 15;
+//         if (name === "Others") return baseX + 15;
+//         if (name === "Indoor Lighting") return baseX + 15;
+//         // Default case
+//         return baseX;
+//       })
+//       .attr("y", (d: SankeyLink<NodeType, LinkType>) => {
+//         const name = (d.target as SankeyNode<NodeType, LinkType>).name;
+//         const baseY = (d.y0! + d.y1!) / 2 - (d.width ?? 10) / 1.2 + 10;
+//         // Move "HVAC High Side" and "HVAC Low Side" a bit below
+//         if (name === "HVAC High Side") return baseY + 0;
+//         if (name === "HVAC Low Side") return baseY + 18; // more below
+//         if (name === "IT Load") return baseY + 1;
+//         if (name === "Others") return baseY + 24;
+//         if (name === "Indoor Lighting") return baseY + 40;
+//         return baseY;
+//       })
+//       .attr("text-anchor", "start")
+//       .attr("fill", "#fff")
+//       //   .attr("stroke", "#000")
+//       //   .attr("stroke-width", 2)
+//       //   .attr("paint-order", "stroke")
+//       .attr("font-size", 14)
+//       .attr("font-weight", 600)
+//       .text(
+//         (d: SankeyLink<NodeType, LinkType>) =>
+//           (d.target as SankeyNode<NodeType, LinkType>).name
+//       );
+//     //new
+//     const totalValue = 4200;
+//     const totalLinks = links.reduce((sum, l) => sum + l.value, 0);
+//     graph.links.forEach((link) => {
+//       // Only for links from Non Renewable (source: 0)
+//       if (
+//         (link.source as SankeyNode<NodeType, LinkType>).name === "Non Renewable"
+//       ) {
+//         const percent = link.value / totalLinks;
+//         const labelValue = Math.round(totalValue * percent);
+//         const targetNode = link.target as SankeyNode<NodeType, LinkType>;
+//         const name = targetNode.name;
+//         const baseX =
+//           ((link.source as SankeyNode<NodeType, LinkType>).x1! +
+//             targetNode.x0!) /
+//             2 +
+//           24;
+//         let x = baseX;
+//         if (name === "HVAC Low Side") x += 135;
+//         if (name === "HVAC High Side") x += 135;
+//         if (name === "IT Load") x += 135;
+//         if (name === "Others") x += 135;
+//         if (name === "Indoor Lighting") x += 135;
+//         const baseY = (link.y0! + link.y1!) / 2 - (link.width ?? 10) / 1.2 + 10;
+//         let y = baseY - 18; // Move above the label
+//         if (name === "HVAC High Side") y += -1;
+//         if (name === "HVAC Low Side") y += 29;
+//         if (name === "IT Load") y += 10;
+//         if (name === "Others") y += 47;
+//         if (name === "Indoor Lighting") y += 63;
+//         svg
+//           .append("text")
+//           .attr("x", x+20)
+//           .attr("y", y+6)
+//           .attr("text-anchor", "end")
+//           .attr("fill", "#fff")
+//           .attr("font-size", 14)
+//           .attr("font-weight", 700)
+//           //        .attr("stroke", "#000")           // <-- Black border
+//           //   .attr("stroke-width", 2)          // <-- Border thickness
+//           //   .attr("paint-order", "stroke")
+//           .text(labelValue);
+//       }
+//     });
+//     //--------------------
+//     // Draw source node label (Non Renewable) at left, vertically centered
+//     const sourceNode = graph.nodes[0];
+//     svg
+//       .append("text")
+//       .attr("x", sourceNode.x0! - 10)
+//       .attr("y", (sourceNode.y0! + sourceNode.y1!) / 2)
+//       .attr("dy", "0.35em")
+//       .attr("text-anchor", "end")
+//       .attr("fill", "#fff")
+//       .attr("font-size", 14)
+//       .attr("padding", 3)
+//       .attr("font-weight", 600)
+//       .text(sourceNode.name);
+//     const defs = svg.append("defs");
+//     // graph.links.forEach((link, i) => {
+//     //   const gradId = `link-gradient-${i}`;
+//     //   const color = (link as any).color;
+//     //   defs.append("linearGradient")
+//     //     .attr("id", gradId)
+//     //     .attr("gradientUnits", "userSpaceOnUse")
+//     //     .attr("x1", (link.source as any).x1)
+//     //     .attr("x2", (link.target as any).x0)
+//     //     .attr("y1", (link.y0! + link.y1!) / 2)
+//     //     .attr("y2", (link.y0! + link.y1!) / 2)
+//     //     .selectAll("stop")
+//     //     .data([
+//     //       { offset: "0%", color },
+//     //       { offset: "50%", color: "#fff" },
+//     //       { offset: "100%", color }
+//     //     ])
+//     //     .enter()
+//     //     .append("stop")
+//     //     .attr("offset", d => d.offset)
+//     //     .attr("stop-color", d => d.color);
+//     // });
+//     graph.links.forEach((link, i) => {
+//       const gradId = `link-gradient-${i}`;
+//       //   const leftColor = (link as any).color; // left side: link color
+//       const leftColor = "#8a4c6e";
+//       // Choose a right color: unique, or fixed (e.g., "#222" or "#fff")
+//       // Here, let's use a unique color from linkColors array, or fallback to "#222"
+//       const rightColor = linkColors[i + 1] || "#222";
+//       defs
+//         .append("linearGradient")
+//         .attr("id", gradId)
+//         .attr("gradientUnits", "userSpaceOnUse")
+//         .attr("x1", (link.source as any).x1)
+//         .attr("x2", (link.target as any).x0)
+//         .attr("y1", (link.y0! + link.y1!) / 2)
+//         .attr("y2", (link.y0! + link.y1!) / 2)
+//         .selectAll("stop")
+//         .data([
+//           { offset: "0%", color: leftColor },
+//           { offset: "50%", color: "#fff" }, // optional: white in the middle
+//           { offset: "100%", color: rightColor },
+//         ])
+//         .enter()
+//         .append("stop")
+//         .attr("offset", (d) => d.offset)
+//         .attr("stop-color", (d) => d.color);
+//     });
+//   }, []);
+//   return (
+//     <div
+//       //   style={{
+//       //     background: "linear-gradient(90deg, #444 0%, #bbb 100%)",
+//       //     borderRadius: 16,
+//       //     padding: 24,
+//       //     color: "#fff",
+//       //     width: 600,
+//       //     height: 350,
+//       //     boxShadow: "0 2px 16px rgba(0,0,0,0.15)",
+//       //     fontFamily: "Segoe UI, Arial, sans-serif",
+//       //     position: "relative",
+//       //   }}
+//       style={{
+//         background: "rgba(30, 34, 44, 0.55)", // darker, more transparent background
+//         borderRadius: 16,
+//         padding: 24,
+//         color: "#fff",
+//         width: '100%',
+//         height: 460,
+//         marginBottom:10,
+//         boxShadow: "0 2px 16px rgba(0,0,0,0.18)",
+//         fontFamily: "Segoe UI, Arial, sans-serif",
+//         position: "relative",
+//       }}
+//     >
+//       <div
+//         style={{
+//           fontWeight: 700,
+//           fontSize: 14,
+//           display: "flex",
+//           alignItems: "center",
+//         }}
+//       >
+//         <span style={{ color: "#5FFF7F", fontSize: 22, marginRight: 8 }}>
+//           ⚡
+//         </span>
+//         ENERGY TRACKING
+//       </div>
+//       <div style={{ display: "flex", marginTop: 24,flexDirection:"column"}}>
+//         {/* Centered Left Info */}
+//         <div
+//           style={{
+//             width: 160,
+//             display: "flex",
+//             flexDirection: "column",
+//             justifyContent: "center",
+//             height: "100%",
+//           }}
+//         >
+//           <div
+//             style={{
+//               fontSize: 28,
+//               fontWeight: 700,
+//               letterSpacing: 1,
+//               textAlign: "left",
+//             }}
+//           >
+//             Kwh 4,200
+//           </div>
+//           <div
+//             style={{
+//               margin: "12px 0 8px 0",
+//               fontSize: 13,
+//               color: "#fff",
+//               textAlign: "left",
+//             }}
+//           >
+//             <span
+//               style={{
+//                 background: "#F55",
+//                 color: "#fff",
+//                 borderRadius: 12,
+//                 padding: "2px 12px",
+//                 fontWeight: 600,
+//                 fontSize: 13,
+//                 marginRight: 8,
+//               }}
+//             >
+//               76%
+//             </span>
+//             <div
+//               style={{
+//                 width: 100,
+//                 height: 8,
+//                 background: "#333",
+//                 borderRadius: 6,
+//                 marginTop: 8,
+//                 overflow: "hidden",
+//                 position: "relative",
+//               }}
+//             >
+//               <div
+//                 style={{
+//                   width: "76%",
+//                   height: "100%",
+//                   background: "#F55",
+//                   borderRadius: 6,
+//                   transition: "width 0.5s",
+//                 }}
+//               />
+//             </div>
+//           </div>
+//         </div>
+//         <div
+//           style={{
+//             flex: 1,
+//             marginLeft: 16,
+//             display: "flex",
+//             alignItems: "center",
+//           }}
+//         >
+//           <svg ref={svgRef} width={width} height={height} />
+//         </div>
+//       </div>
+//       <div
+//         style={{
+//           position: "absolute",
+//           bottom: 16,
+//           left: 24,
+//           right: 24,
+//           display: "flex",
+//           justifyContent: "space-between",
+//           fontSize: 13,
+//           color: "#ccc",
+//         }}
+//       >
+//         {/* <span>ALERTS & NOTIFICATIONS</span> */}
+//       </div>
+//     </div>
+//   );
+// };
+// export default EnergyTracking;
 const react_1 = __importStar(__webpack_require__(/*! react */ "react"));
 const d3_sankey_1 = __webpack_require__(/*! d3-sankey */ "./node_modules/d3-sankey/src/index.js");
 const d3 = __importStar(__webpack_require__(/*! d3 */ "./node_modules/d3/src/index.js"));
-const nodes = [
-    { name: "Non Renewable" },
-    { name: "HVAC High Side" },
-    { name: "IT Load" },
-    { name: "HVAC Low Side" },
-    { name: "Others" },
-    { name: "Indoor Lighting" },
-];
-// const linkColors = [
-//   '#82CFFF', '#A0D868', '#A59FF0', '#FF8080', '#FFD85A', '#F27171',
-//   '#BFBFBF', '#7FD9D9', '#B9E6A8', '#EC8FD1', '#FFA0A0', '#E288A1', '#999999'
-// ];
-// const linkColors = [
-//   '#3386a6', // darkened #82CFFF
-//   '#6b9e3e', // darkened #A0D868
-//   '#6a5fa6', // darkened #A59FF0
-//   '#b34d4d', // darkened #FF8080
-//   '#bfa63c', // darkened #FFD85A
-//   '#b24e4e', // darkened #F27171
-//   '#8c8c8c', // darkened #BFBFBF
-//   '#4ca3a3', // darkened #7FD9D9
-//   '#7ca86a', // darkened #B9E6A8
-//   '#a05f8a', // darkened #EC8FD1
-//   '#b26a6a', // darkened #FFA0A0
-//   '#a25a6e', // darkened #E288A1
-//   '#666666', // darkened #999999
-// ];
-const linkColors = [
-    "#2970a3",
-    "#6b9e3e",
-    "#574e99",
-    "#b33c3c",
-    "#bfa63c",
-    //   '#b24e4e', // darker #F27171
-    //   '#8c8c8c', // darker #BFBFBF
-    "#3a8c8c",
-    "#5e8c5e",
-    "#8a4c6e",
-    "#a05a5a",
-    "#8c4c5e", // darker #E288A1
-    //   '#555555', // darker #999999
-];
-const links = [
-    { source: 0, target: 1, value: 78, color: linkColors[0] },
-    { source: 0, target: 2, value: 45, color: linkColors[1] },
-    { source: 0, target: 3, value: 50, color: linkColors[2] },
-    { source: 0, target: 4, value: 60, color: linkColors[3] },
-    { source: 0, target: 5, value: 55, color: linkColors[4] },
-];
 const width = 370;
 const height = 260;
-const EnergyTracking = () => {
+const EnergyTracking = (props) => {
     const svgRef = (0, react_1.useRef)(null);
+    // State for backend data
+    const [data, setData] = (0, react_1.useState)(null);
+    // Fetch data from backend
     (0, react_1.useEffect)(() => {
+        if (!props.uxpContext || !props.LocationKey)
+            return;
+        // API
+        props.uxpContext.executeAction("EnergyDashboard", "EnergyTracking", { LocationKey: props.LocationKey }, { json: true }).then((response) => {
+            setData(response);
+        }).catch(() => {
+            setData(null);
+        });
+    }, [props.uxpContext, props.LocationKey]);
+    // Draw Sankey when data is loaded
+    (0, react_1.useEffect)(() => {
+        if (!data)
+            return;
         d3.select(svgRef.current).selectAll("*").remove();
         const sankeyGen = (0, d3_sankey_1.sankey)()
             .nodeWidth(0)
@@ -35966,8 +36322,8 @@ const EnergyTracking = () => {
             [width - 1, height - 1],
         ]);
         const graph = sankeyGen({
-            nodes: nodes.map((d) => (Object.assign({}, d))),
-            links: links.map((d) => (Object.assign({}, d))),
+            nodes: data.nodes.map((d) => (Object.assign({}, d))),
+            links: data.links.map((d) => (Object.assign({}, d))),
         });
         const svg = d3.select(svgRef.current);
         svg
@@ -35993,29 +36349,26 @@ const EnergyTracking = () => {
                 d.target.x0) /
                 2 +
                 24;
-            // Move "HVAC Low Side" a bit more right
             if (name === "HVAC Low Side")
                 return baseX + 15;
             if (name === "HVAC High Side")
-                return baseX + 15; // no extra space
+                return baseX + 15;
             if (name === "IT Load")
                 return baseX + 15;
             if (name === "Others")
                 return baseX + 15;
             if (name === "Indoor Lighting")
                 return baseX + 15;
-            // Default case
             return baseX;
         })
             .attr("y", (d) => {
             var _a;
             const name = d.target.name;
             const baseY = (d.y0 + d.y1) / 2 - ((_a = d.width) !== null && _a !== void 0 ? _a : 10) / 1.2 + 10;
-            // Move "HVAC High Side" and "HVAC Low Side" a bit below
             if (name === "HVAC High Side")
                 return baseY + 0;
             if (name === "HVAC Low Side")
-                return baseY + 18; // more below
+                return baseY + 18;
             if (name === "IT Load")
                 return baseY + 1;
             if (name === "Others")
@@ -36026,21 +36379,16 @@ const EnergyTracking = () => {
         })
             .attr("text-anchor", "start")
             .attr("fill", "#fff")
-            //   .attr("stroke", "#000")
-            //   .attr("stroke-width", 2)
-            //   .attr("paint-order", "stroke")
             .attr("font-size", 14)
             .attr("font-weight", 600)
             .text((d) => d.target.name);
-        //new
-        const totalValue = 4200;
-        const totalLinks = links.reduce((sum, l) => sum + l.value, 0);
+        // Value labels
+        const totalLinks = data.links.reduce((sum, l) => sum + l.value, 0);
         graph.links.forEach((link) => {
             var _a;
-            // Only for links from Non Renewable (source: 0)
             if (link.source.name === "Non Renewable") {
                 const percent = link.value / totalLinks;
-                const labelValue = Math.round(totalValue * percent);
+                const labelValue = Math.round(data.totalKwh * percent);
                 const targetNode = link.target;
                 const name = targetNode.name;
                 const baseX = (link.source.x1 +
@@ -36059,7 +36407,7 @@ const EnergyTracking = () => {
                 if (name === "Indoor Lighting")
                     x += 135;
                 const baseY = (link.y0 + link.y1) / 2 - ((_a = link.width) !== null && _a !== void 0 ? _a : 10) / 1.2 + 10;
-                let y = baseY - 18; // Move above the label
+                let y = baseY - 18;
                 if (name === "HVAC High Side")
                     y += -1;
                 if (name === "HVAC Low Side")
@@ -36076,16 +36424,12 @@ const EnergyTracking = () => {
                     .attr("y", y + 6)
                     .attr("text-anchor", "end")
                     .attr("fill", "#fff")
-                    .attr("font-size", 14)
+                    .attr("font-size", 16)
                     .attr("font-weight", 700)
-                    //        .attr("stroke", "#000")           // <-- Black border
-                    //   .attr("stroke-width", 2)          // <-- Border thickness
-                    //   .attr("paint-order", "stroke")
                     .text(labelValue);
             }
         });
-        //--------------------
-        // Draw source node label (Non Renewable) at left, vertically centered
+        // Source node label
         const sourceNode = graph.nodes[0];
         svg
             .append("text")
@@ -36094,39 +36438,17 @@ const EnergyTracking = () => {
             .attr("dy", "0.35em")
             .attr("text-anchor", "end")
             .attr("fill", "#fff")
-            .attr("font-size", 14)
+            .attr("font-size", 16)
             .attr("padding", 3)
             .attr("font-weight", 600)
             .text(sourceNode.name);
+        // Gradients
         const defs = svg.append("defs");
-        // graph.links.forEach((link, i) => {
-        //   const gradId = `link-gradient-${i}`;
-        //   const color = (link as any).color;
-        //   defs.append("linearGradient")
-        //     .attr("id", gradId)
-        //     .attr("gradientUnits", "userSpaceOnUse")
-        //     .attr("x1", (link.source as any).x1)
-        //     .attr("x2", (link.target as any).x0)
-        //     .attr("y1", (link.y0! + link.y1!) / 2)
-        //     .attr("y2", (link.y0! + link.y1!) / 2)
-        //     .selectAll("stop")
-        //     .data([
-        //       { offset: "0%", color },
-        //       { offset: "50%", color: "#fff" },
-        //       { offset: "100%", color }
-        //     ])
-        //     .enter()
-        //     .append("stop")
-        //     .attr("offset", d => d.offset)
-        //     .attr("stop-color", d => d.color);
-        // });
         graph.links.forEach((link, i) => {
+            var _a;
             const gradId = `link-gradient-${i}`;
-            //   const leftColor = (link as any).color; // left side: link color
             const leftColor = "#8a4c6e";
-            // Choose a right color: unique, or fixed (e.g., "#222" or "#fff")
-            // Here, let's use a unique color from linkColors array, or fallback to "#222"
-            const rightColor = linkColors[i + 1] || "#222";
+            const rightColor = ((_a = data.links[i + 1]) === null || _a === void 0 ? void 0 : _a.color) || "#222";
             defs
                 .append("linearGradient")
                 .attr("id", gradId)
@@ -36146,22 +36468,14 @@ const EnergyTracking = () => {
                 .attr("offset", (d) => d.offset)
                 .attr("stop-color", (d) => d.color);
         });
-    }, []);
-    return (react_1.default.createElement("div", { 
-        //   style={{
-        //     background: "linear-gradient(90deg, #444 0%, #bbb 100%)",
-        //     borderRadius: 16,
-        //     padding: 24,
-        //     color: "#fff",
-        //     width: 600,
-        //     height: 350,
-        //     boxShadow: "0 2px 16px rgba(0,0,0,0.15)",
-        //     fontFamily: "Segoe UI, Arial, sans-serif",
-        //     position: "relative",
-        //   }}
-        style: {
-            background: "rgba(30, 34, 44, 0.2)",
-            backdropFilter: "blur(8px)",
+    }, [data]);
+    // Show loading or error
+    if (!data) {
+        return (react_1.default.createElement("div", { style: { color: "#fff", padding: 24 } }, "Loading energy data..."));
+    }
+    return (react_1.default.createElement("div", { style: {
+            background: "rgba(30, 34, 44, 0.3)",
+            backdropFilter: "blur(4px)",
             borderRadius: 16,
             padding: 24,
             color: "#fff",
@@ -36174,7 +36488,7 @@ const EnergyTracking = () => {
         } },
         react_1.default.createElement("div", { style: {
                 fontWeight: 700,
-                fontSize: 14,
+                fontSize: "18px",
                 display: "flex",
                 alignItems: "center",
             } },
@@ -36193,7 +36507,9 @@ const EnergyTracking = () => {
                         fontWeight: 700,
                         letterSpacing: 1,
                         textAlign: "left",
-                    } }, "Kwh 4,200"),
+                    } },
+                    "Kwh ",
+                    data.totalKwh),
                 react_1.default.createElement("div", { style: {
                         margin: "12px 0 8px 0",
                         fontSize: 13,
@@ -36208,7 +36524,9 @@ const EnergyTracking = () => {
                             fontWeight: 600,
                             fontSize: 13,
                             marginRight: 8,
-                        } }, "76%"),
+                        } },
+                        data.percentage,
+                        "%"),
                     react_1.default.createElement("div", { style: {
                             width: 100,
                             height: 8,
@@ -36219,7 +36537,7 @@ const EnergyTracking = () => {
                             position: "relative",
                         } },
                         react_1.default.createElement("div", { style: {
-                                width: "76%",
+                                width: `${data.percentage}%`,
                                 height: "100%",
                                 background: "#F55",
                                 borderRadius: 6,
@@ -36332,11 +36650,12 @@ const Energy_use_intensityWidget = (props) => {
     let offset = 0;
     (0, react_1.useEffect)(() => {
         getAllData();
-    }, []);
+    }, [props.LocationKey]);
     function getAllData() {
         return __awaiter(this, void 0, void 0, function* () {
             uxpContext.executeAction("EnergyDashboard", "GetEnergyData", {
-                AssetKey: LocationKey,
+                // AssetKey:LocationKey,
+                LocationKey: props.LocationKey,
             }, { json: true })
                 .then((res) => {
                 console.log('asdsadsads++++', res);
@@ -36384,22 +36703,10 @@ const Energy_use_intensityWidget = (props) => {
                     React.createElement("span", { className: "badge" }, "7 Days")),
                 React.createElement("div", { className: "chart-container" },
                     React.createElement(recharts_1.ResponsiveContainer, { width: "100%", height: "100%" },
-                        React.createElement(recharts_1.BarChart, { data: data === null || data === void 0 ? void 0 : data.weeklyTrend, margin: { top: 10, right: 10, left: 0, bottom: 5 } },
-                            React.createElement("defs", null,
-                                React.createElement("linearGradient", { id: "colorBar", x1: "0", y1: "0", x2: "0", y2: "1" },
-                                    React.createElement("stop", { offset: "5%", stopColor: "#2563eb", stopOpacity: 1 }),
-                                    React.createElement("stop", { offset: "95%", stopColor: "#60a5fa", stopOpacity: 0.8 }))),
-                            React.createElement(recharts_1.CartesianGrid, { strokeDasharray: "3 3", vertical: false, stroke: "rgba(255,255,255,0.1)" }),
-                            React.createElement(recharts_1.XAxis, { dataKey: "day", axisLine: false, tickLine: false, stroke: "#ffffff", tick: { fontSize: 10 } }),
-                            React.createElement(recharts_1.YAxis, { hide: false, axisLine: false, tickLine: false, stroke: "#ffffff", tick: { fontSize: 10 }, width: 30 }),
-                            React.createElement(recharts_1.Tooltip, { contentStyle: {
-                                    backgroundColor: 'rgba(0,0,0,0.8)',
-                                    border: 'none',
-                                    borderRadius: '4px',
-                                    color: '#fff',
-                                    fontSize: '12px'
-                                }, cursor: { fill: 'rgba(255,255,255,0.1)' } }),
-                            React.createElement(recharts_1.Bar, { dataKey: "value", fill: "url(#colorBar)", radius: [4, 4, 0, 0], barSize: 18, animationDuration: 1500 }))))),
+                        React.createElement(recharts_1.BarChart, { data: data === null || data === void 0 ? void 0 : data.weeklyTrend },
+                            React.createElement(recharts_1.XAxis, { dataKey: "day", axisLine: false, tickLine: false, stroke: "#a4a4a4" }),
+                            React.createElement(recharts_1.Tooltip, null),
+                            React.createElement(recharts_1.Bar, { dataKey: "value", fill: "#3b82f6", radius: [5, 5, 0, 0] }))))),
             React.createElement("div", { className: "status-cards" },
                 React.createElement("div", { className: "card current" },
                     React.createElement("div", { className: "label" }, "Current"),
