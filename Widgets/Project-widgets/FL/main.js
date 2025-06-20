@@ -67,7 +67,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".dt-widgets-left-panel-floor {\n  padding: 15px;\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n.dt-widgets-left-panel-floor .dt-system-toolbar-positioning {\n  margin-bottom: 15px;\n}\n.dt-widgets-left-panel-floor .dt-system-toolbar-positioning .dt-system-toolbar-container {\n  width: 100%;\n}\n.dt-widgets-left-panel-floor .dt-system-toolbar-positioning .dt-system-toolbar-container .dt-system-toolbar {\n  display: flex;\n  justify-content: center;\n  width: 100%;\n  border-radius: 10px;\n  border: 1px solid rgba(255, 255, 255, 0.4);\n}\n.dt-widgets-left-panel-floor .alarm-list {\n  background: none;\n  margin-bottom: 15px;\n}", ""]);
+exports.push([module.id, ".dt-widgets-left-panel-floor {\n  background: rgba(0, 0, 0, 0.1);\n  padding: 15px;\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n.dt-widgets-left-panel-floor .dt-system-toolbar-positioning {\n  margin-bottom: 15px;\n}\n.dt-widgets-left-panel-floor .dt-system-toolbar-positioning .dt-system-toolbar-container {\n  width: 100%;\n}\n.dt-widgets-left-panel-floor .dt-system-toolbar-positioning .dt-system-toolbar-container .dt-system-toolbar {\n  display: flex;\n  justify-content: center;\n  width: 100%;\n  border-radius: 10px;\n  border: 1px solid rgba(255, 255, 255, 0.4);\n}\n.dt-widgets-left-panel-floor .alarm-list {\n  background: none;\n  margin-bottom: 15px;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -1058,71 +1058,6 @@ const AlarmsList = (props) => {
                                     React.createElement("div", { className: `dt-top-priorities-list-discription`, style: { color: "#FFFFFF", padding: "0px 5px 0px 20px" } }, dataitem.Description)))),
                         React.createElement("div", { style: { width: "80px" }, className: "dt-alarms-left-panel" },
                             React.createElement("div", { className: "dt-alarm-item-detail-box-object-date" }, (0, common_1.CreateDateObject)(dataitem.DateTime, "0", "datetime")))))));
-            // rowtdarray.push(<div>
-            //     <div className="triangle-icon">
-            //         {/* <div className="dt-top-priorities-list-type-icon-container" style={{width:"20px"}}>
-            //             <div style={{width:"20px",height:"20px"}} className={`dt-top-priorities-list-icon-${dataitem.Type.toLowerCase()} dt-top-priorities-list-icon-${criticalclass}`}></div>
-            //         </div> */}
-            //         <div className="dt-items-triangle-icon-container">
-            //           <div className={`dt-items-triangle-icon dt-items-triangle-icon-${criticalclass}`}></div>
-            //         </div>
-            //     </div>
-            //     <div className="description">
-            //         <div className="dt-top-priorities-list-item-object">
-            //             <DropDownButton 
-            //                 position="left" 
-            //                 showOnHover={true}
-            //                 className = "dt-top-priorities-list-discription-custom-drop-down"
-            //                 content={() => 
-            //                     <div style={{maxWidth:"400px",maxHeight:"300px",overflowY:"auto"}}>
-            //                         {dataitem.Description}
-            //                     </div>
-            //                 } 
-            //             >
-            //                 <div className={`dt-top-priorities-list-discription`} style={{color:"#FFFFFF"}}>{dataitem.Description}</div>
-            //             </DropDownButton>
-            //         </div>
-            //     </div>
-            //     <div className="obj-id">
-            //         <div className={`dt-top-priorities-list-item-object`} style={{color:"#FFFFFF"}}>
-            //             {/* {dataitem.ObjectID} */}
-            //             <div className={`dt-top-priorities-list-discription`} style={{color:"#FFFFFF"}}>{dataitem.ObjectID}</div>
-            //           </div>
-            //     </div>
-            //     <div className="obj">
-            //         <div className={`dt-top-priorities-list-item-object`} style={{color:"#FFFFFF"}} >{CreateDateObject(dataitem.DateTime,"0","datetime")}</div>
-            //     </div>
-            //     <div className="btns">
-            //       <div>
-            //         <div title="view" style={{cursor:"pointer"}} className="dt-top-priorities-list-icon-container"
-            //             onClick={() => {
-            //                 /// dataitem.AssetKey
-            //             }}
-            //         >
-            //             <div className="dt-top-priorities-list-view-more-icon"></div>
-            //         </div>
-            //       </div>
-            //     </div>
-            //     <div className="btns">
-            //       <div>
-            //         <div title="view" style={{cursor:"pointer"}} className="dt-top-priorities-list-icon-container"
-            //             onClick={() => {
-            //                 if(dataitem.Type.toLowerCase() == 'fault'){
-            //                     window.open(`/Apps/UXP/screen/fault-result-wo-details?timk=17`, '_blank');
-            //                 }
-            //                 else if(dataitem.Type.toLowerCase() == 'ibms'){
-            //                     window.open(`/Apps/UXP/portal/alarm-dashboard?transactionkey=4&transactionid=ALM20250410022&appkey=6&assignee=1&locationkey=15&assetkey=2&assetname=CABE-FCUW-2401-001`, '_blank');
-            //                 }
-            //                 else if(dataitem.Type.toLowerCase() == 'comfort'){
-            //                     window.open(`/Apps/UXP/screen/root-cause-analysis?ak=7&atk=59&aklist=9,10&space=2`);
-            //                 }
-            //             }}
-            //         >
-            //             <div className="dt-top-priorities-list-view-acknowledge-icon"></div>
-            //         </div>
-            //       </div>
-            //     </div>
-            // </div>);
         }
         setFilteredDataHtmlList(rowtdarray);
     }
@@ -1141,7 +1076,24 @@ const AlarmsList = (props) => {
                                 React.createElement("td", { style: { width: "20px", position: "relative" } },
                                     React.createElement("div", { className: `dt-items-triangle-icon dt-items-triangle-icon-green` })),
                                 React.createElement("td", null,
-                                    React.createElement("div", { className: "dt-alarm-item-detail-box-object-id" }, dataitem.ObjectID))))),
+                                    React.createElement("div", { className: "dt-alarm-item-detail-box-object-id" }, dataitem.ObjectID)),
+                                React.createElement("td", { style: { width: "20px", position: "relative" } },
+                                    React.createElement("div", { title: "view", style: { cursor: "pointer" }, className: "dt-top-priorities-list-icon-container", onClick: () => {
+                                            if (window.parent && typeof window.parent.postMessage === 'function') {
+                                                window.parent.postMessage({
+                                                    type: 'FOCUS_ON_ASSET',
+                                                    assetKey: dataitem.AssetKey,
+                                                }, '*');
+                                            }
+                                        } },
+                                        React.createElement("div", { className: "dt-top-priorities-list-view-more-icon" }))),
+                                React.createElement("td", { style: { width: "20px", position: "relative" } },
+                                    React.createElement("div", { title: "view", style: { cursor: "pointer" }, className: "dt-top-priorities-list-icon-container", onClick: () => {
+                                            if (dataitem.Type.toLowerCase() == 'prediction') {
+                                                window.open(`/Apps/UXP/portal/kpi-prediction-chart-external?ak=3&sopk=4&unt=Pa&paramk=33&tof=330&tz=LK&paramname=Filter%20differential%20pressure&testname=AHU%20Filter%20Clogged%20Status&assetid=CABE-AHU-2401-001&curr=USD&plndt=2025-04-01T16:30:00Z&reshdt=&ftype=KPI`, '_blank');
+                                            }
+                                        } },
+                                        React.createElement("div", { className: "dt-top-priorities-list-view-acknowledge-icon" })))))),
                     React.createElement("div", { className: "dt-alarms-full-page-devider" },
                         React.createElement("div", { className: "dt-alarms-right-panel" },
                             React.createElement("div", { className: "dt-top-priorities-list-item-object" },
@@ -1149,36 +1101,6 @@ const AlarmsList = (props) => {
                                     React.createElement("div", { className: `dt-top-priorities-list-discription`, style: { color: "#FFFFFF", padding: "0px 5px 0px 20px" } }, dataitem.Description)))),
                         React.createElement("div", { style: { width: "80px" }, className: "dt-alarms-left-panel" },
                             React.createElement("div", { className: "dt-alarm-item-detail-box-object-date" }, (0, common_1.CreateDateObject)(dataitem.DateTime, "0", "datetime")))))));
-            // rowtdarray.push(<div>
-            //     <div className="triangle-icon">
-            //         <div className="dt-items-triangle-icon-container">
-            //           <div className={`dt-items-triangle-icon dt-items-triangle-icon-green`}></div>
-            //         </div>
-            //     </div>
-            //     <div className="description">
-            //         <div className="dt-top-priorities-list-item-object">
-            //             <DropDownButton 
-            //                 position="left" 
-            //                 showOnHover={true}
-            //                 className = "dt-top-priorities-list-discription-custom-drop-down"
-            //                 content={() => 
-            //                     <div style={{maxWidth:"400px",maxHeight:"300px",overflowY:"auto"}}>
-            //                         {dataitem.Description}
-            //                     </div>
-            //                 } 
-            //             >
-            //                 <div className={`dt-top-priorities-list-discription`} style={{color:"#FFFFFF"}}>{dataitem.Description}</div>
-            //             </DropDownButton>
-            //         </div>
-            //     </div>
-            //     <div className="obj-id">
-            //         <div className={`dt-top-priorities-list-item-object`} style={{color:"#FFFFFF"}}>
-            //             {dataitem.ObjectID}</div>
-            //     </div>
-            //     <div className="obj">
-            //         <div className={`dt-top-priorities-list-item-object`} style={{color:"#FFFFFF"}} >{CreateDateObject(dataitem.DateTime,"0","datetime")}</div>
-            //     </div>
-            // </div>);
         }
         setPredictionDataHtmlList(rowtdarray);
     }
