@@ -36476,7 +36476,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".camera-limits-controls {\n  margin-top: 1rem;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  padding-top: 1rem;\n}\n.camera-limits-controls .limits-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 0.5rem;\n  background: rgba(255, 255, 255, 0.05);\n  border-radius: 4px;\n}\n.camera-limits-controls .limits-header h4 {\n  margin: 0;\n  font-size: 0.9rem;\n  color: #fff;\n}\n.camera-limits-controls .limits-content {\n  padding: 1rem 0;\n}\n.camera-limits-controls .limit-group {\n  margin-bottom: 1.5rem;\n}\n.camera-limits-controls .limit-group h5 {\n  margin: 0 0 0.5rem;\n  font-size: 0.8rem;\n  color: #ccc;\n}\n.camera-limits-controls .limit-group .limit-inputs {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n}\n.camera-limits-controls .limit-group .limit-inputs .limit-control {\n  display: flex;\n  flex-direction: column;\n  gap: 0.5rem;\n}\n.camera-limits-controls .limit-group .limit-inputs .limit-control span {\n  font-size: 0.9rem;\n  color: #fff;\n}\n.camera-limits-controls .limit-group .limit-inputs .limit-control .button-group {\n  display: flex;\n  gap: 0.5rem;\n}\n.camera-limits-controls .limit-group .limit-inputs .limit-control .button-group button {\n  flex: 1;\n  padding: 0.25rem 0.5rem;\n  background: rgba(255, 255, 255, 0.1);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 3px;\n  color: #fff;\n  cursor: pointer;\n  font-size: 0.8rem;\n  transition: background-color 0.2s;\n}\n.camera-limits-controls .limit-group .limit-inputs .limit-control .button-group button:hover {\n  background: rgba(255, 255, 255, 0.2);\n}\n.camera-limits-controls .limit-group .limit-inputs .limit-control .button-group button:active {\n  background: rgba(255, 255, 255, 0.3);\n}\n\n.auto-rotate-controls {\n  margin: 10px 0;\n  padding: 8px;\n  border-radius: 4px;\n  background-color: rgba(0, 0, 0, 0.1);\n}\n.auto-rotate-controls .auto-rotate-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 10px;\n}\n.auto-rotate-controls .auto-rotate-header button {\n  padding: 4px 8px;\n  border-radius: 4px;\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  background-color: rgba(255, 255, 255, 0.1);\n  color: #fff;\n  cursor: pointer;\n  font-size: 0.9rem;\n  white-space: nowrap;\n  min-width: 100px;\n}\n.auto-rotate-controls .auto-rotate-header button.active {\n  background-color: #4CAF50;\n  border-color: #45a049;\n}\n.auto-rotate-controls .auto-rotate-header button:hover {\n  background-color: rgba(255, 255, 255, 0.2);\n}\n.auto-rotate-controls .auto-rotate-header button:hover.active {\n  background-color: #45a049;\n}\n.auto-rotate-controls .auto-rotate-header .speed-control {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  flex: 1;\n}\n.auto-rotate-controls .auto-rotate-header .speed-control input[type=range] {\n  flex: 1;\n  max-width: 90px;\n  height: 4px;\n}\n.auto-rotate-controls .auto-rotate-header .speed-control input[type=range]:disabled {\n  opacity: 0.5;\n}\n.auto-rotate-controls .auto-rotate-header .speed-control span {\n  font-size: 0.8rem;\n  color: #fff;\n  min-width: 30px;\n  margin-left: -7px;\n}\n\n.toggle-limits-btn {\n  margin: 5px auto;\n  padding: 5px 10px;\n  background: #2a2a2a;\n  border: 1px solid #444;\n  border-radius: 4px;\n  color: #ddd;\n  cursor: pointer;\n  font-size: 0.8rem;\n  display: block;\n}\n.toggle-limits-btn:hover {\n  background: #3a3a3a;\n}\n\n.skybox-controls {\n  margin-top: 15px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  padding-top: 15px;\n}\n.skybox-controls .skybox-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  margin-bottom: 10px;\n}\n.skybox-controls .skybox-header h4 {\n  margin: 0;\n  font-size: 14px;\n  font-weight: 500;\n}\n.skybox-controls .skybox-header span {\n  font-size: 12px;\n}\n.skybox-controls .skybox-content .skybox-toggle {\n  margin-bottom: 12px;\n}\n.skybox-controls .skybox-content .skybox-toggle button {\n  width: 100%;\n  padding: 8px;\n  background: rgba(255, 255, 255, 0.1);\n  border: none;\n  border-radius: 4px;\n  color: white;\n  cursor: pointer;\n}\n.skybox-controls .skybox-content .skybox-toggle button:hover {\n  background: rgba(255, 255, 255, 0.2);\n}\n.skybox-controls .skybox-content .skybox-toggle button.active {\n  background: rgba(30, 144, 255, 0.5);\n}\n.skybox-controls .skybox-content .skybox-setting {\n  margin-bottom: 10px;\n}\n.skybox-controls .skybox-content .skybox-setting label {\n  display: block;\n  font-size: 12px;\n}\n.skybox-controls .skybox-content .skybox-setting label input[type=range] {\n  width: 100%;\n  margin: 8px 0;\n  height: 4px;\n  appearance: none;\n  background: rgba(255, 255, 255, 0.3);\n  border-radius: 2px;\n  outline: none;\n}\n.skybox-controls .skybox-content .skybox-setting label input[type=range]::-webkit-slider-thumb {\n  appearance: none;\n  width: 12px;\n  height: 12px;\n  border-radius: 50%;\n  background: white;\n  cursor: pointer;\n}\n.skybox-controls .skybox-content .skybox-setting label input[type=range]:disabled {\n  opacity: 0.5;\n}\n.skybox-controls .skybox-content .skybox-setting label span {\n  float: right;\n  font-size: 12px;\n}\n.skybox-controls .skybox-content .skybox-apply {\n  margin-top: 15px;\n}\n.skybox-controls .skybox-content .skybox-apply button {\n  width: 100%;\n  padding: 8px;\n  background: rgba(30, 144, 255, 0.3);\n  border: none;\n  border-radius: 4px;\n  color: white;\n  cursor: pointer;\n}\n.skybox-controls .skybox-content .skybox-apply button:hover {\n  background: rgba(30, 144, 255, 0.5);\n}\n\n.control-settings {\n  position: fixed;\n  z-index: 1000;\n  background-color: rgba(30, 30, 30, 0.7);\n  border-radius: 22px;\n  width: 70px;\n  color: white;\n  font-family: Arial, sans-serif;\n  transition: all 0.3s ease;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);\n  overflow: hidden;\n  max-height: 80vh;\n}\n\n.control-settings.expanded {\n  width: 320px;\n}\n\n.pill {\n  display: flex;\n  align-items: center;\n  padding: 12px 20px;\n  cursor: pointer;\n  border-radius: 12px;\n  transition: background-color 0.2s ease;\n}\n\n.pill:hover {\n  background-color: rgba(60, 60, 60, 0.7);\n}\n\n.pill h2 {\n  margin: 0;\n  font-size: 16px;\n  font-weight: 500;\n}\n\n.settings-options {\n  padding: 0 15px 15px;\n  overflow-y: auto;\n  max-height: calc(80vh - 50px);\n}\n\nlabel {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 15px;\n  font-size: 14px;\n}\n\ninput[type=range] {\n  width: 100%;\n  margin: 8px 0;\n  height: 5px;\n  -webkit-appearance: none;\n  appearance: none;\n  background: rgba(128, 128, 128, 0.3);\n  border-radius: 5px;\n  outline: none;\n}\n\ninput[type=range]::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background: #4a90e2;\n  cursor: pointer;\n  transition: background 0.15s ease;\n}\n\ninput[type=range]::-moz-range-thumb {\n  width: 15px;\n  height: 15px;\n  border: none;\n  border-radius: 50%;\n  background: #4a90e2;\n  cursor: pointer;\n  transition: background 0.15s ease;\n}\n\ninput[type=range]::-webkit-slider-thumb:hover {\n  background: #2a70c2;\n}\n\ninput[type=range]::-moz-range-thumb:hover {\n  background: #2a70c2;\n}\n\n.control-hint {\n  margin-top: 5px;\n  font-size: 12px;\n  opacity: 0.8;\n}\n\n.camera-limits-controls {\n  margin-bottom: 10px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  padding-top: 10px;\n}\n\n.limits-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 8px 10px;\n  background-color: rgba(50, 50, 50, 0.5);\n  border-radius: 6px;\n  margin-bottom: 5px;\n}\n\n.limits-header h4 {\n  margin: 0;\n  font-size: 14px;\n  font-weight: 500;\n  color: white;\n}\n\n.limits-content {\n  padding: 10px 5px;\n  margin-bottom: 5px;\n}\n\n.limit-group {\n  margin-bottom: 15px;\n}\n\n.limit-group h5 {\n  margin: 0 0 8px 0;\n  font-size: 14px;\n  font-weight: normal;\n}\n\n.limit-inputs {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n\n.limit-control {\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  margin-bottom: 10px;\n  font-size: 14px;\n}\n\n.limit-control span {\n  font-size: 14px;\n}\n\n.button-group {\n  display: flex;\n  gap: 5px;\n}\n\n.button-group button {\n  padding: 4px 8px;\n  font-size: 12px;\n  min-height: unset;\n}\n\n/* Auto-rotate controls styling */\n.auto-rotate-controls {\n  margin-bottom: 10px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  padding-top: 10px;\n}\n\n.auto-rotate-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 8px 10px;\n  background-color: rgba(50, 50, 50, 0.5);\n  border-radius: 6px;\n  margin-bottom: 5px;\n}\n\n.auto-rotate-header h4 {\n  margin: 0;\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.auto-rotate-content {\n  padding: 10px 5px;\n  margin-bottom: 5px;\n}\n\n.auto-rotate-setting {\n  margin-bottom: 10px;\n  font-size: 14px;\n}\n\n.auto-rotate-setting button {\n  width: 100%;\n  padding: 8px;\n  font-size: 14px;\n}\n\n/* Skybox controls styling */\n.skybox-controls {\n  margin-bottom: 10px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  padding-top: 10px;\n}\n\n.skybox-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 8px 10px;\n  background-color: rgba(50, 50, 50, 0.5);\n  border-radius: 6px;\n  margin-bottom: 5px;\n}\n\n.skybox-header h4 {\n  margin: 0;\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.skybox-content {\n  padding: 10px 5px;\n  margin-bottom: 5px;\n}\n\n.skybox-setting {\n  margin-bottom: 10px;\n}\n\n.skybox-setting label, .auto-rotate-setting label {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: space-between;\n  margin-bottom: 8px;\n  flex-wrap: wrap;\n  font-size: 14px;\n}\n\n.skybox-setting label span, .auto-rotate-setting label span {\n  font-size: 12px;\n  min-width: 30px;\n  text-align: right;\n}\n\n.skybox-setting label input, .auto-rotate-setting label input {\n  flex: 1;\n  margin: 0 10px;\n  min-width: 100px;\n}\n\n/* Camera controls styling */\n.camera-controls {\n  margin-bottom: 10px;\n  padding-top: 5px;\n}\n\n.camera-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 8px 10px;\n  background-color: rgba(50, 50, 50, 0.5);\n  border-radius: 6px;\n  margin-bottom: 5px;\n}\n\n.camera-header h4 {\n  margin: 0;\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.camera-content {\n  padding: 10px 5px;\n  margin-bottom: 5px;\n}\n\n.camera-setting {\n  margin-bottom: 10px;\n}\n\n.camera-setting label {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: space-between;\n  margin-bottom: 8px;\n  flex-wrap: wrap;\n  font-size: 14px;\n}\n\n.camera-setting span {\n  font-size: 12px;\n  min-width: 30px;\n  text-align: right;\n}\n\n.camera-setting input {\n  flex: 1;\n  margin: 0 10px;\n  min-width: 100px;\n}\n\n/* Actions controls styling */\n.actions-controls {\n  margin-bottom: 10px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  padding-top: 10px;\n}\n\n.actions-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 8px 10px;\n  background-color: rgba(50, 50, 50, 0.5);\n  border-radius: 6px;\n  margin-bottom: 5px;\n}\n\n.actions-header h4 {\n  margin: 0;\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.actions-content {\n  padding: 10px 5px;\n  margin-bottom: 5px;\n}\n\n/* Common styles for all tab headers */\n.camera-header, .actions-header, .skybox-header, .auto-rotate-header, .limits-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 10px 12px;\n  background-color: rgba(60, 60, 60, 0.5);\n  border-radius: 6px;\n  margin-bottom: 8px;\n  transition: background-color 0.2s ease;\n}\n\n.camera-header:hover, .actions-header:hover, .skybox-header:hover, .auto-rotate-header:hover, .limits-header:hover {\n  background-color: rgba(80, 80, 80, 0.6);\n}\n\n/* Active tab header style */\n.camera-header.active, .actions-header.active, .skybox-header.active, .auto-rotate-header.active, .limits-header.active {\n  background-color: rgba(74, 144, 226, 0.3);\n}\n\n/* Tab header icon styling */\n.camera-header h4, .actions-header h4, .skybox-header h4, .auto-rotate-header h4, .limits-header h4 {\n  margin: 0;\n  font-size: 15px;\n  font-weight: 500;\n  display: flex;\n  align-items: center;\n}\n\n/* Content areas for all tabs */\n.camera-content, .skybox-content, .auto-rotate-content, .actions-content, .limits-content {\n  padding: 10px 5px;\n  margin-bottom: 5px;\n}\n\n/* Common styles for all setting types */\n.camera-setting, .skybox-setting, .auto-rotate-setting, .limit-control {\n  margin-bottom: 12px;\n  padding: 2px 0;\n}", ""]);
+exports.push([module.id, ".camera-limits-controls {\n  margin-top: 1rem;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  padding-top: 1rem;\n}\n.camera-limits-controls .limits-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 0.5rem;\n  background: rgba(255, 255, 255, 0.05);\n  border-radius: 4px;\n}\n.camera-limits-controls .limits-header h4 {\n  margin: 0;\n  font-size: 0.9rem;\n  color: #fff;\n}\n.camera-limits-controls .limits-content {\n  padding: 1rem 0;\n}\n.camera-limits-controls .limit-group {\n  margin-bottom: 1.5rem;\n}\n.camera-limits-controls .limit-group h5 {\n  margin: 0 0 0.5rem;\n  font-size: 0.8rem;\n  color: #ccc;\n}\n.camera-limits-controls .limit-group .limit-inputs {\n  display: flex;\n  flex-direction: column;\n  gap: 1rem;\n}\n.camera-limits-controls .limit-group .limit-inputs .limit-control {\n  display: flex;\n  flex-direction: column;\n  gap: 0.5rem;\n}\n.camera-limits-controls .limit-group .limit-inputs .limit-control span {\n  font-size: 0.9rem;\n  color: #fff;\n}\n.camera-limits-controls .limit-group .limit-inputs .limit-control .button-group {\n  display: flex;\n  gap: 0.5rem;\n}\n.camera-limits-controls .limit-group .limit-inputs .limit-control .button-group button {\n  flex: 1;\n  padding: 0.25rem 0.5rem;\n  background: rgba(255, 255, 255, 0.1);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 3px;\n  color: #fff;\n  cursor: pointer;\n  font-size: 0.8rem;\n  transition: background-color 0.2s;\n}\n.camera-limits-controls .limit-group .limit-inputs .limit-control .button-group button:hover {\n  background: rgba(255, 255, 255, 0.2);\n}\n.camera-limits-controls .limit-group .limit-inputs .limit-control .button-group button:active {\n  background: rgba(255, 255, 255, 0.3);\n}\n\n.auto-rotate-controls {\n  margin: 10px 0;\n  padding: 8px;\n  border-radius: 4px;\n  background-color: rgba(0, 0, 0, 0.1);\n}\n.auto-rotate-controls .auto-rotate-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 10px;\n}\n.auto-rotate-controls .auto-rotate-header button {\n  padding: 4px 8px;\n  border-radius: 4px;\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  background-color: rgba(255, 255, 255, 0.1);\n  color: #fff;\n  cursor: pointer;\n  font-size: 0.9rem;\n  white-space: nowrap;\n  min-width: 100px;\n}\n.auto-rotate-controls .auto-rotate-header button.active {\n  background-color: #4CAF50;\n  border-color: #45a049;\n}\n.auto-rotate-controls .auto-rotate-header button:hover {\n  background-color: rgba(255, 255, 255, 0.2);\n}\n.auto-rotate-controls .auto-rotate-header button:hover.active {\n  background-color: #45a049;\n}\n.auto-rotate-controls .auto-rotate-header .speed-control {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  flex: 1;\n}\n.auto-rotate-controls .auto-rotate-header .speed-control input[type=range] {\n  flex: 1;\n  max-width: 90px;\n  height: 4px;\n}\n.auto-rotate-controls .auto-rotate-header .speed-control input[type=range]:disabled {\n  opacity: 0.5;\n}\n.auto-rotate-controls .auto-rotate-header .speed-control span {\n  font-size: 0.8rem;\n  color: #fff;\n  min-width: 30px;\n  margin-left: -7px;\n}\n\n.toggle-limits-btn {\n  margin: 5px auto;\n  padding: 5px 10px;\n  background: #2a2a2a;\n  border: 1px solid #444;\n  border-radius: 4px;\n  color: #ddd;\n  cursor: pointer;\n  font-size: 0.8rem;\n  display: block;\n}\n.toggle-limits-btn:hover {\n  background: #3a3a3a;\n}\n\n.skybox-controls {\n  margin-top: 15px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  padding-top: 15px;\n}\n.skybox-controls .skybox-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  margin-bottom: 10px;\n}\n.skybox-controls .skybox-header h4 {\n  margin: 0;\n  font-size: 14px;\n  font-weight: 500;\n}\n.skybox-controls .skybox-header span {\n  font-size: 12px;\n}\n.skybox-controls .skybox-content .skybox-toggle {\n  margin-bottom: 12px;\n}\n.skybox-controls .skybox-content .skybox-toggle button {\n  width: 100%;\n  padding: 8px;\n  background: rgba(255, 255, 255, 0.1);\n  border: none;\n  border-radius: 4px;\n  color: white;\n  cursor: pointer;\n}\n.skybox-controls .skybox-content .skybox-toggle button:hover {\n  background: rgba(255, 255, 255, 0.2);\n}\n.skybox-controls .skybox-content .skybox-toggle button.active {\n  background: rgba(30, 144, 255, 0.5);\n}\n.skybox-controls .skybox-content .skybox-setting {\n  margin-bottom: 10px;\n}\n.skybox-controls .skybox-content .skybox-setting label {\n  display: block;\n  font-size: 12px;\n}\n.skybox-controls .skybox-content .skybox-setting label input[type=range] {\n  width: 100%;\n  margin: 8px 0;\n  height: 4px;\n  appearance: none;\n  background: rgba(255, 255, 255, 0.3);\n  border-radius: 2px;\n  outline: none;\n}\n.skybox-controls .skybox-content .skybox-setting label input[type=range]::-webkit-slider-thumb {\n  appearance: none;\n  width: 12px;\n  height: 12px;\n  border-radius: 50%;\n  background: white;\n  cursor: pointer;\n}\n.skybox-controls .skybox-content .skybox-setting label input[type=range]:disabled {\n  opacity: 0.5;\n}\n.skybox-controls .skybox-content .skybox-setting label span {\n  float: right;\n  font-size: 12px;\n}\n.skybox-controls .skybox-content .skybox-apply {\n  margin-top: 15px;\n}\n.skybox-controls .skybox-content .skybox-apply button {\n  width: 100%;\n  padding: 8px;\n  background: rgba(30, 144, 255, 0.3);\n  border: none;\n  border-radius: 4px;\n  color: white;\n  cursor: pointer;\n}\n.skybox-controls .skybox-content .skybox-apply button:hover {\n  background: rgba(30, 144, 255, 0.5);\n}\n\n.control-settings {\n  position: fixed;\n  z-index: 1000;\n  background-color: rgba(30, 30, 30, 0.7);\n  border-radius: 22px;\n  width: 70px;\n  color: white;\n  font-family: Arial, sans-serif;\n  transition: all 0.3s ease;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);\n  overflow: hidden;\n  max-height: 80vh;\n}\n.control-settings.expanded {\n  width: 320px;\n}\n.control-settings.navbar-embedded {\n  position: relative !important;\n  top: auto !important;\n  left: auto !important;\n  right: auto !important;\n  bottom: auto !important;\n  transform: none !important;\n  z-index: auto;\n  background-color: rgba(255, 255, 255, 0.1);\n  border-radius: 20px;\n  width: 60px;\n  backdrop-filter: blur(5px);\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.15);\n  max-height: none;\n  overflow: visible;\n  margin: 0;\n}\n.control-settings.navbar-embedded.expanded {\n  width: 300px;\n  background-color: rgba(0, 0, 0, 0.85);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  position: fixed !important;\n  margin-top: 550px;\n  top: 60px !important;\n  right: 20px !important;\n  left: auto !important;\n  transform: none !important;\n  z-index: 9999;\n  max-height: calc(100vh - 80px);\n  overflow-y: auto;\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);\n  backdrop-filter: blur(15px);\n  border-radius: 12px;\n}\n.control-settings.navbar-embedded .pill {\n  padding: 8px 16px;\n  border-radius: 20px;\n}\n.control-settings.navbar-embedded .pill:hover {\n  background-color: rgba(255, 255, 255, 0.15);\n}\n.control-settings.navbar-embedded .pill svg {\n  width: 18px;\n  height: 18px;\n  margin: 0;\n}\n.control-settings.navbar-embedded .settings-options {\n  padding: 0 10px 10px;\n  border-radius: 0 0 12px 12px;\n}\n.control-settings.navbar-embedded .settings-options .camera-header, .control-settings.navbar-embedded .settings-options .actions-header, .control-settings.navbar-embedded .settings-options .skybox-header,\n.control-settings.navbar-embedded .settings-options .auto-rotate-header, .control-settings.navbar-embedded .settings-options .limits-header {\n  background-color: rgba(255, 255, 255, 0.08);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  backdrop-filter: blur(10px);\n}\n.control-settings.navbar-embedded .settings-options .camera-header:hover, .control-settings.navbar-embedded .settings-options .actions-header:hover, .control-settings.navbar-embedded .settings-options .skybox-header:hover,\n.control-settings.navbar-embedded .settings-options .auto-rotate-header:hover, .control-settings.navbar-embedded .settings-options .limits-header:hover {\n  background-color: rgba(255, 255, 255, 0.15);\n  border-color: rgba(255, 255, 255, 0.2);\n}\n.control-settings.navbar-embedded .settings-options .camera-header.active, .control-settings.navbar-embedded .settings-options .actions-header.active, .control-settings.navbar-embedded .settings-options .skybox-header.active,\n.control-settings.navbar-embedded .settings-options .auto-rotate-header.active, .control-settings.navbar-embedded .settings-options .limits-header.active {\n  background-color: rgba(74, 144, 226, 0.3);\n  border-color: rgba(74, 144, 226, 0.5);\n}\n.control-settings.navbar-embedded .settings-options .camera-header h4, .control-settings.navbar-embedded .settings-options .actions-header h4, .control-settings.navbar-embedded .settings-options .skybox-header h4,\n.control-settings.navbar-embedded .settings-options .auto-rotate-header h4, .control-settings.navbar-embedded .settings-options .limits-header h4 {\n  color: rgba(255, 255, 255, 0.95);\n}\n.control-settings.navbar-embedded .settings-options input[type=range] {\n  background: rgba(255, 255, 255, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n}\n.control-settings.navbar-embedded .settings-options input[type=range]::-webkit-slider-thumb {\n  background: rgba(255, 255, 255, 0.9);\n  border: 1px solid rgba(255, 255, 255, 0.3);\n}\n.control-settings.navbar-embedded .settings-options input[type=range]::-webkit-slider-thumb:hover {\n  background: white;\n  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);\n}\n.control-settings.navbar-embedded .settings-options input[type=range]::-moz-range-thumb {\n  background: rgba(255, 255, 255, 0.9);\n  border: 1px solid rgba(255, 255, 255, 0.3);\n}\n.control-settings.navbar-embedded .settings-options input[type=range]::-moz-range-thumb:hover {\n  background: white;\n  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);\n}\n.control-settings.navbar-embedded .settings-options button {\n  background-color: rgba(255, 255, 255, 0.08);\n  border: 1px solid rgba(255, 255, 255, 0.15);\n  color: rgba(255, 255, 255, 0.9);\n  backdrop-filter: blur(5px);\n}\n.control-settings.navbar-embedded .settings-options button:hover {\n  background-color: rgba(255, 255, 255, 0.18);\n  border-color: rgba(255, 255, 255, 0.25);\n  color: white;\n}\n.control-settings.navbar-embedded .settings-options button.active {\n  background-color: rgba(74, 144, 226, 0.4);\n  border-color: rgba(74, 144, 226, 0.6);\n  color: white;\n}\n.control-settings.navbar-embedded .settings-options button.active:hover {\n  background-color: rgba(74, 144, 226, 0.5);\n}\n.control-settings.navbar-embedded .settings-options label {\n  color: rgba(255, 255, 255, 0.9);\n}\n.control-settings.navbar-embedded .settings-options label span {\n  color: rgba(255, 255, 255, 0.8);\n}\n.control-settings.navbar-embedded .settings-options .control-hint {\n  color: rgba(255, 255, 255, 0.7);\n}\n.control-settings.navbar-embedded .settings-options .limit-group h5 {\n  color: rgba(255, 255, 255, 0.8);\n}\n.control-settings.navbar-embedded .settings-options .limit-group .limit-control span {\n  color: rgba(255, 255, 255, 0.9);\n}\n\n.pill {\n  display: flex;\n  align-items: center;\n  padding: 12px 20px;\n  cursor: pointer;\n  border-radius: 12px;\n  transition: background-color 0.2s ease;\n}\n\n.pill:hover {\n  background-color: rgba(60, 60, 60, 0.7);\n}\n\n.pill h2 {\n  margin: 0;\n  font-size: 16px;\n  font-weight: 500;\n}\n\n.settings-options {\n  padding: 0 15px 15px;\n  overflow-y: auto;\n  max-height: calc(80vh - 50px);\n}\n\nlabel {\n  display: flex;\n  flex-direction: column;\n  margin-bottom: 15px;\n  font-size: 14px;\n}\n\ninput[type=range] {\n  width: 100%;\n  margin: 8px 0;\n  height: 5px;\n  -webkit-appearance: none;\n  appearance: none;\n  background: rgba(128, 128, 128, 0.3);\n  border-radius: 5px;\n  outline: none;\n}\n\ninput[type=range]::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background: #4a90e2;\n  cursor: pointer;\n  transition: background 0.15s ease;\n}\n\ninput[type=range]::-moz-range-thumb {\n  width: 15px;\n  height: 15px;\n  border: none;\n  border-radius: 50%;\n  background: #4a90e2;\n  cursor: pointer;\n  transition: background 0.15s ease;\n}\n\ninput[type=range]::-webkit-slider-thumb:hover {\n  background: #2a70c2;\n}\n\ninput[type=range]::-moz-range-thumb:hover {\n  background: #2a70c2;\n}\n\n.control-hint {\n  margin-top: 5px;\n  font-size: 12px;\n  opacity: 0.8;\n}\n\n.camera-limits-controls {\n  margin-bottom: 10px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  padding-top: 10px;\n}\n\n.limits-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 8px 10px;\n  background-color: rgba(50, 50, 50, 0.5);\n  border-radius: 6px;\n  margin-bottom: 5px;\n}\n\n.limits-header h4 {\n  margin: 0;\n  font-size: 14px;\n  font-weight: 500;\n  color: white;\n}\n\n.limits-content {\n  padding: 10px 5px;\n  margin-bottom: 5px;\n}\n\n.limit-group {\n  margin-bottom: 15px;\n}\n\n.limit-group h5 {\n  margin: 0 0 8px 0;\n  font-size: 14px;\n  font-weight: normal;\n}\n\n.limit-inputs {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n\n.limit-control {\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  margin-bottom: 10px;\n  font-size: 14px;\n}\n\n.limit-control span {\n  font-size: 14px;\n}\n\n.button-group {\n  display: flex;\n  gap: 5px;\n}\n\n.button-group button {\n  padding: 4px 8px;\n  font-size: 12px;\n  min-height: unset;\n}\n\n/* Auto-rotate controls styling */\n.auto-rotate-controls {\n  margin-bottom: 10px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  padding-top: 10px;\n}\n\n.auto-rotate-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 8px 10px;\n  background-color: rgba(50, 50, 50, 0.5);\n  border-radius: 6px;\n  margin-bottom: 5px;\n}\n\n.auto-rotate-header h4 {\n  margin: 0;\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.auto-rotate-content {\n  padding: 10px 5px;\n  margin-bottom: 5px;\n}\n\n.auto-rotate-setting {\n  margin-bottom: 10px;\n  font-size: 14px;\n}\n\n.auto-rotate-setting button {\n  width: 100%;\n  padding: 8px;\n  font-size: 14px;\n}\n\n/* Skybox controls styling */\n.skybox-controls {\n  margin-bottom: 10px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  padding-top: 10px;\n}\n\n.skybox-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 8px 10px;\n  background-color: rgba(50, 50, 50, 0.5);\n  border-radius: 6px;\n  margin-bottom: 5px;\n}\n\n.skybox-header h4 {\n  margin: 0;\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.skybox-content {\n  padding: 10px 5px;\n  margin-bottom: 5px;\n}\n\n.skybox-setting {\n  margin-bottom: 10px;\n}\n\n.skybox-setting label, .auto-rotate-setting label {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: space-between;\n  margin-bottom: 8px;\n  flex-wrap: wrap;\n  font-size: 14px;\n}\n\n.skybox-setting label span, .auto-rotate-setting label span {\n  font-size: 12px;\n  min-width: 30px;\n  text-align: right;\n}\n\n.skybox-setting label input, .auto-rotate-setting label input {\n  flex: 1;\n  margin: 0 10px;\n  min-width: 100px;\n}\n\n/* Camera controls styling */\n.camera-controls {\n  margin-bottom: 10px;\n  padding-top: 5px;\n}\n\n.camera-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 8px 10px;\n  background-color: rgba(50, 50, 50, 0.5);\n  border-radius: 6px;\n  margin-bottom: 5px;\n}\n\n.camera-header h4 {\n  margin: 0;\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.camera-content {\n  padding: 10px 5px;\n  margin-bottom: 5px;\n}\n\n.camera-setting {\n  margin-bottom: 10px;\n}\n\n.camera-setting label {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: space-between;\n  margin-bottom: 8px;\n  flex-wrap: wrap;\n  font-size: 14px;\n}\n\n.camera-setting span {\n  font-size: 12px;\n  min-width: 30px;\n  text-align: right;\n}\n\n.camera-setting input {\n  flex: 1;\n  margin: 0 10px;\n  min-width: 100px;\n}\n\n/* Actions controls styling */\n.actions-controls {\n  margin-bottom: 10px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  padding-top: 10px;\n}\n\n.actions-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 8px 10px;\n  background-color: rgba(50, 50, 50, 0.5);\n  border-radius: 6px;\n  margin-bottom: 5px;\n}\n\n.actions-header h4 {\n  margin: 0;\n  font-size: 14px;\n  font-weight: 500;\n}\n\n.actions-content {\n  padding: 10px 5px;\n  margin-bottom: 5px;\n}\n\n/* Common styles for all tab headers */\n.camera-header, .actions-header, .skybox-header, .auto-rotate-header, .limits-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  cursor: pointer;\n  padding: 10px 12px;\n  background-color: rgba(60, 60, 60, 0.5);\n  border-radius: 6px;\n  margin-bottom: 8px;\n  transition: background-color 0.2s ease;\n}\n\n.camera-header:hover, .actions-header:hover, .skybox-header:hover, .auto-rotate-header:hover, .limits-header:hover {\n  background-color: rgba(80, 80, 80, 0.6);\n}\n\n/* Active tab header style */\n.camera-header.active, .actions-header.active, .skybox-header.active, .auto-rotate-header.active, .limits-header.active {\n  background-color: rgba(74, 144, 226, 0.3);\n}\n\n/* Tab header icon styling */\n.camera-header h4, .actions-header h4, .skybox-header h4, .auto-rotate-header h4, .limits-header h4 {\n  margin: 0;\n  font-size: 15px;\n  font-weight: 500;\n  display: flex;\n  align-items: center;\n}\n\n/* Content areas for all tabs */\n.camera-content, .skybox-content, .auto-rotate-content, .actions-content, .limits-content {\n  padding: 10px 5px;\n  margin-bottom: 5px;\n}\n\n/* Common styles for all setting types */\n.camera-setting, .skybox-setting, .auto-rotate-setting, .limit-control {\n  margin-bottom: 12px;\n  padding: 2px 0;\n}\n\n/* Keyboard notification styles */\n.keyboard-notification {\n  position: fixed;\n  bottom: 20px;\n  right: 20px;\n  background: rgba(0, 0, 0, 0.85);\n  color: white;\n  padding: 12px 16px;\n  border-radius: 8px;\n  font-size: 14px;\n  font-weight: 500;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);\n  z-index: 10000;\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  backdrop-filter: blur(10px);\n  animation: slideInFromBottom 0.3s ease-out;\n}\n.keyboard-notification .keyboard-help {\n  font-size: 11px;\n  color: rgba(255, 255, 255, 0.7);\n  margin-top: 4px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  padding-top: 4px;\n}\n\n@keyframes slideInFromBottom {\n  from {\n    transform: translateY(100%);\n    opacity: 0;\n  }\n  to {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -36561,7 +36561,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".top-navbar {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  height: 60px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 0 20px;\n  z-index: 1001;\n  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.9) 100%);\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n}\n.top-navbar .navbar-left {\n  display: flex;\n  align-items: center;\n}\n.top-navbar .navbar-left .logo {\n  margin-right: 15px;\n}\n.top-navbar .navbar-left .logo img {\n  height: 32px;\n  width: auto;\n  object-fit: contain;\n}\n.top-navbar .navbar-left .app-name {\n  display: flex;\n  flex-direction: column;\n  line-height: 1.2;\n}\n.top-navbar .navbar-left .app-name .app-title {\n  color: white;\n  font-size: 18px;\n  font-weight: 600;\n  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);\n}\n.top-navbar .navbar-left .app-name .app-subtitle {\n  color: rgba(255, 255, 255, 0.7);\n  font-size: 12px;\n  font-weight: 400;\n  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);\n}\n.top-navbar .navbar-right {\n  position: relative;\n  display: flex;\n  align-items: center;\n  gap: 15px;\n}\n.top-navbar .navbar-right .navbar-alarm-container {\n  display: flex;\n  align-items: center;\n  height: 100%;\n  margin-right: 10px;\n}\n.top-navbar .navbar-right .configurator-container {\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n.top-navbar .navbar-right .configurator-container button {\n  transition: background-color 0.2s ease;\n}\n.top-navbar .navbar-right .configurator-container button:hover {\n  background-color: rgba(255, 255, 255, 0.25) !important;\n}\n.top-navbar .navbar-right .configurator-container > div > div {\n  z-index: 1500 !important;\n}\n.top-navbar .navbar-right .settings-icon {\n  cursor: pointer;\n  width: 36px;\n  height: 36px;\n  border-radius: 50%;\n  background-color: rgba(255, 255, 255, 0.1);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: background-color 0.2s ease;\n}\n.top-navbar .navbar-right .settings-icon:hover {\n  background-color: rgba(255, 255, 255, 0.2);\n}\n.top-navbar .navbar-right .settings-icon svg {\n  color: white;\n}\n.top-navbar .navbar-right .user-icon {\n  cursor: pointer;\n  width: 36px;\n  height: 36px;\n  border-radius: 50%;\n  background-color: rgba(255, 255, 255, 0.1);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: background-color 0.2s ease;\n  overflow: hidden;\n}\n.top-navbar .navbar-right .user-icon:hover {\n  background-color: rgba(255, 255, 255, 0.2);\n}\n.top-navbar .navbar-right .user-icon img {\n  width: 20px;\n  height: 20px;\n  filter: invert(1); /* Makes the icon white */\n}\n.top-navbar .navbar-right .user-icon img.user-avatar {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  filter: none;\n}\n.top-navbar .navbar-right .user-icon.user-initials {\n  background-color: #5385a2;\n  color: white;\n  font-size: 16px;\n  font-weight: 600;\n}\n.top-navbar .navbar-right .user-icon .user-initials {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #154d92;\n  color: white;\n  font-size: 16px;\n  font-weight: 600;\n}\n.top-navbar .navbar-right .user-menu {\n  position: absolute;\n  top: 45px;\n  right: 0;\n  width: 280px;\n  background-color: #fff;\n  border-radius: 8px;\n  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);\n  overflow: hidden;\n  z-index: 1001;\n}\n.top-navbar .navbar-right .user-menu .user-menu-header {\n  padding: 20px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  border-bottom: 1px solid #f0f0f0;\n}\n.top-navbar .navbar-right .user-menu .user-menu-header .user-menu-avatar {\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  overflow: hidden;\n  background-color: #115692;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-right: 15px;\n}\n.top-navbar .navbar-right .user-menu .user-menu-header .user-menu-avatar img.user-avatar {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n.top-navbar .navbar-right .user-menu .user-menu-header .user-menu-avatar.user-initials {\n  color: white;\n  font-size: 20px;\n  font-weight: 600;\n}\n.top-navbar .navbar-right .user-menu .user-menu-header .user-menu-name {\n  flex: 1;\n  font-size: 18px;\n  font-weight: 500;\n  color: #333;\n}\n.top-navbar .navbar-right .user-menu .user-menu-header .menu-collapse-icon {\n  color: #888;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content {\n  padding: 10px 0;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-item {\n  padding: 15px 20px;\n  border-bottom: 1px solid #f0f0f0;\n  display: flex;\n  justify-content: space-between;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-item .user-menu-label {\n  color: #555;\n  font-weight: 500;\n  font-size: 14px;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-item .user-menu-value {\n  color: #333;\n  font-size: 14px;\n  max-width: 150px;\n  text-align: right;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-item .user-menu-dropdown {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  color: #888;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-item .user-menu-dropdown span {\n  font-size: 14px;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-item .user-menu-dropdown svg {\n  color: #888;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-logout {\n  text-align: center;\n  padding: 15px 20px;\n  color: #333;\n  font-weight: 500;\n  cursor: pointer;\n  transition: background-color 0.2s;\n  font-size: 14px;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-logout:hover {\n  background-color: #f5f5f5;\n}\n\n/* Configuration Modal */\n.config-modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  z-index: 1500;\n  backdrop-filter: blur(3px);\n}\n\n.config-modal {\n  width: 500px;\n  max-height: 90vh;\n  background-color: white;\n  border-radius: 8px;\n  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);\n  overflow: hidden;\n  display: flex;\n  flex-direction: column;\n}\n.config-modal .config-modal-header {\n  padding: 16px 20px;\n  background-color: #f8f8f8;\n  border-bottom: 1px solid #eee;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.config-modal .config-modal-header h3 {\n  margin: 0;\n  color: #333;\n  font-size: 18px;\n}\n.config-modal .config-modal-header .close-button {\n  background: none;\n  border: none;\n  font-size: 24px;\n  color: #888;\n  cursor: pointer;\n  transition: color 0.2s;\n}\n.config-modal .config-modal-header .close-button:hover {\n  color: #333;\n}\n.config-modal .config-modal-body {\n  padding: 20px;\n  overflow-y: auto;\n}\n\n/* Configuration Form */\n.config-form .form-group {\n  margin-bottom: 20px;\n}\n.config-form .form-group label {\n  display: block;\n  margin-bottom: 8px;\n  font-weight: 500;\n  color: #333;\n}\n.config-form .form-group input[type=text] {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid #ddd;\n  border-radius: 4px;\n  font-size: 14px;\n  transition: border-color 0.2s;\n}\n.config-form .form-group input[type=text]:focus {\n  border-color: #1890ff;\n  outline: none;\n  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);\n}\n.config-form .form-group.logo-upload .logo-preview {\n  width: 100px;\n  height: 100px;\n  border: 1px dashed #ddd;\n  border-radius: 8px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 12px;\n  padding: 8px;\n  background-color: #f9f9f9;\n}\n.config-form .form-group.logo-upload .logo-preview img {\n  max-width: 100%;\n  max-height: 100%;\n  object-fit: contain;\n}\n.config-form .form-group.logo-upload .upload-button {\n  padding: 8px 16px;\n  background-color: #f5f5f5;\n  border: 1px solid #ddd;\n  border-radius: 4px;\n  color: #333;\n  cursor: pointer;\n  font-size: 14px;\n  transition: all 0.2s;\n}\n.config-form .form-group.logo-upload .upload-button:hover {\n  background-color: #e9e9e9;\n}\n.config-form .form-group.logo-upload .help-text {\n  margin-top: 8px;\n  font-size: 12px;\n  color: #888;\n}\n.config-form .form-actions {\n  display: flex;\n  justify-content: flex-end;\n  gap: 12px;\n  margin-top: 24px;\n}\n.config-form .form-actions button {\n  padding: 10px 20px;\n  border-radius: 4px;\n  font-size: 14px;\n  font-weight: 500;\n  cursor: pointer;\n  transition: all 0.2s;\n}\n.config-form .form-actions button.cancel-button {\n  background-color: white;\n  border: 1px solid #ddd;\n  color: #666;\n}\n.config-form .form-actions button.cancel-button:hover {\n  background-color: #f5f5f5;\n}\n.config-form .form-actions button.save-button {\n  background-color: #1890ff;\n  border: none;\n  color: white;\n}\n.config-form .form-actions button.save-button:hover {\n  background-color: #40a9ff;\n}", ""]);
+exports.push([module.id, ".top-navbar {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  height: 60px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 0 20px;\n  z-index: 1001;\n  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.9) 100%);\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n}\n.top-navbar .navbar-left {\n  display: flex;\n  align-items: center;\n}\n.top-navbar .navbar-left .logo {\n  margin-right: 15px;\n}\n.top-navbar .navbar-left .logo img {\n  height: 32px;\n  width: auto;\n  object-fit: contain;\n}\n.top-navbar .navbar-left .app-name {\n  display: flex;\n  flex-direction: column;\n  line-height: 1.2;\n}\n.top-navbar .navbar-left .app-name .app-title {\n  color: white;\n  font-size: 18px;\n  font-weight: 600;\n  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);\n}\n.top-navbar .navbar-left .app-name .app-subtitle {\n  color: rgba(255, 255, 255, 0.7);\n  font-size: 12px;\n  font-weight: 400;\n  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);\n}\n.top-navbar .navbar-right {\n  display: flex;\n  align-items: center;\n  gap: 15px;\n}\n.top-navbar .navbar-right .navbar-control-settings {\n  display: flex;\n  align-items: center;\n}\n.top-navbar .navbar-right .navbar-control-settings .control-settings {\n  position: relative !important;\n  top: auto !important;\n  left: auto !important;\n  right: auto !important;\n  bottom: auto !important;\n  transform: none !important;\n}\n.top-navbar .navbar-right .navbar-alarm-container {\n  display: flex;\n  align-items: center;\n}\n.top-navbar .navbar-right .configurator-container {\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n.top-navbar .navbar-right .configurator-container button {\n  transition: background-color 0.2s ease;\n}\n.top-navbar .navbar-right .configurator-container button:hover {\n  background-color: rgba(255, 255, 255, 0.25) !important;\n}\n.top-navbar .navbar-right .configurator-container > div > div {\n  z-index: 1500 !important;\n}\n.top-navbar .navbar-right .settings-icon {\n  cursor: pointer;\n  width: 36px;\n  height: 36px;\n  border-radius: 50%;\n  background-color: rgba(255, 255, 255, 0.1);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: background-color 0.2s ease;\n}\n.top-navbar .navbar-right .settings-icon:hover {\n  background-color: rgba(255, 255, 255, 0.2);\n}\n.top-navbar .navbar-right .settings-icon svg {\n  color: white;\n}\n.top-navbar .navbar-right .user-icon {\n  cursor: pointer;\n  width: 36px;\n  height: 36px;\n  border-radius: 50%;\n  background-color: rgba(255, 255, 255, 0.1);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: background-color 0.2s ease;\n  overflow: hidden;\n}\n.top-navbar .navbar-right .user-icon:hover {\n  background-color: rgba(255, 255, 255, 0.2);\n}\n.top-navbar .navbar-right .user-icon img {\n  width: 20px;\n  height: 20px;\n  filter: invert(1); /* Makes the icon white */\n}\n.top-navbar .navbar-right .user-icon img.user-avatar {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  filter: none;\n}\n.top-navbar .navbar-right .user-icon.user-initials {\n  background-color: #5385a2;\n  color: white;\n  font-size: 16px;\n  font-weight: 600;\n}\n.top-navbar .navbar-right .user-icon .user-initials {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #154d92;\n  color: white;\n  font-size: 16px;\n  font-weight: 600;\n}\n.top-navbar .navbar-right .user-menu {\n  position: absolute;\n  top: 45px;\n  right: 0;\n  width: 280px;\n  background-color: #fff;\n  border-radius: 8px;\n  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);\n  overflow: hidden;\n  z-index: 1001;\n}\n.top-navbar .navbar-right .user-menu .user-menu-header {\n  padding: 20px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  border-bottom: 1px solid #f0f0f0;\n}\n.top-navbar .navbar-right .user-menu .user-menu-header .user-menu-avatar {\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  overflow: hidden;\n  background-color: #115692;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-right: 15px;\n}\n.top-navbar .navbar-right .user-menu .user-menu-header .user-menu-avatar img.user-avatar {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n.top-navbar .navbar-right .user-menu .user-menu-header .user-menu-avatar.user-initials {\n  color: white;\n  font-size: 20px;\n  font-weight: 600;\n}\n.top-navbar .navbar-right .user-menu .user-menu-header .user-menu-name {\n  flex: 1;\n  font-size: 18px;\n  font-weight: 500;\n  color: #333;\n}\n.top-navbar .navbar-right .user-menu .user-menu-header .menu-collapse-icon {\n  color: #888;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content {\n  padding: 10px 0;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-item {\n  padding: 15px 20px;\n  border-bottom: 1px solid #f0f0f0;\n  display: flex;\n  justify-content: space-between;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-item .user-menu-label {\n  color: #555;\n  font-weight: 500;\n  font-size: 14px;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-item .user-menu-value {\n  color: #333;\n  font-size: 14px;\n  max-width: 150px;\n  text-align: right;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-item .user-menu-dropdown {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  color: #888;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-item .user-menu-dropdown span {\n  font-size: 14px;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-item .user-menu-dropdown svg {\n  color: #888;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-logout {\n  text-align: center;\n  padding: 15px 20px;\n  color: #333;\n  font-weight: 500;\n  cursor: pointer;\n  transition: background-color 0.2s;\n  font-size: 14px;\n}\n.top-navbar .navbar-right .user-menu .user-menu-content .user-menu-logout:hover {\n  background-color: #f5f5f5;\n}\n\n/* Configuration Modal */\n.config-modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  z-index: 1500;\n  backdrop-filter: blur(3px);\n}\n\n.config-modal {\n  width: 500px;\n  max-height: 90vh;\n  background-color: white;\n  border-radius: 8px;\n  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);\n  overflow: hidden;\n  display: flex;\n  flex-direction: column;\n}\n.config-modal .config-modal-header {\n  padding: 16px 20px;\n  background-color: #f8f8f8;\n  border-bottom: 1px solid #eee;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.config-modal .config-modal-header h3 {\n  margin: 0;\n  color: #333;\n  font-size: 18px;\n}\n.config-modal .config-modal-header .close-button {\n  background: none;\n  border: none;\n  font-size: 24px;\n  color: #888;\n  cursor: pointer;\n  transition: color 0.2s;\n}\n.config-modal .config-modal-header .close-button:hover {\n  color: #333;\n}\n.config-modal .config-modal-body {\n  padding: 20px;\n  overflow-y: auto;\n}\n\n/* Configuration Form */\n.config-form .form-group {\n  margin-bottom: 20px;\n}\n.config-form .form-group label {\n  display: block;\n  margin-bottom: 8px;\n  font-weight: 500;\n  color: #333;\n}\n.config-form .form-group input[type=text] {\n  width: 100%;\n  padding: 10px 12px;\n  border: 1px solid #ddd;\n  border-radius: 4px;\n  font-size: 14px;\n  transition: border-color 0.2s;\n}\n.config-form .form-group input[type=text]:focus {\n  border-color: #1890ff;\n  outline: none;\n  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);\n}\n.config-form .form-group.logo-upload .logo-preview {\n  width: 100px;\n  height: 100px;\n  border: 1px dashed #ddd;\n  border-radius: 8px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 12px;\n  padding: 8px;\n  background-color: #f9f9f9;\n}\n.config-form .form-group.logo-upload .logo-preview img {\n  max-width: 100%;\n  max-height: 100%;\n  object-fit: contain;\n}\n.config-form .form-group.logo-upload .upload-button {\n  padding: 8px 16px;\n  background-color: #f5f5f5;\n  border: 1px solid #ddd;\n  border-radius: 4px;\n  color: #333;\n  cursor: pointer;\n  font-size: 14px;\n  transition: all 0.2s;\n}\n.config-form .form-group.logo-upload .upload-button:hover {\n  background-color: #e9e9e9;\n}\n.config-form .form-group.logo-upload .help-text {\n  margin-top: 8px;\n  font-size: 12px;\n  color: #888;\n}\n.config-form .form-actions {\n  display: flex;\n  justify-content: flex-end;\n  gap: 12px;\n  margin-top: 24px;\n}\n.config-form .form-actions button {\n  padding: 10px 20px;\n  border-radius: 4px;\n  font-size: 14px;\n  font-weight: 500;\n  cursor: pointer;\n  transition: all 0.2s;\n}\n.config-form .form-actions button.cancel-button {\n  background-color: white;\n  border: 1px solid #ddd;\n  color: #666;\n}\n.config-form .form-actions button.cancel-button:hover {\n  background-color: #f5f5f5;\n}\n.config-form .form-actions button.save-button {\n  background-color: #1890ff;\n  border: none;\n  color: white;\n}\n.config-form .form-actions button.save-button:hover {\n  background-color: #40a9ff;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -114037,7 +114037,7 @@ const react_1 = __importStar(__webpack_require__(/*! react */ "react"));
 const BABYLON = __importStar(__webpack_require__(/*! babylonjs */ "./node_modules/babylonjs/babylon.js"));
 __webpack_require__(/*! ./ControlSettings.scss */ "./src/components/ControlSettings.scss");
 const views_1 = __webpack_require__(/*! ../tools/views */ "./src/tools/views.tsx");
-const ControlSettings = ({ scene, currentCamera, setCurrentCamera, canvasRef, loadedMeshes, currentModelId, currentModel, onCameraLimitsChange }) => {
+const ControlSettings = ({ scene, currentCamera, setCurrentCamera, canvasRef, loadedMeshes, currentModelId, currentModel, inNavbar = false, onCameraLimitsChange }) => {
     const [sensitivity, setSensitivity] = (0, react_1.useState)(1);
     const [zoomSpeed, setZoomSpeed] = (0, react_1.useState)(1);
     const [fppMovementSpeed, setFppMovementSpeed] = (0, react_1.useState)(1);
@@ -114051,12 +114051,28 @@ const ControlSettings = ({ scene, currentCamera, setCurrentCamera, canvasRef, lo
     const [autoRotateSpeed, setAutoRotateSpeed] = (0, react_1.useState)(1);
     const [autoRotateInterval, setAutoRotateInterval] = (0, react_1.useState)(null);
     const [isWireframe, setIsWireframe] = (0, react_1.useState)(false);
+    // Keyboard control notification state
+    const [notification, setNotification] = (0, react_1.useState)(null);
+    const [notificationTimeout, setNotificationTimeout] = (0, react_1.useState)(null);
     // Skybox state variables
     const [skyboxIntensity, setSkyboxIntensity] = (0, react_1.useState)(1.0);
     const [skyboxBlur, setSkyboxBlur] = (0, react_1.useState)(0);
     const [skyboxSize, setSkyboxSize] = (0, react_1.useState)(10000);
     const [environmentIntensity, setEnvironmentIntensity] = (0, react_1.useState)(1.0);
     const [skyboxEnabled, setSkyboxEnabled] = (0, react_1.useState)(true);
+    // Function to show keyboard notification
+    const showNotification = (message) => {
+        setNotification(message);
+        // Clear existing timeout
+        if (notificationTimeout) {
+            clearTimeout(notificationTimeout);
+        }
+        // Set new timeout to hide notification
+        const timeout = setTimeout(() => {
+            setNotification(null);
+        }, 2000);
+        setNotificationTimeout(timeout);
+    };
     const calculateModelBounds = (meshes) => {
         let min = new BABYLON.Vector3(Number.MAX_VALUE, Number.MAX_VALUE, Number.MAX_VALUE);
         let max = new BABYLON.Vector3(-Number.MAX_VALUE, -Number.MAX_VALUE, -Number.MAX_VALUE);
@@ -114100,6 +114116,35 @@ const ControlSettings = ({ scene, currentCamera, setCurrentCamera, canvasRef, lo
         }
         setTimeout(refocusCanvas, 0);
     };
+    // Keyboard-triggered sensitivity changes
+    const increaseSensitivity = (0, react_1.useCallback)(() => {
+        if (currentCamera instanceof BABYLON.UniversalCamera) {
+            const newSpeed = Math.min(fppMovementSpeed + 0.2, 5);
+            setFppMovementSpeed(newSpeed);
+            currentCamera.speed = newSpeed * 2;
+            showNotification(`FPP Speed: ${newSpeed.toFixed(1)}`);
+        }
+        else if (currentCamera instanceof BABYLON.ArcRotateCamera) {
+            const newSensitivity = Math.min(sensitivity + 0.2, 5);
+            setSensitivity(newSensitivity);
+            currentCamera.angularSensibilityX = newSensitivity * 100;
+            showNotification(`Camera Sensitivity: ${newSensitivity.toFixed(1)}`);
+        }
+    }, [currentCamera, fppMovementSpeed, sensitivity]);
+    const decreaseSensitivity = (0, react_1.useCallback)(() => {
+        if (currentCamera instanceof BABYLON.UniversalCamera) {
+            const newSpeed = Math.max(fppMovementSpeed - 0.2, 0.1);
+            setFppMovementSpeed(newSpeed);
+            currentCamera.speed = newSpeed * 2;
+            showNotification(`FPP Speed: ${newSpeed.toFixed(1)}`);
+        }
+        else if (currentCamera instanceof BABYLON.ArcRotateCamera) {
+            const newSensitivity = Math.max(sensitivity - 0.2, 0.1);
+            setSensitivity(newSensitivity);
+            currentCamera.angularSensibilityX = newSensitivity * 100;
+            showNotification(`Camera Sensitivity: ${newSensitivity.toFixed(1)}`);
+        }
+    }, [currentCamera, fppMovementSpeed, sensitivity]);
     const handleResetCamera = () => {
         if (currentCamera && loadedMeshes.length) {
             // Get the key using consistent logic that matches save view function
@@ -114159,7 +114204,7 @@ const ControlSettings = ({ scene, currentCamera, setCurrentCamera, canvasRef, lo
         camera.attachControl(canvasRef.current, true);
         return camera;
     };
-    const setupUniversalCamera = (position, target) => {
+    const setupUniversalCamera = (0, react_1.useCallback)((position, target) => {
         if (!scene)
             return null;
         const camera = new BABYLON.UniversalCamera("univCam", position, scene);
@@ -114213,8 +114258,8 @@ const ControlSettings = ({ scene, currentCamera, setCurrentCamera, canvasRef, lo
             }
         });
         return camera;
-    };
-    const handleSwitchCamera = () => {
+    }, [scene, canvasRef, fppMovementSpeed, loadedMeshes]);
+    const handleSwitchCamera = (0, react_1.useCallback)(() => {
         if (!currentCamera || !scene)
             return;
         if (currentCamera instanceof BABYLON.ArcRotateCamera) {
@@ -114225,6 +114270,7 @@ const ControlSettings = ({ scene, currentCamera, setCurrentCamera, canvasRef, lo
                 currentCamera.dispose();
                 setCurrentCamera(newCam);
                 scene.activeCamera = newCam;
+                showNotification("Switched to Universal Camera");
             }
         }
         else {
@@ -114235,11 +114281,12 @@ const ControlSettings = ({ scene, currentCamera, setCurrentCamera, canvasRef, lo
                 currentCamera.dispose();
                 setCurrentCamera(newCam);
                 scene.activeCamera = newCam;
+                showNotification("Switched to Arc Rotate Camera");
             }
         }
         refocusCanvas();
-    };
-    const handleInitiateFPP = () => {
+    }, [currentCamera, scene, loadedMeshes]);
+    const handleInitiateFPP = (0, react_1.useCallback)(() => {
         if (!currentCamera || !scene)
             return;
         // If already in FPS mode, reset the camera
@@ -114261,6 +114308,7 @@ const ControlSettings = ({ scene, currentCamera, setCurrentCamera, canvasRef, lo
                     currentCamera.position = new BABYLON.Vector3(center.x, center.y + size.y * 0.7, center.z + Math.max(size.x, size.z) * distanceFactor);
                     currentCamera.setTarget(center);
                 }
+                showNotification("FPP Camera Reset");
             }
             catch (error) {
                 console.error('Error resetting FPP camera:', error);
@@ -114282,6 +114330,7 @@ const ControlSettings = ({ scene, currentCamera, setCurrentCamera, canvasRef, lo
                 if (newCam) {
                     setCurrentCamera(newCam);
                     scene.activeCamera = newCam;
+                    showNotification("FPP Mode Activated");
                 }
             }
             catch (error) {
@@ -114289,7 +114338,7 @@ const ControlSettings = ({ scene, currentCamera, setCurrentCamera, canvasRef, lo
             }
         }
         refocusCanvas();
-    };
+    }, [currentCamera, scene, loadedMeshes, currentModelId, currentModel]);
     const handleMoveUp = () => {
         if (!currentCamera)
             return;
@@ -114754,6 +114803,42 @@ const ControlSettings = ({ scene, currentCamera, setCurrentCamera, canvasRef, lo
             }
         }
     }, [scene]);
+    // Keyboard event listener
+    (0, react_1.useEffect)(() => {
+        const handleKeyDown = (event) => {
+            // Only handle keys when canvas is focused or when no input element is focused
+            const activeElement = document.activeElement;
+            const isInputFocused = activeElement && (activeElement.tagName === 'INPUT' ||
+                activeElement.tagName === 'TEXTAREA' ||
+                activeElement.isContentEditable === true);
+            if (isInputFocused)
+                return;
+            switch (event.key.toLowerCase()) {
+                case 'f':
+                    event.preventDefault();
+                    handleInitiateFPP();
+                    break;
+                case 'g':
+                    event.preventDefault();
+                    handleSwitchCamera();
+                    break;
+                case '+':
+                case '=':
+                    event.preventDefault();
+                    increaseSensitivity();
+                    break;
+                case '-':
+                case '_':
+                    event.preventDefault();
+                    decreaseSensitivity();
+                    break;
+            }
+        };
+        window.addEventListener('keydown', handleKeyDown);
+        return () => {
+            window.removeEventListener('keydown', handleKeyDown);
+        };
+    }, [handleInitiateFPP, handleSwitchCamera, increaseSensitivity, decreaseSensitivity]);
     (0, react_1.useEffect)(() => {
         return () => {
             if (moveInterval) {
@@ -114762,23 +114847,30 @@ const ControlSettings = ({ scene, currentCamera, setCurrentCamera, canvasRef, lo
             if (autoRotateInterval) {
                 clearInterval(autoRotateInterval);
             }
+            if (notificationTimeout) {
+                clearTimeout(notificationTimeout);
+            }
         };
-    }, [moveInterval, autoRotateInterval]);
-    return (react_1.default.createElement("div", { className: `control-settings ${isExpanded ? 'expanded' : ''}`, onMouseDown: (e) => e.preventDefault() },
-        react_1.default.createElement("div", { className: "pill", onClick: (e) => {
-                e.preventDefault();
-                setIsExpanded(!isExpanded);
-                refocusCanvas();
-            } },
-            react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "2", style: { width: '20px', height: '20px', marginLeft: '3px' } },
-                react_1.default.createElement("path", { d: "M12 15a3 3 0 100-6 3 3 0 000 6z" }),
-                react_1.default.createElement("path", { d: "M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z" }))),
-        isExpanded && (react_1.default.createElement("div", { className: "settings-options" },
-            renderCameraControls(),
-            currentCamera instanceof BABYLON.ArcRotateCamera && renderAutoRotateControls(),
-            renderActionsTab(),
-            renderSkyboxControls(),
-            currentCamera instanceof BABYLON.ArcRotateCamera && renderCameraLimitsControls()))));
+    }, [moveInterval, autoRotateInterval, notificationTimeout]);
+    return (react_1.default.createElement(react_1.default.Fragment, null,
+        react_1.default.createElement("div", { className: `control-settings ${isExpanded ? 'expanded' : ''} ${inNavbar ? 'navbar-embedded' : ''}`, onMouseDown: (e) => e.preventDefault() },
+            react_1.default.createElement("div", { className: "pill", onClick: (e) => {
+                    e.preventDefault();
+                    setIsExpanded(!isExpanded);
+                    refocusCanvas();
+                } },
+                react_1.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "2", style: { width: '20px', height: '20px', marginLeft: '3px' } },
+                    react_1.default.createElement("path", { d: "M12 15a3 3 0 100-6 3 3 0 000 6z" }),
+                    react_1.default.createElement("path", { d: "M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z" }))),
+            isExpanded && (react_1.default.createElement("div", { className: "settings-options" },
+                renderCameraControls(),
+                currentCamera instanceof BABYLON.ArcRotateCamera && renderAutoRotateControls(),
+                renderActionsTab(),
+                renderSkyboxControls(),
+                currentCamera instanceof BABYLON.ArcRotateCamera && renderCameraLimitsControls()))),
+        notification && (react_1.default.createElement("div", { className: "keyboard-notification" },
+            notification,
+            react_1.default.createElement("div", { className: "keyboard-help" }, "Press F for FPP | G to Switch Camera | +/- for Sensitivity")))));
 };
 exports["default"] = ControlSettings;
 
@@ -117784,7 +117876,8 @@ const ModelFlowEditor = ({ isOpen, onClose, onFlowChange }) => {
                 'DR_DH1 Louver Panel_2050x2900 [2818672]',
                 'Basic Wall 20mm thk Plastering-skimcoat [2966041]',
                 'Floor EC_Apron Slab-RC 150 [1740805]',
-                'Obj_Pigmented Concrete - 10A11_37'
+                'Obj_Pigmented Concrete - 10A11_37',
+                'DPA_GM_Cat Ladder with Cage_CT-1 Cat Ladder with Cage [2960668]'
             ];
         };
         const availableMeshes = getSourceModelMeshes();
@@ -119543,6 +119636,7 @@ const React = __importStar(__webpack_require__(/*! react */ "react"));
 __webpack_require__(/*! ./TopNavbar.scss */ "./src/components/TopNavbar.scss");
 const axios_1 = __importDefault(__webpack_require__(/*! axios */ "./node_modules/axios/dist/browser/axios.cjs"));
 const ConfiguratorDropdown_1 = __importDefault(__webpack_require__(/*! ./ConfiguratorDropdown */ "./src/components/ConfiguratorDropdown.tsx"));
+const ControlSettings_1 = __importDefault(__webpack_require__(/*! ./ControlSettings */ "./src/components/ControlSettings.tsx"));
 const appConfig_1 = __webpack_require__(/*! ../config/appConfig */ "./src/config/appConfig.ts");
 const AlarmList_1 = __importDefault(__webpack_require__(/*! ./AlarmList */ "./src/components/AlarmList.tsx"));
 const TopNavbar = (props) => {
@@ -119605,6 +119699,8 @@ const TopNavbar = (props) => {
                 React.createElement("span", { className: "app-title" }, companyConfig.name),
                 React.createElement("span", { className: "app-subtitle" }, "Digital Twin Hypervisor"))),
         React.createElement("div", { className: "navbar-right" },
+            props.scene && props.currentCamera && props.canvasRef && (React.createElement("div", { className: "navbar-control-settings" },
+                React.createElement(ControlSettings_1.default, { scene: props.scene, currentCamera: props.currentCamera, setCurrentCamera: props.setCurrentCamera || (() => { }), canvasRef: props.canvasRef, loadedMeshes: props.loadedMeshes || [], currentModelId: props.currentModelId, currentModel: props.currentModel, inNavbar: true }))),
             React.createElement("div", { className: "navbar-alarm-container" },
                 React.createElement(AlarmList_1.default, { meshes: props.loadedMeshes || [], currentCamera: props.currentCamera, scene: props.scene, currentModel: props.currentModel, onNavigateToModel: props.onNavigateToModel, inNavbar: true })),
             props.widgets && (React.createElement("div", { className: "configurator-container", style: { marginRight: '15px' } },
@@ -120197,12 +120293,25 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const React = __importStar(__webpack_require__(/*! react */ "react"));
-const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
 const WidgetUploader_1 = __importDefault(__webpack_require__(/*! ./WidgetUploader */ "./src/components/WidgetUploader.tsx"));
 const DebugWidgetUploader_1 = __importDefault(__webpack_require__(/*! ./DebugWidgetUploader */ "./src/components/DebugWidgetUploader.tsx"));
 const WidgetService_1 = __webpack_require__(/*! ../services/WidgetService */ "./src/services/WidgetService.ts");
 const uxp_1 = __webpack_require__(/*! ../uxp */ "./src/uxp.ts");
 const widgetManagerService_1 = __webpack_require__(/*! ../tools/widgetManagerService */ "./src/tools/widgetManagerService.tsx");
+const Button = ({ title, onClick, styles, children }) => {
+    return (React.createElement("button", { onClick: onClick, style: Object.assign({ border: 'none', borderRadius: '6px', padding: '8px 16px', fontSize: '14px', fontWeight: '500', cursor: 'pointer', backgroundColor: '#3b82f6', color: 'white', transition: 'all 0.2s ease', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }, styles), onMouseEnter: (e) => {
+            if (!(styles === null || styles === void 0 ? void 0 : styles.backgroundColor) || styles.backgroundColor === '#3b82f6') {
+                e.currentTarget.style.backgroundColor = '#2563eb';
+            }
+        }, onMouseLeave: (e) => {
+            if (styles === null || styles === void 0 ? void 0 : styles.backgroundColor) {
+                e.currentTarget.style.backgroundColor = styles.backgroundColor;
+            }
+            else {
+                e.currentTarget.style.backgroundColor = '#3b82f6';
+            }
+        } }, children || title));
+};
 const WidgetIntegrator = (props) => {
     var _a;
     const [isExpanded, setIsExpanded] = React.useState(false);
@@ -120786,7 +120895,7 @@ registerWidget({
                                     "Widgets (",
                                     registeredWidgets.length,
                                     ")"),
-                                React.createElement(components_1.Button, { title: "Refresh", onClick: scanForRegisteredWidgets, styles: {
+                                React.createElement(Button, { title: "Refresh", onClick: scanForRegisteredWidgets, styles: {
                                         fontSize: '13px',
                                         padding: '6px 12px',
                                         backgroundColor: '#64748b',
@@ -120804,7 +120913,7 @@ registerWidget({
                                     marginBottom: '12px'
                                 } },
                                 React.createElement("h4", { style: { margin: 0, fontSize: '16px', fontWeight: 600, color: '#334155' } }, "Upload Widget"),
-                                React.createElement(components_1.Button, { title: useDebugUploader ? "Use Regular Uploader" : "Use Debug Uploader", onClick: () => setUseDebugUploader(!useDebugUploader), styles: { fontSize: '12px' } })),
+                                React.createElement(Button, { title: useDebugUploader ? "Use Regular Uploader" : "Use Debug Uploader", onClick: () => setUseDebugUploader(!useDebugUploader), styles: { fontSize: '12px' } })),
                             useDebugUploader ? (React.createElement(DebugWidgetUploader_1.default, { onWidgetRegistered: handleWidgetRegistered })) : (React.createElement(WidgetUploader_1.default, { onWidgetRegistered: handleWidgetRegistered }))),
                         React.createElement("div", { style: {
                                 // padding: '16px 24px 16px', 
@@ -120825,7 +120934,7 @@ registerWidget({
                                     React.createElement("div", { style: {
                                             position: 'relative'
                                         } },
-                                        React.createElement(components_1.Button, { title: "Cleanup Options", onClick: () => {
+                                        React.createElement(Button, { title: "Cleanup Options", onClick: () => {
                                                 var _a;
                                                 // Toggle a cleanup dialog
                                                 const existingDialog = document.getElementById('cleanup-dialog');
@@ -121153,8 +121262,8 @@ registerWidget({
                                                     marginTop: '12px',
                                                     flexWrap: 'wrap'
                                                 } },
-                                                React.createElement(components_1.Button, { title: "Add to Scene", onClick: (e) => {
-                                                        e.stopPropagation();
+                                                React.createElement(Button, { title: "Add to Scene", onClick: (e) => {
+                                                        e === null || e === void 0 ? void 0 : e.stopPropagation();
                                                         addToScene(widget.id);
                                                     }, styles: {
                                                         fontSize: '12px',
@@ -121164,8 +121273,8 @@ registerWidget({
                                                         borderRadius: '6px',
                                                         fontWeight: '500'
                                                     } }),
-                                                React.createElement(components_1.Button, { title: "Add as Asset Widget", onClick: (e) => {
-                                                        e.stopPropagation();
+                                                React.createElement(Button, { title: "Add as Asset Widget", onClick: (e) => {
+                                                        e === null || e === void 0 ? void 0 : e.stopPropagation();
                                                         addToScene(widget.id, undefined, true); // Pass true for assetwidget
                                                     }, styles: {
                                                         fontSize: '12px',
@@ -121175,8 +121284,8 @@ registerWidget({
                                                         borderRadius: '6px',
                                                         fontWeight: '500'
                                                     } }),
-                                                React.createElement(components_1.Button, { title: "Preview", onClick: (e) => {
-                                                        e.stopPropagation();
+                                                React.createElement(Button, { title: "Preview", onClick: (e) => {
+                                                        e === null || e === void 0 ? void 0 : e.stopPropagation();
                                                         handlePreviewWidget(widget.id);
                                                     }, styles: {
                                                         fontSize: '12px',
@@ -121186,8 +121295,8 @@ registerWidget({
                                                         borderRadius: '6px',
                                                         fontWeight: '500'
                                                     } }),
-                                                React.createElement(components_1.Button, { title: "Get Code", onClick: (e) => {
-                                                        e.stopPropagation();
+                                                React.createElement(Button, { title: "Get Code", onClick: (e) => {
+                                                        e === null || e === void 0 ? void 0 : e.stopPropagation();
                                                         generateExportCode(widget.id);
                                                         setActiveTab('code');
                                                     }, styles: {
@@ -121198,8 +121307,8 @@ registerWidget({
                                                         borderRadius: '6px',
                                                         fontWeight: '500'
                                                     } }),
-                                                React.createElement(components_1.Button, { title: "Full Code", onClick: (e) => {
-                                                        e.stopPropagation();
+                                                React.createElement(Button, { title: "Full Code", onClick: (e) => {
+                                                        e === null || e === void 0 ? void 0 : e.stopPropagation();
                                                         const fullCode = generateFullWidgetCode(widget.id);
                                                         if (fullCode) {
                                                             setExportCode(fullCode);
@@ -121213,8 +121322,8 @@ registerWidget({
                                                         borderRadius: '6px',
                                                         fontWeight: '500'
                                                     } }),
-                                                React.createElement(components_1.Button, { title: "Delete", onClick: (e) => __awaiter(void 0, void 0, void 0, function* () {
-                                                        e.stopPropagation();
+                                                React.createElement(Button, { title: "Delete", onClick: (e) => __awaiter(void 0, void 0, void 0, function* () {
+                                                        e === null || e === void 0 ? void 0 : e.stopPropagation();
                                                         if (window.confirm(`Delete widget "${widget.name}"?`)) {
                                                             try {
                                                                 yield WidgetService_1.widgetService.deleteWidget(widget.id);
@@ -121274,14 +121383,14 @@ registerWidget({
                                     display: 'flex',
                                     gap: '8px'
                                 } },
-                                React.createElement(components_1.Button, { title: "Add to Scene", onClick: () => addToScene(previewWidgetId || ''), styles: {
+                                React.createElement(Button, { title: "Add to Scene", onClick: () => addToScene(previewWidgetId || ''), styles: {
                                         fontSize: '13px',
                                         padding: '8px 16px',
                                         backgroundColor: '#2563eb',
                                         color: 'white',
                                         borderRadius: '6px'
                                     } }),
-                                React.createElement(components_1.Button, { title: "Get Code", onClick: () => setActiveTab('code'), styles: {
+                                React.createElement(Button, { title: "Get Code", onClick: () => setActiveTab('code'), styles: {
                                         fontSize: '13px',
                                         padding: '8px 16px',
                                         backgroundColor: '#8b5cf6',
@@ -121485,7 +121594,7 @@ registerWidget({
                                             width: '120px',
                                             outline: 'none'
                                         } }),
-                                    React.createElement(components_1.Button, { title: "Refresh", onClick: () => {
+                                    React.createElement(Button, { title: "Refresh", onClick: () => {
                                             // Force a refresh of the widget when params change
                                             const currentWidget = previewWidgetId;
                                             setPreviewWidgetId(null);
@@ -121552,7 +121661,7 @@ registerWidget({
                                     React.createElement("svg", { width: "16", height: "16", viewBox: "0 0 24 24", fill: "none", xmlns: "http://www.w3.org/2000/svg" },
                                         React.createElement("path", { d: "M8 3H7a2 2 0 00-2 2v5a2 2 0 002 2h1M8 3h5M8 3v2m5-2h4a2 2 0 012 2v5a2 2 0 01-2 2h-4m0-9v2m0 7v2m0-2h-1a2 2 0 00-2 2v5a2 2 0 002 2h1m0-9h5a2 2 0 012 2v5a2 2 0 01-2 2h-5m0-9v9", stroke: "#0f172a", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" })),
                                     "Integration Code"),
-                                React.createElement(components_1.Button, { title: copySuccess ? "✓ Copied" : "Copy", onClick: copyToClipboard, styles: {
+                                React.createElement(Button, { title: copySuccess ? "✓ Copied" : "Copy", onClick: copyToClipboard, styles: {
                                         fontSize: '12px',
                                         padding: '4px 10px',
                                         backgroundColor: copySuccess ? '#16A34A' : '#3B82F6',
@@ -121593,7 +121702,7 @@ registerWidget({
                             marginBottom: '16px'
                         } },
                         React.createElement("h3", { style: { margin: 0, fontSize: '18px', fontWeight: 600, color: '#1e293b' } }, "Widget Integration Code"),
-                        React.createElement(components_1.Button, { title: copySuccess ? "✓ Copied" : "Copy Code", onClick: copyToClipboard, styles: {
+                        React.createElement(Button, { title: copySuccess ? "✓ Copied" : "Copy Code", onClick: copyToClipboard, styles: {
                                 fontSize: '14px',
                                 padding: '8px 16px',
                                 backgroundColor: copySuccess ? '#16A34A' : '#3B82F6',
@@ -122362,7 +122471,7 @@ const NavigationToolBar = (props) => {
                             React.createElement("td", null,
                                 React.createElement("div", { title: "C2O", className: "dt-navigation-toolbar-button", onClick: () => {
                                         //let anchorurl = `/Apps/UXP/portal/operation-management`;
-                                        let anchorurl = `/Apps/CMAT/dashboard`;
+                                        let anchorurl = `/Apps/CMAT/c2odashboard`;
                                         window.open(anchorurl, '_blank');
                                     } },
                                     React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
@@ -122376,7 +122485,7 @@ const NavigationToolBar = (props) => {
                                     React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
                                         React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-leafbuilding` })))),
                             React.createElement("td", null,
-                                React.createElement("div", { title: "Coperative Service", className: "dt-navigation-toolbar-button", onClick: () => {
+                                React.createElement("div", { title: "Corporate service", className: "dt-navigation-toolbar-button", onClick: () => {
                                         let anchorurl = `/Apps/UXP/portal/coperative-service`;
                                         window.open(anchorurl, '_blank');
                                     } },
@@ -123092,7 +123201,6 @@ const uxp_1 = __webpack_require__(/*! ./uxp */ "./src/uxp.ts");
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
 const BABYLON = __importStar(__webpack_require__(/*! babylonjs */ "./node_modules/babylonjs/babylon.js"));
 __webpack_require__(/*! babylonjs-loaders */ "./node_modules/babylonjs-loaders/babylonjs.loaders.js");
-const ControlSettings_1 = __importDefault(__webpack_require__(/*! ./components/ControlSettings */ "./src/components/ControlSettings.tsx"));
 __webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
 const UploadModal_1 = __importStar(__webpack_require__(/*! ./components/UploadModal */ "./src/components/UploadModal.tsx"));
 const FileSystemService_1 = __webpack_require__(/*! ./services/FileSystemService */ "./src/services/FileSystemService.ts");
@@ -123317,6 +123425,33 @@ const ThreeDViewerWidget = (props) => {
                 // );
                 console.log("Filtered meshes:", newLoadedMeshes);
                 setLoadedMeshes(newLoadedMeshes);
+                const line006TreeOptions = {
+                    mixedTrees: [
+                        {
+                            texturePath: "tree.png",
+                            percentage: 0.7,
+                            minSize: 2.4,
+                            maxSize: 6.8,
+                            heightOffset: 3.0
+                        },
+                        {
+                            texturePath: "img.png",
+                            percentage: 0.3,
+                            minSize: 2.0,
+                            maxSize: 5.2,
+                            heightOffset: 3.0 // Optional different height offset
+                        }
+                    ],
+                    treeDensity: 0.25,
+                    clusterPercentage: 0.7 // Percentage in clusters
+                };
+                // Update tree options with backend URLs
+                const updatedLine006Options = yield (0, TreeImageHelper_1.updateTreeConfigsWithBackendUrls)(line006TreeOptions);
+                (0, TreePlacement_1.createTreesOnMesh)("Line430", // Target mesh name
+                "", // This parameter is ignored when mixedTrees is used
+                newLoadedMeshes, // Loaded meshes array
+                scene, // Scene
+                updatedLine006Options);
                 // Generate and log mesh unit sanity report
                 if (scene) {
                     console.log("Generating mesh unit sanity report...");
@@ -123347,60 +123482,35 @@ const ThreeDViewerWidget = (props) => {
                 //     console.log("Line002 mesh not found for grass placement");
                 // }
                 // Create mixed trees on the Line006 mesh with backend URLs
-                const line006TreeOptions = {
-                    mixedTrees: [
-                        {
-                            texturePath: "tree.png",
-                            percentage: 0.7,
-                            minSize: 2.4,
-                            maxSize: 6.8,
-                            heightOffset: 3.0
-                        },
-                        {
-                            texturePath: "img.png",
-                            percentage: 0.3,
-                            minSize: 2.0,
-                            maxSize: 5.2,
-                            heightOffset: 3.0 // Optional different height offset
-                        }
-                    ],
-                    treeDensity: 0.25,
-                    clusterPercentage: 0.7 // Percentage in clusters
-                };
-                // Update tree options with backend URLs
-                const updatedLine006Options = yield (0, TreeImageHelper_1.updateTreeConfigsWithBackendUrls)(line006TreeOptions);
-                (0, TreePlacement_1.createTreesOnMesh)("Line430", // Target mesh name
-                "", // This parameter is ignored when mixedTrees is used
-                newLoadedMeshes, // Loaded meshes array
-                scene, // Scene
-                updatedLine006Options);
                 // Create mixed trees on the Line005 mesh with backend URLs
-                const line005TreeOptions = {
-                    mixedTrees: [
-                        {
-                            texturePath: "tree.png",
-                            percentage: 0.6,
-                            minSize: 2.4,
-                            maxSize: 6.8
-                        },
-                        {
-                            texturePath: "img.png",
-                            percentage: 0.4,
-                            minSize: 2.0,
-                            maxSize: 5.2,
-                            heightOffset: 3.0 // Optional different height offset
-                        }
-                    ],
-                    treeDensity: 0.20,
-                    clusterPercentage: 0.7 // Percentage in clusters
-                };
-                // Update tree options with backend URLs
-                const updatedLine005Options = yield (0, TreeImageHelper_1.updateTreeConfigsWithBackendUrls)(line005TreeOptions);
-                (0, TreePlacement_1.createTreesOnMesh)("Line005", // Target mesh name
-                "", // This parameter is ignored when mixedTrees is used
-                newLoadedMeshes, // Loaded meshes array
-                scene, // Scene
-                updatedLine005Options);
+                // const line005TreeOptions = {                        
+                //     mixedTrees: [
+                //         {
+                //             texturePath: "tree.png",     // First tree type
+                //             percentage: 0.6,             // 60% of trees
+                //             minSize: 2.4,
+                //             maxSize: 6.8
+                //         },
+                //         {
+                //             texturePath: "img.png",     // Second tree type  
+                //             percentage: 0.4,             // 40% of trees (60% + 40% = 100%)
+                //             minSize: 2.0,
+                //             maxSize: 5.2,
+                //             heightOffset: 3.0            // Optional different height offset
+                //         }
+                //     ],
+                //     treeDensity: 0.70,                  // Overall tree density
+                //     clusterPercentage: 0.7              // Percentage in clusters
+                // };
+                // // Update tree options with backend URLs
+                // const updatedLine005Options = await updateTreeConfigsWithBackendUrls(line005TreeOptions);
+                // createTreesOnMesh(
+                //     "Site Outside Grascs",               // Target mesh name
+                //     "",                      // This parameter is ignored when mixedTrees is used
+                //     newLoadedMeshes,            // Loaded meshes array
+                //     scene,                   // Scene
+                //     updatedLine005Options
+                // );
                 (0, LOD_1.applyLODToModel)(newLoadedMeshes, scene);
                 // Change color of concrete mesh to cement grey
                 const concreteMesh = newLoadedMeshes.find(mesh => mesh.name === "Obj_Concrete - Cast In Situ_4");
@@ -123546,10 +123656,10 @@ const ThreeDViewerWidget = (props) => {
             newScene.skipPointerDownPicking = false;
             newScene.skipPointerUpPicking = false;
             const mainLight = new BABYLON.HemisphericLight("mainLight", new BABYLON.Vector3(0, 1, 0), newScene);
-            mainLight.intensity = 0.0; // COMPLETELY DISABLED - only used for direction reference
+            mainLight.intensity = 1.2; // COMPLETELY DISABLED - only used for direction reference
             mainLight.diffuse = new BABYLON.Color3(1.0, 1.0, 1.0);
             mainLight.specular = new BABYLON.Color3(1.0, 1.0, 1.0);
-            mainLight.groundColor = new BABYLON.Color3(0.0, 0.0, 0.0); // Pure black ground
+            // mainLight.groundColor = new BABYLON.Color3(0.0, 0.0, 0.0); // Pure black ground
             // This will be our primary sun light
             const secondaryLight = new BABYLON.DirectionalLight("secondaryLight", new BABYLON.Vector3(0, -1, 0), newScene);
             secondaryLight.intensity = 2.0; // Very bright
@@ -123798,33 +123908,6 @@ const ThreeDViewerWidget = (props) => {
                 console.log("Generating mesh unit sanity report after model change...");
                 // The actual report generation is handled in the MeshUnitSanityReport component
             }
-            const line006TreeOptions = {
-                mixedTrees: [
-                    {
-                        texturePath: "tree.png",
-                        percentage: 0.7,
-                        minSize: 2.4,
-                        maxSize: 6.8,
-                        heightOffset: 3.0
-                    },
-                    {
-                        texturePath: "img.png",
-                        percentage: 0.3,
-                        minSize: 2.0,
-                        maxSize: 5.2,
-                        heightOffset: 3.0 // Optional different height offset
-                    }
-                ],
-                treeDensity: 0.25,
-                clusterPercentage: 0.7 // Percentage in clusters
-            };
-            // Update tree options with backend URLs
-            const updatedLine006Options = yield (0, TreeImageHelper_1.updateTreeConfigsWithBackendUrls)(line006TreeOptions);
-            (0, TreePlacement_1.createTreesOnMesh)("Line430", // Target mesh name
-            "", // This parameter is ignored when mixedTrees is used
-            newMeshes, // Loaded meshes array
-            scene, // Scene
-            updatedLine006Options);
             // Hide all meshes initially for fading effect
             newMeshes.forEach(mesh => {
                 mesh.visibility = 0;
@@ -124440,7 +124523,7 @@ const ThreeDViewerWidget = (props) => {
             currentCamera,
             engine
         } },
-        React.createElement(TopNavbar_1.default, { uxpContext: props.uxpContext, instanceId: props.instanceId, widgets: dynamicWidgets, currentModel: currentModel, navigationHistory: navigationHistory, loadedModelsList: loadedModelsList, onSceneChange: handleChangeWidgetScene, onAddToScene: handleAddWidgetToScene, onMeshConfigOpen: () => setIsMeshConfigOpen(true), currentCamera: currentCamera, scene: scene, loadedMeshes: loadedMeshes, currentModelId: currentModelId, onSaveSkyboxConfig: skyboxConfig_1.updateSkyboxConfiguration, activeFlow: activeModelFlow, onNavigateToModel: navigateToModelWithMesh }),
+        React.createElement(TopNavbar_1.default, { uxpContext: props.uxpContext, instanceId: props.instanceId, widgets: dynamicWidgets, currentModel: currentModel, navigationHistory: navigationHistory, loadedModelsList: loadedModelsList, onSceneChange: handleChangeWidgetScene, onAddToScene: handleAddWidgetToScene, onMeshConfigOpen: () => setIsMeshConfigOpen(true), currentCamera: currentCamera, scene: scene, loadedMeshes: loadedMeshes, currentModelId: currentModelId, onSaveSkyboxConfig: skyboxConfig_1.updateSkyboxConfiguration, activeFlow: activeModelFlow, onNavigateToModel: navigateToModelWithMesh, canvasRef: canvasRef, setCurrentCamera: setCurrentCamera }),
         React.createElement(navigation_toolbar_1.default, { ParentLocationKey: selectedBuildingId || "1", uxpContext: props.uxpContext, instanceId: props.instanceId }),
         React.createElement(components_1.WidgetWrapper, null,
             scene && (React.createElement(SunPositionSlider_1.default, { scene: scene, timeOfDay: timeOfDay, setTimeOfDay: setTimeOfDay, autoAnimate: autoSunAnimation, setAutoAnimate: setAutoSunAnimation, setUpdateSunPosition: setUpdateSunPosition })),
@@ -124478,7 +124561,6 @@ const ThreeDViewerWidget = (props) => {
                     const targetMesh = loadedMeshes.find(m => m.name === meshName);
                     (0, ApplyMeshconfig_2.DynamicMeshConfigUpdate)(meshName, config, scene, loadedMeshes, canvasRef, currentCamera, engine, targetMesh ? () => handleDoubleClick(targetMesh) : undefined);
                 } }),
-            React.createElement(ControlSettings_1.default, { scene: scene, currentCamera: currentCamera, setCurrentCamera: setCurrentCamera, canvasRef: canvasRef, loadedMeshes: loadedMeshes, currentModelId: currentModelId, currentModel: currentModel }),
             React.createElement("canvas", { ref: previewCanvasRef, style: { display: 'none' }, width: 200, height: 200 }),
             React.createElement(MeshList_1.default, { meshes: loadedMeshes, currentCamera: currentCamera, scene: scene, currentModel: currentModel, onNavigateToModel: navigateToModelWithMesh }),
             isLoading && React.createElement(LoadingOverlay_1.default, null),
@@ -124641,8 +124723,8 @@ const ThreeDViewerWidget = (props) => {
                             if (canvasContainer) {
                                 console.log('Applying mesh configurations:', meshConfig_1.meshConfigurations);
                                 newLoadedMeshes.forEach((mesh, index) => {
+                                    // console.log('Processing mesh:', mesh.name);
                                     var _a;
-                                    console.log('Processing mesh:', mesh.name);
                                     // First check if this is a mesh with an alarm configuration
                                     const meshConfig = meshConfig_1.meshConfigurations.find(config => config.meshName === mesh.name);
                                     if (meshConfig && meshConfig.isAlarm) {
@@ -128330,7 +128412,7 @@ const createTreesOnMesh = (meshName, pngFilePath, loadedMeshes, scene, options =
     }
     console.log(`Found ${meshName} mesh, adding tree particle system`);
     // Set default options
-    const { treeDensity = 0.05, minTreeSize = 1.4, maxTreeSize = 3.8, treeHeightOffset = 2.8, safetyMargin = 1.0, clusterPercentage = 0.8, freezeTimeout = 2000, maxTreeCount = 100000, mixedTrees = [] } = options;
+    const { treeDensity = 0.05, minTreeSize = 1.4, maxTreeSize = 3.8, treeHeightOffset = 2.8, safetyMargin = 1.0, clusterPercentage = 0.8, freezeTimeout = 2000, maxTreeCount = 400000, mixedTrees = [] } = options;
     // Get mesh bounds for particle system
     const boundingInfo = targetMesh.getBoundingInfo();
     const min = boundingInfo.boundingBox.minimumWorld;
