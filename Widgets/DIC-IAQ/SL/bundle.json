@@ -1,0 +1,24 @@
+{
+    "id": "c33c5695-d9d0-4f28-9fbf-e1555b798b6a",
+    "author": "",
+    "widgets": [
+        {
+            "id": "iaq_right_panel",
+            "name": "iaq_right_panel",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}

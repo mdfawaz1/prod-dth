@@ -797,6 +797,7 @@ const WidgetLayoutSchema = new mongoose.Schema({
     sceneIds: [{ type: String }],
     placement: { type: String, enum: ['left', 'right'] },
     assetwidget: { type: Boolean, default: false }, // Add parameter to mark widgets as asset widgets
+    category: { type: String }, // Category for filtering widgets (e.g., "Sustainability", "IAQ")
     userId: { type: String, default: 'default' }, // For future user management
     createdAt: { type: Number, default: Date.now },
     updatedAt: { type: Number, default: Date.now }
@@ -930,6 +931,7 @@ app.post('/api/widget-layouts', async (req, res) => {
             sceneIds: widget.sceneIds || [],
             placement: widget.placement,
             assetwidget: widget.assetwidget || false, // Include assetwidget parameter with default false
+            category: widget.category, // Include category for filtering widgets
             userId,
             createdAt: Date.now(),
             updatedAt: Date.now()

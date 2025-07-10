@@ -36595,7 +36595,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".dt-navigation-toolbar-positioning {\n  position: fixed;\n  left: 50%;\n  top: 65px;\n  transform: translateX(-50%);\n  z-index: 1000;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container {\n  width: fit-content;\n  height: fit-content;\n  position: relative;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar {\n  width: fit-content;\n  height: fit-content;\n  position: relative;\n  border-radius: 25px;\n  padding: 2px 10px;\n  background-color: rgba(0, 0, 0, 0.7333333333);\n  opacity: 0.5;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button {\n  width: 35px;\n  height: 35px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 5px;\n  cursor: pointer;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon {\n  width: 25px;\n  height: 25px;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  position: relative;\n  background-position: 50% 50%;\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-home {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3C!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --%3E%3Cpath d='M570.69 236.28L512 184.45V48a16 16 0 0 0-16-16h-64a16 16 0 0 0-16 16v51.69L314.75 10.31a39.85 39.85 0 0 0-53.45 0l-256 226a16 16 0 0 0-1.21 22.6L25.5 282.7a16 16 0 0 0 22.6 1.21L277.42 81.63a16 16 0 0 1 21.17 0L527.91 283.9a16 16 0 0 0 22.6-1.21l21.4-23.82a16 16 0 0 0-1.22-22.59zM288 115L69.47 307.71c-1.62 1.46-3.69 2.14-5.47 3.35V496a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16V368a16 16 0 0 1 16-16h96a16 16 0 0 1 16 16v128a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16V311.1c-1.7-1.16-3.72-1.82-5.26-3.2z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-building {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' viewBox='0 0 122.88 113.05' style='enable-background:new 0 0 122.88 113.05' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill-rule:evenodd;clip-rule:evenodd;%7D%3C/style%3E%3Cg%3E%3Cpath class='st0' d='M0,100.07h14.72V1.57c0-0.86,0.71-1.57,1.57-1.57h49.86c0.86,0,1.57,0.71,1.57,1.57V38.5h44.12 c0.86,0,1.57,0.71,1.57,1.57v59.99h9.47v12.99H0V100.07L0,100.07z M27.32,14.82h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36 c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V15.39C26.75,15.08,27.01,14.82,27.32,14.82L27.32,14.82z M44.6,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V76.87 C44.03,76.55,44.29,76.3,44.6,76.3L44.6,76.3z M27.32,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87C26.75,76.55,27.01,76.3,27.32,76.3L27.32,76.3z M44.6,55.8h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V56.38 C44.03,56.06,44.29,55.8,44.6,55.8L44.6,55.8z M27.32,55.8h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V56.38C26.75,56.06,27.01,55.8,27.32,55.8L27.32,55.8z M44.6,35.31h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V35.88 C44.03,35.57,44.29,35.31,44.6,35.31L44.6,35.31z M27.32,35.31h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V35.88C26.75,35.57,27.01,35.31,27.32,35.31L27.32,35.31z M44.6,14.82h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V15.39 C44.03,15.08,44.29,14.82,44.6,14.82L44.6,14.82z M23.17,7.32h35.92c0.62,0,1.13,0.61,1.13,1.35v85.87c0,0.74-0.51,1.35-1.13,1.35 H23.17c-0.62,0-1.13-0.61-1.13-1.35V8.67C22.04,7.93,22.55,7.32,23.17,7.32L23.17,7.32z M72.61,53.43h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V54 C72.04,53.69,72.3,53.43,72.61,53.43L72.61,53.43z M89.89,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87C89.32,76.55,89.58,76.3,89.89,76.3L89.89,76.3z M72.61,76.3h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87 C72.04,76.55,72.3,76.3,72.61,76.3L72.61,76.3z M89.89,53.43h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V54C89.32,53.69,89.58,53.43,89.89,53.43L89.89,53.43z M68.86,45.82h35.92 c0.62,0,1.13,0.61,1.13,1.35v47.37c0,0.74-0.51,1.35-1.13,1.35H68.86c-0.62,0-1.13-0.61-1.13-1.35V47.17 C67.73,46.43,68.24,45.82,68.86,45.82L68.86,45.82z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-conerbox {\n  width: 27px;\n  height: 26px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.0' width='100.000000pt' height='100.000000pt' viewBox='0 0 100.000000 100.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,100.000000) scale(0.100000,-0.100000)' fill='%23000000' stroke='none'%3E%3Cpath d='M290 857 l-205 -123 0 -234 0 -234 208 -124 207 -125 208 125 207 124 0 234 0 234 -205 123 c-113 68 -207 123 -210 123 -3 0 -97 -55 -210 -123z m116 -103 l94 -56 94 56 c52 31 100 56 106 56 15 0 150 -80 150 -89 0 -8 -333 -191 -349 -191 -19 0 -351 184 -348 193 3 11 130 86 145 87 8 0 56 -25 108 -56z m-100 -170 l174 -95 0 -205 c0 -112 -2 -204 -4 -204 -3 0 -42 22 -88 50 l-83 50 -5 107 -5 108 -87 48 -88 49 0 94 c0 52 3 94 6 94 3 0 84 -43 180 -96z m574 2 l0 -94 -87 -49 -88 -48 -5 -108 -5 -107 -83 -50 c-46 -28 -85 -50 -88 -50 -2 0 -4 92 -4 204 l0 204 173 96 c94 52 175 95 180 96 4 0 7 -42 7 -94z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-search {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' width='122.879px' height='119.799px' viewBox='0 0 122.879 119.799' enable-background='new 0 0 122.879 119.799' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M49.988,0h0.016v0.007C63.803,0.011,76.298,5.608,85.34,14.652c9.027,9.031,14.619,21.515,14.628,35.303h0.007v0.033v0.04 h-0.007c-0.005,5.557-0.917,10.905-2.594,15.892c-0.281,0.837-0.575,1.641-0.877,2.409v0.007c-1.446,3.66-3.315,7.12-5.547,10.307 l29.082,26.139l0.018,0.016l0.157,0.146l0.011,0.011c1.642,1.563,2.536,3.656,2.649,5.78c0.11,2.1-0.543,4.248-1.979,5.971 l-0.011,0.016l-0.175,0.203l-0.035,0.035l-0.146,0.16l-0.016,0.021c-1.565,1.642-3.654,2.534-5.78,2.646 c-2.097,0.111-4.247-0.54-5.971-1.978l-0.015-0.011l-0.204-0.175l-0.029-0.024L78.761,90.865c-0.88,0.62-1.778,1.209-2.687,1.765 c-1.233,0.755-2.51,1.466-3.813,2.115c-6.699,3.342-14.269,5.222-22.272,5.222v0.007h-0.016v-0.007 c-13.799-0.004-26.296-5.601-35.338-14.645C5.605,76.291,0.016,63.805,0.007,50.021H0v-0.033v-0.016h0.007 c0.004-13.799,5.601-26.296,14.645-35.338C23.683,5.608,36.167,0.016,49.955,0.007V0H49.988L49.988,0z M50.004,11.21v0.007h-0.016 h-0.033V11.21c-10.686,0.007-20.372,4.35-27.384,11.359C15.56,29.578,11.213,39.274,11.21,49.973h0.007v0.016v0.033H11.21 c0.007,10.686,4.347,20.367,11.359,27.381c7.009,7.012,16.705,11.359,27.403,11.361v-0.007h0.016h0.033v0.007 c10.686-0.007,20.368-4.348,27.382-11.359c7.011-7.009,11.358-16.702,11.36-27.4h-0.006v-0.016v-0.033h0.006 c-0.006-10.686-4.35-20.372-11.358-27.384C70.396,15.56,60.703,11.213,50.004,11.21L50.004,11.21z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-security {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' width='111.811px' height='122.88px' viewBox='0 0 111.811 122.88' enable-background='new 0 0 111.811 122.88' xml:space='preserve'%3E%3Cg%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M55.713,0c20.848,13.215,39.682,19.467,55.846,17.989 c2.823,57.098-18.263,90.818-55.63,104.891C19.844,109.708-1.5,77.439,0.083,17.123C19.058,18.116,37.674,14.014,55.713,0L55.713,0 z M41.458,56.508h1.438v-3.331c0-3.689,1.454-7.051,3.797-9.494c2.361-2.462,5.622-3.991,9.214-3.991s6.854,1.529,9.214,3.991 c2.343,2.443,3.797,5.805,3.797,9.494v3.331h1.438c1.167,0,2.123,0.955,2.123,2.123v22.434c0,1.168-0.956,2.123-2.123,2.123H41.458 c-1.168,0-2.123-0.955-2.123-2.123V58.631C39.334,57.463,40.29,56.508,41.458,56.508L41.458,56.508z M54.164,71.286l-2.291,6h8.066 l-2.122-6.082c1.347-0.693,2.268-2.097,2.268-3.716c0-2.308-1.871-4.179-4.179-4.179s-4.178,1.871-4.178,4.179 C51.728,69.173,52.726,70.625,54.164,71.286L54.164,71.286z M46.916,56.508h17.981v-3.331c0-2.623-1.021-4.999-2.666-6.715 c-1.627-1.697-3.866-2.751-6.325-2.751c-2.458,0-4.698,1.054-6.324,2.751c-1.646,1.716-2.666,4.092-2.666,6.715V56.508 L46.916,56.508z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-facility {\n  width: 28px;\n  height: 28px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' viewBox='0 0 512 512' enable-background='new 0 0 512 512' xml:space='preserve' style='fill:%23000000'%3E%3Cg%3E%3Cpath d='M77.175,184.867v49.926h93.689V283H77.175v94.036H19.387V134.94h159.347v49.927H77.175z'/%3E%3Cpath d='M435.867,377.036l1.366-171.314h-1.026l-62.919,171.314h-41.031L271.05,205.722h-1.025l1.372,171.314H216.34V134.94h83.192&%2313;&%2310; l55.126,155.243h1.366l52.72-155.243h84.565v242.096H435.867z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-c2o {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' viewBox='0 0 32 32' style='fill:%23000000'%3E%3Cg/%3E%3Cpath d='M22 4h-4v-2c0-1.1-0.9-2-2-2h-4c-1.1 0-2 0.9-2 2v2h-4v4h16v-4zM16 4h-4v-1.996c0.001-0.001 0.002-0.002 0.004-0.004h3.993c0.001 0.001 0.003 0.002 0.004 0.004v1.996zM26 10v-5c0-0.55-0.45-1-1-1h-2v2h1v4h-6l-6 6v8h-8v-18h1v-2h-2c-0.55 0-1 0.45-1 1v20c0 0.55 0.45 1 1 1h9v6h20v-22h-6zM18 12.828v3.172h-3.172l3.172-3.172zM30 30h-16v-12h6v-6h10v18z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-leafcare {\n  width: 28px;\n  height: 28px;\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 122.88 105.16' style='enable-background:new 0 0 122.88 105.16' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M66.41,88.93h21.91c1.76-1.75,3.69-3.57,5.65-5.42c4.11-3.89,8.4-7.95,12.81-13.03c5.04-5.81,5.58-7.82,7.11-13.51 c0.29-1.07,0.61-2.27,1.03-3.76l2.62-9.21l0.03-0.1c1.4-4.1,1.51-6.81,0.93-8.37c-0.18-0.48-0.41-0.8-0.68-0.97 c-0.21-0.14-0.49-0.19-0.78-0.16c-0.68,0.07-1.45,0.5-2.15,1.27l-7.78,18.53c-0.07,0.17-0.17,0.33-0.28,0.47 c-0.46,0.83-1.08,1.64-1.88,2.41l-13.8,15.39c-0.75,0.84-2.04,0.91-2.87,0.16c-0.84-0.75-0.91-2.04-0.16-2.87l13.81-15.39 c0.06-0.07,0.12-0.14,0.19-0.2c1.43-1.36,1.88-2.83,1.63-3.9c-0.08-0.33-0.22-0.61-0.42-0.8c-0.19-0.17-0.44-0.29-0.75-0.32v0 c-1.23-0.13-3.04,0.78-5.25,3.39l0,0c-0.06,0.07-0.13,0.14-0.2,0.21l-5.35,4.72l-0.03,0.03c-5.79,5.48-8.28,6.78-12.82,9.15 c-0.95,0.5-1.99,1.04-3.28,1.74c-0.51,0.28-1.01,0.62-1.5,0.99c-0.52,0.4-1.02,0.81-1.49,1.21c-2.4,2.02-3.66,3.66-4.38,5.47 c-0.75,1.88-1.02,4.17-1.39,7.31c-0.15,1.27-0.26,2.52-0.35,3.77C66.47,87.74,66.44,88.34,66.41,88.93L66.41,88.93z M51.47,42.28 c-2.18,2.9-4.05,5.32-5.06,8.09c-0.99,2.7-1.39,3.94,0.85,1.13c2.09-2.61,4.05-5.15,6.9-7.55c0.2,0.05,0.42,0.09,0.64,0.14 C80.67,49.23,99.5,37.6,96.19,0C76.28,6.9,48.07,4.09,50.99,39.43C51.1,40.74,51.2,41.64,51.47,42.28L51.47,42.28z M58.41,36.63 c6.5-14,23.2-18.8,31.48-28.37C80.9,25.79,75.99,25.02,58.41,36.63L58.41,36.63L58.41,36.63z M56.47,88.93H34.55 c-1.76-1.75-3.69-3.57-5.65-5.42c-4.11-3.89-8.4-7.95-12.81-13.03c-5.04-5.81-5.58-7.82-7.11-13.51C8.7,55.9,8.38,54.7,7.96,53.21 L5.34,44l-0.03-0.1c-1.4-4.1-1.51-6.81-0.93-8.37c0.18-0.48,0.41-0.8,0.68-0.97c0.21-0.14,0.49-0.19,0.78-0.16 C6.53,34.46,7.3,34.9,8,35.66l7.78,18.53c0.07,0.17,0.17,0.33,0.28,0.47c0.46,0.83,1.08,1.64,1.88,2.41l13.8,15.39 c0.75,0.84,2.04,0.91,2.87,0.16c0.84-0.75,0.91-2.04,0.16-2.87L20.96,54.35c-0.06-0.07-0.12-0.14-0.19-0.2 c-1.43-1.36-1.88-2.83-1.63-3.9c0.08-0.33,0.22-0.61,0.42-0.8c0.19-0.17,0.44-0.29,0.75-0.32v0c1.23-0.13,3.05,0.78,5.25,3.39l0,0 c0.06,0.07,0.13,0.14,0.2,0.21l5.35,4.72l0.03,0.03c5.79,5.48,8.28,6.78,12.82,9.15c0.95,0.5,1.99,1.04,3.28,1.74 c0.51,0.28,1.01,0.62,1.5,0.99c0.52,0.4,1.02,0.81,1.49,1.21c2.4,2.02,3.66,3.66,4.38,5.47c0.75,1.88,1.02,4.17,1.39,7.31 c0.15,1.27,0.26,2.52,0.35,3.77C56.41,87.74,56.44,88.34,56.47,88.93L56.47,88.93z M29.45,89.63c-0.31,0.36-0.5,0.83-0.5,1.34 v12.14c0,1.13,0.92,2.04,2.04,2.04h27.58c1.13,0,2.04-0.92,2.04-2.04V90.86c0-1.3-0.08-2.7-0.17-4c-0.09-1.33-0.21-2.65-0.36-3.96 c-0.4-3.43-0.7-5.94-1.66-8.35c-0.99-2.47-2.58-4.6-5.53-7.09c-0.54-0.46-1.09-0.92-1.67-1.35c-0.61-0.46-1.27-0.9-2.01-1.31 c-1.2-0.65-2.32-1.24-3.34-1.78c-4.2-2.2-6.5-3.4-11.91-8.52c-0.04-0.04-0.09-0.08-0.13-0.11l-5.22-4.61 c-3.19-3.73-6.31-4.97-8.7-4.71l-0.01,0v0c-1.17,0.12-2.17,0.58-2.97,1.28L11.65,33.8l-0.01,0c-0.08-0.18-0.18-0.35-0.31-0.51 c-1.46-1.75-3.31-2.77-5.08-2.95c-1.21-0.12-2.38,0.14-3.4,0.8c-0.97,0.63-1.77,1.61-2.27,2.96c-0.88,2.35-0.86,6,0.86,11.05 l2.6,9.15c0.38,1.32,0.71,2.59,1.02,3.71c1.7,6.35,2.3,8.6,7.97,15.12c4.49,5.17,8.88,9.33,13.1,13.32 C27.23,87.51,28.33,88.55,29.45,89.63L29.45,89.63z M33.35,93.01c0.27,0.06,0.55,0.06,0.83,0h22.34v8.06H33.03v-8.06H33.35 L33.35,93.01z M93.43,89.63c0.31,0.36,0.5,0.83,0.5,1.34v12.14c0,1.13-0.91,2.04-2.04,2.04H64.32c-1.13,0-2.04-0.92-2.04-2.04 V90.86c0-0.07,0-0.15,0.01-0.22c0.03-1.31,0.08-2.58,0.16-3.78c0.09-1.33,0.21-2.65,0.36-3.96c0.4-3.43,0.7-5.94,1.66-8.35 c0.99-2.47,2.58-4.6,5.53-7.09c0.54-0.46,1.09-0.92,1.67-1.35c0.61-0.46,1.27-0.9,2.01-1.31c1.2-0.65,2.32-1.24,3.34-1.78 c4.2-2.2,6.5-3.4,11.91-8.52c0.04-0.04,0.09-0.08,0.13-0.11l5.22-4.61c3.19-3.73,6.31-4.97,8.7-4.71l0.01,0v0 c1.17,0.12,2.17,0.58,2.97,1.28l5.27-12.56l0.01,0c0.08-0.18,0.18-0.35,0.31-0.51c1.46-1.75,3.31-2.77,5.08-2.95 c1.21-0.12,2.38,0.14,3.4,0.8c0.97,0.63,1.77,1.61,2.27,2.96c0.88,2.35,0.86,6-0.86,11.05l-2.6,9.15 c-0.38,1.32-0.71,2.59-1.02,3.71c-1.7,6.35-2.3,8.6-7.97,15.12c-4.49,5.17-8.88,9.33-13.1,13.32 C95.65,87.51,94.55,88.55,93.43,89.63L93.43,89.63z M89.53,93.01c-0.27,0.06-0.55,0.06-0.83,0H66.36v8.06h23.49v-8.06H89.53 L89.53,93.01z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-leafbuilding {\n  width: 27px;\n  height: 27px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.0' width='100.000000pt' height='100.000000pt' viewBox='0 0 100.000000 100.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,100.000000) scale(0.100000,-0.100000)' fill='%23000000' stroke='none'%3E%3Cpath d='M200 900 c0 -38 -2 -40 -30 -40 l-30 0 0 -400 0 -400 90 0 90 0 0 80 0 80 40 0 40 0 0 -80 0 -80 90 0 90 0 0 45 0 46 28 -15 c28 -15 29 -16 18 -65 -7 -37 -7 -54 1 -62 16 -16 33 -2 33 29 0 47 12 55 53 37 66 -27 128 -16 181 33 39 37 55 78 67 174 5 44 17 94 25 111 19 36 10 47 -45 54 l-41 6 0 133 0 134 -140 0 -140 0 0 -40 c0 -33 3 -40 20 -40 13 0 20 -7 20 -20 0 -13 -7 -20 -20 -20 -13 0 -20 -7 -20 -20 0 -13 7 -20 20 -20 13 0 20 -7 20 -20 0 -13 -7 -20 -20 -20 -13 0 -20 -7 -20 -20 0 -13 7 -20 20 -20 13 0 20 -7 20 -20 0 -13 -7 -20 -20 -20 -14 0 -20 -7 -20 -23 0 -12 -9 -28 -20 -35 -20 -12 -20 -10 -20 233 l0 245 -30 0 c-28 0 -30 2 -30 40 l0 40 -160 0 -160 0 0 -40z m60 -140 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m-240 -100 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m240 -40 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m-560 -80 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m240 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m-80 -74 c0 -8 -7 -17 -16 -20 -23 -9 -24 -8 -24 14 0 13 7 20 20 20 11 0 20 -6 20 -14z m80 4 c0 -5 -9 -10 -20 -10 -11 0 -20 5 -20 10 0 6 9 10 20 10 11 0 20 -4 20 -10z m-560 -50 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m403 -7 c36 -5 38 -8 33 -32 -3 -14 -10 -61 -16 -104 -5 -47 -18 -92 -30 -112 -22 -36 -73 -65 -115 -65 -25 0 -85 25 -85 36 0 35 94 150 165 201 23 16 27 24 19 33 -26 26 -139 -68 -191 -158 -15 -26 -27 -48 -28 -50 -7 -9 -55 24 -64 45 -57 124 116 239 312 206z m-643 -113 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m-240 -120 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m240 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-trend {\n  background-image: url(\"data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 122.88 106.5'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill-rule:evenodd;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Echart%3C/title%3E%3Cpath class='cls-1' d='M19.39,64.84v39.84a1.84,1.84,0,0,1-1.83,1.82H1.83A1.83,1.83,0,0,1,0,104.68V64.84ZM0,51.83,41.59,15.44c9.21,9,18.14,19.93,27.25,28.93L102.07,11,91.37.28,122.88,0V31.78L112.61,21.51c-7.37,7.47-24.8,23.92-32.17,31.3-9.33,9.32-13.78,9.49-23.1.17L41.59,35.46,23.13,51.83ZM114.37,38.69v66a1.84,1.84,0,0,1-1.82,1.82H96.81A1.84,1.84,0,0,1,95,104.68V57.29c3-2.91,6.5-6.29,10.07-9.73l7.45-7.17a24.16,24.16,0,0,1,1.87-1.7ZM82.71,68.34v36.34a1.84,1.84,0,0,1-1.83,1.82H65.15a1.84,1.84,0,0,1-1.83-1.82V72.22a22.48,22.48,0,0,0,5.73.63,24,24,0,0,0,13.66-4.51Zm-31.66-3v39.29a1.84,1.84,0,0,1-1.83,1.82H33.48a1.83,1.83,0,0,1-1.82-1.82V62q.48-.36.93-.75l7.86-7,6.34,7,.49.51q1.92,1.93,3.77,3.52Z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-coperate-service {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.0' width='96.000000pt' height='96.000000pt' viewBox='0 0 96.000000 96.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,96.000000) scale(0.100000,-0.100000)' fill='%23000000' stroke='none'%3E%3Cpath d='M452 934 c-18 -9 -42 -28 -52 -42 l-20 -25 39 -42 c37 -40 45 -61 53 -135 3 -21 9 -25 40 -28 108 -9 189 105 143 202 -35 73 -131 106 -203 70z'/%3E%3Cpath d='M212 834 c-130 -67 -94 -255 52 -271 149 -17 225 172 103 259 -39 28 -112 34 -155 12z'/%3E%3Cpath d='M445 618 c-10 -18 -19 -37 -20 -41 0 -4 27 -19 60 -32 74 -30 105 -63 105 -113 l1 -37 20 37 c25 48 86 81 141 76 38 -4 39 -3 36 26 -6 56 -108 103 -248 113 l-75 5 -20 -34z'/%3E%3Cpath d='M174 536 c-64 -15 -117 -38 -146 -64 -14 -12 -18 -31 -18 -89 0 -116 -6 -113 259 -113 l219 0 6 32 c3 18 18 44 32 59 38 39 31 95 -15 126 -76 51 -229 73 -337 49z'/%3E%3Cpath d='M688 454 c-28 -15 -58 -61 -58 -89 0 -10 -9 -15 -28 -15 -17 0 -37 -10 -50 -23 -20 -21 -22 -34 -22 -148 0 -174 -7 -169 211 -169 216 0 209 -6 209 171 0 118 -1 127 -23 147 -13 12 -35 22 -50 22 -18 0 -27 5 -27 15 0 29 -30 75 -60 90 -36 19 -67 19 -102 -1z m86 -60 c31 -30 20 -44 -34 -44 -54 0 -65 14 -34 44 20 20 48 20 68 0z m116 -130 c0 -21 -9 -29 -55 -50 -70 -31 -118 -30 -189 1 -47 21 -56 29 -56 50 l0 25 150 0 150 0 0 -26z m-249 -114 c27 -12 66 -20 99 -20 33 0 72 8 99 20 24 11 45 20 47 20 2 0 4 -22 4 -50 l0 -50 -150 0 -150 0 0 50 c0 28 2 50 4 50 2 0 23 -9 47 -20z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button:hover {\n  background-color: rgba(125, 125, 125, 0.8156862745);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon {\n  filter: invert(85%) sepia(41%) saturate(850%) hue-rotate(90deg) brightness(101%) contrast(102%);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar:hover {\n  opacity: 1;\n}\n\n.dropdown-btn-content.dt-navigation-toolbar-serch-custom-dropdown {\n  transform: translateX(-51%) translateY(-4%) !important;\n  background-color: #000000;\n  opacity: 0.8;\n}\n.dropdown-btn-content.dt-navigation-toolbar-serch-custom-dropdown::before {\n  border-bottom: 10px solid #000000 !important;\n}", ""]);
+exports.push([module.id, ".dt-navigation-toolbar-positioning {\n  position: fixed;\n  left: 50%;\n  top: 65px;\n  transform: translateX(-50%);\n  z-index: 1000;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container {\n  width: fit-content;\n  height: fit-content;\n  position: relative;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar {\n  width: fit-content;\n  height: fit-content;\n  position: relative;\n  border-radius: 25px;\n  padding: 2px 10px;\n  background-color: rgba(0, 0, 0, 0.7333333333);\n  opacity: 0.5;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button {\n  width: 35px;\n  height: 35px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 5px;\n  cursor: pointer;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon {\n  width: 25px;\n  height: 25px;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  position: relative;\n  background-position: 50% 50%;\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-home {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3C!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --%3E%3Cpath d='M570.69 236.28L512 184.45V48a16 16 0 0 0-16-16h-64a16 16 0 0 0-16 16v51.69L314.75 10.31a39.85 39.85 0 0 0-53.45 0l-256 226a16 16 0 0 0-1.21 22.6L25.5 282.7a16 16 0 0 0 22.6 1.21L277.42 81.63a16 16 0 0 1 21.17 0L527.91 283.9a16 16 0 0 0 22.6-1.21l21.4-23.82a16 16 0 0 0-1.22-22.59zM288 115L69.47 307.71c-1.62 1.46-3.69 2.14-5.47 3.35V496a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16V368a16 16 0 0 1 16-16h96a16 16 0 0 1 16 16v128a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16V311.1c-1.7-1.16-3.72-1.82-5.26-3.2z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-building {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' viewBox='0 0 122.88 113.05' style='enable-background:new 0 0 122.88 113.05' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill-rule:evenodd;clip-rule:evenodd;%7D%3C/style%3E%3Cg%3E%3Cpath class='st0' d='M0,100.07h14.72V1.57c0-0.86,0.71-1.57,1.57-1.57h49.86c0.86,0,1.57,0.71,1.57,1.57V38.5h44.12 c0.86,0,1.57,0.71,1.57,1.57v59.99h9.47v12.99H0V100.07L0,100.07z M27.32,14.82h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36 c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V15.39C26.75,15.08,27.01,14.82,27.32,14.82L27.32,14.82z M44.6,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V76.87 C44.03,76.55,44.29,76.3,44.6,76.3L44.6,76.3z M27.32,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87C26.75,76.55,27.01,76.3,27.32,76.3L27.32,76.3z M44.6,55.8h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V56.38 C44.03,56.06,44.29,55.8,44.6,55.8L44.6,55.8z M27.32,55.8h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V56.38C26.75,56.06,27.01,55.8,27.32,55.8L27.32,55.8z M44.6,35.31h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V35.88 C44.03,35.57,44.29,35.31,44.6,35.31L44.6,35.31z M27.32,35.31h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V35.88C26.75,35.57,27.01,35.31,27.32,35.31L27.32,35.31z M44.6,14.82h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V15.39 C44.03,15.08,44.29,14.82,44.6,14.82L44.6,14.82z M23.17,7.32h35.92c0.62,0,1.13,0.61,1.13,1.35v85.87c0,0.74-0.51,1.35-1.13,1.35 H23.17c-0.62,0-1.13-0.61-1.13-1.35V8.67C22.04,7.93,22.55,7.32,23.17,7.32L23.17,7.32z M72.61,53.43h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V54 C72.04,53.69,72.3,53.43,72.61,53.43L72.61,53.43z M89.89,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87C89.32,76.55,89.58,76.3,89.89,76.3L89.89,76.3z M72.61,76.3h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87 C72.04,76.55,72.3,76.3,72.61,76.3L72.61,76.3z M89.89,53.43h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V54C89.32,53.69,89.58,53.43,89.89,53.43L89.89,53.43z M68.86,45.82h35.92 c0.62,0,1.13,0.61,1.13,1.35v47.37c0,0.74-0.51,1.35-1.13,1.35H68.86c-0.62,0-1.13-0.61-1.13-1.35V47.17 C67.73,46.43,68.24,45.82,68.86,45.82L68.86,45.82z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-conerbox {\n  width: 27px;\n  height: 26px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.0' width='100.000000pt' height='100.000000pt' viewBox='0 0 100.000000 100.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,100.000000) scale(0.100000,-0.100000)' fill='%23000000' stroke='none'%3E%3Cpath d='M290 857 l-205 -123 0 -234 0 -234 208 -124 207 -125 208 125 207 124 0 234 0 234 -205 123 c-113 68 -207 123 -210 123 -3 0 -97 -55 -210 -123z m116 -103 l94 -56 94 56 c52 31 100 56 106 56 15 0 150 -80 150 -89 0 -8 -333 -191 -349 -191 -19 0 -351 184 -348 193 3 11 130 86 145 87 8 0 56 -25 108 -56z m-100 -170 l174 -95 0 -205 c0 -112 -2 -204 -4 -204 -3 0 -42 22 -88 50 l-83 50 -5 107 -5 108 -87 48 -88 49 0 94 c0 52 3 94 6 94 3 0 84 -43 180 -96z m574 2 l0 -94 -87 -49 -88 -48 -5 -108 -5 -107 -83 -50 c-46 -28 -85 -50 -88 -50 -2 0 -4 92 -4 204 l0 204 173 96 c94 52 175 95 180 96 4 0 7 -42 7 -94z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-search {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' width='122.879px' height='119.799px' viewBox='0 0 122.879 119.799' enable-background='new 0 0 122.879 119.799' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M49.988,0h0.016v0.007C63.803,0.011,76.298,5.608,85.34,14.652c9.027,9.031,14.619,21.515,14.628,35.303h0.007v0.033v0.04 h-0.007c-0.005,5.557-0.917,10.905-2.594,15.892c-0.281,0.837-0.575,1.641-0.877,2.409v0.007c-1.446,3.66-3.315,7.12-5.547,10.307 l29.082,26.139l0.018,0.016l0.157,0.146l0.011,0.011c1.642,1.563,2.536,3.656,2.649,5.78c0.11,2.1-0.543,4.248-1.979,5.971 l-0.011,0.016l-0.175,0.203l-0.035,0.035l-0.146,0.16l-0.016,0.021c-1.565,1.642-3.654,2.534-5.78,2.646 c-2.097,0.111-4.247-0.54-5.971-1.978l-0.015-0.011l-0.204-0.175l-0.029-0.024L78.761,90.865c-0.88,0.62-1.778,1.209-2.687,1.765 c-1.233,0.755-2.51,1.466-3.813,2.115c-6.699,3.342-14.269,5.222-22.272,5.222v0.007h-0.016v-0.007 c-13.799-0.004-26.296-5.601-35.338-14.645C5.605,76.291,0.016,63.805,0.007,50.021H0v-0.033v-0.016h0.007 c0.004-13.799,5.601-26.296,14.645-35.338C23.683,5.608,36.167,0.016,49.955,0.007V0H49.988L49.988,0z M50.004,11.21v0.007h-0.016 h-0.033V11.21c-10.686,0.007-20.372,4.35-27.384,11.359C15.56,29.578,11.213,39.274,11.21,49.973h0.007v0.016v0.033H11.21 c0.007,10.686,4.347,20.367,11.359,27.381c7.009,7.012,16.705,11.359,27.403,11.361v-0.007h0.016h0.033v0.007 c10.686-0.007,20.368-4.348,27.382-11.359c7.011-7.009,11.358-16.702,11.36-27.4h-0.006v-0.016v-0.033h0.006 c-0.006-10.686-4.35-20.372-11.358-27.384C70.396,15.56,60.703,11.213,50.004,11.21L50.004,11.21z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-security {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' width='111.811px' height='122.88px' viewBox='0 0 111.811 122.88' enable-background='new 0 0 111.811 122.88' xml:space='preserve'%3E%3Cg%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M55.713,0c20.848,13.215,39.682,19.467,55.846,17.989 c2.823,57.098-18.263,90.818-55.63,104.891C19.844,109.708-1.5,77.439,0.083,17.123C19.058,18.116,37.674,14.014,55.713,0L55.713,0 z M41.458,56.508h1.438v-3.331c0-3.689,1.454-7.051,3.797-9.494c2.361-2.462,5.622-3.991,9.214-3.991s6.854,1.529,9.214,3.991 c2.343,2.443,3.797,5.805,3.797,9.494v3.331h1.438c1.167,0,2.123,0.955,2.123,2.123v22.434c0,1.168-0.956,2.123-2.123,2.123H41.458 c-1.168,0-2.123-0.955-2.123-2.123V58.631C39.334,57.463,40.29,56.508,41.458,56.508L41.458,56.508z M54.164,71.286l-2.291,6h8.066 l-2.122-6.082c1.347-0.693,2.268-2.097,2.268-3.716c0-2.308-1.871-4.179-4.179-4.179s-4.178,1.871-4.178,4.179 C51.728,69.173,52.726,70.625,54.164,71.286L54.164,71.286z M46.916,56.508h17.981v-3.331c0-2.623-1.021-4.999-2.666-6.715 c-1.627-1.697-3.866-2.751-6.325-2.751c-2.458,0-4.698,1.054-6.324,2.751c-1.646,1.716-2.666,4.092-2.666,6.715V56.508 L46.916,56.508z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-facility {\n  width: 28px;\n  height: 28px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' viewBox='0 0 512 512' enable-background='new 0 0 512 512' xml:space='preserve' style='fill:%23000000'%3E%3Cg%3E%3Cpath d='M77.175,184.867v49.926h93.689V283H77.175v94.036H19.387V134.94h159.347v49.927H77.175z'/%3E%3Cpath d='M435.867,377.036l1.366-171.314h-1.026l-62.919,171.314h-41.031L271.05,205.722h-1.025l1.372,171.314H216.34V134.94h83.192&%2313;&%2310; l55.126,155.243h1.366l52.72-155.243h84.565v242.096H435.867z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-c2o {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' viewBox='0 0 32 32' style='fill:%23000000'%3E%3Cg/%3E%3Cpath d='M22 4h-4v-2c0-1.1-0.9-2-2-2h-4c-1.1 0-2 0.9-2 2v2h-4v4h16v-4zM16 4h-4v-1.996c0.001-0.001 0.002-0.002 0.004-0.004h3.993c0.001 0.001 0.003 0.002 0.004 0.004v1.996zM26 10v-5c0-0.55-0.45-1-1-1h-2v2h1v4h-6l-6 6v8h-8v-18h1v-2h-2c-0.55 0-1 0.45-1 1v20c0 0.55 0.45 1 1 1h9v6h20v-22h-6zM18 12.828v3.172h-3.172l3.172-3.172zM30 30h-16v-12h6v-6h10v18z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-leafcare {\n  width: 28px;\n  height: 28px;\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 122.88 105.16' style='enable-background:new 0 0 122.88 105.16' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M66.41,88.93h21.91c1.76-1.75,3.69-3.57,5.65-5.42c4.11-3.89,8.4-7.95,12.81-13.03c5.04-5.81,5.58-7.82,7.11-13.51 c0.29-1.07,0.61-2.27,1.03-3.76l2.62-9.21l0.03-0.1c1.4-4.1,1.51-6.81,0.93-8.37c-0.18-0.48-0.41-0.8-0.68-0.97 c-0.21-0.14-0.49-0.19-0.78-0.16c-0.68,0.07-1.45,0.5-2.15,1.27l-7.78,18.53c-0.07,0.17-0.17,0.33-0.28,0.47 c-0.46,0.83-1.08,1.64-1.88,2.41l-13.8,15.39c-0.75,0.84-2.04,0.91-2.87,0.16c-0.84-0.75-0.91-2.04-0.16-2.87l13.81-15.39 c0.06-0.07,0.12-0.14,0.19-0.2c1.43-1.36,1.88-2.83,1.63-3.9c-0.08-0.33-0.22-0.61-0.42-0.8c-0.19-0.17-0.44-0.29-0.75-0.32v0 c-1.23-0.13-3.04,0.78-5.25,3.39l0,0c-0.06,0.07-0.13,0.14-0.2,0.21l-5.35,4.72l-0.03,0.03c-5.79,5.48-8.28,6.78-12.82,9.15 c-0.95,0.5-1.99,1.04-3.28,1.74c-0.51,0.28-1.01,0.62-1.5,0.99c-0.52,0.4-1.02,0.81-1.49,1.21c-2.4,2.02-3.66,3.66-4.38,5.47 c-0.75,1.88-1.02,4.17-1.39,7.31c-0.15,1.27-0.26,2.52-0.35,3.77C66.47,87.74,66.44,88.34,66.41,88.93L66.41,88.93z M51.47,42.28 c-2.18,2.9-4.05,5.32-5.06,8.09c-0.99,2.7-1.39,3.94,0.85,1.13c2.09-2.61,4.05-5.15,6.9-7.55c0.2,0.05,0.42,0.09,0.64,0.14 C80.67,49.23,99.5,37.6,96.19,0C76.28,6.9,48.07,4.09,50.99,39.43C51.1,40.74,51.2,41.64,51.47,42.28L51.47,42.28z M58.41,36.63 c6.5-14,23.2-18.8,31.48-28.37C80.9,25.79,75.99,25.02,58.41,36.63L58.41,36.63L58.41,36.63z M56.47,88.93H34.55 c-1.76-1.75-3.69-3.57-5.65-5.42c-4.11-3.89-8.4-7.95-12.81-13.03c-5.04-5.81-5.58-7.82-7.11-13.51C8.7,55.9,8.38,54.7,7.96,53.21 L5.34,44l-0.03-0.1c-1.4-4.1-1.51-6.81-0.93-8.37c0.18-0.48,0.41-0.8,0.68-0.97c0.21-0.14,0.49-0.19,0.78-0.16 C6.53,34.46,7.3,34.9,8,35.66l7.78,18.53c0.07,0.17,0.17,0.33,0.28,0.47c0.46,0.83,1.08,1.64,1.88,2.41l13.8,15.39 c0.75,0.84,2.04,0.91,2.87,0.16c0.84-0.75,0.91-2.04,0.16-2.87L20.96,54.35c-0.06-0.07-0.12-0.14-0.19-0.2 c-1.43-1.36-1.88-2.83-1.63-3.9c0.08-0.33,0.22-0.61,0.42-0.8c0.19-0.17,0.44-0.29,0.75-0.32v0c1.23-0.13,3.05,0.78,5.25,3.39l0,0 c0.06,0.07,0.13,0.14,0.2,0.21l5.35,4.72l0.03,0.03c5.79,5.48,8.28,6.78,12.82,9.15c0.95,0.5,1.99,1.04,3.28,1.74 c0.51,0.28,1.01,0.62,1.5,0.99c0.52,0.4,1.02,0.81,1.49,1.21c2.4,2.02,3.66,3.66,4.38,5.47c0.75,1.88,1.02,4.17,1.39,7.31 c0.15,1.27,0.26,2.52,0.35,3.77C56.41,87.74,56.44,88.34,56.47,88.93L56.47,88.93z M29.45,89.63c-0.31,0.36-0.5,0.83-0.5,1.34 v12.14c0,1.13,0.92,2.04,2.04,2.04h27.58c1.13,0,2.04-0.92,2.04-2.04V90.86c0-1.3-0.08-2.7-0.17-4c-0.09-1.33-0.21-2.65-0.36-3.96 c-0.4-3.43-0.7-5.94-1.66-8.35c-0.99-2.47-2.58-4.6-5.53-7.09c-0.54-0.46-1.09-0.92-1.67-1.35c-0.61-0.46-1.27-0.9-2.01-1.31 c-1.2-0.65-2.32-1.24-3.34-1.78c-4.2-2.2-6.5-3.4-11.91-8.52c-0.04-0.04-0.09-0.08-0.13-0.11l-5.22-4.61 c-3.19-3.73-6.31-4.97-8.7-4.71l-0.01,0v0c-1.17,0.12-2.17,0.58-2.97,1.28L11.65,33.8l-0.01,0c-0.08-0.18-0.18-0.35-0.31-0.51 c-1.46-1.75-3.31-2.77-5.08-2.95c-1.21-0.12-2.38,0.14-3.4,0.8c-0.97,0.63-1.77,1.61-2.27,2.96c-0.88,2.35-0.86,6,0.86,11.05 l2.6,9.15c0.38,1.32,0.71,2.59,1.02,3.71c1.7,6.35,2.3,8.6,7.97,15.12c4.49,5.17,8.88,9.33,13.1,13.32 C27.23,87.51,28.33,88.55,29.45,89.63L29.45,89.63z M33.35,93.01c0.27,0.06,0.55,0.06,0.83,0h22.34v8.06H33.03v-8.06H33.35 L33.35,93.01z M93.43,89.63c0.31,0.36,0.5,0.83,0.5,1.34v12.14c0,1.13-0.91,2.04-2.04,2.04H64.32c-1.13,0-2.04-0.92-2.04-2.04 V90.86c0-0.07,0-0.15,0.01-0.22c0.03-1.31,0.08-2.58,0.16-3.78c0.09-1.33,0.21-2.65,0.36-3.96c0.4-3.43,0.7-5.94,1.66-8.35 c0.99-2.47,2.58-4.6,5.53-7.09c0.54-0.46,1.09-0.92,1.67-1.35c0.61-0.46,1.27-0.9,2.01-1.31c1.2-0.65,2.32-1.24,3.34-1.78 c4.2-2.2,6.5-3.4,11.91-8.52c0.04-0.04,0.09-0.08,0.13-0.11l5.22-4.61c3.19-3.73,6.31-4.97,8.7-4.71l0.01,0v0 c1.17,0.12,2.17,0.58,2.97,1.28l5.27-12.56l0.01,0c0.08-0.18,0.18-0.35,0.31-0.51c1.46-1.75,3.31-2.77,5.08-2.95 c1.21-0.12,2.38,0.14,3.4,0.8c0.97,0.63,1.77,1.61,2.27,2.96c0.88,2.35,0.86,6-0.86,11.05l-2.6,9.15 c-0.38,1.32-0.71,2.59-1.02,3.71c-1.7,6.35-2.3,8.6-7.97,15.12c-4.49,5.17-8.88,9.33-13.1,13.32 C95.65,87.51,94.55,88.55,93.43,89.63L93.43,89.63z M89.53,93.01c-0.27,0.06-0.55,0.06-0.83,0H66.36v8.06h23.49v-8.06H89.53 L89.53,93.01z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-leafbuilding {\n  width: 27px;\n  height: 27px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.0' width='100.000000pt' height='100.000000pt' viewBox='0 0 100.000000 100.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,100.000000) scale(0.100000,-0.100000)' fill='%23000000' stroke='none'%3E%3Cpath d='M200 900 c0 -38 -2 -40 -30 -40 l-30 0 0 -400 0 -400 90 0 90 0 0 80 0 80 40 0 40 0 0 -80 0 -80 90 0 90 0 0 45 0 46 28 -15 c28 -15 29 -16 18 -65 -7 -37 -7 -54 1 -62 16 -16 33 -2 33 29 0 47 12 55 53 37 66 -27 128 -16 181 33 39 37 55 78 67 174 5 44 17 94 25 111 19 36 10 47 -45 54 l-41 6 0 133 0 134 -140 0 -140 0 0 -40 c0 -33 3 -40 20 -40 13 0 20 -7 20 -20 0 -13 -7 -20 -20 -20 -13 0 -20 -7 -20 -20 0 -13 7 -20 20 -20 13 0 20 -7 20 -20 0 -13 -7 -20 -20 -20 -13 0 -20 -7 -20 -20 0 -13 7 -20 20 -20 13 0 20 -7 20 -20 0 -13 -7 -20 -20 -20 -14 0 -20 -7 -20 -23 0 -12 -9 -28 -20 -35 -20 -12 -20 -10 -20 233 l0 245 -30 0 c-28 0 -30 2 -30 40 l0 40 -160 0 -160 0 0 -40z m60 -140 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m-240 -100 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m240 -40 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m-560 -80 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m240 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m-80 -74 c0 -8 -7 -17 -16 -20 -23 -9 -24 -8 -24 14 0 13 7 20 20 20 11 0 20 -6 20 -14z m80 4 c0 -5 -9 -10 -20 -10 -11 0 -20 5 -20 10 0 6 9 10 20 10 11 0 20 -4 20 -10z m-560 -50 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m403 -7 c36 -5 38 -8 33 -32 -3 -14 -10 -61 -16 -104 -5 -47 -18 -92 -30 -112 -22 -36 -73 -65 -115 -65 -25 0 -85 25 -85 36 0 35 94 150 165 201 23 16 27 24 19 33 -26 26 -139 -68 -191 -158 -15 -26 -27 -48 -28 -50 -7 -9 -55 24 -64 45 -57 124 116 239 312 206z m-643 -113 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m-240 -120 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m240 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-trend {\n  background-image: url(\"data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 122.88 106.5'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill-rule:evenodd;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Echart%3C/title%3E%3Cpath class='cls-1' d='M19.39,64.84v39.84a1.84,1.84,0,0,1-1.83,1.82H1.83A1.83,1.83,0,0,1,0,104.68V64.84ZM0,51.83,41.59,15.44c9.21,9,18.14,19.93,27.25,28.93L102.07,11,91.37.28,122.88,0V31.78L112.61,21.51c-7.37,7.47-24.8,23.92-32.17,31.3-9.33,9.32-13.78,9.49-23.1.17L41.59,35.46,23.13,51.83ZM114.37,38.69v66a1.84,1.84,0,0,1-1.82,1.82H96.81A1.84,1.84,0,0,1,95,104.68V57.29c3-2.91,6.5-6.29,10.07-9.73l7.45-7.17a24.16,24.16,0,0,1,1.87-1.7ZM82.71,68.34v36.34a1.84,1.84,0,0,1-1.83,1.82H65.15a1.84,1.84,0,0,1-1.83-1.82V72.22a22.48,22.48,0,0,0,5.73.63,24,24,0,0,0,13.66-4.51Zm-31.66-3v39.29a1.84,1.84,0,0,1-1.83,1.82H33.48a1.83,1.83,0,0,1-1.82-1.82V62q.48-.36.93-.75l7.86-7,6.34,7,.49.51q1.92,1.93,3.77,3.52Z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-iaq {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M288 32c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM143.5 128c13.3 0 24.1 10.8 24.1 24.1c0 2.7-.4 5.4-1.2 8.1l-33.6 112c-1.4 4.7-5.8 7.8-10.7 7.8s-9.3-3.1-10.7-7.8l-33.6-112c-.8-2.7-1.2-5.4-1.2-8.1C76.4 138.8 87.2 128 100.5 128h43zM511.9 192c-.3 39.3-32.1 71.4-71.4 71.4H352c-39.8 0-72.4-32.4-72.4-72.4c0-18.7 7.2-35.6 18.9-48.3l85.9-93.9c6.3-6.9 17-7.2 23.8-.9c6.9 6.3 7.2 17 .9 23.8l-85.9 93.9c-5.7 6.2-9.2 14.4-9.2 23.4c0 18.7 15.2 33.9 33.9 33.9h88.6c18.7 0 33.9-15.2 33.9-33.9c0-9.3-3.8-17.8-9.9-23.9l-85.9-85.9c-6.6-6.6-6.6-17.4 0-24s17.4-6.6 24 0l85.9 85.9c12.5 12.5 20.2 29.8 20.2 48.8zM192 256c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM304 416c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM20.1 468.9C18.4 461.1 25.9 454 33.9 454H65.8c10.2 0 18.9-7.6 19.7-17.7c1.2-14.4 7.2-27.9 16.7-38.2l61.4-66.7c5.7-6.2 15.7-6.2 21.4 0l61.4 66.7c9.5 10.3 15.5 23.8 16.7 38.2c.8 10.1 9.5 17.7 19.7 17.7h31.9c8 0 15.5 7.1 13.8 14.9l-7.8 36c-1.4 6.5-7.2 11.1-13.8 11.1H61.7c-6.6 0-12.4-4.6-13.8-11.1l-7.8-36z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-coperate-service {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.0' width='96.000000pt' height='96.000000pt' viewBox='0 0 96.000000 96.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,96.000000) scale(0.100000,-0.100000)' fill='%23000000' stroke='none'%3E%3Cpath d='M452 934 c-18 -9 -42 -28 -52 -42 l-20 -25 39 -42 c37 -40 45 -61 53 -135 3 -21 9 -25 40 -28 108 -9 189 105 143 202 -35 73 -131 106 -203 70z'/%3E%3Cpath d='M212 834 c-130 -67 -94 -255 52 -271 149 -17 225 172 103 259 -39 28 -112 34 -155 12z'/%3E%3Cpath d='M445 618 c-10 -18 -19 -37 -20 -41 0 -4 27 -19 60 -32 74 -30 105 -63 105 -113 l1 -37 20 37 c25 48 86 81 141 76 38 -4 39 -3 36 26 -6 56 -108 103 -248 113 l-75 5 -20 -34z'/%3E%3Cpath d='M174 536 c-64 -15 -117 -38 -146 -64 -14 -12 -18 -31 -18 -89 0 -116 -6 -113 259 -113 l219 0 6 32 c3 18 18 44 32 59 38 39 31 95 -15 126 -76 51 -229 73 -337 49z'/%3E%3Cpath d='M688 454 c-28 -15 -58 -61 -58 -89 0 -10 -9 -15 -28 -15 -17 0 -37 -10 -50 -23 -20 -21 -22 -34 -22 -148 0 -174 -7 -169 211 -169 216 0 209 -6 209 171 0 118 -1 127 -23 147 -13 12 -35 22 -50 22 -18 0 -27 5 -27 15 0 29 -30 75 -60 90 -36 19 -67 19 -102 -1z m86 -60 c31 -30 20 -44 -34 -44 -54 0 -65 14 -34 44 20 20 48 20 68 0z m116 -130 c0 -21 -9 -29 -55 -50 -70 -31 -118 -30 -189 1 -47 21 -56 29 -56 50 l0 25 150 0 150 0 0 -26z m-249 -114 c27 -12 66 -20 99 -20 33 0 72 8 99 20 24 11 45 20 47 20 2 0 4 -22 4 -50 l0 -50 -150 0 -150 0 0 50 c0 28 2 50 4 50 2 0 23 -9 47 -20z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button:hover {\n  background-color: rgba(125, 125, 125, 0.8156862745);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon {\n  filter: invert(85%) sepia(41%) saturate(850%) hue-rotate(90deg) brightness(101%) contrast(102%);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar:hover {\n  opacity: 1;\n}\n\n.dropdown-btn-content.dt-navigation-toolbar-serch-custom-dropdown {\n  transform: translateX(-51%) translateY(-4%) !important;\n  background-color: #000000;\n  opacity: 0.8;\n}\n.dropdown-btn-content.dt-navigation-toolbar-serch-custom-dropdown::before {\n  border-bottom: 10px solid #000000 !important;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -120298,6 +120298,7 @@ const DebugWidgetUploader_1 = __importDefault(__webpack_require__(/*! ./DebugWid
 const WidgetService_1 = __webpack_require__(/*! ../services/WidgetService */ "./src/services/WidgetService.ts");
 const uxp_1 = __webpack_require__(/*! ../uxp */ "./src/uxp.ts");
 const widgetManagerService_1 = __webpack_require__(/*! ../tools/widgetManagerService */ "./src/tools/widgetManagerService.tsx");
+const categoryWidgetFilter_1 = __webpack_require__(/*! ../tools/categoryWidgetFilter */ "./src/tools/categoryWidgetFilter.ts");
 const Button = ({ title, onClick, styles, children }) => {
     return (React.createElement("button", { onClick: onClick, style: Object.assign({ border: 'none', borderRadius: '6px', padding: '8px 16px', fontSize: '14px', fontWeight: '500', cursor: 'pointer', backgroundColor: '#3b82f6', color: 'white', transition: 'all 0.2s ease', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }, styles), onMouseEnter: (e) => {
             if (!(styles === null || styles === void 0 ? void 0 : styles.backgroundColor) || styles.backgroundColor === '#3b82f6') {
@@ -120330,6 +120331,7 @@ const WidgetIntegrator = (props) => {
     const [previewLocationKey, setPreviewLocationKey] = React.useState('preview-location');
     const [previewLocationName, setPreviewLocationName] = React.useState('Preview Building');
     const [previewInstanceId, setPreviewInstanceId] = React.useState('preview');
+    const [selectedCategory, setSelectedCategory] = React.useState(''); // Category selection for widgets
     const scanForRegisteredWidgets = () => {
         try {
             if (window.registeredWidgets) {
@@ -120560,14 +120562,14 @@ registerWidget({
 `;
         return code;
     };
-    const addToScene = (widgetId, placement, assetwidget) => {
+    const addToScene = (widgetId, placement, assetwidget, category) => {
         const widget = registeredWidgets.find(w => w.id === widgetId);
         if (widget && props.onAddToScene && widget.component) {
             // Register the component in the global registry for persistence
             const componentName = widget.component.displayName || widget.component.name || widgetId;
             (0, widgetManagerService_1.registerComponent)(componentName, widget.component);
             // Call the onAddToScene prop with the widget ID, component, and optional placement
-            props.onAddToScene(widgetId, widget.component, placement, assetwidget);
+            props.onAddToScene(widgetId, widget.component, placement, assetwidget, category);
         }
     };
     const copyToClipboard = () => {
@@ -121199,6 +121201,33 @@ registerWidget({
                                                 }, width: "16", height: "16", viewBox: "0 0 24 24", fill: "none", xmlns: "http://www.w3.org/2000/svg" },
                                                 React.createElement("path", { d: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z", stroke: "#94a3b8", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" })))),
                                     React.createElement("div", { style: {
+                                            backgroundColor: '#f0fdf4',
+                                            border: '1px solid #bbf7d0',
+                                            borderRadius: '6px',
+                                            padding: '12px',
+                                            marginBottom: '16px'
+                                        } },
+                                        React.createElement("h4", { style: {
+                                                margin: '0 0 8px 0',
+                                                fontSize: '14px',
+                                                fontWeight: '600',
+                                                color: '#15803d'
+                                            } }, "\uD83D\uDCC2 Widget Categories"),
+                                        React.createElement("p", { style: {
+                                                margin: '0 0 8px 0',
+                                                fontSize: '12px',
+                                                color: '#166534',
+                                                lineHeight: '1.4'
+                                            } }, "Organize widgets by category for easier filtering. Categories include: Sustainability, IAQ, Energy, Comfort, Security, Maintenance, Analytics, and Alarms."),
+                                        React.createElement("p", { style: {
+                                                margin: 0,
+                                                fontSize: '11px',
+                                                color: '#16a34a',
+                                                fontStyle: 'italic'
+                                            } },
+                                            "\uD83D\uDCA1 Use category event listeners to show/hide widgets: ",
+                                            React.createElement("code", { style: { backgroundColor: '#dcfce7', padding: '1px 3px', borderRadius: '2px' } }, "showWidgetsByCategory(['Sustainability'])"))),
+                                    React.createElement("div", { style: {
                                             overflowY: 'auto',
                                             height: '400px',
                                             display: 'block',
@@ -121255,7 +121284,41 @@ registerWidget({
                                                             color: '#64748b',
                                                             marginBottom: '8px',
                                                             lineHeight: '1.4'
-                                                        } }, widget.description))),
+                                                        } }, widget.description),
+                                                    selectedCategory && (React.createElement("div", { style: {
+                                                            display: 'inline-block',
+                                                            padding: '2px 6px',
+                                                            fontSize: '11px',
+                                                            fontWeight: '500',
+                                                            backgroundColor: '#e0f2fe',
+                                                            color: '#0369a1',
+                                                            borderRadius: '4px',
+                                                            marginBottom: '4px'
+                                                        } },
+                                                        "Category: ",
+                                                        selectedCategory)))),
+                                            React.createElement("div", { style: {
+                                                    marginTop: '12px',
+                                                    marginBottom: '8px'
+                                                } },
+                                                React.createElement("label", { style: {
+                                                        display: 'block',
+                                                        fontSize: '12px',
+                                                        fontWeight: '500',
+                                                        color: '#374151',
+                                                        marginBottom: '4px'
+                                                    } }, "Category (optional):"),
+                                                React.createElement("select", { value: selectedCategory, onChange: (e) => setSelectedCategory(e.target.value), style: {
+                                                        width: '100%',
+                                                        padding: '6px 8px',
+                                                        border: '1px solid #d1d5db',
+                                                        borderRadius: '4px',
+                                                        fontSize: '12px',
+                                                        backgroundColor: 'white',
+                                                        color: '#374151'
+                                                    } },
+                                                    React.createElement("option", { value: "" }, "No Category"),
+                                                    Object.entries(categoryWidgetFilter_1.WIDGET_CATEGORIES).map(([key, value]) => (React.createElement("option", { key: key, value: value }, value))))),
                                             React.createElement("div", { style: {
                                                     display: 'flex',
                                                     gap: '8px',
@@ -121264,7 +121327,7 @@ registerWidget({
                                                 } },
                                                 React.createElement(Button, { title: "Add to Scene", onClick: (e) => {
                                                         e === null || e === void 0 ? void 0 : e.stopPropagation();
-                                                        addToScene(widget.id);
+                                                        addToScene(widget.id, undefined, false, selectedCategory || undefined);
                                                     }, styles: {
                                                         fontSize: '12px',
                                                         padding: '6px 12px',
@@ -121275,7 +121338,7 @@ registerWidget({
                                                     } }),
                                                 React.createElement(Button, { title: "Add as Asset Widget", onClick: (e) => {
                                                         e === null || e === void 0 ? void 0 : e.stopPropagation();
-                                                        addToScene(widget.id, undefined, true); // Pass true for assetwidget
+                                                        addToScene(widget.id, undefined, true, selectedCategory || undefined); // Pass true for assetwidget
                                                     }, styles: {
                                                         fontSize: '12px',
                                                         padding: '6px 12px',
@@ -121383,7 +121446,7 @@ registerWidget({
                                     display: 'flex',
                                     gap: '8px'
                                 } },
-                                React.createElement(Button, { title: "Add to Scene", onClick: () => addToScene(previewWidgetId || ''), styles: {
+                                React.createElement(Button, { title: "Add to Scene", onClick: () => addToScene(previewWidgetId || '', undefined, false, selectedCategory || undefined), styles: {
                                         fontSize: '13px',
                                         padding: '8px 16px',
                                         backgroundColor: '#2563eb',
@@ -122449,8 +122512,22 @@ const NavigationToolBar = (props) => {
                                             React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-search` }))))),
                             React.createElement("td", null,
                                 React.createElement("div", { title: "Home", className: "dt-navigation-toolbar-button", onClick: () => {
-                                        let anchorurl = `/Apps/UXP/screen/dt-hypervisor-v01`;
-                                        window.open(anchorurl, '_self');
+                                        // Show uncategorized widgets (default view)
+                                        console.log('🏠 Showing uncategorized widgets (Home view)');
+                                        // Check if widget categories are available
+                                        if (window.widgetCategories && window.widgetCategories.showUncategorized) {
+                                            window.widgetCategories.showUncategorized();
+                                        }
+                                        else {
+                                            // Fallback: dispatch event directly to show uncategorized widgets
+                                            const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+                                                detail: {
+                                                    categories: [],
+                                                    showAll: false
+                                                }
+                                            });
+                                            window.dispatchEvent(event);
+                                        }
                                     } },
                                     React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
                                         React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-home` })))),
@@ -122468,6 +122545,27 @@ const NavigationToolBar = (props) => {
                                     } },
                                     React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
                                         React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-facility` })))),
+                            React.createElement("td", null,
+                                React.createElement("div", { title: "Indoor Air Quality (IAQ)", className: "dt-navigation-toolbar-button", onClick: () => {
+                                        // Trigger IAQ widget filtering
+                                        console.log('🌬️ Showing IAQ widgets');
+                                        // Check if widget categories are available
+                                        if (window.widgetCategories && window.widgetCategories.showIAQ) {
+                                            window.widgetCategories.showIAQ();
+                                        }
+                                        else {
+                                            // Fallback: dispatch event directly
+                                            const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+                                                detail: {
+                                                    categories: ['IAQ'],
+                                                    showAll: false
+                                                }
+                                            });
+                                            window.dispatchEvent(event);
+                                        }
+                                    } },
+                                    React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
+                                        React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-iaq` })))),
                             React.createElement("td", null,
                                 React.createElement("div", { title: "C2O", className: "dt-navigation-toolbar-button", onClick: () => {
                                         //let anchorurl = `/Apps/UXP/portal/operation-management`;
@@ -123249,6 +123347,8 @@ const ExternalMessageService_1 = __webpack_require__(/*! ./services/ExternalMess
 // Import skybox configuration from the new file
 const skyboxConfig_1 = __webpack_require__(/*! ./config/skyboxConfig */ "./src/config/skyboxConfig.ts");
 const DetailsLayer_1 = __importDefault(__webpack_require__(/*! ./components/DetailsLayer */ "./src/components/DetailsLayer.tsx"));
+// Import category-based widget filtering
+const categoryWidgetFilter_1 = __webpack_require__(/*! ./tools/categoryWidgetFilter */ "./src/tools/categoryWidgetFilter.ts");
 const ThreeDViewerWidget = (props) => {
     const canvasRef = React.useRef(null);
     const [engine, setEngine] = React.useState(null);
@@ -123308,6 +123408,9 @@ const ThreeDViewerWidget = (props) => {
     const [currentAssetKey, setCurrentAssetKey] = React.useState(null);
     // Add new state for dynamic widgets
     const [dynamicWidgets, setDynamicWidgets] = React.useState([]);
+    // Add state for active categories
+    const [activeCategories, setActiveCategories] = React.useState([]);
+    const [showAllCategories, setShowAllCategories] = React.useState(false); // Default to false - only show uncategorized widgets initially
     // Add state for sun control
     const [timeOfDay, setTimeOfDay] = React.useState(0.5); // Start at noon
     const [updateSunPosition, setUpdateSunPosition] = React.useState(null);
@@ -123336,11 +123439,33 @@ const ThreeDViewerWidget = (props) => {
     // Load saved widgets when component mounts
     React.useEffect(() => {
         (0, widgetManagerService_1.loadDynamicWidgets)(setDynamicWidgets);
+        // Register global category functions for testing
+        (0, categoryWidgetFilter_1.registerGlobalCategoryFunctions)();
     }, []);
     // Update the global registry whenever dynamic widgets change
     React.useEffect(() => {
         (0, widgetManagerService_1.updateGlobalRegistry)(dynamicWidgets);
     }, [dynamicWidgets]);
+    // Add event listener for category-based widget filtering
+    React.useEffect(() => {
+        const handleCategoryFilter = (event) => {
+            const { categories, showAll = false } = event.detail;
+            console.log('🔸 CATEGORY FILTER EVENT:', { categories, showAll });
+            if (showAll) {
+                setShowAllCategories(true);
+                setActiveCategories([]);
+            }
+            else {
+                setShowAllCategories(false);
+                setActiveCategories(categories);
+            }
+        };
+        // Listen for category filter events
+        window.addEventListener('dynamicWidgetCategoryFilter', handleCategoryFilter);
+        return () => {
+            window.removeEventListener('dynamicWidgetCategoryFilter', handleCategoryFilter);
+        };
+    }, []);
     // Update loadInitialModel to use the imported functions
     const loadInitialModel = () => __awaiter(void 0, void 0, void 0, function* () {
         var _a;
@@ -124144,16 +124269,17 @@ const ThreeDViewerWidget = (props) => {
         };
     };
     // Update handleAddWidgetToScene to save changes and allow placement choice
-    const handleAddWidgetToScene = (widgetId, widgetComponent, placement, assetwidget) => {
+    const handleAddWidgetToScene = (widgetId, widgetComponent, placement, assetwidget, category) => {
         console.log('🔸 ADDING WIDGET TO SCENE:', {
             widgetId,
             placement,
             assetwidget,
+            category,
             componentName: widgetComponent.displayName || widgetComponent.name
         });
         // If placement is not specified, show dialog to choose placement
         if (!placement) {
-            setPendingWidgetAdd({ id: widgetId, component: widgetComponent, assetwidget: assetwidget });
+            setPendingWidgetAdd({ id: widgetId, component: widgetComponent, assetwidget: assetwidget, category: category });
             setPlacementDialogOpen(true);
             return;
         }
@@ -124179,7 +124305,8 @@ const ThreeDViewerWidget = (props) => {
                 size: { width: 300, height: 200 },
                 sceneIds: [initialSceneId],
                 placement: placement,
-                assetwidget: assetwidget || false // New parameter to mark widgets as asset widgets
+                assetwidget: assetwidget || false,
+                category: category // Widget category for filtering
             };
             console.log('🔸 WIDGET CREATED:', newWidget);
             const updatedWidgets = [...prev, newWidget];
@@ -124194,9 +124321,10 @@ const ThreeDViewerWidget = (props) => {
             console.log('🔸 PLACEMENT SELECTED:', {
                 placement,
                 assetwidget: pendingWidgetAdd.assetwidget,
+                category: pendingWidgetAdd.category,
                 widgetId: pendingWidgetAdd.id
             });
-            handleAddWidgetToScene(pendingWidgetAdd.id, pendingWidgetAdd.component, placement, pendingWidgetAdd.assetwidget);
+            handleAddWidgetToScene(pendingWidgetAdd.id, pendingWidgetAdd.component, placement, pendingWidgetAdd.assetwidget, pendingWidgetAdd.category);
             setPendingWidgetAdd(null);
         }
         setPlacementDialogOpen(false);
@@ -124825,6 +124953,19 @@ const ThreeDViewerWidget = (props) => {
                 (currentModel && widget.sceneIds.includes(currentModel)))
                 // Filter out asset widgets (they are rendered separately)
                 .filter(widget => !widget.assetwidget)
+                // Filter by categories
+                .filter(widget => {
+                if (showAllCategories) {
+                    return true; // Show all widgets when explicitly set to show all
+                }
+                if (activeCategories.length > 0) {
+                    // When specific categories are selected, only show widgets in those categories
+                    return widget.category && activeCategories.includes(widget.category);
+                }
+                // When no categories are selected and showAllCategories is false,
+                // only show widgets without categories (uncategorized widgets)
+                return !widget.category;
+            })
                 .map((widget, index) => {
                 var _a;
                 const WidgetComponent = widget.component;
@@ -126108,7 +126249,8 @@ class WidgetLayoutService {
                     size: widget.size,
                     sceneIds: widget.sceneIds || [],
                     placement: widget.placement,
-                    assetwidget: widget.assetwidget
+                    assetwidget: widget.assetwidget,
+                    category: widget.category
                 }));
                 // Save to database
                 try {
@@ -126162,7 +126304,8 @@ class WidgetLayoutService {
                                 size: layout.size,
                                 sceneIds: layout.sceneIds || [],
                                 placement: layout.placement,
-                                assetwidget: layout.assetwidget
+                                assetwidget: layout.assetwidget,
+                                category: layout.category
                             }));
                             localStorage.setItem('dynamicWidgets', JSON.stringify(serializedWidgets));
                             return serializedWidgets;
@@ -128703,6 +128846,204 @@ function createTreeParticleSystem(targetMesh, texturePath, count, scene, params)
 
 /***/ }),
 
+/***/ "./src/tools/categoryWidgetFilter.ts":
+/*!*******************************************!*\
+  !*** ./src/tools/categoryWidgetFilter.ts ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+// Category-based Widget Filter Helper
+// This file provides utility functions to filter dynamic widgets by category
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.CategoryWidgetFilter = exports.registerGlobalCategoryFunctions = exports.showEnvironmentWidgets = exports.showSustainabilityAndEnergyWidgets = exports.showAlarmWidgets = exports.showAnalyticsWidgets = exports.showMaintenanceWidgets = exports.showSecurityWidgets = exports.showComfortWidgets = exports.showEnergyWidgets = exports.showIAQWidgets = exports.showSustainabilityWidgets = exports.showUncategorizedWidgets = exports.showAllWidgets = exports.showWidgetsByCategory = exports.WIDGET_CATEGORIES = void 0;
+/**
+ * Available widget categories
+ */
+exports.WIDGET_CATEGORIES = {
+    SUSTAINABILITY: 'Sustainability',
+    IAQ: 'IAQ',
+    ENERGY: 'Energy',
+    COMFORT: 'Comfort',
+    SECURITY: 'Security',
+    MAINTENANCE: 'Maintenance',
+    ANALYTICS: 'Analytics',
+    ALARMS: 'Alarms'
+};
+/**
+ * Show widgets of specific categories
+ * @param categories Array of category names to show
+ */
+const showWidgetsByCategory = (categories) => {
+    console.log('🔸 FILTERING WIDGETS BY CATEGORIES:', categories);
+    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+        detail: {
+            categories: categories,
+            showAll: false
+        }
+    });
+    window.dispatchEvent(event);
+};
+exports.showWidgetsByCategory = showWidgetsByCategory;
+/**
+ * Show all widgets regardless of category
+ */
+const showAllWidgets = () => {
+    console.log('🔸 SHOWING ALL WIDGETS (including categorized and uncategorized)');
+    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+        detail: {
+            categories: [],
+            showAll: true
+        }
+    });
+    window.dispatchEvent(event);
+};
+exports.showAllWidgets = showAllWidgets;
+/**
+ * Show only uncategorized widgets (default behavior)
+ */
+const showUncategorizedWidgets = () => {
+    console.log('🔸 SHOWING ONLY UNCATEGORIZED WIDGETS');
+    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+        detail: {
+            categories: [],
+            showAll: false
+        }
+    });
+    window.dispatchEvent(event);
+};
+exports.showUncategorizedWidgets = showUncategorizedWidgets;
+/**
+ * Sample event listeners for different categories
+ * Call these functions to demonstrate category filtering
+ */
+// Example: Show only Sustainability widgets
+const showSustainabilityWidgets = () => {
+    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.SUSTAINABILITY]);
+};
+exports.showSustainabilityWidgets = showSustainabilityWidgets;
+// Example: Show only IAQ (Indoor Air Quality) widgets
+const showIAQWidgets = () => {
+    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.IAQ]);
+};
+exports.showIAQWidgets = showIAQWidgets;
+// Example: Show Energy-related widgets
+const showEnergyWidgets = () => {
+    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.ENERGY]);
+};
+exports.showEnergyWidgets = showEnergyWidgets;
+// Example: Show Comfort-related widgets
+const showComfortWidgets = () => {
+    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.COMFORT]);
+};
+exports.showComfortWidgets = showComfortWidgets;
+// Example: Show Security widgets
+const showSecurityWidgets = () => {
+    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.SECURITY]);
+};
+exports.showSecurityWidgets = showSecurityWidgets;
+// Example: Show Maintenance widgets
+const showMaintenanceWidgets = () => {
+    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.MAINTENANCE]);
+};
+exports.showMaintenanceWidgets = showMaintenanceWidgets;
+// Example: Show Analytics widgets
+const showAnalyticsWidgets = () => {
+    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.ANALYTICS]);
+};
+exports.showAnalyticsWidgets = showAnalyticsWidgets;
+// Example: Show Alarm widgets
+const showAlarmWidgets = () => {
+    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.ALARMS]);
+};
+exports.showAlarmWidgets = showAlarmWidgets;
+// Example: Show multiple categories (Sustainability + Energy)
+const showSustainabilityAndEnergyWidgets = () => {
+    (0, exports.showWidgetsByCategory)([
+        exports.WIDGET_CATEGORIES.SUSTAINABILITY,
+        exports.WIDGET_CATEGORIES.ENERGY
+    ]);
+};
+exports.showSustainabilityAndEnergyWidgets = showSustainabilityAndEnergyWidgets;
+// Example: Show Environment-related widgets (IAQ + Comfort)
+const showEnvironmentWidgets = () => {
+    (0, exports.showWidgetsByCategory)([
+        exports.WIDGET_CATEGORIES.IAQ,
+        exports.WIDGET_CATEGORIES.COMFORT
+    ]);
+};
+exports.showEnvironmentWidgets = showEnvironmentWidgets;
+/**
+ * Helper function to register global functions for easy testing
+ * Call this to make the category functions available in window object for console testing
+ */
+const registerGlobalCategoryFunctions = () => {
+    window.widgetCategories = {
+        showSustainability: exports.showSustainabilityWidgets,
+        showIAQ: exports.showIAQWidgets,
+        showEnergy: exports.showEnergyWidgets,
+        showComfort: exports.showComfortWidgets,
+        showSecurity: exports.showSecurityWidgets,
+        showMaintenance: exports.showMaintenanceWidgets,
+        showAnalytics: exports.showAnalyticsWidgets,
+        showAlarms: exports.showAlarmWidgets,
+        showSustainabilityAndEnergy: exports.showSustainabilityAndEnergyWidgets,
+        showEnvironment: exports.showEnvironmentWidgets,
+        showAll: exports.showAllWidgets,
+        showUncategorized: exports.showUncategorizedWidgets,
+        // Direct access to core functions
+        filterByCategory: exports.showWidgetsByCategory,
+        categories: exports.WIDGET_CATEGORIES
+    };
+    console.log('🔸 Widget category functions registered globally!');
+    console.log('🔸 HOW IT WORKS:');
+    console.log('  📂 By DEFAULT: Only widgets WITHOUT categories are shown');
+    console.log('  🏷️  When you select categories: Only widgets IN those categories are shown');
+    console.log('  🌍 Show All: Shows ALL widgets (categorized + uncategorized)');
+    console.log('');
+    console.log('🔸 Available functions:');
+    console.log('  - window.widgetCategories.showSustainability()  // Show only Sustainability widgets');
+    console.log('  - window.widgetCategories.showIAQ()             // Show only IAQ widgets');
+    console.log('  - window.widgetCategories.showEnergy()          // Show only Energy widgets');
+    console.log('  - window.widgetCategories.showComfort()         // Show only Comfort widgets');
+    console.log('  - window.widgetCategories.showSecurity()        // Show only Security widgets');
+    console.log('  - window.widgetCategories.showMaintenance()     // Show only Maintenance widgets');
+    console.log('  - window.widgetCategories.showAnalytics()       // Show only Analytics widgets');
+    console.log('  - window.widgetCategories.showAlarms()          // Show only Alarm widgets');
+    console.log('  - window.widgetCategories.showSustainabilityAndEnergy()  // Combined categories');
+    console.log('  - window.widgetCategories.showEnvironment()     // Show IAQ + Comfort widgets');
+    console.log('  - window.widgetCategories.showAll()             // Show ALL widgets');
+    console.log('  - window.widgetCategories.showUncategorized()   // Show only uncategorized widgets (default)');
+    console.log('  - window.widgetCategories.filterByCategory(["Sustainability", "Energy"])  // Custom filter');
+    console.log('🔸 Available categories:', Object.values(exports.WIDGET_CATEGORIES));
+};
+exports.registerGlobalCategoryFunctions = registerGlobalCategoryFunctions;
+/**
+ * External API for other components to trigger category filtering
+ */
+exports.CategoryWidgetFilter = {
+    show: exports.showWidgetsByCategory,
+    showAll: exports.showAllWidgets,
+    showUncategorized: exports.showUncategorizedWidgets,
+    categories: exports.WIDGET_CATEGORIES,
+    presets: {
+        sustainability: exports.showSustainabilityWidgets,
+        iaq: exports.showIAQWidgets,
+        energy: exports.showEnergyWidgets,
+        comfort: exports.showComfortWidgets,
+        security: exports.showSecurityWidgets,
+        maintenance: exports.showMaintenanceWidgets,
+        analytics: exports.showAnalyticsWidgets,
+        alarms: exports.showAlarmWidgets,
+        sustainabilityAndEnergy: exports.showSustainabilityAndEnergyWidgets,
+        environment: exports.showEnvironmentWidgets
+    }
+};
+
+
+/***/ }),
+
 /***/ "./src/tools/meshGlow.tsx":
 /*!********************************!*\
   !*** ./src/tools/meshGlow.tsx ***!
@@ -129506,7 +129847,8 @@ const saveDynamicWidgets = (widgets) => __awaiter(void 0, void 0, void 0, functi
                     size: widget.size,
                     sceneIds: widget.sceneIds,
                     placement: widget.placement,
-                    assetwidget: widget.assetwidget
+                    assetwidget: widget.assetwidget,
+                    category: widget.category
                 };
             });
             localStorage.setItem('dynamicWidgets', JSON.stringify(serializedWidgets));
@@ -129631,7 +129973,8 @@ const loadDynamicWidgets = (setDynamicWidgets) => __awaiter(void 0, void 0, void
                 size: widget.size,
                 sceneIds: widget.sceneIds,
                 placement: widget.placement,
-                assetwidget: widget.assetwidget
+                assetwidget: widget.assetwidget,
+                category: widget.category // Include category for filtering
             };
         }).filter(widget => widget !== null);
         if (reconstructedWidgets.length > 0) {
