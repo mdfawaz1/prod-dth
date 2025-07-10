@@ -11673,8 +11673,8 @@ const mockPriorities = [
         location: 'Building 1 • Level 2',
         updated: 'Updated just now',
         actionLabel: 'View',
-        assetKey: 'asset_1',
-        locationKey: 'loc_1'
+        assetKey: '19',
+        locationKey: '1'
     },
     {
         category: 'Compliance',
@@ -11683,8 +11683,8 @@ const mockPriorities = [
         location: 'Building 3 • Level 1',
         updated: 'Due in 5 hrs',
         actionLabel: 'Acknowledge',
-        assetKey: 'asset_2',
-        locationKey: 'loc_2'
+        assetKey: '20',
+        locationKey: '2'
     },
     {
         category: 'Comfort',
@@ -11752,7 +11752,7 @@ const DailyPriorities = ({ data }) => {
     return (React.createElement("div", { className: "iaq-left-panel-widget-section iaq-left-panel-daily-priorities" },
         React.createElement("div", { className: "iaq-left-panel-widget-section-title" },
             React.createElement("div", { className: "iaq-left-panel-section-line" }),
-            React.createElement("span", null, "Daily Priorities"),
+            React.createElement("span", null, "Hypervisor Smart Actions"),
             React.createElement("div", { className: "iaq-left-panel-section-line" })),
         React.createElement("div", { className: "iaq-left-panel-priority-list" }, data.map((item, idx) => (React.createElement(PriorityItem, { key: idx, data: item }))))));
 };
