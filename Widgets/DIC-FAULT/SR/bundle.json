@@ -1,0 +1,24 @@
+{
+    "id": "58cc7b7d-011f-40a8-f342-5e3b1ae0b8f7",
+    "author": "Taraka",
+    "widgets": [
+        {
+            "id": "defectsummary-prioritywise-demo",
+            "name": "Defect Summary PriorityWise Demo",
+            "description": "Defect Summary PriorityWise (Demo version)",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}
