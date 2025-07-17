@@ -1,0 +1,24 @@
+{
+    "id": "17e26058-e772-498d-a547-c8adf955e5aa",
+    "author": "SSI",
+    "widgets": [
+        {
+            "id": "sustainability_right_panel",
+            "name": "sustainability_right_panel",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}

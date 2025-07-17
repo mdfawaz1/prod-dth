@@ -1,0 +1,1696 @@
+{
+  "models": [
+    {
+      "ApiRoutes": [],
+      "Definition": {
+        "actions": [
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "getCarbonEmissionData",
+            "outputs": [
+              ""
+            ],
+            "parameters": [
+              "locationType"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "locationType"
+              }
+            ],
+            "published": false,
+            "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"currentCarbonEmission\":{\"type\":\"integer\"},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"year\",\"value\"]}}},\"required\":[\"location\",\"currentCarbonEmission\",\"lastFiveYears\"]}",
+            "schemaFrozen": false,
+            "static": true
+          },
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "getCarbonEmissionIntensityData",
+            "outputs": [
+              ""
+            ],
+            "parameters": [
+              "locationType"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "locationType"
+              }
+            ],
+            "published": false,
+            "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"locationType\":{\"type\":\"string\"},\"currentCarbonEmission\":{\"type\":\"integer\"},\"unit\":{\"type\":\"string\"},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"year\",\"value\"]}}},\"required\":[\"location\",\"locationType\",\"currentCarbonEmission\",\"unit\",\"lastFiveYears\"]}",
+            "schemaFrozen": false,
+            "static": true
+          },
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "getEnergyUseData",
+            "outputs": [
+              ""
+            ],
+            "parameters": [
+              "locationType"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "locationType"
+              }
+            ],
+            "published": false,
+            "schema": "{\"type\":\"object\",\"properties\":{\"locationKey\":{\"type\":\"string\"},\"locationType\":{\"type\":\"string\"},\"unit\":{\"type\":\"string\"},\"costUnit\":{\"type\":\"string\"},\"current\":{\"type\":\"object\",\"properties\":{\"hourly\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hour\":{\"type\":\"string\"},\"consumption\":{\"type\":\"integer\"},\"cost\":{\"type\":\"number\"}},\"required\":[\"hour\",\"consumption\",\"cost\"]}},\"totalConsumption\":{\"type\":\"integer\"},\"totalCost\":{\"type\":\"number\"},\"from\":{\"type\":\"string\"},\"to\":{\"type\":\"string\"}},\"required\":[\"hourly\",\"totalConsumption\",\"totalCost\",\"from\",\"to\"]},\"previous\":{\"type\":\"object\",\"properties\":{\"hourly\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hour\":{\"type\":\"string\"},\"consumption\":{\"type\":\"integer\"},\"cost\":{\"type\":\"number\"}},\"required\":[\"hour\",\"consumption\",\"cost\"]}},\"totalConsumption\":{\"type\":\"integer\"},\"totalCost\":{\"type\":\"number\"},\"from\":{\"type\":\"string\"},\"to\":{\"type\":\"string\"}},\"required\":[\"hourly\",\"totalConsumption\",\"totalCost\",\"from\",\"to\"]},\"alerts\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"type\":{\"type\":\"string\"},\"timestamp\":{\"type\":\"string\"},\"description\":{\"type\":\"string\"}},\"required\":[\"type\",\"timestamp\",\"description\"]}},\"spikesLast24Hours\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"timestamp\":{\"type\":\"string\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"timestamp\",\"value\"]}}},\"required\":[\"locationKey\",\"locationType\",\"unit\",\"costUnit\",\"current\",\"previous\",\"alerts\",\"spikesLast24Hours\"]}",
+            "schemaFrozen": false,
+            "static": true
+          },
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "getREUsageData",
+            "outputs": [
+              ""
+            ],
+            "parameters": [
+              "locationType"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "locationType"
+              }
+            ],
+            "published": false,
+            "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"currentYear\":{\"type\":\"integer\"},\"donutChart\":{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"source\":{\"type\":\"string\"},\"percentage\":{\"type\":\"integer\"},\"energy_kWh\":{\"type\":\"integer\"}},\"required\":[\"source\",\"percentage\",\"energy_kWh\"]}}},\"required\":[\"data\"]},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"renewablePercentage\":{\"type\":\"integer\"}},\"required\":[\"year\",\"renewablePercentage\"]}}},\"required\":[\"location\",\"currentYear\",\"donutChart\",\"lastFiveYears\"]}",
+            "schemaFrozen": false,
+            "static": true
+          },
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "getWaterIntensityData",
+            "outputs": [
+              ""
+            ],
+            "parameters": [
+              "locationType"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "locationType"
+              }
+            ],
+            "published": false,
+            "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"locationType\":{\"type\":\"string\"},\"currentWaterUsage\":{\"type\":\"integer\"},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"year\",\"value\"]}}},\"required\":[\"location\",\"locationType\",\"currentWaterUsage\",\"lastFiveYears\"]}",
+            "schemaFrozen": false,
+            "static": true
+          },
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "getWaterUsageData",
+            "outputs": [
+              ""
+            ],
+            "parameters": [
+              "locationType"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "locationType"
+              }
+            ],
+            "published": false,
+            "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"currentWaterUsage\":{\"type\":\"integer\"},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"year\",\"value\"]}}},\"required\":[\"location\",\"currentWaterUsage\",\"lastFiveYears\"]}",
+            "schemaFrozen": false,
+            "static": true
+          },
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "setRatingFormDetails",
+            "outputs": [],
+            "parameters": [
+              "communication",
+              "effectiveness",
+              "location",
+              "resolvedManner",
+              "service",
+              "suggestion",
+              "surveyName"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "communication"
+              },
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "effectiveness"
+              },
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "location"
+              },
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "resolvedManner"
+              },
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "service"
+              },
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "suggestion"
+              },
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "surveyName"
+              }
+            ],
+            "published": false,
+            "schema": "",
+            "schemaFrozen": false,
+            "static": true
+          }
+        ],
+        "attributes": [],
+        "flows": {
+          "blocks": [
+            {
+              "actionName": "getCarbonEmissionData",
+              "canOverrideCredentials": false,
+              "capability": "",
+              "connections": {
+                "inputs": [],
+                "outputs": [
+                  {
+                    "source": "4c476e35-519e-43e0-b374-8d6fbb9bdf46:output:locationType",
+                    "target": "597341d7-2304-44d2-c2ac-62c1efeb6590:input:LK"
+                  }
+                ]
+              },
+              "debug": false,
+              "docs": "",
+              "id": "4c476e35-519e-43e0-b374-8d6fbb9bdf46",
+              "initiate": false,
+              "inputValues": [],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "locationType",
+                  "label": "locationType",
+                  "type": ""
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "output",
+                  "label": "All Output",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 60,
+                "top": 60
+              },
+              "preProcessService": "",
+              "published": false,
+              "roles": [],
+              "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"currentCarbonEmission\":{\"type\":\"integer\"},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"year\",\"value\"]}}},\"required\":[\"location\",\"currentCarbonEmission\",\"lastFiveYears\"]}",
+              "static": true,
+              "surface": "getCarbonEmissionData",
+              "title": "Action",
+              "type": "actionstart"
+            },
+            {
+              "actionName": "getCarbonEmissionIntensityData",
+              "canOverrideCredentials": false,
+              "capability": "",
+              "connections": {
+                "inputs": [],
+                "outputs": [
+                  {
+                    "source": "44d2b9b6-d3fe-43b8-c96e-24c4dedb6ddb:output:locationType",
+                    "target": "95cf3e13-23fa-4004-9cf3-d0961111fee4:input:LK"
+                  }
+                ]
+              },
+              "debug": false,
+              "docs": "",
+              "id": "44d2b9b6-d3fe-43b8-c96e-24c4dedb6ddb",
+              "initiate": false,
+              "inputValues": [],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "locationType",
+                  "label": "locationType",
+                  "type": ""
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "output",
+                  "label": "All Output",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 60,
+                "top": 60
+              },
+              "preProcessService": "",
+              "published": false,
+              "roles": [],
+              "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"locationType\":{\"type\":\"string\"},\"currentCarbonEmission\":{\"type\":\"integer\"},\"unit\":{\"type\":\"string\"},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"year\",\"value\"]}}},\"required\":[\"location\",\"locationType\",\"currentCarbonEmission\",\"unit\",\"lastFiveYears\"]}",
+              "static": true,
+              "surface": "getCarbonEmissionIntensityData",
+              "title": "Action",
+              "type": "actionstart"
+            },
+            {
+              "actionName": "getEnergyUseData",
+              "canOverrideCredentials": false,
+              "capability": "",
+              "connections": {
+                "inputs": [],
+                "outputs": [
+                  {
+                    "source": "5724d84b-eb70-4438-ae4a-261814982956:output:locationType",
+                    "target": "761a0f68-e249-4eb5-b709-a39e6fde02c5:input:LK"
+                  }
+                ]
+              },
+              "debug": false,
+              "docs": "",
+              "id": "5724d84b-eb70-4438-ae4a-261814982956",
+              "initiate": false,
+              "inputValues": [],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "locationType",
+                  "label": "locationType",
+                  "type": ""
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "output",
+                  "label": "All Output",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 60,
+                "top": 60
+              },
+              "preProcessService": "",
+              "published": false,
+              "roles": [],
+              "schema": "{\"type\":\"object\",\"properties\":{\"locationKey\":{\"type\":\"string\"},\"locationType\":{\"type\":\"string\"},\"unit\":{\"type\":\"string\"},\"costUnit\":{\"type\":\"string\"},\"current\":{\"type\":\"object\",\"properties\":{\"hourly\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hour\":{\"type\":\"string\"},\"consumption\":{\"type\":\"integer\"},\"cost\":{\"type\":\"number\"}},\"required\":[\"hour\",\"consumption\",\"cost\"]}},\"totalConsumption\":{\"type\":\"integer\"},\"totalCost\":{\"type\":\"number\"},\"from\":{\"type\":\"string\"},\"to\":{\"type\":\"string\"}},\"required\":[\"hourly\",\"totalConsumption\",\"totalCost\",\"from\",\"to\"]},\"previous\":{\"type\":\"object\",\"properties\":{\"hourly\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hour\":{\"type\":\"string\"},\"consumption\":{\"type\":\"integer\"},\"cost\":{\"type\":\"number\"}},\"required\":[\"hour\",\"consumption\",\"cost\"]}},\"totalConsumption\":{\"type\":\"integer\"},\"totalCost\":{\"type\":\"number\"},\"from\":{\"type\":\"string\"},\"to\":{\"type\":\"string\"}},\"required\":[\"hourly\",\"totalConsumption\",\"totalCost\",\"from\",\"to\"]},\"alerts\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"type\":{\"type\":\"string\"},\"timestamp\":{\"type\":\"string\"},\"description\":{\"type\":\"string\"}},\"required\":[\"type\",\"timestamp\",\"description\"]}},\"spikesLast24Hours\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"timestamp\":{\"type\":\"string\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"timestamp\",\"value\"]}}},\"required\":[\"locationKey\",\"locationType\",\"unit\",\"costUnit\",\"current\",\"previous\",\"alerts\",\"spikesLast24Hours\"]}",
+              "static": true,
+              "surface": "getEnergyUseData",
+              "title": "Action",
+              "type": "actionstart"
+            },
+            {
+              "actionName": "getREUsageData",
+              "canOverrideCredentials": false,
+              "capability": "",
+              "connections": {
+                "inputs": [],
+                "outputs": [
+                  {
+                    "source": "b7e677f7-1e9d-4a60-af2d-8a0c16b01f31:output:locationType",
+                    "target": "3ff1240f-3c1d-4f24-cc89-7bf88ead26f6:input:LK"
+                  }
+                ]
+              },
+              "debug": false,
+              "docs": "",
+              "id": "b7e677f7-1e9d-4a60-af2d-8a0c16b01f31",
+              "initiate": false,
+              "inputValues": [],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "locationType",
+                  "label": "locationType",
+                  "type": ""
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "output",
+                  "label": "All Output",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 60,
+                "top": 60
+              },
+              "preProcessService": "",
+              "published": false,
+              "roles": [],
+              "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"currentYear\":{\"type\":\"integer\"},\"donutChart\":{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"source\":{\"type\":\"string\"},\"percentage\":{\"type\":\"integer\"},\"energy_kWh\":{\"type\":\"integer\"}},\"required\":[\"source\",\"percentage\",\"energy_kWh\"]}}},\"required\":[\"data\"]},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"renewablePercentage\":{\"type\":\"integer\"}},\"required\":[\"year\",\"renewablePercentage\"]}}},\"required\":[\"location\",\"currentYear\",\"donutChart\",\"lastFiveYears\"]}",
+              "static": true,
+              "surface": "getREUsageData",
+              "title": "Action",
+              "type": "actionstart"
+            },
+            {
+              "actionName": "getWaterIntensityData",
+              "canOverrideCredentials": false,
+              "capability": "",
+              "connections": {
+                "inputs": [],
+                "outputs": [
+                  {
+                    "source": "7ba11e6c-4611-4152-fa84-dda96ac82f63:output:locationType",
+                    "target": "f7087841-b4e1-48b9-f290-88d553561e0b:input:LK"
+                  }
+                ]
+              },
+              "debug": false,
+              "docs": "",
+              "id": "7ba11e6c-4611-4152-fa84-dda96ac82f63",
+              "initiate": false,
+              "inputValues": [],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "locationType",
+                  "label": "locationType",
+                  "type": ""
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "output",
+                  "label": "All Output",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 60,
+                "top": 60
+              },
+              "preProcessService": "",
+              "published": false,
+              "roles": [],
+              "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"locationType\":{\"type\":\"string\"},\"currentWaterUsage\":{\"type\":\"integer\"},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"year\",\"value\"]}}},\"required\":[\"location\",\"locationType\",\"currentWaterUsage\",\"lastFiveYears\"]}",
+              "static": true,
+              "surface": "getWaterIntensityData",
+              "title": "Action",
+              "type": "actionstart"
+            },
+            {
+              "actionName": "getWaterUsageData",
+              "canOverrideCredentials": false,
+              "capability": "",
+              "connections": {
+                "inputs": [],
+                "outputs": [
+                  {
+                    "source": "1c12e81d-f4ec-4f24-d2ff-ae146f8e84d7:output:locationType",
+                    "target": "5384bc0c-1b2b-428a-8299-9ccb49c43f74:input:LK"
+                  }
+                ]
+              },
+              "debug": false,
+              "docs": "",
+              "id": "1c12e81d-f4ec-4f24-d2ff-ae146f8e84d7",
+              "initiate": false,
+              "inputValues": [],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "locationType",
+                  "label": "locationType",
+                  "type": ""
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "output",
+                  "label": "All Output",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 60,
+                "top": 60
+              },
+              "preProcessService": "",
+              "published": false,
+              "roles": [],
+              "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"currentWaterUsage\":{\"type\":\"integer\"},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"year\",\"value\"]}}},\"required\":[\"location\",\"currentWaterUsage\",\"lastFiveYears\"]}",
+              "static": true,
+              "surface": "getWaterUsageData",
+              "title": "Action",
+              "type": "actionstart"
+            },
+            {
+              "actionName": "setRatingFormDetails",
+              "canOverrideCredentials": false,
+              "capability": "",
+              "connections": {
+                "inputs": [],
+                "outputs": []
+              },
+              "debug": false,
+              "docs": "",
+              "id": "f7cd827f-697f-4f07-81a2-9d18295a84cc",
+              "initiate": false,
+              "inputValues": [],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "communication",
+                  "label": "communication",
+                  "type": ""
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "effectiveness",
+                  "label": "effectiveness",
+                  "type": ""
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "location",
+                  "label": "location",
+                  "type": ""
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "output",
+                  "label": "All Output",
+                  "type": ""
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "resolvedManner",
+                  "label": "resolvedManner",
+                  "type": ""
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "service",
+                  "label": "service",
+                  "type": ""
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "suggestion",
+                  "label": "suggestion",
+                  "type": ""
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "surveyName",
+                  "label": "surveyName",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 182,
+                "top": 74
+              },
+              "preProcessService": "",
+              "published": false,
+              "roles": [],
+              "schema": "",
+              "static": true,
+              "surface": "setRatingFormDetails",
+              "title": "Action",
+              "type": "actionstart"
+            },
+            {
+              "code": "let LocationKey = runtime.inputs().LK\r\n\r\n\r\n\r\n\r\nfunction hashString(str) {\r\n  let hash = 0;\r\n  for (let i = 0; i < str.length; i++) {\r\n    hash = (hash << 5) - hash + str.charCodeAt(i);\r\n    hash |= 0;\r\n  }\r\n  return Math.abs(hash);\r\n}\r\n\r\nfunction seededRandom(seed) {\r\n  const x = Math.sin(seed++) * 10000;\r\n  return x - Math.floor(x);\r\n}\r\n\r\nfunction getMockEnergyData(location) {\r\n  const seed = hashString(location);\r\n  const currentYear = 2025;\r\n  const lastFiveYears = [];\r\n\r\n  let totalEnergy = 0;\r\n  let renewablePercentage2025 = 0;\r\n\r\n  // Generate renewable percentages for last 5 years\r\n  for (let i = 0; i < 5; i++) {\r\n    const year = currentYear - (5 - i);\r\n    const percentage = Math.floor(10 + seededRandom(seed + i) * 40); // 10% - 50%\r\n    lastFiveYears.push({\r\n      year,\r\n      renewablePercentage: percentage\r\n    });\r\n    if (year === 2024) renewablePercentage2025 = percentage;\r\n  }\r\n\r\n  // Simulate total energy consumption for current year\r\n  totalEnergy = Math.floor(1000 + seededRandom(seed + 99) * 500); // 1000 - 1500 kWh\r\n\r\n  // Calculate current year renewable split\r\n  const renewables_kWh = Math.round((renewablePercentage2025 / 100) * totalEnergy);\r\n  const grid_kWh = totalEnergy - renewables_kWh;\r\n\r\n  const donutChart = {\r\n    data: [\r\n      {\r\n        source: \"Renewables\",\r\n        percentage: renewablePercentage2025,\r\n        energy_kWh: renewables_kWh\r\n      },\r\n      {\r\n        source: \"Grid Power\",\r\n        percentage: 100 - renewablePercentage2025,\r\n        energy_kWh: grid_kWh\r\n      }\r\n    ]\r\n  };\r\n\r\n  return {\r\n    location,\r\n    currentYear,\r\n    donutChart,\r\n    lastFiveYears\r\n  };\r\n}\r\n\r\n// // Example usage\r\n// console.log(getMockEnergyData(\"L1\"));\r\n// console.log(getMockEnergyData(\"S1\"));\r\n// console.log(getMockEnergyData(\"L1\")); // Will be consistent\r\n\r\nruntime.done({op:getMockEnergyData(LocationKey)})\r\n\r\n",
+              "connections": {
+                "inputs": [
+                  {
+                    "source": "b7e677f7-1e9d-4a60-af2d-8a0c16b01f31:output:locationType",
+                    "target": "3ff1240f-3c1d-4f24-cc89-7bf88ead26f6:input:LK"
+                  }
+                ],
+                "outputs": [
+                  {
+                    "source": "3ff1240f-3c1d-4f24-cc89-7bf88ead26f6:output:op",
+                    "target": "2eabfc87-108b-4163-aa70-56ccb4ca8460:input:input"
+                  }
+                ]
+              },
+              "description": "",
+              "id": "3ff1240f-3c1d-4f24-cc89-7bf88ead26f6",
+              "inputValues": [
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "LK",
+                  "label": "LK",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                },
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "trigger",
+                  "label": "Trigger",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                }
+              ],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "op",
+                  "label": "op",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 331,
+                "top": 137
+              },
+              "surface": "getREUsageData",
+              "timeoutMilliseconds": 5000,
+              "title": "ES6Javascript",
+              "type": "es6javascript"
+            },
+            {
+              "code": "let LocationKey = runtime.inputs().LK\r\n\r\nfunction hashString(str) {\r\n  let hash = 0;\r\n  for (let i = 0; i < str.length; i++) {\r\n    hash = (hash << 5) - hash + str.charCodeAt(i);\r\n    hash |= 0; // Convert to 32bit integer\r\n  }\r\n  return Math.abs(hash);\r\n}\r\n\r\nfunction seededRandom(seed) {\r\n  const x = Math.sin(seed++) * 10000;\r\n  return x - Math.floor(x);\r\n}\r\n\r\nfunction getMockWaterData(location) {\r\n  const seed = hashString(location);\r\n  let currentYear = new Date().getFullYear();\r\n\r\n  const lastFiveYears = [];\r\n  for (let i = 0; i < 5; i++) {\r\n    const year = currentYear - (4 - i);\r\n    const value = Math.floor(50 + seededRandom(seed + i) * 80); // Range 50-130\r\n    lastFiveYears.push({ year, value });\r\n  }\r\n\r\n  const currentWaterUsage = lastFiveYears[4].value;\r\n\r\n  return {\r\n    location,\r\n    currentWaterUsage,\r\n    lastFiveYears\r\n  };\r\n}\r\n\r\nruntime.done({op:getMockWaterData(LocationKey)})\r\n\r\n// Example usage\r\n// console.log(getMockWaterData(\"L1\"));\r\n// console.log(getMockWaterData(\"B2\"));\r\n// console.log(getMockWaterData(\"L1\")); // Will always return same output as first call\r\n",
+              "connections": {
+                "inputs": [],
+                "outputs": []
+              },
+              "description": "",
+              "id": "c04bfad3-dd54-4431-d25d-9accf55aa336",
+              "inputValues": [
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "LK",
+                  "label": "LK",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                },
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "trigger",
+                  "label": "Trigger",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                }
+              ],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "op",
+                  "label": "op",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 258.00001831054686,
+                "top": 419.00001831054686
+              },
+              "surface": "getCarbonEmissionData",
+              "timeoutMilliseconds": 5000,
+              "title": "ES6Javascript",
+              "type": "es6javascript"
+            },
+            {
+              "code": "let LocationKey = runtime.inputs().LK\r\n\r\nfunction hashString(str) {\r\n  let hash = 0;\r\n  for (let i = 0; i < str.length; i++) {\r\n    hash = (hash << 5) - hash + str.charCodeAt(i);\r\n    hash |= 0; // Convert to 32bit integer\r\n  }\r\n  return Math.abs(hash);\r\n}\r\n\r\nfunction seededRandom(seed) {\r\n  const x = Math.sin(seed++) * 10000;\r\n  return x - Math.floor(x);\r\n}\r\n\r\nfunction getMockWaterData(location) {\r\n  const seed = hashString(location);\r\n  let currentYear = new Date().getFullYear();\r\n\r\n  const lastFiveYears = [];\r\n  for (let i = 0; i < 5; i++) {\r\n    const year = currentYear - (4 - i);\r\n    const value = Math.floor(800 + seededRandom(seed + i) * 500); // Range 800–1300\r\n    lastFiveYears.push({ year, value });\r\n  }\r\n\r\n  const currentWaterUsage = lastFiveYears[4].value;\r\n\r\n  return {\r\n    location,\r\n    currentWaterUsage,\r\n    lastFiveYears\r\n  };\r\n}\r\n\r\nruntime.done({op:getMockWaterData(LocationKey)})\r\n\r\n// Example usage\r\n// console.log(getMockWaterData(\"L1\"));\r\n// console.log(getMockWaterData(\"B2\"));\r\n// console.log(getMockWaterData(\"L1\")); // Will always return same output as first call\r\n",
+              "connections": {
+                "inputs": [
+                  {
+                    "source": "1c12e81d-f4ec-4f24-d2ff-ae146f8e84d7:output:locationType",
+                    "target": "5384bc0c-1b2b-428a-8299-9ccb49c43f74:input:LK"
+                  }
+                ],
+                "outputs": [
+                  {
+                    "source": "5384bc0c-1b2b-428a-8299-9ccb49c43f74:output:op",
+                    "target": "40cdddfd-9499-444e-a1e5-ab5e736aff2e:input:input"
+                  }
+                ]
+              },
+              "description": "",
+              "id": "5384bc0c-1b2b-428a-8299-9ccb49c43f74",
+              "inputValues": [
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "LK",
+                  "label": "LK",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                },
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "trigger",
+                  "label": "Trigger",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                }
+              ],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "op",
+                  "label": "op",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 331,
+                "top": 137
+              },
+              "surface": "getWaterUsageData",
+              "timeoutMilliseconds": 5000,
+              "title": "ES6Javascript",
+              "type": "es6javascript"
+            },
+            {
+              "code": "let LocationKey = runtime.inputs().LK\r\n\r\nfunction hashString(str) {\r\n  let hash = 0;\r\n  for (let i = 0; i < str.length; i++) {\r\n    hash = (hash << 5) - hash + str.charCodeAt(i);\r\n    hash |= 0;\r\n  }\r\n  return Math.abs(hash);\r\n}\r\n\r\nfunction seededRandom(seed) {\r\n  const x = Math.sin(seed++) * 10000;\r\n  return x - Math.floor(x);\r\n}\r\n\r\nfunction getMockCarbonEmissionData(location) {\r\n  const seed = hashString(location);\r\n  const currentYear = 2025;\r\n\r\n  const base = 100;\r\n  const step = 5;\r\n  const lastFiveYears = [];\r\n\r\n  for (let i = 0; i < 5; i++) {\r\n    const year = currentYear - (5 - i);\r\n    let value = base - i * step;\r\n\r\n    // Add noise\r\n    const noise = Math.round(seededRandom(seed + i) * 10);\r\n    value -= noise;\r\n\r\n    // Optional spike in 2023\r\n    if (year === 2023 && seededRandom(seed + 300) > 0.8) {\r\n      value += Math.floor(0.4 * base); // e.g., spike by 40%\r\n    }\r\n\r\n    value = Math.max(20, value);\r\n    lastFiveYears.push({ year, value });\r\n  }\r\n\r\n // const currentCarbonEmission = lastFiveYears[lastFiveYears.length - 1].value;\r\n  const index = 5;\r\nconst noise = Math.round(seededRandom(seed + index) * step);\r\nlet currentCarbonEmission = Math.max(20, base - index * step - noise);\r\n\r\nlastFiveYears.push({ year: currentYear, value: currentCarbonEmission });\r\n\r\n\r\n  return {\r\n    location,\r\n    currentCarbonEmission,\r\n    lastFiveYears\r\n  };\r\n}\r\n\r\n// ?? Usage:\r\n// console.log(getMockCarbonEmissionData(\"L1\"));\r\n// console.log(getMockCarbonEmissionData(\"B2\"));\r\n// console.log(getMockCarbonEmissionData(\"XYZ\"));\r\n\r\n\r\nruntime.done({op:getMockCarbonEmissionData(LocationKey)})\r\n\r\n// Example usage\r\n// console.log(getMockWaterData(\"L1\"));\r\n// console.log(getMockWaterData(\"B2\"));\r\n// console.log(getMockWaterData(\"L1\")); // Will always return same output as first call\r\n",
+              "connections": {
+                "inputs": [
+                  {
+                    "source": "4c476e35-519e-43e0-b374-8d6fbb9bdf46:output:locationType",
+                    "target": "597341d7-2304-44d2-c2ac-62c1efeb6590:input:LK"
+                  }
+                ],
+                "outputs": [
+                  {
+                    "source": "597341d7-2304-44d2-c2ac-62c1efeb6590:output:op",
+                    "target": "17364d26-d1ce-4c8e-8656-8c09f895fe5f:input:input"
+                  }
+                ]
+              },
+              "description": "",
+              "id": "597341d7-2304-44d2-c2ac-62c1efeb6590",
+              "inputValues": [
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "LK",
+                  "label": "LK",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                },
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "trigger",
+                  "label": "Trigger",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                }
+              ],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "op",
+                  "label": "op",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 331.00001831054686,
+                "top": 137.0000030517578
+              },
+              "surface": "getCarbonEmissionData",
+              "timeoutMilliseconds": 5000,
+              "title": "ES6Javascript",
+              "type": "es6javascript"
+            },
+            {
+              "code": "let LocationKey = runtime.inputs().LK\r\nfunction hashString(str) {\r\n  let hash = 0;\r\n  for (let i = 0; i < str.length; i++) {\r\n    hash = (hash << 5) - hash + str.charCodeAt(i);\r\n    hash |= 0;\r\n  }\r\n  return Math.abs(hash);\r\n}\r\n\r\nfunction seededRandom(seed) {\r\n  const x = Math.sin(seed++) * 10000;\r\n  return x - Math.floor(x);\r\n}\r\n\r\nfunction getLocationType(location) {\r\n  const loc = location.toUpperCase();\r\n  if (loc.startsWith(\"S\")) return \"Site\";\r\n  if (loc.startsWith(\"B\")) return \"Building\";\r\n  if (loc.startsWith(\"L\")) return \"Floor\";\r\n  return \"Unknown\";\r\n}\r\n\r\nfunction getMockCarbonEmissionData(location) {\r\n  const seed = hashString(location);\r\n  const locationType = getLocationType(location);\r\n  const currentYear = 2025;\r\n\r\n  // Location-type-specific base and step values\r\n  const typeConfig = {\r\n    Site: { base: 1000, step: 60 },\r\n    Building: { base: 500, step: 30 },\r\n    Floor: { base: 80, step: 5 },\r\n    Unknown: { base: 200 + Math.floor(seededRandom(seed + 50) * 300), step: 10 + Math.floor(seededRandom(seed + 70) * 20) }\r\n  };\r\n\r\n  const { base, step } = typeConfig[locationType];\r\n  const lastFiveYears = [];\r\n\r\n  for (let i = 0; i < 5; i++) {\r\n    const year = currentYear - (5 - i);\r\n    const noise = Math.round(seededRandom(seed + i) * step);\r\n    const value = Math.max(20, base - i * step - noise); // Ensure it doesn't go negative\r\n    lastFiveYears.push({ year, value });\r\n  }\r\n\r\n  const index = 5;\r\n    const noise = Math.round(seededRandom(seed + index) * step);\r\n    let currentCarbonEmission = Math.max(20, base - index * step - noise);\r\n\r\n    lastFiveYears.push({ year: currentYear, value: currentCarbonEmission });\r\n\r\n\r\n\r\n  return {\r\n    location,\r\n    locationType,\r\n    currentCarbonEmission,\r\n    unit: \"tons CO2e\",\r\n    lastFiveYears\r\n  };\r\n}\r\n\r\n// Example usage:\r\n// console.log(getMockCarbonEmissionData(\"S1\")); // Site\r\n// console.log(getMockCarbonEmissionData(\"B1\")); // Building\r\n// console.log(getMockCarbonEmissionData(\"L1\")); // Floor\r\n// console.log(getMockCarbonEmissionData(\"X1\")); // Unknown ? Random\r\n\r\nruntime.done({op:getMockCarbonEmissionData(LocationKey)})\r\n\r\n// Example usage\r\n// console.log(getMockWaterData(\"L1\"));\r\n// console.log(getMockWaterData(\"B2\"));\r\n// console.log(getMockWaterData(\"L1\")); // Will always return same output as first call\r\n",
+              "connections": {
+                "inputs": [
+                  {
+                    "source": "44d2b9b6-d3fe-43b8-c96e-24c4dedb6ddb:output:locationType",
+                    "target": "95cf3e13-23fa-4004-9cf3-d0961111fee4:input:LK"
+                  }
+                ],
+                "outputs": [
+                  {
+                    "source": "95cf3e13-23fa-4004-9cf3-d0961111fee4:output:op",
+                    "target": "c9e4c578-22fd-407c-e4c8-ca54d7903b93:input:input"
+                  }
+                ]
+              },
+              "description": "",
+              "id": "95cf3e13-23fa-4004-9cf3-d0961111fee4",
+              "inputValues": [
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "LK",
+                  "label": "LK",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                },
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "trigger",
+                  "label": "Trigger",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                }
+              ],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "op",
+                  "label": "op",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 331,
+                "top": 137
+              },
+              "surface": "getCarbonEmissionIntensityData",
+              "timeoutMilliseconds": 5000,
+              "title": "ES6Javascript",
+              "type": "es6javascript"
+            },
+            {
+              "code": "let LocationKey = runtime.inputs().LK\r\nfunction hashString(str) {\r\n  let hash = 0;\r\n  for (let i = 0; i < str.length; i++) {\r\n    hash = (hash << 5) - hash + str.charCodeAt(i);\r\n    hash |= 0;\r\n  }\r\n  return Math.abs(hash);\r\n}\r\n\r\nfunction seededRandom(seed) {\r\n  const x = Math.sin(seed++) * 10000;\r\n  return x - Math.floor(x);\r\n}\r\n\r\nfunction getLocationType(location) {\r\n  const loc = location.toUpperCase();\r\n  if (loc.startsWith(\"S\")) return \"Site\";\r\n  if (loc.startsWith(\"B\")) return \"Building\";\r\n  if (loc.startsWith(\"L\")) return \"Floor\";\r\n  return \"Unknown\";\r\n}\r\n\r\nfunction getMockWaterUsageData(location) {\r\n  const seed = hashString(location);\r\n  const locationType = getLocationType(location);\r\n  const currentYear = 2025;\r\n\r\n  const typeConfig = {\r\n    Site: { base: 8000, step: 800 },\r\n    Building: { base: 4000, step: 400 },\r\n    Floor: { base: 1000, step: 100 },\r\n    Unknown: {\r\n      base: 2000 + Math.floor(seededRandom(seed + 50) * 2000),\r\n      step: 200 + Math.floor(seededRandom(seed + 70) * 100)\r\n    }\r\n  };\r\n\r\n  const { base, step } = typeConfig[locationType];\r\n  const lastFiveYears = [];\r\n\r\n  // Generate for 2020 to 2025 (6 years)\r\n  for (let i = 0; i <= 5; i++) {\r\n    const year = currentYear - (5 - i); // years 2020 to 2025\r\n    const growth = step * i;\r\n    const noise = Math.round(seededRandom(seed + i) * step * 0.2); // small variation\r\n    const value = base + growth + noise;\r\n    lastFiveYears.push({ year, value });\r\n  }\r\n\r\n  const currentWaterUsage = lastFiveYears[lastFiveYears.length - 1].value;\r\n\r\n  return {\r\n    location,\r\n    locationType,\r\n    currentWaterUsage,\r\n    lastFiveYears\r\n  };\r\n}\r\n\r\n\r\n\r\nruntime.done({op:getMockWaterUsageData(LocationKey)})\r\n\r\n\r\n",
+              "connections": {
+                "inputs": [
+                  {
+                    "source": "7ba11e6c-4611-4152-fa84-dda96ac82f63:output:locationType",
+                    "target": "f7087841-b4e1-48b9-f290-88d553561e0b:input:LK"
+                  }
+                ],
+                "outputs": [
+                  {
+                    "source": "f7087841-b4e1-48b9-f290-88d553561e0b:output:op",
+                    "target": "2717a325-d673-46e0-8d5f-262a493acabc:input:input"
+                  }
+                ]
+              },
+              "description": "",
+              "id": "f7087841-b4e1-48b9-f290-88d553561e0b",
+              "inputValues": [
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "LK",
+                  "label": "LK",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                },
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "trigger",
+                  "label": "Trigger",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                }
+              ],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "op",
+                  "label": "op",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 331,
+                "top": 137
+              },
+              "surface": "getWaterIntensityData",
+              "timeoutMilliseconds": 5000,
+              "title": "ES6Javascript",
+              "type": "es6javascript"
+            },
+            {
+              "code": "let LocationKey = runtime.inputs().LK\r\nfunction hashString(str) {\r\n  let hash = 0;\r\n  for (let i = 0; i < str.length; i++) {\r\n    hash = (hash << 5) - hash + str.charCodeAt(i);\r\n    hash |= 0;\r\n  }\r\n  return Math.abs(hash);\r\n}\r\n\r\nfunction seededRandom(seed) {\r\n  const x = Math.sin(seed++) * 10000;\r\n  return x - Math.floor(x);\r\n}\r\n\r\nfunction getLocationType(locationKey) {\r\n  if (typeof locationKey === \"string\") locationKey = locationKey.toUpperCase();\r\n  if (String(locationKey).startsWith(\"S\") || locationKey < 20000) return \"Site\";\r\n  if (String(locationKey).startsWith(\"B\") || locationKey < 30000) return \"Building\";\r\n  if (String(locationKey).startsWith(\"F\") || locationKey >= 30000) return \"Floor\";\r\n  return \"Unknown\";\r\n}\r\n\r\nfunction generateHourlyData(seed, baseConsumption, baseCostPerKWh) {\r\n  const hourly = [];\r\n  let totalConsumption = 0;\r\n  let totalCost = 0;\r\n\r\n  for (let i = 0; i <= 10; i++) {\r\n    const hour = i.toString().padStart(2, \"0\") + \":00\";\r\n    const variation = seededRandom(seed + i) * 0.2 + 0.9;\r\n    const consumption = Math.round(baseConsumption * variation);\r\n    const cost = +(consumption * baseCostPerKWh).toFixed(2);\r\n\r\n    hourly.push({ hour, consumption, cost });\r\n    totalConsumption += consumption;\r\n    totalCost += cost;\r\n  }\r\n\r\n  return {\r\n    hourly,\r\n    totalConsumption,\r\n    totalCost: +totalCost.toFixed(2)\r\n  };\r\n}\r\n\r\nfunction getMockEnergyUsageData(locationKey) {\r\n  const seed = hashString(locationKey.toString());\r\n  const locationType = getLocationType(locationKey);\r\n\r\n  const baseConfig = {\r\n    Site: { consumption: 50, costPerKWh: 0.25 },\r\n    Building: { consumption: 25, costPerKWh: 0.26 },\r\n    Floor: { consumption: 8, costPerKWh: 0.27 }\r\n  };\r\n\r\n  const { consumption, costPerKWh } = baseConfig[locationType] || baseConfig[\"Floor\"];\r\n\r\n  // Generate current and previous data\r\n  const current = generateHourlyData(seed + 10, consumption, costPerKWh);\r\n  const previous = generateHourlyData(seed + 20, consumption * 1.05, costPerKWh * 1.02);\r\n\r\n  const date = \"2024-06-10\";\r\n  const prevDate = \"2024-06-09\";\r\n\r\n  current.from = `${date}T00:00:00Z`;\r\n  current.to = `${date}T10:00:00Z`;\r\n  previous.from = `${prevDate}T00:00:00Z`;\r\n  previous.to = `${prevDate}T10:00:00Z`;\r\n\r\n  // Add a spike alert at some hour in current day\r\n  const spikeHourIndex = Math.floor(seededRandom(seed + 50) * 11);\r\n  const spikeHour = current.hourly[spikeHourIndex];\r\n  const spikeValue = spikeHour.consumption * 3;\r\n\r\n  const alerts = [\r\n    {\r\n      type: \"spike\",\r\n      timestamp: `${date}T${spikeHour.hour}:15:00Z`,\r\n      description: \"Unusual spike detected in energy usage\"\r\n    }\r\n  ];\r\n\r\n  const spikesLast24Hours = [\r\n    {\r\n      timestamp: `${date}T0${(spikeHourIndex + 2) % 10}:30:00Z`,\r\n      value: Math.round(seededRandom(seed + 60) * 200 + 50)\r\n    },\r\n    {\r\n      timestamp: `${prevDate}T2${(spikeHourIndex + 3) % 10}:45:00Z`,\r\n      value: Math.round(seededRandom(seed + 70) * 200 + 50)\r\n    }\r\n  ];\r\n\r\n  return {\r\n    locationKey,\r\n    locationType,\r\n    unit: \"kWh\",\r\n    costUnit: \"SGD\",\r\n    current,\r\n    previous,\r\n    alerts,\r\n    spikesLast24Hours\r\n  };\r\n}\r\n\r\n// ?? Example usage:\r\n// console.log(getMockEnergyUsageData(10001)); // Site\r\n// console.log(getMockEnergyUsageData(20002)); // Building\r\n// console.log(getMockEnergyUsageData(30003)); // Floor\r\n\r\n\r\n\r\nruntime.done({op:getMockEnergyUsageData(LocationKey)})\r\n\r\n\r\n",
+              "connections": {
+                "inputs": [
+                  {
+                    "source": "5724d84b-eb70-4438-ae4a-261814982956:output:locationType",
+                    "target": "761a0f68-e249-4eb5-b709-a39e6fde02c5:input:LK"
+                  }
+                ],
+                "outputs": [
+                  {
+                    "source": "761a0f68-e249-4eb5-b709-a39e6fde02c5:output:op",
+                    "target": "b6af1136-e8c9-458d-b5e1-0f1c741bd31a:input:input"
+                  }
+                ]
+              },
+              "description": "",
+              "id": "761a0f68-e249-4eb5-b709-a39e6fde02c5",
+              "inputValues": [
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "LK",
+                  "label": "LK",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                },
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "trigger",
+                  "label": "Trigger",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                }
+              ],
+              "outputValues": [
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "__error__",
+                  "label": "Error",
+                  "type": "error"
+                },
+                {
+                  "dataType": "",
+                  "description": "",
+                  "documentation": "",
+                  "example": "",
+                  "id": "op",
+                  "label": "op",
+                  "type": ""
+                }
+              ],
+              "position": {
+                "left": 331,
+                "top": 137
+              },
+              "surface": "getEnergyUseData",
+              "timeoutMilliseconds": 5000,
+              "title": "ES6Javascript",
+              "type": "es6javascript"
+            },
+            {
+              "connections": {
+                "inputs": [
+                  {
+                    "source": "3ff1240f-3c1d-4f24-cc89-7bf88ead26f6:output:op",
+                    "target": "2eabfc87-108b-4163-aa70-56ccb4ca8460:input:input"
+                  }
+                ],
+                "outputs": []
+              },
+              "fieldName": "",
+              "id": "2eabfc87-108b-4163-aa70-56ccb4ca8460",
+              "inputValues": [
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "input",
+                  "label": "Value",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                },
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "trigger",
+                  "label": "Trigger",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                }
+              ],
+              "outputValues": [],
+              "position": {
+                "left": 595,
+                "top": 168
+              },
+              "surface": "getREUsageData",
+              "title": "Output",
+              "type": "actionoutput2"
+            },
+            {
+              "connections": {
+                "inputs": [
+                  {
+                    "source": "5384bc0c-1b2b-428a-8299-9ccb49c43f74:output:op",
+                    "target": "40cdddfd-9499-444e-a1e5-ab5e736aff2e:input:input"
+                  }
+                ],
+                "outputs": []
+              },
+              "fieldName": "",
+              "id": "40cdddfd-9499-444e-a1e5-ab5e736aff2e",
+              "inputValues": [
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "input",
+                  "label": "Value",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                },
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "trigger",
+                  "label": "Trigger",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                }
+              ],
+              "outputValues": [],
+              "position": {
+                "left": 595,
+                "top": 168
+              },
+              "surface": "getWaterUsageData",
+              "title": "Output",
+              "type": "actionoutput2"
+            },
+            {
+              "connections": {
+                "inputs": [
+                  {
+                    "source": "597341d7-2304-44d2-c2ac-62c1efeb6590:output:op",
+                    "target": "17364d26-d1ce-4c8e-8656-8c09f895fe5f:input:input"
+                  }
+                ],
+                "outputs": []
+              },
+              "fieldName": "",
+              "id": "17364d26-d1ce-4c8e-8656-8c09f895fe5f",
+              "inputValues": [
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "input",
+                  "label": "Value",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                },
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "trigger",
+                  "label": "Trigger",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                }
+              ],
+              "outputValues": [],
+              "position": {
+                "left": 595,
+                "top": 168
+              },
+              "surface": "getCarbonEmissionData",
+              "title": "Output",
+              "type": "actionoutput2"
+            },
+            {
+              "connections": {
+                "inputs": [
+                  {
+                    "source": "761a0f68-e249-4eb5-b709-a39e6fde02c5:output:op",
+                    "target": "b6af1136-e8c9-458d-b5e1-0f1c741bd31a:input:input"
+                  }
+                ],
+                "outputs": []
+              },
+              "fieldName": "",
+              "id": "b6af1136-e8c9-458d-b5e1-0f1c741bd31a",
+              "inputValues": [
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "input",
+                  "label": "Value",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                },
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "trigger",
+                  "label": "Trigger",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                }
+              ],
+              "outputValues": [],
+              "position": {
+                "left": 595,
+                "top": 168
+              },
+              "surface": "getEnergyUseData",
+              "title": "Output",
+              "type": "actionoutput2"
+            },
+            {
+              "connections": {
+                "inputs": [
+                  {
+                    "source": "95cf3e13-23fa-4004-9cf3-d0961111fee4:output:op",
+                    "target": "c9e4c578-22fd-407c-e4c8-ca54d7903b93:input:input"
+                  }
+                ],
+                "outputs": []
+              },
+              "fieldName": "",
+              "id": "c9e4c578-22fd-407c-e4c8-ca54d7903b93",
+              "inputValues": [
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "input",
+                  "label": "Value",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                },
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "trigger",
+                  "label": "Trigger",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                }
+              ],
+              "outputValues": [],
+              "position": {
+                "left": 595,
+                "top": 168
+              },
+              "surface": "getCarbonEmissionIntensityData",
+              "title": "Output",
+              "type": "actionoutput2"
+            },
+            {
+              "connections": {
+                "inputs": [
+                  {
+                    "source": "f7087841-b4e1-48b9-f290-88d553561e0b:output:op",
+                    "target": "2717a325-d673-46e0-8d5f-262a493acabc:input:input"
+                  }
+                ],
+                "outputs": []
+              },
+              "fieldName": "",
+              "id": "2717a325-d673-46e0-8d5f-262a493acabc",
+              "inputValues": [
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "input",
+                  "label": "Value",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                },
+                {
+                  "description": "",
+                  "disablelog": "",
+                  "documentation": "",
+                  "id": "trigger",
+                  "label": "Trigger",
+                  "transformation": "",
+                  "transformationOptions": "",
+                  "type": "",
+                  "value": ""
+                }
+              ],
+              "outputValues": [],
+              "position": {
+                "left": 595,
+                "top": 168
+              },
+              "surface": "getWaterIntensityData",
+              "title": "Output",
+              "type": "actionoutput2"
+            }
+          ],
+          "position": {
+            "left": 0,
+            "top": 0
+          }
+        },
+        "sources": [
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "getCarbonEmissionData",
+            "outputs": [
+              ""
+            ],
+            "parameters": [
+              "locationType"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "locationType"
+              }
+            ],
+            "published": false,
+            "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"currentCarbonEmission\":{\"type\":\"integer\"},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"year\",\"value\"]}}},\"required\":[\"location\",\"currentCarbonEmission\",\"lastFiveYears\"]}",
+            "schemaFrozen": false,
+            "static": true
+          },
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "getCarbonEmissionIntensityData",
+            "outputs": [
+              ""
+            ],
+            "parameters": [
+              "locationType"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "locationType"
+              }
+            ],
+            "published": false,
+            "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"locationType\":{\"type\":\"string\"},\"currentCarbonEmission\":{\"type\":\"integer\"},\"unit\":{\"type\":\"string\"},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"year\",\"value\"]}}},\"required\":[\"location\",\"locationType\",\"currentCarbonEmission\",\"unit\",\"lastFiveYears\"]}",
+            "schemaFrozen": false,
+            "static": true
+          },
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "getEnergyUseData",
+            "outputs": [
+              ""
+            ],
+            "parameters": [
+              "locationType"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "locationType"
+              }
+            ],
+            "published": false,
+            "schema": "{\"type\":\"object\",\"properties\":{\"locationKey\":{\"type\":\"string\"},\"locationType\":{\"type\":\"string\"},\"unit\":{\"type\":\"string\"},\"costUnit\":{\"type\":\"string\"},\"current\":{\"type\":\"object\",\"properties\":{\"hourly\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hour\":{\"type\":\"string\"},\"consumption\":{\"type\":\"integer\"},\"cost\":{\"type\":\"number\"}},\"required\":[\"hour\",\"consumption\",\"cost\"]}},\"totalConsumption\":{\"type\":\"integer\"},\"totalCost\":{\"type\":\"number\"},\"from\":{\"type\":\"string\"},\"to\":{\"type\":\"string\"}},\"required\":[\"hourly\",\"totalConsumption\",\"totalCost\",\"from\",\"to\"]},\"previous\":{\"type\":\"object\",\"properties\":{\"hourly\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"hour\":{\"type\":\"string\"},\"consumption\":{\"type\":\"integer\"},\"cost\":{\"type\":\"number\"}},\"required\":[\"hour\",\"consumption\",\"cost\"]}},\"totalConsumption\":{\"type\":\"integer\"},\"totalCost\":{\"type\":\"number\"},\"from\":{\"type\":\"string\"},\"to\":{\"type\":\"string\"}},\"required\":[\"hourly\",\"totalConsumption\",\"totalCost\",\"from\",\"to\"]},\"alerts\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"type\":{\"type\":\"string\"},\"timestamp\":{\"type\":\"string\"},\"description\":{\"type\":\"string\"}},\"required\":[\"type\",\"timestamp\",\"description\"]}},\"spikesLast24Hours\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"timestamp\":{\"type\":\"string\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"timestamp\",\"value\"]}}},\"required\":[\"locationKey\",\"locationType\",\"unit\",\"costUnit\",\"current\",\"previous\",\"alerts\",\"spikesLast24Hours\"]}",
+            "schemaFrozen": false,
+            "static": true
+          },
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "getREUsageData",
+            "outputs": [
+              ""
+            ],
+            "parameters": [
+              "locationType"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "locationType"
+              }
+            ],
+            "published": false,
+            "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"currentYear\":{\"type\":\"integer\"},\"donutChart\":{\"type\":\"object\",\"properties\":{\"data\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"source\":{\"type\":\"string\"},\"percentage\":{\"type\":\"integer\"},\"energy_kWh\":{\"type\":\"integer\"}},\"required\":[\"source\",\"percentage\",\"energy_kWh\"]}}},\"required\":[\"data\"]},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"renewablePercentage\":{\"type\":\"integer\"}},\"required\":[\"year\",\"renewablePercentage\"]}}},\"required\":[\"location\",\"currentYear\",\"donutChart\",\"lastFiveYears\"]}",
+            "schemaFrozen": false,
+            "static": true
+          },
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "getWaterIntensityData",
+            "outputs": [
+              ""
+            ],
+            "parameters": [
+              "locationType"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "locationType"
+              }
+            ],
+            "published": false,
+            "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"locationType\":{\"type\":\"string\"},\"currentWaterUsage\":{\"type\":\"integer\"},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"year\",\"value\"]}}},\"required\":[\"location\",\"locationType\",\"currentWaterUsage\",\"lastFiveYears\"]}",
+            "schemaFrozen": false,
+            "static": true
+          },
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "getWaterUsageData",
+            "outputs": [
+              ""
+            ],
+            "parameters": [
+              "locationType"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "locationType"
+              }
+            ],
+            "published": false,
+            "schema": "{\"type\":\"object\",\"properties\":{\"location\":{\"type\":\"string\"},\"currentWaterUsage\":{\"type\":\"integer\"},\"lastFiveYears\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"year\":{\"type\":\"integer\"},\"value\":{\"type\":\"integer\"}},\"required\":[\"year\",\"value\"]}}},\"required\":[\"location\",\"currentWaterUsage\",\"lastFiveYears\"]}",
+            "schemaFrozen": false,
+            "static": true
+          },
+          {
+            "canOverrideCredentials": false,
+            "capability": "",
+            "docs": "",
+            "initiate": false,
+            "name": "setRatingFormDetails",
+            "outputs": [],
+            "parameters": [
+              "communication",
+              "effectiveness",
+              "location",
+              "resolvedManner",
+              "service",
+              "suggestion",
+              "surveyName"
+            ],
+            "parametersExtended": [
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "communication"
+              },
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "effectiveness"
+              },
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "location"
+              },
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "resolvedManner"
+              },
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "service"
+              },
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "suggestion"
+              },
+              {
+                "dataType": "",
+                "docs": "",
+                "example": "",
+                "id": "surveyName"
+              }
+            ],
+            "published": false,
+            "schema": "",
+            "schemaFrozen": false,
+            "static": true
+          }
+        ],
+        "uioptions": {},
+        "version": "v2"
+      },
+      "Icon": "",
+      "JSModules": [],
+      "Key": "206",
+      "MetadataDictionary": "null",
+      "ModelCollections": [
+        {
+          "Attributes": "[{\"name\":\"location\",\"dataType\":\"string\"},{\"name\":\"service\",\"dataType\":\"string\"},{\"name\":\"resolvedManner\",\"dataType\":\"string\"},{\"name\":\"communication\",\"dataType\":\"string\"},{\"name\":\"effectiveness\",\"dataType\":\"string\"},{\"name\":\"suggestion\",\"dataType\":\"string\"},{\"name\":\"surveyName\",\"dataType\":\"string\"}]",
+          "GUID": "9b5f39c9-8b2f-4574-e8e5-0a4184a0ef22",
+          "MapKey": "206",
+          "Name": "FormDetails"
+        }
+      ],
+      "Name": "DSTA-new",
+      "Roles": [],
+      "UIDefinition": null
+    }
+  ],
+  "version": "2.0"
+}

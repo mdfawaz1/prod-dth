@@ -1,0 +1,24 @@
+{
+    "id": "39fd776d-6716-443f-ce4a-f0fb485896ac",
+    "author": "SSI",
+    "widgets": [
+        {
+            "id": "left_panel",
+            "name": "left_panel",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}
