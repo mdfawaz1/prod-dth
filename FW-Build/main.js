@@ -123599,7 +123599,7 @@ const ThreeDViewerWidget = (props) => {
                 };
                 // Update tree options with backend URLs
                 const updatedLine006Options = yield (0, TreeImageHelper_1.updateTreeConfigsWithBackendUrls)(line006TreeOptions);
-                (0, TreePlacement_1.createTreesOnMesh)("Line430", // Target mesh name
+                (0, TreePlacement_1.createTreesOnMesh)("Site Outside Grass", // Target mesh name
                 "", // This parameter is ignored when mixedTrees is used
                 newLoadedMeshes, // Loaded meshes array
                 scene, // Scene
@@ -124861,7 +124861,7 @@ const ThreeDViewerWidget = (props) => {
                             };
                             // Update tree options with backend URLs
                             const updatedLine006Options = yield (0, TreeImageHelper_1.updateTreeConfigsWithBackendUrls)(line006TreeOptions);
-                            (0, TreePlacement_1.createTreesOnMesh)("Line430", // Target mesh name
+                            (0, TreePlacement_1.createTreesOnMesh)("Site Outside Grass", // Target mesh name
                             "", // This parameter is ignored when mixedTrees is used
                             newLoadedMeshes, // Loaded meshes array
                             scene, // Scene
@@ -128582,7 +128582,7 @@ const createTreesOnMesh = (meshName, pngFilePath, loadedMeshes, scene, options =
     }
     console.log(`Found ${meshName} mesh, adding tree particle system`);
     // Set default options
-    const { treeDensity = 0.05, minTreeSize = 1.4, maxTreeSize = 3.8, treeHeightOffset = 2.8, safetyMargin = 1.0, clusterPercentage = 0.8, freezeTimeout = 2000, maxTreeCount = 400000, mixedTrees = [] } = options;
+    const { treeDensity = 0.05, minTreeSize = 1.4, maxTreeSize = 3.8, treeHeightOffset = 2.8, safetyMargin = 1.0, clusterPercentage = 0.8, freezeTimeout = 2000, maxTreeCount = 300000, mixedTrees = [] } = options;
     // Get mesh bounds for particle system
     const boundingInfo = targetMesh.getBoundingInfo();
     const min = boundingInfo.boundingBox.minimumWorld;
