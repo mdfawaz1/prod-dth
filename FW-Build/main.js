@@ -128884,7 +128884,7 @@ function createTreeParticleSystem(targetMesh, texturePath, count, scene, params)
 // Category-based Widget Filter Helper
 // This file provides utility functions to filter dynamic widgets by category
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.CategoryWidgetFilter = exports.registerGlobalCategoryFunctions = exports.showEnvironmentWidgets = exports.showSustainabilityAndEnergyWidgets = exports.showAlarmWidgets = exports.showAnalyticsWidgets = exports.showMaintenanceWidgets = exports.showSecurityWidgets = exports.showComfortWidgets = exports.showEnergyWidgets = exports.showIAQWidgets = exports.showSustainabilityWidgets = exports.showUncategorizedWidgets = exports.showAllWidgets = exports.showWidgetsByCategory = exports.WIDGET_CATEGORIES = void 0;
+exports.CategoryWidgetFilter = exports.registerGlobalCategoryFunctions = exports.showEnvironmentWidgets = exports.showSustainabilityAndEnergyWidgets = exports.showOccupancyWidgets = exports.showAlarmWidgets = exports.showAnalyticsWidgets = exports.showMaintenanceWidgets = exports.showSecurityWidgets = exports.showComfortWidgets = exports.showEnergyWidgets = exports.showIAQWidgets = exports.showSustainabilityWidgets = exports.showUncategorizedWidgets = exports.showAllWidgets = exports.showWidgetsByCategory = exports.WIDGET_CATEGORIES = void 0;
 /**
  * Available widget categories
  */
@@ -128896,7 +128896,8 @@ exports.WIDGET_CATEGORIES = {
     SECURITY: 'Security',
     MAINTENANCE: 'Maintenance',
     ANALYTICS: 'Analytics',
-    ALARMS: 'Alarms'
+    ALARMS: 'Alarms',
+    OCCUPANCY: 'Occupancy'
 };
 /**
  * Show widgets of specific categories
@@ -128985,6 +128986,11 @@ const showAlarmWidgets = () => {
     (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.ALARMS]);
 };
 exports.showAlarmWidgets = showAlarmWidgets;
+// Example: Show Occupancy widgets
+const showOccupancyWidgets = () => {
+    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.OCCUPANCY]);
+};
+exports.showOccupancyWidgets = showOccupancyWidgets;
 // Example: Show multiple categories (Sustainability + Energy)
 const showSustainabilityAndEnergyWidgets = () => {
     (0, exports.showWidgetsByCategory)([
@@ -129015,6 +129021,7 @@ const registerGlobalCategoryFunctions = () => {
         showMaintenance: exports.showMaintenanceWidgets,
         showAnalytics: exports.showAnalyticsWidgets,
         showAlarms: exports.showAlarmWidgets,
+        showOccupancy: exports.showOccupancyWidgets,
         showSustainabilityAndEnergy: exports.showSustainabilityAndEnergyWidgets,
         showEnvironment: exports.showEnvironmentWidgets,
         showAll: exports.showAllWidgets,
@@ -129038,6 +129045,7 @@ const registerGlobalCategoryFunctions = () => {
     console.log('  - window.widgetCategories.showMaintenance()     // Show only Maintenance widgets');
     console.log('  - window.widgetCategories.showAnalytics()       // Show only Analytics widgets');
     console.log('  - window.widgetCategories.showAlarms()          // Show only Alarm widgets');
+    console.log('  - window.widgetCategories.showOccupancy()       // Show only Occupancy widgets');
     console.log('  - window.widgetCategories.showSustainabilityAndEnergy()  // Combined categories');
     console.log('  - window.widgetCategories.showEnvironment()     // Show IAQ + Comfort widgets');
     console.log('  - window.widgetCategories.showAll()             // Show ALL widgets');
@@ -129063,6 +129071,7 @@ exports.CategoryWidgetFilter = {
         maintenance: exports.showMaintenanceWidgets,
         analytics: exports.showAnalyticsWidgets,
         alarms: exports.showAlarmWidgets,
+        occupancy: exports.showOccupancyWidgets,
         sustainabilityAndEnergy: exports.showSustainabilityAndEnergyWidgets,
         environment: exports.showEnvironmentWidgets
     }

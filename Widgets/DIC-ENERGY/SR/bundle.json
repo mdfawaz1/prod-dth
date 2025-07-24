@@ -1,0 +1,24 @@
+{
+    "id": "2397e5a6-d59e-4bdd-9cbd-2754bd9d3949",
+    "author": "SSI",
+    "widgets": [
+        {
+            "id": "EUI_right_panel",
+            "name": "EUI_right_panel",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}

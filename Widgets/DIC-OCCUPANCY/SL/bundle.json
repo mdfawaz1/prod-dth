@@ -1,0 +1,24 @@
+{
+    "id": "e4633ea7-e241-4b44-dc10-2cee2c866450",
+    "author": "SSI",
+    "widgets": [
+        {
+            "id": "occupancy_leftPanel",
+            "name": "occupancy_leftPanel",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}

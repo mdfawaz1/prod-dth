@@ -1,0 +1,24 @@
+{
+    "id": "8d4f078b-1cd9-4f92-bfcf-db95a62fa11c",
+    "author": "SSI",
+    "widgets": [
+        {
+            "id": "energy_left_panel",
+            "name": "energy_left_panel",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}
