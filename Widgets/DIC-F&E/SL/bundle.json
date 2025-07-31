@@ -1,11 +1,11 @@
 {
-    "id": "7560c58d-dff0-486a-f87d-4982094eea4d",
-    "author": "fawaz",
+    "id": "aa5ad4cc-10d7-48aa-92a7-b0375a6decce",
+    "author": "SSI",
     "widgets": [
         {
-            "id": "fault_right_panel",
-            "name": "fault_right_panel",
-            "description": "A sample widget",
+            "id": "Kpi_left_panel",
+            "name": "Kpi_left_panel",
+            "description": "A KPI left panel",
             "icon": "",
             "tags":[],
             "category":"",

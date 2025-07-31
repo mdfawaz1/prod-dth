@@ -1,11 +1,11 @@
 {
-    "id": "019813ac-0812-7351-9de2-03cd8b612229",
-    "author": "Taraka",
+    "id": "1c738eb5-d6d8-49bd-e70b-469668288dc7",
+    "author": "fawaz",
     "widgets": [
         {
-            "id": "reliability-availability-demo",
-            "name": "Reliability And Availability Demo Widget",
-            "description": "A Reliability And Availability Widget ( Demo Version )",
+            "id": "fault_left_panel",
+            "name": "fault_left_panel",
+            "description": "A sample widget",
             "icon": "",
             "tags":[],
             "category":"",

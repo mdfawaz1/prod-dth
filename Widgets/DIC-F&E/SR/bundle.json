@@ -1,0 +1,18 @@
+{
+	"id": "8c6870b8-826c-4199-fe67-e4a2cc73c194",
+	"author": "SSI",
+	"widgets": [
+		{
+			"id": "Kpi_Faults_Right_Panel",
+			"name": "Kpi_Faults_Right_Panel",
+			"description": "A KPI left panel",
+			"icon": "",
+			"tags": [],
+			"category": "",
+			"isTemplate": false
+		}
+	],
+	"sidebarLinks": [],
+	"uis": [],
+	"menuItems": []
+}
