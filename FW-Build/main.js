@@ -36527,7 +36527,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".model-navigation-crumbs {\n  position: fixed;\n  top: 12%;\n  left: 50%;\n  transform: translateX(-50%);\n  z-index: 1500;\n  color: #ffffff;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  max-width: 85%;\n  width: auto;\n}\n.model-navigation-crumbs .crumbs-container {\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  display: flex;\n  align-items: center;\n  padding: 6px 12px;\n  border-radius: 30px;\n  position: relative;\n  height: 50px;\n}\n.model-navigation-crumbs .crumbs-container .flow-badge {\n  display: flex;\n  align-items: center;\n  background: linear-gradient(135deg, rgba(66, 133, 244, 0.3), rgba(0, 194, 255, 0.3));\n  padding: 4px 10px;\n  border-radius: 20px;\n  margin-right: 12px;\n  font-size: 12px;\n  max-width: 140px;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n.model-navigation-crumbs .crumbs-container .flow-badge .flow-icon {\n  margin-right: 6px;\n  font-size: 14px;\n}\n.model-navigation-crumbs .crumbs-container .flow-badge .flow-label {\n  font-weight: 500;\n  letter-spacing: 0.3px;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs {\n  display: flex;\n  align-items: center;\n  flex-wrap: nowrap;\n  overflow: hidden;\n  max-width: 70%;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb {\n  display: flex;\n  align-items: center;\n  padding: 4px 8px;\n  border-radius: 4px;\n  white-space: nowrap;\n  position: relative;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.current {\n  background: rgba(0, 194, 255, 0.15);\n  padding: 4px 12px;\n  border-radius: 20px;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.current .crumb-label {\n  color: rgba(255, 255, 255, 0.9);\n  font-weight: 500;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.current::after {\n  content: \"\";\n  position: absolute;\n  bottom: 0;\n  left: 20%;\n  width: 60%;\n  height: 2px;\n  background: linear-gradient(90deg, transparent, rgba(0, 194, 255, 0.7), transparent);\n  border-radius: 2px;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.clickable {\n  cursor: pointer;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.clickable:hover {\n  background: rgba(66, 133, 244, 0.1);\n  transform: translateY(-2px);\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.clickable:hover .crumb-label {\n  color: rgba(255, 255, 255, 0.9);\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.clickable:active {\n  transform: scale(0.98);\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-icon {\n  margin-right: 6px;\n  font-size: 14px;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-label {\n  font-size: 13px;\n  color: rgba(255, 255, 255, 0.7);\n  max-width: 140px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-tooltip {\n  position: absolute;\n  top: 110%;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 180px;\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  border-radius: 10px;\n  padding: 10px;\n  z-index: 10;\n  pointer-events: none;\n  animation: tooltip-fade-in 0.2s forwards;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-tooltip::before {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  top: -6px;\n  transform: translateX(-50%) rotate(45deg);\n  width: 12px;\n  height: 12px;\n  background: rgba(0, 0, 0, 0.5);\n  border-top: 1px solid rgba(255, 255, 255, 0.12);\n  border-left: 1px solid rgba(255, 255, 255, 0.12);\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-tooltip .tooltip-title {\n  font-weight: 500;\n  font-size: 12px;\n  color: rgba(255, 255, 255, 0.9);\n  margin-bottom: 4px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-tooltip .tooltip-time {\n  font-size: 11px;\n  color: rgba(255, 255, 255, 0.7);\n  margin-bottom: 4px;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-tooltip .tooltip-action {\n  font-size: 11px;\n  color: #00c2ff;\n  margin-top: 4px;\n  padding: 3px 0;\n  border-top: 1px solid rgba(255, 255, 255, 0.5);\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb-separator {\n  margin: 0 4px;\n  font-size: 18px;\n  color: rgba(255, 255, 255, 0.7);\n  opacity: 0.6;\n  line-height: 0;\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls {\n  display: flex;\n  align-items: center;\n  margin-left: 12px;\n  gap: 6px;\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls .control-button {\n  background: rgba(255, 255, 255, 0.1);\n  border: none;\n  outline: none;\n  width: 28px;\n  height: 28px;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls .control-button:hover {\n  background: rgba(255, 255, 255, 0.2);\n  transform: translateY(-2px);\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls .control-button:active {\n  transform: scale(0.95);\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls .control-button.active {\n  background: rgba(0, 194, 255, 0.25);\n  box-shadow: 0 0 10px rgba(0, 194, 255, 0.3);\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls .control-button.active .button-icon {\n  color: rgba(255, 255, 255, 0.9);\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls .control-button .button-icon {\n  font-size: 14px;\n  color: rgba(255, 255, 255, 0.7);\n}\n.model-navigation-crumbs .navigation-dropdown {\n  position: absolute;\n  top: 48px;\n  right: 0;\n  width: 280px;\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  border-radius: 14px;\n  z-index: 10;\n  max-height: 400px;\n  overflow-y: auto;\n  animation: dropdown-slide-in 0.3s forwards;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section {\n  padding: 10px 0;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section:not(:last-child) {\n  border-bottom: 1px solid rgba(255, 255, 255, 0.5);\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-header {\n  padding: 0 14px 8px;\n  font-size: 12px;\n  font-weight: 600;\n  color: #00c2ff;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item {\n  display: flex;\n  align-items: center;\n  padding: 8px 14px;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n  cursor: pointer;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item:hover {\n  background: rgba(66, 133, 244, 0.1);\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item:active {\n  background: rgba(66, 133, 244, 0.15);\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item.current {\n  background: rgba(0, 194, 255, 0.1);\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item.current .item-label {\n  color: rgba(255, 255, 255, 0.9);\n  font-weight: 500;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item.current::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: 50%;\n  transform: translateY(-50%);\n  width: 3px;\n  height: 70%;\n  background: #00c2ff;\n  border-radius: 0 3px 3px 0;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item .item-icon {\n  margin-right: 10px;\n  font-size: 16px;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item .item-label {\n  flex-grow: 1;\n  font-size: 13px;\n  color: rgba(255, 255, 255, 0.7);\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  max-width: 140px;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item .item-time, .model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item .item-relation {\n  font-size: 11px;\n  color: rgba(255, 255, 255, 0.8);\n  margin-left: 8px;\n  padding: 2px 6px;\n  border-radius: 10px;\n  background: rgba(255, 255, 255, 0.05);\n}\n.model-navigation-crumbs .navigation-dropdown::-webkit-scrollbar {\n  width: 4px;\n}\n.model-navigation-crumbs .navigation-dropdown::-webkit-scrollbar-track {\n  background: transparent;\n}\n.model-navigation-crumbs .navigation-dropdown::-webkit-scrollbar-thumb {\n  background: rgba(255, 255, 255, 0.3);\n  border-radius: 4px;\n}\n.model-navigation-crumbs .navigation-dropdown::-webkit-scrollbar-thumb:hover {\n  background: rgba(255, 255, 255, 0.5);\n}\n.model-navigation-crumbs .history-panel {\n  position: absolute;\n  top: 48px;\n  left: 0;\n  width: 320px;\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  border-radius: 14px;\n  z-index: 10;\n  max-height: 400px;\n  overflow-y: auto;\n  animation: dropdown-slide-in 0.3s forwards;\n}\n.model-navigation-crumbs .history-panel .panel-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 14px;\n  border-bottom: 1px solid rgba(255, 255, 255, 0.5);\n}\n.model-navigation-crumbs .history-panel .panel-header h3 {\n  font-size: 14px;\n  font-weight: 600;\n  color: rgba(255, 255, 255, 0.9);\n  margin: 0;\n}\n.model-navigation-crumbs .history-panel .panel-header .model-count {\n  font-size: 11px;\n  background: rgba(0, 194, 255, 0.15);\n  color: #00c2ff;\n  padding: 3px 8px;\n  border-radius: 10px;\n  font-weight: 500;\n}\n.model-navigation-crumbs .history-panel .timeline {\n  padding: 10px 0;\n  position: relative;\n}\n.model-navigation-crumbs .history-panel .timeline::before {\n  content: \"\";\n  position: absolute;\n  left: 28px;\n  top: 0;\n  bottom: 0;\n  width: 2px;\n  background: linear-gradient(to bottom, rgba(66, 133, 244, 0.4), rgba(0, 194, 255, 0.4));\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item {\n  display: flex;\n  align-items: center;\n  padding: 8px 14px;\n  position: relative;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n  cursor: pointer;\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item:hover {\n  background: rgba(66, 133, 244, 0.1);\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item:hover .timeline-dot {\n  transform: scale(1.3);\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item:active {\n  background: rgba(66, 133, 244, 0.15);\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item.current {\n  background: rgba(0, 194, 255, 0.1);\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item.current .timeline-dot {\n  background: #00c2ff;\n  box-shadow: 0 0 15px rgba(0, 194, 255, 0.3);\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item.current .timeline-label {\n  color: rgba(255, 255, 255, 0.9);\n  font-weight: 500;\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item .timeline-dot {\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n  background: #4285f4;\n  margin-right: 16px;\n  position: relative;\n  z-index: 1;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item .timeline-content {\n  display: flex;\n  align-items: center;\n  flex-grow: 1;\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item .timeline-content .timeline-time {\n  font-size: 11px;\n  color: rgba(255, 255, 255, 0.7);\n  width: 70px;\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item .timeline-content .timeline-icon {\n  margin: 0 10px;\n  font-size: 16px;\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item .timeline-content .timeline-label {\n  font-size: 13px;\n  color: rgba(255, 255, 255, 0.7);\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  max-width: 140px;\n}\n.model-navigation-crumbs .history-panel::-webkit-scrollbar {\n  width: 4px;\n}\n.model-navigation-crumbs .history-panel::-webkit-scrollbar-track {\n  background: transparent;\n}\n.model-navigation-crumbs .history-panel::-webkit-scrollbar-thumb {\n  background: rgba(255, 255, 255, 0.3);\n  border-radius: 4px;\n}\n.model-navigation-crumbs .history-panel::-webkit-scrollbar-thumb:hover {\n  background: rgba(255, 255, 255, 0.5);\n}\n\n@keyframes tooltip-fade-in {\n  from {\n    opacity: 0;\n    transform: translateX(-50%) translateY(-10px);\n  }\n  to {\n    opacity: 1;\n    transform: translateX(-50%) translateY(0);\n  }\n}\n@keyframes dropdown-slide-in {\n  from {\n    opacity: 0;\n    transform: translateY(-10px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n@media (max-width: 768px) {\n  .model-navigation-crumbs {\n    max-width: 95%;\n  }\n  .model-navigation-crumbs .crumbs-container .flow-badge {\n    max-width: 100px;\n  }\n  .model-navigation-crumbs .crumbs-container .flow-badge .flow-label {\n    display: none;\n  }\n  .model-navigation-crumbs .crumbs-container .breadcrumbs {\n    max-width: 60%;\n  }\n  .model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-label {\n    max-width: 80px;\n  }\n}", ""]);
+exports.push([module.id, ".model-navigation-crumbs {\n  position: fixed;\n  top: 13.5%;\n  left: 50%;\n  transform: translateX(-50%);\n  z-index: 1500;\n  color: #ffffff;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  max-width: 85%;\n  width: auto;\n}\n.model-navigation-crumbs .crumbs-container {\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  display: flex;\n  align-items: center;\n  padding: 6px 12px;\n  border-radius: 30px;\n  position: relative;\n  height: 50px;\n}\n.model-navigation-crumbs .crumbs-container .flow-badge {\n  display: flex;\n  align-items: center;\n  background: linear-gradient(135deg, rgba(66, 133, 244, 0.3), rgba(0, 194, 255, 0.3));\n  padding: 4px 10px;\n  border-radius: 20px;\n  margin-right: 12px;\n  font-size: 12px;\n  max-width: 140px;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n.model-navigation-crumbs .crumbs-container .flow-badge .flow-icon {\n  margin-right: 6px;\n  font-size: 14px;\n}\n.model-navigation-crumbs .crumbs-container .flow-badge .flow-label {\n  font-weight: 500;\n  letter-spacing: 0.3px;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs {\n  display: flex;\n  align-items: center;\n  flex-wrap: nowrap;\n  overflow: hidden;\n  max-width: 70%;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb {\n  display: flex;\n  align-items: center;\n  padding: 4px 8px;\n  border-radius: 4px;\n  white-space: nowrap;\n  position: relative;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.current {\n  background: rgba(0, 194, 255, 0.15);\n  padding: 4px 12px;\n  border-radius: 20px;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.current .crumb-label {\n  color: rgba(255, 255, 255, 0.9);\n  font-weight: 500;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.current::after {\n  content: \"\";\n  position: absolute;\n  bottom: 0;\n  left: 20%;\n  width: 60%;\n  height: 2px;\n  background: linear-gradient(90deg, transparent, rgba(0, 194, 255, 0.7), transparent);\n  border-radius: 2px;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.clickable {\n  cursor: pointer;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.clickable:hover {\n  background: rgba(66, 133, 244, 0.1);\n  transform: translateY(-2px);\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.clickable:hover .crumb-label {\n  color: rgba(255, 255, 255, 0.9);\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb.clickable:active {\n  transform: scale(0.98);\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-icon {\n  margin-right: 6px;\n  font-size: 14px;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-label {\n  font-size: 13px;\n  color: rgba(255, 255, 255, 0.7);\n  max-width: 140px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-tooltip {\n  position: absolute;\n  top: 110%;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 180px;\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  border-radius: 10px;\n  padding: 10px;\n  z-index: 10;\n  pointer-events: none;\n  animation: tooltip-fade-in 0.2s forwards;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-tooltip::before {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  top: -6px;\n  transform: translateX(-50%) rotate(45deg);\n  width: 12px;\n  height: 12px;\n  background: rgba(0, 0, 0, 0.5);\n  border-top: 1px solid rgba(255, 255, 255, 0.12);\n  border-left: 1px solid rgba(255, 255, 255, 0.12);\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-tooltip .tooltip-title {\n  font-weight: 500;\n  font-size: 12px;\n  color: rgba(255, 255, 255, 0.9);\n  margin-bottom: 4px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-tooltip .tooltip-time {\n  font-size: 11px;\n  color: rgba(255, 255, 255, 0.7);\n  margin-bottom: 4px;\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-tooltip .tooltip-action {\n  font-size: 11px;\n  color: #00c2ff;\n  margin-top: 4px;\n  padding: 3px 0;\n  border-top: 1px solid rgba(255, 255, 255, 0.5);\n}\n.model-navigation-crumbs .crumbs-container .breadcrumbs .crumb-separator {\n  margin: 0 4px;\n  font-size: 18px;\n  color: rgba(255, 255, 255, 0.7);\n  opacity: 0.6;\n  line-height: 0;\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls {\n  display: flex;\n  align-items: center;\n  margin-left: 12px;\n  gap: 6px;\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls .control-button {\n  background: rgba(255, 255, 255, 0.1);\n  border: none;\n  outline: none;\n  width: 28px;\n  height: 28px;\n  border-radius: 50%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls .control-button:hover {\n  background: rgba(255, 255, 255, 0.2);\n  transform: translateY(-2px);\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls .control-button:active {\n  transform: scale(0.95);\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls .control-button.active {\n  background: rgba(0, 194, 255, 0.25);\n  box-shadow: 0 0 10px rgba(0, 194, 255, 0.3);\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls .control-button.active .button-icon {\n  color: rgba(255, 255, 255, 0.9);\n}\n.model-navigation-crumbs .crumbs-container .navigation-controls .control-button .button-icon {\n  font-size: 14px;\n  color: rgba(255, 255, 255, 0.7);\n}\n.model-navigation-crumbs .navigation-dropdown {\n  position: absolute;\n  top: 48px;\n  right: 0;\n  width: 280px;\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  border-radius: 14px;\n  z-index: 10;\n  max-height: 400px;\n  overflow-y: auto;\n  animation: dropdown-slide-in 0.3s forwards;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section {\n  padding: 10px 0;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section:not(:last-child) {\n  border-bottom: 1px solid rgba(255, 255, 255, 0.5);\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-header {\n  padding: 0 14px 8px;\n  font-size: 12px;\n  font-weight: 600;\n  color: #00c2ff;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item {\n  display: flex;\n  align-items: center;\n  padding: 8px 14px;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n  cursor: pointer;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item:hover {\n  background: rgba(66, 133, 244, 0.1);\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item:active {\n  background: rgba(66, 133, 244, 0.15);\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item.current {\n  background: rgba(0, 194, 255, 0.1);\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item.current .item-label {\n  color: rgba(255, 255, 255, 0.9);\n  font-weight: 500;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item.current::before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: 50%;\n  transform: translateY(-50%);\n  width: 3px;\n  height: 70%;\n  background: #00c2ff;\n  border-radius: 0 3px 3px 0;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item .item-icon {\n  margin-right: 10px;\n  font-size: 16px;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item .item-label {\n  flex-grow: 1;\n  font-size: 13px;\n  color: rgba(255, 255, 255, 0.7);\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  max-width: 140px;\n}\n.model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item .item-time, .model-navigation-crumbs .navigation-dropdown .dropdown-section .section-items .dropdown-item .item-relation {\n  font-size: 11px;\n  color: rgba(255, 255, 255, 0.8);\n  margin-left: 8px;\n  padding: 2px 6px;\n  border-radius: 10px;\n  background: rgba(255, 255, 255, 0.05);\n}\n.model-navigation-crumbs .navigation-dropdown::-webkit-scrollbar {\n  width: 4px;\n}\n.model-navigation-crumbs .navigation-dropdown::-webkit-scrollbar-track {\n  background: transparent;\n}\n.model-navigation-crumbs .navigation-dropdown::-webkit-scrollbar-thumb {\n  background: rgba(255, 255, 255, 0.3);\n  border-radius: 4px;\n}\n.model-navigation-crumbs .navigation-dropdown::-webkit-scrollbar-thumb:hover {\n  background: rgba(255, 255, 255, 0.5);\n}\n.model-navigation-crumbs .history-panel {\n  position: absolute;\n  top: 48px;\n  left: 0;\n  width: 320px;\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  border-radius: 14px;\n  z-index: 10;\n  max-height: 400px;\n  overflow-y: auto;\n  animation: dropdown-slide-in 0.3s forwards;\n}\n.model-navigation-crumbs .history-panel .panel-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 14px;\n  border-bottom: 1px solid rgba(255, 255, 255, 0.5);\n}\n.model-navigation-crumbs .history-panel .panel-header h3 {\n  font-size: 14px;\n  font-weight: 600;\n  color: rgba(255, 255, 255, 0.9);\n  margin: 0;\n}\n.model-navigation-crumbs .history-panel .panel-header .model-count {\n  font-size: 11px;\n  background: rgba(0, 194, 255, 0.15);\n  color: #00c2ff;\n  padding: 3px 8px;\n  border-radius: 10px;\n  font-weight: 500;\n}\n.model-navigation-crumbs .history-panel .timeline {\n  padding: 10px 0;\n  position: relative;\n}\n.model-navigation-crumbs .history-panel .timeline::before {\n  content: \"\";\n  position: absolute;\n  left: 28px;\n  top: 0;\n  bottom: 0;\n  width: 2px;\n  background: linear-gradient(to bottom, rgba(66, 133, 244, 0.4), rgba(0, 194, 255, 0.4));\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item {\n  display: flex;\n  align-items: center;\n  padding: 8px 14px;\n  position: relative;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n  cursor: pointer;\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item:hover {\n  background: rgba(66, 133, 244, 0.1);\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item:hover .timeline-dot {\n  transform: scale(1.3);\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item:active {\n  background: rgba(66, 133, 244, 0.15);\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item.current {\n  background: rgba(0, 194, 255, 0.1);\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item.current .timeline-dot {\n  background: #00c2ff;\n  box-shadow: 0 0 15px rgba(0, 194, 255, 0.3);\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item.current .timeline-label {\n  color: rgba(255, 255, 255, 0.9);\n  font-weight: 500;\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item .timeline-dot {\n  width: 10px;\n  height: 10px;\n  border-radius: 50%;\n  background: #4285f4;\n  margin-right: 16px;\n  position: relative;\n  z-index: 1;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item .timeline-content {\n  display: flex;\n  align-items: center;\n  flex-grow: 1;\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item .timeline-content .timeline-time {\n  font-size: 11px;\n  color: rgba(255, 255, 255, 0.7);\n  width: 70px;\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item .timeline-content .timeline-icon {\n  margin: 0 10px;\n  font-size: 16px;\n}\n.model-navigation-crumbs .history-panel .timeline .timeline-item .timeline-content .timeline-label {\n  font-size: 13px;\n  color: rgba(255, 255, 255, 0.7);\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  max-width: 140px;\n}\n.model-navigation-crumbs .history-panel::-webkit-scrollbar {\n  width: 4px;\n}\n.model-navigation-crumbs .history-panel::-webkit-scrollbar-track {\n  background: transparent;\n}\n.model-navigation-crumbs .history-panel::-webkit-scrollbar-thumb {\n  background: rgba(255, 255, 255, 0.3);\n  border-radius: 4px;\n}\n.model-navigation-crumbs .history-panel::-webkit-scrollbar-thumb:hover {\n  background: rgba(255, 255, 255, 0.5);\n}\n\n@keyframes tooltip-fade-in {\n  from {\n    opacity: 0;\n    transform: translateX(-50%) translateY(-10px);\n  }\n  to {\n    opacity: 1;\n    transform: translateX(-50%) translateY(0);\n  }\n}\n@keyframes dropdown-slide-in {\n  from {\n    opacity: 0;\n    transform: translateY(-10px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n@media (max-width: 768px) {\n  .model-navigation-crumbs {\n    max-width: 95%;\n  }\n  .model-navigation-crumbs .crumbs-container .flow-badge {\n    max-width: 100px;\n  }\n  .model-navigation-crumbs .crumbs-container .flow-badge .flow-label {\n    display: none;\n  }\n  .model-navigation-crumbs .crumbs-container .breadcrumbs {\n    max-width: 60%;\n  }\n  .model-navigation-crumbs .crumbs-container .breadcrumbs .crumb .crumb-label {\n    max-width: 80px;\n  }\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -36595,24 +36595,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".dt-navigation-toolbar-positioning {\n  position: fixed;\n  left: 50%;\n  top: 65px;\n  transform: translateX(-50%);\n  z-index: 1000;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container {\n  width: fit-content;\n  height: fit-content;\n  position: relative;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar {\n  width: fit-content;\n  height: fit-content;\n  position: relative;\n  border-radius: 25px;\n  padding: 2px 10px;\n  background-color: rgba(0, 0, 0, 0.7333333333);\n  opacity: 0.5;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button {\n  width: 35px;\n  height: 35px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 5px;\n  cursor: pointer;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon {\n  width: 25px;\n  height: 25px;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  position: relative;\n  background-position: 50% 50%;\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-home {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3C!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --%3E%3Cpath d='M570.69 236.28L512 184.45V48a16 16 0 0 0-16-16h-64a16 16 0 0 0-16 16v51.69L314.75 10.31a39.85 39.85 0 0 0-53.45 0l-256 226a16 16 0 0 0-1.21 22.6L25.5 282.7a16 16 0 0 0 22.6 1.21L277.42 81.63a16 16 0 0 1 21.17 0L527.91 283.9a16 16 0 0 0 22.6-1.21l21.4-23.82a16 16 0 0 0-1.22-22.59zM288 115L69.47 307.71c-1.62 1.46-3.69 2.14-5.47 3.35V496a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16V368a16 16 0 0 1 16-16h96a16 16 0 0 1 16 16v128a16 16 0 0 0 16 16h128a16 16 0 0 0 16-16V311.1c-1.7-1.16-3.72-1.82-5.26-3.2z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-building {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' viewBox='0 0 122.88 113.05' style='enable-background:new 0 0 122.88 113.05' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill-rule:evenodd;clip-rule:evenodd;%7D%3C/style%3E%3Cg%3E%3Cpath class='st0' d='M0,100.07h14.72V1.57c0-0.86,0.71-1.57,1.57-1.57h49.86c0.86,0,1.57,0.71,1.57,1.57V38.5h44.12 c0.86,0,1.57,0.71,1.57,1.57v59.99h9.47v12.99H0V100.07L0,100.07z M27.32,14.82h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36 c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V15.39C26.75,15.08,27.01,14.82,27.32,14.82L27.32,14.82z M44.6,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V76.87 C44.03,76.55,44.29,76.3,44.6,76.3L44.6,76.3z M27.32,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87C26.75,76.55,27.01,76.3,27.32,76.3L27.32,76.3z M44.6,55.8h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V56.38 C44.03,56.06,44.29,55.8,44.6,55.8L44.6,55.8z M27.32,55.8h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V56.38C26.75,56.06,27.01,55.8,27.32,55.8L27.32,55.8z M44.6,35.31h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V35.88 C44.03,35.57,44.29,35.31,44.6,35.31L44.6,35.31z M27.32,35.31h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V35.88C26.75,35.57,27.01,35.31,27.32,35.31L27.32,35.31z M44.6,14.82h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V15.39 C44.03,15.08,44.29,14.82,44.6,14.82L44.6,14.82z M23.17,7.32h35.92c0.62,0,1.13,0.61,1.13,1.35v85.87c0,0.74-0.51,1.35-1.13,1.35 H23.17c-0.62,0-1.13-0.61-1.13-1.35V8.67C22.04,7.93,22.55,7.32,23.17,7.32L23.17,7.32z M72.61,53.43h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V54 C72.04,53.69,72.3,53.43,72.61,53.43L72.61,53.43z M89.89,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87C89.32,76.55,89.58,76.3,89.89,76.3L89.89,76.3z M72.61,76.3h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87 C72.04,76.55,72.3,76.3,72.61,76.3L72.61,76.3z M89.89,53.43h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V54C89.32,53.69,89.58,53.43,89.89,53.43L89.89,53.43z M68.86,45.82h35.92 c0.62,0,1.13,0.61,1.13,1.35v47.37c0,0.74-0.51,1.35-1.13,1.35H68.86c-0.62,0-1.13-0.61-1.13-1.35V47.17 C67.73,46.43,68.24,45.82,68.86,45.82L68.86,45.82z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-conerbox {\n  width: 27px;\n  height: 26px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.0' width='100.000000pt' height='100.000000pt' viewBox='0 0 100.000000 100.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,100.000000) scale(0.100000,-0.100000)' fill='%23000000' stroke='none'%3E%3Cpath d='M290 857 l-205 -123 0 -234 0 -234 208 -124 207 -125 208 125 207 124 0 234 0 234 -205 123 c-113 68 -207 123 -210 123 -3 0 -97 -55 -210 -123z m116 -103 l94 -56 94 56 c52 31 100 56 106 56 15 0 150 -80 150 -89 0 -8 -333 -191 -349 -191 -19 0 -351 184 -348 193 3 11 130 86 145 87 8 0 56 -25 108 -56z m-100 -170 l174 -95 0 -205 c0 -112 -2 -204 -4 -204 -3 0 -42 22 -88 50 l-83 50 -5 107 -5 108 -87 48 -88 49 0 94 c0 52 3 94 6 94 3 0 84 -43 180 -96z m574 2 l0 -94 -87 -49 -88 -48 -5 -108 -5 -107 -83 -50 c-46 -28 -85 -50 -88 -50 -2 0 -4 92 -4 204 l0 204 173 96 c94 52 175 95 180 96 4 0 7 -42 7 -94z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-search {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' width='122.879px' height='119.799px' viewBox='0 0 122.879 119.799' enable-background='new 0 0 122.879 119.799' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M49.988,0h0.016v0.007C63.803,0.011,76.298,5.608,85.34,14.652c9.027,9.031,14.619,21.515,14.628,35.303h0.007v0.033v0.04 h-0.007c-0.005,5.557-0.917,10.905-2.594,15.892c-0.281,0.837-0.575,1.641-0.877,2.409v0.007c-1.446,3.66-3.315,7.12-5.547,10.307 l29.082,26.139l0.018,0.016l0.157,0.146l0.011,0.011c1.642,1.563,2.536,3.656,2.649,5.78c0.11,2.1-0.543,4.248-1.979,5.971 l-0.011,0.016l-0.175,0.203l-0.035,0.035l-0.146,0.16l-0.016,0.021c-1.565,1.642-3.654,2.534-5.78,2.646 c-2.097,0.111-4.247-0.54-5.971-1.978l-0.015-0.011l-0.204-0.175l-0.029-0.024L78.761,90.865c-0.88,0.62-1.778,1.209-2.687,1.765 c-1.233,0.755-2.51,1.466-3.813,2.115c-6.699,3.342-14.269,5.222-22.272,5.222v0.007h-0.016v-0.007 c-13.799-0.004-26.296-5.601-35.338-14.645C5.605,76.291,0.016,63.805,0.007,50.021H0v-0.033v-0.016h0.007 c0.004-13.799,5.601-26.296,14.645-35.338C23.683,5.608,36.167,0.016,49.955,0.007V0H49.988L49.988,0z M50.004,11.21v0.007h-0.016 h-0.033V11.21c-10.686,0.007-20.372,4.35-27.384,11.359C15.56,29.578,11.213,39.274,11.21,49.973h0.007v0.016v0.033H11.21 c0.007,10.686,4.347,20.367,11.359,27.381c7.009,7.012,16.705,11.359,27.403,11.361v-0.007h0.016h0.033v0.007 c10.686-0.007,20.368-4.348,27.382-11.359c7.011-7.009,11.358-16.702,11.36-27.4h-0.006v-0.016v-0.033h0.006 c-0.006-10.686-4.35-20.372-11.358-27.384C70.396,15.56,60.703,11.213,50.004,11.21L50.004,11.21z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-security {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' width='111.811px' height='122.88px' viewBox='0 0 111.811 122.88' enable-background='new 0 0 111.811 122.88' xml:space='preserve'%3E%3Cg%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M55.713,0c20.848,13.215,39.682,19.467,55.846,17.989 c2.823,57.098-18.263,90.818-55.63,104.891C19.844,109.708-1.5,77.439,0.083,17.123C19.058,18.116,37.674,14.014,55.713,0L55.713,0 z M41.458,56.508h1.438v-3.331c0-3.689,1.454-7.051,3.797-9.494c2.361-2.462,5.622-3.991,9.214-3.991s6.854,1.529,9.214,3.991 c2.343,2.443,3.797,5.805,3.797,9.494v3.331h1.438c1.167,0,2.123,0.955,2.123,2.123v22.434c0,1.168-0.956,2.123-2.123,2.123H41.458 c-1.168,0-2.123-0.955-2.123-2.123V58.631C39.334,57.463,40.29,56.508,41.458,56.508L41.458,56.508z M54.164,71.286l-2.291,6h8.066 l-2.122-6.082c1.347-0.693,2.268-2.097,2.268-3.716c0-2.308-1.871-4.179-4.179-4.179s-4.178,1.871-4.178,4.179 C51.728,69.173,52.726,70.625,54.164,71.286L54.164,71.286z M46.916,56.508h17.981v-3.331c0-2.623-1.021-4.999-2.666-6.715 c-1.627-1.697-3.866-2.751-6.325-2.751c-2.458,0-4.698,1.054-6.324,2.751c-1.646,1.716-2.666,4.092-2.666,6.715V56.508 L46.916,56.508z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-facility {\n  width: 28px;\n  height: 28px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' viewBox='0 0 512 512' enable-background='new 0 0 512 512' xml:space='preserve' style='fill:%23000000'%3E%3Cg%3E%3Cpath d='M77.175,184.867v49.926h93.689V283H77.175v94.036H19.387V134.94h159.347v49.927H77.175z'/%3E%3Cpath d='M435.867,377.036l1.366-171.314h-1.026l-62.919,171.314h-41.031L271.05,205.722h-1.025l1.372,171.314H216.34V134.94h83.192&%2313;&%2310; l55.126,155.243h1.366l52.72-155.243h84.565v242.096H435.867z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-c2o {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' viewBox='0 0 32 32' style='fill:%23000000'%3E%3Cg/%3E%3Cpath d='M22 4h-4v-2c0-1.1-0.9-2-2-2h-4c-1.1 0-2 0.9-2 2v2h-4v4h16v-4zM16 4h-4v-1.996c0.001-0.001 0.002-0.002 0.004-0.004h3.993c0.001 0.001 0.003 0.002 0.004 0.004v1.996zM26 10v-5c0-0.55-0.45-1-1-1h-2v2h1v4h-6l-6 6v8h-8v-18h1v-2h-2c-0.55 0-1 0.45-1 1v20c0 0.55 0.45 1 1 1h9v6h20v-22h-6zM18 12.828v3.172h-3.172l3.172-3.172zM30 30h-16v-12h6v-6h10v18z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-leafcare {\n  width: 28px;\n  height: 28px;\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 122.88 105.16' style='enable-background:new 0 0 122.88 105.16' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M66.41,88.93h21.91c1.76-1.75,3.69-3.57,5.65-5.42c4.11-3.89,8.4-7.95,12.81-13.03c5.04-5.81,5.58-7.82,7.11-13.51 c0.29-1.07,0.61-2.27,1.03-3.76l2.62-9.21l0.03-0.1c1.4-4.1,1.51-6.81,0.93-8.37c-0.18-0.48-0.41-0.8-0.68-0.97 c-0.21-0.14-0.49-0.19-0.78-0.16c-0.68,0.07-1.45,0.5-2.15,1.27l-7.78,18.53c-0.07,0.17-0.17,0.33-0.28,0.47 c-0.46,0.83-1.08,1.64-1.88,2.41l-13.8,15.39c-0.75,0.84-2.04,0.91-2.87,0.16c-0.84-0.75-0.91-2.04-0.16-2.87l13.81-15.39 c0.06-0.07,0.12-0.14,0.19-0.2c1.43-1.36,1.88-2.83,1.63-3.9c-0.08-0.33-0.22-0.61-0.42-0.8c-0.19-0.17-0.44-0.29-0.75-0.32v0 c-1.23-0.13-3.04,0.78-5.25,3.39l0,0c-0.06,0.07-0.13,0.14-0.2,0.21l-5.35,4.72l-0.03,0.03c-5.79,5.48-8.28,6.78-12.82,9.15 c-0.95,0.5-1.99,1.04-3.28,1.74c-0.51,0.28-1.01,0.62-1.5,0.99c-0.52,0.4-1.02,0.81-1.49,1.21c-2.4,2.02-3.66,3.66-4.38,5.47 c-0.75,1.88-1.02,4.17-1.39,7.31c-0.15,1.27-0.26,2.52-0.35,3.77C66.47,87.74,66.44,88.34,66.41,88.93L66.41,88.93z M51.47,42.28 c-2.18,2.9-4.05,5.32-5.06,8.09c-0.99,2.7-1.39,3.94,0.85,1.13c2.09-2.61,4.05-5.15,6.9-7.55c0.2,0.05,0.42,0.09,0.64,0.14 C80.67,49.23,99.5,37.6,96.19,0C76.28,6.9,48.07,4.09,50.99,39.43C51.1,40.74,51.2,41.64,51.47,42.28L51.47,42.28z M58.41,36.63 c6.5-14,23.2-18.8,31.48-28.37C80.9,25.79,75.99,25.02,58.41,36.63L58.41,36.63L58.41,36.63z M56.47,88.93H34.55 c-1.76-1.75-3.69-3.57-5.65-5.42c-4.11-3.89-8.4-7.95-12.81-13.03c-5.04-5.81-5.58-7.82-7.11-13.51C8.7,55.9,8.38,54.7,7.96,53.21 L5.34,44l-0.03-0.1c-1.4-4.1-1.51-6.81-0.93-8.37c0.18-0.48,0.41-0.8,0.68-0.97c0.21-0.14,0.49-0.19,0.78-0.16 C6.53,34.46,7.3,34.9,8,35.66l7.78,18.53c0.07,0.17,0.17,0.33,0.28,0.47c0.46,0.83,1.08,1.64,1.88,2.41l13.8,15.39 c0.75,0.84,2.04,0.91,2.87,0.16c0.84-0.75,0.91-2.04,0.16-2.87L20.96,54.35c-0.06-0.07-0.12-0.14-0.19-0.2 c-1.43-1.36-1.88-2.83-1.63-3.9c0.08-0.33,0.22-0.61,0.42-0.8c0.19-0.17,0.44-0.29,0.75-0.32v0c1.23-0.13,3.05,0.78,5.25,3.39l0,0 c0.06,0.07,0.13,0.14,0.2,0.21l5.35,4.72l0.03,0.03c5.79,5.48,8.28,6.78,12.82,9.15c0.95,0.5,1.99,1.04,3.28,1.74 c0.51,0.28,1.01,0.62,1.5,0.99c0.52,0.4,1.02,0.81,1.49,1.21c2.4,2.02,3.66,3.66,4.38,5.47c0.75,1.88,1.02,4.17,1.39,7.31 c0.15,1.27,0.26,2.52,0.35,3.77C56.41,87.74,56.44,88.34,56.47,88.93L56.47,88.93z M29.45,89.63c-0.31,0.36-0.5,0.83-0.5,1.34 v12.14c0,1.13,0.92,2.04,2.04,2.04h27.58c1.13,0,2.04-0.92,2.04-2.04V90.86c0-1.3-0.08-2.7-0.17-4c-0.09-1.33-0.21-2.65-0.36-3.96 c-0.4-3.43-0.7-5.94-1.66-8.35c-0.99-2.47-2.58-4.6-5.53-7.09c-0.54-0.46-1.09-0.92-1.67-1.35c-0.61-0.46-1.27-0.9-2.01-1.31 c-1.2-0.65-2.32-1.24-3.34-1.78c-4.2-2.2-6.5-3.4-11.91-8.52c-0.04-0.04-0.09-0.08-0.13-0.11l-5.22-4.61 c-3.19-3.73-6.31-4.97-8.7-4.71l-0.01,0v0c-1.17,0.12-2.17,0.58-2.97,1.28L11.65,33.8l-0.01,0c-0.08-0.18-0.18-0.35-0.31-0.51 c-1.46-1.75-3.31-2.77-5.08-2.95c-1.21-0.12-2.38,0.14-3.4,0.8c-0.97,0.63-1.77,1.61-2.27,2.96c-0.88,2.35-0.86,6,0.86,11.05 l2.6,9.15c0.38,1.32,0.71,2.59,1.02,3.71c1.7,6.35,2.3,8.6,7.97,15.12c4.49,5.17,8.88,9.33,13.1,13.32 C27.23,87.51,28.33,88.55,29.45,89.63L29.45,89.63z M33.35,93.01c0.27,0.06,0.55,0.06,0.83,0h22.34v8.06H33.03v-8.06H33.35 L33.35,93.01z M93.43,89.63c0.31,0.36,0.5,0.83,0.5,1.34v12.14c0,1.13-0.91,2.04-2.04,2.04H64.32c-1.13,0-2.04-0.92-2.04-2.04 V90.86c0-0.07,0-0.15,0.01-0.22c0.03-1.31,0.08-2.58,0.16-3.78c0.09-1.33,0.21-2.65,0.36-3.96c0.4-3.43,0.7-5.94,1.66-8.35 c0.99-2.47,2.58-4.6,5.53-7.09c0.54-0.46,1.09-0.92,1.67-1.35c0.61-0.46,1.27-0.9,2.01-1.31c1.2-0.65,2.32-1.24,3.34-1.78 c4.2-2.2,6.5-3.4,11.91-8.52c0.04-0.04,0.09-0.08,0.13-0.11l5.22-4.61c3.19-3.73,6.31-4.97,8.7-4.71l0.01,0v0 c1.17,0.12,2.17,0.58,2.97,1.28l5.27-12.56l0.01,0c0.08-0.18,0.18-0.35,0.31-0.51c1.46-1.75,3.31-2.77,5.08-2.95 c1.21-0.12,2.38,0.14,3.4,0.8c0.97,0.63,1.77,1.61,2.27,2.96c0.88,2.35,0.86,6-0.86,11.05l-2.6,9.15 c-0.38,1.32-0.71,2.59-1.02,3.71c-1.7,6.35-2.3,8.6-7.97,15.12c-4.49,5.17-8.88,9.33-13.1,13.32 C95.65,87.51,94.55,88.55,93.43,89.63L93.43,89.63z M89.53,93.01c-0.27,0.06-0.55,0.06-0.83,0H66.36v8.06h23.49v-8.06H89.53 L89.53,93.01z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-leafbuilding {\n  width: 27px;\n  height: 27px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.0' width='100.000000pt' height='100.000000pt' viewBox='0 0 100.000000 100.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,100.000000) scale(0.100000,-0.100000)' fill='%23000000' stroke='none'%3E%3Cpath d='M200 900 c0 -38 -2 -40 -30 -40 l-30 0 0 -400 0 -400 90 0 90 0 0 80 0 80 40 0 40 0 0 -80 0 -80 90 0 90 0 0 45 0 46 28 -15 c28 -15 29 -16 18 -65 -7 -37 -7 -54 1 -62 16 -16 33 -2 33 29 0 47 12 55 53 37 66 -27 128 -16 181 33 39 37 55 78 67 174 5 44 17 94 25 111 19 36 10 47 -45 54 l-41 6 0 133 0 134 -140 0 -140 0 0 -40 c0 -33 3 -40 20 -40 13 0 20 -7 20 -20 0 -13 -7 -20 -20 -20 -13 0 -20 -7 -20 -20 0 -13 7 -20 20 -20 13 0 20 -7 20 -20 0 -13 -7 -20 -20 -20 -13 0 -20 -7 -20 -20 0 -13 7 -20 20 -20 13 0 20 -7 20 -20 0 -13 -7 -20 -20 -20 -14 0 -20 -7 -20 -23 0 -12 -9 -28 -20 -35 -20 -12 -20 -10 -20 233 l0 245 -30 0 c-28 0 -30 2 -30 40 l0 40 -160 0 -160 0 0 -40z m60 -140 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m-240 -100 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m240 -40 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m-560 -80 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m240 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m-80 -74 c0 -8 -7 -17 -16 -20 -23 -9 -24 -8 -24 14 0 13 7 20 20 20 11 0 20 -6 20 -14z m80 4 c0 -5 -9 -10 -20 -10 -11 0 -20 5 -20 10 0 6 9 10 20 10 11 0 20 -4 20 -10z m-560 -50 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m403 -7 c36 -5 38 -8 33 -32 -3 -14 -10 -61 -16 -104 -5 -47 -18 -92 -30 -112 -22 -36 -73 -65 -115 -65 -25 0 -85 25 -85 36 0 35 94 150 165 201 23 16 27 24 19 33 -26 26 -139 -68 -191 -158 -15 -26 -27 -48 -28 -50 -7 -9 -55 24 -64 45 -57 124 116 239 312 206z m-643 -113 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m-240 -120 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m240 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-trend {\n  background-image: url(\"data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 122.88 106.5'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill-rule:evenodd;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Echart%3C/title%3E%3Cpath class='cls-1' d='M19.39,64.84v39.84a1.84,1.84,0,0,1-1.83,1.82H1.83A1.83,1.83,0,0,1,0,104.68V64.84ZM0,51.83,41.59,15.44c9.21,9,18.14,19.93,27.25,28.93L102.07,11,91.37.28,122.88,0V31.78L112.61,21.51c-7.37,7.47-24.8,23.92-32.17,31.3-9.33,9.32-13.78,9.49-23.1.17L41.59,35.46,23.13,51.83ZM114.37,38.69v66a1.84,1.84,0,0,1-1.82,1.82H96.81A1.84,1.84,0,0,1,95,104.68V57.29c3-2.91,6.5-6.29,10.07-9.73l7.45-7.17a24.16,24.16,0,0,1,1.87-1.7ZM82.71,68.34v36.34a1.84,1.84,0,0,1-1.83,1.82H65.15a1.84,1.84,0,0,1-1.83-1.82V72.22a22.48,22.48,0,0,0,5.73.63,24,24,0,0,0,13.66-4.51Zm-31.66-3v39.29a1.84,1.84,0,0,1-1.83,1.82H33.48a1.83,1.83,0,0,1-1.82-1.82V62q.48-.36.93-.75l7.86-7,6.34,7,.49.51q1.92,1.93,3.77,3.52Z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-coperate-service {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.0' width='96.000000pt' height='96.000000pt' viewBox='0 0 96.000000 96.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,96.000000) scale(0.100000,-0.100000)' fill='%23000000' stroke='none'%3E%3Cpath d='M452 934 c-18 -9 -42 -28 -52 -42 l-20 -25 39 -42 c37 -40 45 -61 53 -135 3 -21 9 -25 40 -28 108 -9 189 105 143 202 -35 73 -131 106 -203 70z'/%3E%3Cpath d='M212 834 c-130 -67 -94 -255 52 -271 149 -17 225 172 103 259 -39 28 -112 34 -155 12z'/%3E%3Cpath d='M445 618 c-10 -18 -19 -37 -20 -41 0 -4 27 -19 60 -32 74 -30 105 -63 105 -113 l1 -37 20 37 c25 48 86 81 141 76 38 -4 39 -3 36 26 -6 56 -108 103 -248 113 l-75 5 -20 -34z'/%3E%3Cpath d='M174 536 c-64 -15 -117 -38 -146 -64 -14 -12 -18 -31 -18 -89 0 -116 -6 -113 259 -113 l219 0 6 32 c3 18 18 44 32 59 38 39 31 95 -15 126 -76 51 -229 73 -337 49z'/%3E%3Cpath d='M688 454 c-28 -15 -58 -61 -58 -89 0 -10 -9 -15 -28 -15 -17 0 -37 -10 -50 -23 -20 -21 -22 -34 -22 -148 0 -174 -7 -169 211 -169 216 0 209 -6 209 171 0 118 -1 127 -23 147 -13 12 -35 22 -50 22 -18 0 -27 5 -27 15 0 29 -30 75 -60 90 -36 19 -67 19 -102 -1z m86 -60 c31 -30 20 -44 -34 -44 -54 0 -65 14 -34 44 20 20 48 20 68 0z m116 -130 c0 -21 -9 -29 -55 -50 -70 -31 -118 -30 -189 1 -47 21 -56 29 -56 50 l0 25 150 0 150 0 0 -26z m-249 -114 c27 -12 66 -20 99 -20 33 0 72 8 99 20 24 11 45 20 47 20 2 0 4 -22 4 -50 l0 -50 -150 0 -150 0 0 50 c0 28 2 50 4 50 2 0 23 -9 47 -20z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button:hover {\n  background-color: rgba(125, 125, 125, 0.8156862745);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon {\n  filter: invert(85%) sepia(41%) saturate(850%) hue-rotate(90deg) brightness(101%) contrast(102%);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar:hover {\n  opacity: 1;\n}\n\n.dropdown-btn-content.dt-navigation-toolbar-serch-custom-dropdown {\n  transform: translateX(-51%) translateY(-4%) !important;\n  background-color: #000000;\n  opacity: 0.8;\n}\n.dropdown-btn-content.dt-navigation-toolbar-serch-custom-dropdown::before {\n  border-bottom: 10px solid #000000 !important;\n}", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/left-navigationbar/search-box-area.scss":
-/*!*********************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/left-navigationbar/search-box-area.scss ***!
-  \*********************************************************************************************************************************************/
-/***/ ((module, exports, __webpack_require__) => {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.id, "@charset \"UTF-8\";\n.uxp-search-box-container.universal-custom-searchbox .search-box-container {\n  background-color: #494949;\n  width: 100%;\n}\n.uxp-search-box-container.universal-custom-searchbox .search-box-container .uxp-input-container.uxp-search-box {\n  width: 87%;\n}\n.uxp-search-box-container.universal-custom-searchbox .search-box-container .uxp-input-container .uxp-form-input {\n  padding: 7px 14px;\n  color: #FFFFFF;\n  font-size: 13px;\n}\n.uxp-search-box-container.universal-custom-searchbox .search-box-container .uxp-search-box-icons .uxp-icon-button .icon-container .icon.search {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 xmlns:xlink=%27http://www.w3.org/1999/xlink%27 version=%271.1%27 id=%27Layer_1%27 x=%270px%27 y=%270px%27 width=%27122.879px%27 height=%27119.799px%27 viewBox=%270 0 122.879 119.799%27 enable-background=%27new 0 0 122.879 119.799%27 xml:space=%27preserve%27%3E%3Cg%3E%3Cpath d=%27M49.988,0h0.016v0.007C63.803,0.011,76.298,5.608,85.34,14.652c9.027,9.031,14.619,21.515,14.628,35.303h0.007v0.033v0.04 h-0.007c-0.005,5.557-0.917,10.905-2.594,15.892c-0.281,0.837-0.575,1.641-0.877,2.409v0.007c-1.446,3.66-3.315,7.12-5.547,10.307 l29.082,26.139l0.018,0.016l0.157,0.146l0.011,0.011c1.642,1.563,2.536,3.656,2.649,5.78c0.11,2.1-0.543,4.248-1.979,5.971 l-0.011,0.016l-0.175,0.203l-0.035,0.035l-0.146,0.16l-0.016,0.021c-1.565,1.642-3.654,2.534-5.78,2.646 c-2.097,0.111-4.247-0.54-5.971-1.978l-0.015-0.011l-0.204-0.175l-0.029-0.024L78.761,90.865c-0.88,0.62-1.778,1.209-2.687,1.765 c-1.233,0.755-2.51,1.466-3.813,2.115c-6.699,3.342-14.269,5.222-22.272,5.222v0.007h-0.016v-0.007 c-13.799-0.004-26.296-5.601-35.338-14.645C5.605,76.291,0.016,63.805,0.007,50.021H0v-0.033v-0.016h0.007 c0.004-13.799,5.601-26.296,14.645-35.338C23.683,5.608,36.167,0.016,49.955,0.007V0H49.988L49.988,0z M50.004,11.21v0.007h-0.016 h-0.033V11.21c-10.686,0.007-20.372,4.35-27.384,11.359C15.56,29.578,11.213,39.274,11.21,49.973h0.007v0.016v0.033H11.21 c0.007,10.686,4.347,20.367,11.359,27.381c7.009,7.012,16.705,11.359,27.403,11.361v-0.007h0.016h0.033v0.007 c10.686-0.007,20.368-4.348,27.382-11.359c7.011-7.009,11.358-16.702,11.36-27.4h-0.006v-0.016v-0.033h0.006 c-0.006-10.686-4.35-20.372-11.358-27.384C70.396,15.56,60.703,11.213,50.004,11.21L50.004,11.21z%27/%3E%3C/g%3E%3C/svg%3E\");\n  filter: invert(77%) sepia(58%) saturate(5100%) hue-rotate(119deg) brightness(99%) contrast(84%);\n}\n.uxp-search-box-container.universal-custom-searchbox .search-box-container .uxp-search-box-icons .uxp-icon-button .icon-container .icon.close {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15.67 15.67'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:none;stroke:%23000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px;%7D%3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cline class='cls-1' x1='14.17' y1='1.5' x2='1.5' y2='14.17'/%3E%3Cline class='cls-1' x1='14.17' y1='14.17' x2='1.5' y2='1.5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E\");\n  filter: invert(77%) sepia(58%) saturate(5100%) hue-rotate(119deg) brightness(99%) contrast(84%);\n}\n\n.dt-custom-search-list-area *::-webkit-scrollbar {\n  width: 5px !important;\n}\n.dt-custom-search-list-area *::-webkit-scrollbar-track {\n  width: 5px !important;\n  background: #424242 !important;\n}\n.dt-custom-search-list-area *::-webkit-scrollbar-thumb {\n  border-radius: 2px;\n  width: 5px !important;\n  background: #8f8f8f !important;\n}\n\n.data-grid.custom-search-dropdown-list {\n  background-color: transparent !important;\n  color: #fff !important;\n  max-height: 370px;\n}\n\n.custom-search-dropdown-list-item {\n  height: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 100%;\n  cursor: pointer;\n}\n.custom-search-dropdown-list-item:hover {\n  background-color: #373737;\n}\n.custom-search-dropdown-list-item .custom-search-dropdown-list-icon-container {\n  width: 30px;\n  height: 30px;\n  align-content: center;\n  text-align: center;\n}\n.custom-search-dropdown-list-item .custom-search-dropdown-list-icon-container .custom-search-dropdown-list-asset-icon {\n  width: 23px;\n  height: 23px;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(68deg) brightness(104%) contrast(101%);\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg width='800px' height='800px' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.4856 1.12584C12.1836 0.958052 11.8164 0.958052 11.5144 1.12584L2.51436 6.12584L2.5073 6.13784L2.49287 6.13802C2.18749 6.3177 2 6.64568 2 7V16.9999C2 17.3631 2.19689 17.6977 2.51436 17.874L11.5022 22.8673C11.8059 23.0416 12.1791 23.0445 12.4856 22.8742L21.4856 17.8742C21.8031 17.6978 22 17.3632 22 17V7C22 6.64568 21.8125 6.31781 21.5071 6.13813C21.4996 6.13372 21.4921 6.12942 21.4845 6.12522L12.4856 1.12584ZM5.05923 6.99995L12.0001 10.856L14.4855 9.47519L7.74296 5.50898L5.05923 6.99995ZM16.5142 8.34816L18.9409 7L12 3.14396L9.77162 4.38195L16.5142 8.34816ZM4 16.4115V8.69951L11 12.5884V20.3004L4 16.4115ZM13 20.3005V12.5884L20 8.69951V16.4116L13 20.3005Z' fill='%230F0F0F'/%3E%3C/svg%3E\");\n}\n.custom-search-dropdown-list-item .custom-search-dropdown-list-icon-container .custom-search-dropdown-list-site-icon {\n  width: 23px;\n  height: 23px;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(68deg) brightness(104%) contrast(101%);\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' %3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg width='800px' height='800px' viewBox='0 0 24 24' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle/%3E%3Cg fill='none' fill-rule='evenodd' id='页面-1' stroke='none' stroke-width='1'%3E%3Cg id='导航图标' transform='translate(-252.000000, -272.000000)'%3E%3Cg id='编组' transform='translate(252.000000, 272.000000)'%3E%3Crect fill='%23FFFFFF' fill-opacity='0.01' fill-rule='nonzero' height='24' id='矩形' width='24' x='0' y='0'/%3E%3Cpath d='M4.92893,16.3787 C3.11929,16.9216 2,17.6716 2,18.5 C2,20.15685 6.47715,21.5 12,21.5 L12,21.5 C17.52285,21.5 22,20.15685 22,18.5 C22,17.6716 20.8807,16.9216 19.07105,16.3787' id='路径' stroke='%23212121' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'/%3E%3Cpath d='M12,17.5 C12,17.5 18.5,13.252 18.5,8.3409 C18.5,4.83892 15.58985,2 12,2 C8.41015,2 5.5,4.83892 5.5,8.3409 C5.5,13.252 12,17.5 12,17.5 Z' id='路径' stroke='%23212121' stroke-linejoin='round' stroke-width='1.5'/%3E%3Cpath d='M12,11 C13.3807,11 14.5,9.8807 14.5,8.5 C14.5,7.1193 13.3807,6 12,6 C10.6193,6 9.5,7.1193 9.5,8.5 C9.5,9.8807 10.6193,11 12,11 Z' id='路径' stroke='%23212121' stroke-linejoin='round' stroke-width='1.5'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E\");\n}\n.custom-search-dropdown-list-item .custom-search-dropdown-list-icon-container .custom-search-dropdown-list-building-icon {\n  width: 23px;\n  height: 23px;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(68deg) brightness(104%) contrast(101%);\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg width='800px' height='800px' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M14 0H2V16H6V12H10V16H14V0ZM5 3H7V5H5V3ZM7 7H5V9H7V7ZM9 3H11V5H9V3ZM11 7H9V9H11V7Z' fill='%23000000'/%3E%3C/svg%3E\");\n}\n.custom-search-dropdown-list-item .custom-search-dropdown-list-icon-container .custom-search-dropdown-list-floor-icon {\n  width: 23px;\n  height: 23px;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(68deg) brightness(104%) contrast(101%);\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg width='800px' height='800px' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2 2v18h3v-1H3v-6h3V9h5V8H6V3h15v5h-6v1h6v5h-4v1h4v6H11v-7h-1v5H8v1h2v2h12V2zm3 4H3V5h2zm-2 6v-1h2v1zm2-2H3V9h2zM3 8V7h2v1zm2-4H3V3h2z'/%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3C/svg%3E\");\n}\n.custom-search-dropdown-list-item .custom-search-dropdown-list-icon-container .custom-search-dropdown-list-space-icon {\n  width: 23px;\n  height: 23px;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(68deg) brightness(104%) contrast(101%);\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3C!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools --%3E%3Csvg height='800px' width='800px' version='1.1' id='_x32_' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 512 512' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23000000;%7D%0A%3C/style%3E%3Cg%3E%3Cpath class='st0' d='M426.104,277.148c-16.228-28.842-40.49-47.086-76.866-47.086H162.34c-36.376,0-60.638,18.244-76.866,47.086 l-7.385,13.14c-6.316,11.201-5.614,24.499,1.806,35.147c7.439,10.649,20.552,17.122,34.675,17.122h282.437 c14.122,0,27.236-6.473,34.674-17.122c7.42-10.648,8.114-23.946,1.806-35.147L426.104,277.148z'/%3E%3Cpath class='st0' d='M329.905,467.721h25.157v-14.07c0-18.903-15.324-34.228-34.226-34.228h-52.472v-62.374h-25.149v62.374h-52.471 c-18.903,0-34.227,15.324-34.227,34.228v14.07h25.148v-9.386c0-6.306,5.114-11.412,11.412-11.412h50.138v20.798h25.149v-20.798 h50.138c6.298,0,11.403,5.106,11.403,11.412V467.721z'/%3E%3Cpath class='st0' d='M255.785,477.773c-9.448,0-17.114,7.666-17.114,17.114c0,9.456,7.666,17.114,17.114,17.114 c9.456,0,17.113-7.658,17.113-17.114C272.898,485.439,265.241,477.773,255.785,477.773z'/%3E%3Cpath class='st0' d='M167.253,477.773c-9.456,0-17.114,7.666-17.114,17.114c0,9.456,7.658,17.114,17.114,17.114 c9.447,0,17.105-7.658,17.105-17.114C184.358,485.439,176.7,477.773,167.253,477.773z'/%3E%3Cpath class='st0' d='M344.335,477.773c-9.456,0-17.114,7.666-17.114,17.114c0,9.456,7.657,17.114,17.114,17.114 c9.456,0,17.113-7.658,17.113-17.114C361.448,485.439,353.79,477.773,344.335,477.773z'/%3E%3Cpath class='st0' d='M359.334,35.63C357.983,15.579,341.326,0,321.23,0H191.892c-20.096,0-36.753,15.579-38.104,35.63 l-12.429,184.432h230.404L359.334,35.63z'/%3E%3Cpath class='st0' d='M113.965,204.344c9.306,0,16.842-7.535,16.842-16.842c0-9.298-7.535-16.841-16.842-16.841H78.037 c-9.298,0-16.842,7.543-16.842,16.841c0,9.306,7.543,16.842,16.842,16.842H113.965z'/%3E%3Cpath class='st0' d='M433.963,170.661h-35.929c-9.307,0-16.841,7.543-16.841,16.841c0,9.306,7.534,16.842,16.841,16.842h35.929 c9.297,0,16.842-7.535,16.842-16.842C450.805,178.204,443.26,170.661,433.963,170.661z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.custom-search-dropdown-list-item .custom-search-dropdown-list-icon-container .custom-search-dropdown-list-view-eye-icon {\n  width: 23px;\n  height: 23px;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: 100%;\n  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(68deg) brightness(104%) contrast(101%);\n  background-image: url(\"data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 122.88 83.78' style='enable-background:new 0 0 122.88 83.78' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M95.73,10.81c10.53,7.09,19.6,17.37,26.48,29.86l0.67,1.22l-0.67,1.21c-6.88,12.49-15.96,22.77-26.48,29.86 C85.46,79.88,73.8,83.78,61.44,83.78c-12.36,0-24.02-3.9-34.28-10.81C16.62,65.87,7.55,55.59,0.67,43.1L0,41.89l0.67-1.22 c6.88-12.49,15.95-22.77,26.48-29.86C37.42,3.9,49.08,0,61.44,0C73.8,0,85.45,3.9,95.73,10.81L95.73,10.81z M60.79,22.17l4.08,0.39 c-1.45,2.18-2.31,4.82-2.31,7.67c0,7.48,5.86,13.54,13.1,13.54c2.32,0,4.5-0.62,6.39-1.72c0.03,0.47,0.05,0.94,0.05,1.42 c0,11.77-9.54,21.31-21.31,21.31c-11.77,0-21.31-9.54-21.31-21.31C39.48,31.71,49.02,22.17,60.79,22.17L60.79,22.17L60.79,22.17z M109,41.89c-5.5-9.66-12.61-17.6-20.79-23.11c-8.05-5.42-17.15-8.48-26.77-8.48c-9.61,0-18.71,3.06-26.76,8.48 c-8.18,5.51-15.29,13.45-20.8,23.11c5.5,9.66,12.62,17.6,20.8,23.1c8.05,5.42,17.15,8.48,26.76,8.48c9.62,0,18.71-3.06,26.77-8.48 C96.39,59.49,103.5,51.55,109,41.89L109,41.89z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.custom-search-dropdown-list-item .custom-search-dropdown-list-label {\n  width: auto;\n}", ""]);
+exports.push([module.id, ".dt-navigation-toolbar-positioning {\n  position: fixed;\n  left: 50%;\n  top: 65px;\n  transform: translateX(-50%);\n  z-index: 1000;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n}\n.dt-navigation-toolbar-positioning * {\n  position: relative;\n}\n.dt-navigation-toolbar-positioning *[title]:hover::after {\n  content: attr(title);\n  position: absolute;\n  bottom: 130%;\n  left: 50%;\n  transform: translateX(-50%);\n  background: rgba(0, 0, 0, 0.95);\n  color: white;\n  padding: 10px 14px;\n  border-radius: 8px;\n  font-size: 13px;\n  font-weight: 500;\n  white-space: nowrap;\n  z-index: 9999;\n  pointer-events: none;\n  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);\n  animation: tooltip-fade-in 0.2s ease-out;\n}\n.dt-navigation-toolbar-positioning *[data-tooltip]:hover::after {\n  content: attr(data-tooltip);\n  position: absolute;\n  bottom: 130%;\n  left: 50%;\n  transform: translateX(-50%);\n  background: rgba(0, 0, 0, 0.95);\n  color: white;\n  padding: 10px 14px;\n  border-radius: 8px;\n  font-size: 13px;\n  font-weight: 500;\n  white-space: nowrap;\n  z-index: 9999;\n  pointer-events: none;\n  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);\n  animation: tooltip-fade-in 0.2s ease-out;\n}\n.dt-navigation-toolbar-positioning *[title]:hover::before {\n  content: \"\";\n  position: absolute;\n  bottom: 120%;\n  left: 50%;\n  transform: translateX(-50%);\n  border: 6px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.95);\n  z-index: 9999;\n  pointer-events: none;\n  animation: tooltip-fade-in 0.2s ease-out;\n}\n.dt-navigation-toolbar-positioning *[data-tooltip]:hover::before {\n  content: \"\";\n  position: absolute;\n  bottom: 120%;\n  left: 50%;\n  transform: translateX(-50%);\n  border: 6px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.95);\n  z-index: 9999;\n  pointer-events: none;\n  animation: tooltip-fade-in 0.2s ease-out;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container {\n  width: fit-content;\n  height: fit-content;\n  position: relative;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar {\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  width: fit-content;\n  height: fit-content;\n  position: relative;\n  border-radius: 30px;\n  padding: 10px 12px;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n  overflow: visible;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar:hover {\n  background: rgba(0, 0, 0, 0.6);\n  transform: translateY(-2px);\n  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.12);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.animating .dt-navigation-toolbar-items-container {\n  position: relative;\n  overflow: hidden;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.animating .dt-navigation-toolbar-items .dt-navigation-toolbar-button:not(.toggle-button) {\n  animation-fill-mode: both;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.animating .dt-navigation-toolbar-items.slide-out .dt-navigation-toolbar-button {\n  animation-delay: calc(var(--reverse-delay, 0s) + 0.3s);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.animating .dt-navigation-toolbar-items.slide-out[data-direction=right] .dt-navigation-toolbar-button {\n  animation: slide-out-follow-right 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.animating .dt-navigation-toolbar-items.slide-out[data-direction=left] .dt-navigation-toolbar-button {\n  animation: slide-out-follow-left 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.animating .dt-navigation-toolbar-items.slide-in .dt-navigation-toolbar-button {\n  opacity: 0;\n  animation-delay: calc(var(--animation-delay, 0s) + 1.2s);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.animating .dt-navigation-toolbar-items.slide-in[data-direction=left] .dt-navigation-toolbar-button {\n  transform: translateX(150%) scale(0.8);\n  animation: slide-in-follow-left 0.9s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.animating .dt-navigation-toolbar-items.slide-in[data-direction=right] .dt-navigation-toolbar-button {\n  transform: translateX(-150%) scale(0.8);\n  animation: slide-in-follow-right 0.9s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark {\n  background: rgba(0, 0, 0, 0.5);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button-icon {\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button-label,\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .search-label {\n  color: rgba(255, 255, 255, 0.9);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-icon {\n  filter: brightness(1.2) saturate(1.2);\n  transform: scale(1.1);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-label,\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button:hover .search-label {\n  color: #ffffff;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-search-button {\n  background: rgba(255, 255, 255, 0.1);\n  border: 1px solid rgba(255, 255, 255, 0.15);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-search-button:hover {\n  background: rgba(255, 255, 255, 0.2);\n  transform: translateY(-1px);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button {\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button:hover {\n  background: rgba(255, 255, 255, 0.15);\n  border-color: rgba(255, 255, 255, 0.25);\n  transform: translateY(-2px);\n  box-shadow: 0 0 15px rgba(66, 133, 244, 0.3);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light {\n  background: rgba(0, 0, 0, 0.6);\n  border: 1px solid rgba(0, 0, 0, 0.3);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-button-icon {\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-button-label,\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .search-label {\n  color: rgba(255, 255, 255, 0.9);\n  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-search-button {\n  background: rgba(255, 255, 255, 0.1);\n  border: 1px solid rgba(255, 255, 255, 0.15);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-search-button:hover {\n  background: rgba(255, 255, 255, 0.2);\n  transform: translateY(-1px);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-button {\n  background: rgba(255, 255, 255, 0.08);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-button:hover {\n  background: rgba(255, 255, 255, 0.18);\n  border-color: rgba(255, 255, 255, 0.25);\n  transform: translateY(-2px);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content {\n  display: flex;\n  align-items: center;\n  gap: 16px;\n  position: relative;\n  z-index: 2;\n  overflow: visible;\n  padding: 0 12px;\n  padding-top: 10px;\n  margin-top: -10px;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-items-container {\n  display: flex;\n  align-items: center;\n  flex: 1;\n  position: relative;\n  overflow: visible;\n  transition: margin 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);\n  margin: 0 70px 0 0;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-items-container.toggle-mode {\n  margin: 0 0 0 70px;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-items {\n  display: flex;\n  align-items: center;\n  gap: 16px;\n  position: relative;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.5s ease;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-items.slide-out {\n  transform: translateX(-100%);\n  opacity: 0;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-items.slide-in {\n  transform: translateX(0);\n  opacity: 1;\n  animation: slide-in-bounce 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button {\n  width: 56px;\n  height: 56px;\n  box-sizing: border-box;\n  flex-shrink: 0;\n  z-index: 5;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 10px;\n  border-radius: 12px;\n  cursor: pointer;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n  position: relative;\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button:hover {\n  background: rgba(255, 255, 255, 0.12);\n  transform: translateY(-2px);\n  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.1);\n  border-color: rgba(255, 255, 255, 0.25);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-icon {\n  transform: scale(1.2);\n  filter: brightness(1.2) saturate(1.1);\n  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-label {\n  color: #ffffff;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button:active {\n  transform: scale(0.98);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.selected {\n  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));\n  border-color: rgba(255, 255, 255, 0.4);\n  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.selected::after {\n  content: \"\";\n  position: absolute;\n  bottom: -8px;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 4px;\n  height: 4px;\n  background: rgba(255, 255, 255, 0.8);\n  border-radius: 50%;\n  box-shadow: 0 0 8px rgba(255, 255, 255, 0.4);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.selected .dt-navigation-toolbar-button-icon {\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(120%) contrast(105%);\n  transform: scale(1.05);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.selected .dt-navigation-toolbar-button-label {\n  color: #ffffff;\n  font-weight: 600;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.toggle-button {\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));\n  position: absolute;\n  z-index: 15;\n  right: 8px;\n  backdrop-filter: blur(10px);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.toggle-button.toggle-right {\n  transform: translateX(0);\n  animation: toggle-slide-right-trail 2.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.toggle-button.toggle-left {\n  transform: translateX(var(--slide-distance, -450px));\n  animation: toggle-slide-left-trail 2.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.toggle-button:hover {\n  background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));\n  box-shadow: 0 8px 32px rgba(255, 255, 255, 0.1);\n  border-color: rgba(255, 255, 255, 0.3);\n  z-index: 20;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n  z-index: 1;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon {\n  width: 28px;\n  height: 28px;\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-position: center;\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.2s ease;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-energy {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10.7 9.4-11.7 25.9-2.3 36.6s25.9 11.7 36.6 2.3L164.7 192H304c13.3 0 24-10.7 24-24c0-13.3-10.7-24-24-24H207.4l119-104.6zM32 256c0 17.7 14.3 32 32 32H288c17.7 0 32-14.3 32-32s-14.3-32-32-32H64c-17.7 0-32 14.3-32 32zm480 128c0 17.7-14.3 32-32 32H256c-17.7 0-32-14.3-32-32s14.3-32 32-32H480c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-fault {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-kpi {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 220.7l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-iaq {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M288 32c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM143.5 128c13.3 0 24.1 10.8 24.1 24.1c0 2.7-.4 5.4-1.2 8.1l-33.6 112c-1.4 4.7-5.8 7.8-10.7 7.8s-9.3-3.1-10.7-7.8l-33.6-112c-.8-2.7-1.2-5.4-1.2-8.1C76.4 138.8 87.2 128 100.5 128h43zM511.9 192c-.3 39.3-32.1 71.4-71.4 71.4H352c-39.8 0-72.4-32.4-72.4-72.4c0-18.7 7.2-35.6 18.9-48.3l85.9-93.9c6.3-6.9 17-7.2 23.8-.9c6.9 6.3 7.2 17 .9 23.8l-85.9 93.9c-5.7 6.2-9.2 14.4-9.2 23.4c0 18.7 15.2 33.9 33.9 33.9h88.6c18.7 0 33.9-15.2 33.9-33.9c0-9.3-3.8-17.8-9.9-23.9l-85.9-85.9c-6.6-6.6-6.6-17.4 0-24s17.4-6.6 24 0l85.9 85.9c12.5 12.5 20.2 29.8 20.2 48.8zM192 256c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM304 416c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM20.1 468.9C18.4 461.1 25.9 454 33.9 454H65.8c10.2 0 18.9-7.6 19.7-17.7c1.2-14.4 7.2-27.9 16.7-38.2l61.4-66.7c5.7-6.2 15.7-6.2 21.4 0l61.4 66.7c9.5 10.3 15.5 23.8 16.7 38.2c.8 10.1 9.5 17.7 19.7 17.7h31.9c8 0 15.5 7.1 13.8 14.9l-7.8 36c-1.4 6.5-7.2 11.1-13.8 11.1H61.7c-6.6 0-12.4-4.6-13.8-11.1l-7.8-36z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-occupancy {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M352 96c0 53.02-42.98 96-96 96s-96-42.98-96-96s42.98-96 96-96s96 42.98 96 96zM233.4 201.4c-37.79-15.8-55.2-57.4-43.4-96.9c2.7-9.0 8.9-16.1 16.7-20.4c.8-.5 1.7-1.0 2.5-1.4c31.1-15.9 68.9-8.9 92.6 16.4c23.7-25.3 61.5-32.3 92.6-16.4c.8 .4 1.7 .9 2.5 1.4c7.8 4.3 14.0 11.4 16.7 20.4c11.8 39.5-5.6 81.1-43.4 96.9L384 224c13.3 0 24 10.7 24 24v144c0 13.3-10.7 24-24 24H280v-64c0-17.7-14.3-32-32-32s-32 14.3-32 32v64H128c-13.3 0-24-10.7-24-24V248c0-13.3 10.7-24 24-24l14.6-22.6z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-sustainability {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M272 96c-78.6 0-145.1 51.5-167.7 122.5c33.6-17 71.5-26.5 111.7-26.5h88c8.8 0 16 7.2 16 16s-7.2 16-16 16H216c-70.7 0-128 57.3-128 128c0 17.7-14.3 32-32 32s-32-14.3-32-32C24 155.1 132.1 32 272 32s248 123.1 248 280c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-128-103.3-216-184-216zM179.7 264c-28.1 0-51.7 20.1-56.9 47.1c-5.5 28.7 11.8 56.9 40.5 56.9H304c8.8 0 16-7.2 16-16s-7.2-16-16-16H163.3c-13.4 0-24.3-10.9-24.3-24.3c0-13.4 10.9-24.3 24.3-24.3H304c8.8 0 16-7.2 16-16s-7.2-16-16-16H179.7z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-dc-availability {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M64 32C28.7 32 0 60.7 0 96v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM344 152c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm96-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM64 288c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V352c0-35.3-28.7-64-64-64H64zM344 408c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm104-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM96 384a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm120-24a24 24 0 1 0 0 48 24 24 0 1 0 0-48z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-dc-fault {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M64 32C28.7 32 0 60.7 0 96v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm48 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 288c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V352c0-35.3-28.7-64-64-64H64zm192-16c17.7 0 32 14.3 32 32V320h16c17.7 0 32 14.3 32 32s-14.3 32-32 32H288v16c0 17.7-14.3 32-32 32s-32-14.3-32-32V384H208c-17.7 0-32-14.3-32-32s14.3-32 32-32h16V304c0-17.7 14.3-32 32-32z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-home {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3Cpath d='M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-search {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-building {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' viewBox='0 0 122.88 113.05' style='enable-background:new 0 0 122.88 113.05' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st0%7Bfill-rule:evenodd;clip-rule:evenodd;%7D%3C/style%3E%3Cg%3E%3Cpath class='st0' d='M0,100.07h14.72V1.57c0-0.86,0.71-1.57,1.57-1.57h49.86c0.86,0,1.57,0.71,1.57,1.57V38.5h44.12 c0.86,0,1.57,0.71,1.57,1.57v59.99h9.47v12.99H0V100.07L0,100.07z M27.32,14.82h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36 c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V15.39C26.75,15.08,27.01,14.82,27.32,14.82L27.32,14.82z M44.6,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V76.87 C44.03,76.55,44.29,76.3,44.6,76.3L44.6,76.3z M27.32,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87C26.75,76.55,27.01,76.3,27.32,76.3L27.32,76.3z M44.6,55.8h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V56.38 C44.03,56.06,44.29,55.8,44.6,55.8L44.6,55.8z M27.32,55.8h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V56.38C26.75,56.06,27.01,55.8,27.32,55.8L27.32,55.8z M44.6,35.31h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V35.88 C44.03,35.57,44.29,35.31,44.6,35.31L44.6,35.31z M27.32,35.31h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V35.88C26.75,35.57,27.01,35.31,27.32,35.31L27.32,35.31z M44.6,14.82h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57H44.6c-0.31,0-0.57-0.26-0.57-0.57V15.39 C44.03,15.08,44.29,14.82,44.6,14.82L44.6,14.82z M23.17,7.32h35.92c0.62,0,1.13,0.61,1.13,1.35v85.87c0,0.74-0.51,1.35-1.13,1.35 H23.17c-0.62,0-1.13-0.61-1.13-1.35V8.67C22.04,7.93,22.55,7.32,23.17,7.32L23.17,7.32z M72.61,53.43h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V54 C72.04,53.69,72.3,53.43,72.61,53.43L72.61,53.43z M89.89,76.3h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87C89.32,76.55,89.58,76.3,89.89,76.3L89.89,76.3z M72.61,76.3h10.2 c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57h-10.2c-0.31,0-0.57-0.26-0.57-0.57V76.87 C72.04,76.55,72.3,76.3,72.61,76.3L72.61,76.3z M89.89,53.43h10.2c0.31,0,0.57,0.26,0.57,0.57v12.36c0,0.31-0.26,0.57-0.57,0.57 h-10.2c-0.31,0-0.57-0.26-0.57-0.57V54C89.32,53.69,89.58,53.43,89.89,53.43L89.89,53.43z M68.86,45.82h35.92 c0.62,0,1.13,0.61,1.13,1.35v47.37c0,0.74-0.51,1.35-1.13,1.35H68.86c-0.62,0-1.13-0.61-1.13-1.35V47.17 C67.73,46.43,68.24,45.82,68.86,45.82L68.86,45.82z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-security {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' width='111.811px' height='122.88px' viewBox='0 0 111.811 122.88' enable-background='new 0 0 111.811 122.88' xml:space='preserve'%3E%3Cg%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M55.713,0c20.848,13.215,39.682,19.467,55.846,17.989 c2.823,57.098-18.263,90.818-55.63,104.891C19.844,109.708-1.5,77.439,0.083,17.123C19.058,18.116,37.674,14.014,55.713,0L55.713,0 z M41.458,56.508h1.438v-3.331c0-3.689,1.454-7.051,3.797-9.494c2.361-2.462,5.622-3.991,9.214-3.991s6.854,1.529,9.214,3.991 c2.343,2.443,3.797,5.805,3.797,9.494v3.331h1.438c1.167,0,2.123,0.955,2.123,2.123v22.434c0,1.168-0.956,2.123-2.123,2.123H41.458 c-1.168,0-2.123-0.955-2.123-2.123V58.631C39.334,57.463,40.29,56.508,41.458,56.508L41.458,56.508z M54.164,71.286l-2.291,6h8.066 l-2.122-6.082c1.347-0.693,2.268-2.097,2.268-3.716c0-2.308-1.871-4.179-4.179-4.179s-4.178,1.871-4.178,4.179 C51.728,69.173,52.726,70.625,54.164,71.286L54.164,71.286z M46.916,56.508h17.981v-3.331c0-2.623-1.021-4.999-2.666-6.715 c-1.627-1.697-3.866-2.751-6.325-2.751c-2.458,0-4.698,1.054-6.324,2.751c-1.646,1.716-2.666,4.092-2.666,6.715V56.508 L46.916,56.508z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-facility {\n  width: 28px;\n  height: 28px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' x='0px' y='0px' viewBox='0 0 512 512' enable-background='new 0 0 512 512' xml:space='preserve' style='fill:%23000000'%3E%3Cg%3E%3Cpath d='M77.175,184.867v49.926h93.689V283H77.175v94.036H19.387V134.94h159.347v49.927H77.175z'/%3E%3Cpath d='M435.867,377.036l1.366-171.314h-1.026l-62.919,171.314h-41.031L271.05,205.722h-1.025l1.372,171.314H216.34V134.94h83.192&%2313;&%2310; l55.126,155.243h1.366l52.72-155.243h84.565v242.096H435.867z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-c2o {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' viewBox='0 0 32 32' style='fill:%23000000'%3E%3Cg/%3E%3Cpath d='M22 4h-4v-2c0-1.1-0.9-2-2-2h-4c-1.1 0-2 0.9-2 2v2h-4v4h16v-4zM16 4h-4v-1.996c0.001-0.001 0.002-0.002 0.004-0.004h3.993c0.001 0.001 0.003 0.002 0.004 0.004v1.996zM26 10v-5c0-0.55-0.45-1-1-1h-2v2h1v4h-6l-6 6v8h-8v-18h1v-2h-2c-0.55 0-1 0.45-1 1v20c0 0.55 0.45 1 1 1h9v6h20v-22h-6zM18 12.828v3.172h-3.172l3.172-3.172zM30 30h-16v-12h6v-6h10v18z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-leafbuilding {\n  width: 27px;\n  height: 27px;\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.0' width='100.000000pt' height='100.000000pt' viewBox='0 0 100.000000 100.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,100.000000) scale(0.100000,-0.100000)' fill='%23000000' stroke='none'%3E%3Cpath d='M200 900 c0 -38 -2 -40 -30 -40 l-30 0 0 -400 0 -400 90 0 90 0 0 80 0 80 40 0 40 0 0 -80 0 -80 90 0 90 0 0 45 0 46 28 -15 c28 -15 29 -16 18 -65 -7 -37 -7 -54 1 -62 16 -16 33 -2 33 29 0 47 12 55 53 37 66 -27 128 -16 181 33 39 37 55 78 67 174 5 44 17 94 25 111 19 36 10 47 -45 54 l-41 6 0 133 0 134 -140 0 -140 0 0 -40 c0 -33 3 -40 20 -40 13 0 20 -7 20 -20 0 -13 -7 -20 -20 -20 -13 0 -20 -7 -20 -20 0 -13 7 -20 20 -20 13 0 20 -7 20 -20 0 -13 -7 -20 -20 -20 -13 0 -20 -7 -20 -20 0 -13 7 -20 20 -20 13 0 20 -7 20 -20 0 -13 -7 -20 -20 -20 -14 0 -20 -7 -20 -23 0 -12 -9 -28 -20 -35 -20 -12 -20 -10 -20 233 l0 245 -30 0 c-28 0 -30 2 -30 40 l0 40 -160 0 -160 0 0 -40z m60 -140 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m-240 -100 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m240 -40 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m-560 -80 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m240 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m80 0 c0 -13 -7 -20 -20 -20 -13 0 -20 7 -20 20 0 13 7 20 20 20 13 0 20 -7 20 -20z m-80 -74 c0 -8 -7 -17 -16 -20 -23 -9 -24 -8 -24 14 0 13 7 20 20 20 11 0 20 -6 20 -14z m80 4 c0 -5 -9 -10 -20 -10 -11 0 -20 5 -20 10 0 6 9 10 20 10 11 0 20 -4 20 -10z m-560 -50 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m403 -7 c36 -5 38 -8 33 -32 -3 -14 -10 -61 -16 -104 -5 -47 -18 -92 -30 -112 -22 -36 -73 -65 -115 -65 -25 0 -85 25 -85 36 0 35 94 150 165 201 23 16 27 24 19 33 -26 26 -139 -68 -191 -158 -15 -26 -27 -48 -28 -50 -7 -9 -55 24 -64 45 -57 124 116 239 312 206z m-643 -113 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m80 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m-240 -120 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z m240 0 c0 -33 -3 -40 -20 -40 -17 0 -20 7 -20 40 0 33 3 40 20 40 17 0 20 -7 20 -40z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-trend {\n  background-image: url(\"data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 122.88 106.5'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill-rule:evenodd;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Echart%3C/title%3E%3Cpath class='cls-1' d='M19.39,64.84v39.84a1.84,1.84,0,0,1-1.83,1.82H1.83A1.83,1.83,0,0,1,0,104.68V64.84ZM0,51.83,41.59,15.44c9.21,9,18.14,19.93,27.25,28.93L102.07,11,91.37.28,122.88,0V31.78L112.61,21.51c-7.37,7.47-24.8,23.92-32.17,31.3-9.33,9.32-13.78,9.49-23.1.17L41.59,35.46,23.13,51.83ZM114.37,38.69v66a1.84,1.84,0,0,1-1.82,1.82H96.81A1.84,1.84,0,0,1,95,104.68V57.29c3-2.91,6.5-6.29,10.07-9.73l7.45-7.17a24.16,24.16,0,0,1,1.87-1.7ZM82.71,68.34v36.34a1.84,1.84,0,0,1-1.83,1.82H65.15a1.84,1.84,0,0,1-1.83-1.82V72.22a22.48,22.48,0,0,0,5.73.63,24,24,0,0,0,13.66-4.51Zm-31.66-3v39.29a1.84,1.84,0,0,1-1.83,1.82H33.48a1.83,1.83,0,0,1-1.82-1.82V62q.48-.36.93-.75l7.86-7,6.34,7,.49.51q1.92,1.93,3.77,3.52Z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-coperate-service {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.0' width='96.000000pt' height='96.000000pt' viewBox='0 0 96.000000 96.000000' preserveAspectRatio='xMidYMid meet'%3E%3Cg transform='translate(0.000000,96.000000) scale(0.100000,-0.100000)' fill='%23000000' stroke='none'%3E%3Cpath d='M452 934 c-18 -9 -42 -28 -52 -42 l-20 -25 39 -42 c37 -40 45 -61 53 -135 3 -21 9 -25 40 -28 108 -9 189 105 143 202 -35 73 -131 106 -203 70z'/%3E%3Cpath d='M212 834 c-130 -67 -94 -255 52 -271 149 -17 225 172 103 259 -39 28 -112 34 -155 12z'/%3E%3Cpath d='M445 618 c-10 -18 -19 -37 -20 -41 0 -4 27 -19 60 -32 74 -30 105 -63 105 -113 l1 -37 20 37 c25 48 86 81 141 76 38 -4 39 -3 36 26 -6 56 -108 103 -248 113 l-75 5 -20 -34z'/%3E%3Cpath d='M174 536 c-64 -15 -117 -38 -146 -64 -14 -12 -18 -31 -18 -89 0 -116 -6 -113 259 -113 l219 0 6 32 c3 18 18 44 32 59 38 39 31 95 -15 126 -76 51 -229 73 -337 49z'/%3E%3Cpath d='M688 454 c-28 -15 -58 -61 -58 -89 0 -10 -9 -15 -28 -15 -17 0 -37 -10 -50 -23 -20 -21 -22 -34 -22 -148 0 -174 -7 -169 211 -169 216 0 209 -6 209 171 0 118 -1 127 -23 147 -13 12 -35 22 -50 22 -18 0 -27 5 -27 15 0 29 -30 75 -60 90 -36 19 -67 19 -102 -1z m86 -60 c31 -30 20 -44 -34 -44 -54 0 -65 14 -34 44 20 20 48 20 68 0z m116 -130 c0 -21 -9 -29 -55 -50 -70 -31 -118 -30 -189 1 -47 21 -56 29 -56 50 l0 25 150 0 150 0 0 -26z m-249 -114 c27 -12 66 -20 99 -20 33 0 72 8 99 20 24 11 45 20 47 20 2 0 4 -22 4 -50 l0 -50 -150 0 -150 0 0 50 c0 28 2 50 4 50 2 0 23 -9 47 -20z'/%3E%3C/g%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-switch-event {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM241 377c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-switch-url {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z'/%3E%3C/svg%3E\");\n}\n\n.search-dropdown-content {\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  width: 280px;\n  max-height: 400px;\n  min-height: 160px;\n  border-radius: 14px;\n  animation: dropdown-slide-in 0.3s forwards;\n}\n.search-dropdown-content::-webkit-scrollbar {\n  width: 4px;\n}\n.search-dropdown-content::-webkit-scrollbar-track {\n  background: transparent;\n}\n.search-dropdown-content::-webkit-scrollbar-thumb {\n  background: rgba(255, 255, 255, 0.3);\n  border-radius: 4px;\n}\n.search-dropdown-content::-webkit-scrollbar-thumb:hover {\n  background: rgba(255, 255, 255, 0.5);\n}\n\n.dropdown-btn-content.dt-navigation-toolbar-search-dropdown {\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  transform: translateX(-51%) translateY(-2%) !important;\n  border-radius: 14px !important;\n  animation: dropdown-slide-in 0.3s forwards;\n}\n.dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before {\n  border-bottom: 8px solid rgba(0, 0, 0, 0.5) !important;\n}\n\n.dt-navigation-toolbar.theme-dark ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown,\n.dt-navigation-toolbar[data-theme=dark] ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown {\n  background: rgba(0, 0, 0, 0.5) !important;\n  border: 1px solid rgba(255, 255, 255, 0.12) !important;\n}\n.dt-navigation-toolbar.theme-dark ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before,\n.dt-navigation-toolbar[data-theme=dark] ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before {\n  border-bottom: 8px solid rgba(0, 0, 0, 0.5) !important;\n}\n\n.dt-navigation-toolbar.theme-light ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown,\n.dt-navigation-toolbar[data-theme=light] ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown {\n  background: rgba(0, 0, 0, 0.6) !important;\n  border: 1px solid rgba(0, 0, 0, 0.3) !important;\n}\n.dt-navigation-toolbar.theme-light ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before,\n.dt-navigation-toolbar[data-theme=light] ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before {\n  border-bottom: 8px solid rgba(0, 0, 0, 0.6) !important;\n}\n\n@keyframes dropdown-slide-in {\n  from {\n    opacity: 0;\n    transform: translateY(-10px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n@keyframes slide-new-items {\n  0% {\n    transform: translateX(100%);\n    opacity: 0;\n  }\n  100% {\n    transform: translateX(0);\n    opacity: 1;\n  }\n}\n@keyframes slide-out-left {\n  0% {\n    transform: translateX(0);\n    opacity: 1;\n  }\n  100% {\n    transform: translateX(-100%);\n    opacity: 0;\n  }\n}\n@keyframes slide-out-follow-left {\n  0% {\n    transform: translateX(0) scale(1);\n    opacity: 1;\n  }\n  50% {\n    transform: translateX(-30px) scale(0.95);\n    opacity: 0.7;\n  }\n  100% {\n    transform: translateX(-150%) scale(0.8);\n    opacity: 0;\n  }\n}\n@keyframes slide-out-follow-right {\n  0% {\n    transform: translateX(0) scale(1);\n    opacity: 1;\n  }\n  50% {\n    transform: translateX(30px) scale(0.95);\n    opacity: 0.7;\n  }\n  100% {\n    transform: translateX(150%) scale(0.8);\n    opacity: 0;\n  }\n}\n@keyframes slide-in-right {\n  0% {\n    transform: translateX(120%);\n    opacity: 0;\n  }\n  60% {\n    opacity: 0.7;\n  }\n  100% {\n    transform: translateX(0);\n    opacity: 1;\n  }\n}\n@keyframes slide-in-follow-left {\n  0% {\n    transform: translateX(150%) scale(0.8) rotateY(30deg);\n    opacity: 0;\n  }\n  30% {\n    opacity: 0.3;\n    transform: translateX(80%) scale(0.9) rotateY(15deg);\n  }\n  60% {\n    opacity: 0.7;\n    transform: translateX(20%) scale(0.95) rotateY(5deg);\n  }\n  80% {\n    transform: translateX(-5%) scale(1.05) rotateY(0deg);\n    opacity: 0.9;\n  }\n  100% {\n    transform: translateX(0) scale(1) rotateY(0deg);\n    opacity: 1;\n  }\n}\n@keyframes slide-in-follow-right {\n  0% {\n    transform: translateX(-150%) scale(0.8) rotateY(-30deg);\n    opacity: 0;\n  }\n  30% {\n    opacity: 0.3;\n    transform: translateX(-80%) scale(0.9) rotateY(-15deg);\n  }\n  60% {\n    opacity: 0.7;\n    transform: translateX(-20%) scale(0.95) rotateY(-5deg);\n  }\n  80% {\n    transform: translateX(5%) scale(1.05) rotateY(0deg);\n    opacity: 0.9;\n  }\n  100% {\n    transform: translateX(0) scale(1) rotateY(0deg);\n    opacity: 1;\n  }\n}\n@keyframes slide-in-bounce {\n  0% {\n    transform: translateX(0);\n    opacity: 1;\n  }\n  100% {\n    transform: translateX(0);\n    opacity: 1;\n  }\n}\n@keyframes toggle-slide-left-trail {\n  0% {\n    transform: translateX(0);\n    box-shadow: 0 0 0 rgba(255, 255, 255, 0);\n    backdrop-filter: blur(10px);\n  }\n  15% {\n    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);\n  }\n  50% {\n    box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);\n  }\n  85% {\n    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);\n  }\n  100% {\n    transform: translateX(var(--slide-distance, -450px));\n    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);\n    backdrop-filter: blur(12px);\n  }\n}\n@keyframes toggle-slide-right-trail {\n  0% {\n    transform: translateX(var(--slide-distance, -450px));\n    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);\n    backdrop-filter: blur(12px);\n  }\n  15% {\n    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);\n  }\n  50% {\n    box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);\n  }\n  85% {\n    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);\n  }\n  100% {\n    transform: translateX(0);\n    box-shadow: 0 0 0 rgba(255, 255, 255, 0);\n    backdrop-filter: blur(10px);\n  }\n}\n@keyframes tooltip-fade-in {\n  0% {\n    opacity: 0;\n    transform: translateX(-50%) translateY(10px);\n  }\n  100% {\n    opacity: 1;\n    transform: translateX(-50%) translateY(0);\n  }\n}\n@media (max-width: 768px) {\n  .dt-navigation-toolbar-positioning {\n    top: 55px;\n    max-width: 95%;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar {\n    padding: 4px 8px;\n    border-radius: 25px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content {\n    gap: 3px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-search {\n    margin-right: 6px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-search .dt-navigation-toolbar-search-button {\n    padding: 4px 8px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-search .dt-navigation-toolbar-search-button .dt-navigation-toolbar-button-icon {\n    width: 12px;\n    height: 12px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-search .dt-navigation-toolbar-search-button .search-label {\n    font-size: 10px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-items {\n    gap: 2px;\n    margin-right: 6px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button {\n    padding: 6px 8px;\n    min-width: 45px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container {\n    height: 20px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon {\n    width: 18px;\n    height: 18px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-label {\n    font-size: 8px;\n  }\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -120293,12 +120276,26 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const React = __importStar(__webpack_require__(/*! react */ "react"));
-const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
 const WidgetUploader_1 = __importDefault(__webpack_require__(/*! ./WidgetUploader */ "./src/components/WidgetUploader.tsx"));
 const DebugWidgetUploader_1 = __importDefault(__webpack_require__(/*! ./DebugWidgetUploader */ "./src/components/DebugWidgetUploader.tsx"));
 const WidgetService_1 = __webpack_require__(/*! ../services/WidgetService */ "./src/services/WidgetService.ts");
 const uxp_1 = __webpack_require__(/*! ../uxp */ "./src/uxp.ts");
 const widgetManagerService_1 = __webpack_require__(/*! ../tools/widgetManagerService */ "./src/tools/widgetManagerService.tsx");
+const categoryWidgetFilter_1 = __webpack_require__(/*! ../tools/categoryWidgetFilter */ "./src/tools/categoryWidgetFilter.ts");
+const Button = ({ title, onClick, styles, children }) => {
+    return (React.createElement("button", { onClick: onClick, style: Object.assign({ border: 'none', borderRadius: '6px', padding: '8px 16px', fontSize: '14px', fontWeight: '500', cursor: 'pointer', backgroundColor: '#3b82f6', color: 'white', transition: 'all 0.2s ease', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }, styles), onMouseEnter: (e) => {
+            if (!(styles === null || styles === void 0 ? void 0 : styles.backgroundColor) || styles.backgroundColor === '#3b82f6') {
+                e.currentTarget.style.backgroundColor = '#2563eb';
+            }
+        }, onMouseLeave: (e) => {
+            if (styles === null || styles === void 0 ? void 0 : styles.backgroundColor) {
+                e.currentTarget.style.backgroundColor = styles.backgroundColor;
+            }
+            else {
+                e.currentTarget.style.backgroundColor = '#3b82f6';
+            }
+        } }, children || title));
+};
 const WidgetIntegrator = (props) => {
     var _a;
     const [isExpanded, setIsExpanded] = React.useState(false);
@@ -120317,6 +120314,7 @@ const WidgetIntegrator = (props) => {
     const [previewLocationKey, setPreviewLocationKey] = React.useState('preview-location');
     const [previewLocationName, setPreviewLocationName] = React.useState('Preview Building');
     const [previewInstanceId, setPreviewInstanceId] = React.useState('preview');
+    const [selectedCategory, setSelectedCategory] = React.useState(''); // Category selection for widgets
     const scanForRegisteredWidgets = () => {
         try {
             if (window.registeredWidgets) {
@@ -120547,14 +120545,14 @@ registerWidget({
 `;
         return code;
     };
-    const addToScene = (widgetId, placement, assetwidget) => {
+    const addToScene = (widgetId, placement, assetwidget, category) => {
         const widget = registeredWidgets.find(w => w.id === widgetId);
         if (widget && props.onAddToScene && widget.component) {
             // Register the component in the global registry for persistence
             const componentName = widget.component.displayName || widget.component.name || widgetId;
             (0, widgetManagerService_1.registerComponent)(componentName, widget.component);
             // Call the onAddToScene prop with the widget ID, component, and optional placement
-            props.onAddToScene(widgetId, widget.component, placement, assetwidget);
+            props.onAddToScene(widgetId, widget.component, placement, assetwidget, category);
         }
     };
     const copyToClipboard = () => {
@@ -120882,7 +120880,7 @@ registerWidget({
                                     "Widgets (",
                                     registeredWidgets.length,
                                     ")"),
-                                React.createElement(components_1.Button, { title: "Refresh", onClick: scanForRegisteredWidgets, styles: {
+                                React.createElement(Button, { title: "Refresh", onClick: scanForRegisteredWidgets, styles: {
                                         fontSize: '13px',
                                         padding: '6px 12px',
                                         backgroundColor: '#64748b',
@@ -120900,7 +120898,7 @@ registerWidget({
                                     marginBottom: '12px'
                                 } },
                                 React.createElement("h4", { style: { margin: 0, fontSize: '16px', fontWeight: 600, color: '#334155' } }, "Upload Widget"),
-                                React.createElement(components_1.Button, { title: useDebugUploader ? "Use Regular Uploader" : "Use Debug Uploader", onClick: () => setUseDebugUploader(!useDebugUploader), styles: { fontSize: '12px' } })),
+                                React.createElement(Button, { title: useDebugUploader ? "Use Regular Uploader" : "Use Debug Uploader", onClick: () => setUseDebugUploader(!useDebugUploader), styles: { fontSize: '12px' } })),
                             useDebugUploader ? (React.createElement(DebugWidgetUploader_1.default, { onWidgetRegistered: handleWidgetRegistered })) : (React.createElement(WidgetUploader_1.default, { onWidgetRegistered: handleWidgetRegistered }))),
                         React.createElement("div", { style: {
                                 // padding: '16px 24px 16px', 
@@ -120921,7 +120919,7 @@ registerWidget({
                                     React.createElement("div", { style: {
                                             position: 'relative'
                                         } },
-                                        React.createElement(components_1.Button, { title: "Cleanup Options", onClick: () => {
+                                        React.createElement(Button, { title: "Cleanup Options", onClick: () => {
                                                 var _a;
                                                 // Toggle a cleanup dialog
                                                 const existingDialog = document.getElementById('cleanup-dialog');
@@ -121242,16 +121240,50 @@ registerWidget({
                                                             color: '#64748b',
                                                             marginBottom: '8px',
                                                             lineHeight: '1.4'
-                                                        } }, widget.description))),
+                                                        } }, widget.description),
+                                                    selectedCategory && (React.createElement("div", { style: {
+                                                            display: 'inline-block',
+                                                            padding: '2px 6px',
+                                                            fontSize: '11px',
+                                                            fontWeight: '500',
+                                                            backgroundColor: '#e0f2fe',
+                                                            color: '#0369a1',
+                                                            borderRadius: '4px',
+                                                            marginBottom: '4px'
+                                                        } },
+                                                        "Category: ",
+                                                        selectedCategory)))),
+                                            React.createElement("div", { style: {
+                                                    marginTop: '12px',
+                                                    marginBottom: '8px'
+                                                } },
+                                                React.createElement("label", { style: {
+                                                        display: 'block',
+                                                        fontSize: '12px',
+                                                        fontWeight: '500',
+                                                        color: '#374151',
+                                                        marginBottom: '4px'
+                                                    } }, "Category (optional):"),
+                                                React.createElement("select", { value: selectedCategory, onChange: (e) => setSelectedCategory(e.target.value), style: {
+                                                        width: '100%',
+                                                        padding: '6px 8px',
+                                                        border: '1px solid #d1d5db',
+                                                        borderRadius: '4px',
+                                                        fontSize: '12px',
+                                                        backgroundColor: 'white',
+                                                        color: '#374151'
+                                                    } },
+                                                    React.createElement("option", { value: "" }, "No Category"),
+                                                    Object.entries(categoryWidgetFilter_1.WIDGET_CATEGORIES).map(([key, value]) => (React.createElement("option", { key: key, value: value }, value))))),
                                             React.createElement("div", { style: {
                                                     display: 'flex',
                                                     gap: '8px',
                                                     marginTop: '12px',
                                                     flexWrap: 'wrap'
                                                 } },
-                                                React.createElement(components_1.Button, { title: "Add to Scene", onClick: (e) => {
-                                                        e.stopPropagation();
-                                                        addToScene(widget.id);
+                                                React.createElement(Button, { title: "Add to Scene", onClick: (e) => {
+                                                        e === null || e === void 0 ? void 0 : e.stopPropagation();
+                                                        addToScene(widget.id, undefined, false, selectedCategory || undefined);
                                                     }, styles: {
                                                         fontSize: '12px',
                                                         padding: '6px 12px',
@@ -121260,9 +121292,9 @@ registerWidget({
                                                         borderRadius: '6px',
                                                         fontWeight: '500'
                                                     } }),
-                                                React.createElement(components_1.Button, { title: "Add as Asset Widget", onClick: (e) => {
-                                                        e.stopPropagation();
-                                                        addToScene(widget.id, undefined, true); // Pass true for assetwidget
+                                                React.createElement(Button, { title: "Add as Asset Widget", onClick: (e) => {
+                                                        e === null || e === void 0 ? void 0 : e.stopPropagation();
+                                                        addToScene(widget.id, undefined, true, selectedCategory || undefined); // Pass true for assetwidget
                                                     }, styles: {
                                                         fontSize: '12px',
                                                         padding: '6px 12px',
@@ -121271,8 +121303,8 @@ registerWidget({
                                                         borderRadius: '6px',
                                                         fontWeight: '500'
                                                     } }),
-                                                React.createElement(components_1.Button, { title: "Preview", onClick: (e) => {
-                                                        e.stopPropagation();
+                                                React.createElement(Button, { title: "Preview", onClick: (e) => {
+                                                        e === null || e === void 0 ? void 0 : e.stopPropagation();
                                                         handlePreviewWidget(widget.id);
                                                     }, styles: {
                                                         fontSize: '12px',
@@ -121282,8 +121314,8 @@ registerWidget({
                                                         borderRadius: '6px',
                                                         fontWeight: '500'
                                                     } }),
-                                                React.createElement(components_1.Button, { title: "Get Code", onClick: (e) => {
-                                                        e.stopPropagation();
+                                                React.createElement(Button, { title: "Get Code", onClick: (e) => {
+                                                        e === null || e === void 0 ? void 0 : e.stopPropagation();
                                                         generateExportCode(widget.id);
                                                         setActiveTab('code');
                                                     }, styles: {
@@ -121294,8 +121326,8 @@ registerWidget({
                                                         borderRadius: '6px',
                                                         fontWeight: '500'
                                                     } }),
-                                                React.createElement(components_1.Button, { title: "Full Code", onClick: (e) => {
-                                                        e.stopPropagation();
+                                                React.createElement(Button, { title: "Full Code", onClick: (e) => {
+                                                        e === null || e === void 0 ? void 0 : e.stopPropagation();
                                                         const fullCode = generateFullWidgetCode(widget.id);
                                                         if (fullCode) {
                                                             setExportCode(fullCode);
@@ -121309,8 +121341,8 @@ registerWidget({
                                                         borderRadius: '6px',
                                                         fontWeight: '500'
                                                     } }),
-                                                React.createElement(components_1.Button, { title: "Delete", onClick: (e) => __awaiter(void 0, void 0, void 0, function* () {
-                                                        e.stopPropagation();
+                                                React.createElement(Button, { title: "Delete", onClick: (e) => __awaiter(void 0, void 0, void 0, function* () {
+                                                        e === null || e === void 0 ? void 0 : e.stopPropagation();
                                                         if (window.confirm(`Delete widget "${widget.name}"?`)) {
                                                             try {
                                                                 yield WidgetService_1.widgetService.deleteWidget(widget.id);
@@ -121370,14 +121402,14 @@ registerWidget({
                                     display: 'flex',
                                     gap: '8px'
                                 } },
-                                React.createElement(components_1.Button, { title: "Add to Scene", onClick: () => addToScene(previewWidgetId || ''), styles: {
+                                React.createElement(Button, { title: "Add to Scene", onClick: () => addToScene(previewWidgetId || '', undefined, false, selectedCategory || undefined), styles: {
                                         fontSize: '13px',
                                         padding: '8px 16px',
                                         backgroundColor: '#2563eb',
                                         color: 'white',
                                         borderRadius: '6px'
                                     } }),
-                                React.createElement(components_1.Button, { title: "Get Code", onClick: () => setActiveTab('code'), styles: {
+                                React.createElement(Button, { title: "Get Code", onClick: () => setActiveTab('code'), styles: {
                                         fontSize: '13px',
                                         padding: '8px 16px',
                                         backgroundColor: '#8b5cf6',
@@ -121581,7 +121613,7 @@ registerWidget({
                                             width: '120px',
                                             outline: 'none'
                                         } }),
-                                    React.createElement(components_1.Button, { title: "Refresh", onClick: () => {
+                                    React.createElement(Button, { title: "Refresh", onClick: () => {
                                             // Force a refresh of the widget when params change
                                             const currentWidget = previewWidgetId;
                                             setPreviewWidgetId(null);
@@ -121648,7 +121680,7 @@ registerWidget({
                                     React.createElement("svg", { width: "16", height: "16", viewBox: "0 0 24 24", fill: "none", xmlns: "http://www.w3.org/2000/svg" },
                                         React.createElement("path", { d: "M8 3H7a2 2 0 00-2 2v5a2 2 0 002 2h1M8 3h5M8 3v2m5-2h4a2 2 0 012 2v5a2 2 0 01-2 2h-4m0-9v2m0 7v2m0-2h-1a2 2 0 00-2 2v5a2 2 0 002 2h1m0-9h5a2 2 0 012 2v5a2 2 0 01-2 2h-5m0-9v9", stroke: "#0f172a", strokeWidth: "1.5", strokeLinecap: "round", strokeLinejoin: "round" })),
                                     "Integration Code"),
-                                React.createElement(components_1.Button, { title: copySuccess ? "✓ Copied" : "Copy", onClick: copyToClipboard, styles: {
+                                React.createElement(Button, { title: copySuccess ? "✓ Copied" : "Copy", onClick: copyToClipboard, styles: {
                                         fontSize: '12px',
                                         padding: '4px 10px',
                                         backgroundColor: copySuccess ? '#16A34A' : '#3B82F6',
@@ -121689,7 +121721,7 @@ registerWidget({
                             marginBottom: '16px'
                         } },
                         React.createElement("h3", { style: { margin: 0, fontSize: '18px', fontWeight: 600, color: '#1e293b' } }, "Widget Integration Code"),
-                        React.createElement(components_1.Button, { title: copySuccess ? "✓ Copied" : "Copy Code", onClick: copyToClipboard, styles: {
+                        React.createElement(Button, { title: copySuccess ? "✓ Copied" : "Copy Code", onClick: copyToClipboard, styles: {
                                 fontSize: '14px',
                                 padding: '8px 16px',
                                 backgroundColor: copySuccess ? '#16A34A' : '#3B82F6',
@@ -122413,239 +122445,294 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const React = __importStar(__webpack_require__(/*! react */ "react"));
 __webpack_require__(/*! ./navigation-toolbar.scss */ "./src/components/left-navigationbar/navigation-toolbar.scss");
-const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
-const search_box_area_1 = __importDefault(__webpack_require__(/*! ./search-box-area */ "./src/components/left-navigationbar/search-box-area.tsx"));
-const NavigationToolBar = (props) => {
+const NavigationToolBar = () => {
+    const [selectedItem, setSelectedItem] = React.useState('home');
+    const [isDarkBackground] = React.useState(false);
+    const [showEventTriggers, setShowEventTriggers] = React.useState(false); // Toggle between URL redirects and event triggers
+    const [isAnimating, setIsAnimating] = React.useState(false);
+    const toolbarRef = React.useRef(null);
+    const [slideDistance, setSlideDistance] = React.useState(450);
+    const handleItemClick = (id, onClick) => {
+        setSelectedItem(id);
+        onClick();
+    };
+    // URL Redirect Icons (Default)
+    const urlRedirectItems = [
+        {
+            id: 'home',
+            title: 'Home',
+            icon: 'home',
+            onClick: () => {
+                if (window.widgetCategories && window.widgetCategories.showUncategorized) {
+                    window.widgetCategories.showUncategorized();
+                }
+            }
+        },
+        {
+            id: 'ibms',
+            title: 'IBMS',
+            icon: 'trend',
+            onClick: () => {
+                let anchorurl = `/Apps/IBMS/rtsystem.json?key=2`;
+                window.open(anchorurl, '_blank');
+            }
+        },
+        {
+            id: 'facility',
+            title: 'Facility Management',
+            icon: 'facility',
+            onClick: () => {
+                let anchorurl = `/Apps/UXP/portal/facility-management`;
+                window.open(anchorurl, '_blank');
+            }
+        },
+        {
+            id: 'c2o',
+            title: 'C2O',
+            icon: 'c2o',
+            onClick: () => {
+                let anchorurl = `/Apps/CMAT/dashboard`;
+                window.open(anchorurl, '_blank');
+            }
+        },
+        {
+            id: 'sustainability-mgmt',
+            title: 'Sustainability Management',
+            icon: 'leafbuilding',
+            onClick: () => {
+                let anchorurl = `/Apps/UXP/portal/sustainability-dashboard`;
+                window.open(anchorurl, '_blank');
+            }
+        },
+        {
+            id: 'cooperative',
+            title: 'Cooperative Service',
+            icon: 'coperate-service',
+            onClick: () => {
+                let anchorurl = `/Apps/UXP/portal/coperative-service`;
+                window.open(anchorurl, '_blank');
+            }
+        },
+        {
+            id: 'security',
+            title: 'Security',
+            icon: 'security',
+            onClick: () => {
+                let anchorurl = `/Apps/UXP/portal/security-details`;
+                window.open(anchorurl, '_blank');
+            }
+        }
+    ];
+    // Event Trigger Icons
+    const eventTriggerItems = [
+        {
+            id: 'energy',
+            title: 'Energy',
+            icon: 'energy',
+            onClick: () => {
+                console.log('⚡ Showing Energy widgets');
+                if (window.widgetCategories && window.widgetCategories.showEnergy) {
+                    window.widgetCategories.showEnergy();
+                }
+                else {
+                    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+                        detail: {
+                            categories: ['Energy'],
+                            showAll: false
+                        }
+                    });
+                    window.dispatchEvent(event);
+                }
+            }
+        },
+        {
+            id: 'fault',
+            title: 'Fault',
+            icon: 'fault',
+            onClick: () => {
+                console.log('⚠️ Showing Alarm widgets');
+                if (window.widgetCategories && window.widgetCategories.showAlarms) {
+                    window.widgetCategories.showAlarms();
+                }
+                else {
+                    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+                        detail: {
+                            categories: ['Alarms'],
+                            showAll: false
+                        }
+                    });
+                    window.dispatchEvent(event);
+                }
+            }
+        },
+        {
+            id: 'kpi',
+            title: 'KPI',
+            icon: 'kpi',
+            onClick: () => {
+                console.log('📊 Showing KPI widgets');
+                if (window.widgetCategories && window.widgetCategories.showKPI) {
+                    window.widgetCategories.showKPI();
+                }
+                else {
+                    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+                        detail: {
+                            categories: ['KPI', 'Analytics'],
+                            showAll: false
+                        }
+                    });
+                    window.dispatchEvent(event);
+                }
+            }
+        },
+        {
+            id: 'iaq',
+            title: 'IAQ',
+            icon: 'iaq',
+            onClick: () => {
+                console.log('🌬️ Showing IAQ widgets');
+                if (window.widgetCategories && window.widgetCategories.showIAQ) {
+                    window.widgetCategories.showIAQ();
+                }
+                else {
+                    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+                        detail: {
+                            categories: ['IAQ'],
+                            showAll: false
+                        }
+                    });
+                    window.dispatchEvent(event);
+                }
+            }
+        },
+        {
+            id: 'occupancy',
+            title: 'Occupancy',
+            icon: 'occupancy',
+            onClick: () => {
+                console.log('👥 Showing Occupancy widgets');
+                if (window.widgetCategories && window.widgetCategories.showOccupancy) {
+                    window.widgetCategories.showOccupancy();
+                }
+                else {
+                    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+                        detail: {
+                            categories: ['Occupancy'],
+                            showAll: false
+                        }
+                    });
+                    window.dispatchEvent(event);
+                }
+            }
+        },
+        {
+            id: 'sustainability',
+            title: 'Sustainability',
+            icon: 'sustainability',
+            onClick: () => {
+                console.log('🌱 Showing Sustainability widgets');
+                if (window.widgetCategories && window.widgetCategories.showSustainability) {
+                    window.widgetCategories.showSustainability();
+                }
+                else {
+                    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+                        detail: {
+                            categories: ['Sustainability'],
+                            showAll: false
+                        }
+                    });
+                    window.dispatchEvent(event);
+                }
+            }
+        },
+        {
+            id: 'dc-availability',
+            title: 'DC - Availability & Utility',
+            icon: 'dc-availability',
+            onClick: () => {
+                console.log('🏢 Showing DC Availability & Utility widgets');
+                if (window.widgetCategories && window.widgetCategories.showDCAvailabilityUtility) {
+                    window.widgetCategories.showDCAvailabilityUtility();
+                }
+                else {
+                    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+                        detail: {
+                            categories: ['DC - Availability & Utility'],
+                            showAll: false
+                        }
+                    });
+                    window.dispatchEvent(event);
+                }
+            }
+        },
+        {
+            id: 'dc-fault',
+            title: 'DC - Fault & Efficiency',
+            icon: 'dc-fault',
+            onClick: () => {
+                console.log('⚙️ Showing DC Fault & Efficiency widgets');
+                if (window.widgetCategories && window.widgetCategories.showDCFaultEfficiency) {
+                    window.widgetCategories.showDCFaultEfficiency();
+                }
+                else {
+                    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+                        detail: {
+                            categories: ['DC - Fault & Efficiency'],
+                            showAll: false
+                        }
+                    });
+                    window.dispatchEvent(event);
+                }
+            }
+        }
+    ];
+    const currentItems = showEventTriggers ? eventTriggerItems : urlRedirectItems;
+    const calculateSlideDistance = () => {
+        if (toolbarRef.current) {
+            const toolbarWidth = toolbarRef.current.offsetWidth;
+            const buttonWidth = 56; // Our button width
+            const padding = 24; // Total padding (12px on each side)
+            const extraSpace = 20; // Small space to keep button slightly right
+            const distance = toolbarWidth - buttonWidth - padding - extraSpace;
+            setSlideDistance(distance);
+        }
+    };
+    React.useEffect(() => {
+        calculateSlideDistance();
+        window.addEventListener('resize', calculateSlideDistance);
+        return () => window.removeEventListener('resize', calculateSlideDistance);
+    }, [currentItems]);
+    const handleToggle = () => {
+        calculateSlideDistance();
+        setIsAnimating(true);
+        setTimeout(() => {
+            setShowEventTriggers(!showEventTriggers);
+            // Set Home as selected when returning to URL mode
+            setSelectedItem(!showEventTriggers ? '' : 'home');
+        }, 300);
+        setTimeout(() => {
+            setIsAnimating(false);
+        }, 2000);
+    };
     return (React.createElement("div", { className: "dt-navigation-toolbar-positioning" },
         React.createElement("div", { className: "dt-navigation-toolbar-container" },
-            React.createElement("div", { className: "dt-navigation-toolbar" },
-                React.createElement("table", null,
-                    React.createElement("tbody", null,
-                        React.createElement("tr", null,
-                            React.createElement("td", null,
-                                React.createElement("div", { title: "Search", className: "dt-navigation-toolbar-button" },
-                                    React.createElement(components_1.DropDownButton, { position: "bottom center", showOnHover: false, className: "dt-navigation-toolbar-serch-custom-dropdown", content: () => React.createElement("div", { style: { width: '300px', maxHeight: "500px", minHeight: "200px" } },
-                                            React.createElement(search_box_area_1.default, { LocationKey: props.ParentLocationKey, uxpContext: props.uxpContext })) },
-                                        React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
-                                            React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-search` }))))),
-                            React.createElement("td", null,
-                                React.createElement("div", { title: "Home", className: "dt-navigation-toolbar-button", onClick: () => {
-                                        let anchorurl = `/Apps/UXP/screen/dt-hypervisor-v01`;
-                                        window.open(anchorurl, '_self');
-                                    } },
-                                    React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
-                                        React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-home` })))),
-                            React.createElement("td", null,
-                                React.createElement("div", { title: "IBMS", className: "dt-navigation-toolbar-button", onClick: () => {
-                                        let anchorurl = `/Apps/IBMS/rtsystem.json?key=2`;
-                                        window.open(anchorurl, '_blank');
-                                    } },
-                                    React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
-                                        React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-trend` })))),
-                            React.createElement("td", null,
-                                React.createElement("div", { title: "Facility Management", className: "dt-navigation-toolbar-button", onClick: () => {
-                                        let anchorurl = `/Apps/UXP/portal/facility-management`;
-                                        window.open(anchorurl, '_blank');
-                                    } },
-                                    React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
-                                        React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-facility` })))),
-                            React.createElement("td", null,
-                                React.createElement("div", { title: "C2O", className: "dt-navigation-toolbar-button", onClick: () => {
-                                        //let anchorurl = `/Apps/UXP/portal/operation-management`;
-                                        let anchorurl = `/Apps/CMAT/dashboard`;
-                                        window.open(anchorurl, '_blank');
-                                    } },
-                                    React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
-                                        React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-c2o` })))),
-                            React.createElement("td", null,
-                                React.createElement("div", { title: "Sustainability Management", className: "dt-navigation-toolbar-button", onClick: () => {
-                                        //let anchorurl = `/Apps/UMS/dashboard`;
-                                        let anchorurl = `/Apps/UXP/portal/sustainability-dashboard`;
-                                        window.open(anchorurl, '_blank');
-                                    } },
-                                    React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
-                                        React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-leafbuilding` })))),
-                            React.createElement("td", null,
-                                React.createElement("div", { title: "Corporate service", className: "dt-navigation-toolbar-button", onClick: () => {
-                                        let anchorurl = `/Apps/UXP/portal/coperative-service`;
-                                        window.open(anchorurl, '_blank');
-                                    } },
-                                    React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
-                                        React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-coperate-service` })))),
-                            React.createElement("td", null,
-                                React.createElement("div", { title: "Security", className: "dt-navigation-toolbar-button", onClick: () => {
-                                        let anchorurl = `/Apps/UXP/portal/security-details`;
-                                        window.open(anchorurl, '_blank');
-                                    } },
-                                    React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
-                                        React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-security` })))))))))));
+            React.createElement("div", { ref: toolbarRef, className: `dt-navigation-toolbar ${isDarkBackground ? 'theme-dark' : 'theme-light'} ${isAnimating ? 'animating' : ''}`, "data-theme": isDarkBackground ? 'dark' : 'light', style: { '--slide-distance': `-${slideDistance}px` } },
+                React.createElement("div", { className: "dt-navigation-toolbar-content" },
+                    React.createElement("div", { title: `Switch to ${showEventTriggers ? 'URL Navigation' : 'Event Triggers'}`, className: `dt-navigation-toolbar-button toggle-button ${showEventTriggers ? 'toggle-left' : 'toggle-right'}`, onClick: handleToggle },
+                        React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
+                            React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-${showEventTriggers ? 'switch-url' : 'switch-event'}` }))),
+                    React.createElement("div", { className: `dt-navigation-toolbar-items-container ${showEventTriggers ? 'toggle-mode' : ''}` },
+                        React.createElement("div", { className: `dt-navigation-toolbar-items ${isAnimating ? 'slide-out' : 'slide-in'}`, "data-direction": showEventTriggers ? 'left' : 'right' }, currentItems.map((item, index) => (React.createElement("div", { key: `${item.id}-${showEventTriggers ? 'event' : 'url'}`, title: item.title, className: `dt-navigation-toolbar-button ${selectedItem === item.id ? 'selected' : ''}`, onClick: () => handleItemClick(item.id, item.onClick), "data-tooltip": item.title, style: {
+                                '--animation-delay': `${index * 0.1}s`,
+                                '--reverse-delay': `${(currentItems.length - index - 1) * 0.05}s`
+                            } },
+                            React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
+                                React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-${item.icon}` }))))))))))));
 };
 exports["default"] = NavigationToolBar;
-
-
-/***/ }),
-
-/***/ "./src/components/left-navigationbar/search-box-area.scss":
-/*!****************************************************************!*\
-  !*** ./src/components/left-navigationbar/search-box-area.scss ***!
-  \****************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-var api = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./search-box-area.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/left-navigationbar/search-box-area.scss");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.id, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
-/***/ "./src/components/left-navigationbar/search-box-area.tsx":
-/*!***************************************************************!*\
-  !*** ./src/components/left-navigationbar/search-box-area.tsx ***!
-  \***************************************************************/
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    var desc = Object.getOwnPropertyDescriptor(m, k);
-    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
-      desc = { enumerable: true, get: function() { return m[k]; } };
-    }
-    Object.defineProperty(o, k2, desc);
-}) : (function(o, m, k, k2) {
-    if (k2 === undefined) k2 = k;
-    o[k2] = m[k];
-}));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
-    Object.defineProperty(o, "default", { enumerable: true, value: v });
-}) : function(o, v) {
-    o["default"] = v;
-});
-var __importStar = (this && this.__importStar) || function (mod) {
-    if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
-    __setModuleDefault(result, mod);
-    return result;
-};
-Object.defineProperty(exports, "__esModule", ({ value: true }));
-const React = __importStar(__webpack_require__(/*! react */ "react"));
-__webpack_require__(/*! ./search-box-area.scss */ "./src/components/left-navigationbar/search-box-area.scss");
-const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
-const SearchBoxArea = (props) => {
-    const [LocationAsetsList, setLocationAsetsList] = React.useState([]);
-    const [QueryTest, setQueryTest] = React.useState("");
-    const [searchObjects, setSearchObjects] = React.useState([]);
-    React.useEffect(() => {
-        if (props.LocationKey != null && props.LocationKey != undefined) {
-            GetAllData(props.LocationKey);
-        }
-        else {
-            GetAllData('');
-        }
-    }, [props.LocationKey]);
-    let toast = (0, components_1.useToast)();
-    function GetAllData(lck) {
-        var _a;
-        (_a = props.uxpContext) === null || _a === void 0 ? void 0 : _a.executeAction("DTHardcodeData-Details", 'AllLocationandAssets', {
-            LocationKey: props.LocationKey
-        }, { json: true }).then(res => {
-            setLocationAsetsList(res);
-        }).catch(e => {
-            console.log("except: ", e);
-            toast.error("Something went wrong");
-        });
-    }
-    function filterdataarray(gotarr, attribute, searchtext) {
-        try {
-            var fldata = gotarr;
-            var filterArray = fldata.map((item) => {
-                let curAssetID = item[attribute].toLowerCase();
-                let curQuery = searchtext.toLowerCase();
-                var matches = curAssetID.indexOf(curQuery) >= 0 ? true : false;
-                if (matches) {
-                    return item;
-                }
-            });
-            filterArray = filterArray.filter(function (element) {
-                return element !== undefined;
-            });
-            return (filterArray);
-        }
-        catch (e) {
-            console.error(e);
-            return ([]);
-        }
-    }
-    function GetSearchingObjects() {
-        let filtedata = filterdataarray(LocationAsetsList, "ObjectID", QueryTest);
-        setSearchObjects(filtedata);
-    }
-    React.useEffect(() => {
-        if (QueryTest != '') {
-            GetSearchingObjects();
-        }
-        else {
-            setSearchObjects(LocationAsetsList);
-        }
-    }, [QueryTest, LocationAsetsList]);
-    function renderGridItem(item, key) {
-        let cls = (item.Source.toLowerCase());
-        return (React.createElement("div", { className: "custom-search-dropdown-list-item" },
-            React.createElement("table", { style: { cursor: "pointer", width: "100%" }, onClick: () => {
-                    setQueryTest(item.ObjectID);
-                    if (cls == "site" || cls == "building" || cls == "space") {
-                        //item.ObjectKey is LocationKey
-                        // view location in map
-                    }
-                    else if (cls == "asset") {
-                        //item.ObjectKey is AssetKey
-                        // view asset in map
-                    }
-                    else {
-                    }
-                } },
-                React.createElement("tbody", null,
-                    React.createElement("tr", null,
-                        React.createElement("td", { style: { width: "32px" } },
-                            React.createElement("div", { className: `custom-search-dropdown-list-icon-container` },
-                                React.createElement("div", { className: `custom-search-dropdown-list-${cls}-icon` }))),
-                        React.createElement("td", null,
-                            React.createElement("div", { className: "custom-search-dropdown-list-label" }, item.ObjectID)),
-                        React.createElement("td", { style: { width: "37px", paddingRight: "5px" } },
-                            React.createElement("div", { className: `custom-search-dropdown-list-icon-container` },
-                                React.createElement("div", { className: `custom-search-dropdown-list-view-eye-icon` }))))))));
-    }
-    return (React.createElement(React.Fragment, null,
-        React.createElement("div", { style: { width: '300px' } },
-            React.createElement(components_1.SearchBox, { value: QueryTest, className: "universal-custom-searchbox", onChange: (newValue) => { setQueryTest(newValue); } })),
-        React.createElement("div", { style: { width: '300px', height: "400px", position: "relative", paddingTop: "10px", paddingBottom: "5px" } },
-            React.createElement("div", { className: "dt-custom-search-list-area", style: { width: '300px', maxHeight: "370px", position: "relative" } },
-                React.createElement(components_1.DataGrid, { data: searchObjects, renderItem: renderGridItem, columns: 1, className: "custom-search-dropdown-list" })))));
-};
-exports["default"] = SearchBoxArea;
 
 
 /***/ }),
@@ -123183,6 +123270,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
+// Disable console.log globally
+const originalConsoleLog = console.log;
+console.log = () => { };
 const React = __importStar(__webpack_require__(/*! react */ "react"));
 const uxp_1 = __webpack_require__(/*! ./uxp */ "./src/uxp.ts");
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
@@ -123236,6 +123326,8 @@ const ExternalMessageService_1 = __webpack_require__(/*! ./services/ExternalMess
 // Import skybox configuration from the new file
 const skyboxConfig_1 = __webpack_require__(/*! ./config/skyboxConfig */ "./src/config/skyboxConfig.ts");
 const DetailsLayer_1 = __importDefault(__webpack_require__(/*! ./components/DetailsLayer */ "./src/components/DetailsLayer.tsx"));
+// Import category-based widget filtering
+const categoryWidgetFilter_1 = __webpack_require__(/*! ./tools/categoryWidgetFilter */ "./src/tools/categoryWidgetFilter.ts");
 const ThreeDViewerWidget = (props) => {
     const canvasRef = React.useRef(null);
     const [engine, setEngine] = React.useState(null);
@@ -123295,6 +123387,9 @@ const ThreeDViewerWidget = (props) => {
     const [currentAssetKey, setCurrentAssetKey] = React.useState(null);
     // Add new state for dynamic widgets
     const [dynamicWidgets, setDynamicWidgets] = React.useState([]);
+    // Add state for active categories
+    const [activeCategories, setActiveCategories] = React.useState([]);
+    const [showAllCategories, setShowAllCategories] = React.useState(false); // Default to false - only show uncategorized widgets initially
     // Add state for sun control
     const [timeOfDay, setTimeOfDay] = React.useState(0.5); // Start at noon
     const [updateSunPosition, setUpdateSunPosition] = React.useState(null);
@@ -123323,11 +123418,33 @@ const ThreeDViewerWidget = (props) => {
     // Load saved widgets when component mounts
     React.useEffect(() => {
         (0, widgetManagerService_1.loadDynamicWidgets)(setDynamicWidgets);
+        // Register global category functions for testing
+        (0, categoryWidgetFilter_1.registerGlobalCategoryFunctions)();
     }, []);
     // Update the global registry whenever dynamic widgets change
     React.useEffect(() => {
         (0, widgetManagerService_1.updateGlobalRegistry)(dynamicWidgets);
     }, [dynamicWidgets]);
+    // Add event listener for category-based widget filtering
+    React.useEffect(() => {
+        const handleCategoryFilter = (event) => {
+            const { categories, showAll = false } = event.detail;
+            console.log('🔸 CATEGORY FILTER EVENT:', { categories, showAll });
+            if (showAll) {
+                setShowAllCategories(true);
+                setActiveCategories([]);
+            }
+            else {
+                setShowAllCategories(false);
+                setActiveCategories(categories);
+            }
+        };
+        // Listen for category filter events
+        window.addEventListener('dynamicWidgetCategoryFilter', handleCategoryFilter);
+        return () => {
+            window.removeEventListener('dynamicWidgetCategoryFilter', handleCategoryFilter);
+        };
+    }, []);
     // Update loadInitialModel to use the imported functions
     const loadInitialModel = () => __awaiter(void 0, void 0, void 0, function* () {
         var _a;
@@ -123434,7 +123551,7 @@ const ThreeDViewerWidget = (props) => {
                 };
                 // Update tree options with backend URLs
                 const updatedLine006Options = yield (0, TreeImageHelper_1.updateTreeConfigsWithBackendUrls)(line006TreeOptions);
-                (0, TreePlacement_1.createTreesOnMesh)("Site Outside Grass", // Target mesh name
+                (0, TreePlacement_1.createTreesOnMesh)("Line430", // Target mesh name
                 "", // This parameter is ignored when mixedTrees is used
                 newLoadedMeshes, // Loaded meshes array
                 scene, // Scene
@@ -124131,16 +124248,17 @@ const ThreeDViewerWidget = (props) => {
         };
     };
     // Update handleAddWidgetToScene to save changes and allow placement choice
-    const handleAddWidgetToScene = (widgetId, widgetComponent, placement, assetwidget) => {
+    const handleAddWidgetToScene = (widgetId, widgetComponent, placement, assetwidget, category) => {
         console.log('🔸 ADDING WIDGET TO SCENE:', {
             widgetId,
             placement,
             assetwidget,
+            category,
             componentName: widgetComponent.displayName || widgetComponent.name
         });
         // If placement is not specified, show dialog to choose placement
         if (!placement) {
-            setPendingWidgetAdd({ id: widgetId, component: widgetComponent, assetwidget: assetwidget });
+            setPendingWidgetAdd({ id: widgetId, component: widgetComponent, assetwidget: assetwidget, category: category });
             setPlacementDialogOpen(true);
             return;
         }
@@ -124166,7 +124284,8 @@ const ThreeDViewerWidget = (props) => {
                 size: { width: 300, height: 200 },
                 sceneIds: [initialSceneId],
                 placement: placement,
-                assetwidget: assetwidget || false // New parameter to mark widgets as asset widgets
+                assetwidget: assetwidget || false,
+                category: category // Widget category for filtering
             };
             console.log('🔸 WIDGET CREATED:', newWidget);
             const updatedWidgets = [...prev, newWidget];
@@ -124181,9 +124300,10 @@ const ThreeDViewerWidget = (props) => {
             console.log('🔸 PLACEMENT SELECTED:', {
                 placement,
                 assetwidget: pendingWidgetAdd.assetwidget,
+                category: pendingWidgetAdd.category,
                 widgetId: pendingWidgetAdd.id
             });
-            handleAddWidgetToScene(pendingWidgetAdd.id, pendingWidgetAdd.component, placement, pendingWidgetAdd.assetwidget);
+            handleAddWidgetToScene(pendingWidgetAdd.id, pendingWidgetAdd.component, placement, pendingWidgetAdd.assetwidget, pendingWidgetAdd.category);
             setPendingWidgetAdd(null);
         }
         setPlacementDialogOpen(false);
@@ -124693,7 +124813,7 @@ const ThreeDViewerWidget = (props) => {
                             };
                             // Update tree options with backend URLs
                             const updatedLine006Options = yield (0, TreeImageHelper_1.updateTreeConfigsWithBackendUrls)(line006TreeOptions);
-                            (0, TreePlacement_1.createTreesOnMesh)("Site Outside Grass", // Target mesh name
+                            (0, TreePlacement_1.createTreesOnMesh)("Line430", // Target mesh name
                             "", // This parameter is ignored when mixedTrees is used
                             newLoadedMeshes, // Loaded meshes array
                             scene, // Scene
@@ -124812,6 +124932,19 @@ const ThreeDViewerWidget = (props) => {
                 (currentModel && widget.sceneIds.includes(currentModel)))
                 // Filter out asset widgets (they are rendered separately)
                 .filter(widget => !widget.assetwidget)
+                // Filter by categories
+                .filter(widget => {
+                if (showAllCategories) {
+                    return true; // Show all widgets when explicitly set to show all
+                }
+                if (activeCategories.length > 0) {
+                    // When specific categories are selected, only show widgets in those categories
+                    return widget.category && activeCategories.includes(widget.category);
+                }
+                // When no categories are selected and showAllCategories is false,
+                // only show widgets without categories (uncategorized widgets)
+                return !widget.category;
+            })
                 .map((widget, index) => {
                 var _a;
                 const WidgetComponent = widget.component;
@@ -126095,7 +126228,8 @@ class WidgetLayoutService {
                     size: widget.size,
                     sceneIds: widget.sceneIds || [],
                     placement: widget.placement,
-                    assetwidget: widget.assetwidget
+                    assetwidget: widget.assetwidget,
+                    category: widget.category
                 }));
                 // Save to database
                 try {
@@ -126149,7 +126283,8 @@ class WidgetLayoutService {
                                 size: layout.size,
                                 sceneIds: layout.sceneIds || [],
                                 placement: layout.placement,
-                                assetwidget: layout.assetwidget
+                                assetwidget: layout.assetwidget,
+                                category: layout.category
                             }));
                             localStorage.setItem('dynamicWidgets', JSON.stringify(serializedWidgets));
                             return serializedWidgets;
@@ -128690,6 +128825,212 @@ function createTreeParticleSystem(targetMesh, texturePath, count, scene, params)
 
 /***/ }),
 
+/***/ "./src/tools/categoryWidgetFilter.ts":
+/*!*******************************************!*\
+  !*** ./src/tools/categoryWidgetFilter.ts ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+// Category-based Widget Filter Helper
+// This file provides utility functions to filter dynamic widgets by category
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.CategoryWidgetFilter = exports.registerGlobalCategoryFunctions = exports.showKPIAndAnalyticsWidgets = exports.showEnvironmentWidgets = exports.showSustainabilityAndEnergyWidgets = exports.showDCAvailabilityUtilityWidgets = exports.showDCFaultEfficiencyWidgets = exports.showKPIWidgets = exports.showOccupancyWidgets = exports.showAlarmWidgets = exports.showAnalyticsWidgets = exports.showMaintenanceWidgets = exports.showSecurityWidgets = exports.showComfortWidgets = exports.showEnergyWidgets = exports.showIAQWidgets = exports.showSustainabilityWidgets = exports.showUncategorizedWidgets = exports.showAllWidgets = exports.showWidgetsByCategory = exports.WIDGET_CATEGORIES = void 0;
+/**
+ * Available widget categories
+ */
+exports.WIDGET_CATEGORIES = {
+    SUSTAINABILITY: 'Sustainability',
+    IAQ: 'IAQ',
+    ENERGY: 'Energy',
+    COMFORT: 'Comfort',
+    SECURITY: 'Security',
+    MAINTENANCE: 'Maintenance',
+    ANALYTICS: 'Analytics',
+    ALARMS: 'Alarms',
+    OCCUPANCY: 'Occupancy',
+    KPI: 'KPI',
+    DC_FAULT_EFFICIENCY: 'DC - Fault & Efficiency',
+    DC_AVAILABILITY_UTILITY: 'DC - Availability & Utility'
+};
+/**
+ * Show widgets of specific categories
+ * @param categories Array of category names to show
+ */
+const showWidgetsByCategory = (categories) => {
+    console.log('🔸 FILTERING WIDGETS BY CATEGORIES:', categories);
+    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+        detail: {
+            categories: categories,
+            showAll: false
+        }
+    });
+    window.dispatchEvent(event);
+};
+exports.showWidgetsByCategory = showWidgetsByCategory;
+/**
+ * Show all widgets regardless of category
+ */
+const showAllWidgets = () => {
+    console.log('🔸 SHOWING ALL WIDGETS (including categorized and uncategorized)');
+    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+        detail: {
+            categories: [],
+            showAll: true
+        }
+    });
+    window.dispatchEvent(event);
+};
+exports.showAllWidgets = showAllWidgets;
+/**
+ * Show only uncategorized widgets (default behavior)
+ */
+const showUncategorizedWidgets = () => {
+    console.log('🔸 SHOWING ONLY UNCATEGORIZED WIDGETS');
+    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+        detail: {
+            categories: [],
+            showAll: false
+        }
+    });
+    window.dispatchEvent(event);
+};
+exports.showUncategorizedWidgets = showUncategorizedWidgets;
+// Predefined category filter functions
+const showSustainabilityWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.SUSTAINABILITY]);
+exports.showSustainabilityWidgets = showSustainabilityWidgets;
+const showIAQWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.IAQ]);
+exports.showIAQWidgets = showIAQWidgets;
+const showEnergyWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.ENERGY]);
+exports.showEnergyWidgets = showEnergyWidgets;
+const showComfortWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.COMFORT]);
+exports.showComfortWidgets = showComfortWidgets;
+const showSecurityWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.SECURITY]);
+exports.showSecurityWidgets = showSecurityWidgets;
+const showMaintenanceWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.MAINTENANCE]);
+exports.showMaintenanceWidgets = showMaintenanceWidgets;
+const showAnalyticsWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.ANALYTICS]);
+exports.showAnalyticsWidgets = showAnalyticsWidgets;
+const showAlarmWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.ALARMS]);
+exports.showAlarmWidgets = showAlarmWidgets;
+const showOccupancyWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.OCCUPANCY]);
+exports.showOccupancyWidgets = showOccupancyWidgets;
+const showKPIWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.KPI]);
+exports.showKPIWidgets = showKPIWidgets;
+const showDCFaultEfficiencyWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.DC_FAULT_EFFICIENCY]);
+exports.showDCFaultEfficiencyWidgets = showDCFaultEfficiencyWidgets;
+const showDCAvailabilityUtilityWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.DC_AVAILABILITY_UTILITY]);
+exports.showDCAvailabilityUtilityWidgets = showDCAvailabilityUtilityWidgets;
+// Combined category functions
+const showSustainabilityAndEnergyWidgets = () => {
+    (0, exports.showWidgetsByCategory)([
+        exports.WIDGET_CATEGORIES.SUSTAINABILITY,
+        exports.WIDGET_CATEGORIES.ENERGY
+    ]);
+};
+exports.showSustainabilityAndEnergyWidgets = showSustainabilityAndEnergyWidgets;
+// Example: Show Environment-related widgets (IAQ + Comfort)
+const showEnvironmentWidgets = () => {
+    (0, exports.showWidgetsByCategory)([
+        exports.WIDGET_CATEGORIES.IAQ,
+        exports.WIDGET_CATEGORIES.COMFORT
+    ]);
+};
+exports.showEnvironmentWidgets = showEnvironmentWidgets;
+// Show KPI and Analytics widgets together
+const showKPIAndAnalyticsWidgets = () => {
+    (0, exports.showWidgetsByCategory)([
+        exports.WIDGET_CATEGORIES.KPI,
+        exports.WIDGET_CATEGORIES.ANALYTICS
+    ]);
+};
+exports.showKPIAndAnalyticsWidgets = showKPIAndAnalyticsWidgets;
+/**
+ * Helper function to register global functions for easy testing
+ * Call this to make the category functions available in window object for console testing
+ */
+const registerGlobalCategoryFunctions = () => {
+    window.widgetCategories = {
+        showSustainability: exports.showSustainabilityWidgets,
+        showIAQ: exports.showIAQWidgets,
+        showEnergy: exports.showEnergyWidgets,
+        showComfort: exports.showComfortWidgets,
+        showSecurity: exports.showSecurityWidgets,
+        showMaintenance: exports.showMaintenanceWidgets,
+        showAnalytics: exports.showAnalyticsWidgets,
+        showAlarms: exports.showAlarmWidgets,
+        showOccupancy: exports.showOccupancyWidgets,
+        showKPI: exports.showKPIWidgets,
+        showDCFaultEfficiency: exports.showDCFaultEfficiencyWidgets,
+        showDCAvailabilityUtility: exports.showDCAvailabilityUtilityWidgets,
+        showSustainabilityAndEnergy: exports.showSustainabilityAndEnergyWidgets,
+        showEnvironment: exports.showEnvironmentWidgets,
+        showKPIAndAnalytics: exports.showKPIAndAnalyticsWidgets,
+        showAll: exports.showAllWidgets,
+        showUncategorized: exports.showUncategorizedWidgets,
+        // Direct access to core functions
+        filterByCategory: exports.showWidgetsByCategory,
+        categories: exports.WIDGET_CATEGORIES
+    };
+    console.log('🔸 Widget category functions registered globally!');
+    console.log('🔸 HOW IT WORKS:');
+    console.log('  📂 By DEFAULT: Only widgets WITHOUT categories are shown');
+    console.log('  🏷️  When you select categories: Only widgets IN those categories are shown');
+    console.log('  🌍 Show All: Shows ALL widgets (categorized + uncategorized)');
+    console.log('');
+    console.log('🔸 Available functions:');
+    console.log('  - window.widgetCategories.showSustainability()  // Show only Sustainability widgets');
+    console.log('  - window.widgetCategories.showIAQ()             // Show only IAQ widgets');
+    console.log('  - window.widgetCategories.showEnergy()          // Show only Energy widgets');
+    console.log('  - window.widgetCategories.showComfort()         // Show only Comfort widgets');
+    console.log('  - window.widgetCategories.showSecurity()        // Show only Security widgets');
+    console.log('  - window.widgetCategories.showMaintenance()     // Show only Maintenance widgets');
+    console.log('  - window.widgetCategories.showAnalytics()       // Show only Analytics widgets');
+    console.log('  - window.widgetCategories.showAlarms()          // Show only Alarm widgets');
+    console.log('  - window.widgetCategories.showOccupancy()       // Show only Occupancy widgets');
+    console.log('  - window.widgetCategories.showKPI()             // Show only KPI widgets');
+    console.log('  - window.widgetCategories.showDCFaultEfficiency()      // Show DC - Fault & Efficiency widgets');
+    console.log('  - window.widgetCategories.showDCAvailabilityUtility()  // Show DC - Availability & Utility widgets');
+    console.log('  - window.widgetCategories.showSustainabilityAndEnergy()  // Combined categories');
+    console.log('  - window.widgetCategories.showEnvironment()     // Show IAQ + Comfort widgets');
+    console.log('  - window.widgetCategories.showKPIAndAnalytics() // Show KPI + Analytics widgets');
+    console.log('  - window.widgetCategories.showAll()             // Show ALL widgets');
+    console.log('  - window.widgetCategories.showUncategorized()   // Show only uncategorized widgets (default)');
+    console.log('  - window.widgetCategories.filterByCategory(["Sustainability", "Energy"])  // Custom filter');
+    console.log('🔸 Available categories:', Object.values(exports.WIDGET_CATEGORIES));
+};
+exports.registerGlobalCategoryFunctions = registerGlobalCategoryFunctions;
+/**
+ * External API for other components to trigger category filtering
+ */
+exports.CategoryWidgetFilter = {
+    show: exports.showWidgetsByCategory,
+    showAll: exports.showAllWidgets,
+    showUncategorized: exports.showUncategorizedWidgets,
+    categories: exports.WIDGET_CATEGORIES,
+    presets: {
+        sustainability: exports.showSustainabilityWidgets,
+        iaq: exports.showIAQWidgets,
+        energy: exports.showEnergyWidgets,
+        comfort: exports.showComfortWidgets,
+        security: exports.showSecurityWidgets,
+        maintenance: exports.showMaintenanceWidgets,
+        analytics: exports.showAnalyticsWidgets,
+        alarms: exports.showAlarmWidgets,
+        occupancy: exports.showOccupancyWidgets,
+        kpi: exports.showKPIWidgets,
+        dcFaultEfficiency: exports.showDCFaultEfficiencyWidgets,
+        dcAvailabilityUtility: exports.showDCAvailabilityUtilityWidgets,
+        sustainabilityAndEnergy: exports.showSustainabilityAndEnergyWidgets,
+        environment: exports.showEnvironmentWidgets,
+        kpiAndAnalytics: exports.showKPIAndAnalyticsWidgets
+    }
+};
+
+
+/***/ }),
+
 /***/ "./src/tools/meshGlow.tsx":
 /*!********************************!*\
   !*** ./src/tools/meshGlow.tsx ***!
@@ -129493,7 +129834,8 @@ const saveDynamicWidgets = (widgets) => __awaiter(void 0, void 0, void 0, functi
                     size: widget.size,
                     sceneIds: widget.sceneIds,
                     placement: widget.placement,
-                    assetwidget: widget.assetwidget
+                    assetwidget: widget.assetwidget,
+                    category: widget.category
                 };
             });
             localStorage.setItem('dynamicWidgets', JSON.stringify(serializedWidgets));
@@ -129618,7 +129960,8 @@ const loadDynamicWidgets = (setDynamicWidgets) => __awaiter(void 0, void 0, void
                 size: widget.size,
                 sceneIds: widget.sceneIds,
                 placement: widget.placement,
-                assetwidget: widget.assetwidget
+                assetwidget: widget.assetwidget,
+                category: widget.category // Include category for filtering
             };
         }).filter(widget => widget !== null);
         if (reconstructedWidgets.length > 0) {
