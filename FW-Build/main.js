@@ -36595,7 +36595,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".dt-navigation-toolbar-positioning {\n  position: fixed;\n  left: 50%;\n  top: 65px;\n  transform: translateX(-50%);\n  z-index: 1000;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container {\n  width: fit-content;\n  height: fit-content;\n  position: relative;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar {\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  width: fit-content;\n  height: fit-content;\n  position: relative;\n  border-radius: 30px;\n  padding: 10px 12px;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar:hover {\n  background: rgba(0, 0, 0, 0.6);\n  transform: translateY(-2px);\n  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.12);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark {\n  background: rgba(0, 0, 0, 0.5);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button-icon {\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button-label,\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .search-label {\n  color: rgba(255, 255, 255, 0.9);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-icon {\n  filter: brightness(1.2) saturate(1.2);\n  transform: scale(1.1);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-label,\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button:hover .search-label {\n  color: #ffffff;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-search-button {\n  background: rgba(255, 255, 255, 0.1);\n  border: 1px solid rgba(255, 255, 255, 0.15);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-search-button:hover {\n  background: rgba(255, 255, 255, 0.2);\n  transform: translateY(-1px);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button {\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button:hover {\n  background: rgba(255, 255, 255, 0.15);\n  border-color: rgba(255, 255, 255, 0.25);\n  transform: translateY(-2px);\n  box-shadow: 0 0 15px rgba(66, 133, 244, 0.3);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light {\n  background: rgba(0, 0, 0, 0.6);\n  border: 1px solid rgba(0, 0, 0, 0.3);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-button-icon {\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-button-label,\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .search-label {\n  color: rgba(255, 255, 255, 0.9);\n  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-search-button {\n  background: rgba(255, 255, 255, 0.1);\n  border: 1px solid rgba(255, 255, 255, 0.15);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-search-button:hover {\n  background: rgba(255, 255, 255, 0.2);\n  transform: translateY(-1px);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-button {\n  background: rgba(255, 255, 255, 0.08);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-button:hover {\n  background: rgba(255, 255, 255, 0.18);\n  border-color: rgba(255, 255, 255, 0.25);\n  transform: translateY(-2px);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  position: relative;\n  z-index: 2;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-items {\n  display: flex;\n  align-items: center;\n  gap: 15px;\n  margin-left: 8px;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button, .dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.home-button {\n  width: auto;\n  min-width: 70px;\n  max-width: 120px;\n  box-sizing: border-box;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  padding: 10px 10px;\n  border-radius: 12px;\n  cursor: pointer;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n  position: relative;\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button:hover {\n  background: rgba(255, 255, 255, 0.15);\n  transform: translateY(-2px);\n  box-shadow: 0 0 15px rgba(66, 133, 244, 0.3);\n  border-color: rgba(255, 255, 255, 0.25);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-icon {\n  transform: scale(1.1);\n  filter: brightness(1.2) saturate(1.2);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-label {\n  color: #ffffff;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button:active {\n  transform: scale(0.98);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.selected {\n  background: linear-gradient(135deg, rgba(66, 133, 244, 0.3), rgba(0, 194, 255, 0.3));\n  border-color: rgba(0, 194, 255, 0.6);\n  box-shadow: 0 0 15px rgba(0, 194, 255, 0.3);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.selected::after {\n  content: \"\";\n  position: absolute;\n  bottom: -8px;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 4px;\n  height: 4px;\n  background: #00c2ff;\n  border-radius: 50%;\n  box-shadow: 0 0 8px rgba(0, 194, 255, 0.6);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.selected .dt-navigation-toolbar-button-icon {\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n  transform: scale(1.05);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.selected .dt-navigation-toolbar-button-label {\n  color: #ffffff;\n  font-weight: 600;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.home-button.selected {\n  background: linear-gradient(135deg, rgba(255, 107, 53, 0.3), rgba(247, 147, 30, 0.3));\n  border-color: rgba(255, 107, 53, 0.6);\n  box-shadow: 0 0 15px rgba(255, 107, 53, 0.3);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container {\n  width: 100%;\n  height: 20px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin-bottom: 2px;\n  position: relative;\n  z-index: 1;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon {\n  width: 16px;\n  height: 16px;\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-position: center;\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-energy {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10.7 9.4-11.7 25.9-2.3 36.6s25.9 11.7 36.6 2.3L164.7 192H304c13.3 0 24-10.7 24-24c0-13.3-10.7-24-24-24H207.4l119-104.6zM32 256c0 17.7 14.3 32 32 32H288c17.7 0 32-14.3 32-32s-14.3-32-32-32H64c-17.7 0-32 14.3-32 32zm480 128c0 17.7-14.3 32-32 32H256c-17.7 0-32-14.3-32-32s14.3-32 32-32H480c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-fault {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-kpi {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 220.7l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-iaq {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M288 32c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM143.5 128c13.3 0 24.1 10.8 24.1 24.1c0 2.7-.4 5.4-1.2 8.1l-33.6 112c-1.4 4.7-5.8 7.8-10.7 7.8s-9.3-3.1-10.7-7.8l-33.6-112c-.8-2.7-1.2-5.4-1.2-8.1C76.4 138.8 87.2 128 100.5 128h43zM511.9 192c-.3 39.3-32.1 71.4-71.4 71.4H352c-39.8 0-72.4-32.4-72.4-72.4c0-18.7 7.2-35.6 18.9-48.3l85.9-93.9c6.3-6.9 17-7.2 23.8-.9c6.9 6.3 7.2 17 .9 23.8l-85.9 93.9c-5.7 6.2-9.2 14.4-9.2 23.4c0 18.7 15.2 33.9 33.9 33.9h88.6c18.7 0 33.9-15.2 33.9-33.9c0-9.3-3.8-17.8-9.9-23.9l-85.9-85.9c-6.6-6.6-6.6-17.4 0-24s17.4-6.6 24 0l85.9 85.9c12.5 12.5 20.2 29.8 20.2 48.8zM192 256c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM304 416c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM20.1 468.9C18.4 461.1 25.9 454 33.9 454H65.8c10.2 0 18.9-7.6 19.7-17.7c1.2-14.4 7.2-27.9 16.7-38.2l61.4-66.7c5.7-6.2 15.7-6.2 21.4 0l61.4 66.7c9.5 10.3 15.5 23.8 16.7 38.2c.8 10.1 9.5 17.7 19.7 17.7h31.9c8 0 15.5 7.1 13.8 14.9l-7.8 36c-1.4 6.5-7.2 11.1-13.8 11.1H61.7c-6.6 0-12.4-4.6-13.8-11.1l-7.8-36z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-occupancy {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M352 96c0 53.02-42.98 96-96 96s-96-42.98-96-96s42.98-96 96-96s96 42.98 96 96zM233.4 201.4c-37.79-15.8-55.2-57.4-43.4-96.9c2.7-9.0 8.9-16.1 16.7-20.4c.8-.5 1.7-1.0 2.5-1.4c31.1-15.9 68.9-8.9 92.6 16.4c23.7-25.3 61.5-32.3 92.6-16.4c.8 .4 1.7 .9 2.5 1.4c7.8 4.3 14.0 11.4 16.7 20.4c11.8 39.5-5.6 81.1-43.4 96.9L384 224c13.3 0 24 10.7 24 24v144c0 13.3-10.7 24-24 24H280v-64c0-17.7-14.3-32-32-32s-32 14.3-32 32v64H128c-13.3 0-24-10.7-24-24V248c0-13.3 10.7-24 24-24l14.6-22.6z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-sustainability {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M272 96c-78.6 0-145.1 51.5-167.7 122.5c33.6-17 71.5-26.5 111.7-26.5h88c8.8 0 16 7.2 16 16s-7.2 16-16 16H216c-70.7 0-128 57.3-128 128c0 17.7-14.3 32-32 32s-32-14.3-32-32C24 155.1 132.1 32 272 32s248 123.1 248 280c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-128-103.3-216-184-216zM179.7 264c-28.1 0-51.7 20.1-56.9 47.1c-5.5 28.7 11.8 56.9 40.5 56.9H304c8.8 0 16-7.2 16-16s-7.2-16-16-16H163.3c-13.4 0-24.3-10.9-24.3-24.3c0-13.4 10.9-24.3 24.3-24.3H304c8.8 0 16-7.2 16-16s-7.2-16-16-16H179.7z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-home {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3Cpath d='M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-search {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-label {\n  font-size: 11px;\n  font-weight: 500;\n  color: rgba(255, 255, 255, 0.9);\n  text-align: center;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n  line-height: 1.1;\n  margin-top: 2px;\n  position: relative;\n  z-index: 1;\n  letter-spacing: 0.2px;\n  word-wrap: break-word;\n  overflow-wrap: break-word;\n  hyphens: auto;\n  max-width: 100%;\n}\n\n.search-dropdown-content {\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  width: 280px;\n  max-height: 400px;\n  min-height: 160px;\n  border-radius: 14px;\n  animation: dropdown-slide-in 0.3s forwards;\n}\n.search-dropdown-content::-webkit-scrollbar {\n  width: 4px;\n}\n.search-dropdown-content::-webkit-scrollbar-track {\n  background: transparent;\n}\n.search-dropdown-content::-webkit-scrollbar-thumb {\n  background: rgba(255, 255, 255, 0.3);\n  border-radius: 4px;\n}\n.search-dropdown-content::-webkit-scrollbar-thumb:hover {\n  background: rgba(255, 255, 255, 0.5);\n}\n\n.dropdown-btn-content.dt-navigation-toolbar-search-dropdown {\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  transform: translateX(-51%) translateY(-2%) !important;\n  border-radius: 14px !important;\n  animation: dropdown-slide-in 0.3s forwards;\n}\n.dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before {\n  border-bottom: 8px solid rgba(0, 0, 0, 0.5) !important;\n}\n\n.dt-navigation-toolbar.theme-dark ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown,\n.dt-navigation-toolbar[data-theme=dark] ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown {\n  background: rgba(0, 0, 0, 0.5) !important;\n  border: 1px solid rgba(255, 255, 255, 0.12) !important;\n}\n.dt-navigation-toolbar.theme-dark ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before,\n.dt-navigation-toolbar[data-theme=dark] ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before {\n  border-bottom: 8px solid rgba(0, 0, 0, 0.5) !important;\n}\n\n.dt-navigation-toolbar.theme-light ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown,\n.dt-navigation-toolbar[data-theme=light] ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown {\n  background: rgba(0, 0, 0, 0.6) !important;\n  border: 1px solid rgba(0, 0, 0, 0.3) !important;\n}\n.dt-navigation-toolbar.theme-light ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before,\n.dt-navigation-toolbar[data-theme=light] ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before {\n  border-bottom: 8px solid rgba(0, 0, 0, 0.6) !important;\n}\n\n@keyframes dropdown-slide-in {\n  from {\n    opacity: 0;\n    transform: translateY(-10px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n@media (max-width: 768px) {\n  .dt-navigation-toolbar-positioning {\n    top: 55px;\n    max-width: 95%;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar {\n    padding: 4px 8px;\n    border-radius: 25px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content {\n    gap: 3px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-search {\n    margin-right: 6px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-search .dt-navigation-toolbar-search-button {\n    padding: 4px 8px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-search .dt-navigation-toolbar-search-button .dt-navigation-toolbar-button-icon {\n    width: 12px;\n    height: 12px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-search .dt-navigation-toolbar-search-button .search-label {\n    font-size: 10px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-items {\n    gap: 2px;\n    margin-right: 6px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button {\n    padding: 4px 8px;\n    min-width: 45px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container {\n    height: 16px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon {\n    width: 14px;\n    height: 14px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-label {\n    font-size: 8px;\n  }\n}", ""]);
+exports.push([module.id, ".dt-navigation-toolbar-positioning {\n  position: fixed;\n  left: 50%;\n  top: 65px;\n  transform: translateX(-50%);\n  z-index: 1000;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container {\n  width: fit-content;\n  height: fit-content;\n  position: relative;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar {\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  width: fit-content;\n  height: fit-content;\n  position: relative;\n  border-radius: 30px;\n  padding: 10px 12px;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar:hover {\n  background: rgba(0, 0, 0, 0.6);\n  transform: translateY(-2px);\n  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.12);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark {\n  background: rgba(0, 0, 0, 0.5);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button-icon {\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button-label,\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .search-label {\n  color: rgba(255, 255, 255, 0.9);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-icon {\n  filter: brightness(1.2) saturate(1.2);\n  transform: scale(1.1);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-label,\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button:hover .search-label {\n  color: #ffffff;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-search-button {\n  background: rgba(255, 255, 255, 0.1);\n  border: 1px solid rgba(255, 255, 255, 0.15);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-search-button:hover {\n  background: rgba(255, 255, 255, 0.2);\n  transform: translateY(-1px);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button {\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-dark .dt-navigation-toolbar-button:hover {\n  background: rgba(255, 255, 255, 0.15);\n  border-color: rgba(255, 255, 255, 0.25);\n  transform: translateY(-2px);\n  box-shadow: 0 0 15px rgba(66, 133, 244, 0.3);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light {\n  background: rgba(0, 0, 0, 0.6);\n  border: 1px solid rgba(0, 0, 0, 0.3);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-button-icon {\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-button-label,\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .search-label {\n  color: rgba(255, 255, 255, 0.9);\n  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-search-button {\n  background: rgba(255, 255, 255, 0.1);\n  border: 1px solid rgba(255, 255, 255, 0.15);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-search-button:hover {\n  background: rgba(255, 255, 255, 0.2);\n  transform: translateY(-1px);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-button {\n  background: rgba(255, 255, 255, 0.08);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar.theme-light .dt-navigation-toolbar-button:hover {\n  background: rgba(255, 255, 255, 0.18);\n  border-color: rgba(255, 255, 255, 0.25);\n  transform: translateY(-2px);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  position: relative;\n  z-index: 2;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-items {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin-left: 8px;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button, .dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.home-button {\n  width: auto;\n  min-width: 70px;\n  max-width: 120px;\n  box-sizing: border-box;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  padding: 12px 10px;\n  border-radius: 12px;\n  cursor: pointer;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n  position: relative;\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button:hover {\n  background: rgba(255, 255, 255, 0.15);\n  transform: translateY(-2px);\n  box-shadow: 0 0 15px rgba(66, 133, 244, 0.3);\n  border-color: rgba(255, 255, 255, 0.25);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-icon {\n  transform: scale(1.15);\n  filter: brightness(1.2) saturate(1.2);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button:hover .dt-navigation-toolbar-button-label {\n  color: #ffffff;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button:active {\n  transform: scale(0.98);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.selected {\n  background: linear-gradient(135deg, rgba(66, 133, 244, 0.3), rgba(0, 194, 255, 0.3));\n  border-color: rgba(0, 194, 255, 0.6);\n  box-shadow: 0 0 15px rgba(0, 194, 255, 0.3);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.selected::after {\n  content: \"\";\n  position: absolute;\n  bottom: -8px;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 4px;\n  height: 4px;\n  background: #00c2ff;\n  border-radius: 50%;\n  box-shadow: 0 0 8px rgba(0, 194, 255, 0.6);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.selected .dt-navigation-toolbar-button-icon {\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n  transform: scale(1.05);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.selected .dt-navigation-toolbar-button-label {\n  color: #ffffff;\n  font-weight: 600;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button.home-button.selected {\n  background: linear-gradient(135deg, rgba(255, 107, 53, 0.3), rgba(247, 147, 30, 0.3));\n  border-color: rgba(255, 107, 53, 0.6);\n  box-shadow: 0 0 15px rgba(255, 107, 53, 0.3);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container {\n  width: 100%;\n  height: 26px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin-bottom: 4px;\n  position: relative;\n  z-index: 1;\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon {\n  width: 22px;\n  height: 22px;\n  background-repeat: no-repeat;\n  background-size: contain;\n  background-position: center;\n  filter: invert(100%) sepia(6%) saturate(22%) hue-rotate(216deg) brightness(109%) contrast(105%);\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-energy {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10.7 9.4-11.7 25.9-2.3 36.6s25.9 11.7 36.6 2.3L164.7 192H304c13.3 0 24-10.7 24-24c0-13.3-10.7-24-24-24H207.4l119-104.6zM32 256c0 17.7 14.3 32 32 32H288c17.7 0 32-14.3 32-32s-14.3-32-32-32H64c-17.7 0-32 14.3-32 32zm480 128c0 17.7-14.3 32-32 32H256c-17.7 0-32-14.3-32-32s14.3-32 32-32H480c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-fault {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-kpi {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 220.7l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-iaq {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M288 32c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM143.5 128c13.3 0 24.1 10.8 24.1 24.1c0 2.7-.4 5.4-1.2 8.1l-33.6 112c-1.4 4.7-5.8 7.8-10.7 7.8s-9.3-3.1-10.7-7.8l-33.6-112c-.8-2.7-1.2-5.4-1.2-8.1C76.4 138.8 87.2 128 100.5 128h43zM511.9 192c-.3 39.3-32.1 71.4-71.4 71.4H352c-39.8 0-72.4-32.4-72.4-72.4c0-18.7 7.2-35.6 18.9-48.3l85.9-93.9c6.3-6.9 17-7.2 23.8-.9c6.9 6.3 7.2 17 .9 23.8l-85.9 93.9c-5.7 6.2-9.2 14.4-9.2 23.4c0 18.7 15.2 33.9 33.9 33.9h88.6c18.7 0 33.9-15.2 33.9-33.9c0-9.3-3.8-17.8-9.9-23.9l-85.9-85.9c-6.6-6.6-6.6-17.4 0-24s17.4-6.6 24 0l85.9 85.9c12.5 12.5 20.2 29.8 20.2 48.8zM192 256c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM304 416c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32zM20.1 468.9C18.4 461.1 25.9 454 33.9 454H65.8c10.2 0 18.9-7.6 19.7-17.7c1.2-14.4 7.2-27.9 16.7-38.2l61.4-66.7c5.7-6.2 15.7-6.2 21.4 0l61.4 66.7c9.5 10.3 15.5 23.8 16.7 38.2c.8 10.1 9.5 17.7 19.7 17.7h31.9c8 0 15.5 7.1 13.8 14.9l-7.8 36c-1.4 6.5-7.2 11.1-13.8 11.1H61.7c-6.6 0-12.4-4.6-13.8-11.1l-7.8-36z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-occupancy {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M352 96c0 53.02-42.98 96-96 96s-96-42.98-96-96s42.98-96 96-96s96 42.98 96 96zM233.4 201.4c-37.79-15.8-55.2-57.4-43.4-96.9c2.7-9.0 8.9-16.1 16.7-20.4c.8-.5 1.7-1.0 2.5-1.4c31.1-15.9 68.9-8.9 92.6 16.4c23.7-25.3 61.5-32.3 92.6-16.4c.8 .4 1.7 .9 2.5 1.4c7.8 4.3 14.0 11.4 16.7 20.4c11.8 39.5-5.6 81.1-43.4 96.9L384 224c13.3 0 24 10.7 24 24v144c0 13.3-10.7 24-24 24H280v-64c0-17.7-14.3-32-32-32s-32 14.3-32 32v64H128c-13.3 0-24-10.7-24-24V248c0-13.3 10.7-24 24-24l14.6-22.6z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-sustainability {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M272 96c-78.6 0-145.1 51.5-167.7 122.5c33.6-17 71.5-26.5 111.7-26.5h88c8.8 0 16 7.2 16 16s-7.2 16-16 16H216c-70.7 0-128 57.3-128 128c0 17.7-14.3 32-32 32s-32-14.3-32-32C24 155.1 132.1 32 272 32s248 123.1 248 280c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-128-103.3-216-184-216zM179.7 264c-28.1 0-51.7 20.1-56.9 47.1c-5.5 28.7 11.8 56.9 40.5 56.9H304c8.8 0 16-7.2 16-16s-7.2-16-16-16H163.3c-13.4 0-24.3-10.9-24.3-24.3c0-13.4 10.9-24.3 24.3-24.3H304c8.8 0 16-7.2 16-16s-7.2-16-16-16H179.7z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-dc-availability {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M64 32C28.7 32 0 60.7 0 96v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM344 152c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm96-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM64 288c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V352c0-35.3-28.7-64-64-64H64zM344 408c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24zm104-24a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM96 384a24 24 0 1 0 48 0 24 24 0 1 0 -48 0zm120-24a24 24 0 1 0 0 48 24 24 0 1 0 0-48z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-dc-fault {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M64 32C28.7 32 0 60.7 0 96v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm280 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm48 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 288c-35.3 0-64 28.7-64 64v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V352c0-35.3-28.7-64-64-64H64zm192-16c17.7 0 32 14.3 32 32V320h16c17.7 0 32 14.3 32 32s-14.3 32-32 32H288v16c0 17.7-14.3 32-32 32s-32-14.3-32-32V384H208c-17.7 0-32-14.3-32-32s14.3-32 32-32h16V304c0-17.7 14.3-32 32-32z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-home {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3Cpath d='M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon.button-icon-search {\n  background-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z'/%3E%3C/svg%3E\");\n}\n.dt-navigation-toolbar-positioning .dt-navigation-toolbar-container .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-label {\n  font-size: 11px;\n  font-weight: 500;\n  color: rgba(255, 255, 255, 0.9);\n  text-align: center;\n  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);\n  line-height: 1.1;\n  margin-top: 2px;\n  position: relative;\n  z-index: 1;\n  letter-spacing: 0.2px;\n  word-wrap: break-word;\n  overflow-wrap: break-word;\n  hyphens: auto;\n  max-width: 100%;\n}\n\n.search-dropdown-content {\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  width: 280px;\n  max-height: 400px;\n  min-height: 160px;\n  border-radius: 14px;\n  animation: dropdown-slide-in 0.3s forwards;\n}\n.search-dropdown-content::-webkit-scrollbar {\n  width: 4px;\n}\n.search-dropdown-content::-webkit-scrollbar-track {\n  background: transparent;\n}\n.search-dropdown-content::-webkit-scrollbar-thumb {\n  background: rgba(255, 255, 255, 0.3);\n  border-radius: 4px;\n}\n.search-dropdown-content::-webkit-scrollbar-thumb:hover {\n  background: rgba(255, 255, 255, 0.5);\n}\n\n.dropdown-btn-content.dt-navigation-toolbar-search-dropdown {\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  background: rgba(0, 0, 0, 0.5);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 255, 255, 0.08);\n  transform: translateX(-51%) translateY(-2%) !important;\n  border-radius: 14px !important;\n  animation: dropdown-slide-in 0.3s forwards;\n}\n.dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before {\n  border-bottom: 8px solid rgba(0, 0, 0, 0.5) !important;\n}\n\n.dt-navigation-toolbar.theme-dark ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown,\n.dt-navigation-toolbar[data-theme=dark] ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown {\n  background: rgba(0, 0, 0, 0.5) !important;\n  border: 1px solid rgba(255, 255, 255, 0.12) !important;\n}\n.dt-navigation-toolbar.theme-dark ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before,\n.dt-navigation-toolbar[data-theme=dark] ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before {\n  border-bottom: 8px solid rgba(0, 0, 0, 0.5) !important;\n}\n\n.dt-navigation-toolbar.theme-light ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown,\n.dt-navigation-toolbar[data-theme=light] ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown {\n  background: rgba(0, 0, 0, 0.6) !important;\n  border: 1px solid rgba(0, 0, 0, 0.3) !important;\n}\n.dt-navigation-toolbar.theme-light ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before,\n.dt-navigation-toolbar[data-theme=light] ~ .dropdown-btn-content.dt-navigation-toolbar-search-dropdown::before {\n  border-bottom: 8px solid rgba(0, 0, 0, 0.6) !important;\n}\n\n@keyframes dropdown-slide-in {\n  from {\n    opacity: 0;\n    transform: translateY(-10px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n@media (max-width: 768px) {\n  .dt-navigation-toolbar-positioning {\n    top: 55px;\n    max-width: 95%;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar {\n    padding: 4px 8px;\n    border-radius: 25px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content {\n    gap: 3px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-search {\n    margin-right: 6px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-search .dt-navigation-toolbar-search-button {\n    padding: 4px 8px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-search .dt-navigation-toolbar-search-button .dt-navigation-toolbar-button-icon {\n    width: 12px;\n    height: 12px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-search .dt-navigation-toolbar-search-button .search-label {\n    font-size: 10px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-items {\n    gap: 2px;\n    margin-right: 6px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button {\n    padding: 6px 8px;\n    min-width: 45px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container {\n    height: 20px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-icon-container .dt-navigation-toolbar-button-icon {\n    width: 18px;\n    height: 18px;\n  }\n  .dt-navigation-toolbar-positioning .dt-navigation-toolbar .dt-navigation-toolbar-content .dt-navigation-toolbar-button .dt-navigation-toolbar-button-label {\n    font-size: 8px;\n  }\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -122422,11 +122422,6 @@ module.exports = content.locals || {};
 
 "use strict";
 
-// import * as React from "react";
-// import { IContextProvider } from "../../uxp";
-// import './navigation-toolbar.scss';
-// import { DropDownButton } from "uxp/components";
-// import SearchBoxArea from "./search-box-area";
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
@@ -122451,174 +122446,6 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-// // Declare global window interface
-// declare global {
-//     interface Window {
-//         widgetCategories?: {
-//             showUncategorized: () => void;
-//             showIAQ: () => void;
-//         }
-//     }
-// }
-// interface InavbarProps {
-//     ParentLocationKey:string,
-//     uxpContext?: IContextProvider,
-//     instanceId?: string
-// }
-// const NavigationToolBar: React.FunctionComponent<InavbarProps> = (props) => {
-//     return(<div className="dt-navigation-toolbar-positioning">
-//         <div className="dt-navigation-toolbar-container">
-//             <div className="dt-navigation-toolbar">
-//                 <table><tbody><tr>
-//                     <td>
-//                         <div title="Search" className="dt-navigation-toolbar-button">
-//                             <DropDownButton 
-//                                 position="bottom center" 
-//                                 showOnHover={false}
-//                                 className = "dt-navigation-toolbar-serch-custom-dropdown"
-//                                 content={() => 
-//                                     <div style={{width:'300px',maxHeight:"500px",minHeight:"200px"}}>
-//                                         <SearchBoxArea LocationKey = {props.ParentLocationKey} uxpContext = {props.uxpContext}/>
-//                                     </div>
-//                                 } 
-//                             >
-//                                 <div className="dt-navigation-toolbar-button-icon-container">
-//                                     <div className={`dt-navigation-toolbar-button-icon button-icon-search`}></div>
-//                                 </div>
-//                             </DropDownButton>
-//                         </div>
-//                     </td>
-//                     <td>
-//                         <div title="Home" className="dt-navigation-toolbar-button"
-//                             onClick={()=>{
-//                                 // Show uncategorized widgets when clicking home
-//                                 if (window.widgetCategories?.showUncategorized) {
-//                                     window.widgetCategories.showUncategorized();
-//                                 }
-//                                 // let anchorurl = `/Apps/UXP/screen/dt-hypervisor-v01`;
-//                                 // window.open(anchorurl,'_self');
-//                             }}
-//                         >
-//                             <div className="dt-navigation-toolbar-button-icon-container">
-//                                 <div className={`dt-navigation-toolbar-button-icon button-icon-home`}></div>
-//                             </div>
-//                         </div>
-//                     </td>
-//                     <td>
-//                         <div title="Indoor Air Quality (IAQ)" className="dt-navigation-toolbar-button"
-//                             onClick={()=>{
-//                                 // Trigger IAQ widget filtering
-//                                 console.log('🌬️ Showing IAQ widgets');
-//                                 // Check if widget categories are available
-//                                 if ((window as any).widgetCategories && (window as any).widgetCategories.showIAQ) {
-//                                     (window as any).widgetCategories.showIAQ();
-//                                 } else {
-//                                     // Fallback: dispatch event directly
-//                                     const event = new CustomEvent('dynamicWidgetCategoryFilter', {
-//                                         detail: {
-//                                             categories: ['IAQ'],
-//                                             showAll: false
-//                                         }
-//                                     });
-//                                     window.dispatchEvent(event);
-//                                 }
-//                             }}
-//                         >
-//                             <div className="dt-navigation-toolbar-button-icon-container">
-//                                 <div className={`dt-navigation-toolbar-button-icon button-icon-iaq`}></div>
-//                             </div>
-//                         </div>
-//                     </td>
-//                     <td>
-//                         <div title="IBMS" className="dt-navigation-toolbar-button"
-//                             onClick={()=>{
-//                                 let anchorurl = `/Apps/IBMS/rtsystem.json?key=2`;
-//                                 window.open(anchorurl,'_blank');
-//                             }}
-//                         >
-//                             <div className="dt-navigation-toolbar-button-icon-container">
-//                                 <div className={`dt-navigation-toolbar-button-icon button-icon-trend`}></div>
-//                             </div>
-//                         </div>
-//                     </td>
-//                     <td>
-//                         <div title="Facility Management" className="dt-navigation-toolbar-button"
-//                             onClick={()=>{
-//                                 let anchorurl = `/Apps/UXP/portal/facility-management`;
-//                                 window.open(anchorurl,'_blank');
-//                             }}
-//                         >
-//                             <div className="dt-navigation-toolbar-button-icon-container">
-//                                 <div className={`dt-navigation-toolbar-button-icon button-icon-facility`}></div>
-//                             </div>
-//                         </div>
-//                     </td>
-//                     <td>
-//                         <div title="C2O" className="dt-navigation-toolbar-button"
-//                             onClick={()=>{
-//                                 //let anchorurl = `/Apps/UXP/portal/operation-management`;
-//                                 let anchorurl = `/Apps/CMAT/dashboard`;
-//                                 window.open(anchorurl,'_blank');
-//                             }}
-//                         >
-//                             <div className="dt-navigation-toolbar-button-icon-container">
-//                                 <div className={`dt-navigation-toolbar-button-icon button-icon-c2o`}></div>
-//                             </div>
-//                         </div>
-//                     </td>
-//                     {/* <td>
-//                         <div title="Digital Twin" className="dt-navigation-toolbar-button"
-//                             onClick={()=>{
-//                             }}
-//                         >
-//                             <div className="dt-navigation-toolbar-button-icon-container">
-//                                 <div className={`dt-navigation-toolbar-button-icon button-icon-conerbox`}></div>
-//                             </div>
-//                         </div>
-//                     </td> */}
-//                     <td>
-//                         <div title="Sustainability Management" className="dt-navigation-toolbar-button"
-//                             onClick={()=>{
-//                                 //let anchorurl = `/Apps/UMS/dashboard`;
-//                                 let anchorurl = `/Apps/UXP/portal/sustainability-dashboard`;
-//                                 window.open(anchorurl,'_blank');
-//                             }}
-//                         >
-//                             <div className="dt-navigation-toolbar-button-icon-container">
-//                                 <div className={`dt-navigation-toolbar-button-icon button-icon-leafbuilding`}></div>
-//                             </div>
-//                         </div>
-//                     </td>
-//                     <td>
-//                         <div title="Coperative Service" className="dt-navigation-toolbar-button"
-//                             onClick={()=>{
-//                                 let anchorurl = `/Apps/UXP/portal/coperative-service`;
-//                                 window.open(anchorurl,'_blank');
-//                             }}
-//                         >
-//                             <div className="dt-navigation-toolbar-button-icon-container">
-//                                 <div className={`dt-navigation-toolbar-button-icon button-icon-coperate-service`}></div>
-//                             </div>
-//                         </div>
-//                     </td>
-//                     <td>
-//                         <div title="Security" className="dt-navigation-toolbar-button"
-//                             onClick={()=>{
-//                                 let anchorurl = `/Apps/UXP/portal/security-details`;
-//                                 window.open(anchorurl,'_blank');
-//                             }}
-//                         >
-//                             <div className="dt-navigation-toolbar-button-icon-container">
-//                                 <div className={`dt-navigation-toolbar-button-icon button-icon-security`}></div>
-//                             </div>
-//                         </div>
-//                     </td>
-//                 </tr></tbody></table>
-//             </div>
-//         </div>
-//     </div>)
-// }
-// export default NavigationToolBar;
 const React = __importStar(__webpack_require__(/*! react */ "react"));
 __webpack_require__(/*! ./navigation-toolbar.scss */ "./src/components/left-navigationbar/navigation-toolbar.scss");
 const NavigationToolBar = (props) => {
@@ -122735,7 +122562,7 @@ const NavigationToolBar = (props) => {
             title: 'Sustainability',
             icon: 'sustainability',
             onClick: () => {
-                console.log('⚡ Showing Energy widgets');
+                console.log('🌱 Showing Sustainability widgets');
                 if (window.widgetCategories && window.widgetCategories.showSustainability) {
                     window.widgetCategories.showSustainability();
                 }
@@ -122743,6 +122570,46 @@ const NavigationToolBar = (props) => {
                     const event = new CustomEvent('dynamicWidgetCategoryFilter', {
                         detail: {
                             categories: ['Sustainability'],
+                            showAll: false
+                        }
+                    });
+                    window.dispatchEvent(event);
+                }
+            }
+        },
+        {
+            id: 'dc-availability',
+            title: 'DC - Availability & Utility',
+            icon: 'dc-availability',
+            onClick: () => {
+                console.log('🏢 Showing DC Availability & Utility widgets');
+                if (window.widgetCategories && window.widgetCategories.showDCAvailabilityUtility) {
+                    window.widgetCategories.showDCAvailabilityUtility();
+                }
+                else {
+                    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+                        detail: {
+                            categories: ['DC - Availability & Utility'],
+                            showAll: false
+                        }
+                    });
+                    window.dispatchEvent(event);
+                }
+            }
+        },
+        {
+            id: 'dc-fault',
+            title: 'DC - Fault & Efficiency',
+            icon: 'dc-fault',
+            onClick: () => {
+                console.log('⚙️ Showing DC Fault & Efficiency widgets');
+                if (window.widgetCategories && window.widgetCategories.showDCFaultEfficiency) {
+                    window.widgetCategories.showDCFaultEfficiency();
+                }
+                else {
+                    const event = new CustomEvent('dynamicWidgetCategoryFilter', {
+                        detail: {
+                            categories: ['DC - Fault & Efficiency'],
                             showAll: false
                         }
                     });
@@ -122776,12 +122643,10 @@ const NavigationToolBar = (props) => {
                             }
                         } },
                         React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
-                            React.createElement("div", { className: "dt-navigation-toolbar-button-icon button-icon-home" })),
-                        React.createElement("span", { className: "dt-navigation-toolbar-button-label" }, "Home")),
+                            React.createElement("div", { className: "dt-navigation-toolbar-button-icon button-icon-home" }))),
                     React.createElement("div", { className: "dt-navigation-toolbar-items" }, navigationItems.map((item) => (React.createElement("div", { key: item.id, title: item.title, className: `dt-navigation-toolbar-button ${selectedItem === item.id ? 'selected' : ''}`, onClick: () => handleItemClick(item.id, item.onClick) },
                         React.createElement("div", { className: "dt-navigation-toolbar-button-icon-container" },
-                            React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-${item.icon}` })),
-                        React.createElement("span", { className: "dt-navigation-toolbar-button-label" }, item.title))))))))));
+                            React.createElement("div", { className: `dt-navigation-toolbar-button-icon button-icon-${item.icon}` })))))))))));
 };
 exports["default"] = NavigationToolBar;
 
@@ -123599,7 +123464,7 @@ const ThreeDViewerWidget = (props) => {
                 };
                 // Update tree options with backend URLs
                 const updatedLine006Options = yield (0, TreeImageHelper_1.updateTreeConfigsWithBackendUrls)(line006TreeOptions);
-                (0, TreePlacement_1.createTreesOnMesh)("Site Outside Grass", // Target mesh name
+                (0, TreePlacement_1.createTreesOnMesh)("Line430", // Target mesh name
                 "", // This parameter is ignored when mixedTrees is used
                 newLoadedMeshes, // Loaded meshes array
                 scene, // Scene
@@ -124020,6 +123885,12 @@ const ThreeDViewerWidget = (props) => {
             // } else {
             //     console.log(`Not applying fixed position to model: ${nextModelPath}`);
             // }
+            result.meshes.forEach(mesh => {
+                if (mesh.name === "roof" || mesh.name === "Hatch roof") {
+                    console.log(`Removing mesh: ${mesh.name}`);
+                    mesh.dispose();
+                }
+            });
             // Process any placeholder meshes in the loaded model with custom parameters
             const customProcessPlaceholders = (scene, meshes) => {
                 const placeholders = meshes.filter(mesh => mesh.name.startsWith("Chaos"));
@@ -124496,6 +124367,10 @@ const ThreeDViewerWidget = (props) => {
                         console.log("Found ventilation pipe or air conditioner, applying pulsing effect to:", mesh.name);
                         (0, meshGlow_1.createPulsingGlowEffect1)(mesh, scene);
                     }
+                    if (mesh.name === "roof" || mesh.name === "Hatch roof") {
+                        console.log(`Removing mesh: ${mesh.name}`);
+                        mesh.dispose();
+                    }
                     if (meshConfig) {
                         console.log(`Applying configuration for mesh: ${mesh.name}`, meshConfig);
                         (0, ApplyMeshconfig_1.applyMeshConfiguration)(mesh, meshConfig, index, canvasContainer, scene, () => handleDoubleClick(mesh));
@@ -124861,7 +124736,7 @@ const ThreeDViewerWidget = (props) => {
                             };
                             // Update tree options with backend URLs
                             const updatedLine006Options = yield (0, TreeImageHelper_1.updateTreeConfigsWithBackendUrls)(line006TreeOptions);
-                            (0, TreePlacement_1.createTreesOnMesh)("Site Outside Grass", // Target mesh name
+                            (0, TreePlacement_1.createTreesOnMesh)("Line430", // Target mesh name
                             "", // This parameter is ignored when mixedTrees is used
                             newLoadedMeshes, // Loaded meshes array
                             scene, // Scene
@@ -124878,8 +124753,12 @@ const ThreeDViewerWidget = (props) => {
                             if (canvasContainer) {
                                 console.log('Applying mesh configurations:', meshConfig_1.meshConfigurations);
                                 newLoadedMeshes.forEach((mesh, index) => {
-                                    // console.log('Processing mesh:', mesh.name);
                                     var _a;
+                                    // console.log('Processing mesh:', mesh.name);
+                                    if (mesh.name === "roof" || mesh.name === "Hatch roof") {
+                                        console.log(`Removing mesh: ${mesh.name}`);
+                                        mesh.dispose();
+                                    }
                                     // First check if this is a mesh with an alarm configuration
                                     const meshConfig = meshConfig_1.meshConfigurations.find(config => config.meshName === mesh.name);
                                     if (meshConfig && meshConfig.isAlarm) {
@@ -128582,7 +128461,7 @@ const createTreesOnMesh = (meshName, pngFilePath, loadedMeshes, scene, options =
     }
     console.log(`Found ${meshName} mesh, adding tree particle system`);
     // Set default options
-    const { treeDensity = 0.05, minTreeSize = 1.4, maxTreeSize = 3.8, treeHeightOffset = 2.8, safetyMargin = 1.0, clusterPercentage = 0.8, freezeTimeout = 2000, maxTreeCount = 300000, mixedTrees = [] } = options;
+    const { treeDensity = 0.05, minTreeSize = 1.4, maxTreeSize = 3.8, treeHeightOffset = 2.8, safetyMargin = 1.0, clusterPercentage = 0.8, freezeTimeout = 2000, maxTreeCount = 400000, mixedTrees = [] } = options;
     // Get mesh bounds for particle system
     const boundingInfo = targetMesh.getBoundingInfo();
     const min = boundingInfo.boundingBox.minimumWorld;
@@ -128884,7 +128763,7 @@ function createTreeParticleSystem(targetMesh, texturePath, count, scene, params)
 // Category-based Widget Filter Helper
 // This file provides utility functions to filter dynamic widgets by category
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.CategoryWidgetFilter = exports.registerGlobalCategoryFunctions = exports.showEnvironmentWidgets = exports.showSustainabilityAndEnergyWidgets = exports.showOccupancyWidgets = exports.showAlarmWidgets = exports.showAnalyticsWidgets = exports.showMaintenanceWidgets = exports.showSecurityWidgets = exports.showComfortWidgets = exports.showEnergyWidgets = exports.showIAQWidgets = exports.showSustainabilityWidgets = exports.showUncategorizedWidgets = exports.showAllWidgets = exports.showWidgetsByCategory = exports.WIDGET_CATEGORIES = void 0;
+exports.CategoryWidgetFilter = exports.registerGlobalCategoryFunctions = exports.showKPIAndAnalyticsWidgets = exports.showEnvironmentWidgets = exports.showSustainabilityAndEnergyWidgets = exports.showDCAvailabilityUtilityWidgets = exports.showDCFaultEfficiencyWidgets = exports.showKPIWidgets = exports.showOccupancyWidgets = exports.showAlarmWidgets = exports.showAnalyticsWidgets = exports.showMaintenanceWidgets = exports.showSecurityWidgets = exports.showComfortWidgets = exports.showEnergyWidgets = exports.showIAQWidgets = exports.showSustainabilityWidgets = exports.showUncategorizedWidgets = exports.showAllWidgets = exports.showWidgetsByCategory = exports.WIDGET_CATEGORIES = void 0;
 /**
  * Available widget categories
  */
@@ -128897,7 +128776,10 @@ exports.WIDGET_CATEGORIES = {
     MAINTENANCE: 'Maintenance',
     ANALYTICS: 'Analytics',
     ALARMS: 'Alarms',
-    OCCUPANCY: 'Occupancy'
+    OCCUPANCY: 'Occupancy',
+    KPI: 'KPI',
+    DC_FAULT_EFFICIENCY: 'DC - Fault & Efficiency',
+    DC_AVAILABILITY_UTILITY: 'DC - Availability & Utility'
 };
 /**
  * Show widgets of specific categories
@@ -128942,56 +128824,32 @@ const showUncategorizedWidgets = () => {
     window.dispatchEvent(event);
 };
 exports.showUncategorizedWidgets = showUncategorizedWidgets;
-/**
- * Sample event listeners for different categories
- * Call these functions to demonstrate category filtering
- */
-// Example: Show only Sustainability widgets
-const showSustainabilityWidgets = () => {
-    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.SUSTAINABILITY]);
-};
+// Predefined category filter functions
+const showSustainabilityWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.SUSTAINABILITY]);
 exports.showSustainabilityWidgets = showSustainabilityWidgets;
-// Example: Show only IAQ (Indoor Air Quality) widgets
-const showIAQWidgets = () => {
-    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.IAQ]);
-};
+const showIAQWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.IAQ]);
 exports.showIAQWidgets = showIAQWidgets;
-// Example: Show Energy-related widgets
-const showEnergyWidgets = () => {
-    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.ENERGY]);
-};
+const showEnergyWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.ENERGY]);
 exports.showEnergyWidgets = showEnergyWidgets;
-// Example: Show Comfort-related widgets
-const showComfortWidgets = () => {
-    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.COMFORT]);
-};
+const showComfortWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.COMFORT]);
 exports.showComfortWidgets = showComfortWidgets;
-// Example: Show Security widgets
-const showSecurityWidgets = () => {
-    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.SECURITY]);
-};
+const showSecurityWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.SECURITY]);
 exports.showSecurityWidgets = showSecurityWidgets;
-// Example: Show Maintenance widgets
-const showMaintenanceWidgets = () => {
-    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.MAINTENANCE]);
-};
+const showMaintenanceWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.MAINTENANCE]);
 exports.showMaintenanceWidgets = showMaintenanceWidgets;
-// Example: Show Analytics widgets
-const showAnalyticsWidgets = () => {
-    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.ANALYTICS]);
-};
+const showAnalyticsWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.ANALYTICS]);
 exports.showAnalyticsWidgets = showAnalyticsWidgets;
-// Example: Show Alarm widgets
-const showAlarmWidgets = () => {
-    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.ALARMS]);
-};
+const showAlarmWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.ALARMS]);
 exports.showAlarmWidgets = showAlarmWidgets;
-// Example: Show Occupancy widgets
-const showOccupancyWidgets = () => {
-    (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.OCCUPANCY]);
-};
+const showOccupancyWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.OCCUPANCY]);
 exports.showOccupancyWidgets = showOccupancyWidgets;
-// Example: Show multiple categories (Sustainability + Energy)
+const showKPIWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.KPI]);
+exports.showKPIWidgets = showKPIWidgets;
+const showDCFaultEfficiencyWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.DC_FAULT_EFFICIENCY]);
+exports.showDCFaultEfficiencyWidgets = showDCFaultEfficiencyWidgets;
+const showDCAvailabilityUtilityWidgets = () => (0, exports.showWidgetsByCategory)([exports.WIDGET_CATEGORIES.DC_AVAILABILITY_UTILITY]);
+exports.showDCAvailabilityUtilityWidgets = showDCAvailabilityUtilityWidgets;
+// Combined category functions
 const showSustainabilityAndEnergyWidgets = () => {
     (0, exports.showWidgetsByCategory)([
         exports.WIDGET_CATEGORIES.SUSTAINABILITY,
@@ -129007,6 +128865,14 @@ const showEnvironmentWidgets = () => {
     ]);
 };
 exports.showEnvironmentWidgets = showEnvironmentWidgets;
+// Show KPI and Analytics widgets together
+const showKPIAndAnalyticsWidgets = () => {
+    (0, exports.showWidgetsByCategory)([
+        exports.WIDGET_CATEGORIES.KPI,
+        exports.WIDGET_CATEGORIES.ANALYTICS
+    ]);
+};
+exports.showKPIAndAnalyticsWidgets = showKPIAndAnalyticsWidgets;
 /**
  * Helper function to register global functions for easy testing
  * Call this to make the category functions available in window object for console testing
@@ -129022,8 +128888,12 @@ const registerGlobalCategoryFunctions = () => {
         showAnalytics: exports.showAnalyticsWidgets,
         showAlarms: exports.showAlarmWidgets,
         showOccupancy: exports.showOccupancyWidgets,
+        showKPI: exports.showKPIWidgets,
+        showDCFaultEfficiency: exports.showDCFaultEfficiencyWidgets,
+        showDCAvailabilityUtility: exports.showDCAvailabilityUtilityWidgets,
         showSustainabilityAndEnergy: exports.showSustainabilityAndEnergyWidgets,
         showEnvironment: exports.showEnvironmentWidgets,
+        showKPIAndAnalytics: exports.showKPIAndAnalyticsWidgets,
         showAll: exports.showAllWidgets,
         showUncategorized: exports.showUncategorizedWidgets,
         // Direct access to core functions
@@ -129046,8 +128916,12 @@ const registerGlobalCategoryFunctions = () => {
     console.log('  - window.widgetCategories.showAnalytics()       // Show only Analytics widgets');
     console.log('  - window.widgetCategories.showAlarms()          // Show only Alarm widgets');
     console.log('  - window.widgetCategories.showOccupancy()       // Show only Occupancy widgets');
+    console.log('  - window.widgetCategories.showKPI()             // Show only KPI widgets');
+    console.log('  - window.widgetCategories.showDCFaultEfficiency()      // Show DC - Fault & Efficiency widgets');
+    console.log('  - window.widgetCategories.showDCAvailabilityUtility()  // Show DC - Availability & Utility widgets');
     console.log('  - window.widgetCategories.showSustainabilityAndEnergy()  // Combined categories');
     console.log('  - window.widgetCategories.showEnvironment()     // Show IAQ + Comfort widgets');
+    console.log('  - window.widgetCategories.showKPIAndAnalytics() // Show KPI + Analytics widgets');
     console.log('  - window.widgetCategories.showAll()             // Show ALL widgets');
     console.log('  - window.widgetCategories.showUncategorized()   // Show only uncategorized widgets (default)');
     console.log('  - window.widgetCategories.filterByCategory(["Sustainability", "Energy"])  // Custom filter');
@@ -129072,8 +128946,12 @@ exports.CategoryWidgetFilter = {
         analytics: exports.showAnalyticsWidgets,
         alarms: exports.showAlarmWidgets,
         occupancy: exports.showOccupancyWidgets,
+        kpi: exports.showKPIWidgets,
+        dcFaultEfficiency: exports.showDCFaultEfficiencyWidgets,
+        dcAvailabilityUtility: exports.showDCAvailabilityUtilityWidgets,
         sustainabilityAndEnergy: exports.showSustainabilityAndEnergyWidgets,
-        environment: exports.showEnvironmentWidgets
+        environment: exports.showEnvironmentWidgets,
+        kpiAndAnalytics: exports.showKPIAndAnalyticsWidgets
     }
 };
 
