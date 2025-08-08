@@ -117860,7 +117860,11 @@ const ModelFlowEditor = ({ isOpen, onClose, onFlowChange }) => {
                 'Basic Wall 20mm thk Plastering-skimcoat [2966041]',
                 'Floor EC_Apron Slab-RC 150 [1740805]',
                 'Obj_Pigmented Concrete - 10A11_37',
-                'DPA_GM_Cat Ladder with Cage_CT-1 Cat Ladder with Cage [2960668]'
+                'DPA_GM_Cat Ladder with Cage_CT-1 Cat Ladder with Cage [2960668]',
+                'Line163_primitive0',
+                'Line152_primitive0',
+                'Line125_primitive1',
+                'Line183_primitive0'
             ];
         };
         const availableMeshes = getSourceModelMeshes();
@@ -123150,6 +123154,9 @@ exports.SceneProvider = SceneProvider;
 
 "use strict";
 
+// Disable console.log globally
+// const originalConsoleLog = console.log;
+// console.log = () => {};
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
@@ -123186,9 +123193,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-// Disable console.log globally
-const originalConsoleLog = console.log;
-console.log = () => { };
 const React = __importStar(__webpack_require__(/*! react */ "react"));
 const uxp_1 = __webpack_require__(/*! ./uxp */ "./src/uxp.ts");
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
@@ -123414,7 +123418,7 @@ const ThreeDViewerWidget = (props) => {
                 console.log("Model loaded successfully:", result);
                 // Remove/dispose meshes with specific names
                 result.meshes.forEach(mesh => {
-                    if (mesh.name === "roof" || mesh.name === "Hatch roof") {
+                    if (mesh.name === "roof" || mesh.name === "Hatch roof" || mesh.name === "DSTA_False Ceiling" || mesh.name === "DSTA_ROOF WALL") {
                         console.log(`Removing mesh: ${mesh.name}`);
                         mesh.dispose();
                     }
@@ -124014,8 +124018,7 @@ const ThreeDViewerWidget = (props) => {
                         console.log("Found ventilation pipe or air conditioner, applying pulsing effect to:", mesh.name);
                         (0, meshGlow_1.createPulsingGlowEffect1)(mesh, scene);
                     }
-                    if (mesh.name === "roof" || mesh.name === "Hatch roof") {
-                        console.log(`Removing mesh: ${mesh.name}`);
+                    if (mesh.name === 'roof' || mesh.name === 'DSTA_ROOF WALL' || mesh.name === 'DSTA_False Ceiling' || mesh.name === "Line170") {
                         mesh.dispose();
                     }
                     // Apply second glow effect to different meshes (separate condition)
@@ -124367,10 +124370,6 @@ const ThreeDViewerWidget = (props) => {
                     if (mesh.name === "comfort" || mesh.name === "LG3 Ceiling Cassette Air Conditioner-Inverter(2TR)4 Sta_396e091" || mesh.name === "Floor EC_150mm THK with Water Proofing [1725448]" || mesh.name === "DPA_PK_STRAIGHT ARROW_primitive63") {
                         console.log("Found ventilation pipe or air conditioner, applying pulsing effect to:", mesh.name);
                         (0, meshGlow_1.createPulsingGlowEffect1)(mesh, scene);
-                    }
-                    if (mesh.name === "roof" || mesh.name === "Hatch roof") {
-                        console.log(`Removing mesh: ${mesh.name}`);
-                        mesh.dispose();
                     }
                     if (meshConfig) {
                         console.log(`Applying configuration for mesh: ${mesh.name}`, meshConfig);
@@ -124737,7 +124736,7 @@ const ThreeDViewerWidget = (props) => {
                             };
                             // Update tree options with backend URLs
                             const updatedLine006Options = yield (0, TreeImageHelper_1.updateTreeConfigsWithBackendUrls)(line006TreeOptions);
-                            (0, TreePlacement_1.createTreesOnMesh)("Line430", // Target mesh name
+                            (0, TreePlacement_1.createTreesOnMesh)("Site Outside Grass", // Target mesh name
                             "", // This parameter is ignored when mixedTrees is used
                             newLoadedMeshes, // Loaded meshes array
                             scene, // Scene
@@ -124756,8 +124755,7 @@ const ThreeDViewerWidget = (props) => {
                                 newLoadedMeshes.forEach((mesh, index) => {
                                     var _a;
                                     // console.log('Processing mesh:', mesh.name);
-                                    if (mesh.name === "roof" || mesh.name === "Hatch roof") {
-                                        console.log(`Removing mesh: ${mesh.name}`);
+                                    if (mesh.name === "roof" || mesh.name === "DSTA_ROOF WALL" || mesh.name === "DSTA_False Ceiling" || mesh.name === "Line170") {
                                         mesh.dispose();
                                     }
                                     // First check if this is a mesh with an alarm configuration
