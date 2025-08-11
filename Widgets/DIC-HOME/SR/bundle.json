@@ -1,0 +1,24 @@
+{
+    "id": "aa56b347-de43-48ce-9dc6-3e565023c550",
+    "author": "SSI",
+    "widgets": [
+        {
+            "id": "home_right_panel",
+            "name": "home_right_panel",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[],
+            "category":"",
+            "isTemplate": false
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}
