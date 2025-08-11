@@ -1,11 +1,11 @@
 {
-    "id": "783c25f6-cf6b-44e3-ed5a-3b318d463c60",
+    "id": "2d213292-22e8-4a48-b163-6152e74b1389",
     "author": "SSI",
     "widgets": [
         {
-            "id": "Occupancy_RightPanel",
-            "name": "Occupancy_RightPanel",
-            "description": "A sample widget",
+            "id": "OccupancyCorrelationWidgets",
+            "name": "Occupancy Correlation right panel",
+            "description": "Occupancy Correlation right panel",
             "icon": "",
             "tags":[],
             "category":"",

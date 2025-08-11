@@ -33,7 +33,7 @@ module.exports = {};
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ":root {\n  --glass-bg: rgba(255, 255, 255, 0.08);\n  --glass-border: rgba(255, 255, 255, 0.18);\n  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);\n  --glass-green: rgba(61, 245, 123, 0.18);\n  --glass-yellow: rgba(255, 214, 0, 0.18);\n  --glass-red: rgba(255, 76, 76, 0.18);\n  --apple-glass: rgba(255, 255, 255, 0.1);\n  --apple-border: rgba(255, 255, 255, 0.2);\n  --apple-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);\n  --bg-color: rgba(20, 20, 20, 0.15);\n  --text-color: #fff;\n  --card-bg: rgba(255, 255, 255, 0.05);\n  --card-border: rgba(255, 255, 255, 0.08);\n  --progress-bg: rgba(255, 255, 255, 0.1);\n  --modal-bg: rgba(20, 20, 20, 0.95);\n  --modal-border: rgba(255, 255, 255, 0.1);\n  --good-color: #4caf50;\n  --warning-color: #ff9800;\n  --danger-color: #f44336;\n  --neutral-color: #64b5f6;\n  --text-primary: rgba(255, 255, 255, 0.95);\n  --text-secondary: rgba(255, 255, 255, 0.85);\n  --text-tertiary: rgba(255, 255, 255, 0.75);\n}\n\n.average-occupancy-widget {\n  width: 100%;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n.average-occupancy-widget .average-occupancy-glass-bg {\n  background: transparent;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 12px;\n  padding: 24px 16px;\n  width: 100%;\n  min-height: 400px;\n  color: #fff;\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  height: auto;\n  flex: 1;\n  position: relative;\n  overflow: visible;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n.average-occupancy-widget .average-occupancy-widget-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-bottom: 20px;\n  position: relative;\n  z-index: 1;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-widget-header {\n    flex-direction: column;\n    align-items: flex-start;\n    gap: 12px;\n    margin-bottom: 16px;\n  }\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-left {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-left .average-occupancy-icon {\n  width: 32px;\n  height: 32px;\n  color: var(--neutral-color, #64b5f6);\n  padding: 6px;\n  background: rgba(100, 181, 246, 0.1);\n  border-radius: 8px;\n  border: 1px solid rgba(100, 181, 246, 0.2);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-left .average-occupancy-icon svg {\n  width: 100%;\n  height: 100%;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-left .average-occupancy-widget-title {\n  margin: 0;\n  font-size: 1.6rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  color: #fff;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  position: relative;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-left .average-occupancy-icon {\n  width: 28px;\n  height: 28px;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-left .average-occupancy-widget-title {\n  font-size: 1.3rem;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-right {\n  display: flex;\n  align-items: center;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-right .average-occupancy-compare-button {\n  background: rgba(100, 181, 246, 0.15);\n  color: #fff;\n  border: 1px solid rgba(100, 181, 246, 0.3);\n  padding: 6px 12px;\n  border-radius: 8px;\n  font-size: 1.1rem;\n  font-weight: 700;\n  cursor: pointer;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-right .average-occupancy-compare-button:hover {\n  background: rgba(100, 181, 246, 0.25);\n  border-color: rgba(100, 181, 246, 0.5);\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(100, 181, 246, 0.2);\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-right .average-occupancy-compare-button:active {\n  transform: translateY(0);\n}\n.average-occupancy-widget .average-occupancy-widget-content {\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  position: relative;\n  z-index: 1;\n  flex: 1;\n}\n.average-occupancy-widget .average-occupancy-main-stat {\n  text-align: center;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-value .average-occupancy-number {\n    font-size: 2.5rem;\n  }\n  .average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label {\n    font-size: 1.3rem;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-value .average-occupancy-number {\n    font-size: 2rem;\n  }\n  .average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label {\n    font-size: 1.1rem;\n  }\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-value {\n  display: flex;\n  align-items: baseline;\n  justify-content: center;\n  gap: 12px;\n  margin-bottom: 8px;\n  margin-top: 20px;\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-value .average-occupancy-number {\n  font-size: 3rem;\n  font-weight: 700;\n  color: #fff;\n  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);\n  background-clip: text;\n  letter-spacing: 0.02em;\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label {\n  font-size: 1.5rem;\n  color: #fff;\n  font-weight: 600;\n  margin-bottom: 12px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  position: relative;\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label .average-occupancy-info-container {\n  position: relative;\n  display: inline-flex;\n  align-items: center;\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label .average-occupancy-info-container .average-occupancy-info-icon {\n  width: 18px;\n  height: 18px;\n  color: rgba(255, 255, 255, 0.7);\n  cursor: pointer;\n  transition: color 0.3s ease;\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label .average-occupancy-info-container .average-occupancy-info-icon:hover {\n  color: rgba(255, 255, 255, 0.9);\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label .average-occupancy-info-container .average-occupancy-info-tooltip {\n  position: absolute;\n  bottom: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  background: rgba(0, 0, 0, 0.9);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 8px;\n  padding: 12px 16px;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);\n  color: #fff;\n  font-size: 1.2rem;\n  font-weight: 500;\n  white-space: normal;\n  z-index: 1000;\n  margin-bottom: 8px;\n  min-width: 200px;\n  max-width: 300px;\n  word-wrap: break-word;\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label .average-occupancy-info-container .average-occupancy-info-tooltip::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  border: 6px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.9);\n}\n.average-occupancy-widget .average-occupancy-bottom-stats {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 12px;\n  margin-bottom: 20px;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats {\n    grid-template-columns: repeat(2, 1fr);\n    gap: 8px;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats {\n    grid-template-columns: 1fr;\n    gap: 8px;\n  }\n}\n@media (max-width: 600px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats {\n    grid-template-columns: repeat(2, 1fr);\n    gap: 6px;\n  }\n}\n@media (max-width: 400px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats {\n    grid-template-columns: 1fr;\n    gap: 6px;\n  }\n}\n.average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card {\n  background: rgba(255, 255, 255, 0.08);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  border-radius: 8px;\n  padding: 16px;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  min-width: 0;\n}\n@media (max-width: 600px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card {\n    padding: 12px;\n  }\n}\n@media (max-width: 400px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card {\n    padding: 10px;\n  }\n}\n.average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card:hover {\n  background: rgba(255, 255, 255, 0.12);\n  border-color: rgba(255, 255, 255, 0.18);\n  transform: translateY(-2px);\n  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);\n}\n.average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-align: center;\n  gap: 8px;\n  min-width: 0;\n  width: 100%;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content {\n    gap: 6px;\n  }\n}\n@media (max-width: 600px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content {\n    gap: 4px;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content {\n    gap: 4px;\n  }\n}\n.average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-value {\n  font-size: 1.7rem;\n  font-weight: 700;\n  color: #fff;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n  word-wrap: break-word;\n  overflow-wrap: break-word;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-value {\n    font-size: 1.5rem;\n  }\n}\n@media (max-width: 600px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-value {\n    font-size: 1.4rem;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-value {\n    font-size: 1.3rem;\n  }\n}\n@media (max-width: 400px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-value {\n    font-size: 1.2rem;\n  }\n}\n.average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-label {\n  font-size: 1.3rem;\n  color: #fff;\n  font-weight: 600;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  word-wrap: break-word;\n  overflow-wrap: break-word;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-label {\n    font-size: 1.1rem;\n  }\n}\n@media (max-width: 600px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-label {\n    font-size: 1rem;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-label {\n    font-size: 0.9rem;\n  }\n}\n@media (max-width: 400px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-label {\n    font-size: 0.8rem;\n  }\n}\n.average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-detail {\n  font-size: 1.1rem;\n  color: #fff;\n  font-weight: 500;\n  word-wrap: break-word;\n  overflow-wrap: break-word;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-detail {\n    font-size: 1rem;\n  }\n}\n@media (max-width: 600px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-detail {\n    font-size: 0.9rem;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-detail {\n    font-size: 0.8rem;\n  }\n}\n@media (max-width: 400px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-detail {\n    font-size: 0.7rem;\n  }\n}\n.average-occupancy-widget .average-occupancy-chart-container {\n  background: rgba(255, 255, 255, 0.08);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  border-radius: 12px;\n  padding: 20px;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  flex: 1;\n  min-height: 260px;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-chart-container {\n    padding: 16px;\n    min-height: 220px;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-chart-container {\n    padding: 12px;\n    min-height: 200px;\n  }\n}\n.average-occupancy-widget .average-occupancy-chart-container .average-occupancy-chart-header {\n  margin-bottom: 16px;\n}\n.average-occupancy-widget .average-occupancy-chart-container .average-occupancy-chart-header .ao-chart-description {\n  font-size: 1.3rem;\n  color: #fff;\n  margin: 0;\n  line-height: 1.4;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.average-occupancy-widget .average-occupancy-chart-container .average-occupancy-chart-header h3 {\n  margin: 0 0 8px 0;\n  font-size: 1.3rem;\n  font-weight: 600;\n  color: #fff;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n\n.average-occupancy-custom-tooltip {\n  background: rgba(0, 0, 0, 0.9);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 8px;\n  padding: 8px 10px;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-period {\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: #fff;\n  margin-bottom: 4px;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-occupancy {\n  display: flex;\n  flex-direction: column;\n  gap: 3px;\n  margin-bottom: 2px;\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-occupancy .average-occupancy-value {\n  font-size: 1.4rem;\n  font-weight: 700;\n  color: #64b5f6;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-occupancy .average-occupancy-deviation-indicator {\n  display: flex;\n  align-items: center;\n  gap: 4px;\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: rgba(255, 255, 255, 0.9);\n  margin-top: 2px;\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-occupancy .average-occupancy-deviation-indicator .average-occupancy-deviation-arrow {\n  font-size: 1.1rem;\n  font-weight: 700;\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-occupancy .average-occupancy-deviation-indicator .average-occupancy-deviation-text {\n  font-weight: 700;\n  font-size: 1.1rem;\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-occupancy .average-occupancy-deviation-indicator .average-occupancy-deviation-label {\n  font-size: 1rem;\n  opacity: 0.8;\n}\n\n.wc-graph-dot {\n  transition: all 0.3s ease;\n}\n.wc-graph-dot:hover {\n  r: 8;\n  stroke-width: 3;\n}\n\n.wc-graph-active-dot {\n  transition: all 0.3s ease;\n}\n\n.modal-container.dt-occupancy-compare-modal .modal-backdrop {\n  background-color: transparent !important;\n}\n.modal-container.dt-occupancy-compare-modal .modal-panel {\n  min-width: 30%;\n  width: auto;\n  max-width: 40%;\n  height: auto;\n  max-height: 100%;\n  min-height: 50%;\n  background: rgba(0, 0, 0, 0.11) !important;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px;\n}\n.modal-container.dt-occupancy-compare-modal .modal-panel .modal-header {\n  background: rgba(255, 255, 255, 0.05);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  color: #fff;\n  font-size: 1.4rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px 12px 0 0;\n}\n.modal-container.dt-occupancy-compare-modal .modal-panel .modal-body {\n  padding: 16px;\n  height: 100% !important;\n  margin: 0;\n  background: rgba(255, 255, 255, 0.05);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  overflow-y: auto;\n  border-radius: 0 0 12px 12px;\n}\n\n.average-occupancy-compare-content .average-occupancy-compare-options {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section label {\n  font-size: 1rem;\n  font-weight: 600;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-compare-heading {\n  font-size: 1rem;\n  font-weight: 700;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.8px;\n  margin-bottom: 12px;\n  text-align: left;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container {\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container .average-occupancy-compare-select {\n  width: 100%;\n  padding: 8px 12px;\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 6px;\n  color: #fff;\n  font-size: 1.2rem !important;\n  font-weight: 500;\n  cursor: pointer;\n  appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  background-image: url(\"data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e\");\n  background-repeat: no-repeat;\n  background-position: right 8px center;\n  background-size: 16px;\n  padding-right: 32px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container .average-occupancy-compare-select option {\n  background: #1a1a1a;\n  color: #fff;\n  font-size: 1.2rem;\n  padding: 8px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container .average-occupancy-compare-select option:hover {\n  background: rgba(100, 181, 246, 0.2) !important;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container .average-occupancy-compare-select option:checked {\n  background: rgba(100, 181, 246, 0.3) !important;\n  color: #fff !important;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container .average-occupancy-clear-btn {\n  position: absolute;\n  right: 8px;\n  top: 50%;\n  transform: translateY(-50%);\n  background: none;\n  border: none;\n  color: var(--text-secondary);\n  font-size: 1.2rem;\n  cursor: pointer;\n  padding: 4px;\n  border-radius: 4px;\n  transition: all 0.3s ease;\n  width: 24px;\n  height: 24px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container .average-occupancy-clear-btn:hover {\n  color: var(--text-primary);\n  background: rgba(255, 255, 255, 0.1);\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-specific-day {\n  margin-top: 20px;\n  padding: 15px;\n  background: rgba(255, 255, 255, 0.05);\n  border-radius: 12px;\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-specific-day label {\n  color: #fff;\n  font-weight: 600;\n  font-size: 14px;\n  margin-bottom: 8px;\n  display: block;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-advanced-comparison {\n  margin-top: 20px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-advanced-comparison .average-occupancy-date-range {\n  margin-bottom: 20px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-advanced-comparison .average-occupancy-date-range label {\n  color: #fff;\n  font-weight: 600;\n  font-size: 14px;\n  margin-bottom: 8px;\n  display: block;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-calculate-btn {\n  background: linear-gradient(135deg, var(--neutral-color) 0%, #42a5f5 100%);\n  color: #fff;\n  border: none;\n  padding: 10px 20px;\n  border-radius: 8px;\n  font-size: 0.95rem;\n  font-weight: 600;\n  cursor: pointer;\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-calculate-btn:hover:not(:disabled) {\n  transform: translateY(-2px);\n  box-shadow: 0 8px 25px rgba(100, 181, 246, 0.3);\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-calculate-btn:active {\n  transform: translateY(0);\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-calculate-btn:disabled {\n  opacity: 0.5;\n  cursor: not-allowed;\n  transform: none;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results {\n  margin-top: 16px;\n  padding-top: 16px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results h4 {\n  margin: 0 0 12px 0;\n  font-size: 1.1rem;\n  font-weight: 700;\n  color: var(--text-primary);\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main {\n  display: flex;\n  justify-content: space-between;\n  gap: 16px;\n  margin-bottom: 16px;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main .average-occupancy-result-comparison,\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main .average-occupancy-result-current {\n  flex: 1;\n  background: rgba(255, 255, 255, 0.05);\n  border-radius: 12px;\n  padding: 12px;\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  text-align: center;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main .average-occupancy-result-comparison .average-occupancy-result-label,\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main .average-occupancy-result-current .average-occupancy-result-label {\n  color: #fff;\n  font-size: 12px;\n  margin-bottom: 8px;\n  opacity: 0.8;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main .average-occupancy-result-comparison .average-occupancy-result-value,\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main .average-occupancy-result-current .average-occupancy-result-value {\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference {\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 10px;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item {\n  background: rgba(0, 0, 0, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 8px;\n  padding: 10px 14px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item:hover {\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-label {\n  font-size: 0.95rem;\n  font-weight: 500;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value {\n  font-weight: 600;\n  font-size: 14px;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value-container {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value-container .average-occupancy-arrow-up {\n  color: rgb(244, 67, 54);\n  font-size: 0;\n  font-weight: 900;\n  text-shadow: 0 0 8px rgba(244, 67, 54, 0.5);\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value-container .average-occupancy-arrow-up::before {\n  content: \"\";\n  display: inline-block;\n  width: 0;\n  height: 0;\n  border-left: 6px solid transparent;\n  border-right: 6px solid transparent;\n  border-bottom: 8px solid rgb(244, 67, 54);\n  filter: drop-shadow(0 0 4px rgba(244, 67, 54, 0.5));\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value-container .average-occupancy-arrow-down {\n  color: rgb(76, 175, 80);\n  font-size: 0;\n  font-weight: 900;\n  text-shadow: 0 0 8px rgba(76, 175, 80, 0.5);\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value-container .average-occupancy-arrow-down::before {\n  content: \"\";\n  display: inline-block;\n  width: 0;\n  height: 0;\n  border-left: 6px solid transparent;\n  border-right: 6px solid transparent;\n  border-top: 8px solid rgb(76, 175, 80);\n  filter: drop-shadow(0 0 4px rgba(76, 175, 80, 0.5));\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value-container .average-occupancy-difference-value {\n  font-weight: 700;\n  font-size: 16px;\n}", ""]);
+exports.push([module.id, ":root {\n  --glass-bg: rgba(255, 255, 255, 0.08);\n  --glass-border: rgba(255, 255, 255, 0.18);\n  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);\n  --glass-green: rgba(61, 245, 123, 0.18);\n  --glass-yellow: rgba(255, 214, 0, 0.18);\n  --glass-red: rgba(255, 76, 76, 0.18);\n  --apple-glass: rgba(255, 255, 255, 0.1);\n  --apple-border: rgba(255, 255, 255, 0.2);\n  --apple-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);\n  --bg-color: rgba(20, 20, 20, 0.15);\n  --text-color: #fff;\n  --card-bg: rgba(255, 255, 255, 0.05);\n  --card-border: rgba(255, 255, 255, 0.08);\n  --progress-bg: rgba(255, 255, 255, 0.1);\n  --modal-bg: rgba(20, 20, 20, 0.95);\n  --modal-border: rgba(255, 255, 255, 0.1);\n  --good-color: #4caf50;\n  --warning-color: #ff9800;\n  --danger-color: #f44336;\n  --neutral-color: #64b5f6;\n  --text-primary: rgba(255, 255, 255, 0.95);\n  --text-secondary: rgba(255, 255, 255, 0.85);\n  --text-tertiary: rgba(255, 255, 255, 0.75);\n}\n\n.average-occupancy-widget {\n  width: 100%;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n.average-occupancy-widget .average-occupancy-glass-bg {\n  background: transparent;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 12px;\n  padding: 24px 16px;\n  width: 100%;\n  color: #fff;\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  height: auto;\n  flex: 1;\n  position: relative;\n  overflow: visible;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n.average-occupancy-widget .average-occupancy-widget-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-bottom: 20px;\n  position: relative;\n  z-index: 1;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-widget-header {\n    flex-direction: column;\n    align-items: flex-start;\n    gap: 12px;\n    margin-bottom: 16px;\n  }\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-left {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-left .average-occupancy-icon {\n  width: 32px;\n  height: 32px;\n  color: #ffd700;\n  padding: 6px;\n  background: rgba(100, 181, 246, 0.1);\n  border-radius: 8px;\n  border: 1px solid rgba(100, 181, 246, 0.2);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-left .average-occupancy-icon svg {\n  width: 100%;\n  height: 100%;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-left .average-occupancy-widget-title {\n  margin: 0;\n  font-size: 1.6rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  color: #fff;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  position: relative;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-left .average-occupancy-icon {\n  width: 28px;\n  height: 28px;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-right {\n  display: flex;\n  align-items: center;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-right .average-occupancy-compare-button {\n  background: rgba(100, 181, 246, 0.15);\n  color: #fff;\n  border: 1px solid rgba(100, 181, 246, 0.3);\n  padding: 6px 12px;\n  border-radius: 8px;\n  font-size: 1.1rem;\n  font-weight: 700;\n  cursor: pointer;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-right .average-occupancy-compare-button:hover {\n  background: rgba(100, 181, 246, 0.25);\n  border-color: rgba(100, 181, 246, 0.5);\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(100, 181, 246, 0.2);\n}\n.average-occupancy-widget .average-occupancy-widget-header .average-occupancy-header-right .average-occupancy-compare-button:active {\n  transform: translateY(0);\n}\n.average-occupancy-widget .average-occupancy-widget-content {\n  display: flex;\n  flex-direction: column;\n  position: relative;\n  z-index: 1;\n  flex: 1;\n}\n.average-occupancy-widget .average-occupancy-main-stat {\n  text-align: center;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-value .average-occupancy-number {\n    font-size: 2.5rem;\n  }\n  .average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label {\n    font-size: 1.3rem;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-value .average-occupancy-number {\n    font-size: 2rem;\n  }\n  .average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label {\n    font-size: 1.1rem;\n  }\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-value {\n  display: flex;\n  align-items: baseline;\n  justify-content: center;\n  gap: 12px;\n  margin-bottom: 8px;\n  margin-top: 20px;\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-value .average-occupancy-number {\n  font-size: 2rem;\n  font-weight: 700;\n  color: #fff;\n  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);\n  background-clip: text;\n  letter-spacing: 0.02em;\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label {\n  font-size: 1.5rem;\n  color: #fff;\n  font-weight: 600;\n  margin-bottom: 12px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  position: relative;\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label .average-occupancy-info-container {\n  position: relative;\n  display: inline-flex;\n  align-items: center;\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label .average-occupancy-info-container .average-occupancy-info-icon {\n  width: 18px;\n  height: 18px;\n  color: rgba(255, 255, 255, 0.7);\n  cursor: pointer;\n  transition: color 0.3s ease;\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label .average-occupancy-info-container .average-occupancy-info-icon:hover {\n  color: rgba(255, 255, 255, 0.9);\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label .average-occupancy-info-container .average-occupancy-info-tooltip {\n  position: absolute;\n  bottom: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  background: rgba(0, 0, 0, 0.9);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 8px;\n  padding: 12px 16px;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);\n  color: #fff;\n  font-size: 1.2rem;\n  font-weight: 500;\n  white-space: normal;\n  z-index: 1000;\n  margin-bottom: 8px;\n  min-width: 200px;\n  max-width: 300px;\n  word-wrap: break-word;\n}\n.average-occupancy-widget .average-occupancy-main-stat .average-occupancy-stat-label .average-occupancy-info-container .average-occupancy-info-tooltip::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  border: 6px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.9);\n}\n.average-occupancy-widget .average-occupancy-bottom-stats {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 12px;\n  margin-bottom: 20px;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats {\n    grid-template-columns: repeat(2, 1fr);\n    gap: 8px;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats {\n    grid-template-columns: 1fr;\n    gap: 8px;\n  }\n}\n@media (max-width: 600px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats {\n    grid-template-columns: repeat(2, 1fr);\n    gap: 6px;\n  }\n}\n@media (max-width: 400px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats {\n    grid-template-columns: 1fr;\n    gap: 6px;\n  }\n}\n.average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card {\n  background: rgba(255, 255, 255, 0.08);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  border-radius: 8px;\n  padding: 16px;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  min-width: 0;\n}\n@media (max-width: 600px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card {\n    padding: 12px;\n  }\n}\n@media (max-width: 400px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card {\n    padding: 10px;\n  }\n}\n.average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card:hover {\n  background: rgba(255, 255, 255, 0.12);\n  border-color: rgba(255, 255, 255, 0.18);\n  transform: translateY(-2px);\n  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);\n}\n.average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-align: center;\n  gap: 8px;\n  min-width: 0;\n  width: 100%;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content {\n    gap: 6px;\n  }\n}\n@media (max-width: 600px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content {\n    gap: 4px;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content {\n    gap: 4px;\n  }\n}\n.average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-value {\n  font-size: 1.7rem;\n  font-weight: 700;\n  color: #fff;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n  word-wrap: break-word;\n  overflow-wrap: break-word;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-value {\n    font-size: 1.5rem;\n  }\n}\n@media (max-width: 600px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-value {\n    font-size: 1.4rem;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-value {\n    font-size: 1.3rem;\n  }\n}\n@media (max-width: 400px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-value {\n    font-size: 1.2rem;\n  }\n}\n.average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-label {\n  font-size: 1.3rem;\n  color: #fff;\n  font-weight: 600;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  word-wrap: break-word;\n  overflow-wrap: break-word;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-label {\n    font-size: 1.1rem;\n  }\n}\n@media (max-width: 600px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-label {\n    font-size: 1rem;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-label {\n    font-size: 0.9rem;\n  }\n}\n@media (max-width: 400px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-label {\n    font-size: 0.8rem;\n  }\n}\n.average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-detail {\n  font-size: 1.1rem;\n  color: #fff;\n  font-weight: 500;\n  word-wrap: break-word;\n  overflow-wrap: break-word;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-detail {\n    font-size: 1rem;\n  }\n}\n@media (max-width: 600px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-detail {\n    font-size: 0.9rem;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-detail {\n    font-size: 0.8rem;\n  }\n}\n@media (max-width: 400px) {\n  .average-occupancy-widget .average-occupancy-bottom-stats .average-occupancy-stat-card .average-occupancy-stat-content .average-occupancy-stat-detail {\n    font-size: 0.7rem;\n  }\n}\n.average-occupancy-widget .average-occupancy-chart-container {\n  background: rgba(255, 255, 255, 0.08);\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  border-radius: 12px;\n  padding: 20px;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  flex: 1;\n  min-height: 260px;\n}\n@media (max-width: 768px) {\n  .average-occupancy-widget .average-occupancy-chart-container {\n    padding: 16px;\n    min-height: 220px;\n  }\n}\n@media (max-width: 480px) {\n  .average-occupancy-widget .average-occupancy-chart-container {\n    padding: 12px;\n    min-height: 200px;\n  }\n}\n.average-occupancy-widget .average-occupancy-chart-container .average-occupancy-chart-header {\n  margin-bottom: 16px;\n}\n.average-occupancy-widget .average-occupancy-chart-container .average-occupancy-chart-header .ao-chart-description {\n  font-size: 1.3rem;\n  color: #fff;\n  margin: 0;\n  line-height: 1.4;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.average-occupancy-widget .average-occupancy-chart-container .average-occupancy-chart-header h3 {\n  margin: 0 0 8px 0;\n  font-size: 1.3rem;\n  font-weight: 600;\n  color: #fff;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n\n.average-occupancy-custom-tooltip {\n  background: rgba(0, 0, 0, 0.9);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 8px;\n  padding: 8px 10px;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-period {\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: #fff;\n  margin-bottom: 4px;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-occupancy {\n  display: flex;\n  flex-direction: column;\n  gap: 3px;\n  margin-bottom: 2px;\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-occupancy .average-occupancy-value {\n  font-size: 1.4rem;\n  font-weight: 700;\n  color: #64b5f6;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-occupancy .average-occupancy-deviation-indicator {\n  display: flex;\n  align-items: center;\n  gap: 4px;\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: rgba(255, 255, 255, 0.9);\n  margin-top: 2px;\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-occupancy .average-occupancy-deviation-indicator .average-occupancy-deviation-arrow {\n  font-size: 1.1rem;\n  font-weight: 700;\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-occupancy .average-occupancy-deviation-indicator .average-occupancy-deviation-text {\n  font-weight: 700;\n  font-size: 1.1rem;\n}\n.average-occupancy-custom-tooltip .average-occupancy-tooltip-occupancy .average-occupancy-deviation-indicator .average-occupancy-deviation-label {\n  font-size: 1rem;\n  opacity: 0.8;\n}\n\n.wc-graph-dot {\n  transition: all 0.3s ease;\n}\n.wc-graph-dot:hover {\n  r: 8;\n  stroke-width: 3;\n}\n\n.wc-graph-active-dot {\n  transition: all 0.3s ease;\n}\n\n.modal-container.dt-occupancy-compare-modal .modal-backdrop {\n  background-color: transparent !important;\n}\n.modal-container.dt-occupancy-compare-modal .modal-panel {\n  min-width: 30%;\n  width: auto;\n  max-width: 40%;\n  height: auto;\n  max-height: 100%;\n  min-height: 50%;\n  background: rgba(0, 0, 0, 0.2) !important;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px;\n}\n.modal-container.dt-occupancy-compare-modal .modal-panel .modal-header {\n  background: rgba(255, 255, 255, 0.05);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  color: #fff;\n  font-size: 1.4rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px 12px 0 0;\n}\n.modal-container.dt-occupancy-compare-modal .modal-panel .modal-body {\n  padding: 16px;\n  height: 100% !important;\n  margin: 0;\n  background: rgba(255, 255, 255, 0.05);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  overflow-y: auto;\n  border-radius: 0 0 12px 12px;\n}\n\n.average-occupancy-compare-content .average-occupancy-compare-options {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section label {\n  font-size: 1rem;\n  font-weight: 600;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-compare-heading {\n  font-size: 1rem;\n  font-weight: 700;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.8px;\n  margin-bottom: 12px;\n  text-align: left;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container {\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container .average-occupancy-compare-select {\n  width: 100%;\n  padding: 8px 12px;\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 6px;\n  color: #fff;\n  font-size: 1.2rem !important;\n  font-weight: 500;\n  cursor: pointer;\n  appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  background-image: url(\"data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e\");\n  background-repeat: no-repeat;\n  background-position: right 8px center;\n  background-size: 16px;\n  padding-right: 32px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container .average-occupancy-compare-select:focus {\n  outline: none;\n  border-color: var(--neutral-color);\n  box-shadow: 0 0 0 2px rgba(100, 181, 246, 0.2);\n  z-index: 1000;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container .average-occupancy-compare-select option {\n  background: #1a1a1a;\n  color: #fff;\n  font-size: 1.2rem;\n  padding: 8px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container .average-occupancy-compare-select option:hover {\n  background: rgba(100, 181, 246, 0.2) !important;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container .average-occupancy-compare-select option:checked {\n  color: #fff !important;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container .average-occupancy-clear-btn {\n  position: absolute;\n  right: 8px;\n  top: 50%;\n  transform: translateY(-50%);\n  background: none;\n  border: none;\n  color: var(--text-secondary);\n  font-size: 1.2rem;\n  cursor: pointer;\n  padding: 4px;\n  border-radius: 4px;\n  transition: all 0.3s ease;\n  width: 24px;\n  height: 24px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-compare-section .average-occupancy-select-container .average-occupancy-clear-btn:hover {\n  color: var(--text-primary);\n  background: rgba(255, 255, 255, 0.1);\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-specific-day {\n  margin-top: 20px;\n  padding: 15px;\n  background: rgba(255, 255, 255, 0.05);\n  border-radius: 12px;\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-specific-day label {\n  color: #fff;\n  font-weight: 600;\n  font-size: 14px;\n  margin-bottom: 8px;\n  display: block;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-advanced-comparison {\n  margin-top: 20px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-advanced-comparison .average-occupancy-date-range {\n  margin-bottom: 20px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-advanced-comparison .average-occupancy-date-range label {\n  color: #fff;\n  font-weight: 600;\n  font-size: 14px;\n  margin-bottom: 8px;\n  display: block;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-calculate-btn {\n  background: linear-gradient(135deg, var(--neutral-color) 0%, #42a5f5 100%);\n  color: #fff;\n  border: none;\n  padding: 10px 20px;\n  border-radius: 8px;\n  font-size: 0.95rem;\n  font-weight: 600;\n  cursor: pointer;\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-calculate-btn:hover:not(:disabled) {\n  transform: translateY(-2px);\n  box-shadow: 0 8px 25px rgba(100, 181, 246, 0.3);\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-calculate-btn:active {\n  transform: translateY(0);\n}\n.average-occupancy-compare-content .average-occupancy-compare-options .average-occupancy-calculate-btn:disabled {\n  opacity: 0.5;\n  cursor: not-allowed;\n  transform: none;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results {\n  margin-top: 16px;\n  padding-top: 16px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results h4 {\n  margin: 0 0 12px 0;\n  font-size: 1.1rem;\n  font-weight: 700;\n  color: var(--text-primary);\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main {\n  display: flex;\n  justify-content: space-between;\n  gap: 16px;\n  margin-bottom: 16px;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main .average-occupancy-result-comparison,\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main .average-occupancy-result-current {\n  flex: 1;\n  background: rgba(255, 255, 255, 0.05);\n  border-radius: 12px;\n  padding: 12px;\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  text-align: center;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main .average-occupancy-result-comparison .average-occupancy-result-label,\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main .average-occupancy-result-current .average-occupancy-result-label {\n  color: #fff;\n  font-size: 12px;\n  margin-bottom: 8px;\n  opacity: 0.8;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main .average-occupancy-result-comparison .average-occupancy-result-value,\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-main .average-occupancy-result-current .average-occupancy-result-value {\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference {\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 10px;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item {\n  background: rgba(0, 0, 0, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 8px;\n  padding: 10px 14px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item:hover {\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-label {\n  font-size: 0.95rem;\n  font-weight: 500;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value {\n  font-weight: 600;\n  font-size: 14px;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value-container {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value-container .average-occupancy-arrow-up {\n  color: rgb(244, 67, 54);\n  font-size: 0;\n  font-weight: 900;\n  text-shadow: 0 0 8px rgba(244, 67, 54, 0.5);\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value-container .average-occupancy-arrow-up::before {\n  content: \"\";\n  display: inline-block;\n  width: 0;\n  height: 0;\n  border-left: 6px solid transparent;\n  border-right: 6px solid transparent;\n  border-bottom: 8px solid rgb(244, 67, 54);\n  filter: drop-shadow(0 0 4px rgba(244, 67, 54, 0.5));\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value-container .average-occupancy-arrow-down {\n  color: rgb(76, 175, 80);\n  font-size: 0;\n  font-weight: 900;\n  text-shadow: 0 0 8px rgba(76, 175, 80, 0.5);\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value-container .average-occupancy-arrow-down::before {\n  content: \"\";\n  display: inline-block;\n  width: 0;\n  height: 0;\n  border-left: 6px solid transparent;\n  border-right: 6px solid transparent;\n  border-top: 8px solid rgb(76, 175, 80);\n  filter: drop-shadow(0 0 4px rgba(76, 175, 80, 0.5));\n}\n.average-occupancy-compare-content .average-occupancy-comparison-results .average-occupancy-results-compact .average-occupancy-result-difference .average-occupancy-difference-item .average-occupancy-difference-value-container .average-occupancy-difference-value {\n  font-weight: 700;\n  font-size: 16px;\n}\n\n.AverageOcc-expand-main {\n  display: flex;\n  justify-content: flex-end;\n  padding-bottom: 4px;\n  padding-top: 4px;\n}\n.AverageOcc-expand-main .AverageOcc-expand-sub {\n  background: rgba(100, 181, 246, 0.1);\n  border-radius: 8px;\n  border: 1px solid white;\n  padding: 6px 6px 1px 6px;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -50,7 +50,41 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ":root {\n  --glass-bg: rgba(255, 255, 255, 0.08);\n  --glass-border: rgba(255, 255, 255, 0.18);\n  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);\n  --glass-green: rgba(61, 245, 123, 0.18);\n  --glass-yellow: rgba(255, 214, 0, 0.18);\n  --glass-red: rgba(255, 76, 76, 0.18);\n  --apple-glass: rgba(255, 255, 255, 0.1);\n  --apple-border: rgba(255, 255, 255, 0.2);\n  --apple-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);\n  --bg-color: rgba(20, 20, 20, 0.15);\n  --text-color: #fff;\n  --card-bg: rgba(255, 255, 255, 0.05);\n  --card-border: rgba(255, 255, 255, 0.08);\n  --progress-bg: rgba(255, 255, 255, 0.1);\n  --modal-bg: rgba(20, 20, 20, 0.95);\n  --modal-border: rgba(255, 255, 255, 0.1);\n  --good-color: #4caf50;\n  --warning-color: #ff9800;\n  --danger-color: #f44336;\n  --neutral-color: #64b5f6;\n  --text-primary: rgba(255, 255, 255, 0.95);\n  --text-secondary: rgba(255, 255, 255, 0.85);\n  --text-tertiary: rgba(255, 255, 255, 0.75);\n}\n\n.current-occupancy-widget {\n  width: 100%;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n.current-occupancy-widget .current-occupancy-glass-bg {\n  background: transparent;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 12px;\n  padding: 24px 16px;\n  width: 100%;\n  min-height: 400px;\n  color: #fff;\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  height: auto;\n  flex: 1;\n  position: relative;\n  overflow: visible;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n.current-occupancy-widget .current-occupancy-widget-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-bottom: 16px;\n  position: relative;\n  z-index: 1;\n}\n.current-occupancy-widget .current-occupancy-widget-header .current-occupancy-header-left {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n.current-occupancy-widget .current-occupancy-widget-header .current-occupancy-header-left .current-occupancy-widget-title {\n  margin: 0;\n  font-size: 1.6rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  color: #fff;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  position: relative;\n}\n.current-occupancy-widget .current-occupancy-widget-header .current-occupancy-header-right {\n  display: flex;\n  align-items: center;\n}\n.current-occupancy-widget .current-occupancy-widget-header .current-occupancy-header-right .current-occupancy-compare-button {\n  background: rgba(100, 181, 246, 0.15);\n  color: #fff;\n  border: 1px solid rgba(100, 181, 246, 0.3);\n  padding: 6px 12px;\n  border-radius: 8px;\n  font-size: 1.1rem;\n  font-weight: 700;\n  cursor: pointer;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n.current-occupancy-widget .current-occupancy-widget-header .current-occupancy-header-right .current-occupancy-compare-button:hover {\n  background: rgba(100, 181, 246, 0.25);\n  border-color: rgba(100, 181, 246, 0.5);\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(100, 181, 246, 0.2);\n}\n.current-occupancy-widget .current-occupancy-widget-header .current-occupancy-header-right .current-occupancy-compare-button:active {\n  transform: translateY(0);\n}\n.current-occupancy-widget .current-occupancy-widget-content {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n  position: relative;\n  z-index: 1;\n  flex: 1;\n}\n.current-occupancy-widget .current-occupancy-main-stat {\n  text-align: center;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-value {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin-bottom: 8px;\n  margin-top: 12px;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-value .current-occupancy-number {\n  font-size: 3rem;\n  font-weight: 700;\n  color: #fff;\n  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);\n  background-clip: text;\n  letter-spacing: 0.02em;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-capacity-details {\n  text-align: center;\n  margin-bottom: 8px;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-capacity-details .current-occupancy-capacity-text {\n  font-size: 1.2rem;\n  color: #fff;\n  font-weight: 600;\n  text-align: center;\n  line-height: 1.4;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-label {\n  font-size: 1.5rem;\n  color: #fff;\n  font-weight: 600;\n  margin-bottom: 8px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  position: relative;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-label .current-occupancy-info-container {\n  position: relative;\n  display: inline-flex;\n  align-items: center;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-label .current-occupancy-info-container .current-occupancy-info-icon {\n  width: 18px;\n  height: 18px;\n  color: rgba(255, 255, 255, 0.7);\n  cursor: pointer;\n  transition: color 0.3s ease;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-label .current-occupancy-info-container .current-occupancy-info-icon:hover {\n  color: rgba(255, 255, 255, 0.9);\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-label .current-occupancy-info-container .current-occupancy-info-tooltip {\n  position: absolute;\n  bottom: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  background: rgba(0, 0, 0, 0.9);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 8px;\n  padding: 12px 16px;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);\n  color: #fff;\n  font-size: 1.2rem;\n  font-weight: 500;\n  white-space: normal;\n  z-index: 1000;\n  margin-bottom: 8px;\n  min-width: 200px;\n  max-width: 300px;\n  word-wrap: break-word;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-label .current-occupancy-info-container .current-occupancy-info-tooltip::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  border: 6px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.9);\n}\n.current-occupancy-widget .current-occupancy-chart-container {\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 10px;\n  padding: 16px;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  min-height: 200px;\n}\n.current-occupancy-widget .current-occupancy-chart-container .current-occupancy-chart-header {\n  display: block !important;\n  margin-bottom: 24px;\n}\n.current-occupancy-widget .current-occupancy-chart-container .current-occupancy-chart-header .cp-chart-description {\n  font-size: 1.3rem;\n  color: #fff;\n  margin: 0;\n  line-height: 1.4;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.current-occupancy-widget .current-occupancy-chart-container .current-occupancy-chart-header h3 {\n  font-size: 1.3rem;\n  font-weight: 600;\n  color: #fff;\n  margin: 0 0 8px 0;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n\n.current-occupancy-custom-tooltip {\n  background: rgba(0, 0, 0, 0.9);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 8px;\n  padding: 8px 10px;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-period {\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: #fff;\n  margin-bottom: 4px;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy {\n  display: flex;\n  flex-direction: column;\n  gap: 3px;\n  margin-bottom: 2px;\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy .current-occupancy-value {\n  font-size: 1.4rem;\n  font-weight: 700;\n  color: #64b5f6;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy .current-occupancy-count {\n  font-size: 1rem;\n  color: rgba(255, 255, 255, 0.9);\n  font-weight: 500;\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy .current-occupancy-deviation-indicator {\n  display: flex;\n  align-items: center;\n  gap: 4px;\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: rgba(255, 255, 255, 0.9);\n  margin-top: 2px;\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy .current-occupancy-deviation-indicator .current-occupancy-deviation-arrow {\n  font-size: 1.1rem;\n  font-weight: 700;\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy .current-occupancy-deviation-indicator .current-occupancy-deviation-text {\n  font-weight: 700;\n  font-size: 1.1rem;\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy .current-occupancy-deviation-indicator .current-occupancy-deviation-label {\n  font-size: 1rem;\n  opacity: 0.8;\n}\n\n.wc-graph-dot {\n  transition: all 0.3s ease;\n}\n.wc-graph-dot:hover {\n  r: 8;\n  stroke-width: 3;\n}\n\n.wc-graph-active-dot {\n  transition: all 0.3s ease;\n}\n\n.current-occupancy-glass-bg.loading-state {\n  justify-content: center;\n  align-items: center;\n}\n.current-occupancy-glass-bg.loading-state .loading-spinner {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 20px;\n}\n.current-occupancy-glass-bg.loading-state .loading-spinner .spinner-ring {\n  width: 50px;\n  height: 50px;\n  border: 3px solid rgba(255, 255, 255, 0.1);\n  border-top: 3px solid #64b5f6;\n  border-radius: 50%;\n  animation: spin 1s linear infinite;\n  filter: drop-shadow(0 0 10px rgba(100, 181, 246, 0.3));\n}\n.current-occupancy-glass-bg.loading-state .loading-spinner .loading-text {\n  color: rgba(255, 255, 255, 0.8);\n  font-size: 16px;\n  font-weight: 500;\n  margin: 0;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.current-occupancy-glass-bg.error-state {\n  justify-content: center;\n  align-items: center;\n}\n.current-occupancy-glass-bg.error-state .error-content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 16px;\n}\n.current-occupancy-glass-bg.error-state .error-content .error-icon {\n  font-size: 48px;\n  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));\n}\n.current-occupancy-glass-bg.error-state .error-content .error-text {\n  color: rgba(255, 255, 255, 0.8);\n  font-size: 16px;\n  font-weight: 500;\n  margin: 0;\n  text-align: center;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n@keyframes fadeInUp {\n  0% {\n    opacity: 0;\n    transform: translateX(-50%) translateY(8px);\n  }\n  100% {\n    opacity: 1;\n    transform: translateX(-50%) translateY(0);\n  }\n}\n@media (max-width: 768px) {\n  .current-occupancy-widget .current-occupancy-glass-bg {\n    padding: 20px 12px;\n  }\n  .current-occupancy-widget .current-occupancy-widget-header .current-occupancy-widget-title {\n    font-size: 1.4rem;\n  }\n  .current-occupancy-widget .current-occupancy-widget-content .current-occupancy-current-display .current-occupancy-current-value .current-occupancy-number {\n    font-size: 2.5rem;\n  }\n  .current-occupancy-widget .current-occupancy-widget-content .current-occupancy-current-display .current-occupancy-current-value .current-occupancy-capacity {\n    font-size: 1rem;\n  }\n  .current-occupancy-widget .current-occupancy-widget-content .current-occupancy-current-info .current-occupancy-current-label {\n    font-size: 1.3rem;\n  }\n  .current-occupancy-widget .current-occupancy-widget-content .occupancy-chart-container .occupancy-chart-header h3 {\n    font-size: 1.1rem;\n  }\n}\n@media (max-width: 480px) {\n  .occupancy-widget .occupancy-glass-bg {\n    padding: 16px 10px;\n    border-radius: 8px;\n  }\n  .occupancy-widget .occupancy-widget-header .occupancy-widget-title {\n    font-size: 1.2rem;\n  }\n  .occupancy-widget .current-occupancy-widget-content .current-occupancy-current-display .current-occupancy-current-value .current-occupancy-number {\n    font-size: 2rem;\n  }\n  .occupancy-widget .current-occupancy-widget-content .current-occupancy-current-display .current-occupancy-current-value .current-occupancy-capacity {\n    font-size: 0.9rem;\n  }\n  .occupancy-widget .current-occupancy-widget-content .current-occupancy-current-info .current-occupancy-current-label {\n    font-size: 1.1rem;\n  }\n}\n@media (prefers-reduced-motion: reduce) {\n  * {\n    animation-duration: 0.01ms !important;\n    animation-iteration-count: 1 !important;\n    transition-duration: 0.01ms !important;\n  }\n}\n@media (prefers-contrast: high) {\n  :root {\n    --glass-bg: rgba(255, 255, 255, 0.2);\n    --glass-border: rgba(255, 255, 255, 0.4);\n    --text-primary: rgba(255, 255, 255, 1);\n    --text-secondary: rgba(255, 255, 255, 0.95);\n  }\n}\n.modal-container.dt-occupancy-compare-modal .modal-backdrop {\n  background-color: transparent !important;\n}\n.modal-container.dt-occupancy-compare-modal .modal-panel {\n  min-width: 30%;\n  width: auto;\n  max-width: 40%;\n  height: auto;\n  max-height: 100%;\n  min-height: 50%;\n  background: rgba(0, 0, 0, 0.11) !important;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px;\n}\n.modal-container.dt-occupancy-compare-modal .modal-panel .modal-header {\n  background: rgba(255, 255, 255, 0.05);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  color: #fff;\n  font-size: 1.4rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px 12px 0 0;\n}\n.modal-container.dt-occupancy-compare-modal .modal-panel .modal-body {\n  padding: 16px;\n  height: 100% !important;\n  margin: 0;\n  background: rgba(255, 255, 255, 0.05);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  overflow-y: auto;\n  border-radius: 0 0 12px 12px;\n}\n\n.current-occupancy-compare-content .current-occupancy-compare-options {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section label {\n  font-size: 1rem;\n  font-weight: 600;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-compare-heading {\n  font-size: 1rem;\n  font-weight: 700;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.8px;\n  margin-bottom: 12px;\n  text-align: left;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container {\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container .current-occupancy-compare-select {\n  width: 100%;\n  padding: 8px 12px;\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 6px;\n  color: #fff;\n  font-size: 1.2rem !important;\n  font-weight: 500;\n  cursor: pointer;\n  appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  background-image: url(\"data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e\");\n  background-repeat: no-repeat;\n  background-position: right 8px center;\n  background-size: 16px;\n  padding-right: 32px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container .current-occupancy-compare-select option {\n  background: #1a1a1a;\n  color: #fff;\n  font-size: 1.2rem;\n  padding: 8px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container .current-occupancy-compare-select option:hover {\n  background: rgba(100, 181, 246, 0.2) !important;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container .current-occupancy-compare-select option:checked {\n  background: rgba(100, 181, 246, 0.3) !important;\n  color: #fff !important;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container .current-occupancy-clear-btn {\n  position: absolute;\n  right: 8px;\n  top: 50%;\n  transform: translateY(-50%);\n  background: none;\n  border: none;\n  color: var(--text-secondary);\n  font-size: 1.2rem;\n  cursor: pointer;\n  padding: 4px;\n  border-radius: 4px;\n  transition: all 0.3s ease;\n  width: 24px;\n  height: 24px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container .current-occupancy-clear-btn:hover {\n  color: var(--text-primary);\n  background: rgba(255, 255, 255, 0.1);\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-specific-day {\n  margin-top: 20px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-specific-day label {\n  color: #fff;\n  font-weight: 600;\n  font-size: 14px;\n  margin-bottom: 8px;\n  display: block;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-advanced-comparison {\n  margin-top: 20px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-advanced-comparison .occupancy-date-range {\n  margin-bottom: 20px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-advanced-comparison .occupancy-date-range label {\n  color: #fff;\n  font-weight: 600;\n  font-size: 14px;\n  margin-bottom: 8px;\n  display: block;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-calculate-btn {\n  background: linear-gradient(135deg, var(--neutral-color) 0%, #42a5f5 100%);\n  color: #fff;\n  border: none;\n  padding: 10px 20px;\n  border-radius: 8px;\n  font-size: 0.95rem;\n  font-weight: 600;\n  cursor: pointer;\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-calculate-btn:hover:not(:disabled) {\n  transform: translateY(-2px);\n  box-shadow: 0 8px 25px rgba(100, 181, 246, 0.3);\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-calculate-btn:active {\n  transform: translateY(0);\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-calculate-btn:disabled {\n  opacity: 0.5;\n  cursor: not-allowed;\n  transform: none;\n}\n.current-occupancy-compare-content .occupancy-comparison-results {\n  margin-top: 16px;\n  padding-top: 16px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n}\n.current-occupancy-compare-content .occupancy-comparison-results h4 {\n  margin: 0 0 12px 0;\n  font-size: 1.1rem;\n  font-weight: 700;\n  color: var(--text-primary);\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main {\n  display: flex;\n  justify-content: space-between;\n  gap: 16px;\n  margin-bottom: 16px;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main .occupancy-result-comparison,\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main .occupancy-result-current {\n  flex: 1;\n  background: rgba(255, 255, 255, 0.05);\n  border-radius: 12px;\n  padding: 12px;\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  text-align: center;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main .occupancy-result-comparison .occupancy-result-label,\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main .occupancy-result-current .occupancy-result-label {\n  color: #fff;\n  font-size: 12px;\n  margin-bottom: 8px;\n  opacity: 0.8;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main .occupancy-result-comparison .occupancy-result-value,\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main .occupancy-result-current .occupancy-result-value {\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference {\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 10px;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item {\n  background: rgba(0, 0, 0, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 8px;\n  padding: 10px 14px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item:hover {\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-label {\n  font-size: 0.95rem;\n  font-weight: 500;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value {\n  font-weight: 600;\n  font-size: 14px;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value-container {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value-container .occupancy-arrow-up {\n  color: rgb(244, 67, 54);\n  font-size: 0;\n  font-weight: 900;\n  text-shadow: 0 0 8px rgba(244, 67, 54, 0.5);\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value-container .occupancy-arrow-up::before {\n  content: \"\";\n  display: inline-block;\n  width: 0;\n  height: 0;\n  border-left: 6px solid transparent;\n  border-right: 6px solid transparent;\n  border-bottom: 8px solid rgb(244, 67, 54);\n  filter: drop-shadow(0 0 4px rgba(244, 67, 54, 0.5));\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value-container .occupancy-arrow-down {\n  color: rgb(76, 175, 80);\n  font-size: 0;\n  font-weight: 900;\n  text-shadow: 0 0 8px rgba(76, 175, 80, 0.5);\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value-container .occupancy-arrow-down::before {\n  content: \"\";\n  display: inline-block;\n  width: 0;\n  height: 0;\n  border-left: 6px solid transparent;\n  border-right: 6px solid transparent;\n  border-top: 8px solid rgb(76, 175, 80);\n  filter: drop-shadow(0 0 4px rgba(76, 175, 80, 0.5));\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value-container .occupancy-difference-value {\n  font-weight: 700;\n  font-size: 16px;\n}\n\n.occupancy-header-left {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n.occupancy-header-left .occupancy-icon {\n  width: 32px;\n  height: 32px;\n  color: var(--neutral-color, #64b5f6);\n  padding: 6px;\n  background: rgba(100, 181, 246, 0.1);\n  border-radius: 8px;\n  border: 1px solid rgba(100, 181, 246, 0.2);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.occupancy-header-left .occupancy-icon svg {\n  width: 100%;\n  height: 100%;\n}\n.occupancy-header-left .occupancy-widget-title {\n  margin: 0;\n  font-size: 1.6rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  color: #fff;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  position: relative;\n}\n\n.occupancy-header-left .occupancy-icon {\n  width: 28px;\n  height: 28px;\n}\n.occupancy-header-left .occupancy-widget-title {\n  font-size: 1.3rem;\n}", ""]);
+exports.push([module.id, ":root {\n  --glass-bg: rgba(255, 255, 255, 0.08);\n  --glass-border: rgba(255, 255, 255, 0.18);\n  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);\n  --glass-green: rgba(61, 245, 123, 0.18);\n  --glass-yellow: rgba(255, 214, 0, 0.18);\n  --glass-red: rgba(255, 76, 76, 0.18);\n  --apple-glass: rgba(255, 255, 255, 0.1);\n  --apple-border: rgba(255, 255, 255, 0.2);\n  --apple-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);\n  --bg-color: rgba(20, 20, 20, 0.15);\n  --text-color: #fff;\n  --card-bg: rgba(255, 255, 255, 0.05);\n  --card-border: rgba(255, 255, 255, 0.08);\n  --progress-bg: rgba(255, 255, 255, 0.1);\n  --modal-bg: rgba(20, 20, 20, 0.95);\n  --modal-border: rgba(255, 255, 255, 0.1);\n  --good-color: #4caf50;\n  --warning-color: #ff9800;\n  --danger-color: #f44336;\n  --neutral-color: #64b5f6;\n  --text-primary: rgba(255, 255, 255, 0.95);\n  --text-secondary: rgba(255, 255, 255, 0.85);\n  --text-tertiary: rgba(255, 255, 255, 0.75);\n}\n\n.current-occupancy-widget {\n  width: 100%;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n.current-occupancy-widget .current-occupancy-glass-bg {\n  background: transparent;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 12px;\n  padding: 24px 16px;\n  width: 100%;\n  color: #fff;\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  height: auto;\n  flex: 1;\n  position: relative;\n  overflow: visible;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n.current-occupancy-widget .current-occupancy-widget-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-bottom: 16px;\n  position: relative;\n  z-index: 1;\n}\n.current-occupancy-widget .current-occupancy-widget-header .current-occupancy-header-left {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n.current-occupancy-widget .current-occupancy-widget-header .current-occupancy-header-left .current-occupancy-widget-title {\n  margin: 0;\n  font-size: 1.6rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  color: #fff;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  position: relative;\n}\n.current-occupancy-widget .current-occupancy-widget-header .current-occupancy-header-right {\n  display: flex;\n  align-items: center;\n}\n.current-occupancy-widget .current-occupancy-widget-header .current-occupancy-header-right .current-occupancy-compare-button {\n  background: rgba(100, 181, 246, 0.15);\n  color: #fff;\n  border: 1px solid rgba(100, 181, 246, 0.3);\n  padding: 6px 12px;\n  border-radius: 8px;\n  font-size: 1.1rem;\n  font-weight: 700;\n  cursor: pointer;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n.current-occupancy-widget .current-occupancy-widget-header .current-occupancy-header-right .current-occupancy-compare-button:hover {\n  background: rgba(100, 181, 246, 0.25);\n  border-color: rgba(100, 181, 246, 0.5);\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(100, 181, 246, 0.2);\n}\n.current-occupancy-widget .current-occupancy-widget-header .current-occupancy-header-right .current-occupancy-compare-button:active {\n  transform: translateY(0);\n}\n.current-occupancy-widget .current-occupancy-widget-content {\n  display: flex;\n  flex-direction: column;\n  position: relative;\n  z-index: 1;\n  flex: 1;\n}\n.current-occupancy-widget .current-occupancy-main-stat {\n  text-align: center;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-value {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin-bottom: 8px;\n  margin-top: 12px;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-value .current-occupancy-number {\n  font-size: 2rem;\n  font-weight: 700;\n  color: #fff;\n  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);\n  background-clip: text;\n  letter-spacing: 0.02em;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-capacity-details {\n  text-align: center;\n  margin-bottom: 8px;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-capacity-details .current-occupancy-capacity-text {\n  font-size: 1.2rem;\n  color: #fff;\n  font-weight: 600;\n  text-align: center;\n  line-height: 1.4;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-label {\n  font-size: 1.5rem;\n  color: #fff;\n  font-weight: 600;\n  margin-bottom: 8px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  position: relative;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-label .current-occupancy-info-container {\n  position: relative;\n  display: inline-flex;\n  align-items: center;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-label .current-occupancy-info-container .current-occupancy-info-icon {\n  width: 18px;\n  height: 18px;\n  color: rgba(255, 255, 255, 0.7);\n  cursor: pointer;\n  transition: color 0.3s ease;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-label .current-occupancy-info-container .current-occupancy-info-icon:hover {\n  color: rgba(255, 255, 255, 0.9);\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-label .current-occupancy-info-container .current-occupancy-info-tooltip {\n  position: absolute;\n  bottom: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  background: rgba(0, 0, 0, 0.9);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 8px;\n  padding: 12px 16px;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);\n  color: #fff;\n  font-size: 1.2rem;\n  font-weight: 500;\n  white-space: normal;\n  z-index: 1000;\n  margin-bottom: 8px;\n  min-width: 200px;\n  max-width: 300px;\n  word-wrap: break-word;\n}\n.current-occupancy-widget .current-occupancy-main-stat .current-occupancy-stat-label .current-occupancy-info-container .current-occupancy-info-tooltip::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  border: 6px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.9);\n}\n.current-occupancy-widget .current-occupancy-chart-container {\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 10px;\n  padding: 16px;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  min-height: 200px;\n}\n.current-occupancy-widget .current-occupancy-chart-container .current-occupancy-chart-header {\n  display: block !important;\n  margin-bottom: 24px;\n}\n.current-occupancy-widget .current-occupancy-chart-container .current-occupancy-chart-header .cp-chart-description {\n  font-size: 1.3rem;\n  color: #fff;\n  margin: 0;\n  line-height: 1.4;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.current-occupancy-widget .current-occupancy-chart-container .current-occupancy-chart-header h3 {\n  font-size: 1.3rem;\n  font-weight: 600;\n  color: #fff;\n  margin: 0 0 8px 0;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n\n.current-occupancy-custom-tooltip {\n  background: rgba(0, 0, 0, 0.9);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 8px;\n  padding: 8px 10px;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-period {\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: #fff;\n  margin-bottom: 4px;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy {\n  display: flex;\n  flex-direction: column;\n  gap: 3px;\n  margin-bottom: 2px;\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy .current-occupancy-value {\n  font-size: 1.4rem;\n  font-weight: 700;\n  color: #64b5f6;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy .current-occupancy-count {\n  font-size: 1rem;\n  color: rgba(255, 255, 255, 0.9);\n  font-weight: 500;\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy .current-occupancy-deviation-indicator {\n  display: flex;\n  align-items: center;\n  gap: 4px;\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: rgba(255, 255, 255, 0.9);\n  margin-top: 2px;\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy .current-occupancy-deviation-indicator .current-occupancy-deviation-arrow {\n  font-size: 1.1rem;\n  font-weight: 700;\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy .current-occupancy-deviation-indicator .current-occupancy-deviation-text {\n  font-weight: 700;\n  font-size: 1.1rem;\n}\n.current-occupancy-custom-tooltip .current-occupancy-tooltip-occupancy .current-occupancy-deviation-indicator .current-occupancy-deviation-label {\n  font-size: 1rem;\n  opacity: 0.8;\n}\n\n.wc-graph-dot {\n  transition: all 0.3s ease;\n}\n.wc-graph-dot:hover {\n  r: 8;\n  stroke-width: 3;\n}\n\n.wc-graph-active-dot {\n  transition: all 0.3s ease;\n}\n\n.current-occupancy-glass-bg.loading-state {\n  justify-content: center;\n  align-items: center;\n}\n.current-occupancy-glass-bg.loading-state .loading-spinner {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 20px;\n}\n.current-occupancy-glass-bg.loading-state .loading-spinner .spinner-ring {\n  width: 50px;\n  height: 50px;\n  border: 3px solid rgba(255, 255, 255, 0.1);\n  border-top: 3px solid #64b5f6;\n  border-radius: 50%;\n  animation: spin 1s linear infinite;\n  filter: drop-shadow(0 0 10px rgba(100, 181, 246, 0.3));\n}\n.current-occupancy-glass-bg.loading-state .loading-spinner .loading-text {\n  color: rgba(255, 255, 255, 0.8);\n  font-size: 16px;\n  font-weight: 500;\n  margin: 0;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.current-occupancy-glass-bg.error-state {\n  justify-content: center;\n  align-items: center;\n}\n.current-occupancy-glass-bg.error-state .error-content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 16px;\n}\n.current-occupancy-glass-bg.error-state .error-content .error-icon {\n  font-size: 48px;\n  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));\n}\n.current-occupancy-glass-bg.error-state .error-content .error-text {\n  color: rgba(255, 255, 255, 0.8);\n  font-size: 16px;\n  font-weight: 500;\n  margin: 0;\n  text-align: center;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n@keyframes fadeInUp {\n  0% {\n    opacity: 0;\n    transform: translateX(-50%) translateY(8px);\n  }\n  100% {\n    opacity: 1;\n    transform: translateX(-50%) translateY(0);\n  }\n}\n@media (max-width: 768px) {\n  .current-occupancy-widget .current-occupancy-glass-bg {\n    padding: 20px 12px;\n  }\n  .current-occupancy-widget .current-occupancy-widget-header .current-occupancy-widget-title {\n    font-size: 1.4rem;\n  }\n  .current-occupancy-widget .current-occupancy-widget-content .current-occupancy-current-display .current-occupancy-current-value .current-occupancy-number {\n    font-size: 2.5rem;\n  }\n  .current-occupancy-widget .current-occupancy-widget-content .current-occupancy-current-display .current-occupancy-current-value .current-occupancy-capacity {\n    font-size: 1rem;\n  }\n  .current-occupancy-widget .current-occupancy-widget-content .current-occupancy-current-info .current-occupancy-current-label {\n    font-size: 1.3rem;\n  }\n  .current-occupancy-widget .current-occupancy-widget-content .occupancy-chart-container .occupancy-chart-header h3 {\n    font-size: 1.1rem;\n  }\n}\n@media (max-width: 480px) {\n  .occupancy-widget .occupancy-glass-bg {\n    padding: 16px 10px;\n    border-radius: 8px;\n  }\n  .occupancy-widget .occupancy-widget-header .occupancy-widget-title {\n    font-size: 1.2rem;\n  }\n  .occupancy-widget .current-occupancy-widget-content .current-occupancy-current-display .current-occupancy-current-value .current-occupancy-number {\n    font-size: 2rem;\n  }\n  .occupancy-widget .current-occupancy-widget-content .current-occupancy-current-display .current-occupancy-current-value .current-occupancy-capacity {\n    font-size: 0.9rem;\n  }\n  .occupancy-widget .current-occupancy-widget-content .current-occupancy-current-info .current-occupancy-current-label {\n    font-size: 1.1rem;\n  }\n}\n@media (prefers-reduced-motion: reduce) {\n  * {\n    animation-duration: 0.01ms !important;\n    animation-iteration-count: 1 !important;\n    transition-duration: 0.01ms !important;\n  }\n}\n@media (prefers-contrast: high) {\n  :root {\n    --glass-bg: rgba(255, 255, 255, 0.2);\n    --glass-border: rgba(255, 255, 255, 0.4);\n    --text-primary: rgba(255, 255, 255, 1);\n    --text-secondary: rgba(255, 255, 255, 0.95);\n  }\n}\n.modal-container.dt-occupancy-compare-modal .modal-backdrop {\n  background-color: transparent !important;\n}\n.modal-container.dt-occupancy-compare-modal .modal-panel {\n  min-width: 30%;\n  width: auto;\n  max-width: 40%;\n  height: auto;\n  max-height: 100%;\n  min-height: 50%;\n  background: rgba(0, 0, 0, 0.2) !important;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px;\n}\n.modal-container.dt-occupancy-compare-modal .modal-panel .modal-header {\n  background: rgba(255, 255, 255, 0.05);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  color: #fff;\n  font-size: 1.4rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px 12px 0 0;\n}\n.modal-container.dt-occupancy-compare-modal .modal-panel .modal-body {\n  padding: 16px;\n  height: 100% !important;\n  margin: 0;\n  background: rgba(255, 255, 255, 0.05);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  overflow-y: auto;\n  border-radius: 0 0 12px 12px;\n}\n\n.current-occupancy-compare-content .current-occupancy-compare-options {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section label {\n  font-size: 1rem;\n  font-weight: 600;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-compare-heading {\n  font-size: 1rem;\n  font-weight: 700;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.8px;\n  margin-bottom: 12px;\n  text-align: left;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container {\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container .current-occupancy-compare-select {\n  width: 100%;\n  padding: 8px 12px;\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 6px;\n  color: #fff;\n  font-size: 1.2rem !important;\n  font-weight: 500;\n  cursor: pointer;\n  appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  background-image: url(\"data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e\");\n  background-repeat: no-repeat;\n  background-position: right 8px center;\n  background-size: 16px;\n  padding-right: 32px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container .current-occupancy-compare-select:focus {\n  outline: none;\n  border-color: var(--neutral-color);\n  box-shadow: 0 0 0 2px rgba(100, 181, 246, 0.2);\n  z-index: 1000;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container .current-occupancy-compare-select option {\n  background: #1a1a1a;\n  color: #fff;\n  font-size: 1.2rem;\n  padding: 8px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container .current-occupancy-compare-select option:hover {\n  background: rgba(100, 181, 246, 0.2) !important;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container .current-occupancy-compare-select option:checked {\n  color: #fff !important;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container .current-occupancy-clear-btn {\n  position: absolute;\n  right: 8px;\n  top: 50%;\n  transform: translateY(-50%);\n  background: none;\n  border: none;\n  color: var(--text-secondary);\n  font-size: 1.2rem;\n  cursor: pointer;\n  padding: 4px;\n  border-radius: 4px;\n  transition: all 0.3s ease;\n  width: 24px;\n  height: 24px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .current-occupancy-compare-section .current-occupancy-select-container .current-occupancy-clear-btn:hover {\n  color: var(--text-primary);\n  background: rgba(255, 255, 255, 0.1);\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-specific-day {\n  margin-top: 20px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-specific-day label {\n  color: #fff;\n  font-weight: 600;\n  font-size: 14px;\n  margin-bottom: 8px;\n  display: block;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-advanced-comparison {\n  margin-top: 20px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-advanced-comparison .occupancy-date-range {\n  margin-bottom: 20px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-advanced-comparison .occupancy-date-range label {\n  color: #fff;\n  font-weight: 600;\n  font-size: 14px;\n  margin-bottom: 8px;\n  display: block;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-calculate-btn {\n  background: linear-gradient(135deg, var(--neutral-color) 0%, #42a5f5 100%);\n  color: #fff;\n  border: none;\n  padding: 10px 20px;\n  border-radius: 8px;\n  font-size: 0.95rem;\n  font-weight: 600;\n  cursor: pointer;\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-calculate-btn:hover:not(:disabled) {\n  transform: translateY(-2px);\n  box-shadow: 0 8px 25px rgba(100, 181, 246, 0.3);\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-calculate-btn:active {\n  transform: translateY(0);\n}\n.current-occupancy-compare-content .current-occupancy-compare-options .occupancy-calculate-btn:disabled {\n  opacity: 0.5;\n  cursor: not-allowed;\n  transform: none;\n}\n.current-occupancy-compare-content .occupancy-comparison-results {\n  margin-top: 16px;\n  padding-top: 16px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n}\n.current-occupancy-compare-content .occupancy-comparison-results h4 {\n  margin: 0 0 12px 0;\n  font-size: 1.1rem;\n  font-weight: 700;\n  color: var(--text-primary);\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main {\n  display: flex;\n  justify-content: space-between;\n  gap: 16px;\n  margin-bottom: 16px;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main .occupancy-result-comparison,\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main .occupancy-result-current {\n  flex: 1;\n  background: rgba(255, 255, 255, 0.05);\n  border-radius: 12px;\n  padding: 12px;\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  text-align: center;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main .occupancy-result-comparison .occupancy-result-label,\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main .occupancy-result-current .occupancy-result-label {\n  color: #fff;\n  font-size: 12px;\n  margin-bottom: 8px;\n  opacity: 0.8;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main .occupancy-result-comparison .occupancy-result-value,\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-main .occupancy-result-current .occupancy-result-value {\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference {\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 10px;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item {\n  background: rgba(0, 0, 0, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 8px;\n  padding: 10px 14px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item:hover {\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-label {\n  font-size: 0.95rem;\n  font-weight: 500;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value {\n  font-weight: 600;\n  font-size: 14px;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value-container {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value-container .occupancy-arrow-up {\n  color: rgb(244, 67, 54);\n  font-size: 0;\n  font-weight: 900;\n  text-shadow: 0 0 8px rgba(244, 67, 54, 0.5);\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value-container .occupancy-arrow-up::before {\n  content: \"\";\n  display: inline-block;\n  width: 0;\n  height: 0;\n  border-left: 6px solid transparent;\n  border-right: 6px solid transparent;\n  border-bottom: 8px solid rgb(244, 67, 54);\n  filter: drop-shadow(0 0 4px rgba(244, 67, 54, 0.5));\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value-container .occupancy-arrow-down {\n  color: rgb(76, 175, 80);\n  font-size: 0;\n  font-weight: 900;\n  text-shadow: 0 0 8px rgba(76, 175, 80, 0.5);\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value-container .occupancy-arrow-down::before {\n  content: \"\";\n  display: inline-block;\n  width: 0;\n  height: 0;\n  border-left: 6px solid transparent;\n  border-right: 6px solid transparent;\n  border-top: 8px solid rgb(76, 175, 80);\n  filter: drop-shadow(0 0 4px rgba(76, 175, 80, 0.5));\n}\n.current-occupancy-compare-content .occupancy-comparison-results .occupancy-results-compact .occupancy-result-difference .occupancy-difference-item .occupancy-difference-value-container .occupancy-difference-value {\n  font-weight: 700;\n  font-size: 16px;\n}\n\n.occupancy-header-left {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n.occupancy-header-left .occupancy-icon {\n  width: 32px;\n  height: 32px;\n  color: #ffd700;\n  padding: 6px;\n  background: rgba(100, 181, 246, 0.1);\n  border-radius: 8px;\n  border: 1px solid rgba(100, 181, 246, 0.2);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.occupancy-header-left .occupancy-icon svg {\n  width: 100%;\n  height: 100%;\n}\n.occupancy-header-left .occupancy-widget-title {\n  margin: 0;\n  font-size: 1.6rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  color: #fff;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  position: relative;\n}\n\n.occupancy-header-left .occupancy-icon {\n  width: 28px;\n  height: 28px;\n}\n\n.CurrentOcc-expand-main {\n  display: flex;\n  justify-content: flex-end;\n  padding-bottom: 4px;\n  padding-top: 4px;\n}\n.CurrentOcc-expand-main .CurrentOcc-expand-sub {\n  background: rgba(100, 181, 246, 0.1);\n  border-radius: 8px;\n  border: 1px solid white;\n  padding: 6px 6px 1px 6px;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/prod/OccupancyComilance/OccupancyCompilance.scss":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/prod/OccupancyComilance/OccupancyCompilance.scss ***!
+  \*******************************************************************************************************************************************/
+/***/ ((module, exports, __webpack_require__) => {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, ".occ-widget-content {\n  width: 100%;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n.occ-widget-content .occ-glass-bg {\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px;\n  padding: 24px 16px;\n  width: 100%;\n  color: #fff;\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  height: auto;\n  flex: 1;\n  position: relative;\n  overflow: hidden;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n.occ-widget-content .occ-widget-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-bottom: 20px;\n  position: relative;\n  z-index: 1;\n}\n.occ-widget-content .occ-widget-header .occ-header-left {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  gap: 12px;\n}\n.occ-widget-content .occ-widget-header .occ-header-left .occ-occupancy-icon {\n  width: 32px;\n  height: 32px;\n  color: var(--neutral-color, #64b5f6);\n  padding: 6px;\n  background: rgba(100, 181, 246, 0.1);\n  border-radius: 8px;\n  border: 1px solid rgba(100, 181, 246, 0.2);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.occ-widget-content .occ-widget-header .occ-header-left .occ-occupancy-icon svg {\n  width: 100%;\n  height: 100%;\n}\n.occ-widget-content .occ-widget-header .occ-header-left .occ-widget-title {\n  margin: 0;\n  font-size: 1.6rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  color: #fff;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  position: relative;\n}\n.occ-widget-content .occ-widget-content {\n  display: flex;\n  flex-direction: column;\n  gap: 20px;\n  position: relative;\n  z-index: 1;\n  flex: 1;\n}\n.occ-widget-content .occ-glass-card {\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 10px;\n  padding: 16px;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  min-height: 200px;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n}\n.occ-widget-content .occ-glass-card:hover {\n  background: rgba(255, 255, 255, 0.08);\n  border-color: rgba(255, 255, 255, 0.12);\n  transform: translateY(-2px);\n  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);\n}\n.occ-widget-content .occ-metrics-dashboard {\n  display: grid;\n  grid-template-columns: 2fr 1fr 1fr;\n  gap: 16px;\n  margin-bottom: 20px;\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card {\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 10px;\n  padding: 16px;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card.occ-primary {\n  grid-column: 1;\n  background: rgba(255, 255, 255, 0.08);\n  border-color: rgba(255, 255, 255, 0.12);\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card .occ-metric-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-bottom: 12px;\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card .occ-metric-header .occ-metric-label {\n  font-size: 1.2rem;\n  color: #fff;\n  font-weight: 600;\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card .occ-metric-value {\n  display: flex;\n  align-items: baseline;\n  gap: 4px;\n  margin-bottom: 8px;\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card .occ-metric-value .occ-current-count, .occ-widget-content .occ-metrics-dashboard .occ-metric-card .occ-metric-value .occ-available-count {\n  font-size: 2rem;\n  font-weight: 700;\n  color: #fff;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card .occ-metric-value .occ-max-count {\n  font-size: 1.2rem;\n  color: rgba(255, 255, 255, 0.7);\n  font-weight: 500;\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card .occ-metric-value .occ-risk-level {\n  font-size: 1.5rem;\n  font-weight: 700;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card .occ-metric-percentage {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card .occ-metric-percentage .occ-progress-bar {\n  flex: 1;\n  height: 8px;\n  background: rgba(255, 255, 255, 0.1);\n  border-radius: 4px;\n  overflow: hidden;\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card .occ-metric-percentage .occ-progress-bar .occ-progress-fill {\n  height: 100%;\n  border-radius: 4px;\n  transition: all 0.3s ease;\n  box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card .occ-metric-percentage .occ-percentage-text {\n  font-size: 1rem;\n  font-weight: 600;\n  color: #fff;\n  min-width: 40px;\n}\n.occ-widget-content .occ-metrics-dashboard .occ-metric-card .occ-metric-subtitle {\n  font-size: 1rem;\n  color: #fff;\n  font-weight: 600;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.occ-widget-content .occ-expand-main {\n  display: flex;\n  justify-content: flex-end;\n  margin-bottom: 4px;\n}\n.occ-widget-content .occ-expand-main .occ-expand-sub {\n  background: rgba(100, 181, 246, 0.1);\n  border-radius: 8px;\n  border: 1px solid white;\n  padding: 6px 6px 1px 6px;\n  cursor: pointer;\n  transition: all 0.3s ease;\n}\n.occ-widget-content .occ-expand-main .occ-expand-sub:hover {\n  background: rgba(100, 181, 246, 0.2);\n  transform: scale(1.05);\n}\n.occ-widget-content .occ-expand-main .occ-expand-sub svg {\n  transition: all 0.3s ease;\n}\n.occ-widget-content .occ-detection-section {\n  border: 1px solid rgba(255, 255, 255, 0.12);\n  border-radius: 8px;\n  padding: 15px;\n  margin: 24px 0;\n}\n.occ-widget-content .occ-detection-section .occ-detection-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-bottom: 16px;\n}\n.occ-widget-content .occ-detection-section .occ-detection-header h3 {\n  font-size: 1.3rem;\n  font-weight: 700;\n  color: #fff;\n  margin: 0;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n}\n.occ-widget-content .occ-detection-section .occ-detection-cards {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 16px;\n}\n.occ-widget-content .occ-detection-section .occ-detection-cards .occ-detection-card {\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 12px;\n  padding: 20px;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  display: flex;\n  align-items: center;\n  gap: 16px;\n}\n.occ-widget-content .occ-detection-section .occ-detection-cards .occ-detection-card:hover {\n  background: rgba(255, 255, 255, 0.08);\n  border-color: rgba(255, 255, 255, 0.12);\n  transform: translateY(-2px);\n  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);\n}\n.occ-widget-content .occ-detection-section .occ-detection-cards .occ-detection-card.occ-highest {\n  border-left: 4px solid rgb(244, 67, 54);\n}\n.occ-widget-content .occ-detection-section .occ-detection-cards .occ-detection-card.occ-lowest {\n  border-left: 4px solid #4caf50;\n}\n.occ-widget-content .occ-detection-section .occ-detection-cards .occ-detection-card .occ-detection-icon {\n  width: 48px;\n  height: 48px;\n  border-radius: 12px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);\n}\n.occ-widget-content .occ-detection-section .occ-detection-cards .occ-detection-card .occ-detection-icon .occ-triangle-up {\n  width: 0;\n  height: 0;\n  border-left: 12px solid transparent;\n  border-right: 12px solid transparent;\n  border-bottom: 20px solid rgb(244, 67, 54);\n  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));\n}\n.occ-widget-content .occ-detection-section .occ-detection-cards .occ-detection-card .occ-detection-icon .occ-triangle-down {\n  width: 0;\n  height: 0;\n  border-left: 12px solid transparent;\n  border-right: 12px solid transparent;\n  border-top: 20px solid #4caf50;\n  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));\n}\n.occ-widget-content .occ-detection-section .occ-detection-cards .occ-detection-card .occ-detection-content {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n}\n.occ-widget-content .occ-detection-section .occ-detection-cards .occ-detection-card .occ-detection-content .occ-detection-label {\n  font-size: 1rem;\n  color: #fff;\n  font-weight: 600;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.occ-widget-content .occ-detection-section .occ-detection-cards .occ-detection-card .occ-detection-content .occ-detection-value {\n  font-size: 1.8rem;\n  font-weight: 700;\n  color: #fff;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n}\n.occ-widget-content .occ-detection-section .occ-detection-cards .occ-detection-card .occ-detection-content .occ-detection-location {\n  font-size: 1.1rem;\n  color: #fff;\n  line-height: 1.4;\n  font-weight: 500;\n}\n@keyframes pulse {\n  0% {\n    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);\n  }\n  50% {\n    box-shadow: 0 0 16px rgba(76, 175, 80, 0.8);\n  }\n  100% {\n    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);\n  }\n}\n@media (max-width: 768px) {\n  .occ-widget-content .occupancy-glass-bg {\n    padding: 20px 12px;\n  }\n  .occ-widget-content .occupancy-widget-header {\n    flex-direction: column;\n    gap: 12px;\n    align-items: flex-start;\n  }\n  .occ-widget-content .occupancy-widget-header .occupancy-header-right {\n    width: 100%;\n  }\n  .occ-widget-content .occupancy-widget-header .occupancy-header-right .view-controls {\n    width: 100%;\n    justify-content: space-between;\n  }\n  .occ-widget-content .metrics-dashboard {\n    grid-template-columns: 1fr;\n    gap: 12px;\n  }\n  .occ-widget-content .metrics-dashboard .metric-card.primary {\n    grid-column: 1;\n  }\n}\n@media (max-width: 480px) {\n  .occ-widget-content .occupancy-glass-bg {\n    padding: 16px 10px;\n    border-radius: 8px;\n  }\n  .occ-widget-content .occupancy-widget-header .occupancy-header-left .occupancy-widget-title {\n    font-size: 1.4rem;\n  }\n  .occ-widget-content .metrics-dashboard .metric-card .metric-value .current-count, .occ-widget-content .metrics-dashboard .metric-card .metric-value .available-count {\n    font-size: 1.5rem;\n  }\n}\n@media (prefers-reduced-motion: reduce) {\n  .occ-widget-content * {\n    animation-duration: 0.01ms !important;\n    animation-iteration-count: 1 !important;\n    transition-duration: 0.01ms !important;\n  }\n}\n@media (prefers-contrast: high) {\n  .occ-widget-content .glass-card,\n  .occ-widget-content .metric-card,\n  .occ-widget-content .floor-plan-section,\n  .occ-widget-content .risk-zones-card {\n    background: rgba(255, 255, 255, 0.2);\n    border: 1px solid rgba(255, 255, 255, 0.4);\n  }\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/prod/PeakOccupanyTime/PeakOccupancy.scss":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/prod/PeakOccupanyTime/PeakOccupancy.scss ***!
+  \***********************************************************************************************************************************/
+/***/ ((module, exports, __webpack_require__) => {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, ".peak-widget-glass-bg {\n  width: 100%;\n  height: 100%;\n  padding: 0;\n  margin: 0;\n}\n.peak-widget-glass-bg .peak-glass-bg {\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px;\n  padding: 24px 16px;\n  width: 100%;\n  color: #fff;\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  height: auto;\n  flex: 1;\n  position: relative;\n  overflow: hidden;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n.peak-widget-glass-bg .peak-widget-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-bottom: 16px;\n  position: relative;\n  z-index: 1;\n}\n.peak-widget-glass-bg .peak-widget-header .peak-header-left {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n.peak-widget-glass-bg .peak-widget-header .peak-header-left .peak-occupancy-icon {\n  width: 32px;\n  height: 32px;\n  color: var(--neutral-color, #64b5f6);\n  padding: 6px;\n  background: rgba(100, 181, 246, 0.1);\n  border-radius: 8px;\n  border: 1px solid rgba(100, 181, 246, 0.2);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.peak-widget-glass-bg .peak-widget-header .peak-header-left .peak-occupancy-icon svg {\n  width: 100%;\n  height: 100%;\n}\n.peak-widget-glass-bg .peak-widget-header .peak-header-left .peak-widget-title {\n  margin: 0;\n  font-size: 1.6rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  color: #fff;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  position: relative;\n}\n.peak-widget-glass-bg .peak-widget-content {\n  display: flex;\n  flex-direction: column;\n  gap: 16px;\n  position: relative;\n  z-index: 1;\n  flex: 1;\n}\n.peak-widget-glass-bg .peak-content {\n  text-align: center;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 12px;\n}\n.peak-widget-glass-bg .peak-content .peak-percentage {\n  font-size: 2rem;\n  font-weight: 700;\n  color: #fff;\n  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);\n  line-height: 1;\n  margin-top: 30px;\n}\n.peak-widget-glass-bg .peak-content .peak-label {\n  font-size: 1.2rem;\n  color: #fff;\n  font-weight: 600;\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  position: relative;\n}\n.peak-widget-glass-bg .peak-content .peak-label .peak-info-container {\n  position: relative;\n  display: inline-block;\n}\n.peak-widget-glass-bg .peak-content .peak-label .peak-info-container .peak-info-icon {\n  width: 18px;\n  height: 18px;\n  color: rgba(255, 255, 255, 0.7);\n  cursor: pointer;\n  transition: color 0.3s ease;\n}\n.peak-widget-glass-bg .peak-content .peak-label .peak-info-container .peak-info-icon:hover {\n  color: rgb(255, 255, 255);\n}\n.peak-widget-glass-bg .peak-content .peak-label .peak-info-container .peak-info-tooltip {\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  background: rgba(0, 0, 0, 0.9);\n  color: #fff;\n  padding: 8px 12px;\n  border-radius: 6px;\n  font-size: 0.9rem;\n  white-space: nowrap;\n  z-index: 10;\n  margin-top: 8px;\n  backdrop-filter: blur(8px);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n}\n.peak-widget-glass-bg .peak-content .peak-label .peak-info-container .peak-info-tooltip::before {\n  content: \"\";\n  position: absolute;\n  top: -4px;\n  left: 50%;\n  transform: translateX(-50%);\n  border-left: 4px solid transparent;\n  border-right: 4px solid transparent;\n  border-bottom: 4px solid rgba(0, 0, 0, 0.9);\n}\n.peak-widget-glass-bg .peak-expand-main {\n  display: flex;\n  justify-content: flex-end;\n  margin-bottom: 4px;\n}\n.peak-widget-glass-bg .peak-expand-main .peak-expand-sub {\n  background: rgba(100, 181, 246, 0.1);\n  border-radius: 8px;\n  border: 1px solid white;\n  padding: 6px 6px 1px 6px;\n  cursor: pointer;\n  transition: all 0.3s ease;\n}\n.peak-widget-glass-bg .peak-expand-main .peak-expand-sub:hover {\n  background: rgba(100, 181, 246, 0.2);\n  transform: scale(1.05);\n}\n.peak-widget-glass-bg .peak-expand-main .peak-expand-sub svg {\n  transition: all 0.3s ease;\n}\n.peak-widget-glass-bg .glass-card {\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 10px;\n  padding: 16px;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  min-height: 200px;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n}\n.peak-widget-glass-bg .glass-card:hover {\n  background: rgba(255, 255, 255, 0.08);\n  border-color: rgba(255, 255, 255, 0.12);\n  transform: translateY(-2px);\n  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);\n}\n.peak-widget-glass-bg .main-kpi {\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 10px;\n  padding: 16px;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n}\n.peak-widget-glass-bg .main-kpi .kpi-header {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n  margin-bottom: 20px;\n}\n.peak-widget-glass-bg .main-kpi .kpi-header .kpi-label {\n  font-size: 1.3rem;\n  font-weight: 600;\n  color: #fff;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n}\n.peak-widget-glass-bg .main-kpi .kpi-header .kpi-period {\n  font-size: 1rem;\n  color: rgba(255, 255, 255, 0.8);\n  line-height: 1.4;\n  font-weight: 500;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.peak-widget-glass-bg .main-kpi .kpi-status {\n  margin-bottom: 24px;\n}\n.peak-widget-glass-bg .peak-glass-card {\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 10px;\n  padding: 16px;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n}\n.peak-widget-glass-bg .peak-glass-card .po-chart-header {\n  margin-bottom: 24px;\n}\n.peak-widget-glass-bg .peak-glass-card .po-chart-header h3 {\n  font-size: 1.3rem;\n  font-weight: 600;\n  color: #fff;\n  margin: 0 0 8px 0;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n}\n.peak-widget-glass-bg .peak-glass-card .po-chart-header .po-chart-description {\n  font-size: 1.3rem;\n  color: #fff;\n  margin: 0;\n  line-height: 1.4;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container {\n  position: relative;\n  z-index: 1;\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid {\n  display: flex;\n  gap: 20px;\n  height: 240px;\n  align-items: flex-end;\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-y-axis {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: flex-end;\n  width: 60px;\n  height: 100%;\n  padding-right: 12px;\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-y-axis span {\n  font-size: 1rem;\n  color: rgba(255, 255, 255, 0.8);\n  font-weight: 600;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars {\n  flex: 1;\n  display: flex;\n  gap: 12px;\n  align-items: flex-end;\n  height: 100%;\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars .peak-bar-container {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 8px;\n  height: 100%;\n  position: relative;\n  z-index: 1;\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars .peak-bar-container .peak-bar-wrapper {\n  flex: 1;\n  width: 100%;\n  display: flex;\n  align-items: flex-end;\n  position: relative;\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars .peak-bar-container .peak-bar-wrapper .peak-bar {\n  width: 100%;\n  border-radius: 8px 8px 0 0;\n  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);\n  position: relative;\n  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.3);\n  cursor: pointer;\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars .peak-bar-container .peak-bar-wrapper .peak-bar::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.05) 100%);\n  border-radius: 8px 8px 0 0;\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars .peak-bar-container .peak-bar-wrapper .peak-bar.hovered {\n  transform: scaleY(1.05);\n  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.4);\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars .peak-bar-container .peak-bar-wrapper .peak-bar .peak-bar-tooltip {\n  position: absolute;\n  bottom: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  margin-bottom: 12px;\n  z-index: 1000;\n  pointer-events: none;\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars .peak-bar-container .peak-bar-wrapper .peak-bar .peak-bar-tooltip .peak-tooltip-content {\n  background: rgba(0, 0, 0, 0.95);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 8px;\n  padding: 12px;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);\n  white-space: nowrap;\n  text-align: center;\n  position: relative;\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars .peak-bar-container .peak-bar-wrapper .peak-bar .peak-bar-tooltip .peak-tooltip-content .peak-tooltip-day {\n  font-size: 1.1rem;\n  font-weight: 600;\n  color: #fff;\n  margin-bottom: 4px;\n  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars .peak-bar-container .peak-bar-wrapper .peak-bar .peak-bar-tooltip .peak-tooltip-content .peak-tooltip-occupancy {\n  font-size: 1.4rem;\n  font-weight: 700;\n  color: #64b5f6;\n  margin-bottom: 4px;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars .peak-bar-container .peak-bar-wrapper .peak-bar .peak-bar-tooltip .peak-tooltip-content .peak-tooltip-time {\n  font-size: 1rem;\n  color: rgba(255, 255, 255, 0.8);\n  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars .peak-bar-container .peak-bar-wrapper .peak-bar .peak-bar-tooltip::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  border: 6px solid transparent;\n  border-top: 6px solid rgba(0, 0, 0, 0.95);\n  z-index: 1001;\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars .peak-bar-container .peak-bar-label {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  gap: 4px;\n}\n.peak-widget-glass-bg .peak-glass-card .peak-chart-container .peak-chart-grid .peak-chart-bars .peak-bar-container .peak-bar-label .peak-day-name {\n  font-size: 1.1rem;\n  font-weight: 600;\n  color: rgba(255, 255, 255, 0.9);\n  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\n}\n.peak-widget-glass-bg .filter-buttons {\n  display: flex;\n  gap: 12px;\n  margin-bottom: 20px;\n}\n.peak-widget-glass-bg .filter-buttons .filter-btn {\n  padding: 10px 20px;\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 16px;\n  background: rgba(255, 255, 255, 0.08);\n  backdrop-filter: blur(12px);\n  -webkit-backdrop-filter: blur(12px);\n  color: rgba(255, 255, 255, 0.8);\n  font-size: 0.9rem;\n  font-weight: 600;\n  cursor: pointer;\n  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\n}\n.peak-widget-glass-bg .filter-buttons .filter-btn:hover {\n  background: rgba(255, 255, 255, 0.15);\n  color: rgba(255, 255, 255, 0.95);\n  transform: translateY(-2px);\n  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);\n}\n.peak-widget-glass-bg .filter-buttons .filter-btn.active {\n  background: rgba(74, 144, 226, 0.3);\n  border-color: rgba(74, 144, 226, 0.5);\n  color: rgb(255, 255, 255);\n  box-shadow: 0 4px 16px rgba(74, 144, 226, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);\n}\n@media (max-width: 768px) {\n  .peak-widget-glass-bg .occupancy-glass-bg {\n    padding: 20px 12px;\n  }\n  .peak-widget-glass-bg .occupancy-widget-header .occupancy-header-left .occupancy-widget-title {\n    font-size: 1.4rem;\n  }\n  .peak-widget-glass-bg .main-kpi .kpi-header .kpi-label {\n    font-size: 1.1rem;\n  }\n  .peak-widget-glass-bg .main-kpi .kpi-header .kpi-period {\n    font-size: 0.9rem;\n  }\n  .peak-widget-glass-bg .peak-occupancy-glass-card .chart-header h3 {\n    font-size: 1.1rem;\n  }\n  .peak-widget-glass-bg .peak-occupancy-glass-card .chart-container .chart-grid {\n    height: 200px;\n    gap: 16px;\n  }\n  .peak-widget-glass-bg .peak-occupancy-glass-card .chart-container .chart-grid .chart-bars {\n    gap: 8px;\n  }\n  .peak-widget-glass-bg .peak-occupancy-glass-card .chart-container .chart-grid .chart-bars .bar-container {\n    gap: 6px;\n  }\n  .peak-widget-glass-bg .peak-occupancy-glass-card .chart-container .chart-grid .chart-bars .bar-container .bar-label .day-name {\n    font-size: 0.8rem;\n  }\n}\n@media (max-width: 480px) {\n  .peak-widget-glass-bg .occupancy-glass-bg {\n    padding: 16px 10px;\n    border-radius: 8px;\n  }\n  .peak-widget-glass-bg .occupancy-widget-header .occupancy-header-left .occupancy-widget-title {\n    font-size: 1.2rem;\n  }\n  .peak-widget-glass-bg .main-kpi .kpi-header .kpi-label {\n    font-size: 1rem;\n  }\n  .peak-widget-glass-bg .main-kpi .kpi-header .kpi-period {\n    font-size: 0.8rem;\n  }\n  .peak-widget-glass-bg .peak-occupancy-glass-card .chart-header h3 {\n    font-size: 1rem;\n  }\n  .peak-widget-glass-bg .peak-occupancy-glass-card .chart-container .chart-grid {\n    height: 180px;\n    gap: 12px;\n  }\n  .peak-widget-glass-bg .peak-occupancy-glass-card .chart-container .chart-grid .chart-bars {\n    gap: 6px;\n  }\n  .peak-widget-glass-bg .peak-occupancy-glass-card .chart-container .chart-grid .chart-bars .bar-container {\n    gap: 4px;\n  }\n  .peak-widget-glass-bg .peak-occupancy-glass-card .chart-container .chart-grid .chart-bars .bar-container .bar-label .day-name {\n    font-size: 0.7rem;\n  }\n}\n@media (prefers-reduced-motion: reduce) {\n  .peak-widget-glass-bg * {\n    animation-duration: 0.01ms !important;\n    animation-iteration-count: 1 !important;\n    transition-duration: 0.01ms !important;\n  }\n}\n@media (prefers-contrast: high) {\n  .peak-widget-glass-bg .glass-card,\n  .peak-widget-glass-bg .main-kpi,\n  .peak-widget-glass-bg .peak-occupancy-glass-card {\n    background: rgba(255, 255, 255, 0.2);\n    border: 1px solid rgba(255, 255, 255, 0.4);\n  }\n}\n\n[title] {\n  position: relative;\n}\n[title]::before {\n  content: attr(title);\n  position: absolute;\n  bottom: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  background: rgba(0, 0, 0, 0.9);\n  color: #fff;\n  padding: 12px 16px;\n  border-radius: 8px;\n  font-size: 14px;\n  font-weight: 500;\n  white-space: nowrap;\n  z-index: 1000;\n  opacity: 0;\n  visibility: hidden;\n  transition: all 0.3s ease;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n}\n[title]:hover::before {\n  opacity: 1;\n  visibility: visible;\n}\n\n.modal-container.dt-peak-compare-modal .modal-backdrop {\n  background-color: transparent !important;\n}\n.modal-container.dt-peak-compare-modal .modal-panel {\n  min-width: 30%;\n  width: auto;\n  max-width: 40%;\n  height: auto;\n  max-height: 100%;\n  min-height: 50%;\n  background: rgba(0, 0, 0, 0.2) !important;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px;\n}\n.modal-container.dt-peak-compare-modal .modal-panel .modal-header {\n  background: rgba(255, 255, 255, 0.05);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  color: #fff;\n  font-size: 1.4rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px 12px 0 0;\n}\n.modal-container.dt-peak-compare-modal .modal-panel .modal-body {\n  padding: 16px;\n  height: 100% !important;\n  margin: 0;\n  background: rgba(255, 255, 255, 0.05);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  overflow-y: auto;\n  border-radius: 0 0 12px 12px;\n}\n\n.peak-compare-content .peak-compare-options {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n}\n.peak-compare-content .peak-compare-options .peak-compare-section {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n.peak-compare-content .peak-compare-options .peak-compare-section label {\n  font-size: 1rem;\n  font-weight: 600;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.peak-compare-content .peak-compare-options .peak-compare-section .peak-select-container {\n  position: relative;\n  display: flex;\n  align-items: center;\n}\n.peak-compare-content .peak-compare-options .peak-compare-section .peak-select-container .peak-compare-select {\n  width: 100%;\n  padding: 8px 12px;\n  background: rgba(255, 255, 255, 0.05);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 6px;\n  color: #fff;\n  font-size: 1.2rem !important;\n  font-weight: 500;\n  cursor: pointer;\n  appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  background-image: url(\"data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e\");\n  background-repeat: no-repeat;\n  background-position: right 8px center;\n  background-size: 16px;\n  padding-right: 32px;\n}\n.peak-compare-content .peak-compare-options .peak-compare-section .peak-select-container .peak-compare-select:focus {\n  outline: none;\n  border-color: var(--neutral-color);\n  box-shadow: 0 0 0 2px rgba(100, 181, 246, 0.2);\n  z-index: 1000;\n}\n.peak-compare-content .peak-compare-options .peak-compare-section .peak-select-container .peak-compare-select option {\n  background: #1a1a1a;\n  color: #fff;\n  font-size: 1.2rem;\n  padding: 8px;\n}\n.peak-compare-content .peak-compare-options .peak-compare-section .peak-select-container .peak-compare-select option:hover {\n  background: rgba(100, 181, 246, 0.2) !important;\n}\n.peak-compare-content .peak-compare-options .peak-compare-section .peak-select-container .peak-compare-select option:checked {\n  color: #fff !important;\n}\n.peak-compare-content .peak-compare-options .peak-compare-section .peak-select-container .peak-clear-btn {\n  position: absolute;\n  right: 8px;\n  top: 50%;\n  transform: translateY(-50%);\n  background: none;\n  border: none;\n  color: rgba(255, 255, 255, 0.7);\n  font-size: 1.2rem;\n  cursor: pointer;\n  padding: 4px;\n  border-radius: 4px;\n  transition: all 0.3s ease;\n  width: 24px;\n  height: 24px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.peak-compare-content .peak-compare-options .peak-compare-section .peak-select-container .peak-clear-btn:hover {\n  color: rgba(255, 255, 255, 0.9);\n  background: rgba(255, 255, 255, 0.1);\n}\n.peak-compare-content .peak-compare-options .peak-specific-day {\n  margin-top: 20px;\n}\n.peak-compare-content .peak-compare-options .peak-specific-day label {\n  color: #fff;\n  font-weight: 600;\n  font-size: 14px;\n  margin-bottom: 8px;\n  display: block;\n}\n.peak-compare-content .peak-compare-options .peak-advanced-comparison {\n  margin-top: 20px;\n}\n.peak-compare-content .peak-compare-options .peak-advanced-comparison .peak-date-range {\n  margin-bottom: 20px;\n}\n.peak-compare-content .peak-compare-options .peak-advanced-comparison .peak-date-range label {\n  color: #fff;\n  font-weight: 600;\n  font-size: 14px;\n  margin-bottom: 8px;\n  display: block;\n}\n.peak-compare-content .peak-compare-options .peak-calculate-btn {\n  background: linear-gradient(135deg, #64b5f6 0%, #42a5f5 100%);\n  color: #fff;\n  border: none;\n  padding: 10px 20px;\n  border-radius: 8px;\n  font-size: 0.95rem;\n  font-weight: 600;\n  cursor: pointer;\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.peak-compare-content .peak-compare-options .peak-calculate-btn:hover:not(:disabled) {\n  transform: translateY(-2px);\n  box-shadow: 0 8px 25px rgba(100, 181, 246, 0.3);\n}\n.peak-compare-content .peak-compare-options .peak-calculate-btn:active {\n  transform: translateY(0);\n}\n.peak-compare-content .peak-compare-options .peak-calculate-btn:disabled {\n  opacity: 0.5;\n  cursor: not-allowed;\n  transform: none;\n}\n.peak-compare-content .peak-comparison-results {\n  margin-top: 16px;\n  padding-top: 16px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n}\n.peak-compare-content .peak-comparison-results h4 {\n  margin: 0 0 12px 0;\n  font-size: 1.1rem;\n  font-weight: 700;\n  color: rgba(255, 255, 255, 0.95);\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-main {\n  display: flex;\n  justify-content: space-between;\n  gap: 16px;\n  margin-bottom: 16px;\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-main .peak-result-comparison,\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-main .peak-result-current {\n  flex: 1;\n  background: rgba(255, 255, 255, 0.05);\n  border-radius: 12px;\n  padding: 12px;\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  text-align: center;\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-main .peak-result-comparison .peak-result-label,\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-main .peak-result-current .peak-result-label {\n  color: #fff;\n  font-size: 12px;\n  margin-bottom: 8px;\n  opacity: 0.8;\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-main .peak-result-comparison .peak-result-value,\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-main .peak-result-current .peak-result-value {\n  color: #fff;\n  font-size: 16px;\n  font-weight: 600;\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-main .peak-result-comparison .peak-result-time,\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-main .peak-result-current .peak-result-time {\n  color: rgba(255, 255, 255, 0.7);\n  font-size: 12px;\n  margin-top: 4px;\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-difference {\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 10px;\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-difference .peak-difference-item {\n  background: rgba(0, 0, 0, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 8px;\n  padding: 10px 14px;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-difference .peak-difference-item:hover {\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-difference .peak-difference-item .peak-difference-label {\n  font-size: 0.95rem;\n  font-weight: 500;\n  color: #fff;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-difference .peak-difference-item .peak-difference-value {\n  font-weight: 600;\n  font-size: 14px;\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-difference .peak-difference-item .peak-difference-value-container {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-difference .peak-difference-item .peak-difference-value-container .peak-arrow-up {\n  color: rgb(244, 67, 54);\n  font-size: 0;\n  font-weight: 900;\n  text-shadow: 0 0 8px rgba(244, 67, 54, 0.5);\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-difference .peak-difference-item .peak-difference-value-container .peak-arrow-up::before {\n  content: \"\";\n  display: inline-block;\n  width: 0;\n  height: 0;\n  border-left: 6px solid transparent;\n  border-right: 6px solid transparent;\n  border-bottom: 8px solid rgb(244, 67, 54);\n  filter: drop-shadow(0 0 4px rgba(244, 67, 54, 0.5));\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-difference .peak-difference-item .peak-difference-value-container .peak-arrow-down {\n  color: rgb(76, 175, 80);\n  font-size: 0;\n  font-weight: 900;\n  text-shadow: 0 0 8px rgba(76, 175, 80, 0.5);\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-difference .peak-difference-item .peak-difference-value-container .peak-arrow-down::before {\n  content: \"\";\n  display: inline-block;\n  width: 0;\n  height: 0;\n  border-left: 6px solid transparent;\n  border-right: 6px solid transparent;\n  border-top: 8px solid rgb(76, 175, 80);\n  filter: drop-shadow(0 0 4px rgba(76, 175, 80, 0.5));\n}\n.peak-compare-content .peak-comparison-results .peak-results-compact .peak-result-difference .peak-difference-item .peak-difference-value-container .peak-difference-value {\n  font-weight: 700;\n  font-size: 16px;\n}\n\n.peak-header-right {\n  display: flex;\n  align-items: center;\n}\n.peak-header-right .peak-compare-button {\n  background: rgba(100, 181, 246, 0.15);\n  color: #fff;\n  border: 1px solid rgba(100, 181, 246, 0.3);\n  padding: 6px 12px;\n  border-radius: 8px;\n  font-size: 1.1rem;\n  font-weight: 700;\n  cursor: pointer;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n.peak-header-right .peak-compare-button:hover {\n  background: rgba(100, 181, 246, 0.25);\n  border-color: rgba(100, 181, 246, 0.5);\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(100, 181, 246, 0.2);\n}\n.peak-header-right .peak-compare-button:active {\n  transform: translateY(0);\n}\n\n.peak-custom-tooltip {\n  background: rgba(0, 0, 0, 0.9);\n  backdrop-filter: blur(8px);\n  border-radius: 10px;\n  padding: 14px;\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  z-index: 150;\n  min-width: 100px;\n  color: #fff;\n  font-size: 14px;\n  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);\n}\n\n.peak-custom-tooltip .tooltip-day,\n.peak-custom-tooltip .tooltip-value {\n  color: #fff;\n}\n\n.peak-custom-tooltip .tooltip-time {\n  color: rgba(255, 255, 255, 0.8);\n  font-size: 12px;\n  margin-top: 4px;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -67,7 +101,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".dt-widgets-left-panel-site {\n  padding: 15px;\n  position: relative;\n  width: 100%;\n  height: 100%;\n  direction: rtl; /* Move scrollbar to left side */\n}\n\n/* Ensure content flows left-to-right while scrollbar stays on left */\n.dt-widgets-left-panel-site > div {\n  direction: ltr;\n}", ""]);
+exports.push([module.id, ".OccLeft-widgets-left-panel-site {\n  padding: 15px;\n  position: relative;\n  width: 100%;\n  height: 100%;\n  overflow-y: auto;\n  background-color: rgba(20, 20, 20, 0.1);\n}\n\n*::-webkit-scrollbar {\n  width: 5px !important;\n}\n\n*::-webkit-scrollbar-track {\n  width: 5px !important;\n  background: #424242 !important;\n}\n\n*::-webkit-scrollbar-thumb {\n  border-radius: 2px;\n  width: 5px !important;\n  background: #8F8F8F !important;\n}\n\n.OccLeft-widgets-left-panel-site {\n  direction: rtl;\n}\n\n.OccLeft-widgets-left-panel-site > * {\n  direction: ltr;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -74492,6 +74526,8 @@ const React = __importStar(__webpack_require__(/*! react */ "react"));
 const uxp_1 = __webpack_require__(/*! ./uxp */ "./src/uxp.ts");
 const CurrentOccupancy_1 = __importDefault(__webpack_require__(/*! ./prod/CurrentOccupancy/CurrentOccupancy */ "./src/prod/CurrentOccupancy/CurrentOccupancy.tsx"));
 const AverageOccupancy_1 = __importDefault(__webpack_require__(/*! ./prod/AverageOccupancyRate/AverageOccupancy */ "./src/prod/AverageOccupancyRate/AverageOccupancy.tsx"));
+const OccupancyCompilance_1 = __importDefault(__webpack_require__(/*! ./prod/OccupancyComilance/OccupancyCompilance */ "./src/prod/OccupancyComilance/OccupancyCompilance.tsx"));
+const PeakOccupancyTime_1 = __importDefault(__webpack_require__(/*! ./prod/PeakOccupanyTime/PeakOccupancyTime */ "./src/prod/PeakOccupanyTime/PeakOccupancyTime.tsx"));
 __webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
 const Occupancy_leftPanelWidget = (props) => {
     return (
@@ -74501,12 +74537,16 @@ const Occupancy_leftPanelWidget = (props) => {
     //         </FilterPanel>
     //     </TitleBar>
     // </WidgetWrapper>
-    React.createElement("div", { className: "dt-widgets-left-panel-site" },
+    React.createElement("div", { className: "OccLeft-widgets-left-panel-site" },
         React.createElement("div", { style: { width: "100%", height: "100%", position: "relative" } },
-            React.createElement("div", { style: { width: "100%", height: "510px", position: "relative", marginBottom: "20px" } },
+            React.createElement("div", { style: { width: "100%", height: "350", position: "relative", marginBottom: "20px" } },
                 React.createElement(CurrentOccupancy_1.default, { LocationKey: props.LocationKey, uxpContext: props.uxpContext })),
-            React.createElement("div", { style: { width: "100%", height: "650px", position: "relative" } },
-                React.createElement(AverageOccupancy_1.default, { LocationKey: props.LocationKey, uxpContext: props.uxpContext })))));
+            React.createElement("div", { style: { width: "100%", height: "350", position: "relative", marginBottom: "20px" } },
+                React.createElement(AverageOccupancy_1.default, { LocationKey: props.LocationKey, uxpContext: props.uxpContext })),
+            React.createElement("div", { style: { width: "100%", height: "350", position: "relative", marginBottom: "20px" } },
+                React.createElement(OccupancyCompilance_1.default, { LocationKey: props.LocationKey, uxpContext: props.uxpContext })),
+            React.createElement("div", { style: { width: "100%", height: "350", position: "relative", marginBottom: "20px" } },
+                React.createElement(PeakOccupancyTime_1.default, { LocationKey: props.LocationKey, uxpContext: props.uxpContext })))));
 };
 /**
  * Register as a Widget
@@ -74712,11 +74752,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 const React = __importStar(__webpack_require__(/*! react */ "react"));
 const react_1 = __webpack_require__(/*! react */ "react");
-const lucide_react_1 = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/lucide-react.js");
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
 // import BundleConfig from '../bundle.json';
 const occupancy_data_json_1 = __importDefault(__webpack_require__(/*! ./occupancy-data.json */ "./src/prod/AverageOccupancyRate/occupancy-data.json"));
 const recharts_1 = __webpack_require__(/*! recharts */ "recharts");
+const lucide_react_1 = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/lucide-react.js");
 __webpack_require__(/*! ./AverageOccupancy.scss */ "./src/prod/AverageOccupancyRate/AverageOccupancy.scss");
 const AverageOccupancyRateWidget = (props) => {
     var _a, _b, _c, _d;
@@ -74725,22 +74765,23 @@ const AverageOccupancyRateWidget = (props) => {
     const [error, setError] = React.useState(null);
     const [showTooltip, setShowTooltip] = React.useState(false);
     const [showCompareModal, setShowCompareModal] = (0, react_1.useState)(false);
-    const [compareOption, setCompareOption] = (0, react_1.useState)('last_month_weekly_average');
+    const [compareOption, setCompareOption] = (0, react_1.useState)("last_month_weekly_average");
     const [comparisonResults, setComparisonResults] = (0, react_1.useState)(null);
     const [range1, setRange1] = (0, react_1.useState)({ start: null, end: null });
     const [range2, setRange2] = (0, react_1.useState)({ start: null, end: null });
+    const [isContentVisible, setIsContentVisible] = (0, react_1.useState)(false); // State to toggle content visibility
     React.useEffect(() => {
         const loadData = () => __awaiter(void 0, void 0, void 0, function* () {
             try {
                 setLoading(true);
                 // Simulate API delay
-                yield new Promise(resolve => setTimeout(resolve, 1000));
+                yield new Promise((resolve) => setTimeout(resolve, 1000));
                 setData(occupancy_data_json_1.default);
                 setError(null);
             }
             catch (err) {
-                setError('Failed to load occupancy data');
-                console.error('Error loading occupancy data:', err);
+                setError("Failed to load occupancy data");
+                console.error("Error loading occupancy data:", err);
             }
             finally {
                 setLoading(false);
@@ -74759,19 +74800,19 @@ const AverageOccupancyRateWidget = (props) => {
     if (loading) {
         return (React.createElement("div", { className: "average-occupancy-widget" },
             React.createElement("div", { className: "average-occupancy-glass-bg" },
-                React.createElement("div", { style: { textAlign: 'center', padding: '20px', color: '#fff' } }, "Loading..."))));
+                React.createElement("div", { style: { textAlign: "center", padding: "20px", color: "#fff" } }, "Loading..."))));
     }
     if (error) {
         return (React.createElement("div", { className: "average-occupancy-widget" },
             React.createElement("div", { className: "average-occupancy-glass-bg" },
-                React.createElement("div", { style: { textAlign: 'center', padding: '20px', color: '#fff' } },
+                React.createElement("div", { style: { textAlign: "center", padding: "20px", color: "#fff" } },
                     "Error: ",
                     error))));
     }
     if (!data) {
         return (React.createElement("div", { className: "average-occupancy-widget" },
             React.createElement("div", { className: "average-occupancy-glass-bg" },
-                React.createElement("div", { style: { textAlign: 'center', padding: '20px', color: '#fff' } }, "No data available"))));
+                React.createElement("div", { style: { textAlign: "center", padding: "20px", color: "#fff" } }, "No data available"))));
     }
     // Helper function to format numbers
     const formatNumber = (num) => {
@@ -74780,10 +74821,10 @@ const AverageOccupancyRateWidget = (props) => {
     // Helper function to get occupancy color based on percentage
     const getOccupancyColor = (percentage) => {
         if (percentage <= 50)
-            return 'rgb(76, 175, 80)'; // Green for low (0-50%)
+            return "rgb(76, 175, 80)"; // Green for low (0-50%)
         if (percentage <= 90)
-            return 'rgb(255, 152, 0)'; // Amber for average (51-90%)
-        return 'rgb(244, 67, 54)'; // Red for high (91-100%)
+            return "rgb(255, 152, 0)"; // Amber for average (51-90%)
+        return "rgb(244, 67, 54)"; // Red for high (91-100%)
     };
     // Helper function to get weekly average for a specific date range
     const getWeeklyAverageForDateRange = (startDate, endDate) => {
@@ -74805,25 +74846,25 @@ const AverageOccupancyRateWidget = (props) => {
         // if (!data || !compareOption) return null;
         let currentOccupancy = data.comparison_data.current_week_average;
         let comparisonOccupancy = 0;
-        let comparisonLabel = '';
+        let comparisonLabel = "";
         switch (compareOption) {
-            case 'last_month_weekly_average':
+            case "last_month_weekly_average":
                 comparisonOccupancy = data.comparison_data.last_month_weekly_average;
-                comparisonLabel = 'Last Month Weekly Average';
+                comparisonLabel = "Last Month Weekly Average";
                 break;
-            case 'last_quarter_weekly_average':
+            case "last_quarter_weekly_average":
                 comparisonOccupancy = data.comparison_data.last_quarter_weekly_average;
-                comparisonLabel = 'Last Quarter Weekly Average';
+                comparisonLabel = "Last Quarter Weekly Average";
                 break;
-            case 'last_6_month_weekly_average':
+            case "last_6_month_weekly_average":
                 comparisonOccupancy = data.comparison_data.last_6_month_weekly_average;
-                comparisonLabel = 'Last 6 Month Weekly Average';
+                comparisonLabel = "Last 6 Month Weekly Average";
                 break;
-            case 'last_year_weekly_average':
+            case "last_year_weekly_average":
                 comparisonOccupancy = data.comparison_data.last_year_weekly_average;
-                comparisonLabel = 'Last Year Weekly Average';
+                comparisonLabel = "Last Year Weekly Average";
                 break;
-            case 'advanced-comparison':
+            case "advanced-comparison":
                 if (range1.start && range1.end && range2.start && range2.end) {
                     const period1Occupancy = getWeeklyAverageForDateRange(range1.start, range1.end);
                     const period2Occupancy = getWeeklyAverageForDateRange(range2.start, range2.end);
@@ -74839,19 +74880,19 @@ const AverageOccupancyRateWidget = (props) => {
                 return null; // Invalid option
         }
         // Ensure we have valid data
-        if (comparisonOccupancy === 0 && compareOption !== 'advanced-comparison') {
+        if (comparisonOccupancy === 0 && compareOption !== "advanced-comparison") {
             return null;
         }
         const absoluteDifference = currentOccupancy - comparisonOccupancy;
         const percentageChange = comparisonOccupancy > 0
-            ? ((absoluteDifference / comparisonOccupancy) * 100)
+            ? (absoluteDifference / comparisonOccupancy) * 100
             : 0;
         return {
             currentOccupancy,
             comparisonOccupancy,
             absoluteDifference,
             percentageChange,
-            comparisonLabel
+            comparisonLabel,
         };
     };
     // Handle comparison calculation
@@ -74892,7 +74933,7 @@ const AverageOccupancyRateWidget = (props) => {
     };
     // Clear comparison
     const clearComparison = () => {
-        setCompareOption('last_month_weekly_average');
+        setCompareOption("last_month_weekly_average");
         setComparisonResults(null);
         setRange1({ start: null, end: null });
         setRange2({ start: null, end: null });
@@ -74900,7 +74941,7 @@ const AverageOccupancyRateWidget = (props) => {
     // Custom dot component with blue color for all points
     const CustomDot = (props) => {
         const { cx, cy } = props;
-        const color = '#64b5f6'; // Blue for all points
+        const color = "#64b5f6"; // Blue for all points
         return (React.createElement("circle", { cx: cx, cy: cy, r: 6, className: "wc-graph-dot", fill: color, stroke: "#fff", strokeWidth: 2 }));
     };
     // Custom tooltip component
@@ -74926,7 +74967,7 @@ const AverageOccupancyRateWidget = (props) => {
             return [];
         return data.weeklyData.map((item, index) => {
             let deviation = 0;
-            let previousWeek = '';
+            let previousWeek = "";
             if (index > 0) {
                 const previousItem = data.weeklyData[index - 1];
                 deviation = item.occupancy - previousItem.occupancy;
@@ -74941,9 +74982,15 @@ const AverageOccupancyRateWidget = (props) => {
         return (React.createElement(recharts_1.ResponsiveContainer, { width: "100%", height: 180 },
             React.createElement(recharts_1.LineChart, { data: chartData, margin: { top: 20, right: 10, left: -15, bottom: 5 } },
                 React.createElement(recharts_1.CartesianGrid, { strokeDasharray: "3 3", stroke: "rgba(255,255,255,0.1)" }),
-                React.createElement(recharts_1.XAxis, { dataKey: "week", stroke: "rgba(255,255,255,0.8)", tick: { fill: 'rgba(255,255,255,0.8)', fontSize: 12 }, axisLine: { stroke: 'rgba(255,255,255,0.3)' } }),
-                React.createElement(recharts_1.YAxis, { stroke: "rgba(255,255,255,0.8)", tick: { fill: 'rgba(255,255,255,0.8)', fontSize: 12 }, axisLine: { stroke: 'rgba(255,255,255,0.3)' } }),
-                React.createElement(recharts_1.Line, { type: "monotone", dataKey: "occupancy", stroke: "#64b5f6", strokeWidth: 3, dot: React.createElement(CustomDot, null), activeDot: { r: 8, fill: '#64b5f6', stroke: '#fff', strokeWidth: 2, className: 'wc-graph-active-dot' }, isAnimationActive: false }),
+                React.createElement(recharts_1.XAxis, { dataKey: "week", stroke: "rgba(255,255,255,0.8)", tick: { fill: "rgba(255,255,255,0.8)", fontSize: 12 }, axisLine: { stroke: "rgba(255,255,255,0.3)" } }),
+                React.createElement(recharts_1.YAxis, { stroke: "rgba(255,255,255,0.8)", tick: { fill: "rgba(255,255,255,0.8)", fontSize: 12 }, axisLine: { stroke: "rgba(255,255,255,0.3)" } }),
+                React.createElement(recharts_1.Line, { type: "monotone", dataKey: "occupancy", stroke: "#64b5f6", strokeWidth: 3, dot: React.createElement(CustomDot, null), activeDot: {
+                        r: 8,
+                        fill: "#64b5f6",
+                        stroke: "#fff",
+                        strokeWidth: 2,
+                        className: "wc-graph-active-dot",
+                    }, isAnimationActive: false }),
                 React.createElement(recharts_1.Tooltip, { content: React.createElement(CustomTooltip, null), cursor: false }))));
     };
     return (React.createElement(React.Fragment, null,
@@ -74960,7 +75007,9 @@ const AverageOccupancyRateWidget = (props) => {
                 React.createElement("div", { className: "average-occupancy-widget-content" },
                     React.createElement("div", { className: "average-occupancy-main-stat" },
                         React.createElement("div", { className: "average-occupancy-stat-value" },
-                            React.createElement("span", { className: "average-occupancy-number", style: { color: getOccupancyColor((data === null || data === void 0 ? void 0 : data.current.percentage) || 0) } }, data === null || data === void 0 ? void 0 :
+                            React.createElement("span", { className: "average-occupancy-number", style: {
+                                    color: getOccupancyColor((data === null || data === void 0 ? void 0 : data.current.percentage) || 0),
+                                } }, data === null || data === void 0 ? void 0 :
                                 data.current.percentage,
                                 "%")),
                         React.createElement("div", { className: "average-occupancy-stat-label" },
@@ -74972,10 +75021,11 @@ const AverageOccupancyRateWidget = (props) => {
                         React.createElement("div", { className: "average-occupancy-stat-card" },
                             React.createElement("div", { className: "average-occupancy-stat-content" },
                                 React.createElement("span", { className: "average-occupancy-stat-value" },
-                                    Math.max(...(data === null || data === void 0 ? void 0 : data.weeklyData.map((d) => d.occupancy)) || []).toFixed(1),
+                                    Math.max(...((data === null || data === void 0 ? void 0 : data.weeklyData.map((d) => d.occupancy)) || [])).toFixed(1),
                                     "%"),
                                 React.createElement("span", { className: "average-occupancy-stat-label" }, "highest"),
-                                React.createElement("span", { className: "average-occupancy-stat-detail" }, (_a = data === null || data === void 0 ? void 0 : data.weeklyData.find((d) => d.occupancy === Math.max(...(data === null || data === void 0 ? void 0 : data.weeklyData.map((d) => d.occupancy)) || []))) === null || _a === void 0 ? void 0 : _a.week))),
+                                React.createElement("span", { className: "average-occupancy-stat-detail" }, (_a = data === null || data === void 0 ? void 0 : data.weeklyData.find((d) => d.occupancy ===
+                                    Math.max(...((data === null || data === void 0 ? void 0 : data.weeklyData.map((d) => d.occupancy)) || [])))) === null || _a === void 0 ? void 0 : _a.week))),
                         React.createElement("div", { className: "average-occupancy-stat-card" },
                             React.createElement("div", { className: "average-occupancy-stat-content" },
                                 React.createElement("span", { className: "average-occupancy-stat-value" },
@@ -74986,15 +75036,25 @@ const AverageOccupancyRateWidget = (props) => {
                         React.createElement("div", { className: "average-occupancy-stat-card" },
                             React.createElement("div", { className: "average-occupancy-stat-content" },
                                 React.createElement("span", { className: "average-occupancy-stat-value" },
-                                    Math.min(...(data === null || data === void 0 ? void 0 : data.weeklyData.map((d) => d.occupancy)) || []).toFixed(1),
+                                    Math.min(...((data === null || data === void 0 ? void 0 : data.weeklyData.map((d) => d.occupancy)) || [])).toFixed(1),
                                     "%"),
                                 React.createElement("span", { className: "average-occupancy-stat-label" }, "lowest"),
-                                React.createElement("span", { className: "average-occupancy-stat-detail" }, (_b = data === null || data === void 0 ? void 0 : data.weeklyData.find((d) => d.occupancy === Math.min(...(data === null || data === void 0 ? void 0 : data.weeklyData.map((d) => d.occupancy)) || []))) === null || _b === void 0 ? void 0 : _b.week)))),
-                    React.createElement("div", { className: "average-occupancy-chart-container" },
+                                React.createElement("span", { className: "average-occupancy-stat-detail" }, (_b = data === null || data === void 0 ? void 0 : data.weeklyData.find((d) => d.occupancy ===
+                                    Math.min(...((data === null || data === void 0 ? void 0 : data.weeklyData.map((d) => d.occupancy)) || [])))) === null || _b === void 0 ? void 0 : _b.week)))),
+                    React.createElement("div", { className: "AverageOcc-expand-main" },
+                        React.createElement("div", { className: "AverageOcc-expand-sub" }, isContentVisible ? (React.createElement(lucide_react_1.ChevronUp, { size: 20, style: {
+                                cursor: "pointer",
+                                strokeWidth: 4,
+                                stroke: "white",
+                            }, onClick: () => setIsContentVisible(false) })) : (React.createElement(lucide_react_1.ChevronDown, { size: 20, style: {
+                                cursor: "pointer",
+                                strokeWidth: 4,
+                                stroke: "white",
+                            }, onClick: () => setIsContentVisible(true) })))),
+                    isContentVisible ? (React.createElement("div", { className: "average-occupancy-chart-container" },
                         React.createElement("div", { className: "average-occupancy-chart-header" },
-                            React.createElement("h3", null, "Last Month Weekly Average "),
-                            React.createElement("p", { className: "ao-chart-description" }, "Hover over lines to see detailed information")),
-                        renderChart())))),
+                            React.createElement("h3", null, "Last Month Weekly Average ")),
+                        renderChart())) : (React.createElement("div", null))))),
         React.createElement(components_1.Modal, { show: showCompareModal, onOpen: () => { }, onClose: () => setShowCompareModal(false), title: "Compare Average Occupancy Rate", className: "dt-occupancy-compare-modal" },
             React.createElement("div", { className: "average-occupancy-compare-content" },
                 React.createElement("div", { className: "average-occupancy-compare-options" },
@@ -75006,10 +75066,18 @@ const AverageOccupancyRateWidget = (props) => {
                                 React.createElement("option", { value: "last_6_month_weekly_average" }, "Last 6 months weekly average"),
                                 React.createElement("option", { value: "last_year_weekly_average" }, "Last year weekly average"),
                                 React.createElement("option", { value: "advanced-comparison" }, "Compare weekly average occupancy between two time ranges")))),
-                    compareOption === 'advanced-comparison' && (React.createElement("div", { className: "average-occupancy-advanced-comparison" },
-                        React.createElement("div", { style: { marginBottom: '16px', color: '#666', fontSize: '14px' } }),
+                    compareOption === "advanced-comparison" && (React.createElement("div", { className: "average-occupancy-advanced-comparison" },
+                        React.createElement("div", { style: {
+                                marginBottom: "16px",
+                                color: "#666",
+                                fontSize: "14px",
+                            } }),
                         React.createElement("div", { className: "average-occupancy-date-range" },
-                            React.createElement("label", { style: { fontWeight: 600, marginBottom: 8, display: 'block' } }, "Range 1:"),
+                            React.createElement("label", { style: {
+                                    fontWeight: 600,
+                                    marginBottom: 8,
+                                    display: "block",
+                                } }, "Range 1:"),
                             React.createElement(components_1.DateRangePicker, { title: "Select First Range", startDate: range1.start ? new Date(range1.start) : undefined, endDate: range1.end ? new Date(range1.end) : undefined, onChange: (start, end) => {
                                     setRange1({
                                         start: start ? new Date(start) : null,
@@ -75017,14 +75085,18 @@ const AverageOccupancyRateWidget = (props) => {
                                     });
                                 } })),
                         React.createElement("div", { className: "average-occupancy-date-range" },
-                            React.createElement("label", { style: { fontWeight: 600, marginBottom: 8, display: 'block' } }, "Range 2:"),
+                            React.createElement("label", { style: {
+                                    fontWeight: 600,
+                                    marginBottom: 8,
+                                    display: "block",
+                                } }, "Range 2:"),
                             React.createElement(components_1.DateRangePicker, { title: "Select Second Range", startDate: range2.start ? new Date(range2.start) : undefined, endDate: range2.end ? new Date(range2.end) : undefined, onChange: (start, end) => {
                                     setRange2({
                                         start: start ? new Date(start) : null,
                                         end: end ? new Date(end) : null,
                                     });
                                 } })))),
-                    compareOption !== 'advanced-comparison' && comparisonResults && (React.createElement("div", { className: "average-occupancy-comparison-results" },
+                    compareOption !== "advanced-comparison" && comparisonResults && (React.createElement("div", { className: "average-occupancy-comparison-results" },
                         React.createElement("h4", null, "Comparison Results"),
                         React.createElement("div", { className: "average-occupancy-results-compact" },
                             React.createElement("div", { className: "average-occupancy-result-main" },
@@ -75034,9 +75106,9 @@ const AverageOccupancyRateWidget = (props) => {
                                         formatNumber(comparisonResults.comparisonOccupancy),
                                         "%")),
                                 React.createElement("div", { className: "average-occupancy-result-current" },
-                                    React.createElement("div", { className: "average-occupancy-result-label" }, compareOption === 'advanced-comparison'
+                                    React.createElement("div", { className: "average-occupancy-result-label" }, compareOption === "advanced-comparison"
                                         ? `Range 2: ${(_c = range2.start) === null || _c === void 0 ? void 0 : _c.toLocaleDateString()} to ${(_d = range2.end) === null || _d === void 0 ? void 0 : _d.toLocaleDateString()}`
-                                        : 'Current Week Average'),
+                                        : "Current Week Average"),
                                     React.createElement("div", { className: "average-occupancy-result-value" },
                                         formatNumber(comparisonResults.currentOccupancy),
                                         "%"))),
@@ -75047,14 +75119,14 @@ const AverageOccupancyRateWidget = (props) => {
                                         comparisonResults.absoluteDifference < 0 ? (React.createElement("span", { className: "average-occupancy-arrow-down" }, "\u2193")) : comparisonResults.absoluteDifference > 0 ? (React.createElement("span", { className: "average-occupancy-arrow-up" }, "\u2191")) : null,
                                         React.createElement("span", { className: "average-occupancy-difference-value", style: {
                                                 color: comparisonResults.absoluteDifference < 0
-                                                    ? 'rgb(76, 175, 80)'
+                                                    ? "rgb(76, 175, 80)"
                                                     : comparisonResults.absoluteDifference > 0
-                                                        ? 'rgb(244, 67, 54)'
-                                                        : '#fff'
+                                                        ? "rgb(244, 67, 54)"
+                                                        : "#fff",
                                             } },
                                             Math.abs(comparisonResults.absoluteDifference).toFixed(1),
                                             "%"))))))),
-                    compareOption === 'advanced-comparison' && (React.createElement("button", { className: "average-occupancy-calculate-btn", onClick: handleCompare, disabled: (!range1.start || !range1.end || !range2.start || !range2.end) }, "Compare")))))));
+                    compareOption === "advanced-comparison" && (React.createElement("button", { className: "average-occupancy-calculate-btn", onClick: handleCompare, disabled: !range1.start || !range1.end || !range2.start || !range2.end }, "Compare")))))));
 };
 exports["default"] = AverageOccupancyRateWidget;
 /**
@@ -75258,25 +75330,26 @@ const CurrentOccupancyWidget = (props) => {
     const [error, setError] = React.useState(null);
     const [showTooltip, setShowTooltip] = React.useState(false);
     const [showCompareModal, setShowCompareModal] = (0, react_1.useState)(false);
-    const [compareOption, setCompareOption] = (0, react_1.useState)('last_week_average');
+    const [compareOption, setCompareOption] = (0, react_1.useState)("last_week_average");
     const [comparisonResults, setComparisonResults] = (0, react_1.useState)(null);
     const [range1, setRange1] = (0, react_1.useState)({ start: null, end: null });
     const [range2, setRange2] = (0, react_1.useState)({ start: null, end: null });
     const [specificDate, setSpecificDate] = (0, react_1.useState)(null);
+    const [isContentVisible, setIsContentVisible] = (0, react_1.useState)(false); // State to toggle content visibility
     React.useEffect(() => {
         const loadData = () => __awaiter(void 0, void 0, void 0, function* () {
             try {
                 setLoading(true);
                 // Simulate API delay
-                yield new Promise(resolve => setTimeout(resolve, 1000));
+                yield new Promise((resolve) => setTimeout(resolve, 1000));
                 // Ensure all last_week entries have total_capacity
                 const patchedData = Object.assign(Object.assign({}, occupancy_data_json_1.default), { last_week: occupancy_data_json_1.default.last_week.map((item) => (Object.assign({ total_capacity: occupancy_data_json_1.default.current.total_capacity }, item))) });
                 setData(patchedData);
                 setError(null);
             }
             catch (err) {
-                setError('Failed to load occupancy data');
-                console.error('Error loading occupancy data:', err);
+                setError("Failed to load occupancy data");
+                console.error("Error loading occupancy data:", err);
             }
             finally {
                 setLoading(false);
@@ -75286,10 +75359,10 @@ const CurrentOccupancyWidget = (props) => {
     }, []);
     const getOccupancyColor = (percentage) => {
         if (percentage <= 50)
-            return 'rgb(76, 175, 80)'; // Green for low (0-50%)
+            return "rgb(76, 175, 80)"; // Green for low (0-50%)
         if (percentage <= 90)
-            return 'rgb(255, 152, 0)'; // Amber for average (51-90%)
-        return 'rgb(244, 67, 54)'; // Red for high (91-100%)
+            return "rgb(255, 152, 0)"; // Amber for average (51-90%)
+        return "rgb(244, 67, 54)"; // Red for high (91-100%)
     };
     // Helper function to format numbers
     const formatNumber = (num) => {
@@ -75300,8 +75373,8 @@ const CurrentOccupancyWidget = (props) => {
         var _a;
         const date = new Date(dateStr);
         const year = date.getFullYear().toString();
-        const month = (date.getMonth() + 1).toString().padStart(2, '0');
-        const day = date.getDate().toString().padStart(2, '0');
+        const month = (date.getMonth() + 1).toString().padStart(2, "0");
+        const day = date.getDate().toString().padStart(2, "0");
         // Check if data exists in JSON
         const specificDayData = (_a = data === null || data === void 0 ? void 0 : data.comparison_data) === null || _a === void 0 ? void 0 : _a.specific_day;
         if (specificDayData && specificDayData[dateStr]) {
@@ -75317,7 +75390,7 @@ const CurrentOccupancyWidget = (props) => {
         let totalOccupancy = 0;
         let dayCount = 0;
         for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
-            const dateStr = d.toISOString().split('T')[0];
+            const dateStr = d.toISOString().split("T")[0];
             totalOccupancy += getOccupancyForDate(dateStr);
             dayCount++;
         }
@@ -75325,53 +75398,53 @@ const CurrentOccupancyWidget = (props) => {
     };
     // Add a mapping for dropdown options
     const compareOptions = [
-        { value: 'specific_day', label: 'Any specific day' },
-        { value: 'last_week_average', label: 'Last week average' },
-        { value: 'last_month_average', label: 'Last month average' },
-        { value: 'last_quarter_average', label: 'Last quarter average' },
-        { value: 'last_6_month_average', label: 'Last 6 month average' },
-        { value: 'last_year_average', label: 'Last year average' },
-        { value: 'advanced-comparison', label: 'Advanced Comparison' },
+        { value: "specific_day", label: "Any specific day" },
+        { value: "last_week_average", label: "Last week average" },
+        { value: "last_month_average", label: "Last month average" },
+        { value: "last_quarter_average", label: "Last quarter average" },
+        { value: "last_6_month_average", label: "Last 6 month average" },
+        { value: "last_year_average", label: "Last year average" },
+        { value: "advanced-comparison", label: "Advanced Comparison" },
     ];
     // Helper function to get comparison data
     const getComparisonData = () => {
         // if (!data || !compareOption) return null;
         let currentOccupancy = data.current.percentage;
         let comparisonOccupancy = 0;
-        let comparisonLabel = '';
-        const optionObj = compareOptions.find(opt => opt.value === compareOption);
+        let comparisonLabel = "";
+        const optionObj = compareOptions.find((opt) => opt.value === compareOption);
         debugger;
         switch (compareOption) {
-            case 'specific_day':
+            case "specific_day":
                 if (specificDate) {
                     comparisonOccupancy = getOccupancyForDate(specificDate);
-                    comparisonLabel = `${(optionObj === null || optionObj === void 0 ? void 0 : optionObj.label) || 'Any specific day'} (${new Date(specificDate).toLocaleDateString()})`;
+                    comparisonLabel = `${(optionObj === null || optionObj === void 0 ? void 0 : optionObj.label) || "Any specific day"} (${new Date(specificDate).toLocaleDateString()})`;
                 }
                 else {
                     return null; // No specific date selected
                 }
                 break;
-            case 'last_week_average':
+            case "last_week_average":
                 comparisonOccupancy = data.comparison_data.last_week_average;
-                comparisonLabel = (optionObj === null || optionObj === void 0 ? void 0 : optionObj.label) || 'Last week average';
+                comparisonLabel = (optionObj === null || optionObj === void 0 ? void 0 : optionObj.label) || "Last week average";
                 break;
-            case 'last_month_average':
+            case "last_month_average":
                 comparisonOccupancy = data.comparison_data.last_month_average;
-                comparisonLabel = (optionObj === null || optionObj === void 0 ? void 0 : optionObj.label) || 'Last month average';
+                comparisonLabel = (optionObj === null || optionObj === void 0 ? void 0 : optionObj.label) || "Last month average";
                 break;
-            case 'last_quarter_average':
+            case "last_quarter_average":
                 comparisonOccupancy = data.comparison_data.last_quarter_average;
-                comparisonLabel = (optionObj === null || optionObj === void 0 ? void 0 : optionObj.label) || 'Last quarter average';
+                comparisonLabel = (optionObj === null || optionObj === void 0 ? void 0 : optionObj.label) || "Last quarter average";
                 break;
-            case 'last_6_month_average':
+            case "last_6_month_average":
                 comparisonOccupancy = data.comparison_data.last_6_month_average;
-                comparisonLabel = (optionObj === null || optionObj === void 0 ? void 0 : optionObj.label) || 'Last 6 month average';
+                comparisonLabel = (optionObj === null || optionObj === void 0 ? void 0 : optionObj.label) || "Last 6 month average";
                 break;
-            case 'last_year_average':
+            case "last_year_average":
                 comparisonOccupancy = data.comparison_data.last_year_average;
-                comparisonLabel = (optionObj === null || optionObj === void 0 ? void 0 : optionObj.label) || 'Last year average';
+                comparisonLabel = (optionObj === null || optionObj === void 0 ? void 0 : optionObj.label) || "Last year average";
                 break;
-            case 'advanced-comparison':
+            case "advanced-comparison":
                 if (range1.start && range1.end && range2.start && range2.end) {
                     const period1Occupancy = calculateOccupancyForRange(range1.start, range1.end);
                     const period2Occupancy = calculateOccupancyForRange(range2.start, range2.end);
@@ -75387,19 +75460,21 @@ const CurrentOccupancyWidget = (props) => {
                 return null; // Invalid option
         }
         // Ensure we have valid data
-        if (comparisonOccupancy === 0 && compareOption !== 'specific_day' && compareOption !== 'advanced-comparison') {
+        if (comparisonOccupancy === 0 &&
+            compareOption !== "specific_day" &&
+            compareOption !== "advanced-comparison") {
             return null;
         }
         const absoluteDifference = currentOccupancy - comparisonOccupancy;
         const percentageChange = comparisonOccupancy > 0
-            ? ((absoluteDifference / comparisonOccupancy) * 100)
+            ? (absoluteDifference / comparisonOccupancy) * 100
             : 0;
         return {
             currentOccupancy,
             comparisonOccupancy,
             absoluteDifference,
             percentageChange,
-            comparisonLabel
+            comparisonLabel,
         };
     };
     // Handle comparison calculation
@@ -75430,7 +75505,10 @@ const CurrentOccupancyWidget = (props) => {
     };
     // Only auto-calculate results for options that are not 'specific_day' or 'advanced-comparison'
     React.useEffect(() => {
-        if (showCompareModal && compareOption && compareOption !== 'specific_day' && compareOption !== 'advanced-comparison') {
+        if (showCompareModal &&
+            compareOption &&
+            compareOption !== "specific_day" &&
+            compareOption !== "advanced-comparison") {
             const results = getComparisonData();
             if (results) {
                 setComparisonResults(results);
@@ -75439,7 +75517,7 @@ const CurrentOccupancyWidget = (props) => {
     }, [showCompareModal, compareOption]);
     // Clear comparison
     const clearComparison = () => {
-        setCompareOption('');
+        setCompareOption("");
         setComparisonResults(null);
         setRange1({ start: null, end: null });
         setRange2({ start: null, end: null });
@@ -75447,7 +75525,7 @@ const CurrentOccupancyWidget = (props) => {
     };
     const formatDateToDay = (dateString) => {
         const date = new Date(dateString);
-        const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
         return days[date.getDay()];
     };
     const prepareChartData = () => {
@@ -75464,14 +75542,14 @@ const CurrentOccupancyWidget = (props) => {
                 percentage: item.percentage,
                 occupied_count: item.occupied_count,
                 total_capacity: item.total_capacity,
-                deviation: deviation
+                deviation: deviation,
             };
         });
     };
     // Custom dot component with blue color for all points
     const CustomDot = (props) => {
         const { cx, cy } = props;
-        const color = '#64b5f6'; // Blue for all points
+        const color = "#64b5f6"; // Blue for all points
         return (React.createElement("circle", { cx: cx, cy: cy, r: 6, className: "wc-graph-dot", fill: color, stroke: "#fff", strokeWidth: 2 }));
     };
     // Custom tooltip component
@@ -75503,7 +75581,7 @@ const CurrentOccupancyWidget = (props) => {
             React.createElement("div", { className: "current-occupancy-glass-bg error-state" },
                 React.createElement("div", { className: "error-content" },
                     React.createElement("div", { className: "error-icon" }, "\u26A0\uFE0F"),
-                    React.createElement("p", { className: "error-text" }, error || 'No data available')))));
+                    React.createElement("p", { className: "error-text" }, error || "No data available")))));
     }
     const chartData = prepareChartData();
     // Use actual data from JSON
@@ -75515,9 +75593,15 @@ const CurrentOccupancyWidget = (props) => {
         return (React.createElement(recharts_1.ResponsiveContainer, { width: "100%", height: 180 },
             React.createElement(recharts_1.LineChart, { data: chartData, margin: { top: 20, right: 10, left: -15, bottom: 5 } },
                 React.createElement(recharts_1.CartesianGrid, { strokeDasharray: "3 3", stroke: "rgba(255,255,255,0.1)" }),
-                React.createElement(recharts_1.XAxis, { dataKey: "day", stroke: "rgba(255,255,255,0.8)", tick: { fill: 'rgba(255,255,255,0.8)', fontSize: 12 }, axisLine: { stroke: 'rgba(255,255,255,0.3)' } }),
-                React.createElement(recharts_1.YAxis, { stroke: "rgba(255,255,255,0.8)", tick: { fill: 'rgba(255,255,255,0.8)', fontSize: 12 }, axisLine: { stroke: 'rgba(255,255,255,0.3)' } }),
-                React.createElement(recharts_1.Line, { type: "monotone", dataKey: "percentage", stroke: "#64b5f6", strokeWidth: 3, dot: React.createElement(CustomDot, null), activeDot: { r: 8, fill: '#64b5f6', stroke: '#fff', strokeWidth: 2, className: 'wc-graph-active-dot' }, isAnimationActive: false }),
+                React.createElement(recharts_1.XAxis, { dataKey: "day", stroke: "rgba(255,255,255,0.8)", tick: { fill: "rgba(255,255,255,0.8)", fontSize: 12 }, axisLine: { stroke: "rgba(255,255,255,0.3)" } }),
+                React.createElement(recharts_1.YAxis, { stroke: "rgba(255,255,255,0.8)", tick: { fill: "rgba(255,255,255,0.8)", fontSize: 12 }, axisLine: { stroke: "rgba(255,255,255,0.3)" } }),
+                React.createElement(recharts_1.Line, { type: "monotone", dataKey: "percentage", stroke: "#64b5f6", strokeWidth: 3, dot: React.createElement(CustomDot, null), activeDot: {
+                        r: 8,
+                        fill: "#64b5f6",
+                        stroke: "#fff",
+                        strokeWidth: 2,
+                        className: "wc-graph-active-dot",
+                    }, isAnimationActive: false }),
                 React.createElement(recharts_1.Tooltip, { content: React.createElement(CustomTooltip, null), cursor: false }))));
     };
     return (React.createElement(React.Fragment, null,
@@ -75525,8 +75609,8 @@ const CurrentOccupancyWidget = (props) => {
             React.createElement("div", { className: "current-occupancy-glass-bg" },
                 React.createElement("div", { className: "current-occupancy-widget-header" },
                     React.createElement("div", { className: "current-occupancy-header-left occupancy-header-left" },
-                        React.createElement("div", { className: "occupancy-icon" },
-                            React.createElement("img", { src: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABmUlEQVR4nO1TvU4CQRAm0QfAwlY7fRWjNiY+gBYY7fx5AN/A20FjxDeQQmuBmTWaEEorCxpsoNCZw4AaNVHMLCfh4EATJMaESb7cZm6+75vdnY3FRvEv4vDqYQKIjwGlYkjKQJzybDX+K+K7tjEOKAUgaYSAUkinG2MDGyTJXwgEKx5KQqFrzRmU+R8LHaA/DSg5IHk0KFmT9ac0b0h2gq5PjfUXHVDOgtx2P24otMAgf5gc3+oXSDJdO7CSgAtZAwrvoBc3FAalbpBL2iGglAClpnk958g7IM5/3UEvbqdB1rmjlDq78Gw1rpOjE+SAfNQ+Rf244TsgybhuSM4jz7FHDMIdbsBlbdIgrwJJGlBummctdbcmPklaXtGab4U8vJ8NXmoRUJ6BpAjE10D82n25YRiSF+NqA65qEKf2s3czTlxHLRCNEOB3QM4bFDBW1vcsLys8629oTv+5mmjjJ7AypzPcnGkScsRcdckjeXOFtrrZely9gLyltcpxXGfOFGiWYy3HNlJUzvRBP42WwbAQG7rBKP48PgHc4/EI8ij9JAAAAABJRU5ErkJggg==", alt: "conference-call--v1", style: { width: 24, height: 24, display: 'block' } })),
+                        React.createElement("div", { className: "occupancy-icon", style: { color: "#ffd700" } },
+                            React.createElement(lucide_react_1.Users, { size: 24 })),
                         React.createElement("h2", { className: "occupancy-widget-title" }, "Occupancy")),
                     React.createElement("div", { className: "current-occupancy-header-right" },
                         React.createElement("button", { className: "current-occupancy-compare-button", onClick: () => setShowCompareModal(true) }, "Compare"))),
@@ -75549,11 +75633,20 @@ const CurrentOccupancyWidget = (props) => {
                             React.createElement("div", { className: "current-occupancy-info-container" },
                                 React.createElement(lucide_react_1.Info, { className: "current-occupancy-info-icon", onMouseEnter: () => setShowTooltip(true), onMouseLeave: () => setShowTooltip(false) }),
                                 showTooltip && (React.createElement("div", { className: "current-occupancy-info-tooltip" }, "Today's occupancy % so far (till last hour)"))))),
-                    React.createElement("div", { className: "current-occupancy-chart-container" },
+                    React.createElement("div", { className: "CurrentOcc-expand-main" },
+                        React.createElement("div", { className: "CurrentOcc-expand-sub" }, isContentVisible ? (React.createElement(lucide_react_1.ChevronUp, { size: 20, style: {
+                                cursor: "pointer",
+                                strokeWidth: 4,
+                                stroke: "white",
+                            }, onClick: () => setIsContentVisible(false) })) : (React.createElement(lucide_react_1.ChevronDown, { size: 20, style: {
+                                cursor: "pointer",
+                                strokeWidth: 4,
+                                stroke: "white",
+                            }, onClick: () => setIsContentVisible(true) })))),
+                    isContentVisible ? (React.createElement("div", { className: "current-occupancy-chart-container" },
                         React.createElement("div", { className: "current-occupancy-chart-header" },
-                            React.createElement("h3", null, "Last 7 Days Trend"),
-                            React.createElement("p", { className: "cp-chart-description" }, "Hover over lines to see detailed information")),
-                        renderChart())))),
+                            React.createElement("h3", null, "Last 7 Days Trend")),
+                        renderChart())) : (React.createElement("div", null))))),
         React.createElement(components_1.Modal, { show: showCompareModal, onOpen: () => { }, onClose: () => setShowCompareModal(false), title: "Compare Current Occupancy", className: "dt-occupancy-compare-modal" },
             React.createElement("div", { className: "current-occupancy-compare-content" },
                 React.createElement("div", { className: "current-occupancy-compare-options" },
@@ -75568,17 +75661,21 @@ const CurrentOccupancyWidget = (props) => {
                                 React.createElement("option", { value: "last_6_month_average" }, "Last 6 month average"),
                                 React.createElement("option", { value: "last_year_average" }, "Last year average"),
                                 React.createElement("option", { value: "advanced-comparison" }, "Advanced Comparison")))),
-                    compareOption === 'specific_day' && (React.createElement("div", { className: "occupancy-specific-day" },
-                        React.createElement("label", { style: { fontWeight: 600, marginBottom: 8, display: 'block' } }, "Select Date:"),
+                    compareOption === "specific_day" && (React.createElement("div", { className: "occupancy-specific-day" },
+                        React.createElement("label", { style: { fontWeight: 600, marginBottom: 8, display: "block" } }, "Select Date:"),
                         React.createElement(components_1.DatePicker, { title: "Select Date", date: specificDate, onChange: (date) => {
                                 const dateStr = date instanceof Date
                                     ? date.toISOString().slice(0, 10)
                                     : date;
                                 setSpecificDate(dateStr);
                             } }))),
-                    compareOption === 'advanced-comparison' && (React.createElement("div", { className: "occupancy-advanced-comparison" },
+                    compareOption === "advanced-comparison" && (React.createElement("div", { className: "occupancy-advanced-comparison" },
                         React.createElement("div", { className: "occupancy-date-range" },
-                            React.createElement("label", { style: { fontWeight: 600, marginBottom: 8, display: 'block' } }, "Range 1:"),
+                            React.createElement("label", { style: {
+                                    fontWeight: 600,
+                                    marginBottom: 8,
+                                    display: "block",
+                                } }, "Range 1:"),
                             React.createElement(components_1.DateRangePicker, { title: "Select First Range", startDate: range1.start ? new Date(range1.start) : undefined, endDate: range1.end ? new Date(range1.end) : undefined, onChange: (start, end) => {
                                     setRange1({
                                         start: start ? new Date(start) : null,
@@ -75586,16 +75683,27 @@ const CurrentOccupancyWidget = (props) => {
                                     });
                                 } })),
                         React.createElement("div", { className: "occupancy-date-range" },
-                            React.createElement("label", { style: { fontWeight: 600, marginBottom: 8, display: 'block' } }, "Range 2:"),
+                            React.createElement("label", { style: {
+                                    fontWeight: 600,
+                                    marginBottom: 8,
+                                    display: "block",
+                                } }, "Range 2:"),
                             React.createElement(components_1.DateRangePicker, { title: "Select Second Range", startDate: range2.start ? new Date(range2.start) : undefined, endDate: range2.end ? new Date(range2.end) : undefined, onChange: (start, end) => {
                                     setRange2({
                                         start: start ? new Date(start) : null,
                                         end: end ? new Date(end) : null,
                                     });
                                 } })))),
-                    (compareOption === 'specific_day' || compareOption === 'advanced-comparison') && (React.createElement("button", { className: "occupancy-calculate-btn", onClick: handleCompare, disabled: (compareOption === 'specific_day' && !specificDate) ||
-                            (compareOption === 'advanced-comparison' && (!range1.start || !range1.end || !range2.start || !range2.end)) }, "Compare"))),
-                ((compareOption === 'specific_day' || compareOption === 'advanced-comparison') && comparisonResults) && (React.createElement("div", { className: "occupancy-comparison-results" },
+                    (compareOption === "specific_day" ||
+                        compareOption === "advanced-comparison") && (React.createElement("button", { className: "occupancy-calculate-btn", onClick: handleCompare, disabled: (compareOption === "specific_day" && !specificDate) ||
+                            (compareOption === "advanced-comparison" &&
+                                (!range1.start ||
+                                    !range1.end ||
+                                    !range2.start ||
+                                    !range2.end)) }, "Compare"))),
+                (compareOption === "specific_day" ||
+                    compareOption === "advanced-comparison") &&
+                    comparisonResults && (React.createElement("div", { className: "occupancy-comparison-results" },
                     React.createElement("h4", null, "Comparison Results"),
                     React.createElement("div", { className: "occupancy-results-compact" },
                         React.createElement("div", { className: "occupancy-result-main" },
@@ -75605,9 +75713,9 @@ const CurrentOccupancyWidget = (props) => {
                                     formatNumber(comparisonResults.comparisonOccupancy),
                                     "%")),
                             React.createElement("div", { className: "occupancy-result-current" },
-                                React.createElement("div", { className: "occupancy-result-label" }, compareOption === 'advanced-comparison'
+                                React.createElement("div", { className: "occupancy-result-label" }, compareOption === "advanced-comparison"
                                     ? `Range 2: ${(_d = range2.start) === null || _d === void 0 ? void 0 : _d.toLocaleDateString()} to ${(_e = range2.end) === null || _e === void 0 ? void 0 : _e.toLocaleDateString()}`
-                                    : 'Current Occupancy'),
+                                    : "Current Occupancy"),
                                 React.createElement("div", { className: "occupancy-result-value" },
                                     formatNumber(comparisonResults.currentOccupancy),
                                     "%"))),
@@ -75618,14 +75726,16 @@ const CurrentOccupancyWidget = (props) => {
                                     comparisonResults.absoluteDifference < 0 ? (React.createElement("span", { className: "occupancy-arrow-down" }, "\u2193")) : comparisonResults.absoluteDifference > 0 ? (React.createElement("span", { className: "occupancy-arrow-up" }, "\u2191")) : null,
                                     React.createElement("span", { className: "occupancy-difference-value", style: {
                                             color: comparisonResults.absoluteDifference < 0
-                                                ? 'rgb(76, 175, 80)'
+                                                ? "rgb(76, 175, 80)"
                                                 : comparisonResults.absoluteDifference > 0
-                                                    ? 'rgb(244, 67, 54)'
-                                                    : '#fff'
+                                                    ? "rgb(244, 67, 54)"
+                                                    : "#fff",
                                         } },
                                         Math.abs(comparisonResults.absoluteDifference).toFixed(1),
                                         "%"))))))),
-                (compareOption !== 'specific_day' && compareOption !== 'advanced-comparison' && comparisonResults) && (React.createElement("div", { className: "occupancy-comparison-results" },
+                compareOption !== "specific_day" &&
+                    compareOption !== "advanced-comparison" &&
+                    comparisonResults && (React.createElement("div", { className: "occupancy-comparison-results" },
                     React.createElement("h4", null, "Comparison Results"),
                     React.createElement("div", { className: "occupancy-results-compact" },
                         React.createElement("div", { className: "occupancy-result-main" },
@@ -75635,9 +75745,9 @@ const CurrentOccupancyWidget = (props) => {
                                     formatNumber(comparisonResults.comparisonOccupancy),
                                     "%")),
                             React.createElement("div", { className: "occupancy-result-current" },
-                                React.createElement("div", { className: "occupancy-result-label" }, compareOption === 'advanced-comparison'
+                                React.createElement("div", { className: "occupancy-result-label" }, compareOption === "advanced-comparison"
                                     ? `Range 2: ${(_f = range2.start) === null || _f === void 0 ? void 0 : _f.toLocaleDateString()} to ${(_g = range2.end) === null || _g === void 0 ? void 0 : _g.toLocaleDateString()}`
-                                    : 'Current Occupancy'),
+                                    : "Current Occupancy"),
                                 React.createElement("div", { className: "occupancy-result-value" },
                                     formatNumber(comparisonResults.currentOccupancy),
                                     "%"))),
@@ -75648,10 +75758,10 @@ const CurrentOccupancyWidget = (props) => {
                                     comparisonResults.absoluteDifference < 0 ? (React.createElement("span", { className: "occupancy-arrow-down" }, "\u2193")) : comparisonResults.absoluteDifference > 0 ? (React.createElement("span", { className: "occupancy-arrow-up" }, "\u2191")) : null,
                                     React.createElement("span", { className: "occupancy-difference-value", style: {
                                             color: comparisonResults.absoluteDifference < 0
-                                                ? 'rgb(76, 175, 80)'
+                                                ? "rgb(76, 175, 80)"
                                                 : comparisonResults.absoluteDifference > 0
-                                                    ? 'rgb(244, 67, 54)'
-                                                    : '#fff'
+                                                    ? "rgb(244, 67, 54)"
+                                                    : "#fff",
                                         } },
                                         Math.abs(comparisonResults.absoluteDifference).toFixed(1),
                                         "%")))))))))));
@@ -75669,6 +75779,668 @@ exports["default"] = CurrentOccupancyWidget;
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"current":{"percentage":78,"occupied_count":234,"total_capacity":300,"timestamp":"2025-07-20T14:30:00Z"},"yesterday":{"percentage":82,"deviation":-4},"comparison_data":{"specific_day":{"2025-07-15":82,"2025-07-16":79,"2025-07-17":85,"2025-07-18":88,"2025-07-19":82,"2025-07-20":78},"last_week_average":81.4,"last_month_average":79.2,"last_quarter_average":76.8,"last_6_month_average":74.5,"last_year_average":71.3,"historical_data":{"2024":{"average":71.3,"monthly":{"10":71.5,"11":70.8,"12":69.6,"01":68.2,"02":69.1,"03":70.5,"04":71.8,"05":72.4,"06":73.1,"07":74.2,"08":73.8,"09":72.9}},"2025":{"average":79.2,"monthly":{"01":75.4,"02":76.1,"03":77.8,"04":78.9,"05":79.6,"06":80.2,"07":81.4}}}},"today_hourly":[{"hour":9,"percentage":45,"occupied_count":135},{"hour":10,"percentage":62,"occupied_count":186},{"hour":11,"percentage":73,"occupied_count":219},{"hour":12,"percentage":85,"occupied_count":255},{"hour":13,"percentage":92,"occupied_count":276},{"hour":14,"percentage":78,"occupied_count":234},{"hour":15,"percentage":68,"occupied_count":204},{"hour":16,"percentage":55,"occupied_count":165},{"hour":17,"percentage":42,"occupied_count":126}],"last_week":[{"date":"2025-07-14","percentage":76,"occupied_count":228,"total_capacity":300},{"date":"2025-07-15","percentage":82,"occupied_count":246,"total_capacity":300},{"date":"2025-07-16","percentage":79,"occupied_count":237,"total_capacity":300},{"date":"2025-07-17","percentage":85,"occupied_count":255,"total_capacity":300},{"date":"2025-07-18","percentage":88,"occupied_count":264,"total_capacity":300},{"date":"2025-07-19","percentage":82,"occupied_count":246,"total_capacity":300},{"date":"2025-07-20","percentage":78,"occupied_count":234,"total_capacity":300}]}');
+
+/***/ }),
+
+/***/ "./src/prod/OccupancyComilance/OccupancyCompilance.scss":
+/*!**************************************************************!*\
+  !*** ./src/prod/OccupancyComilance/OccupancyCompilance.scss ***!
+  \**************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var api = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./OccupancyCompilance.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/prod/OccupancyComilance/OccupancyCompilance.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.id, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/prod/OccupancyComilance/OccupancyCompilance.tsx":
+/*!*************************************************************!*\
+  !*** ./src/prod/OccupancyComilance/OccupancyCompilance.tsx ***!
+  \*************************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const React = __importStar(__webpack_require__(/*! react */ "react"));
+const occupancy_data_json_1 = __importDefault(__webpack_require__(/*! ./occupancy-data.json */ "./src/prod/OccupancyComilance/occupancy-data.json"));
+const lucide_react_1 = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/lucide-react.js");
+__webpack_require__(/*! ./OccupancyCompilance.scss */ "./src/prod/OccupancyComilance/OccupancyCompilance.scss");
+const OccupancyComplianceWidget = (props) => {
+    var _a, _b, _c, _d;
+    const [selectedZone, setSelectedZone] = React.useState(null);
+    const [lastUpdate, setLastUpdate] = React.useState(new Date());
+    const [isContentVisible, setIsContentVisible] = React.useState(false); // State to toggle content visibility
+    const { occupancyCompliance } = occupancy_data_json_1.default;
+    const { currentStatus, prerequisites, densityRisk } = occupancyCompliance;
+    // Simulated zone data
+    const zones = [
+        {
+            id: 'zone-a',
+            name: 'Zone A - Main Hall',
+            currentOccupancy: 45,
+            maxCapacity: 60,
+            riskLevel: 'low',
+            lastUpdate: new Date().toISOString(),
+            status: 'normal'
+        },
+        {
+            id: 'zone-b',
+            name: 'Zone B - Conference Room',
+            currentOccupancy: 29,
+            maxCapacity: 30,
+            riskLevel: 'medium',
+            lastUpdate: new Date().toISOString(),
+            status: 'warning'
+        },
+        {
+            id: 'zone-c',
+            name: 'Zone C - Cafeteria',
+            currentOccupancy: 76,
+            maxCapacity: 80,
+            riskLevel: 'medium',
+            lastUpdate: new Date().toISOString(),
+            status: 'warning'
+        },
+        {
+            id: 'zone-d',
+            name: 'Zone D - Office Area',
+            currentOccupancy: 65,
+            maxCapacity: 100,
+            riskLevel: 'medium',
+            lastUpdate: new Date().toISOString(),
+            status: 'warning'
+        }
+    ];
+    const getRiskColor = (level) => {
+        const riskColors = {
+            low: 'rgb(76, 175, 80)',
+            medium: 'rgb(255, 152, 0)',
+            high: 'rgb(244, 67, 54)' // Red
+        };
+        return riskColors[level] || 'rgb(76, 175, 80)';
+    };
+    const getRiskLevel = (percentage) => {
+        if (percentage <= 50)
+            return 'low';
+        if (percentage <= 90)
+            return 'medium';
+        return 'high';
+    };
+    const formatTime = (date) => {
+        return date.toLocaleTimeString('en-US', {
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: true
+        });
+    };
+    // Auto-refresh data every 30 seconds
+    React.useEffect(() => {
+        const interval = setInterval(() => {
+            setLastUpdate(new Date());
+        }, 30000);
+        return () => clearInterval(interval);
+    }, []);
+    const selectedZoneData = zones.find(zone => zone.id === selectedZone);
+    return (React.createElement("div", { className: "occ-widget-content" },
+        React.createElement("div", { className: "occ-glass-bg" },
+            React.createElement("div", { className: "occ-widget-header" },
+                React.createElement("div", { className: "occ-header-left" },
+                    React.createElement("div", { className: "occ-occupancy-icon" },
+                        React.createElement("svg", { width: "24", height: "24", viewBox: "0 0 24 24", fill: "none", strokeWidth: 1, stroke: "#ffd600" },
+                            React.createElement("path", { d: "M16 1h-4.2c-.3-.8-.9-1-1.6-1H9.8c-.7 0-1.3.2-1.6 1H4C2.9 1 2 1.9 2 3v18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zM10 2c.2-.2.5-.2.8-.2s.5.1.7.3H16c.5 0 .9.4.9.9v1H4v-1c0-.5.4-.9.9-.9h4.3c.2-.2.5-.2.8-.2zM20 21H4V5h16v16zM9 16.17l-3.59-3.59L4 14l5 5 9-9-1.41-1.42z" }))),
+                    React.createElement("h2", { className: "occ-widget-title" }, "Occupancy Compliance"))),
+            React.createElement("div", { className: "occ-widget-content" },
+                React.createElement("div", { className: "occ-metrics-dashboard" },
+                    React.createElement("div", { className: "occ-metric-card occ-primary" },
+                        React.createElement("div", { className: "occ-metric-header" },
+                            React.createElement("span", { className: "occ-metric-label" }, "Current Occupancy")),
+                        React.createElement("div", { className: "occ-metric-value" },
+                            React.createElement("span", { className: "occ-current-count" }, currentStatus.currentOccupancy),
+                            React.createElement("span", { className: "occ-max-count" },
+                                "/ ",
+                                currentStatus.maxOccupancy)),
+                        React.createElement("div", { className: "occ-metric-percentage" },
+                            React.createElement("div", { className: "occ-progress-bar" },
+                                React.createElement("div", { className: "occ-progress-fill", style: {
+                                        width: `${Math.min(currentStatus.percentage, 100)}%`,
+                                        backgroundColor: getRiskColor(getRiskLevel(currentStatus.percentage))
+                                    } })),
+                            React.createElement("span", { className: "occ-percentage-text" },
+                                currentStatus.percentage,
+                                "%"))),
+                    React.createElement("div", { className: "occ-metric-card" },
+                        React.createElement("div", { className: "occ-metric-header" },
+                            React.createElement("span", { className: "occ-metric-label" }, "Available Capacity")),
+                        React.createElement("div", { className: "occ-metric-value" },
+                            React.createElement("span", { className: "occ-available-count" }, currentStatus.maxOccupancy - currentStatus.currentOccupancy)),
+                        React.createElement("div", { className: "occ-metric-subtitle" }, "spaces remaining")),
+                    React.createElement("div", { className: "occ-metric-card" },
+                        React.createElement("div", { className: "occ-metric-header" },
+                            React.createElement("span", { className: "occ-metric-label" }, "Risk Level")),
+                        React.createElement("div", { className: "occ-metric-value" },
+                            React.createElement("span", { className: "occ-risk-level", style: { color: getRiskColor(getRiskLevel(currentStatus.percentage)) } }, currentStatus.riskLevel)),
+                        React.createElement("div", { className: "occ-metric-subtitle" }, "current status"))),
+                React.createElement("div", { className: "occ-expand-main" },
+                    React.createElement("div", { className: "occ-expand-sub" }, isContentVisible ? (React.createElement(lucide_react_1.ChevronUp, { size: 20, style: { cursor: "pointer", strokeWidth: 4, stroke: "white" }, onClick: () => setIsContentVisible(false) })) : (React.createElement(lucide_react_1.ChevronDown, { size: 20, style: { cursor: "pointer", strokeWidth: 4, stroke: "white" }, onClick: () => setIsContentVisible(true) })))),
+                React.createElement(React.Fragment, null, isContentVisible ? (React.createElement("div", { className: "occ-detection-section" },
+                    React.createElement("div", { className: "occ-detection-header" },
+                        React.createElement("h3", null, "Occupancy Detection")),
+                    React.createElement("div", { className: "occ-detection-cards" },
+                        React.createElement("div", { className: "occ-detection-card occ-highest" },
+                            React.createElement("div", { className: "occ-detection-icon" },
+                                React.createElement("div", { className: "occ-triangle-up" })),
+                            React.createElement("div", { className: "occ-detection-content" },
+                                React.createElement("div", { className: "occ-detection-label" }, "Highest Occupancy"),
+                                React.createElement("div", { className: "occ-detection-value" },
+                                    Math.max(...zones.map(z => (z.currentOccupancy / z.maxCapacity) * 100)).toFixed(1),
+                                    "%"),
+                                React.createElement("div", { className: "occ-detection-location" },
+                                    "detected at ",
+                                    React.createElement("br", null), (_a = zones.find(z => (z.currentOccupancy / z.maxCapacity) * 100 === Math.max(...zones.map(z => (z.currentOccupancy / z.maxCapacity) * 100)))) === null || _a === void 0 ? void 0 :
+                                    _a.name.split(' - ')[1],
+                                    React.createElement("br", null),
+                                    ((_b = zones.find(z => (z.currentOccupancy / z.maxCapacity) * 100 === Math.max(...zones.map(z => (z.currentOccupancy / z.maxCapacity) * 100)))) === null || _b === void 0 ? void 0 : _b.name.includes('Floor')) ? '' : ' Floor 1',
+                                    React.createElement("br", null),
+                                    "Building A"))),
+                        React.createElement("div", { className: "occ-detection-card occ-lowest" },
+                            React.createElement("div", { className: "occ-detection-icon" },
+                                React.createElement("div", { className: "occ-triangle-down" })),
+                            React.createElement("div", { className: "occ-detection-content" },
+                                React.createElement("div", { className: "occ-detection-label" }, "Lowest Occupancy"),
+                                React.createElement("div", { className: "occ-detection-value" },
+                                    Math.min(...zones.map(z => (z.currentOccupancy / z.maxCapacity) * 100)).toFixed(1),
+                                    "%"),
+                                React.createElement("div", { className: "occ-detection-location" },
+                                    "detected at ",
+                                    React.createElement("br", null), (_c = zones.find(z => (z.currentOccupancy / z.maxCapacity) * 100 === Math.min(...zones.map(z => (z.currentOccupancy / z.maxCapacity) * 100)))) === null || _c === void 0 ? void 0 :
+                                    _c.name.split(' - ')[1],
+                                    React.createElement("br", null),
+                                    ((_d = zones.find(z => (z.currentOccupancy / z.maxCapacity) * 100 === Math.min(...zones.map(z => (z.currentOccupancy / z.maxCapacity) * 100)))) === null || _d === void 0 ? void 0 : _d.name.includes('Floor')) ? '' : ' Floor 2',
+                                    React.createElement("br", null),
+                                    "Building B")))))) : (React.createElement(React.Fragment, null)))))));
+};
+exports["default"] = OccupancyComplianceWidget;
+
+
+/***/ }),
+
+/***/ "./src/prod/OccupancyComilance/occupancy-data.json":
+/*!*********************************************************!*\
+  !*** ./src/prod/OccupancyComilance/occupancy-data.json ***!
+  \*********************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"occupancyCompliance":{"currentStatus":{"area":"Main Building","floor":"Floor 3","currentOccupancy":57,"maxOccupancy":60,"percentage":95,"riskLevel":"High"},"prerequisites":{"socialDistancing":true,"ventilation":true,"sanitization":true},"densityRisk":{"levels":[{"level":"Low","color":"rgb(76, 175, 80)","condition":"Up to 50% capacity"},{"level":"Medium","color":"rgb(255, 152, 0)","condition":"51-90% capacity"},{"level":"High","color":"rgb(244, 67, 54)","condition":"90-100% capacity"}]}}}');
+
+/***/ }),
+
+/***/ "./src/prod/PeakOccupanyTime/PeakOccupancy.scss":
+/*!******************************************************!*\
+  !*** ./src/prod/PeakOccupanyTime/PeakOccupancy.scss ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var api = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./PeakOccupancy.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/prod/PeakOccupanyTime/PeakOccupancy.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.id, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/prod/PeakOccupanyTime/PeakOccupancyTime.tsx":
+/*!*********************************************************!*\
+  !*** ./src/prod/PeakOccupanyTime/PeakOccupancyTime.tsx ***!
+  \*********************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const React = __importStar(__webpack_require__(/*! react */ "react"));
+const react_1 = __webpack_require__(/*! react */ "react");
+const lucide_react_1 = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/lucide-react.js");
+const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
+const recharts_1 = __webpack_require__(/*! recharts */ "recharts");
+const peak_occupancy_data_json_1 = __importDefault(__webpack_require__(/*! ./peak-occupancy-data.json */ "./src/prod/PeakOccupanyTime/peak-occupancy-data.json"));
+__webpack_require__(/*! ./PeakOccupancy.scss */ "./src/prod/PeakOccupanyTime/PeakOccupancy.scss");
+const PeakOccupancyTimeWidget = (props) => {
+    var _a, _b;
+    const [selectedPeriod, setSelectedPeriod] = React.useState('today');
+    const [showTooltip, setShowTooltip] = React.useState(false);
+    const [showCompareModal, setShowCompareModal] = (0, react_1.useState)(false);
+    const [compareOption, setCompareOption] = (0, react_1.useState)('last_week_average');
+    const [comparisonResults, setComparisonResults] = (0, react_1.useState)(null);
+    const [range1, setRange1] = (0, react_1.useState)({ start: null, end: null });
+    const [range2, setRange2] = (0, react_1.useState)({ start: null, end: null });
+    const [specificDate, setSpecificDate] = (0, react_1.useState)(null);
+    const [isContentVisible, setIsContentVisible] = React.useState(false); // State to toggle content visibility
+    const data = peak_occupancy_data_json_1.default.peakOccupancyData;
+    const currentOccupancy = data.today.peakOccupancy;
+    const currentHour = data.today.peakTime;
+    const yesterdayPeak = 92;
+    const difference = Math.abs(currentOccupancy - yesterdayPeak);
+    const isHigher = currentOccupancy > yesterdayPeak;
+    // Helper function to format numbers
+    const formatNumber = (num) => {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    };
+    // Helper function to get peak occupancy for a specific date
+    const getPeakOccupancyForDate = (dateStr) => {
+        var _a;
+        // Check if data exists in JSON
+        const specificDayData = (_a = data === null || data === void 0 ? void 0 : data.comparison_data) === null || _a === void 0 ? void 0 : _a.specific_day;
+        if (specificDayData && specificDayData[dateStr]) {
+            return specificDayData[dateStr];
+        }
+        // Return random value if not found
+        return Math.floor(Math.random() * (90 - 60 + 1)) + 60;
+    };
+    // Helper function to calculate peak occupancy for a date range
+    const calculatePeakOccupancyForRange = (startDate, endDate) => {
+        const start = new Date(startDate);
+        const end = new Date(endDate);
+        let totalOccupancy = 0;
+        let dayCount = 0;
+        for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
+            const dateStr = d.toISOString().split('T')[0];
+            totalOccupancy += getPeakOccupancyForDate(dateStr);
+            dayCount++;
+        }
+        return Math.round(totalOccupancy / dayCount);
+    };
+    // Helper function to get comparison data
+    const getComparisonData = () => {
+        if (!data)
+            return null;
+        let currentPeakOccupancy = currentOccupancy;
+        let comparisonPeakOccupancy = 0;
+        let comparisonLabel = '';
+        let comparisonTime = '';
+        switch (compareOption) {
+            case 'specific_day':
+                if (specificDate) {
+                    comparisonPeakOccupancy = getPeakOccupancyForDate(specificDate);
+                    comparisonLabel = `Specific Day (${new Date(specificDate).toLocaleDateString()})`;
+                    // Generate a random peak time for the specific date (you can replace this with actual data)
+                    const hours = Math.floor(Math.random() * 24);
+                    const minutes = Math.floor(Math.random() * 60);
+                    comparisonTime = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
+                }
+                else {
+                    return null; // No specific date selected
+                }
+                break;
+            case 'same_day_last_week':
+                comparisonPeakOccupancy = data.comparison_data.same_day_last_week.peakOccupancy;
+                comparisonLabel = 'Same Day Last Week';
+                comparisonTime = data.comparison_data.same_day_last_week.peakTime;
+                break;
+            case 'last_week_average':
+                comparisonPeakOccupancy = data.comparison_data.last_week_average;
+                comparisonLabel = 'Last Week Average';
+                comparisonTime = 'N/A';
+                break;
+            case 'last_month_average':
+                comparisonPeakOccupancy = data.comparison_data.last_month_average;
+                comparisonLabel = 'Last Month Average';
+                comparisonTime = 'N/A';
+                break;
+            case 'last_quarter_average':
+                comparisonPeakOccupancy = data.comparison_data.last_quarter_average;
+                comparisonLabel = 'Last Quarter Average';
+                comparisonTime = 'N/A';
+                break;
+            case 'last_6_month_average':
+                comparisonPeakOccupancy = data.comparison_data.last_6_month_average;
+                comparisonLabel = 'Last 6 Month Average';
+                comparisonTime = 'N/A';
+                break;
+            case 'last_year_average':
+                comparisonPeakOccupancy = data.comparison_data.last_year_average;
+                comparisonLabel = 'Last Year Average';
+                comparisonTime = 'N/A';
+                break;
+            case 'advanced-comparison':
+                if (range1.start && range1.end && range2.start && range2.end) {
+                    const period1Occupancy = calculatePeakOccupancyForRange(range1.start, range1.end);
+                    const period2Occupancy = calculatePeakOccupancyForRange(range2.start, range2.end);
+                    comparisonPeakOccupancy = period1Occupancy;
+                    currentPeakOccupancy = period2Occupancy;
+                    comparisonLabel = `RANGE 1: ${range1.start.toLocaleDateString()} to ${range1.end.toLocaleDateString()}`;
+                    comparisonTime = 'N/A';
+                }
+                else {
+                    return null; // No date range selected
+                }
+                break;
+        }
+        const absoluteDifference = currentPeakOccupancy - comparisonPeakOccupancy;
+        const percentageChange = comparisonPeakOccupancy > 0
+            ? ((absoluteDifference / comparisonPeakOccupancy) * 100)
+            : 0;
+        return {
+            currentPeakOccupancy,
+            comparisonPeakOccupancy,
+            absoluteDifference,
+            percentageChange,
+            comparisonLabel,
+            comparisonTime
+        };
+    };
+    // Handle comparison calculation
+    const handleCompare = () => {
+        if (!compareOption) {
+            setComparisonResults(null);
+            return;
+        }
+        const results = getComparisonData();
+        setComparisonResults(results);
+    };
+    // Auto-trigger comparison when dropdown option changes (except for options requiring additional input)
+    (0, react_1.useEffect)(() => {
+        if (compareOption &&
+            compareOption !== 'specific_day' &&
+            compareOption !== 'advanced-comparison') {
+            const results = getComparisonData();
+            setComparisonResults(results);
+        }
+        else if (compareOption === 'specific_day' || compareOption === 'advanced-comparison') {
+            // Clear results when switching to options that require manual input
+            setComparisonResults(null);
+        }
+    }, [compareOption]);
+    // Note: Removed auto-trigger effects for specific_day and advanced-comparison
+    // These will now only trigger when the user clicks the Compare button
+    // Clear comparison
+    const clearComparison = () => {
+        setCompareOption('');
+        setComparisonResults(null);
+        setRange1({ start: null, end: null });
+        setRange2({ start: null, end: null });
+        setSpecificDate(null);
+    };
+    // Custom tooltip component for peak occupancy
+    const PeakOccupancyTooltip = ({ active, payload, label }) => {
+        if (active && payload && payload.length) {
+            const data = payload[0].payload;
+            return (React.createElement("div", { className: "peak-custom-tooltip" },
+                React.createElement("div", { className: "tooltip-day" }, data.day),
+                React.createElement("div", { className: "tooltip-value" },
+                    data.occupancy,
+                    "%"),
+                React.createElement("div", { className: "tooltip-time" },
+                    "Peak Time: ",
+                    data.peakTime)));
+        }
+        return null;
+    };
+    return (React.createElement(React.Fragment, null,
+        React.createElement("div", { className: "peak-widget-glass-bg" },
+            React.createElement("div", { className: "peak-glass-bg" },
+                React.createElement("div", { className: "peak-widget-header" },
+                    React.createElement("div", { className: "peak-header-left" },
+                        React.createElement("div", { className: "peak-occupancy-icon" },
+                            React.createElement("svg", { width: "24", height: "24", viewBox: "0 0 24 24", fill: "none", strokeWidth: 2, stroke: "#ffd600" },
+                                React.createElement("path", { d: "M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z" }))),
+                        React.createElement("h2", { className: "peak-widget-title" }, "Peak Occupancy")),
+                    React.createElement("div", { className: "peak-header-right" },
+                        React.createElement("button", { className: "peak-compare-button", onClick: () => setShowCompareModal(true) }, "Compare"))),
+                React.createElement("div", { className: "peak-widget-content" },
+                    React.createElement("div", { className: "peak-content" },
+                        React.createElement("div", { className: "peak-percentage" },
+                            currentOccupancy,
+                            "%"),
+                        React.createElement("div", { className: "peak-label" },
+                            "Peak Occupancy",
+                            React.createElement("div", { className: "peak-info-container" },
+                                React.createElement(lucide_react_1.Info, { className: "peak-info-icon", onMouseEnter: () => setShowTooltip(true), onMouseLeave: () => setShowTooltip(false) }),
+                                showTooltip && (React.createElement("div", { className: "peak-info-tooltip" },
+                                    "Maximum occupancy of ",
+                                    currentOccupancy,
+                                    "% at ",
+                                    currentHour))))),
+                    React.createElement("div", { className: "peak-expand-main" },
+                        React.createElement("div", { className: "peak-expand-sub" }, isContentVisible ? (React.createElement(lucide_react_1.ChevronUp, { size: 20, style: { cursor: "pointer", strokeWidth: 4, stroke: "white" }, onClick: () => setIsContentVisible(false) })) : (React.createElement(lucide_react_1.ChevronDown, { size: 20, style: { cursor: "pointer", strokeWidth: 4, stroke: "white" }, onClick: () => setIsContentVisible(true) })))),
+                    React.createElement(React.Fragment, null, isContentVisible ? (React.createElement("div", { className: "peak-glass-card chart-section" },
+                        React.createElement("div", { className: "po-chart-header" },
+                            React.createElement("h3", null, "Last 7 Days Trend ")),
+                        React.createElement("div", { className: "peak-chart-container" },
+                            React.createElement(recharts_1.ResponsiveContainer, { width: "100%", height: 240 },
+                                React.createElement(recharts_1.BarChart, { data: data.chartData.last7Days, margin: { top: 10, right: 10, left: 0, bottom: 0 } },
+                                    React.createElement(recharts_1.CartesianGrid, { strokeDasharray: "3 3", stroke: "rgba(255,255,255,0.1)" }),
+                                    React.createElement(recharts_1.XAxis, { dataKey: "day", stroke: "#fff", tick: { fill: '#fff', fontSize: 14 }, tickLine: { stroke: '#fff' } }),
+                                    React.createElement(recharts_1.YAxis, { stroke: "#fff", tick: { fill: '#fff', fontSize: 14 }, tickLine: { stroke: '#fff' }, domain: [0, 100], width: 50, label: { value: 'Occupancy %', angle: -90, position: 'insideLeft', fill: '#fff', fontSize: 12 } }),
+                                    React.createElement(recharts_1.Tooltip, { content: React.createElement(PeakOccupancyTooltip, null), cursor: false }),
+                                    React.createElement(recharts_1.Bar, { dataKey: "occupancy", fill: "#42a5f5", radius: [6, 6, 0, 0], maxBarSize: 48 })))))) : (React.createElement(React.Fragment, null)))))),
+        React.createElement(components_1.Modal, { show: showCompareModal, onOpen: () => { }, onClose: () => setShowCompareModal(false), title: "COMPARISON TYPE", className: "dt-peak-compare-modal" },
+            React.createElement("div", { className: "peak-compare-content" },
+                React.createElement("div", { className: "peak-compare-options" },
+                    React.createElement("div", { className: "peak-compare-section" },
+                        React.createElement("label", null, "Compare today's peak occupancy with:"),
+                        React.createElement("div", { className: "peak-select-container" },
+                            React.createElement("select", { value: compareOption, onChange: (e) => setCompareOption(e.target.value), className: "peak-compare-select" },
+                                React.createElement("option", { value: "specific_day" }, "Any specific day"),
+                                React.createElement("option", { value: "same_day_last_week" }, "Same day last week"),
+                                React.createElement("option", { value: "last_week_average" }, "Last week's average"),
+                                React.createElement("option", { value: "last_month_average" }, "Last month average"),
+                                React.createElement("option", { value: "last_quarter_average" }, "Last quarter average"),
+                                React.createElement("option", { value: "last_6_month_average" }, "Last 6 month average"),
+                                React.createElement("option", { value: "last_year_average" }, "Last year average"),
+                                React.createElement("option", { value: "advanced-comparison" }, "Advanced Comparison")))),
+                    compareOption === 'specific_day' && (React.createElement("div", { className: "peak-specific-day" },
+                        React.createElement("label", { style: { fontWeight: 600, marginBottom: 8, display: 'block' } }, "Select Date:"),
+                        React.createElement(components_1.DatePicker, { title: "Select Date", date: specificDate, onChange: (date) => {
+                                const dateStr = date instanceof Date
+                                    ? date.toISOString().slice(0, 10)
+                                    : date;
+                                setSpecificDate(dateStr);
+                            } }))),
+                    compareOption === 'advanced-comparison' && (React.createElement("div", { className: "peak-advanced-comparison" },
+                        React.createElement("div", { className: "peak-date-range" },
+                            React.createElement("label", { style: { fontWeight: 600, marginBottom: 8, display: 'block' } }, "First Date Range:"),
+                            React.createElement(components_1.DateRangePicker, { title: "Select First Range", startDate: range1.start ? new Date(range1.start) : undefined, endDate: range1.end ? new Date(range1.end) : undefined, onChange: (start, end) => {
+                                    setRange1({
+                                        start: start ? new Date(start) : null,
+                                        end: end ? new Date(end) : null,
+                                    });
+                                } })),
+                        React.createElement("div", { className: "peak-date-range" },
+                            React.createElement("label", { style: { fontWeight: 600, marginBottom: 8, display: 'block' } }, "Second Date Range:"),
+                            React.createElement(components_1.DateRangePicker, { title: "Select Second Range", startDate: range2.start ? new Date(range2.start) : undefined, endDate: range2.end ? new Date(range2.end) : undefined, onChange: (start, end) => {
+                                    setRange2({
+                                        start: start ? new Date(start) : null,
+                                        end: end ? new Date(end) : null,
+                                    });
+                                } })))),
+                    compareOption === 'specific_day' && (React.createElement("button", { className: "peak-calculate-btn", onClick: handleCompare, disabled: !specificDate }, "Compare")),
+                    compareOption === 'advanced-comparison' && (React.createElement("button", { className: "peak-calculate-btn", onClick: handleCompare, disabled: !range1.start || !range1.end || !range2.start || !range2.end }, "Compare"))),
+                comparisonResults && (React.createElement("div", { className: "peak-comparison-results" },
+                    React.createElement("h4", null, "Comparison Results"),
+                    React.createElement("div", { className: "peak-results-compact" },
+                        React.createElement("div", { className: "peak-result-main" },
+                            React.createElement("div", { className: "peak-result-comparison" },
+                                React.createElement("div", { className: "peak-result-label" }, comparisonResults.comparisonLabel),
+                                React.createElement("div", { className: "peak-result-value" },
+                                    formatNumber(comparisonResults.comparisonPeakOccupancy),
+                                    "%"),
+                                comparisonResults.comparisonTime !== 'N/A' && (React.createElement("div", { className: "peak-result-time" },
+                                    "Peak: ",
+                                    comparisonResults.comparisonTime))),
+                            React.createElement("div", { className: "peak-result-current" },
+                                React.createElement("div", { className: "peak-result-label" }, compareOption === 'advanced-comparison'
+                                    ? `RANGE 2: ${(_a = range2.start) === null || _a === void 0 ? void 0 : _a.toLocaleDateString()} to ${(_b = range2.end) === null || _b === void 0 ? void 0 : _b.toLocaleDateString()}`
+                                    : "Today's Peak"),
+                                React.createElement("div", { className: "peak-result-value" },
+                                    formatNumber(comparisonResults.currentPeakOccupancy),
+                                    "%"),
+                                React.createElement("div", { className: "peak-result-time" }, compareOption === 'advanced-comparison' ? '' : `Peak: ${currentHour}`))),
+                        React.createElement("div", { className: "peak-result-difference" },
+                            React.createElement("div", { className: "peak-difference-item" },
+                                React.createElement("span", { className: "peak-difference-label" }, "Change"),
+                                React.createElement("span", { className: "peak-difference-value-container" },
+                                    comparisonResults.absoluteDifference < 0 ? (React.createElement("span", { className: "peak-arrow-down" }, "\u2193")) : comparisonResults.absoluteDifference > 0 ? (React.createElement("span", { className: "peak-arrow-up" }, "\u2191")) : null,
+                                    React.createElement("span", { className: "peak-difference-value", style: {
+                                            color: comparisonResults.absoluteDifference < 0
+                                                ? 'rgb(76, 175, 80)'
+                                                : comparisonResults.absoluteDifference > 0
+                                                    ? 'rgb(244, 67, 54)'
+                                                    : '#fff'
+                                        } },
+                                        Math.abs(comparisonResults.absoluteDifference).toFixed(1),
+                                        "%")))))))))));
+};
+exports["default"] = PeakOccupancyTimeWidget;
+/**
+ * Register as a Widget
+ */
+// registerWidget({
+//     id: "PeakOccupancyTime",
+//     widget: PeakOccupancyTimeWidget,
+//     configs: {
+//         layout: {
+//             w: 12,
+//             h: 16,
+//             minH: 12,
+//             minW: 8
+//         }
+//     }
+// });
+/**
+ * Register as a Sidebar Link
+ */
+/*
+registerLink({
+    id: "PeakOccupancyTime",
+    label: "PeakOccupancyTime",
+    // click: () => alert("Hello"),
+    component: PeakOccupancyTimeWidget
+});
+*/
+/**
+ * Register as a UI
+ */
+/*
+registerUI({
+   id:"PeakOccupancyTime",
+   component: PeakOccupancyTimeWidget
+});
+*/
+/**
+ * Register as a Widget template
+ * This will enable this widget to be edited through the designer
+ */
+// registerCustomWidgetTemplate({
+//     id: "peakoccupancytime",
+//     name: 'Peak Occupancy Time',
+//     description: 'Displays peak occupancy data with glassmorphic design',
+//     template: PeakOccupancyTimeWidget,
+//     moduleId: BundleConfig.id,
+//     complexity: 'advanced',
+//     icon: ['fas', 'chart-bar'],
+//     expectedSchema: 'dictionary-array'
+// });
+// /**
+//  * Enable localization
+//  */
+// enableLocalization()
+
+
+/***/ }),
+
+/***/ "./src/prod/PeakOccupanyTime/peak-occupancy-data.json":
+/*!************************************************************!*\
+  !*** ./src/prod/PeakOccupanyTime/peak-occupancy-data.json ***!
+  \************************************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"peakOccupancyData":{"currentValue":"87","unit":"%","timeRange":"in the hour 14:30","status":"Today\'s value is default","comparison":{"type":"yesterday","description":"Compared with peak occupancy yesterday ( full day )","isHigher":true},"message":"The message should be clear that current occupancy is 5% less than the peak occupancy yesterday","today":{"peakOccupancy":87,"peakTime":"14:30","date":"2025-01-21"},"comparison_data":{"specific_day":{"2025-01-15":92,"2025-01-16":78,"2025-01-17":96,"2025-01-18":88,"2025-01-19":65,"2025-01-20":45,"2025-01-21":87},"same_day_last_week":{"peakOccupancy":82,"peakTime":"15:45","date":"2025-01-14"},"last_week_average":78.5,"last_month_average":82.3,"last_quarter_average":79.8,"last_6_month_average":81.2,"last_year_average":83.7,"historical_data":{"2023":{"average":81.2,"monthly":{"10":81.3,"11":79.1,"12":80.7,"01":83.1,"02":80.5,"03":78.9,"04":80.2,"05":82.8,"06":84.6,"07":86.1,"08":85.8,"09":83.5}},"2024":{"average":83.7,"monthly":{"10":83.1,"11":80.8,"12":82.5,"01":85.2,"02":82.1,"03":79.8,"04":81.5,"05":84.3,"06":86.7,"07":88.2,"08":87.9,"09":85.4}}}},"chartData":{"title":"Bottom chart shows peak occupancy for last 7 days in terms of occupancy % and time at which it occurred","last7Days":[{"day":"Mon","occupancy":85,"peakTime":"14:30","date":"2025-07-14"},{"day":"Tue","occupancy":92,"peakTime":"15:45","date":"2025-07-15"},{"day":"Wed","occupancy":78,"peakTime":"13:20","date":"2025-07-16"},{"day":"Thu","occupancy":96,"peakTime":"16:10","date":"2025-07-17"},{"day":"Fri","occupancy":88,"peakTime":"14:55","date":"2025-07-18"},{"day":"Sat","occupancy":65,"peakTime":"12:30","date":"2025-07-19"},{"day":"Sun","occupancy":45,"peakTime":"11:15","date":"2025-07-20"}]}}}');
 
 /***/ }),
 
