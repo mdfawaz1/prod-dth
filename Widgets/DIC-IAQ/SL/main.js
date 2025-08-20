@@ -460,8 +460,141 @@ const react_dom_1 = __webpack_require__(/*! react-dom */ "react-dom");
 const uxp_1 = __webpack_require__(/*! ./uxp */ "./src/uxp.ts");
 __webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
 // Mock data - replace with actual data fetching logic
-const getAirQualityData = (locationkey) => {
-    // This would normally fetch data based on locationkey
+const getAirQualityData = (LocationKey) => {
+    // Different data based on LocationKey
+    // LocationKey='1' represents site data
+    // LocationKey='3' represents building data
+    if (LocationKey === '1') {
+        // Site-level data
+        return {
+            co2Exposure: {
+                title: "CO₂ (Carbon Dioxide)",
+                status: "Moderate",
+                value: "1200",
+                unit: "ppm",
+                dialValue: 60,
+                maxDialValue: 100,
+                chartData: [800, 950, 1100, 1200, 1050, 1150, 1000],
+                chartMax: 2000,
+                threshold: 1000,
+                statusColor: "danger"
+            },
+            tvocComfort: {
+                title: "TVOC (Total Volatile Organic Compounds)",
+                status: "Moderate",
+                value: "320",
+                unit: "ppb",
+                dialValue: 32,
+                maxDialValue: 100,
+                chartData: [280, 300, 320, 340, 310, 330, 315],
+                chartMax: 1000,
+                threshold: 500,
+                statusColor: "warning"
+            },
+            pm25Safety: {
+                title: "PM₂.₅ (Particulate Matter)",
+                status: "Good",
+                value: "22",
+                unit: "μg/m³",
+                dialValue: 40,
+                maxDialValue: 100,
+                chartData: [18, 20, 22, 25, 21, 23, 20],
+                chartMax: 55,
+                threshold: 35,
+                statusColor: "good"
+            },
+            airExchange: {
+                title: "Air Exchange Rate",
+                status: "Good",
+                value: "3.8",
+                unit: "ACH",
+                dialValue: 76,
+                maxDialValue: 100,
+                chartData: [3.5, 3.8, 4.0, 3.9, 3.7, 3.8, 3.9],
+                chartMax: 5,
+                threshold: 3.5,
+                statusColor: "good"
+            },
+            thermalComfort: {
+                title: "Thermal Comfort Index",
+                status: "Comfortable",
+                value: "73.4",
+                unit: "°F",
+                dialValue: 73,
+                maxDialValue: 100,
+                chartData: [72, 73, 74, 73, 72, 73, 73],
+                chartMax: 100,
+                threshold: 80,
+                statusColor: "good"
+            }
+        };
+    }
+    else if (LocationKey === '3') {
+        // Building-level data
+        return {
+            co2Exposure: {
+                title: "CO₂ (Carbon Dioxide)",
+                status: "Good",
+                value: "850",
+                unit: "ppm",
+                dialValue: 42,
+                maxDialValue: 100,
+                chartData: [700, 750, 800, 850, 820, 830, 840],
+                chartMax: 2000,
+                threshold: 1000,
+                statusColor: "good"
+            },
+            tvocComfort: {
+                title: "TVOC (Total Volatile Organic Compounds)",
+                status: "Good",
+                value: "240",
+                unit: "ppb",
+                dialValue: 24,
+                maxDialValue: 100,
+                chartData: [180, 220, 200, 240, 190, 230, 210],
+                chartMax: 1000,
+                threshold: 500,
+                statusColor: "good"
+            },
+            pm25Safety: {
+                title: "PM₂.₅ (Particulate Matter)",
+                status: "Moderate",
+                value: "35",
+                unit: "μg/m³",
+                dialValue: 64,
+                maxDialValue: 100,
+                chartData: [22, 28, 35, 42, 30, 38, 32],
+                chartMax: 55,
+                threshold: 35,
+                statusColor: "warning"
+            },
+            airExchange: {
+                title: "Air Exchange Rate",
+                status: "Adequate",
+                value: "2.4",
+                unit: "ACH",
+                dialValue: 48,
+                maxDialValue: 100,
+                chartData: [3.2, 3.8, 3.1, 4.2, 3.0, 3.6, 3.4],
+                chartMax: 5,
+                threshold: 3.5,
+                statusColor: "good"
+            },
+            thermalComfort: {
+                title: "Thermal Comfort Index",
+                status: "Comfortable",
+                value: "72.5",
+                unit: "°F",
+                dialValue: 72,
+                maxDialValue: 100,
+                chartData: [75, 84, 78, 88, 76, 82, 79],
+                chartMax: 100,
+                threshold: 80,
+                statusColor: "good"
+            }
+        };
+    }
+    // Default data
     return {
         co2Exposure: {
             title: "CO₂ (Carbon Dioxide)",
@@ -775,7 +908,7 @@ const LineChart = ({ data, maxValue, color, threshold }) => {
                     React.createElement("circle", { cx: point.x, cy: point.y, r: "2", fill: "white", opacity: "0.8" }))))),
             React.createElement("div", { className: "iaq-chart-days" }, days.map(day => (React.createElement("span", { key: day, className: "iaq-chart-day" }, day)))))));
 };
-const MetricCard = ({ title, status, value, unit, dialValue, maxDialValue, chartData, chartMax, threshold, statusColor }) => {
+const MetricCard = ({ title, status, value, unit, dialValue, maxDialValue, chartData, chartMax, threshold, statusColor, LocationKey, uxpContext }) => {
     const getStatusColorValue = (color) => {
         switch (color) {
             case 'good': return '#4caf50';
@@ -799,7 +932,7 @@ const MetricCard = ({ title, status, value, unit, dialValue, maxDialValue, chart
             React.createElement("div", { className: "iaq-metric-right" },
                 React.createElement(LineChart, { data: chartData, maxValue: chartMax, color: getStatusColorValue(statusColor), threshold: threshold })))));
 };
-const AQICompositeScore = ({ aqiData }) => {
+const AQICompositeScore = ({ aqiData, LocationKey, uxpContext }) => {
     const [showTooltip, setShowTooltip] = React.useState(false);
     const [tooltipPosition, setTooltipPosition] = React.useState({ x: 0, y: 0 });
     const dialRef = React.useRef(null);
@@ -880,21 +1013,19 @@ const SectionTitle = ({ title }) => (React.createElement("div", { className: "ia
     React.createElement("span", { className: "iaq-section-text" }, title),
     React.createElement("span", { className: "iaq-section-line" })));
 const Iaq_right_panelWidget = (props) => {
-    const { locationkey } = props;
-    const airQualityData = getAirQualityData(locationkey);
+    const { LocationKey, LocationName } = props;
+    const airQualityData = getAirQualityData(LocationKey);
     // Calculate AQI composite score from PM2.5, CO2, and TVOC values
     const aqiData = calculateAQI(parseFloat(airQualityData.pm25Safety.value), parseFloat(airQualityData.co2Exposure.value), parseFloat(airQualityData.tvocComfort.value));
     return (React.createElement("div", { className: "iaq-right-panel-container" },
         React.createElement("div", { className: "iaq-right-panel-content" },
             React.createElement(SectionTitle, { title: "AIR QUALITY OVERVIEW" }),
-            React.createElement(AQICompositeScore, { aqiData: aqiData }),
+            React.createElement(AQICompositeScore, { aqiData: aqiData, LocationKey: props.LocationKey, uxpContext: props.uxpContext }),
             React.createElement(SectionTitle, { title: "DETAILED METRICS" }),
             React.createElement("div", { className: "iaq-metrics-grid" },
-                React.createElement(MetricCard, Object.assign({}, airQualityData.co2Exposure)),
-                React.createElement(MetricCard, Object.assign({}, airQualityData.tvocComfort)),
-                React.createElement(MetricCard, Object.assign({}, airQualityData.pm25Safety)),
-                React.createElement(MetricCard, Object.assign({}, airQualityData.airExchange)),
-                React.createElement(MetricCard, Object.assign({}, airQualityData.thermalComfort))))));
+                React.createElement(MetricCard, Object.assign({}, airQualityData.co2Exposure, { LocationKey: props.LocationKey, uxpContext: props.uxpContext })),
+                React.createElement(MetricCard, Object.assign({}, airQualityData.tvocComfort, { LocationKey: props.LocationKey, uxpContext: props.uxpContext })),
+                React.createElement(MetricCard, Object.assign({}, airQualityData.pm25Safety, { LocationKey: props.LocationKey, uxpContext: props.uxpContext }))))));
 };
 /**
  * Register as a Widget
@@ -908,7 +1039,27 @@ const Iaq_right_panelWidget = (props) => {
         // h: 12,
         // minH: 12,
         // minW: 12
-        }
+        },
+        props: [
+            {
+                "name": "LocationKey",
+                "label": "Location Key",
+                "type": "string",
+                "placeholder": "Location key"
+            },
+            {
+                "name": "LocationName",
+                "label": "Location Name",
+                "type": "string",
+                "placeholder": "Location Name"
+            },
+            {
+                "name": "AssetKey",
+                "label": "Asset Key",
+                "type": "string",
+                "placeholder": "Asset key"
+            }
+        ]
     }
 });
 /**

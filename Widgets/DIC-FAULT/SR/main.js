@@ -8,7 +8,7 @@
 /***/ ((module) => {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"id":"7560c58d-dff0-486a-f87d-4982094eea4d","author":"","widgets":[{"id":"fault_right_panel","name":"fault_right_panel","description":"A sample widget","icon":"","tags":[],"category":"","isTemplate":false}],"sidebarLinks":[],"uis":[],"menuItems":[]}');
+module.exports = /*#__PURE__*/JSON.parse('{"id":"7560c58d-dff0-486a-f87d-4982094eea4d","author":"fawaz","widgets":[{"id":"fault_right_panel","name":"fault_right_panel","description":"A sample widget","icon":"","tags":[],"category":"","isTemplate":false}],"sidebarLinks":[],"uis":[],"menuItems":[]}');
 
 /***/ }),
 
@@ -33,7 +33,7 @@ module.exports = {};
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".maintenance-summary-widget {\n  padding: 24px;\n  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);\n  border-radius: 16px;\n  backdrop-filter: blur(20px);\n  border: 1px solid rgba(255, 255, 255, 0.15);\n  margin-bottom: 20px;\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);\n}\n.maintenance-summary-widget .widget-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-bottom: 8px;\n}\n.maintenance-summary-widget .widget-header h2 {\n  margin: 0;\n  font-size: 20px;\n  font-weight: 600;\n  color: #fff;\n}\n.maintenance-summary-widget .widget-header .total-count {\n  font-size: 14px;\n  color: rgba(255, 255, 255, 0.7);\n  font-weight: 500;\n}\n.maintenance-summary-widget .widget-header .compare-btn {\n  margin-left: auto;\n  background: #42A5F5;\n  color: white;\n  border: none;\n  border-radius: 6px;\n  padding: 8px 16px;\n  font-size: 14px;\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  transition: background 0.2s ease;\n}\n.maintenance-summary-widget .widget-header .compare-btn:hover {\n  background: #2196F3;\n}\n.maintenance-summary-widget .widget-header .compare-btn i {\n  font-size: 14px;\n}\n.maintenance-summary-widget .widget-subtitle {\n  margin: 0 0 20px 0;\n  font-size: 14px;\n  color: rgba(255, 255, 255, 0.7);\n}\n.maintenance-summary-widget .filters {\n  display: flex;\n  gap: 20px;\n  margin-bottom: 20px;\n}\n.maintenance-summary-widget .filters .filter-group {\n  flex: 1;\n}\n.maintenance-summary-widget .filters .filter-group label {\n  display: block;\n  font-size: 12px;\n  color: rgba(255, 255, 255, 0.7);\n  margin-bottom: 8px;\n  font-weight: 500;\n}\n.maintenance-summary-widget .filters .filter-group .filter-select {\n  width: 100%;\n  background: rgba(255, 255, 255, 0.08);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 10px;\n  padding: 10px 14px;\n  font-size: 14px;\n  color: #fff;\n  transition: all 0.3s ease;\n  cursor: pointer;\n  appearance: none;\n  background-image: url(\"data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e\");\n  background-repeat: no-repeat;\n  background-position: right 12px center;\n  background-size: 16px;\n  padding-right: 40px;\n}\n.maintenance-summary-widget .filters .filter-group .filter-select:hover {\n  background-color: rgba(255, 255, 255, 0.12);\n  border-color: rgba(255, 255, 255, 0.3);\n}\n.maintenance-summary-widget .filters .filter-group .filter-select:focus {\n  outline: none;\n  border-color: #6366F1;\n  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);\n}\n.maintenance-summary-widget .filters .filter-group .filter-select option {\n  background: #1a1a1a;\n  color: #fff;\n}\n.maintenance-summary-widget .status-cards {\n  display: flex;\n  gap: 15px;\n  margin-bottom: 30px;\n}\n.maintenance-summary-widget .status-cards .status-card {\n  flex: 1;\n  padding: 20px;\n  border-radius: 8px;\n  text-align: center;\n}\n.maintenance-summary-widget .status-cards .status-card h3 {\n  margin: 0 0 10px 0;\n  font-size: 16px;\n  font-weight: 500;\n}\n.maintenance-summary-widget .status-cards .status-card .status-count {\n  font-size: 32px;\n  font-weight: 700;\n}\n.maintenance-summary-widget .status-cards .status-card.in-progress {\n  background: linear-gradient(135deg, rgba(255, 107, 53, 0.15) 0%, rgba(255, 107, 53, 0.05) 100%);\n  border: 1px solid rgba(255, 107, 53, 0.3);\n  color: #FF6B35;\n  box-shadow: 0 4px 16px rgba(255, 107, 53, 0.15);\n}\n.maintenance-summary-widget .status-cards .status-card.resolved {\n  background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(16, 185, 129, 0.05) 100%);\n  border: 1px solid rgba(16, 185, 129, 0.3);\n  color: #10B981;\n  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.15);\n}\n.maintenance-summary-widget .status-cards .status-card.closed {\n  background: linear-gradient(135deg, rgba(99, 102, 241, 0.15) 0%, rgba(99, 102, 241, 0.05) 100%);\n  border: 1px solid rgba(99, 102, 241, 0.3);\n  color: #6366F1;\n  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.15);\n}\n.maintenance-summary-widget .pie-chart-container {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin: 20px 0;\n  background: rgba(255, 255, 255, 0.03);\n  border-radius: 16px;\n  padding: 20px;\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  position: relative;\n  overflow: visible;\n  min-height: 280px;\n  height: auto;\n  gap: 40px;\n}\n.maintenance-summary-widget .pie-chart-container .legend {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  min-width: 120px;\n}\n.maintenance-summary-widget .pie-chart-container .chart-center-text {\n  pointer-events: none;\n}\n.maintenance-summary-widget .sla-breach-warning {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 18px;\n  background: linear-gradient(135deg, rgba(255, 59, 48, 0.15) 0%, rgba(255, 59, 48, 0.08) 100%);\n  border: 1px solid rgba(255, 59, 48, 0.3);\n  border-radius: 12px;\n  color: #FF3B30;\n  font-size: 14px;\n  cursor: pointer;\n  margin-bottom: 30px;\n  transition: all 0.3s ease;\n  box-shadow: 0 4px 12px rgba(255, 59, 48, 0.1);\n}\n.maintenance-summary-widget .sla-breach-warning:hover {\n  background: linear-gradient(135deg, rgba(255, 59, 48, 0.2) 0%, rgba(255, 59, 48, 0.12) 100%);\n  border-color: rgba(255, 59, 48, 0.4);\n  transform: translateY(-1px);\n  box-shadow: 0 6px 16px rgba(255, 59, 48, 0.15);\n}\n.maintenance-summary-widget .sla-breach-warning i:first-child {\n  font-size: 16px;\n}\n.maintenance-summary-widget .sla-breach-warning i:last-child {\n  margin-left: auto;\n  font-size: 12px;\n}\n.maintenance-summary-widget .cwo-pwo-section h3 {\n  margin: 0 0 20px 0;\n  font-size: 16px;\n  font-weight: 600;\n  color: #fff;\n}\n.maintenance-summary-widget .cwo-pwo-section .chart-container {\n  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);\n  border-radius: 16px;\n  padding: 20px 24px 10px 24px;\n  overflow: visible;\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);\n  position: relative;\n  min-height: auto;\n  height: auto;\n}\n.maintenance-summary-widget .sla-modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.5);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 1000;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal {\n  background: white;\n  border-radius: 12px;\n  width: 500px;\n  max-width: 90%;\n  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 20px;\n  border-bottom: 1px solid #e0e0e0;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-header h3 {\n  margin: 0;\n  font-size: 18px;\n  font-weight: 600;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-header .close-btn {\n  background: none;\n  border: none;\n  cursor: pointer;\n  padding: 4px;\n  color: #666;\n  font-size: 18px;\n  transition: color 0.2s ease;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-header .close-btn:hover {\n  color: #333;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-content {\n  padding: 20px;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-content .sla-ticket {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 12px 16px;\n  background: rgba(255, 59, 48, 0.05);\n  border-radius: 8px;\n  margin-bottom: 12px;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-content .sla-ticket:last-child {\n  margin-bottom: 0;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-content .sla-ticket .ticket-id {\n  font-weight: 600;\n  color: #333;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-content .sla-ticket .ticket-area {\n  color: #666;\n  font-size: 14px;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-content .sla-ticket .time-remaining {\n  color: #FF3B30;\n  font-weight: 500;\n  font-size: 14px;\n}", ""]);
+exports.push([module.id, ".maintenance-summary-widget {\n  padding: 24px;\n  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);\n  border-radius: 16px;\n  backdrop-filter: blur(20px);\n  border: 1px solid rgba(255, 255, 255, 0.15);\n  margin-bottom: 20px;\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);\n}\n.maintenance-summary-widget .widget-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-bottom: 8px;\n}\n.maintenance-summary-widget .widget-header h2 {\n  margin: 0;\n  font-size: 20px;\n  font-weight: 600;\n  color: #fff;\n}\n.maintenance-summary-widget .widget-header .total-count {\n  font-size: 14px;\n  color: rgba(255, 255, 255, 0.7);\n  font-weight: 500;\n}\n.maintenance-summary-widget .widget-header .compare-btn {\n  margin-left: auto;\n  background: #42A5F5;\n  color: white;\n  border: none;\n  border-radius: 6px;\n  padding: 8px 16px;\n  font-size: 14px;\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  transition: background 0.2s ease;\n}\n.maintenance-summary-widget .widget-header .compare-btn:hover {\n  background: #2196F3;\n}\n.maintenance-summary-widget .widget-header .compare-btn i {\n  font-size: 14px;\n}\n.maintenance-summary-widget .widget-subtitle {\n  margin: 0 0 20px 0;\n  font-size: 14px;\n  color: rgba(255, 255, 255, 0.7);\n}\n.maintenance-summary-widget .filters {\n  display: flex;\n  gap: 20px;\n  margin-bottom: 20px;\n}\n.maintenance-summary-widget .filters .filter-group {\n  flex: 1;\n}\n.maintenance-summary-widget .filters .filter-group label {\n  display: block;\n  font-size: 12px;\n  color: rgba(255, 255, 255, 0.7);\n  margin-bottom: 8px;\n  font-weight: 500;\n}\n.maintenance-summary-widget .filters .filter-group .filter-select {\n  width: 100%;\n  background: rgba(255, 255, 255, 0.08);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 10px;\n  padding: 10px 14px;\n  font-size: 14px;\n  color: #fff;\n  transition: all 0.3s ease;\n  cursor: pointer;\n  appearance: none;\n  background-image: url(\"data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e\");\n  background-repeat: no-repeat;\n  background-position: right 12px center;\n  background-size: 16px;\n  padding-right: 40px;\n}\n.maintenance-summary-widget .filters .filter-group .filter-select:hover {\n  background-color: rgba(255, 255, 255, 0.12);\n  border-color: rgba(255, 255, 255, 0.3);\n}\n.maintenance-summary-widget .filters .filter-group .filter-select:focus {\n  outline: none;\n  border-color: #6366F1;\n  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);\n}\n.maintenance-summary-widget .filters .filter-group .filter-select option {\n  background: #1a1a1a;\n  color: #fff;\n}\n.maintenance-summary-widget .status-cards {\n  display: flex;\n  gap: 15px;\n  margin-bottom: 30px;\n}\n.maintenance-summary-widget .status-cards .status-card {\n  flex: 1;\n  padding: 20px;\n  border-radius: 8px;\n  text-align: center;\n}\n.maintenance-summary-widget .status-cards .status-card h3 {\n  margin: 0 0 10px 0;\n  font-size: 16px;\n  font-weight: 500;\n}\n.maintenance-summary-widget .status-cards .status-card .status-count {\n  font-size: 32px;\n  font-weight: 700;\n}\n.maintenance-summary-widget .status-cards .status-card.in-progress {\n  background: linear-gradient(135deg, rgba(255, 107, 53, 0.15) 0%, rgba(255, 107, 53, 0.05) 100%);\n  border: 1px solid rgba(255, 107, 53, 0.3);\n  color: #FF6B35;\n  box-shadow: 0 4px 16px rgba(255, 107, 53, 0.15);\n}\n.maintenance-summary-widget .status-cards .status-card.resolved {\n  background: linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(16, 185, 129, 0.05) 100%);\n  border: 1px solid rgba(16, 185, 129, 0.3);\n  color: #10B981;\n  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.15);\n}\n.maintenance-summary-widget .status-cards .status-card.closed {\n  background: linear-gradient(135deg, rgba(99, 102, 241, 0.15) 0%, rgba(99, 102, 241, 0.05) 100%);\n  border: 1px solid rgba(99, 102, 241, 0.3);\n  color: #6366F1;\n  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.15);\n}\n.maintenance-summary-widget .pie-chart-container {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin: 20px 0;\n  background: rgba(255, 255, 255, 0.03);\n  border-radius: 16px;\n  padding: 20px;\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  position: relative;\n  overflow: visible;\n  min-height: 280px;\n  height: auto;\n  gap: 40px;\n}\n.maintenance-summary-widget .pie-chart-container .legend {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  min-width: 120px;\n}\n.maintenance-summary-widget .pie-chart-container .chart-center-text {\n  pointer-events: none;\n}\n.maintenance-summary-widget .sla-breach-warning {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 14px 18px;\n  background: linear-gradient(135deg, rgba(255, 59, 48, 0.15) 0%, rgba(255, 59, 48, 0.08) 100%);\n  border: 1px solid rgba(255, 59, 48, 0.3);\n  border-radius: 12px;\n  color: #FF3B30;\n  font-size: 14px;\n  cursor: pointer;\n  margin-bottom: 30px;\n  transition: all 0.3s ease;\n  box-shadow: 0 4px 12px rgba(255, 59, 48, 0.1);\n}\n.maintenance-summary-widget .sla-breach-warning:hover {\n  background: linear-gradient(135deg, rgba(255, 59, 48, 0.2) 0%, rgba(255, 59, 48, 0.12) 100%);\n  border-color: rgba(255, 59, 48, 0.4);\n  transform: translateY(-1px);\n  box-shadow: 0 6px 16px rgba(255, 59, 48, 0.15);\n}\n.maintenance-summary-widget .sla-breach-warning i:first-child {\n  font-size: 16px;\n}\n.maintenance-summary-widget .sla-breach-warning i:last-child {\n  margin-left: auto;\n  font-size: 12px;\n}\n.maintenance-summary-widget .cwo-pwo-section h3 {\n  margin: 0 0 20px 0;\n  font-size: 16px;\n  font-weight: 600;\n  color: #fff;\n}\n.maintenance-summary-widget .cwo-pwo-section .chart-container {\n  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%);\n  border-radius: 16px;\n  padding: 20px 24px 10px 24px;\n  overflow: visible;\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);\n  position: relative;\n  min-height: auto;\n  height: auto;\n}\n.maintenance-summary-widget .sla-modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.5);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 1000;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal {\n  background: #fff;\n  border-radius: 12px;\n  width: 500px;\n  max-width: 90%;\n  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 20px;\n  border-bottom: 1px solid #e0e0e0;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-header h3 {\n  margin: 0;\n  font-size: 18px;\n  font-weight: 600;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-header .close-btn {\n  background: none;\n  border: none;\n  cursor: pointer;\n  padding: 4px;\n  color: #666;\n  font-size: 18px;\n  transition: all 0.2s ease;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-header .close-btn:hover {\n  color: #333;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-content {\n  padding: 20px;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-content .sla-ticket {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 12px 16px;\n  background: rgba(255, 59, 48, 0.07);\n  border-radius: 8px;\n  border: 1px solid rgba(255, 59, 48, 0.15);\n  margin-bottom: 12px;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-content .sla-ticket:last-child {\n  margin-bottom: 0;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-content .sla-ticket .ticket-id {\n  font-weight: 600;\n  color: #333;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-content .sla-ticket .ticket-area {\n  color: #666;\n  font-size: 14px;\n}\n.maintenance-summary-widget .sla-modal-overlay .sla-modal .modal-content .sla-ticket .time-remaining {\n  color: #FF3B30;\n  font-weight: 500;\n  font-size: 14px;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -67,7 +67,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ":root, .dark-mode {\n  --bg-color: rgba(20, 20, 20, 0.1);\n  --text-color: #ffffff;\n  --text-secondary: rgba(255, 255, 255, 0.9);\n  --text-muted: rgba(255, 255, 255, 0.7);\n  --glass-bg: rgba(20, 20, 20, 0.15);\n  --glass-border: rgba(255, 255, 255, 0.18);\n  --card-bg: rgba(255, 255, 255, 0.05);\n  --card-border: rgba(255, 255, 255, 0.08);\n  --progress-bg: rgba(255, 255, 255, 0.1);\n  --modal-bg: rgba(20, 20, 20, 0.95);\n  --modal-border: rgba(255, 255, 255, 0.1);\n  --primary-blue: #4A90E2;\n  --success-green: #7ED321;\n  --warning-orange: #F5A623;\n  --purple: #BD10E0;\n  --danger-red: #FF4757;\n  --cyan: #06B6D4;\n  --green: #10B981;\n}\n\n.uxp-date-range-picker,\n.uxp-date-picker,\n.react-datepicker-popper,\n.react-datepicker__portal {\n  z-index: 10001 !important;\n}\n\n.uxp-date-picker-dropdown,\n.uxp-date-range-picker-dropdown,\n.react-datepicker__tab-loop {\n  z-index: 10002 !important;\n}\n\n.main-container {\n  width: 100%;\n  height: 100%;\n  background: var(--bg-color);\n  color: var(--text-color);\n  transition: all 0.3s ease;\n  display: flex;\n  flex-direction: column;\n  overflow: auto;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  direction: rtl;\n}\n.main-container * {\n  direction: ltr;\n}\n\n.glass-bg-fpr {\n  background: var(--glass-bg);\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  padding: 16px 14px;\n  width: 100%;\n  min-height: auto;\n  color: var(--text-color);\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  height: auto;\n  flex: 1;\n  border-radius: 12px;\n  border: 1px solid var(--glass-border);\n}\n\n.main-header {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n  flex: 1;\n}\n.main-header .header-text {\n  font-size: 1.7rem;\n  font-weight: 600;\n  color: var(--text-color);\n  letter-spacing: -0.02em;\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n.main-header .header-text svg {\n  opacity: 0.9;\n}\n.main-header .header-subtitle {\n  font-size: 0.95rem;\n  color: var(--text-muted);\n  font-weight: 400;\n  display: inline-flex;\n  align-items: center;\n}\n\n.system-selector,\n.time-period-selector {\n  background: var(--card-bg);\n  border: 1px solid var(--card-border);\n  border-radius: 6px;\n  padding: 8px 14px;\n  color: var(--text-color);\n  font-size: 1rem;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.system-selector:hover,\n.time-period-selector:hover {\n  background: var(--card-border);\n}\n.system-selector option,\n.time-period-selector option {\n  background: var(--modal-bg);\n  color: var(--text-color);\n}\n\n.compare-btn {\n  background: rgba(100, 181, 246, 0.15);\n  color: #fff;\n  border: 1px solid rgba(100, 181, 246, 0.3);\n  padding: 6px 12px;\n  border-radius: 8px;\n  font-size: 1.2rem;\n  font-weight: 700;\n  cursor: pointer;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n.compare-btn:hover {\n  background: rgba(100, 181, 246, 0.25);\n  border-color: rgba(100, 181, 246, 0.5);\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);\n}\n\n.fault-count-section {\n  background: var(--card-bg);\n  border-radius: 12px;\n  padding: 24px;\n  margin-bottom: 24px;\n  border: 1px solid var(--card-border);\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n.fault-count-section .fault-count-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-bottom: 24px;\n}\n.fault-count-section .fault-count-header .fault-count-title {\n  font-size: 1.1rem;\n  font-weight: 500;\n  color: var(--text-color);\n}\n.fault-count-section .fault-count-header .fault-count-average {\n  font-size: 0.95rem;\n  color: var(--text-secondary);\n}\n.fault-count-section .fault-count-header .fault-count-average .change-percentage {\n  font-weight: 600;\n  margin-left: 8px;\n}\n.fault-count-section .fault-count-header .fault-count-average .change-percentage.positive {\n  color: var(--danger-red);\n}\n.fault-count-section .fault-count-header .fault-count-average .change-percentage.negative {\n  color: var(--success-green);\n}\n.fault-count-section .fault-display .fault-label {\n  font-size: 0.95rem;\n  color: var(--text-muted);\n  margin-bottom: 12px;\n}\n.fault-count-section .fault-display .fault-value {\n  font-size: 3.5rem;\n  font-weight: 700;\n  color: var(--danger-red);\n  margin-bottom: 12px;\n  line-height: 1;\n  letter-spacing: -2px;\n}\n.fault-count-section .fault-display .fault-status {\n  font-size: 0.95rem;\n  color: var(--danger-red);\n  opacity: 0.85;\n  font-weight: 500;\n}\n\n.chart-section {\n  margin-bottom: 24px;\n}\n.chart-section .chart-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-bottom: 16px;\n}\n.chart-section .chart-header .chart-title {\n  font-size: 1.1rem;\n  font-weight: 500;\n  color: var(--text-color);\n}\n\n.chart-container {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 12px;\n  padding: 20px;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n.chart-container .recharts-cartesian-grid-horizontal line,\n.chart-container .recharts-cartesian-grid-vertical line {\n  stroke: rgba(255, 255, 255, 0.08);\n}\n.chart-container .recharts-text {\n  fill: #ffffff !important;\n  opacity: 0.9;\n  font-size: 12px !important;\n}\n.chart-container .recharts-legend-wrapper .recharts-legend-item-text {\n  color: #ffffff !important;\n  opacity: 0.9;\n}\n.chart-container .recharts-legend-wrapper .recharts-default-legend {\n  padding-top: 16px !important;\n}\n.chart-container .recharts-tooltip-wrapper .recharts-default-tooltip {\n  background: rgba(20, 20, 20, 0.95) !important;\n  border: 1px solid rgba(255, 255, 255, 0.25) !important;\n  border-radius: 6px !important;\n  color: #ffffff !important;\n  padding: 8px 12px !important;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;\n}\n.chart-container .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-item {\n  color: #ffffff !important;\n  font-size: 12px !important;\n}\n.chart-container .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-label {\n  color: #ffffff !important;\n  font-weight: 500 !important;\n  margin-bottom: 4px !important;\n}\n.chart-container .recharts-bar {\n  outline: none;\n  cursor: pointer;\n  filter: brightness(1);\n  transition: filter 0.3s ease;\n}\n.chart-container .recharts-bar:hover {\n  filter: brightness(1.2);\n}\n.chart-container .recharts-surface {\n  outline: none;\n}\n.chart-container .recharts-reference-line-line {\n  stroke: var(--primary-blue);\n  stroke-width: 2;\n  stroke-dasharray: 4 4;\n  opacity: 0.8;\n}\n.chart-container .recharts-label {\n  fill: var(--primary-blue);\n  font-size: 11px;\n  font-weight: 500;\n}\n.chart-container .recharts-rectangle {\n  transition: opacity 0.3s ease;\n}\n\n.modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.7);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 1002;\n}\n.modal-overlay .uxp-date-range-picker,\n.modal-overlay .uxp-date-picker {\n  z-index: 10001 !important;\n}\n.modal-overlay .uxp-date-range-picker .uxp-date-picker-dropdown,\n.modal-overlay .uxp-date-range-picker .uxp-date-range-picker-dropdown,\n.modal-overlay .uxp-date-range-picker .react-datepicker-popper,\n.modal-overlay .uxp-date-range-picker .react-datepicker__portal,\n.modal-overlay .uxp-date-picker .uxp-date-picker-dropdown,\n.modal-overlay .uxp-date-picker .uxp-date-range-picker-dropdown,\n.modal-overlay .uxp-date-picker .react-datepicker-popper,\n.modal-overlay .uxp-date-picker .react-datepicker__portal {\n  z-index: 10002 !important;\n}\n\n.cooling-compare-modal {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.7);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 9999;\n}\n\n.modal-content {\n  background: var(--modal-bg);\n  border: 1px solid var(--modal-border);\n  padding: 0;\n  max-width: 600px;\n  max-height: 80vh;\n  overflow: auto;\n  backdrop-filter: blur(10px);\n}\n\n.modal-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 20px 24px;\n  border-bottom: 1px solid var(--glass-border);\n}\n.modal-header h3 {\n  margin: 0;\n  color: var(--text-color);\n  font-size: 1.2rem;\n  font-weight: 600;\n}\n\n.modal-close {\n  background: none;\n  border: none;\n  color: var(--text-color);\n  font-size: 24px;\n  cursor: pointer;\n  padding: 0;\n  width: 30px;\n  height: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 4px;\n  transition: background 0.2s ease;\n}\n.modal-close:hover {\n  background: var(--card-border);\n}\n\n.cooling-compare-modal-content {\n  padding: 24px;\n}\n\n.cooling-compare-section {\n  margin-bottom: 20px;\n}\n.cooling-compare-section label {\n  display: block;\n  margin-bottom: 12px;\n  color: var(--text-secondary);\n  font-size: 1.05rem;\n  font-weight: 500;\n}\n\n.cooling-select-container {\n  margin-bottom: 16px;\n}\n\n.cooling-compare-select {\n  width: 100%;\n  background: var(--card-bg);\n  border: 1px solid var(--card-border);\n  border-radius: 6px;\n  padding: 10px 14px;\n  color: var(--text-color);\n  font-size: 1rem;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.cooling-compare-select:hover, .cooling-compare-select:focus {\n  background: var(--card-border);\n  outline: none;\n}\n.cooling-compare-select option {\n  background: var(--modal-bg);\n  color: var(--text-color);\n}\n\n.cooling-compare-advanced {\n  margin-top: 16px;\n  padding: 16px;\n  background: var(--card-bg);\n  border-radius: 8px;\n  border: 1px solid var(--card-border);\n}\n\n.cooling-compare-advanced-range1,\n.cooling-compare-advanced-range2 {\n  margin-bottom: 16px;\n}\n.cooling-compare-advanced-range1 label,\n.cooling-compare-advanced-range2 label {\n  margin-bottom: 8px;\n}\n.cooling-compare-advanced-range1 .date-input,\n.cooling-compare-advanced-range2 .date-input {\n  width: 100%;\n  background: var(--card-bg);\n  border: 1px solid var(--card-border);\n  border-radius: 4px;\n  padding: 8px 12px;\n  color: var(--text-color);\n  font-size: 0.9rem;\n  margin-bottom: 8px;\n}\n.cooling-compare-advanced-range1 .date-input:focus,\n.cooling-compare-advanced-range2 .date-input:focus {\n  outline: none;\n  border-color: var(--primary-blue);\n}\n.cooling-compare-advanced-range1 .date-input::-webkit-calendar-picker-indicator,\n.cooling-compare-advanced-range2 .date-input::-webkit-calendar-picker-indicator {\n  filter: invert(1);\n}\n\n.cooling-compare-label-bold {\n  font-weight: 600;\n}\n\n.cooling-compare-label-margin {\n  margin-bottom: 8px;\n}\n\n.cooling-CalculateCompare-btn {\n  background: #42A5F5;\n  border: none;\n  border-radius: 6px;\n  padding: 10px 20px;\n  color: white;\n  font-size: 1rem;\n  font-weight: 500;\n  cursor: pointer;\n  transition: all 0.2s ease;\n  width: 100%;\n}\n.cooling-CalculateCompare-btn:hover:not(:disabled) {\n  background: #1976D2;\n  transform: translateY(-1px);\n}\n.cooling-CalculateCompare-btn:disabled {\n  background: var(--card-border);\n  cursor: not-allowed;\n  color: var(--text-muted);\n}\n\n.cooling-comparison-results {\n  margin-top: 24px;\n  padding: 20px;\n  background: var(--card-bg);\n  border-radius: 8px;\n  border: 1px solid var(--card-border);\n}\n.cooling-comparison-results h4 {\n  margin: 0 0 16px 0;\n  color: var(--text-color);\n  font-size: 1.1rem;\n  font-weight: 600;\n}\n\n.cooling-results-main {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 16px;\n  margin-bottom: 20px;\n}\n\n.cooling-result-comparison,\n.cooling-result-current {\n  padding: 12px;\n  background: var(--glass-bg);\n  border-radius: 6px;\n  border: 1px solid var(--glass-border);\n}\n\n.cooling-result-label {\n  font-size: 0.85rem;\n  color: var(--text-muted);\n  margin-bottom: 4px;\n}\n\n.cooling-result-value {\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: var(--text-color);\n}\n\n.cooling-result-difference {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 16px;\n}\n\n.cooling-difference-item {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 10px 12px;\n  background: var(--glass-bg);\n  border-radius: 6px;\n  border: 1px solid var(--glass-border);\n}\n\n.cooling-difference-label {\n  font-size: 0.9rem;\n  color: var(--text-secondary);\n}\n\n.cooling-difference-value-container {\n  display: flex;\n  align-items: center;\n  gap: 4px;\n}\n\n.cooling-difference-value {\n  font-weight: 600;\n  font-size: 0.95rem;\n}\n\n.modal-container.dt-water-compare-modal .modal-backdrop {\n  background-color: transparent !important;\n}\n.modal-container.dt-water-compare-modal .modal-panel {\n  min-width: 30%;\n  width: auto;\n  max-width: 40%;\n  height: auto;\n  max-height: 100%;\n  min-height: 50%;\n  background: rgba(0, 0, 0, 0.11) !important;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-header {\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  color: #fff;\n  font-size: 1.4rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px 12px 0 0;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-body {\n  padding: 16px;\n  height: 100% !important;\n  margin: 0;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  overflow-y: auto;\n  border-radius: 0 0 12px 12px;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker {\n  z-index: 10001 !important;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .uxp-date-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .uxp-date-range-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .react-datepicker-popper,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .react-datepicker__portal,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .uxp-date-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .uxp-date-range-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .react-datepicker-popper,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .react-datepicker__portal {\n  z-index: 10002 !important;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-header .modal-close,\n.modal-container.dt-water-compare-modal .modal-panel .modal-header .close-btn {\n  background: transparent !important;\n}\n\n@media (max-width: 768px) {\n  .main-container {\n    padding: 10px 6px;\n  }\n  .glass-bg-fpr {\n    padding: 12px 10px;\n  }\n  .widget-container {\n    margin-bottom: 12px;\n  }\n  .widget-header {\n    padding: 12px 14px;\n  }\n  .widget-icon {\n    width: 34px;\n    height: 34px;\n  }\n  .widget-title {\n    font-size: 1.15rem;\n  }\n  .widget-content {\n    padding: 0 12px 12px;\n  }\n  .widget-controls {\n    flex-wrap: wrap;\n  }\n  .ultra-compact-metrics {\n    padding: 14px 16px;\n    gap: 12px;\n  }\n  .metric-value {\n    font-size: 2rem;\n  }\n  .system-selector,\n  .time-period-selector,\n  .compare-btn {\n    font-size: 0.85rem;\n    padding: 6px 10px;\n  }\n  .modal-content {\n    width: 95%;\n    margin: 10px;\n  }\n  .cooling-results-main,\n  .cooling-result-difference {\n    grid-template-columns: 1fr;\n    gap: 12px;\n  }\n  .modal-header {\n    padding: 16px 20px;\n  }\n  .modal-header h3 {\n    font-size: 1.1rem;\n  }\n  .cooling-compare-modal-content {\n    padding: 20px;\n  }\n}\n@media (max-width: 480px) {\n  .widget-container {\n    margin-bottom: 10px;\n  }\n  .widget-header {\n    padding: 10px 12px;\n  }\n  .widget-icon {\n    width: 30px;\n    height: 30px;\n  }\n  .widget-title {\n    font-size: 1rem;\n  }\n  .widget-content {\n    padding: 0 10px 10px;\n  }\n  .expand-icon {\n    width: 28px;\n    height: 28px;\n  }\n  .ultra-compact-metrics {\n    padding: 12px 14px;\n    gap: 10px;\n  }\n  .metric-value {\n    font-size: 1.8rem;\n  }\n  .metric-label {\n    font-size: 0.85rem;\n  }\n  .secondary-label {\n    font-size: 0.75rem;\n  }\n  .secondary-value {\n    font-size: 0.9rem;\n  }\n  .secondary-metric {\n    min-width: 80px;\n    padding: 6px 10px;\n  }\n  .glass-bg-fpr {\n    padding: 12px 10px;\n  }\n}\n.uxp-date-range-picker .uxp-date-picker-dropdown,\n.uxp-date-range-picker .uxp-date-range-picker-dropdown,\n.uxp-date-range-picker .react-datepicker-popper,\n.uxp-date-range-picker .react-datepicker__portal,\n.uxp-date-range-picker .react-datepicker__tab-loop,\n.uxp-date-picker .uxp-date-picker-dropdown,\n.uxp-date-picker .uxp-date-range-picker-dropdown,\n.uxp-date-picker .react-datepicker-popper,\n.uxp-date-picker .react-datepicker__portal,\n.uxp-date-picker .react-datepicker__tab-loop {\n  z-index: 10002 !important;\n}\n\n.sla-modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.7);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 10000;\n}\n\n.sla-modal {\n  background: var(--modal-bg);\n  border: 1px solid var(--modal-border);\n  border-radius: 12px;\n  width: 90%;\n  max-width: 500px;\n  max-height: 80vh;\n  overflow: auto;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);\n}\n\n.sla-modal .modal-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 20px 24px;\n  border-bottom: 1px solid var(--glass-border);\n}\n.sla-modal .modal-header h3 {\n  margin: 0;\n  color: var(--text-color);\n  font-size: 1.2rem;\n  font-weight: 600;\n}\n\n.close-btn {\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  color: var(--text-color);\n  cursor: pointer;\n  padding: 8px;\n  border-radius: 6px;\n  transition: all 0.2s ease;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 36px;\n  height: 36px;\n}\n.close-btn:hover {\n  background: rgba(255, 255, 255, 0.2);\n  border-color: rgba(255, 255, 255, 0.4);\n  transform: scale(1.05);\n}\n.close-btn svg {\n  opacity: 0.8;\n  transition: opacity 0.2s ease;\n}\n.close-btn:hover svg {\n  opacity: 1;\n}\n\n.sla-modal .modal-content {\n  padding: 20px 24px;\n}\n\n.sla-ticket {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 12px 16px;\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 8px;\n  margin-bottom: 12px;\n}\n.sla-ticket:last-child {\n  margin-bottom: 0;\n}\n\n.ticket-id {\n  font-weight: 600;\n  color: var(--text-color);\n  font-size: 0.9rem;\n}\n\n.ticket-area {\n  color: var(--text-secondary);\n  font-size: 0.85rem;\n}\n\n.time-remaining {\n  color: #FF6B35;\n  font-weight: 600;\n  font-size: 0.85rem;\n}\n\n.widget-container {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 10px;\n  margin-bottom: 6px;\n  overflow: hidden;\n  transition: all 0.3s ease;\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n\n.widget-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 16px 20px;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.widget-header:hover {\n  background: rgba(255, 255, 255, 0.02);\n}\n\n.widget-header-left {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n\n.widget-icon {\n  width: 40px;\n  height: 40px;\n  background: rgba(74, 144, 226, 0.15);\n  border-radius: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #4A90E2;\n}\n\n.widget-title {\n  font-size: 1.6rem;\n  font-weight: 600;\n  color: var(--text-color);\n  display: flex;\n  align-items: center;\n  letter-spacing: -0.02em;\n}\n\n.widget-header-right {\n  display: flex;\n  align-items: center;\n  gap: 16px;\n}\n\n.expand-icon {\n  width: 32px;\n  height: 32px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 8px;\n  transition: all 0.2s ease;\n}\n.expand-icon:hover {\n  background: rgba(255, 255, 255, 0.05);\n}\n\n.widget-content {\n  padding: 0 20px 20px;\n  transition: all 0.3s ease;\n}\n\n.widget-controls {\n  display: flex;\n  gap: 10px;\n  margin-bottom: 16px;\n}\n\n.trend-section {\n  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);\n  overflow: hidden;\n  transform-origin: top;\n  margin-top: 20px;\n}\n.trend-section.collapsed {\n  max-height: 0;\n  margin-top: 0;\n  opacity: 0;\n  transform: scaleY(0);\n  padding: 0;\n  margin-bottom: 0;\n}\n\n.trend-header {\n  display: flex;\n  justify-content: flex-end;\n  margin-bottom: 12px;\n}\n\n.trend-chart {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 8px;\n  padding: 14px;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n.trend-chart .recharts-wrapper {\n  position: relative !important;\n  cursor: default !important;\n}\n.trend-chart .recharts-wrapper svg {\n  overflow: visible !important;\n}\n.trend-chart .recharts-cartesian-grid-horizontal line,\n.trend-chart .recharts-cartesian-grid-vertical line {\n  stroke: rgba(255, 255, 255, 0.1);\n}\n.trend-chart .recharts-text {\n  fill: #ffffff !important;\n  opacity: 0.9;\n  font-size: 12px !important;\n}\n.trend-chart .recharts-legend-wrapper .recharts-legend-item-text {\n  color: #ffffff !important;\n  font-size: 12px !important;\n}\n.trend-chart .recharts-cartesian-axis-tick-value {\n  fill: #ffffff !important;\n  font-size: 12px !important;\n}\n.trend-chart .recharts-tooltip-wrapper .recharts-default-tooltip {\n  background: rgba(15, 15, 15, 0.95) !important;\n  border: 1px solid rgba(255, 255, 255, 0.25) !important;\n  border-radius: 6px !important;\n  color: #ffffff !important;\n  font-size: 12px;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);\n}\n.trend-chart .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-item {\n  color: #ffffff !important;\n  font-size: 14px;\n}\n.trend-chart .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-label {\n  color: #ffffff !important;\n  font-size: 14px;\n  font-weight: 500;\n}\n.trend-chart .recharts-line-dot {\n  outline: none;\n}\n.trend-chart .recharts-active-dot {\n  outline: none;\n}\n.trend-chart .recharts-surface {\n  outline: none;\n}\n\n.ultra-compact-metrics {\n  display: flex;\n  align-items: flex-start;\n  gap: 16px;\n  margin: 10px 0;\n  padding: 14px 18px;\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 8px;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n@media (max-width: 768px) {\n  .ultra-compact-metrics {\n    flex-direction: column;\n    gap: 12px;\n    align-items: center;\n  }\n}\n\n.main-metric-card {\n  text-align: center;\n  min-width: 140px;\n  flex-shrink: 0;\n}\n\n.metric-value {\n  font-size: 2.6rem;\n  font-weight: 700;\n  color: #4A90E2;\n  line-height: 1;\n  margin-bottom: 6px;\n}\n\n.metric-label {\n  font-size: 1rem;\n  color: var(--text-secondary);\n  font-weight: 500;\n  opacity: 0.9;\n}\n\n.secondary-metrics {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 20px;\n  flex: 1;\n  align-items: flex-start;\n}\n@media (max-width: 768px) {\n  .secondary-metrics {\n    justify-content: center;\n    gap: 16px;\n  }\n}\n\n.secondary-metric {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-align: center;\n  flex: 1;\n  min-width: 120px;\n  max-width: 120px;\n  padding: 8px 10px;\n  background: rgba(255, 255, 255, 0.02);\n  border-radius: 6px;\n  border: 1px solid rgba(255, 255, 255, 0.05);\n}\n\n.secondary-label {\n  font-size: 0.95rem;\n  color: var(--text-secondary);\n  margin-bottom: 4px;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  font-weight: 500;\n  opacity: 0.9;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.secondary-value {\n  font-size: 1.1rem;\n  font-weight: 700;\n  color: var(--text-color);\n}\n.secondary-value.warning {\n  color: #FF9800;\n  font-weight: 700;\n}\n.secondary-value.positive {\n  color: #4CAF50;\n}\n.secondary-value.negative {\n  color: #F44336;\n}\n\n.glass-bg-fpr {\n  padding: 14px 12px;\n}\n\n.recharts-responsive-container .recharts-surface {\n  outline: none;\n}\n\n@media (max-width: 768px) {\n  .chart-container .recharts-responsive-container {\n    height: 220px !important;\n  }\n}\n@media (max-width: 480px) {\n  .chart-container .recharts-responsive-container {\n    height: 180px !important;\n  }\n}", ""]);
+exports.push([module.id, ":root, .dark-mode {\n  --bg-color: rgba(20, 20, 20, 0.1);\n  --text-color: #ffffff;\n  --text-secondary: rgba(255, 255, 255, 0.9);\n  --text-muted: rgba(255, 255, 255, 0.7);\n  --glass-bg: rgba(20, 20, 20, 0.15);\n  --glass-border: rgba(255, 255, 255, 0.18);\n  --card-bg: rgba(255, 255, 255, 0.05);\n  --card-border: rgba(255, 255, 255, 0.08);\n  --progress-bg: rgba(255, 255, 255, 0.1);\n  --modal-bg: rgba(20, 20, 20, 0.95);\n  --modal-border: rgba(255, 255, 255, 0.1);\n  --primary-blue: #4A90E2;\n  --success-green: #7ED321;\n  --warning-orange: #F5A623;\n  --purple: #BD10E0;\n  --danger-red: #FF4757;\n  --cyan: #06B6D4;\n  --green: #10B981;\n}\n\n.uxp-date-range-picker,\n.uxp-date-picker,\n.react-datepicker-popper,\n.react-datepicker__portal {\n  z-index: 10001 !important;\n}\n\n.uxp-date-picker-dropdown,\n.uxp-date-range-picker-dropdown,\n.react-datepicker__tab-loop {\n  z-index: 10002 !important;\n}\n\n.main-container {\n  width: 100%;\n  height: 100%;\n  background: var(--bg-color);\n  color: var(--text-color);\n  transition: all 0.3s ease;\n  display: flex;\n  flex-direction: column;\n  overflow: auto;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  direction: rtl;\n}\n.main-container * {\n  direction: ltr;\n}\n\n.glass-bg-fpr {\n  background: var(--glass-bg);\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  padding: 16px 14px;\n  width: 100%;\n  min-height: auto;\n  color: var(--text-color);\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  height: auto;\n  flex: 1;\n  border-radius: 12px;\n  border: 1px solid var(--glass-border);\n}\n\n.main-header {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n  flex: 1;\n}\n.main-header .header-text {\n  font-size: 1.7rem;\n  font-weight: 600;\n  color: var(--text-color);\n  letter-spacing: -0.02em;\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n.main-header .header-text svg {\n  opacity: 0.9;\n}\n.main-header .header-subtitle {\n  font-size: 0.95rem;\n  color: var(--text-muted);\n  font-weight: 400;\n  display: inline-flex;\n  align-items: center;\n}\n\n.system-selector,\n.time-period-selector {\n  background: var(--card-bg);\n  border: 1px solid var(--card-border);\n  border-radius: 6px;\n  padding: 8px 14px;\n  color: var(--text-color);\n  font-size: 1rem;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.system-selector:hover,\n.time-period-selector:hover {\n  background: var(--card-border);\n}\n.system-selector option,\n.time-period-selector option {\n  background: var(--modal-bg);\n  color: var(--text-color);\n}\n\n.compare-btn {\n  background: rgba(100, 181, 246, 0.15);\n  color: #fff;\n  border: 1px solid rgba(100, 181, 246, 0.3);\n  padding: 6px 12px;\n  border-radius: 8px;\n  font-size: 1.2rem;\n  font-weight: 700;\n  cursor: pointer;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n.compare-btn:hover {\n  background: rgba(100, 181, 246, 0.25);\n  border-color: rgba(100, 181, 246, 0.5);\n  transform: translateY(-1px);\n  box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);\n}\n\n.fault-count-section {\n  background: var(--card-bg);\n  border-radius: 12px;\n  padding: 24px;\n  margin-bottom: 24px;\n  border: 1px solid var(--card-border);\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n.fault-count-section .fault-count-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-bottom: 24px;\n}\n.fault-count-section .fault-count-header .fault-count-title {\n  font-size: 1.1rem;\n  font-weight: 500;\n  color: var(--text-color);\n}\n.fault-count-section .fault-count-header .fault-count-average {\n  font-size: 0.95rem;\n  color: var(--text-secondary);\n}\n.fault-count-section .fault-count-header .fault-count-average .change-percentage {\n  font-weight: 600;\n  margin-left: 8px;\n}\n.fault-count-section .fault-count-header .fault-count-average .change-percentage.positive {\n  color: var(--danger-red);\n}\n.fault-count-section .fault-count-header .fault-count-average .change-percentage.negative {\n  color: var(--success-green);\n}\n.fault-count-section .fault-display .fault-label {\n  font-size: 0.95rem;\n  color: var(--text-muted);\n  margin-bottom: 12px;\n}\n.fault-count-section .fault-display .fault-value {\n  font-size: 3.5rem;\n  font-weight: 700;\n  color: var(--danger-red);\n  margin-bottom: 12px;\n  line-height: 1;\n  letter-spacing: -2px;\n}\n.fault-count-section .fault-display .fault-status {\n  font-size: 0.95rem;\n  color: var(--danger-red);\n  opacity: 0.85;\n  font-weight: 500;\n}\n\n.chart-section {\n  margin-bottom: 24px;\n}\n.chart-section .chart-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  margin-bottom: 16px;\n}\n.chart-section .chart-header .chart-title {\n  font-size: 1.1rem;\n  font-weight: 500;\n  color: var(--text-color);\n}\n\n.chart-container {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 12px;\n  padding: 20px;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n.chart-container .recharts-cartesian-grid-horizontal line,\n.chart-container .recharts-cartesian-grid-vertical line {\n  stroke: rgba(255, 255, 255, 0.08);\n}\n.chart-container .recharts-text {\n  fill: #ffffff !important;\n  opacity: 0.9;\n  font-size: 12px !important;\n}\n.chart-container .recharts-legend-wrapper .recharts-legend-item-text {\n  color: #ffffff !important;\n  opacity: 0.9;\n}\n.chart-container .recharts-legend-wrapper .recharts-default-legend {\n  padding-top: 16px !important;\n}\n.chart-container .recharts-tooltip-wrapper .recharts-default-tooltip {\n  background: rgba(20, 20, 20, 0.95) !important;\n  border: 1px solid rgba(255, 255, 255, 0.25) !important;\n  border-radius: 6px !important;\n  color: #ffffff !important;\n  padding: 8px 12px !important;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;\n}\n.chart-container .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-item {\n  color: #ffffff !important;\n  font-size: 12px !important;\n}\n.chart-container .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-label {\n  color: #ffffff !important;\n  font-weight: 500 !important;\n  margin-bottom: 4px !important;\n}\n.chart-container .recharts-bar {\n  outline: none;\n  cursor: pointer;\n  filter: brightness(1);\n  transition: filter 0.3s ease;\n}\n.chart-container .recharts-bar:hover {\n  filter: brightness(1.2);\n}\n.chart-container .recharts-surface {\n  outline: none;\n}\n.chart-container .recharts-reference-line-line {\n  stroke: var(--primary-blue);\n  stroke-width: 2;\n  stroke-dasharray: 4 4;\n  opacity: 0.8;\n}\n.chart-container .recharts-label {\n  fill: var(--primary-blue);\n  font-size: 11px;\n  font-weight: 500;\n}\n.chart-container .recharts-rectangle {\n  transition: opacity 0.3s ease;\n}\n\n.modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.7);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 1002;\n}\n.modal-overlay .uxp-date-range-picker,\n.modal-overlay .uxp-date-picker {\n  z-index: 10001 !important;\n}\n.modal-overlay .uxp-date-range-picker .uxp-date-picker-dropdown,\n.modal-overlay .uxp-date-range-picker .uxp-date-range-picker-dropdown,\n.modal-overlay .uxp-date-range-picker .react-datepicker-popper,\n.modal-overlay .uxp-date-range-picker .react-datepicker__portal,\n.modal-overlay .uxp-date-picker .uxp-date-picker-dropdown,\n.modal-overlay .uxp-date-picker .uxp-date-range-picker-dropdown,\n.modal-overlay .uxp-date-picker .react-datepicker-popper,\n.modal-overlay .uxp-date-picker .react-datepicker__portal {\n  z-index: 10002 !important;\n}\n\n.cooling-compare-modal {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.7);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 9999;\n}\n\n.modal-content {\n  background: var(--modal-bg);\n  border: 1px solid var(--modal-border);\n  padding: 0;\n  max-width: 600px;\n  max-height: 80vh;\n  overflow: auto;\n  backdrop-filter: blur(10px);\n}\n\n.modal-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 20px 24px;\n  border-bottom: 1px solid var(--glass-border);\n}\n.modal-header h3 {\n  margin: 0;\n  color: var(--text-color);\n  font-size: 1.2rem;\n  font-weight: 600;\n}\n\n.modal-close {\n  background: none;\n  border: none;\n  color: var(--text-color);\n  font-size: 24px;\n  cursor: pointer;\n  padding: 0;\n  width: 30px;\n  height: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 4px;\n  transition: background 0.2s ease;\n}\n.modal-close:hover {\n  background: var(--card-border);\n}\n\n.cooling-compare-modal-content {\n  padding: 24px;\n}\n\n.cooling-compare-section {\n  margin-bottom: 20px;\n}\n.cooling-compare-section label {\n  display: block;\n  margin-bottom: 12px;\n  color: var(--text-secondary);\n  font-size: 1.05rem;\n  font-weight: 500;\n}\n\n.cooling-select-container {\n  margin-bottom: 16px;\n}\n\n.cooling-compare-select {\n  width: 100%;\n  background: var(--card-bg);\n  border: 1px solid var(--card-border);\n  border-radius: 6px;\n  padding: 10px 14px;\n  color: var(--text-color);\n  font-size: 1rem;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.cooling-compare-select:hover, .cooling-compare-select:focus {\n  background: var(--card-border);\n  outline: none;\n}\n.cooling-compare-select option {\n  background: var(--modal-bg);\n  color: var(--text-color);\n}\n\n.cooling-compare-advanced {\n  margin-top: 16px;\n  padding: 16px;\n  background: var(--card-bg);\n  border-radius: 8px;\n  border: 1px solid var(--card-border);\n}\n\n.cooling-compare-advanced-range1,\n.cooling-compare-advanced-range2 {\n  margin-bottom: 16px;\n}\n.cooling-compare-advanced-range1 label,\n.cooling-compare-advanced-range2 label {\n  margin-bottom: 8px;\n}\n.cooling-compare-advanced-range1 .date-input,\n.cooling-compare-advanced-range2 .date-input {\n  width: 100%;\n  background: var(--card-bg);\n  border: 1px solid var(--card-border);\n  border-radius: 4px;\n  padding: 8px 12px;\n  color: var(--text-color);\n  font-size: 0.9rem;\n  margin-bottom: 8px;\n}\n.cooling-compare-advanced-range1 .date-input:focus,\n.cooling-compare-advanced-range2 .date-input:focus {\n  outline: none;\n  border-color: var(--primary-blue);\n}\n.cooling-compare-advanced-range1 .date-input::-webkit-calendar-picker-indicator,\n.cooling-compare-advanced-range2 .date-input::-webkit-calendar-picker-indicator {\n  filter: invert(1);\n}\n\n.cooling-compare-label-bold {\n  font-weight: 600;\n}\n\n.cooling-compare-label-margin {\n  margin-bottom: 8px;\n}\n\n.cooling-CalculateCompare-btn {\n  background: #42A5F5;\n  border: none;\n  border-radius: 6px;\n  padding: 10px 20px;\n  color: white;\n  font-size: 1rem;\n  font-weight: 500;\n  cursor: pointer;\n  transition: all 0.2s ease;\n  width: 100%;\n}\n.cooling-CalculateCompare-btn:hover:not(:disabled) {\n  background: #1976D2;\n  transform: translateY(-1px);\n}\n.cooling-CalculateCompare-btn:disabled {\n  background: var(--card-border);\n  cursor: not-allowed;\n  color: var(--text-muted);\n}\n\n.cooling-comparison-results {\n  margin-top: 24px;\n  padding: 20px;\n  background: var(--card-bg);\n  border-radius: 8px;\n  border: 1px solid var(--card-border);\n}\n.cooling-comparison-results h4 {\n  margin: 0 0 16px 0;\n  color: var(--text-color);\n  font-size: 1.1rem;\n  font-weight: 600;\n}\n\n.cooling-results-main {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 16px;\n  margin-bottom: 20px;\n}\n\n.cooling-result-comparison,\n.cooling-result-current {\n  padding: 12px;\n  background: var(--glass-bg);\n  border-radius: 6px;\n  border: 1px solid var(--glass-border);\n}\n\n.cooling-result-label {\n  font-size: 0.85rem;\n  color: var(--text-muted);\n  margin-bottom: 4px;\n}\n\n.cooling-result-value {\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: var(--text-color);\n}\n\n.cooling-result-difference {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 16px;\n}\n\n.cooling-difference-item {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 10px 12px;\n  background: var(--glass-bg);\n  border-radius: 6px;\n  border: 1px solid var(--glass-border);\n}\n\n.cooling-difference-label {\n  font-size: 0.9rem;\n  color: var(--text-secondary);\n}\n\n.cooling-difference-value-container {\n  display: flex;\n  align-items: center;\n  gap: 4px;\n}\n\n.cooling-difference-value {\n  font-weight: 600;\n  font-size: 0.95rem;\n}\n\n.modal-container.dt-water-compare-modal .modal-backdrop {\n  background-color: transparent !important;\n}\n.modal-container.dt-water-compare-modal .modal-panel {\n  min-width: 30%;\n  width: auto;\n  max-width: 40%;\n  height: auto;\n  max-height: 100%;\n  min-height: 50%;\n  background: rgba(0, 0, 0, 0.11) !important;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-header {\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  color: #fff;\n  font-size: 1.4rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px 12px 0 0;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-body {\n  padding: 16px;\n  height: 100% !important;\n  margin: 0;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  overflow-y: auto;\n  border-radius: 0 0 12px 12px;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker {\n  z-index: 10001 !important;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .uxp-date-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .uxp-date-range-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .react-datepicker-popper,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .react-datepicker__portal,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .uxp-date-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .uxp-date-range-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .react-datepicker-popper,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .react-datepicker__portal {\n  z-index: 10002 !important;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-header .modal-close,\n.modal-container.dt-water-compare-modal .modal-panel .modal-header .close-btn {\n  background: transparent !important;\n  color: #fff !important;\n  border-color: #fff !important;\n  border-radius: 50% !important;\n  width: 30px !important;\n  height: 30px !important;\n  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNS42NyAxNS42NyI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOm5vbmU7c3Ryb2tlOiNmZmZmZmY7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS13aWR0aDozcHg7fTwvc3R5bGU+PC9kZWZzPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iMTQuMTciIHkxPSIxLjUiIHgyPSIxLjUiIHkyPSIxNC4xNyIvPjxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjE0LjE3IiB5MT0iMTQuMTciIHgyPSIxLjUiIHkyPSIxLjUiLz48L2c+PC9nPjwvc3ZnPg==) !important;\n  background-position: center !important;\n  background-repeat: no-repeat !important;\n  background-size: 30% !important;\n  cursor: pointer !important;\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  transition: all 0.2s ease !important;\n}\n\n@media (max-width: 768px) {\n  .main-container {\n    padding: 10px 6px;\n  }\n  .glass-bg-fpr {\n    padding: 12px 10px;\n  }\n  .widget-container {\n    margin-bottom: 12px;\n  }\n  .widget-header {\n    padding: 12px 14px;\n  }\n  .widget-icon {\n    width: 34px;\n    height: 34px;\n  }\n  .widget-title {\n    font-size: 1.15rem;\n  }\n  .widget-content {\n    padding: 0 12px 12px;\n  }\n  .widget-controls {\n    flex-wrap: wrap;\n  }\n  .ultra-compact-metrics {\n    padding: 14px 16px;\n    gap: 12px;\n  }\n  .metric-value {\n    font-size: 2rem;\n  }\n  .system-selector,\n  .time-period-selector,\n  .compare-btn {\n    font-size: 0.85rem;\n    padding: 6px 10px;\n  }\n  .modal-content {\n    width: 95%;\n    margin: 10px;\n  }\n  .cooling-results-main,\n  .cooling-result-difference {\n    grid-template-columns: 1fr;\n    gap: 12px;\n  }\n  .modal-header {\n    padding: 16px 20px;\n  }\n  .modal-header h3 {\n    font-size: 1.1rem;\n  }\n  .cooling-compare-modal-content {\n    padding: 20px;\n  }\n}\n@media (max-width: 480px) {\n  .widget-container {\n    margin-bottom: 10px;\n  }\n  .widget-header {\n    padding: 10px 12px;\n  }\n  .widget-icon {\n    width: 30px;\n    height: 30px;\n  }\n  .widget-title {\n    font-size: 1rem;\n  }\n  .widget-content {\n    padding: 0 10px 10px;\n  }\n  .expand-icon {\n    width: 28px;\n    height: 28px;\n  }\n  .ultra-compact-metrics {\n    padding: 12px 14px;\n    gap: 10px;\n  }\n  .metric-value {\n    font-size: 1.8rem;\n  }\n  .metric-label {\n    font-size: 0.85rem;\n  }\n  .secondary-label {\n    font-size: 0.75rem;\n  }\n  .secondary-value {\n    font-size: 0.9rem;\n  }\n  .secondary-metric {\n    min-width: 80px;\n    padding: 6px 10px;\n  }\n  .glass-bg-fpr {\n    padding: 12px 10px;\n  }\n}\n.uxp-date-range-picker .uxp-date-picker-dropdown,\n.uxp-date-range-picker .uxp-date-range-picker-dropdown,\n.uxp-date-range-picker .react-datepicker-popper,\n.uxp-date-range-picker .react-datepicker__portal,\n.uxp-date-range-picker .react-datepicker__tab-loop,\n.uxp-date-picker .uxp-date-picker-dropdown,\n.uxp-date-picker .uxp-date-range-picker-dropdown,\n.uxp-date-picker .react-datepicker-popper,\n.uxp-date-picker .react-datepicker__portal,\n.uxp-date-picker .react-datepicker__tab-loop {\n  z-index: 10002 !important;\n}\n\n.sla-modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.7);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 10000;\n}\n\n.sla-modal {\n  background: var(--modal-bg);\n  border: 1px solid var(--modal-border);\n  border-radius: 12px;\n  width: 90%;\n  max-width: 500px;\n  max-height: 80vh;\n  overflow: auto;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);\n}\n\n.sla-modal .modal-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 20px 24px;\n  border-bottom: 1px solid var(--glass-border);\n}\n.sla-modal .modal-header h3 {\n  margin: 0;\n  color: var(--text-color);\n  font-size: 1.2rem;\n  font-weight: 600;\n}\n\n.close-btn {\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  color: var(--text-color);\n  cursor: pointer;\n  padding: 8px;\n  border-radius: 6px;\n  transition: all 0.2s ease;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 36px;\n  height: 36px;\n}\n.close-btn:hover {\n  background: rgba(255, 255, 255, 0.2);\n  border-color: rgba(255, 255, 255, 0.4);\n  transform: scale(1.05);\n}\n.close-btn svg {\n  opacity: 0.8;\n  transition: opacity 0.2s ease;\n}\n.close-btn:hover svg {\n  opacity: 1;\n}\n\n.sla-modal .modal-content {\n  padding: 20px 24px;\n}\n\n.sla-ticket {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 12px 16px;\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 8px;\n  margin-bottom: 12px;\n}\n.sla-ticket:last-child {\n  margin-bottom: 0;\n}\n\n.ticket-id {\n  font-weight: 600;\n  color: var(--text-color);\n  font-size: 0.9rem;\n}\n\n.ticket-area {\n  color: var(--text-secondary);\n  font-size: 0.85rem;\n}\n\n.time-remaining {\n  color: #FF6B35;\n  font-weight: 600;\n  font-size: 0.85rem;\n}\n\n.widget-container {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 10px;\n  margin-bottom: 6px;\n  overflow: hidden;\n  transition: all 0.3s ease;\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n\n.widget-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 16px 20px;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.widget-header:hover {\n  background: rgba(255, 255, 255, 0.02);\n}\n\n.widget-header-left {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n\n.widget-icon {\n  width: 40px;\n  height: 40px;\n  background: rgba(74, 144, 226, 0.15);\n  border-radius: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #4A90E2;\n}\n\n.widget-title {\n  font-size: 1.6rem;\n  font-weight: 600;\n  display: flex;\n  align-items: center;\n  letter-spacing: -0.02em;\n}\n\n.widget-header-right {\n  display: flex;\n  align-items: center;\n  gap: 16px;\n}\n\n.expand-icon {\n  width: 32px;\n  height: 32px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 8px;\n  transition: all 0.2s ease;\n}\n.expand-icon:hover {\n  background: rgba(255, 255, 255, 0.05);\n}\n\n.widget-content {\n  padding: 0 20px 20px;\n  transition: all 0.3s ease;\n}\n\n.widget-controls {\n  display: flex;\n  gap: 10px;\n  margin-bottom: 16px;\n}\n\n.trend-section {\n  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);\n  overflow: hidden;\n  transform-origin: top;\n  margin-top: 20px;\n}\n.trend-section.collapsed {\n  max-height: 0;\n  margin-top: 0;\n  opacity: 0;\n  transform: scaleY(0);\n  padding: 0;\n  margin-bottom: 0;\n}\n\n.trend-header {\n  display: flex;\n  justify-content: flex-end;\n  margin-bottom: 12px;\n}\n\n.trend-chart {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 8px;\n  padding: 14px;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n.trend-chart .recharts-wrapper {\n  position: relative !important;\n  cursor: default !important;\n}\n.trend-chart .recharts-wrapper svg {\n  overflow: visible !important;\n}\n.trend-chart .recharts-cartesian-grid-horizontal line,\n.trend-chart .recharts-cartesian-grid-vertical line {\n  stroke: rgba(255, 255, 255, 0.1);\n}\n.trend-chart .recharts-text {\n  fill: #ffffff !important;\n  opacity: 0.9;\n  font-size: 12px !important;\n}\n.trend-chart .recharts-legend-wrapper .recharts-legend-item-text {\n  color: #ffffff !important;\n  font-size: 12px !important;\n}\n.trend-chart .recharts-cartesian-axis-tick-value {\n  fill: #ffffff !important;\n  font-size: 12px !important;\n}\n.trend-chart .recharts-tooltip-wrapper .recharts-default-tooltip {\n  background: rgba(15, 15, 15, 0.95) !important;\n  border: 1px solid rgba(255, 255, 255, 0.25) !important;\n  border-radius: 6px !important;\n  color: #ffffff !important;\n  font-size: 12px;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);\n}\n.trend-chart .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-item {\n  color: #ffffff !important;\n  font-size: 14px;\n}\n.trend-chart .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-label {\n  color: #ffffff !important;\n  font-size: 14px;\n  font-weight: 500;\n}\n.trend-chart .recharts-line-dot {\n  outline: none;\n}\n.trend-chart .recharts-active-dot {\n  outline: none;\n}\n.trend-chart .recharts-surface {\n  outline: none;\n}\n\n.ultra-compact-metrics {\n  display: flex;\n  align-items: flex-start;\n  gap: 16px;\n  margin: 10px 0;\n  padding: 14px 18px;\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 8px;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n@media (max-width: 768px) {\n  .ultra-compact-metrics {\n    flex-direction: column;\n    gap: 12px;\n    align-items: center;\n  }\n}\n\n.main-metric-card {\n  text-align: center;\n  min-width: 140px;\n  flex-shrink: 0;\n}\n\n.metric-value {\n  font-size: 2.6rem;\n  font-weight: 700;\n  color: #4A90E2;\n  line-height: 1;\n  margin-bottom: 6px;\n}\n\n.metric-label {\n  font-size: 1rem;\n  color: var(--text-secondary);\n  font-weight: 500;\n  opacity: 0.9;\n}\n\n.secondary-metrics {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 20px;\n  flex: 1;\n  align-items: flex-start;\n}\n@media (max-width: 768px) {\n  .secondary-metrics {\n    justify-content: center;\n    gap: 16px;\n  }\n}\n\n.secondary-metric {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-align: center;\n  flex: 1;\n  min-width: 120px;\n  max-width: 120px;\n  padding: 8px 10px;\n  background: rgba(255, 255, 255, 0.02);\n  border-radius: 6px;\n  border: 1px solid rgba(255, 255, 255, 0.05);\n}\n\n.secondary-label {\n  font-size: 0.95rem;\n  color: var(--text-secondary);\n  margin-bottom: 4px;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  font-weight: 500;\n  opacity: 0.9;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.secondary-value {\n  font-size: 1.1rem;\n  font-weight: 700;\n  color: var(--text-color);\n}\n.secondary-value.warning {\n  color: #FF9800;\n  font-weight: 700;\n}\n.secondary-value.positive {\n  color: #4CAF50;\n}\n.secondary-value.negative {\n  color: #F44336;\n}\n\n.glass-bg-fpr {\n  padding: 14px 12px;\n}\n\n.recharts-responsive-container .recharts-surface {\n  outline: none;\n}\n\n@media (max-width: 768px) {\n  .chart-container .recharts-responsive-container {\n    height: 220px !important;\n  }\n}\n@media (max-width: 480px) {\n  .chart-container .recharts-responsive-container {\n    height: 180px !important;\n  }\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -524,8 +524,8 @@ __webpack_require__(/*! ./MaintenanceSummaryWidget.scss */ "./src/components/Mai
 // Import Recharts dynamically to avoid TypeScript issues
 const Recharts = __webpack_require__(/*! recharts */ "recharts");
 const { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } = Recharts;
-const MaintenanceSummaryWidget = ({ onCompare }) => {
-    const [timeRange, setTimeRange] = (0, react_1.useState)('lastMonth');
+const MaintenanceSummaryWidget = (props) => {
+    const [timeRange, setTimeRange] = (0, react_1.useState)('thisWeek');
     const [selectedSystem, setSelectedSystem] = (0, react_1.useState)('All Systems');
     const [showSLAModal, setShowSLAModal] = (0, react_1.useState)(false);
     const [slaHours, setSlaHours] = (0, react_1.useState)(2);
@@ -625,8 +625,60 @@ const MaintenanceSummaryWidget = ({ onCompare }) => {
     // Generate maintenance data based on filters
     const getMaintenanceData = () => {
         var _a;
+        // Different data based on LocationKey (1 = site, 3 = building)
+        const isSite = props.LocationKey === '1';
         // Base data that changes with filters
-        const baseData = {
+        const baseData = isSite ? {
+            thisWeek: {
+                'All Systems': {
+                    inProgress: 2,
+                    resolved: 1,
+                    closed: 1,
+                    cwo: [0, 1, 0, 0, 1, 0, 0],
+                    pwo: [1, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'HVAC': {
+                    inProgress: 1,
+                    resolved: 0,
+                    closed: 0,
+                    cwo: [0, 0, 0, 0, 1, 0, 0],
+                    pwo: [1, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'Lighting': {
+                    inProgress: 1,
+                    resolved: 1,
+                    closed: 0,
+                    cwo: [0, 1, 0, 0, 0, 0, 0],
+                    pwo: [0, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'CCTV': {
+                    inProgress: 0,
+                    resolved: 0,
+                    closed: 1,
+                    cwo: [0, 0, 0, 0, 0, 0, 0],
+                    pwo: [0, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'Water': {
+                    inProgress: 0,
+                    resolved: 0,
+                    closed: 0,
+                    cwo: [0, 0, 0, 0, 0, 0, 0],
+                    pwo: [0, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'Others': {
+                    inProgress: 0,
+                    resolved: 0,
+                    closed: 0,
+                    cwo: [0, 0, 0, 0, 0, 0, 0],
+                    pwo: [0, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                }
+            },
             lastWeek: {
                 'All Systems': {
                     inProgress: 3,
@@ -827,11 +879,214 @@ const MaintenanceSummaryWidget = ({ onCompare }) => {
                     slaBreachTickets: []
                 }
             }
+        } : {
+            // Building data (LocationKey = 3) - Higher values
+            thisWeek: {
+                'All Systems': {
+                    inProgress: 4,
+                    resolved: 2,
+                    closed: 2,
+                    cwo: [0, 2, 0, 0, 2, 0, 0],
+                    pwo: [2, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'HVAC': {
+                    inProgress: 2,
+                    resolved: 1,
+                    closed: 0,
+                    cwo: [0, 1, 0, 0, 1, 0, 0],
+                    pwo: [1, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'Lighting': {
+                    inProgress: 1,
+                    resolved: 1,
+                    closed: 1,
+                    cwo: [0, 1, 0, 0, 0, 0, 0],
+                    pwo: [1, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'CCTV': {
+                    inProgress: 1,
+                    resolved: 0,
+                    closed: 1,
+                    cwo: [0, 0, 0, 0, 1, 0, 0],
+                    pwo: [0, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'Water': {
+                    inProgress: 0,
+                    resolved: 0,
+                    closed: 0,
+                    cwo: [0, 0, 0, 0, 0, 0, 0],
+                    pwo: [0, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'Others': {
+                    inProgress: 0,
+                    resolved: 0,
+                    closed: 0,
+                    cwo: [0, 0, 0, 0, 0, 0, 0],
+                    pwo: [0, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                }
+            },
+            lastWeek: {
+                'All Systems': {
+                    inProgress: 5,
+                    resolved: 3,
+                    closed: 3,
+                    cwo: [0, 2, 0, 2, 1, 0, 0],
+                    pwo: [2, 0, 1, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'HVAC': {
+                    inProgress: 2,
+                    resolved: 1,
+                    closed: 1,
+                    cwo: [0, 1, 0, 1, 0, 0, 0],
+                    pwo: [1, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'Lighting': {
+                    inProgress: 2,
+                    resolved: 1,
+                    closed: 1,
+                    cwo: [0, 1, 0, 0, 0, 0, 0],
+                    pwo: [0, 0, 1, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'CCTV': {
+                    inProgress: 1,
+                    resolved: 1,
+                    closed: 1,
+                    cwo: [0, 0, 0, 1, 1, 0, 0],
+                    pwo: [1, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'Water': {
+                    inProgress: 0,
+                    resolved: 0,
+                    closed: 0,
+                    cwo: [0, 0, 0, 0, 0, 0, 0],
+                    pwo: [0, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'Others': {
+                    inProgress: 0,
+                    resolved: 0,
+                    closed: 0,
+                    cwo: [0, 0, 0, 0, 0, 0, 0],
+                    pwo: [0, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                }
+            },
+            thisMonth: {
+                'All Systems': {
+                    inProgress: 15,
+                    resolved: 12,
+                    closed: 14,
+                    cwo: [3, 2, 3, 3],
+                    pwo: [3, 3, 2, 2],
+                    slaBreachTickets: []
+                },
+                'HVAC': {
+                    inProgress: 5,
+                    resolved: 4,
+                    closed: 4,
+                    cwo: [2, 1, 1, 1],
+                    pwo: [1, 1, 1, 0],
+                    slaBreachTickets: []
+                },
+                'Lighting': {
+                    inProgress: 4,
+                    resolved: 3,
+                    closed: 4,
+                    cwo: [1, 0, 1, 1],
+                    pwo: [1, 1, 0, 1],
+                    slaBreachTickets: []
+                },
+                'CCTV': {
+                    inProgress: 4,
+                    resolved: 3,
+                    closed: 4,
+                    cwo: [0, 1, 1, 1],
+                    pwo: [1, 1, 1, 1],
+                    slaBreachTickets: []
+                },
+                'Water': {
+                    inProgress: 0,
+                    resolved: 0,
+                    closed: 0,
+                    cwo: [0, 0, 0, 0],
+                    pwo: [0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'Others': {
+                    inProgress: 2,
+                    resolved: 2,
+                    closed: 2,
+                    cwo: [0, 0, 0, 0],
+                    pwo: [0, 0, 0, 0],
+                    slaBreachTickets: []
+                }
+            },
+            lastQuarter: {
+                'All Systems': {
+                    inProgress: 25,
+                    resolved: 28,
+                    closed: 30,
+                    cwo: [3, 2, 2, 3, 2, 2, 3, 2, 3, 4, 3, 5, 3],
+                    pwo: [2, 2, 3, 2, 3, 3, 2, 3, 3, 3, 3, 3, 2],
+                    slaBreachTickets: []
+                },
+                'HVAC': {
+                    inProgress: 8,
+                    resolved: 9,
+                    closed: 10,
+                    cwo: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                    pwo: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                    slaBreachTickets: []
+                },
+                'Lighting': {
+                    inProgress: 8,
+                    resolved: 9,
+                    closed: 9,
+                    cwo: [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1],
+                    pwo: [0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0],
+                    slaBreachTickets: []
+                },
+                'CCTV': {
+                    inProgress: 6,
+                    resolved: 7,
+                    closed: 8,
+                    cwo: [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 2, 1],
+                    pwo: [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1],
+                    slaBreachTickets: []
+                },
+                'Water': {
+                    inProgress: 0,
+                    resolved: 0,
+                    closed: 0,
+                    cwo: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    pwo: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                },
+                'Others': {
+                    inProgress: 3,
+                    resolved: 3,
+                    closed: 3,
+                    cwo: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+                    pwo: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    slaBreachTickets: []
+                }
+            }
         };
-        return ((_a = baseData[timeRange]) === null || _a === void 0 ? void 0 : _a[selectedSystem]) || baseData.lastMonth['All Systems'];
+        return ((_a = baseData[timeRange]) === null || _a === void 0 ? void 0 : _a[selectedSystem]) || baseData.thisWeek['All Systems'];
     };
     const maintenanceData = getMaintenanceData();
     const timeRangeOptions = [
+        { label: 'This Week', value: 'thisWeek' },
         { label: 'Last Week', value: 'lastWeek' },
         { label: 'Last Month', value: 'lastMonth' },
         { label: 'Last Quarter', value: 'lastQuarter' },
@@ -849,6 +1104,8 @@ const MaintenanceSummaryWidget = ({ onCompare }) => {
     // Get appropriate labels based on time range
     const getChartLabels = () => {
         switch (timeRange) {
+            case 'thisWeek':
+                return ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
             case 'lastWeek':
                 return ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
             case 'lastMonth':
@@ -864,9 +1121,9 @@ const MaintenanceSummaryWidget = ({ onCompare }) => {
     const chartLabels = getChartLabels();
     // Prepare data for pie chart
     const pieData = [
-        { name: 'In Progress', value: maintenanceData.inProgress, color: '#FF6B35' },
-        { name: 'Resolved', value: maintenanceData.resolved, color: '#10B981' },
-        { name: 'Closed', value: maintenanceData.closed, color: '#6366F1' }
+        { name: 'New', value: maintenanceData.inProgress, color: '#FF6B35' },
+        { name: 'In Progress', value: maintenanceData.resolved, color: '#10B981' },
+        { name: 'Resolved', value: maintenanceData.closed, color: '#6366F1' }
     ];
     // Prepare data for bar chart - limit to available data points
     const barData = chartLabels.slice(0, maintenanceData.cwo.length).map((label, index) => ({
@@ -1146,7 +1403,7 @@ const MaintenanceSummaryWidget = ({ onCompare }) => {
                 react_1.default.createElement("div", { className: "modal-header" },
                     react_1.default.createElement("h3", null, "Tickets Expiring Soon"),
                     react_1.default.createElement("button", { className: "close-btn", onClick: () => setShowSLAModal(false) },
-                        react_1.default.createElement("svg", { width: "20", height: "20", viewBox: "0 0 24 24", fill: "currentColor" },
+                        react_1.default.createElement("svg", { width: "18", height: "18", viewBox: "0 0 24 24", fill: "currentColor" },
                             react_1.default.createElement("path", { d: "M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" })))),
                 react_1.default.createElement("div", { className: "modal-content" },
                     react_1.default.createElement("div", { className: "sla-ticket" },
@@ -1281,9 +1538,9 @@ const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components")
 // Import Recharts dynamically to avoid TypeScript issues
 const Recharts = __webpack_require__(/*! recharts */ "recharts");
 const { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceLine } = Recharts;
-const MonthlyFaultSummaryWidget = (_props) => {
+const MonthlyFaultSummaryWidget = (props) => {
     const [selectedSystem, setSelectedSystem] = React.useState('All Systems');
-    const [selectedTimePeriod, setSelectedTimePeriod] = React.useState('Past Month');
+    const [selectedTimePeriod, setSelectedTimePeriod] = React.useState('This Month');
     const [showCompareModal, setShowCompareModal] = React.useState(false);
     const [compareType, setCompareType] = React.useState('Last month');
     const [comparisonResult, setComparisonResult] = React.useState(null);
@@ -1293,8 +1550,8 @@ const MonthlyFaultSummaryWidget = (_props) => {
     const [isGraphCollapsed, setIsGraphCollapsed] = React.useState(true);
     // System types
     const systemTypes = ['All Systems', 'HVAC', 'Lighting', 'CCTV', 'Water', 'Others'];
-    // Time periods
-    const timePeriods = ['Past Month', 'Past Quarter', 'Past Half Year', 'Past Year'];
+    // Time periods - Updated to include "This Month" as default
+    const timePeriods = ['This Month', 'Past Month', 'Past Quarter', 'Past Half Year', 'Past Year'];
     // Compare options for dropdown
     const compareOptions = [
         { value: 'Last month', label: 'Last month' },
@@ -1382,8 +1639,11 @@ const MonthlyFaultSummaryWidget = (_props) => {
     };
     // Get fault data based on selected system and time period
     const getFaultData = () => {
-        // Mock data - replace with actual API call
-        const baseData = {
+        // Different data based on LocationKey (1 = site, 3 = building)
+        const isSite = props.LocationKey === '1';
+        // Mock data with updated logic for different time periods
+        const baseData = isSite ? {
+            // Site data (LocationKey = 1)
             'All Systems': {
                 total: 20,
                 average: 15.0,
@@ -1420,44 +1680,173 @@ const MonthlyFaultSummaryWidget = (_props) => {
                 change: 53.85,
                 status: 'Above average'
             }
+        } : {
+            // Building data (LocationKey = 3) - Higher fault counts
+            'All Systems': {
+                total: 32,
+                average: 24.0,
+                change: 33.33,
+                status: 'Above average'
+            },
+            'HVAC': {
+                total: 10,
+                average: 7.0,
+                change: 42.86,
+                status: 'Above average'
+            },
+            'Lighting': {
+                total: 5,
+                average: 4.5,
+                change: 11.11,
+                status: 'Near average'
+            },
+            'CCTV': {
+                total: 7,
+                average: 6.0,
+                change: 16.67,
+                status: 'Above average'
+            },
+            'Water': {
+                total: 8,
+                average: 5.5,
+                change: 45.45,
+                status: 'Above average'
+            },
+            'Others': {
+                total: 2,
+                average: 1.0,
+                change: 100.0,
+                status: 'Above average'
+            }
         };
-        return baseData[selectedSystem] || baseData['All Systems'];
+        const selectedData = baseData[selectedSystem] || baseData['All Systems'];
+        // For different time periods, adjust the data accordingly
+        if (selectedTimePeriod === 'This Month') {
+            // Show current month data with proper average calculation
+            return {
+                total: selectedData.total,
+                average: selectedData.average,
+                change: selectedData.change,
+                status: selectedData.status
+            };
+        }
+        else if (selectedTimePeriod === 'Past Month') {
+            // Show last month data without average
+            return {
+                total: 15,
+                average: 0,
+                change: 0,
+                status: 'Last Month Data'
+            };
+        }
+        else if (selectedTimePeriod === 'Past Quarter') {
+            return {
+                total: 45,
+                average: 0,
+                change: 0,
+                status: 'Quarter Data'
+            };
+        }
+        else if (selectedTimePeriod === 'Past Half Year') {
+            return {
+                total: 88,
+                average: 0,
+                change: 0,
+                status: 'Half Year Data'
+            };
+        }
+        else if (selectedTimePeriod === 'Past Year') {
+            return {
+                total: 180,
+                average: 0,
+                change: 0,
+                status: 'Year Data'
+            };
+        }
+        return selectedData;
     };
     // Get weekly fault count data
     const getWeeklyData = () => {
-        if (selectedTimePeriod === 'Past Month') {
-            return [
-                { week: 'W26', HVAC: 1, Lighting: 0, CCTV: 1, Water: 1, Others: 1 },
-                { week: 'W27', HVAC: 3, Lighting: 1, CCTV: 1, Water: 2, Others: 0 },
-                { week: 'W28', HVAC: 6, Lighting: 2, CCTV: 2, Water: 1, Others: 1 },
-                { week: 'W29', HVAC: 5, Lighting: 2, CCTV: 2, Water: 3, Others: 0 },
-                { week: 'W30', HVAC: 6, Lighting: 3, CCTV: 3, Water: 4, Others: 2 }
+        // Different data based on LocationKey (1 = site, 3 = building)
+        const isSite = props.LocationKey === '1';
+        if (selectedTimePeriod === 'This Month') {
+            return isSite ? [
+                // Site data
+                { week: 'W1', HVAC: 1, Lighting: 0, CCTV: 1, Water: 1, Others: 1 },
+                { week: 'W2', HVAC: 3, Lighting: 1, CCTV: 1, Water: 2, Others: 0 },
+                { week: 'W3', HVAC: 6, Lighting: 2, CCTV: 2, Water: 1, Others: 1 },
+                { week: 'W4', HVAC: 5, Lighting: 2, CCTV: 2, Water: 3, Others: 0 },
+                { week: 'W5', HVAC: 6, Lighting: 3, CCTV: 3, Water: 4, Others: 2 }
+            ] : [
+                // Building data (higher values)
+                { week: 'W1', HVAC: 2, Lighting: 1, CCTV: 1, Water: 2, Others: 0 },
+                { week: 'W2', HVAC: 5, Lighting: 2, CCTV: 2, Water: 3, Others: 0 },
+                { week: 'W3', HVAC: 10, Lighting: 3, CCTV: 3, Water: 2, Others: 1 },
+                { week: 'W4', HVAC: 8, Lighting: 3, CCTV: 3, Water: 5, Others: 0 },
+                { week: 'W5', HVAC: 10, Lighting: 5, CCTV: 5, Water: 6, Others: 2 }
+            ];
+        }
+        else if (selectedTimePeriod === 'Past Month') {
+            return isSite ? [
+                // Site data
+                { week: 'W1', HVAC: 1, Lighting: 0, CCTV: 1, Water: 1, Others: 0 },
+                { week: 'W2', HVAC: 2, Lighting: 1, CCTV: 1, Water: 1, Others: 1 },
+                { week: 'W3', HVAC: 4, Lighting: 2, CCTV: 2, Water: 2, Others: 1 },
+                { week: 'W4', HVAC: 3, Lighting: 1, CCTV: 1, Water: 2, Others: 0 }
+            ] : [
+                // Building data
+                { week: 'W1', HVAC: 2, Lighting: 1, CCTV: 2, Water: 2, Others: 0 },
+                { week: 'W2', HVAC: 3, Lighting: 2, CCTV: 2, Water: 2, Others: 1 },
+                { week: 'W3', HVAC: 7, Lighting: 3, CCTV: 3, Water: 3, Others: 1 },
+                { week: 'W4', HVAC: 5, Lighting: 2, CCTV: 2, Water: 3, Others: 0 }
             ];
         }
         else if (selectedTimePeriod === 'Past Quarter') {
-            return [
+            return isSite ? [
+                // Site data
                 { week: 'Jan', HVAC: 12, Lighting: 8, CCTV: 6, Water: 7, Others: 3 },
                 { week: 'Feb', HVAC: 15, Lighting: 9, CCTV: 7, Water: 8, Others: 4 },
                 { week: 'Mar', HVAC: 18, Lighting: 10, CCTV: 8, Water: 9, Others: 5 }
+            ] : [
+                // Building data
+                { week: 'Jan', HVAC: 20, Lighting: 13, CCTV: 10, Water: 12, Others: 5 },
+                { week: 'Feb', HVAC: 25, Lighting: 15, CCTV: 12, Water: 13, Others: 6 },
+                { week: 'Mar', HVAC: 30, Lighting: 17, CCTV: 13, Water: 15, Others: 8 }
             ];
         }
         else if (selectedTimePeriod === 'Past Half Year') {
-            return [
+            return isSite ? [
+                // Site data
                 { week: 'Jan', HVAC: 12, Lighting: 8, CCTV: 6, Water: 7, Others: 3 },
                 { week: 'Feb', HVAC: 15, Lighting: 9, CCTV: 7, Water: 8, Others: 4 },
                 { week: 'Mar', HVAC: 18, Lighting: 10, CCTV: 8, Water: 9, Others: 5 },
                 { week: 'Apr', HVAC: 14, Lighting: 11, CCTV: 9, Water: 10, Others: 4 },
                 { week: 'May', HVAC: 16, Lighting: 12, CCTV: 10, Water: 11, Others: 5 },
                 { week: 'Jun', HVAC: 20, Lighting: 13, CCTV: 11, Water: 12, Others: 6 }
+            ] : [
+                // Building data
+                { week: 'Jan', HVAC: 20, Lighting: 13, CCTV: 10, Water: 12, Others: 5 },
+                { week: 'Feb', HVAC: 25, Lighting: 15, CCTV: 12, Water: 13, Others: 6 },
+                { week: 'Mar', HVAC: 30, Lighting: 17, CCTV: 13, Water: 15, Others: 8 },
+                { week: 'Apr', HVAC: 23, Lighting: 18, CCTV: 15, Water: 17, Others: 7 },
+                { week: 'May', HVAC: 27, Lighting: 20, CCTV: 17, Water: 18, Others: 8 },
+                { week: 'Jun', HVAC: 33, Lighting: 22, CCTV: 18, Water: 20, Others: 10 }
             ];
         }
         else {
             // Past Year - show quarterly data
-            return [
+            return isSite ? [
+                // Site data
                 { week: 'Q1', HVAC: 45, Lighting: 27, CCTV: 21, Water: 24, Others: 12 },
                 { week: 'Q2', HVAC: 50, Lighting: 36, CCTV: 30, Water: 33, Others: 15 },
                 { week: 'Q3', HVAC: 42, Lighting: 30, CCTV: 25, Water: 28, Others: 13 },
                 { week: 'Q4', HVAC: 48, Lighting: 33, CCTV: 28, Water: 31, Others: 14 }
+            ] : [
+                // Building data
+                { week: 'Q1', HVAC: 75, Lighting: 45, CCTV: 35, Water: 40, Others: 20 },
+                { week: 'Q2', HVAC: 83, Lighting: 60, CCTV: 50, Water: 55, Others: 25 },
+                { week: 'Q3', HVAC: 70, Lighting: 50, CCTV: 42, Water: 47, Others: 21 },
+                { week: 'Q4', HVAC: 80, Lighting: 55, CCTV: 47, Water: 52, Others: 23 }
             ];
         }
     };
@@ -1536,10 +1925,10 @@ const MonthlyFaultSummaryWidget = (_props) => {
                     React.createElement("div", { className: "metric-label", style: { fontSize: '1.2rem' } },
                         selectedSystem === 'All Systems' ? 'Total' : selectedSystem,
                         " Fault Count")),
-                React.createElement("div", { className: "secondary-metrics" },
+                React.createElement("div", { className: "secondary-metrics" }, selectedTimePeriod === 'This Month' ? (React.createElement(React.Fragment, null,
                     React.createElement("div", { className: "secondary-metric" },
                         React.createElement("span", { className: "secondary-label", style: { fontSize: '1.1rem' } }, "AVERAGE"),
-                        React.createElement("span", { className: "secondary-value", style: { fontSize: '1.3rem' } }, currentFaultData.average)),
+                        React.createElement("span", { className: "secondary-value", style: { fontSize: '1.3rem' } }, Math.round(currentFaultData.average))),
                     React.createElement("div", { className: "secondary-metric" },
                         React.createElement("span", { className: "secondary-label", style: { fontSize: '1.1rem' } }, "CHANGE"),
                         React.createElement("span", { className: `secondary-value ${currentFaultData.change > 0 ? 'negative' : 'positive'}`, style: { fontSize: '1.3rem' } },
@@ -1549,7 +1938,9 @@ const MonthlyFaultSummaryWidget = (_props) => {
                             "%")),
                     React.createElement("div", { className: "secondary-metric", style: { minWidth: '160px', maxWidth: '160px', flex: 'none' } },
                         React.createElement("span", { className: "secondary-label", style: { fontSize: '1.1rem' } }, "STATUS"),
-                        React.createElement("span", { className: "secondary-value warning", style: { fontSize: '1.3rem', whiteSpace: 'nowrap', overflow: 'visible' } }, currentFaultData.status)))),
+                        React.createElement("span", { className: "secondary-value warning", style: { fontSize: '1.3rem', whiteSpace: 'nowrap', overflow: 'visible' } }, currentFaultData.status)))) : (React.createElement("div", { className: "secondary-metric", style: { minWidth: '200px', maxWidth: '200px', flex: 'none' } },
+                    React.createElement("span", { className: "secondary-label", style: { fontSize: '1.1rem' } }, "PERIOD"),
+                    React.createElement("span", { className: "secondary-value", style: { fontSize: '1.3rem', whiteSpace: 'nowrap', overflow: 'visible' } }, selectedTimePeriod))))),
             React.createElement("div", { className: `trend-section ${isGraphCollapsed ? 'collapsed' : ''}` },
                 React.createElement("div", { className: "trend-header" },
                     React.createElement("div", { className: "trend-title", style: { fontSize: '1.3rem', fontWeight: '500', color: 'var(--text-color)' } },
@@ -1746,7 +2137,7 @@ __webpack_require__(/*! ./SLAComplianceWidget.scss */ "./src/components/SLACompl
 // Import Recharts dynamically to avoid TypeScript issues
 const Recharts = __webpack_require__(/*! recharts */ "recharts");
 const { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line, AreaChart, Area, ReferenceLine } = Recharts;
-const SLAComplianceWidget = () => {
+const SLAComplianceWidget = (props) => {
     const [selectedSystem, setSelectedSystem] = (0, react_1.useState)('All Systems');
     const [timeRange, setTimeRange] = (0, react_1.useState)('Month');
     const [chartType, setChartType] = (0, react_1.useState)('CWO');
@@ -1855,7 +2246,9 @@ const SLAComplianceWidget = () => {
     // Generate SLA data based on filters
     const getSLAData = () => {
         var _a;
-        const baseData = {
+        // Different data based on LocationKey (1 = site, 3 = building)
+        const isSite = props.LocationKey === '1';
+        const baseData = isSite ? {
             Week: {
                 'All Systems': {
                     cwoCompliance: 90.2,
@@ -2082,6 +2475,184 @@ const SLAComplianceWidget = () => {
                     ]
                 }
             }
+        } : {
+            // Building data (LocationKey = 3) - Lower compliance values
+            Week: {
+                'All Systems': {
+                    cwoCompliance: 85.3,
+                    pwoCompliance: 88.2,
+                    chartData: [
+                        { period: 'Mon', CWO: 84.5, PWO: 87.8, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Tue', CWO: 83.3, PWO: 89.1, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Wed', CWO: 86.2, PWO: 88.5, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Thu', CWO: 85.7, PWO: 89.8, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Fri', CWO: 87.1, PWO: 87.9, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Sat', CWO: 84.8, PWO: 90.2, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Sun', CWO: 85.3, PWO: 88.2, CWOTarget: 95, PWOTarget: 98 }
+                    ]
+                },
+                'HVAC': {
+                    cwoCompliance: 87.2,
+                    pwoCompliance: 90.1,
+                    chartData: [
+                        { period: 'Mon', CWO: 86.5, PWO: 89.8 },
+                        { period: 'Tue', CWO: 85.3, PWO: 91.1 },
+                        { period: 'Wed', CWO: 88.2, PWO: 90.5 },
+                        { period: 'Thu', CWO: 87.7, PWO: 91.8 },
+                        { period: 'Fri', CWO: 89.1, PWO: 89.9 },
+                        { period: 'Sat', CWO: 86.8, PWO: 92.2 },
+                        { period: 'Sun', CWO: 87.2, PWO: 90.1 }
+                    ]
+                },
+                'CCTV': {
+                    cwoCompliance: 83.5,
+                    pwoCompliance: 86.2,
+                    chartData: [
+                        { period: 'Mon', CWO: 82.5, PWO: 85.8 },
+                        { period: 'Tue', CWO: 81.3, PWO: 87.1 },
+                        { period: 'Wed', CWO: 84.2, PWO: 86.5 },
+                        { period: 'Thu', CWO: 83.7, PWO: 87.8 },
+                        { period: 'Fri', CWO: 85.1, PWO: 85.9 },
+                        { period: 'Sat', CWO: 82.8, PWO: 88.2 },
+                        { period: 'Sun', CWO: 83.5, PWO: 86.2 }
+                    ]
+                },
+                'Lighting': {
+                    cwoCompliance: 84.2,
+                    pwoCompliance: 87.5,
+                    chartData: [
+                        { period: 'Mon', CWO: 83.5, PWO: 86.8 },
+                        { period: 'Tue', CWO: 82.3, PWO: 88.1 },
+                        { period: 'Wed', CWO: 85.2, PWO: 87.5 },
+                        { period: 'Thu', CWO: 84.7, PWO: 88.8 },
+                        { period: 'Fri', CWO: 86.1, PWO: 86.9 },
+                        { period: 'Sat', CWO: 83.8, PWO: 89.2 },
+                        { period: 'Sun', CWO: 84.2, PWO: 87.5 }
+                    ]
+                }
+            },
+            Month: {
+                'All Systems': {
+                    cwoCompliance: 85.3,
+                    pwoCompliance: 88.2,
+                    chartData: [
+                        { period: 'Week 1', CWO: 83.5, PWO: 87.1, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Week 2', CWO: 84.8, PWO: 89.3, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Week 3', CWO: 86.2, PWO: 88.8, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Week 4', CWO: 85.3, PWO: 88.2, CWOTarget: 95, PWOTarget: 98 }
+                    ]
+                },
+                'HVAC': {
+                    cwoCompliance: 87.2,
+                    pwoCompliance: 90.1,
+                    chartData: [
+                        { period: 'Week 1', CWO: 85.5, PWO: 89.1 },
+                        { period: 'Week 2', CWO: 86.8, PWO: 91.3 },
+                        { period: 'Week 3', CWO: 88.2, PWO: 90.8 },
+                        { period: 'Week 4', CWO: 87.2, PWO: 90.1 }
+                    ]
+                },
+                'CCTV': {
+                    cwoCompliance: 83.5,
+                    pwoCompliance: 86.2,
+                    chartData: [
+                        { period: 'Week 1', CWO: 81.5, PWO: 85.1 },
+                        { period: 'Week 2', CWO: 82.8, PWO: 87.3 },
+                        { period: 'Week 3', CWO: 84.2, PWO: 86.8 },
+                        { period: 'Week 4', CWO: 83.5, PWO: 86.2 }
+                    ]
+                },
+                'Lighting': {
+                    cwoCompliance: 84.2,
+                    pwoCompliance: 87.5,
+                    chartData: [
+                        { period: 'Week 1', CWO: 82.5, PWO: 86.1 },
+                        { period: 'Week 2', CWO: 83.8, PWO: 88.3 },
+                        { period: 'Week 3', CWO: 85.2, PWO: 87.8 },
+                        { period: 'Week 4', CWO: 84.2, PWO: 87.5 }
+                    ]
+                }
+            },
+            Quarter: {
+                'All Systems': {
+                    cwoCompliance: 85.3,
+                    pwoCompliance: 88.2,
+                    chartData: [
+                        { period: 'Month 1', CWO: 84.5, PWO: 87.6, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Month 2', CWO: 85.8, PWO: 88.9, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Month 3', CWO: 85.3, PWO: 88.2, CWOTarget: 95, PWOTarget: 98 }
+                    ]
+                },
+                'HVAC': {
+                    cwoCompliance: 87.2,
+                    pwoCompliance: 90.1,
+                    chartData: [
+                        { period: 'Month 1', CWO: 86.5, PWO: 89.6 },
+                        { period: 'Month 2', CWO: 87.8, PWO: 90.9 },
+                        { period: 'Month 3', CWO: 87.2, PWO: 90.1 }
+                    ]
+                },
+                'CCTV': {
+                    cwoCompliance: 83.5,
+                    pwoCompliance: 86.2,
+                    chartData: [
+                        { period: 'Month 1', CWO: 82.5, PWO: 85.6 },
+                        { period: 'Month 2', CWO: 83.8, PWO: 86.9 },
+                        { period: 'Month 3', CWO: 83.5, PWO: 86.2 }
+                    ]
+                },
+                'Lighting': {
+                    cwoCompliance: 84.2,
+                    pwoCompliance: 87.5,
+                    chartData: [
+                        { period: 'Month 1', CWO: 83.5, PWO: 86.6 },
+                        { period: 'Month 2', CWO: 84.8, PWO: 87.9 },
+                        { period: 'Month 3', CWO: 84.2, PWO: 87.5 }
+                    ]
+                }
+            },
+            Year: {
+                'All Systems': {
+                    cwoCompliance: 85.3,
+                    pwoCompliance: 88.2,
+                    chartData: [
+                        { period: 'Q1', CWO: 84.2, PWO: 87.5, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Q2', CWO: 85.6, PWO: 88.9, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Q3', CWO: 85.8, PWO: 88.4, CWOTarget: 95, PWOTarget: 98 },
+                        { period: 'Q4', CWO: 85.3, PWO: 88.2, CWOTarget: 95, PWOTarget: 98 }
+                    ]
+                },
+                'HVAC': {
+                    cwoCompliance: 87.2,
+                    pwoCompliance: 90.1,
+                    chartData: [
+                        { period: 'Q1', CWO: 86.2, PWO: 89.5 },
+                        { period: 'Q2', CWO: 87.6, PWO: 90.9 },
+                        { period: 'Q3', CWO: 87.8, PWO: 90.4 },
+                        { period: 'Q4', CWO: 87.2, PWO: 90.1 }
+                    ]
+                },
+                'CCTV': {
+                    cwoCompliance: 83.5,
+                    pwoCompliance: 86.2,
+                    chartData: [
+                        { period: 'Q1', CWO: 82.2, PWO: 85.5 },
+                        { period: 'Q2', CWO: 83.6, PWO: 86.9 },
+                        { period: 'Q3', CWO: 83.8, PWO: 86.4 },
+                        { period: 'Q4', CWO: 83.5, PWO: 86.2 }
+                    ]
+                },
+                'Lighting': {
+                    cwoCompliance: 84.2,
+                    pwoCompliance: 87.5,
+                    chartData: [
+                        { period: 'Q1', CWO: 83.2, PWO: 86.5 },
+                        { period: 'Q2', CWO: 84.6, PWO: 87.9 },
+                        { period: 'Q3', CWO: 84.8, PWO: 87.7 },
+                        { period: 'Q4', CWO: 84.2, PWO: 87.5 }
+                    ]
+                }
+            }
         };
         return ((_a = baseData[timeRange]) === null || _a === void 0 ? void 0 : _a[selectedSystem]) || baseData.Month['All Systems'];
     };
@@ -2110,7 +2681,7 @@ const SLAComplianceWidget = () => {
                     react_1.default.createElement("svg", { width: "20", height: "20", viewBox: "0 0 24 24", fill: "currentColor" },
                         react_1.default.createElement("path", { d: "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M16.2,16.2L11,13V7H12.5V12.2L17,14.9L16.2,16.2Z" }))),
                 react_1.default.createElement("div", { className: "widget-title" },
-                    "SLA Compliance (Respond & Resolve)",
+                    "SLA Compliance - Resolve",
                     react_1.default.createElement("div", { style: {
                             marginLeft: '8px',
                             position: 'relative',
@@ -2394,13 +2965,13 @@ const MonthlyFaultSummaryWidget_1 = __webpack_require__(/*! ./components/Monthly
 const MaintenanceSummaryWidget_1 = __webpack_require__(/*! ./components/MaintenanceSummaryWidget */ "./src/components/MaintenanceSummaryWidget.tsx");
 const SLAComplianceWidget_1 = __webpack_require__(/*! ./components/SLAComplianceWidget */ "./src/components/SLAComplianceWidget.tsx");
 __webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
-const Fault_right_panelWidget = (_props) => {
+const Fault_right_panelWidget = (props) => {
     const containerRef = React.useRef(null);
     return (React.createElement("div", { className: "main-container dark-mode", ref: containerRef },
         React.createElement("div", { className: "glass-bg-fpr" },
-            React.createElement(MonthlyFaultSummaryWidget_1.MonthlyFaultSummaryWidget, null),
-            React.createElement(MaintenanceSummaryWidget_1.MaintenanceSummaryWidget, null),
-            React.createElement(SLAComplianceWidget_1.SLAComplianceWidget, null))));
+            React.createElement(MonthlyFaultSummaryWidget_1.MonthlyFaultSummaryWidget, { LocationKey: props.LocationKey, uxpContext: props.uxpContext }),
+            React.createElement(MaintenanceSummaryWidget_1.MaintenanceSummaryWidget, { LocationKey: props.LocationKey, uxpContext: props.uxpContext }),
+            React.createElement(SLAComplianceWidget_1.SLAComplianceWidget, { LocationKey: props.LocationKey, uxpContext: props.uxpContext }))));
 };
 /**
  * Register as a Widget
@@ -2414,7 +2985,21 @@ const Fault_right_panelWidget = (_props) => {
             h: 20,
             minH: 16,
             minW: 8
-        }
+        },
+        props: [
+            {
+                "name": "LocationKey",
+                "label": "Location Key",
+                "type": "string",
+                "placeholder": "Location key"
+            },
+            {
+                "name": "LocationName",
+                "label": "Location Name",
+                "type": "string",
+                "placeholder": "Location Name"
+            }
+        ]
     }
 });
 /**

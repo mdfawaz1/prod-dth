@@ -33,7 +33,7 @@ module.exports = {};
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ":root, .dark-mode {\n  --bg-color: rgba(20, 20, 20, 0.1);\n  --text-color: #ffffff;\n  --text-secondary: rgba(255, 255, 255, 0.9);\n  --text-muted: rgba(255, 255, 255, 0.7);\n  --glass-bg: rgba(20, 20, 20, 0.15);\n  --glass-border: rgba(255, 255, 255, 0.18);\n  --card-bg: rgba(255, 255, 255, 0.05);\n  --card-border: rgba(255, 255, 255, 0.08);\n  --progress-bg: rgba(255, 255, 255, 0.1);\n  --modal-bg: rgba(20, 20, 20, 0.95);\n  --modal-border: rgba(255, 255, 255, 0.1);\n  --primary-blue: #4A90E2;\n  --success-green: #7ED321;\n  --warning-orange: #F5A623;\n  --purple: #BD10E0;\n}\n\n.uxp-date-range-picker,\n.uxp-date-picker,\n.react-datepicker-popper,\n.react-datepicker__portal {\n  z-index: 10001 !important;\n}\n\n.uxp-date-picker-dropdown,\n.uxp-date-range-picker-dropdown,\n.react-datepicker__tab-loop {\n  z-index: 10002 !important;\n}\n\n.main-container {\n  width: 100%;\n  height: 100%;\n  background: var(--bg-color);\n  color: var(--text-color);\n  transition: all 0.3s ease;\n  display: flex;\n  flex-direction: column;\n  overflow: auto;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  direction: rtl;\n}\n.main-container * {\n  direction: ltr;\n}\n\n.glass-bg-fp {\n  background: var(--glass-bg);\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  padding: 16px 14px;\n  width: 100%;\n  min-height: auto;\n  color: var(--text-color);\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  height: auto;\n  flex: 1;\n  border-radius: 12px;\n  border: 1px solid var(--glass-border);\n}\n\n.main-header {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n.main-header .header-text {\n  font-size: 1.7rem;\n  font-weight: 600;\n  color: var(--text-color);\n  letter-spacing: -0.02em;\n}\n.main-header .header-subtitle {\n  font-size: 0.95rem;\n  color: var(--text-muted);\n  font-weight: 400;\n}\n\n.system-selector,\n.time-period-selector {\n  background: var(--card-bg);\n  border: 1px solid var(--card-border);\n  border-radius: 6px;\n  padding: 8px 14px;\n  color: var(--text-color);\n  font-size: 0.9rem;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.system-selector:hover,\n.time-period-selector:hover {\n  background: var(--card-border);\n}\n.system-selector option,\n.time-period-selector option {\n  background: var(--modal-bg);\n  color: var(--text-color);\n}\n\n.compare-btn {\n  background: rgba(100, 181, 246, 0.15);\n  color: #fff;\n  border: 1px solid rgba(100, 181, 246, 0.3);\n  padding: 6px 12px;\n  border-radius: 8px;\n  font-size: 1.1rem;\n  font-weight: 700;\n  cursor: pointer;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n\n.metrics-section {\n  display: flex;\n  gap: 40px;\n  margin: 24px 0;\n  align-items: center;\n  justify-content: space-between;\n}\n@media (max-width: 768px) {\n  .metrics-section {\n    flex-direction: column;\n    gap: 24px;\n    align-items: center;\n  }\n}\n\n.availability-circle-container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 16px;\n  flex: 0 0 auto;\n  min-height: 250px;\n}\n\n.availability-circle {\n  margin-top: 20px;\n  width: 120px;\n  height: 120px;\n  border-radius: 50%;\n  background: conic-gradient(var(--primary-blue) 0deg, var(--primary-blue) 359deg, var(--progress-bg) 359deg, var(--progress-bg) 360deg);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n}\n.availability-circle::before {\n  content: \"\";\n  position: absolute;\n  inset: 8px;\n  border-radius: 50%;\n  background: black;\n}\n.availability-circle .circle-content {\n  position: relative;\n  z-index: 1;\n  text-align: center;\n}\n.availability-circle .circle-content .percentage {\n  font-size: 2.1rem;\n  font-weight: 700;\n  color: var(--text-color);\n  line-height: 1;\n}\n.availability-circle .circle-content .label {\n  font-size: 0.95rem;\n  color: var(--text-secondary);\n  margin-top: 4px;\n}\n\n.target-info {\n  text-align: center;\n}\n.target-info .target-label {\n  font-size: 1rem;\n  color: var(--text-secondary);\n  margin-bottom: 4px;\n}\n.target-info .below-target {\n  font-size: 0.95rem;\n  color: var(--warning-orange);\n  font-weight: 500;\n}\n\n.equipment-breakdown {\n  flex: 0 0 auto;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  width: 280px;\n  min-height: 250px;\n  margin-left: -20px;\n}\n.equipment-breakdown .breakdown-title {\n  font-size: 1.1rem;\n  font-weight: 600;\n  color: var(--text-color);\n  margin-bottom: 12px;\n  text-align: center;\n}\n\n.equipment-pie-chart {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 16px;\n  width: 100%;\n  height: 160px;\n}\n.equipment-pie-chart .recharts-pie-sector {\n  outline: none;\n}\n.equipment-pie-chart .recharts-tooltip-wrapper .recharts-default-tooltip {\n  background: rgba(20, 20, 20, 0.9) !important;\n  border: 1px solid rgba(255, 255, 255, 0.2) !important;\n  border-radius: 8px !important;\n  color: #ffffff !important;\n}\n.equipment-pie-chart .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-item {\n  color: #ffffff !important;\n}\n.equipment-pie-chart .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-label {\n  color: #ffffff !important;\n}\n\n.equipment-legend {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: center;\n  gap: 12px;\n  width: 100%;\n  max-width: 280px;\n}\n.equipment-legend .legend-item {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 0.85rem;\n}\n.equipment-legend .legend-item .legend-color {\n  width: 12px;\n  height: 12px;\n  border-radius: 2px;\n  flex-shrink: 0;\n}\n.equipment-legend .legend-item span {\n  color: var(--text-secondary);\n  white-space: nowrap;\n}\n\n.widget-section-title {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: 32px 0 20px 0;\n  width: 100%;\n}\n.widget-section-title span {\n  padding: 0 12px;\n  font-size: 1rem;\n  font-weight: 500;\n  color: var(--text-muted);\n  letter-spacing: 0.5px;\n  text-transform: uppercase;\n}\n.widget-section-title .section-line {\n  height: 1px;\n  flex: 1;\n  background: linear-gradient(90deg, transparent, var(--text-color) 50%, transparent);\n  opacity: 0.2;\n}\n\n.widget-container {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 12px;\n  margin-bottom: 8px;\n  overflow: hidden;\n  transition: all 0.3s ease;\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n\n.widget-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 20px 24px;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.widget-header:hover {\n  background: rgba(255, 255, 255, 0.02);\n}\n\n.widget-header-left {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n\n.widget-icon {\n  width: 40px;\n  height: 40px;\n  background: rgba(74, 144, 226, 0.15);\n  border-radius: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #4A90E2;\n}\n\n.widget-title {\n  font-size: 1.4rem;\n  font-weight: 600;\n  color: var(--text-color);\n  display: flex;\n  align-items: center;\n  letter-spacing: -0.02em;\n}\n\n.widget-header-right {\n  display: flex;\n  align-items: center;\n  gap: 16px;\n}\n\n.expand-icon {\n  width: 32px;\n  height: 32px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 8px;\n  transition: all 0.2s ease;\n}\n.expand-icon:hover {\n  background: rgba(255, 255, 255, 0.05);\n}\n\n.widget-content {\n  padding: 0 24px 24px;\n  transition: all 0.3s ease;\n}\n\n.widget-controls {\n  display: flex;\n  gap: 12px;\n  margin-bottom: 20px;\n}\n\n.trend-section {\n  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);\n  overflow: hidden;\n  transform-origin: top;\n  margin-top: 24px;\n}\n.trend-section.collapsed {\n  max-height: 0;\n  margin-top: 0;\n  opacity: 0;\n  transform: scaleY(0);\n  padding: 0;\n  margin-bottom: 0;\n}\n\n.trend-chart {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 8px;\n  padding: 16px;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n.trend-chart .recharts-wrapper {\n  position: relative !important;\n  cursor: default !important;\n}\n.trend-chart .recharts-wrapper svg {\n  overflow: visible !important;\n}\n.trend-chart .recharts-cartesian-grid-horizontal line,\n.trend-chart .recharts-cartesian-grid-vertical line {\n  stroke: rgba(255, 255, 255, 0.1);\n}\n.trend-chart .recharts-text {\n  fill: #ffffff !important;\n  opacity: 0.9;\n}\n.trend-chart .recharts-legend-wrapper .recharts-legend-item-text {\n  color: #ffffff !important;\n}\n.trend-chart .recharts-cartesian-axis-tick-value {\n  fill: #ffffff !important;\n}\n.trend-chart .recharts-tooltip-wrapper .recharts-default-tooltip {\n  background: rgba(20, 20, 20, 0.9) !important;\n  border: 1px solid rgba(255, 255, 255, 0.2) !important;\n  border-radius: 8px !important;\n  color: #ffffff !important;\n}\n.trend-chart .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-item {\n  color: #ffffff !important;\n}\n.trend-chart .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-label {\n  color: #ffffff !important;\n}\n.trend-chart .recharts-line-dot {\n  outline: none;\n}\n.trend-chart .recharts-active-dot {\n  outline: none;\n}\n.trend-chart .recharts-surface {\n  outline: none;\n}\n\n@media (max-width: 768px) {\n  .main-container {\n    padding: 12px 8px;\n  }\n  .glass-bg-fp {\n    padding: 16px 12px;\n  }\n  .widget-container {\n    margin-bottom: 16px;\n  }\n  .widget-header {\n    padding: 16px 20px;\n  }\n  .widget-icon {\n    width: 36px;\n    height: 36px;\n  }\n  .widget-title {\n    font-size: 1.2rem;\n  }\n  .widget-content {\n    padding: 0 20px 20px;\n  }\n  .widget-controls {\n    flex-wrap: wrap;\n  }\n  .main-header .header-text {\n    font-size: 1.4rem;\n  }\n  .main-header .header-subtitle {\n    font-size: 0.9rem;\n  }\n  .availability-circle {\n    width: 100px;\n    height: 100px;\n  }\n  .availability-circle .circle-content .percentage {\n    font-size: 1.7rem;\n  }\n  .availability-circle .circle-content .label {\n    font-size: 0.9rem;\n  }\n  .system-selector,\n  .time-period-selector,\n  .compare-btn {\n    font-size: 0.85rem;\n    padding: 6px 10px;\n  }\n  .equipment-breakdown {\n    margin-left: 0;\n  }\n  .equipment-breakdown .breakdown-title {\n    font-size: 1rem;\n  }\n}\n@media (max-width: 480px) {\n  .widget-container {\n    margin-bottom: 12px;\n  }\n  .widget-header {\n    padding: 14px 16px;\n  }\n  .widget-icon {\n    width: 32px;\n    height: 32px;\n  }\n  .widget-title {\n    font-size: 1.05rem;\n  }\n  .widget-content {\n    padding: 0 16px 16px;\n  }\n  .expand-icon {\n    width: 28px;\n    height: 28px;\n  }\n  .widget-section-title span {\n    font-size: 0.7rem;\n  }\n  .trend-filters {\n    flex-wrap: wrap;\n  }\n  .trend-filters .filter-btn {\n    padding: 4px 12px;\n    font-size: 0.75rem;\n  }\n  .metrics-section {\n    flex-direction: column;\n    align-items: center;\n    gap: 16px;\n  }\n  .main-header .header-text {\n    font-size: 1rem;\n  }\n  .main-header .header-subtitle {\n    font-size: 0.75rem;\n  }\n}\n.recharts-responsive-container .recharts-surface {\n  outline: none;\n}\n\n.equipment-legend .legend-item .legend-color {\n  width: 12px;\n  height: 12px;\n  border-radius: 2px;\n  flex-shrink: 0;\n}\n\n@media (max-width: 768px) {\n  .trend-chart .recharts-responsive-container {\n    height: 220px !important;\n  }\n  .equipment-pie-chart .recharts-responsive-container {\n    height: 160px !important;\n  }\n  .equipment-breakdown {\n    width: 100%;\n    max-width: 100%;\n    min-height: auto;\n  }\n  .equipment-legend {\n    max-width: 100%;\n    gap: 12px;\n  }\n  .equipment-legend .legend-item {\n    font-size: 0.75rem;\n  }\n  .availability-circle-container {\n    min-height: auto;\n  }\n}\n@media (max-width: 480px) {\n  .trend-chart .recharts-responsive-container {\n    height: 200px !important;\n  }\n  .equipment-pie-chart .recharts-responsive-container {\n    height: 140px !important;\n  }\n  .equipment-legend {\n    flex-direction: column;\n    gap: 8px;\n    align-items: center;\n  }\n}\n.modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.7);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 1002;\n}\n.modal-overlay .uxp-date-range-picker,\n.modal-overlay .uxp-date-picker {\n  z-index: 10001 !important;\n}\n.modal-overlay .uxp-date-range-picker .uxp-date-picker-dropdown,\n.modal-overlay .uxp-date-range-picker .uxp-date-range-picker-dropdown,\n.modal-overlay .uxp-date-range-picker .react-datepicker-popper,\n.modal-overlay .uxp-date-range-picker .react-datepicker__portal,\n.modal-overlay .uxp-date-picker .uxp-date-picker-dropdown,\n.modal-overlay .uxp-date-picker .uxp-date-range-picker-dropdown,\n.modal-overlay .uxp-date-picker .react-datepicker-popper,\n.modal-overlay .uxp-date-picker .react-datepicker__portal {\n  z-index: 10002 !important;\n}\n\n.cooling-compare-modal {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.7);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 9999;\n}\n\n.modal-content {\n  background: var(--modal-bg);\n  border: 1px solid var(--modal-border);\n  border-radius: 12px;\n  padding: 0;\n  width: 90%;\n  max-width: 600px;\n  max-height: 80vh;\n  overflow: auto;\n  backdrop-filter: blur(10px);\n}\n\n.modal-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 20px 24px;\n  border-bottom: 1px solid var(--glass-border);\n}\n.modal-header h3 {\n  margin: 0;\n  color: var(--text-color);\n  font-size: 1.2rem;\n  font-weight: 600;\n}\n\n.modal-close {\n  background: none;\n  border: none;\n  color: var(--text-color);\n  font-size: 24px;\n  cursor: pointer;\n  padding: 0;\n  width: 30px;\n  height: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 4px;\n  transition: background 0.2s ease;\n}\n.modal-close:hover {\n  background: var(--card-border);\n}\n\n.cooling-compare-modal-content {\n  padding: 24px;\n}\n\n.cooling-compare-section {\n  margin-bottom: 20px;\n}\n.cooling-compare-section label {\n  display: block;\n  margin-bottom: 12px;\n  color: var(--text-secondary);\n  font-size: 0.95rem;\n  font-weight: 500;\n}\n\n.cooling-select-container {\n  margin-bottom: 16px;\n}\n\n.cooling-compare-select {\n  width: 100%;\n  background: var(--card-bg);\n  border: 1px solid var(--card-border);\n  border-radius: 6px;\n  padding: 10px 14px;\n  color: var(--text-color);\n  font-size: 0.9rem;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.cooling-compare-select:hover, .cooling-compare-select:focus {\n  background: var(--card-border);\n  outline: none;\n}\n.cooling-compare-select option {\n  background: var(--modal-bg);\n  color: var(--text-color);\n}\n\n.cooling-compare-advanced {\n  margin-top: 16px;\n  padding: 16px;\n  background: var(--card-bg);\n  border-radius: 8px;\n  border: 1px solid var(--card-border);\n}\n\n.cooling-compare-advanced-range1,\n.cooling-compare-advanced-range2 {\n  margin-bottom: 16px;\n}\n.cooling-compare-advanced-range1 label,\n.cooling-compare-advanced-range2 label {\n  margin-bottom: 8px;\n}\n.cooling-compare-advanced-range1 .date-input,\n.cooling-compare-advanced-range2 .date-input {\n  width: 100%;\n  background: var(--card-bg);\n  border: 1px solid var(--card-border);\n  border-radius: 4px;\n  padding: 8px 12px;\n  color: var(--text-color);\n  font-size: 0.9rem;\n  margin-bottom: 8px;\n}\n.cooling-compare-advanced-range1 .date-input:focus,\n.cooling-compare-advanced-range2 .date-input:focus {\n  outline: none;\n  border-color: var(--primary-blue);\n}\n.cooling-compare-advanced-range1 .date-input::-webkit-calendar-picker-indicator,\n.cooling-compare-advanced-range2 .date-input::-webkit-calendar-picker-indicator {\n  filter: invert(1);\n}\n\n.cooling-compare-label-bold {\n  font-weight: 600;\n}\n\n.cooling-compare-label-margin {\n  margin-bottom: 8px;\n}\n\n.cooling-CalculateCompare-btn {\n  background: #42A5F5;\n  border: none;\n  border-radius: 6px;\n  padding: 10px 20px;\n  color: white;\n  font-size: 0.9rem;\n  font-weight: 500;\n  cursor: pointer;\n  transition: all 0.2s ease;\n  width: 100%;\n}\n.cooling-CalculateCompare-btn:hover:not(:disabled) {\n  background: #1976D2;\n  transform: translateY(-1px);\n}\n.cooling-CalculateCompare-btn:disabled {\n  background: var(--card-border);\n  cursor: not-allowed;\n  color: var(--text-muted);\n}\n\n.cooling-comparison-results {\n  margin-top: 24px;\n  padding: 20px;\n  background: var(--card-bg);\n  border-radius: 8px;\n  border: 1px solid var(--card-border);\n}\n.cooling-comparison-results h4 {\n  margin: 0 0 16px 0;\n  color: var(--text-color);\n  font-size: 1.1rem;\n  font-weight: 600;\n}\n\n.cooling-results-main {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 16px;\n  margin-bottom: 20px;\n}\n\n.cooling-result-comparison,\n.cooling-result-current {\n  padding: 12px;\n  background: var(--glass-bg);\n  border-radius: 6px;\n  border: 1px solid var(--glass-border);\n}\n\n.cooling-result-label {\n  font-size: 0.85rem;\n  color: var(--text-muted);\n  margin-bottom: 4px;\n}\n\n.cooling-result-value {\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: var(--text-color);\n}\n\n.cooling-result-difference {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 16px;\n}\n\n.cooling-difference-item {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 10px 12px;\n  background: var(--glass-bg);\n  border-radius: 6px;\n  border: 1px solid var(--glass-border);\n}\n\n.cooling-difference-label {\n  font-size: 0.9rem;\n  color: var(--text-secondary);\n}\n\n.cooling-difference-value-container {\n  display: flex;\n  align-items: center;\n  gap: 4px;\n}\n\n.cooling-difference-value {\n  font-weight: 600;\n  font-size: 0.95rem;\n}\n\n@media (max-width: 768px) {\n  .modal-content {\n    width: 95%;\n    margin: 10px;\n  }\n  .cooling-results-main,\n  .cooling-result-difference {\n    grid-template-columns: 1fr;\n    gap: 12px;\n  }\n  .modal-header {\n    padding: 16px 20px;\n  }\n  .modal-header h3 {\n    font-size: 1.1rem;\n  }\n  .cooling-compare-modal-content {\n    padding: 20px;\n  }\n}\n.modal-container.dt-water-compare-modal .modal-backdrop {\n  background-color: transparent !important;\n}\n.modal-container.dt-water-compare-modal .modal-panel {\n  min-width: 30%;\n  width: auto;\n  max-width: 40%;\n  height: auto;\n  max-height: 100%;\n  min-height: 50%;\n  background: rgba(0, 0, 0, 0.11) !important;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-header {\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  color: #fff;\n  font-size: 1.4rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px 12px 0 0;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-body {\n  padding: 16px;\n  height: 100% !important;\n  margin: 0;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  overflow-y: auto;\n  border-radius: 0 0 12px 12px;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker {\n  z-index: 10001 !important;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .uxp-date-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .uxp-date-range-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .react-datepicker-popper,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .react-datepicker__portal,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .uxp-date-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .uxp-date-range-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .react-datepicker-popper,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .react-datepicker__portal {\n  z-index: 10002 !important;\n}\n\n.uxp-date-range-picker .uxp-date-picker-dropdown,\n.uxp-date-range-picker .uxp-date-range-picker-dropdown,\n.uxp-date-range-picker .react-datepicker-popper,\n.uxp-date-range-picker .react-datepicker__portal,\n.uxp-date-range-picker .react-datepicker__tab-loop,\n.uxp-date-picker .uxp-date-picker-dropdown,\n.uxp-date-picker .uxp-date-range-picker-dropdown,\n.uxp-date-picker .react-datepicker-popper,\n.uxp-date-picker .react-datepicker__portal,\n.uxp-date-picker .react-datepicker__tab-loop {\n  z-index: 10002 !important;\n}\n\n.mttf-display-section {\n  display: flex;\n  justify-content: center;\n  margin: 32px 0;\n}\n\n.mttf-main-card {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 12px;\n  padding: 32px 48px;\n  text-align: center;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  min-width: 320px;\n}\n\n.mttf-label {\n  font-size: 0.95rem;\n  color: var(--text-muted);\n  margin-bottom: 8px;\n  letter-spacing: 0.5px;\n  text-transform: uppercase;\n}\n\n.mttf-value {\n  font-size: 3.2rem;\n  font-weight: 700;\n  color: #4A90E2;\n  margin-bottom: 16px;\n  line-height: 1;\n}\n\n.mttf-change-container {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n  align-items: center;\n}\n\n.mttf-change {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 0.95rem;\n  font-weight: 500;\n}\n.mttf-change.positive {\n  color: #7ED321;\n}\n.mttf-change.negative {\n  color: #FF4D4F;\n}\n.mttf-change .change-icon {\n  font-size: 14px;\n}\n\n.mttf-last-month {\n  font-size: 0.9rem;\n  color: var(--text-muted);\n}\n\n.trend-header {\n  display: flex;\n  justify-content: flex-end;\n  margin-bottom: 16px;\n}\n\n.trend-filters {\n  display: flex;\n  gap: 8px;\n  background: var(--glass-bg);\n  border-radius: 8px;\n  padding: 4px;\n  border: 1px solid var(--glass-border);\n  backdrop-filter: blur(10px);\n}\n\n.filter-btn {\n  background: transparent;\n  border: none;\n  color: var(--text-secondary);\n  padding: 8px 16px;\n  border-radius: 6px;\n  font-size: 0.9rem;\n  cursor: pointer;\n  transition: all 0.2s ease;\n  font-weight: 500;\n}\n.filter-btn:hover {\n  background: var(--glass-border);\n  color: var(--text-color);\n}\n.filter-btn.active {\n  background: var(--primary-blue);\n  color: white;\n}\n\n@media (max-width: 768px) {\n  .mttf-main-card {\n    padding: 24px 32px;\n    min-width: 280px;\n  }\n  .mttf-value {\n    font-size: 2.6rem;\n  }\n  .trend-filters .filter-btn {\n    padding: 6px 12px;\n    font-size: 0.85rem;\n  }\n}\n@media (max-width: 480px) {\n  .mttf-main-card {\n    padding: 20px 24px;\n    min-width: 240px;\n  }\n  .mttf-value {\n    font-size: 2.2rem;\n  }\n  .mttf-change {\n    font-size: 0.85rem;\n  }\n  .mttf-last-month {\n    font-size: 0.8rem;\n  }\n  .trend-filters {\n    flex-wrap: wrap;\n  }\n  .trend-filters .filter-btn {\n    padding: 4px 10px;\n    font-size: 0.8rem;\n  }\n}\n.resilience-display-section {\n  display: flex;\n  justify-content: space-between;\n  margin: 32px 0;\n  gap: 20px;\n}\n@media (max-width: 768px) {\n  .resilience-display-section {\n    flex-direction: column;\n    gap: 16px;\n  }\n}\n\n.resilience-main-card {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 12px;\n  padding: 24px 32px;\n  text-align: center;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  flex: 2;\n  min-width: 250px;\n}\n\n.resilience-label {\n  font-size: 0.95rem;\n  color: var(--text-muted);\n  margin-bottom: 8px;\n  letter-spacing: 0.5px;\n  text-transform: uppercase;\n}\n\n.resilience-value {\n  font-size: 2.8rem;\n  font-weight: 700;\n  color: #4A90E2;\n  margin-bottom: 16px;\n  line-height: 1;\n}\n\n.resilience-change-container {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n  align-items: center;\n}\n\n.resilience-change {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 0.95rem;\n  font-weight: 500;\n}\n.resilience-change.positive {\n  color: #7ED321;\n}\n.resilience-change.negative {\n  color: #FF4D4F;\n}\n.resilience-change .change-icon {\n  font-size: 14px;\n}\n\n.resilience-last-month {\n  font-size: 0.9rem;\n  color: var(--text-muted);\n}\n\n.resilience-metrics {\n  display: flex;\n  flex-direction: column;\n  gap: 16px;\n  flex: 1;\n  min-width: 200px;\n}\n\n.resilience-metric-card {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 8px;\n  padding: 16px 20px;\n  text-align: center;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n  flex: 1;\n}\n\n.resilience-metric-label {\n  font-size: 0.85rem;\n  color: var(--text-muted);\n  margin-bottom: 6px;\n  letter-spacing: 0.3px;\n  text-transform: uppercase;\n}\n\n.resilience-metric-value {\n  font-size: 1.8rem;\n  font-weight: 600;\n  color: var(--text-color);\n  margin-bottom: 4px;\n  line-height: 1;\n}\n\n.resilience-metric-period {\n  font-size: 0.8rem;\n  color: var(--text-muted);\n  opacity: 0.8;\n}\n\n@media (max-width: 768px) {\n  .resilience-main-card {\n    padding: 20px 24px;\n    min-width: 200px;\n  }\n  .resilience-value {\n    font-size: 2.4rem;\n  }\n  .resilience-metric-card {\n    padding: 14px 18px;\n  }\n  .resilience-metric-value {\n    font-size: 1.6rem;\n  }\n}\n@media (max-width: 480px) {\n  .resilience-main-card {\n    padding: 16px 20px;\n    min-width: 180px;\n  }\n  .resilience-value {\n    font-size: 2rem;\n  }\n  .resilience-change {\n    font-size: 0.85rem;\n  }\n  .resilience-last-month {\n    font-size: 0.8rem;\n  }\n  .resilience-metric-card {\n    padding: 12px 16px;\n  }\n  .resilience-metric-value {\n    font-size: 1.4rem;\n  }\n  .resilience-metric-label {\n    font-size: 0.8rem;\n  }\n  .resilience-metric-period {\n    font-size: 0.75rem;\n  }\n}\n.ultra-compact-metrics {\n  display: flex;\n  align-items: flex-start;\n  gap: 20px;\n  margin: 12px 0;\n  padding: 16px 20px;\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 10px;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n@media (max-width: 768px) {\n  .ultra-compact-metrics {\n    flex-direction: column;\n    gap: 16px;\n    align-items: center;\n  }\n}\n\n.main-metric-card {\n  text-align: center;\n  min-width: 140px;\n  flex-shrink: 0;\n}\n\n.metric-value {\n  font-size: 2.2rem;\n  font-weight: 700;\n  color: #4A90E2;\n  line-height: 1;\n  margin-bottom: 6px;\n}\n\n.metric-label {\n  font-size: 0.9rem;\n  color: var(--text-secondary);\n  font-weight: 500;\n  opacity: 0.9;\n}\n\n.secondary-metrics {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 20px;\n  flex: 1;\n  align-items: flex-start;\n}\n@media (max-width: 768px) {\n  .secondary-metrics {\n    justify-content: center;\n    gap: 16px;\n  }\n}\n\n.secondary-metric {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-align: center;\n  flex: 1;\n  min-width: 110px;\n  max-width: 120px;\n  padding: 8px 12px;\n  background: rgba(255, 255, 255, 0.02);\n  border-radius: 6px;\n  border: 1px solid rgba(255, 255, 255, 0.05);\n}\n\n.secondary-label {\n  font-size: 0.85rem;\n  color: var(--text-secondary);\n  margin-bottom: 4px;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  font-weight: 500;\n  opacity: 0.9;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.secondary-value {\n  font-size: 1rem;\n  font-weight: 700;\n  color: var(--text-color);\n}\n.secondary-value.warning {\n  color: #FF9800;\n  font-weight: 700;\n}\n.secondary-value.positive {\n  color: #4CAF50;\n}\n.secondary-value.negative {\n  color: #F44336;\n}\n\n.equipment-summary {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  gap: 17px;\n  flex: 1;\n  max-width: 200px;\n}\n@media (max-width: 768px) {\n  .equipment-summary {\n    grid-template-columns: repeat(4, 1fr);\n    max-width: 100%;\n    gap: 8px;\n  }\n}\n@media (max-width: 480px) {\n  .equipment-summary {\n    grid-template-columns: repeat(2, 1fr);\n    gap: 6px;\n  }\n}\n\n.equipment-item {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-align: center;\n  background: rgba(255, 255, 255, 0.03);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 8px;\n  padding: 12px 8px;\n  transition: all 0.2s ease;\n  position: relative;\n  overflow: hidden;\n  min-width: 60px;\n  min-height: 40px;\n}\n.equipment-item:hover {\n  background: rgba(255, 255, 255, 0.06);\n  border-color: rgba(255, 255, 255, 0.15);\n  transform: translateY(-1px);\n}\n.equipment-item::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  height: 2px;\n  background: var(--equipment-color, #4A90E2);\n  opacity: 0.8;\n}\n\n.equipment-name {\n  font-size: 0.75rem;\n  color: var(--text-muted);\n  margin-bottom: 4px;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  font-weight: 600;\n}\n\n.equipment-value {\n  font-size: 1.05rem;\n  font-weight: 700;\n  line-height: 1;\n}\n\n.widget-header {\n  padding: 16px 20px;\n}\n\n.widget-content {\n  padding: 0 16px 16px;\n}\n\n.widget-controls {\n  margin-bottom: 12px;\n}\n\n.trend-section {\n  margin-top: 8px;\n}\n\n.trend-header {\n  margin-bottom: 12px;\n}\n\n.trend-chart {\n  padding: 12px;\n}\n\n.compact-metrics-section,\n.compact-availability-container,\n.compact-availability-card,\n.availability-value,\n.availability-label,\n.availability-target,\n.equipment-progress-section,\n.equipment-progress-title,\n.equipment-progress-item,\n.equipment-progress-header,\n.equipment-progress-bar,\n.equipment-progress-fill,\n.compact-mttf-display-section,\n.compact-mttf-main-card,\n.compact-resilience-display-section,\n.compact-resilience-main-card,\n.compact-resilience-metrics,\n.compact-resilience-metric-card {\n  display: none;\n}\n\n.glass-bg-fp {\n  padding: 16px 14px;\n}\n\n@media (max-width: 768px) {\n  .ultra-compact-metrics {\n    padding: 14px 16px;\n    gap: 12px;\n  }\n  .metric-value {\n    font-size: 2rem;\n  }\n  .widget-header {\n    padding: 14px 16px;\n  }\n  .widget-content {\n    padding: 0 14px 14px;\n  }\n  .glass-bg-fp {\n    padding: 14px 12px;\n  }\n}\n@media (max-width: 480px) {\n  .ultra-compact-metrics {\n    padding: 12px 14px;\n    gap: 10px;\n  }\n  .metric-value {\n    font-size: 1.8rem;\n  }\n  .metric-label {\n    font-size: 0.85rem;\n  }\n  .secondary-label {\n    font-size: 0.75rem;\n  }\n  .secondary-value {\n    font-size: 0.9rem;\n  }\n  .secondary-metric {\n    min-width: 80px;\n    padding: 6px 10px;\n  }\n  .equipment-name {\n    font-size: 0.65rem;\n    margin-bottom: 3px;\n  }\n  .equipment-value {\n    font-size: 0.9rem;\n  }\n  .equipment-item {\n    padding: 6px 4px;\n  }\n  .widget-header {\n    padding: 12px 14px;\n  }\n  .widget-content {\n    padding: 0 12px 12px;\n  }\n}", ""]);
+exports.push([module.id, ":root, .dark-mode {\n  --bg-color: rgba(20, 20, 20, 0.1);\n  --text-color: #ffffff;\n  --text-secondary: rgba(255, 255, 255, 0.9);\n  --text-muted: rgba(255, 255, 255, 0.7);\n  --glass-bg: rgba(20, 20, 20, 0.15);\n  --glass-border: rgba(255, 255, 255, 0.18);\n  --card-bg: rgba(255, 255, 255, 0.05);\n  --card-border: rgba(255, 255, 255, 0.08);\n  --progress-bg: rgba(255, 255, 255, 0.1);\n  --modal-bg: rgba(20, 20, 20, 0.95);\n  --modal-border: rgba(255, 255, 255, 0.1);\n  --primary-blue: #4A90E2;\n  --success-green: #7ED321;\n  --warning-orange: #F5A623;\n  --purple: #BD10E0;\n}\n\n.uxp-date-range-picker,\n.uxp-date-picker,\n.react-datepicker-popper,\n.react-datepicker__portal {\n  z-index: 10001 !important;\n}\n\n.uxp-date-picker-dropdown,\n.uxp-date-range-picker-dropdown,\n.react-datepicker__tab-loop {\n  z-index: 10002 !important;\n}\n\n.main-container {\n  width: 100%;\n  height: 100%;\n  background: var(--bg-color);\n  color: var(--text-color);\n  transition: all 0.3s ease;\n  display: flex;\n  flex-direction: column;\n  overflow: auto;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  direction: rtl;\n}\n.main-container * {\n  direction: ltr;\n}\n\n.glass-bg-fp {\n  background: var(--glass-bg);\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  padding: 16px 14px;\n  width: 100%;\n  min-height: auto;\n  color: var(--text-color);\n  box-sizing: border-box;\n  display: flex;\n  flex-direction: column;\n  height: auto;\n  flex: 1;\n  border-radius: 12px;\n  border: 1px solid var(--glass-border);\n}\n\n.main-header {\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n}\n.main-header .header-text {\n  font-size: 1.7rem;\n  font-weight: 600;\n  color: var(--text-color);\n  letter-spacing: -0.02em;\n}\n.main-header .header-subtitle {\n  font-size: 0.95rem;\n  color: var(--text-muted);\n  font-weight: 400;\n}\n\n.system-selector,\n.time-period-selector {\n  background: var(--card-bg);\n  border: 1px solid var(--card-border);\n  border-radius: 6px;\n  padding: 8px 14px;\n  color: var(--text-color);\n  font-size: 0.9rem;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.system-selector:hover,\n.time-period-selector:hover {\n  background: var(--card-border);\n}\n.system-selector option,\n.time-period-selector option {\n  background: var(--modal-bg);\n  color: var(--text-color);\n}\n\n.compare-btn {\n  background: rgba(100, 181, 246, 0.15);\n  color: #fff;\n  border: 1px solid rgba(100, 181, 246, 0.3);\n  padding: 6px 12px;\n  border-radius: 8px;\n  font-size: 1.1rem;\n  font-weight: 700;\n  cursor: pointer;\n  backdrop-filter: blur(10px);\n  transition: all 0.3s ease;\n  font-family: \"Inter\", \"Segoe UI\", Arial, sans-serif;\n}\n\n.metrics-section {\n  display: flex;\n  gap: 40px;\n  margin: 24px 0;\n  align-items: center;\n  justify-content: space-between;\n}\n@media (max-width: 768px) {\n  .metrics-section {\n    flex-direction: column;\n    gap: 24px;\n    align-items: center;\n  }\n}\n\n.availability-circle-container {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 16px;\n  flex: 0 0 auto;\n  min-height: 250px;\n}\n\n.availability-circle {\n  margin-top: 20px;\n  width: 120px;\n  height: 120px;\n  border-radius: 50%;\n  background: conic-gradient(var(--primary-blue) 0deg, var(--primary-blue) 359deg, var(--progress-bg) 359deg, var(--progress-bg) 360deg);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  position: relative;\n}\n.availability-circle::before {\n  content: \"\";\n  position: absolute;\n  inset: 8px;\n  border-radius: 50%;\n  background: black;\n}\n.availability-circle .circle-content {\n  position: relative;\n  z-index: 1;\n  text-align: center;\n}\n.availability-circle .circle-content .percentage {\n  font-size: 2.1rem;\n  font-weight: 700;\n  color: var(--text-color);\n  line-height: 1;\n}\n.availability-circle .circle-content .label {\n  font-size: 0.95rem;\n  color: var(--text-secondary);\n  margin-top: 4px;\n}\n\n.target-info {\n  text-align: center;\n}\n.target-info .target-label {\n  font-size: 1rem;\n  color: var(--text-secondary);\n  margin-bottom: 4px;\n}\n.target-info .below-target {\n  font-size: 0.95rem;\n  color: var(--warning-orange);\n  font-weight: 500;\n}\n\n.equipment-breakdown {\n  flex: 0 0 auto;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  width: 280px;\n  min-height: 250px;\n  margin-left: -20px;\n}\n.equipment-breakdown .breakdown-title {\n  font-size: 1.1rem;\n  font-weight: 600;\n  color: var(--text-color);\n  margin-bottom: 12px;\n  text-align: center;\n}\n\n.equipment-pie-chart {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 16px;\n  width: 100%;\n  height: 160px;\n}\n.equipment-pie-chart .recharts-pie-sector {\n  outline: none;\n}\n.equipment-pie-chart .recharts-tooltip-wrapper .recharts-default-tooltip {\n  background: rgba(20, 20, 20, 0.9) !important;\n  border: 1px solid rgba(255, 255, 255, 0.2) !important;\n  border-radius: 8px !important;\n  color: #ffffff !important;\n}\n.equipment-pie-chart .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-item {\n  color: #ffffff !important;\n}\n.equipment-pie-chart .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-label {\n  color: #ffffff !important;\n}\n\n.equipment-legend {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: center;\n  gap: 12px;\n  width: 100%;\n  max-width: 280px;\n}\n.equipment-legend .legend-item {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 0.85rem;\n}\n.equipment-legend .legend-item .legend-color {\n  width: 12px;\n  height: 12px;\n  border-radius: 2px;\n  flex-shrink: 0;\n}\n.equipment-legend .legend-item span {\n  color: var(--text-secondary);\n  white-space: nowrap;\n}\n\n.widget-section-title {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: 32px 0 20px 0;\n  width: 100%;\n}\n.widget-section-title span {\n  padding: 0 12px;\n  font-size: 1rem;\n  font-weight: 500;\n  color: var(--text-muted);\n  letter-spacing: 0.5px;\n  text-transform: uppercase;\n}\n.widget-section-title .section-line {\n  height: 1px;\n  flex: 1;\n  background: linear-gradient(90deg, transparent, var(--text-color) 50%, transparent);\n  opacity: 0.2;\n}\n\n.widget-container {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 12px;\n  margin-bottom: 8px;\n  overflow: hidden;\n  transition: all 0.3s ease;\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n\n.widget-header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 20px 24px;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.widget-header:hover {\n  background: rgba(255, 255, 255, 0.02);\n}\n\n.widget-header-left {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n\n.widget-icon {\n  width: 40px;\n  height: 40px;\n  background: rgba(74, 144, 226, 0.15);\n  border-radius: 10px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #4A90E2;\n}\n\n.widget-title {\n  font-size: 1.4rem;\n  font-weight: 600;\n  display: flex;\n  align-items: center;\n  letter-spacing: -0.02em;\n}\n\n.widget-header-right {\n  display: flex;\n  align-items: center;\n  gap: 16px;\n}\n\n.expand-icon {\n  width: 32px;\n  height: 32px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 8px;\n  transition: all 0.2s ease;\n}\n.expand-icon:hover {\n  background: rgba(255, 255, 255, 0.05);\n}\n\n.widget-content {\n  padding: 0 24px 24px;\n  transition: all 0.3s ease;\n}\n\n.widget-controls {\n  display: flex;\n  gap: 12px;\n  margin-bottom: 20px;\n}\n\n.trend-section {\n  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);\n  overflow: hidden;\n  transform-origin: top;\n  margin-top: 24px;\n}\n.trend-section.collapsed {\n  max-height: 0;\n  margin-top: 0;\n  opacity: 0;\n  transform: scaleY(0);\n  padding: 0;\n  margin-bottom: 0;\n}\n\n.trend-chart {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 8px;\n  padding: 16px;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n.trend-chart .recharts-wrapper {\n  position: relative !important;\n  cursor: default !important;\n}\n.trend-chart .recharts-wrapper svg {\n  overflow: visible !important;\n}\n.trend-chart .recharts-cartesian-grid-horizontal line,\n.trend-chart .recharts-cartesian-grid-vertical line {\n  stroke: rgba(255, 255, 255, 0.1);\n}\n.trend-chart .recharts-text {\n  fill: #ffffff !important;\n  opacity: 0.9;\n}\n.trend-chart .recharts-legend-wrapper .recharts-legend-item-text {\n  color: #ffffff !important;\n}\n.trend-chart .recharts-cartesian-axis-tick-value {\n  fill: #ffffff !important;\n}\n.trend-chart .recharts-tooltip-wrapper .recharts-default-tooltip {\n  background: rgba(20, 20, 20, 0.9) !important;\n  border: 1px solid rgba(255, 255, 255, 0.2) !important;\n  border-radius: 8px !important;\n  color: #ffffff !important;\n}\n.trend-chart .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-item {\n  color: #ffffff !important;\n}\n.trend-chart .recharts-tooltip-wrapper .recharts-default-tooltip .recharts-tooltip-label {\n  color: #ffffff !important;\n}\n.trend-chart .recharts-line-dot {\n  outline: none;\n}\n.trend-chart .recharts-active-dot {\n  outline: none;\n}\n.trend-chart .recharts-surface {\n  outline: none;\n}\n\n@media (max-width: 768px) {\n  .main-container {\n    padding: 12px 8px;\n  }\n  .glass-bg-fp {\n    padding: 16px 12px;\n  }\n  .widget-container {\n    margin-bottom: 16px;\n  }\n  .widget-header {\n    padding: 16px 20px;\n  }\n  .widget-icon {\n    width: 36px;\n    height: 36px;\n  }\n  .widget-title {\n    font-size: 1.2rem;\n  }\n  .widget-content {\n    padding: 0 20px 20px;\n  }\n  .widget-controls {\n    flex-wrap: wrap;\n  }\n  .main-header .header-text {\n    font-size: 1.4rem;\n  }\n  .main-header .header-subtitle {\n    font-size: 0.9rem;\n  }\n  .availability-circle {\n    width: 100px;\n    height: 100px;\n  }\n  .availability-circle .circle-content .percentage {\n    font-size: 1.7rem;\n  }\n  .availability-circle .circle-content .label {\n    font-size: 0.9rem;\n  }\n  .system-selector,\n  .time-period-selector,\n  .compare-btn {\n    font-size: 0.85rem;\n    padding: 6px 10px;\n  }\n  .equipment-breakdown {\n    margin-left: 0;\n  }\n  .equipment-breakdown .breakdown-title {\n    font-size: 1rem;\n  }\n}\n@media (max-width: 480px) {\n  .widget-container {\n    margin-bottom: 12px;\n  }\n  .widget-header {\n    padding: 14px 16px;\n  }\n  .widget-icon {\n    width: 32px;\n    height: 32px;\n  }\n  .widget-title {\n    font-size: 1.05rem;\n  }\n  .widget-content {\n    padding: 0 16px 16px;\n  }\n  .expand-icon {\n    width: 28px;\n    height: 28px;\n  }\n  .widget-section-title span {\n    font-size: 0.7rem;\n  }\n  .trend-filters {\n    flex-wrap: wrap;\n  }\n  .trend-filters .filter-btn {\n    padding: 4px 12px;\n    font-size: 0.75rem;\n  }\n  .metrics-section {\n    flex-direction: column;\n    align-items: center;\n    gap: 16px;\n  }\n  .main-header .header-text {\n    font-size: 1rem;\n  }\n  .main-header .header-subtitle {\n    font-size: 0.75rem;\n  }\n}\n.recharts-responsive-container .recharts-surface {\n  outline: none;\n}\n\n.equipment-legend .legend-item .legend-color {\n  width: 12px;\n  height: 12px;\n  border-radius: 2px;\n  flex-shrink: 0;\n}\n\n@media (max-width: 768px) {\n  .trend-chart .recharts-responsive-container {\n    height: 220px !important;\n  }\n  .equipment-pie-chart .recharts-responsive-container {\n    height: 160px !important;\n  }\n  .equipment-breakdown {\n    width: 100%;\n    max-width: 100%;\n    min-height: auto;\n  }\n  .equipment-legend {\n    max-width: 100%;\n    gap: 12px;\n  }\n  .equipment-legend .legend-item {\n    font-size: 0.75rem;\n  }\n  .availability-circle-container {\n    min-height: auto;\n  }\n}\n@media (max-width: 480px) {\n  .trend-chart .recharts-responsive-container {\n    height: 200px !important;\n  }\n  .equipment-pie-chart .recharts-responsive-container {\n    height: 140px !important;\n  }\n  .equipment-legend {\n    flex-direction: column;\n    gap: 8px;\n    align-items: center;\n  }\n}\n.modal-overlay {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.7);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 1002;\n}\n.modal-overlay .uxp-date-range-picker,\n.modal-overlay .uxp-date-picker {\n  z-index: 10001 !important;\n}\n.modal-overlay .uxp-date-range-picker .uxp-date-picker-dropdown,\n.modal-overlay .uxp-date-range-picker .uxp-date-range-picker-dropdown,\n.modal-overlay .uxp-date-range-picker .react-datepicker-popper,\n.modal-overlay .uxp-date-range-picker .react-datepicker__portal,\n.modal-overlay .uxp-date-picker .uxp-date-picker-dropdown,\n.modal-overlay .uxp-date-picker .uxp-date-range-picker-dropdown,\n.modal-overlay .uxp-date-picker .react-datepicker-popper,\n.modal-overlay .uxp-date-picker .react-datepicker__portal {\n  z-index: 10002 !important;\n}\n\n.cooling-compare-modal {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.7);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  z-index: 9999;\n}\n\n.modal-content {\n  background: var(--modal-bg);\n  border: 1px solid var(--modal-border);\n  border-radius: 12px;\n  padding: 0;\n  width: 90%;\n  max-width: 600px;\n  max-height: 80vh;\n  overflow: auto;\n  backdrop-filter: blur(10px);\n}\n\n.modal-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 20px 24px;\n  border-bottom: 1px solid var(--glass-border);\n}\n.modal-header h3 {\n  margin: 0;\n  color: var(--text-color);\n  font-size: 1.2rem;\n  font-weight: 600;\n}\n\n.modal-close {\n  background: none !important;\n  border: none !important;\n  color: #FF4D4F !important;\n  font-size: 24px !important;\n  cursor: pointer !important;\n  padding: 0 !important;\n  width: 30px !important;\n  height: 30px !important;\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  border-radius: 4px !important;\n  transition: all 0.2s ease !important;\n}\n.modal-close:hover {\n  background: rgba(255, 77, 79, 0.1) !important;\n  color: #FF6B6B !important;\n}\n\n.dt-water-compare-modal .modal-close,\n.uxp-modal .modal-close,\n.modal-container .modal-close {\n  color: #FF4D4F !important;\n}\n.dt-water-compare-modal .modal-close:hover,\n.uxp-modal .modal-close:hover,\n.modal-container .modal-close:hover {\n  background: transparent !important;\n  color: #ffffff !important;\n}\n\n.modal-container .modal-panel .modal-header .modal-close .close-btn {\n  background-color: transparent !important;\n  color: #ffffff !important;\n  border-radius: 50% !important;\n  border-color: #fff !important;\n  width: 30px !important;\n  height: 30px !important;\n  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNS42NyAxNS42NyI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOm5vbmU7c3Ryb2tlOiNmZmZmZmY7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS13aWR0aDozcHg7fTwvc3R5bGU+PC9kZWZzPjxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPjxnIGlkPSJMYXllcl8xLTIiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PGxpbmUgY2xhc3M9ImNscy0xIiB4MT0iMTQuMTciIHkxPSIxLjUiIHgyPSIxLjUiIHkyPSIxNC4xNyIvPjxsaW5lIGNsYXNzPSJjbHMtMSIgeDE9IjE0LjE3IiB5MT0iMTQuMTciIHgyPSIxLjUiIHkyPSIxLjUiLz48L2c+PC9nPjwvc3ZnPg==) !important;\n  background-position: center !important;\n  background-repeat: no-repeat !important;\n  background-size: 30% !important;\n  cursor: pointer !important;\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  transition: all 0.2s ease !important;\n}\n\n.cooling-compare-modal-content {\n  padding: 24px;\n}\n\n.cooling-compare-section {\n  margin-bottom: 20px;\n}\n.cooling-compare-section label {\n  display: block;\n  margin-bottom: 12px;\n  color: var(--text-secondary);\n  font-size: 0.95rem;\n  font-weight: 500;\n}\n\n.cooling-select-container {\n  margin-bottom: 16px;\n}\n\n.cooling-compare-select {\n  width: 100%;\n  background: var(--card-bg);\n  border: 1px solid var(--card-border);\n  border-radius: 6px;\n  padding: 10px 14px;\n  color: var(--text-color);\n  font-size: 0.9rem;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.cooling-compare-select:hover, .cooling-compare-select:focus {\n  background: var(--card-border);\n  outline: none;\n}\n.cooling-compare-select option {\n  background: var(--modal-bg);\n  color: var(--text-color);\n}\n\n.cooling-compare-advanced {\n  margin-top: 16px;\n  padding: 16px;\n  background: var(--card-bg);\n  border-radius: 8px;\n  border: 1px solid var(--card-border);\n}\n\n.cooling-compare-advanced-range1,\n.cooling-compare-advanced-range2 {\n  margin-bottom: 16px;\n}\n.cooling-compare-advanced-range1 label,\n.cooling-compare-advanced-range2 label {\n  margin-bottom: 8px;\n}\n.cooling-compare-advanced-range1 .date-input,\n.cooling-compare-advanced-range2 .date-input {\n  width: 100%;\n  background: var(--card-bg);\n  border: 1px solid var(--card-border);\n  border-radius: 4px;\n  padding: 8px 12px;\n  color: var(--text-color);\n  font-size: 0.9rem;\n  margin-bottom: 8px;\n}\n.cooling-compare-advanced-range1 .date-input:focus,\n.cooling-compare-advanced-range2 .date-input:focus {\n  outline: none;\n  border-color: var(--primary-blue);\n}\n.cooling-compare-advanced-range1 .date-input::-webkit-calendar-picker-indicator,\n.cooling-compare-advanced-range2 .date-input::-webkit-calendar-picker-indicator {\n  filter: invert(1);\n}\n\n.cooling-compare-label-bold {\n  font-weight: 600;\n}\n\n.cooling-compare-label-margin {\n  margin-bottom: 8px;\n}\n\n.cooling-CalculateCompare-btn {\n  background: #42A5F5;\n  border: none;\n  border-radius: 6px;\n  padding: 10px 20px;\n  color: white;\n  font-size: 0.9rem;\n  font-weight: 500;\n  cursor: pointer;\n  transition: all 0.2s ease;\n  width: 100%;\n}\n.cooling-CalculateCompare-btn:hover:not(:disabled) {\n  background: #1976D2;\n  transform: translateY(-1px);\n}\n.cooling-CalculateCompare-btn:disabled {\n  background: var(--card-border);\n  cursor: not-allowed;\n  color: var(--text-muted);\n}\n\n.cooling-comparison-results {\n  margin-top: 24px;\n  padding: 20px;\n  background: var(--card-bg);\n  border-radius: 8px;\n  border: 1px solid var(--card-border);\n}\n.cooling-comparison-results h4 {\n  margin: 0 0 16px 0;\n  color: var(--text-color);\n  font-size: 1.1rem;\n  font-weight: 600;\n}\n\n.cooling-results-main {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 16px;\n  margin-bottom: 20px;\n}\n\n.cooling-result-comparison,\n.cooling-result-current {\n  padding: 12px;\n  background: var(--glass-bg);\n  border-radius: 6px;\n  border: 1px solid var(--glass-border);\n}\n\n.cooling-result-label {\n  font-size: 0.85rem;\n  color: var(--text-muted);\n  margin-bottom: 4px;\n}\n\n.cooling-result-value {\n  font-size: 1.2rem;\n  font-weight: 600;\n  color: var(--text-color);\n}\n\n.cooling-result-difference {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 16px;\n}\n\n.cooling-difference-item {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 10px 12px;\n  background: var(--glass-bg);\n  border-radius: 6px;\n  border: 1px solid var(--glass-border);\n}\n\n.cooling-difference-label {\n  font-size: 0.9rem;\n  color: var(--text-secondary);\n}\n\n.cooling-difference-value-container {\n  display: flex;\n  align-items: center;\n  gap: 4px;\n}\n\n.cooling-difference-value {\n  font-weight: 600;\n  font-size: 0.95rem;\n}\n\n@media (max-width: 768px) {\n  .modal-content {\n    width: 95%;\n    margin: 10px;\n  }\n  .cooling-results-main,\n  .cooling-result-difference {\n    grid-template-columns: 1fr;\n    gap: 12px;\n  }\n  .modal-header {\n    padding: 16px 20px;\n  }\n  .modal-header h3 {\n    font-size: 1.1rem;\n  }\n  .cooling-compare-modal-content {\n    padding: 20px;\n  }\n}\n.modal-container.dt-water-compare-modal .modal-backdrop {\n  background-color: transparent !important;\n}\n.modal-container.dt-water-compare-modal .modal-panel {\n  min-width: 30%;\n  width: auto;\n  max-width: 40%;\n  height: auto;\n  max-height: 100%;\n  min-height: 50%;\n  background: rgba(0, 0, 0, 0.11) !important;\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-header {\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  color: #fff;\n  font-size: 1.4rem;\n  font-weight: 700;\n  letter-spacing: 0.02em;\n  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  border-radius: 12px 12px 0 0;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-body {\n  padding: 16px;\n  height: 100% !important;\n  margin: 0;\n  backdrop-filter: blur(10px);\n  -webkit-backdrop-filter: blur(10px);\n  overflow-y: auto;\n  border-radius: 0 0 12px 12px;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker {\n  z-index: 10001 !important;\n}\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .uxp-date-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .uxp-date-range-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .react-datepicker-popper,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-range-picker .react-datepicker__portal,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .uxp-date-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .uxp-date-range-picker-dropdown,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .react-datepicker-popper,\n.modal-container.dt-water-compare-modal .modal-panel .modal-body .uxp-date-picker .react-datepicker__portal {\n  z-index: 10002 !important;\n}\n\n.uxp-date-range-picker .uxp-date-picker-dropdown,\n.uxp-date-range-picker .uxp-date-range-picker-dropdown,\n.uxp-date-range-picker .react-datepicker-popper,\n.uxp-date-range-picker .react-datepicker__portal,\n.uxp-date-range-picker .react-datepicker__tab-loop,\n.uxp-date-picker .uxp-date-picker-dropdown,\n.uxp-date-picker .uxp-date-range-picker-dropdown,\n.uxp-date-picker .react-datepicker-popper,\n.uxp-date-picker .react-datepicker__portal,\n.uxp-date-picker .react-datepicker__tab-loop {\n  z-index: 10002 !important;\n}\n\n.mttf-display-section {\n  display: flex;\n  justify-content: center;\n  margin: 32px 0;\n}\n\n.mttf-main-card {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 12px;\n  padding: 32px 48px;\n  text-align: center;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  min-width: 320px;\n}\n\n.mttf-label {\n  font-size: 0.95rem;\n  color: var(--text-muted);\n  margin-bottom: 8px;\n  letter-spacing: 0.5px;\n  text-transform: uppercase;\n}\n\n.mttf-value {\n  font-size: 3.2rem;\n  font-weight: 700;\n  color: #4A90E2;\n  margin-bottom: 16px;\n  line-height: 1;\n}\n\n.mttf-change-container {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n  align-items: center;\n}\n\n.mttf-change {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 0.95rem;\n  font-weight: 500;\n}\n.mttf-change.positive {\n  color: #7ED321;\n}\n.mttf-change.negative {\n  color: #FF4D4F;\n}\n.mttf-change .change-icon {\n  font-size: 14px;\n}\n\n.mttf-last-month {\n  font-size: 0.9rem;\n  color: var(--text-muted);\n}\n\n.trend-header {\n  display: flex;\n  justify-content: flex-end;\n  margin-bottom: 16px;\n}\n\n.trend-filters {\n  display: flex;\n  gap: 8px;\n  background: var(--glass-bg);\n  border-radius: 8px;\n  padding: 4px;\n  border: 1px solid var(--glass-border);\n  backdrop-filter: blur(10px);\n}\n\n.filter-btn {\n  background: transparent;\n  border: none;\n  color: var(--text-secondary);\n  padding: 8px 16px;\n  border-radius: 6px;\n  font-size: 0.9rem;\n  cursor: pointer;\n  transition: all 0.2s ease;\n  font-weight: 500;\n}\n.filter-btn:hover {\n  background: var(--glass-border);\n  color: var(--text-color);\n}\n.filter-btn.active {\n  background: var(--primary-blue);\n  color: white;\n}\n\n@media (max-width: 768px) {\n  .mttf-main-card {\n    padding: 24px 32px;\n    min-width: 280px;\n  }\n  .mttf-value {\n    font-size: 2.6rem;\n  }\n  .trend-filters .filter-btn {\n    padding: 6px 12px;\n    font-size: 0.85rem;\n  }\n}\n@media (max-width: 480px) {\n  .mttf-main-card {\n    padding: 20px 24px;\n    min-width: 240px;\n  }\n  .mttf-value {\n    font-size: 2.2rem;\n  }\n  .mttf-change {\n    font-size: 0.85rem;\n  }\n  .mttf-last-month {\n    font-size: 0.8rem;\n  }\n  .trend-filters {\n    flex-wrap: wrap;\n  }\n  .trend-filters .filter-btn {\n    padding: 4px 10px;\n    font-size: 0.8rem;\n  }\n}\n.resilience-display-section {\n  display: flex;\n  justify-content: space-between;\n  margin: 32px 0;\n  gap: 20px;\n}\n@media (max-width: 768px) {\n  .resilience-display-section {\n    flex-direction: column;\n    gap: 16px;\n  }\n}\n\n.resilience-main-card {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 12px;\n  padding: 24px 32px;\n  text-align: center;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);\n  flex: 2;\n  min-width: 250px;\n}\n\n.resilience-label {\n  font-size: 0.95rem;\n  color: var(--text-muted);\n  margin-bottom: 8px;\n  letter-spacing: 0.5px;\n  text-transform: uppercase;\n}\n\n.resilience-value {\n  font-size: 2.8rem;\n  font-weight: 700;\n  color: #4A90E2;\n  margin-bottom: 16px;\n  line-height: 1;\n}\n\n.resilience-change-container {\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n  align-items: center;\n}\n\n.resilience-change {\n  display: flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 0.95rem;\n  font-weight: 500;\n}\n.resilience-change.positive {\n  color: #7ED321;\n}\n.resilience-change.negative {\n  color: #FF4D4F;\n}\n.resilience-change .change-icon {\n  font-size: 14px;\n}\n\n.resilience-last-month {\n  font-size: 0.9rem;\n  color: var(--text-muted);\n}\n\n.resilience-metrics {\n  display: flex;\n  flex-direction: column;\n  gap: 16px;\n  flex: 1;\n  min-width: 200px;\n}\n\n.resilience-metric-card {\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 8px;\n  padding: 16px 20px;\n  text-align: center;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n  flex: 1;\n}\n\n.resilience-metric-label {\n  font-size: 0.85rem;\n  color: var(--text-muted);\n  margin-bottom: 6px;\n  letter-spacing: 0.3px;\n  text-transform: uppercase;\n}\n\n.resilience-metric-value {\n  font-size: 1.8rem;\n  font-weight: 600;\n  color: var(--text-color);\n  margin-bottom: 4px;\n  line-height: 1;\n}\n\n.resilience-metric-period {\n  font-size: 0.8rem;\n  color: var(--text-muted);\n  opacity: 0.8;\n}\n\n@media (max-width: 768px) {\n  .resilience-main-card {\n    padding: 20px 24px;\n    min-width: 200px;\n  }\n  .resilience-value {\n    font-size: 2.4rem;\n  }\n  .resilience-metric-card {\n    padding: 14px 18px;\n  }\n  .resilience-metric-value {\n    font-size: 1.6rem;\n  }\n}\n@media (max-width: 480px) {\n  .resilience-main-card {\n    padding: 16px 20px;\n    min-width: 180px;\n  }\n  .resilience-value {\n    font-size: 2rem;\n  }\n  .resilience-change {\n    font-size: 0.85rem;\n  }\n  .resilience-last-month {\n    font-size: 0.8rem;\n  }\n  .resilience-metric-card {\n    padding: 12px 16px;\n  }\n  .resilience-metric-value {\n    font-size: 1.4rem;\n  }\n  .resilience-metric-label {\n    font-size: 0.8rem;\n  }\n  .resilience-metric-period {\n    font-size: 0.75rem;\n  }\n}\n.ultra-compact-metrics {\n  display: flex;\n  align-items: flex-start;\n  gap: 20px;\n  margin: 12px 0;\n  padding: 16px 20px;\n  background: var(--glass-bg);\n  border: 1px solid var(--glass-border);\n  border-radius: 10px;\n  backdrop-filter: blur(10px);\n  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.1);\n}\n@media (max-width: 768px) {\n  .ultra-compact-metrics {\n    flex-direction: column;\n    gap: 16px;\n    align-items: center;\n  }\n}\n\n.main-metric-card {\n  text-align: center;\n  min-width: 140px;\n  flex-shrink: 0;\n}\n\n.metric-value {\n  font-size: 2.2rem;\n  font-weight: 700;\n  color: #4A90E2;\n  line-height: 1;\n  margin-bottom: 6px;\n}\n\n.metric-label {\n  font-size: 0.9rem;\n  color: var(--text-secondary);\n  font-weight: 500;\n  opacity: 0.9;\n}\n\n.secondary-metrics {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 20px;\n  flex: 1;\n  align-items: flex-start;\n}\n@media (max-width: 768px) {\n  .secondary-metrics {\n    justify-content: center;\n    gap: 16px;\n  }\n}\n\n.secondary-metric {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-align: center;\n  flex: 1;\n  min-width: 110px;\n  max-width: 120px;\n  padding: 8px 12px;\n  background: rgba(255, 255, 255, 0.02);\n  border-radius: 6px;\n  border: 1px solid rgba(255, 255, 255, 0.05);\n}\n\n.secondary-label {\n  font-size: 0.85rem;\n  color: var(--text-secondary);\n  margin-bottom: 4px;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  font-weight: 500;\n  opacity: 0.9;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.secondary-value {\n  font-size: 1rem;\n  font-weight: 700;\n  color: var(--text-color);\n}\n.secondary-value.warning {\n  color: #FF9800;\n  font-weight: 700;\n}\n.secondary-value.positive {\n  color: #4CAF50;\n}\n.secondary-value.negative {\n  color: #F44336;\n}\n\n.equipment-summary {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  gap: 17px;\n  flex: 1;\n  max-width: 200px;\n}\n@media (max-width: 768px) {\n  .equipment-summary {\n    grid-template-columns: repeat(4, 1fr);\n    max-width: 100%;\n    gap: 8px;\n  }\n}\n@media (max-width: 480px) {\n  .equipment-summary {\n    grid-template-columns: repeat(2, 1fr);\n    gap: 6px;\n  }\n}\n\n.equipment-item {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  text-align: center;\n  background: rgba(255, 255, 255, 0.03);\n  border: 1px solid rgba(255, 255, 255, 0.08);\n  border-radius: 8px;\n  padding: 12px 8px;\n  transition: all 0.2s ease;\n  position: relative;\n  overflow: hidden;\n  min-width: 60px;\n  min-height: 40px;\n}\n.equipment-item:hover {\n  background: rgba(255, 255, 255, 0.06);\n  border-color: rgba(255, 255, 255, 0.15);\n  transform: translateY(-1px);\n}\n.equipment-item::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  height: 2px;\n  background: var(--equipment-color, #4A90E2);\n  opacity: 0.8;\n}\n\n.equipment-name {\n  font-size: 0.75rem;\n  color: var(--text-muted);\n  margin-bottom: 4px;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  font-weight: 600;\n}\n\n.equipment-value {\n  font-size: 1.05rem;\n  font-weight: 700;\n  line-height: 1;\n}\n\n.widget-header {\n  padding: 16px 20px;\n}\n\n.widget-content {\n  padding: 0 16px 16px;\n}\n\n.widget-controls {\n  margin-bottom: 12px;\n}\n\n.trend-section {\n  margin-top: 8px;\n}\n\n.trend-header {\n  margin-bottom: 12px;\n}\n\n.trend-chart {\n  padding: 12px;\n}\n\n.compact-metrics-section,\n.compact-availability-container,\n.compact-availability-card,\n.availability-value,\n.availability-label,\n.availability-target,\n.equipment-progress-section,\n.equipment-progress-title,\n.equipment-progress-item,\n.equipment-progress-header,\n.equipment-progress-bar,\n.equipment-progress-fill,\n.compact-mttf-display-section,\n.compact-mttf-main-card,\n.compact-resilience-display-section,\n.compact-resilience-main-card,\n.compact-resilience-metrics,\n.compact-resilience-metric-card {\n  display: none;\n}\n\n.glass-bg-fp {\n  padding: 16px 14px;\n}\n\n@media (max-width: 768px) {\n  .ultra-compact-metrics {\n    padding: 14px 16px;\n    gap: 12px;\n  }\n  .metric-value {\n    font-size: 2rem;\n  }\n  .widget-header {\n    padding: 14px 16px;\n  }\n  .widget-content {\n    padding: 0 14px 14px;\n  }\n  .glass-bg-fp {\n    padding: 14px 12px;\n  }\n}\n@media (max-width: 480px) {\n  .ultra-compact-metrics {\n    padding: 12px 14px;\n    gap: 10px;\n  }\n  .metric-value {\n    font-size: 1.8rem;\n  }\n  .metric-label {\n    font-size: 0.85rem;\n  }\n  .secondary-label {\n    font-size: 0.75rem;\n  }\n  .secondary-value {\n    font-size: 0.9rem;\n  }\n  .secondary-metric {\n    min-width: 80px;\n    padding: 6px 10px;\n  }\n  .equipment-name {\n    font-size: 0.65rem;\n    margin-bottom: 3px;\n  }\n  .equipment-value {\n    font-size: 0.9rem;\n  }\n  .equipment-item {\n    padding: 6px 4px;\n  }\n  .widget-header {\n    padding: 12px 14px;\n  }\n  .widget-content {\n    padding: 0 12px 12px;\n  }\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -461,7 +461,7 @@ const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components")
 // Import Recharts dynamically to avoid TypeScript issues
 const Recharts = __webpack_require__(/*! recharts */ "recharts");
 const { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area } = Recharts;
-const ResilienceWidget = (_props) => {
+const ResilienceWidget = (props) => {
     const [selectedSystem, setSelectedSystem] = React.useState('All');
     const [selectedTrendPeriod, setSelectedTrendPeriod] = React.useState('6 Months');
     const [showComparePUEModal, setShowComparePUEModal] = React.useState(false);
@@ -552,7 +552,10 @@ const ResilienceWidget = (_props) => {
     };
     // Mock MTTR data - replace with actual data from your API
     const getMTTRData = () => {
-        const systemData = {
+        // Different data based on LocationKey (1 = site, 3 = building)
+        const isSite = props.LocationKey === '1';
+        const systemData = isSite ? {
+            // Site data (LocationKey = 1)
             'All': {
                 mttr: 4.5,
                 lastMonth: 5.2,
@@ -598,6 +601,53 @@ const ResilienceWidget = (_props) => {
                 totalDowntime: 11.6,
                 downtimeUnit: 'h'
             }
+        } : {
+            // Building data (LocationKey = 3) - higher MTTR values
+            'All': {
+                mttr: 6.2,
+                lastMonth: 6.8,
+                change: -8.8,
+                unit: 'h',
+                repairEvents: 18,
+                totalDowntime: 111.6,
+                downtimeUnit: 'h'
+            },
+            'HVAC': {
+                mttr: 5.1,
+                lastMonth: 5.5,
+                change: -7.3,
+                unit: 'h',
+                repairEvents: 5,
+                totalDowntime: 25.5,
+                downtimeUnit: 'h'
+            },
+            'Lighting': {
+                mttr: 3.5,
+                lastMonth: 4.0,
+                change: -12.5,
+                unit: 'h',
+                repairEvents: 7,
+                totalDowntime: 24.5,
+                downtimeUnit: 'h'
+            },
+            'CCTV': {
+                mttr: 8.4,
+                lastMonth: 9.1,
+                change: -7.7,
+                unit: 'h',
+                repairEvents: 3,
+                totalDowntime: 25.2,
+                downtimeUnit: 'h'
+            },
+            'Water': {
+                mttr: 7.5,
+                lastMonth: 7.0,
+                change: 7.1,
+                unit: 'h',
+                repairEvents: 3,
+                totalDowntime: 22.5,
+                downtimeUnit: 'h'
+            }
         };
         return systemData[selectedSystem] || systemData['All'];
     };
@@ -613,14 +663,25 @@ const ResilienceWidget = (_props) => {
     const currentMTTR = getMTTRData();
     // Monthly MTTR trend data
     const getTrendData = () => {
+        // Different data based on LocationKey (1 = site, 3 = building)
+        const isSite = props.LocationKey === '1';
         if (selectedTrendPeriod === '6 Months') {
-            const baseData = [
+            const baseData = isSite ? [
+                // Site data
                 { month: 'Aug', All: 5.1, HVAC: 4.2, Lighting: 2.8, CCTV: 7.1, Water: 6.2 },
                 { month: 'Sep', All: 5.3, HVAC: 4.5, Lighting: 2.6, CCTV: 7.5, Water: 5.9 },
                 { month: 'Oct', All: 4.9, HVAC: 3.9, Lighting: 2.4, CCTV: 6.8, Water: 6.1 },
                 { month: 'Nov', All: 4.7, HVAC: 3.8, Lighting: 2.2, CCTV: 6.5, Water: 5.8 },
                 { month: 'Dec', All: 5.0, HVAC: 4.0, Lighting: 2.5, CCTV: 6.9, Water: 5.7 },
                 { month: 'Jan', All: 4.5, HVAC: 3.8, Lighting: 2.2, CCTV: 6.3, Water: 5.8 }
+            ] : [
+                // Building data (higher values)
+                { month: 'Aug', All: 6.8, HVAC: 5.6, Lighting: 3.7, CCTV: 9.5, Water: 8.3 },
+                { month: 'Sep', All: 7.0, HVAC: 6.0, Lighting: 3.5, CCTV: 10.0, Water: 7.9 },
+                { month: 'Oct', All: 6.5, HVAC: 5.2, Lighting: 3.2, CCTV: 9.1, Water: 8.1 },
+                { month: 'Nov', All: 6.3, HVAC: 5.1, Lighting: 2.9, CCTV: 8.7, Water: 7.7 },
+                { month: 'Dec', All: 6.7, HVAC: 5.3, Lighting: 3.3, CCTV: 9.2, Water: 7.6 },
+                { month: 'Jan', All: 6.2, HVAC: 5.1, Lighting: 3.5, CCTV: 8.4, Water: 7.5 }
             ];
             return baseData.map(item => ({
                 month: item.month,
@@ -629,7 +690,8 @@ const ResilienceWidget = (_props) => {
         }
         else {
             // 12 Months data
-            const baseData = [
+            const baseData = isSite ? [
+                // Site data
                 { month: 'Feb 23', All: 5.4, HVAC: 4.5, Lighting: 3.1, CCTV: 7.3, Water: 6.4 },
                 { month: 'Mar 23', All: 5.2, HVAC: 4.3, Lighting: 2.9, CCTV: 7.0, Water: 6.1 },
                 { month: 'Apr 23', All: 5.0, HVAC: 4.1, Lighting: 2.7, CCTV: 6.8, Water: 5.9 },
@@ -642,6 +704,20 @@ const ResilienceWidget = (_props) => {
                 { month: 'Nov 23', All: 4.7, HVAC: 3.8, Lighting: 2.2, CCTV: 6.5, Water: 5.8 },
                 { month: 'Dec 23', All: 5.0, HVAC: 4.0, Lighting: 2.5, CCTV: 6.9, Water: 5.7 },
                 { month: 'Jan 24', All: 4.5, HVAC: 3.8, Lighting: 2.2, CCTV: 6.3, Water: 5.8 }
+            ] : [
+                // Building data (higher values)
+                { month: 'Feb 23', All: 7.2, HVAC: 6.0, Lighting: 4.1, CCTV: 9.7, Water: 8.5 },
+                { month: 'Mar 23', All: 6.9, HVAC: 5.7, Lighting: 3.9, CCTV: 9.3, Water: 8.1 },
+                { month: 'Apr 23', All: 6.7, HVAC: 5.5, Lighting: 3.6, CCTV: 9.1, Water: 7.9 },
+                { month: 'May 23', All: 6.4, HVAC: 5.2, Lighting: 3.3, CCTV: 8.8, Water: 7.6 },
+                { month: 'Jun 23', All: 6.8, HVAC: 5.6, Lighting: 3.7, CCTV: 9.5, Water: 8.3 },
+                { month: 'Jul 23', All: 7.1, HVAC: 6.0, Lighting: 3.5, CCTV: 10.0, Water: 7.9 },
+                { month: 'Aug 23', All: 6.8, HVAC: 5.6, Lighting: 3.7, CCTV: 9.5, Water: 8.3 },
+                { month: 'Sep 23', All: 7.0, HVAC: 6.0, Lighting: 3.5, CCTV: 10.0, Water: 7.9 },
+                { month: 'Oct 23', All: 6.5, HVAC: 5.2, Lighting: 3.2, CCTV: 9.1, Water: 8.1 },
+                { month: 'Nov 23', All: 6.3, HVAC: 5.1, Lighting: 2.9, CCTV: 8.7, Water: 7.7 },
+                { month: 'Dec 23', All: 6.7, HVAC: 5.3, Lighting: 3.3, CCTV: 9.2, Water: 7.6 },
+                { month: 'Jan 24', All: 6.2, HVAC: 5.1, Lighting: 3.5, CCTV: 8.4, Water: 7.5 }
             ];
             return baseData.map(item => ({
                 month: item.month,
@@ -796,7 +872,7 @@ const ResilienceWidget = (_props) => {
                 React.createElement("div", { className: "cooling-compare-modal-content modal-body" },
                     React.createElement("div", { className: "cooling-compare-options" },
                         React.createElement("div", { className: "cooling-compare-section" },
-                            React.createElement("label", null, "Compare Target MTTR with:"),
+                            React.createElement("label", null, "Compare Current MTTR with:"),
                             React.createElement("div", { className: "cooling-select-container" },
                                 React.createElement("select", { id: "compare-type", value: compareType, onChange: (e) => {
                                         const newCompareType = e.target.value;
@@ -905,18 +981,109 @@ const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components")
 // Import Recharts dynamically to avoid TypeScript issues
 const Recharts = __webpack_require__(/*! recharts */ "recharts");
 const { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area } = Recharts;
-const SystemAvailabilityWidget = (_props) => {
+const SystemAvailabilityWidget = (props) => {
     const [selectedTimePeriod, setSelectedTimePeriod] = React.useState('7 Days');
     const [selectedSystem, setSelectedSystem] = React.useState('All');
     const [showComparePUEModal, setShowComparePUEModal] = React.useState(false);
     const [compareType, setCompareType] = React.useState('Last week');
     const [comparisonResult, setComparisonResult] = React.useState(null);
-    const [range1, setRange1] = React.useState({ start: null, end: null });
-    const [range2, setRange2] = React.useState({ start: null, end: null });
+    const [range1, setRange1] = React.useState({ start: undefined, end: undefined });
+    const [range2, setRange2] = React.useState({ start: undefined, end: undefined });
     const [showTooltip, setShowTooltip] = React.useState(false);
     const [isGraphCollapsed, setIsGraphCollapsed] = React.useState(true);
+    const [showUnavailabilityModal, setShowUnavailabilityModal] = React.useState(false);
+    const [isDatePickerReady, setIsDatePickerReady] = React.useState(false);
     // System types
     const systemTypes = ['All', 'HVAC', 'Lighting', 'CCTV', 'Water'];
+    // Mock data for recent unavailability cases
+    const recentUnavailabilityCases = [
+        {
+            id: 1,
+            system: 'HVAC',
+            equipment: ['AHU-01', 'Chiller-02', 'FCU-05'],
+            startTime: '2024-01-15 14:30:00',
+            endTime: '2024-01-15 16:45:00',
+            duration: '2h 15m',
+            reason: 'Compressor failure in Chiller-02',
+            severity: 'High',
+            status: 'Resolved'
+        },
+        {
+            id: 2,
+            system: 'Lighting',
+            equipment: ['Lighting Panel-03', 'Emergency Lights'],
+            startTime: '2024-01-14 09:15:00',
+            endTime: '2024-01-14 11:30:00',
+            duration: '2h 15m',
+            reason: 'Power surge damaged lighting panel',
+            severity: 'Medium',
+            status: 'Resolved'
+        },
+        {
+            id: 3,
+            system: 'CCTV',
+            equipment: ['Camera-12', 'Camera-15', 'NVR-01'],
+            startTime: '2024-01-13 22:00:00',
+            endTime: '2024-01-14 02:15:00',
+            duration: '4h 15m',
+            reason: 'Network connectivity issues',
+            severity: 'Medium',
+            status: 'Resolved'
+        },
+        {
+            id: 4,
+            system: 'Water',
+            equipment: ['Water Pump-02', 'Pressure Sensor-01'],
+            startTime: '2024-01-12 16:45:00',
+            endTime: '2024-01-12 18:20:00',
+            duration: '1h 35m',
+            reason: 'Pump motor overheating',
+            severity: 'High',
+            status: 'Resolved'
+        },
+        {
+            id: 5,
+            system: 'HVAC',
+            equipment: ['VAV-08', 'Thermostat-12'],
+            startTime: '2024-01-11 10:30:00',
+            endTime: '2024-01-11 12:45:00',
+            duration: '2h 15m',
+            reason: 'Thermostat calibration issue',
+            severity: 'Low',
+            status: 'Resolved'
+        }
+    ];
+    // Function to handle equipment redirection
+    const handleEquipmentRedirect = (equipmentName) => {
+        // Mock redirection - replace with actual navigation logic
+        console.log(`Redirecting to equipment: ${equipmentName}`);
+        // You can implement actual navigation here
+        // Example: window.open(`/equipment/${equipmentName}`, '_blank');
+    };
+    // Function to format date for display
+    const formatDateTime = (dateTimeString) => {
+        const date = new Date(dateTimeString);
+        return date.toLocaleString('en-US', {
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: true
+        });
+    };
+    // Function to get severity color
+    const getSeverityColor = (severity) => {
+        switch (severity.toLowerCase()) {
+            case 'high':
+                return '#FF4D4F';
+            case 'medium':
+                return '#FAAD14';
+            case 'low':
+                return '#52C41A';
+            default:
+                return '#8C8C8C';
+        }
+    };
     // Compare options for dropdown
     const COPDdOptions = [
         { value: 'Last week', label: 'Last week' },
@@ -932,50 +1099,68 @@ const SystemAvailabilityWidget = (_props) => {
         // Mock comparison logic - replace with actual API call
         let mockResult;
         if (compareType === 'Last week') {
+            const current = 98.45;
+            const previous = 98.12;
+            const percentChange = ((current - previous) / previous * 100).toFixed(2);
             mockResult = {
-                selected: { label: 'Last Week', value: 98.12, unit: '%' },
-                current: { label: 'Current Period', value: 98.45, unit: '%' },
-                percentChange: '0.34',
+                selected: { label: 'Last Week', value: previous, unit: '%' },
+                current: { label: 'Current Period', value: current, unit: '%' },
+                percentChange: percentChange,
                 error: false
             };
         }
         else if (compareType === 'Last month weekly average') {
+            const current = 98.45;
+            const previous = 97.89;
+            const percentChange = ((current - previous) / previous * 100).toFixed(2);
             mockResult = {
-                selected: { label: 'Last Month Weekly Average', value: 97.89, unit: '%' },
-                current: { label: 'Current Period', value: 98.45, unit: '%' },
-                percentChange: '0.57',
+                selected: { label: 'Last Month Weekly Average', value: previous, unit: '%' },
+                current: { label: 'Current Period', value: current, unit: '%' },
+                percentChange: percentChange,
                 error: false
             };
         }
         else if (compareType === 'Last quarter weekly average') {
+            const current = 98.45;
+            const previous = 98.05;
+            const percentChange = ((current - previous) / previous * 100).toFixed(2);
             mockResult = {
-                selected: { label: 'Last Quarter Weekly Average', value: 98.05, unit: '%' },
-                current: { label: 'Current Period', value: 98.45, unit: '%' },
-                percentChange: '0.41',
+                selected: { label: 'Last Quarter Weekly Average', value: previous, unit: '%' },
+                current: { label: 'Current Period', value: current, unit: '%' },
+                percentChange: percentChange,
                 error: false
             };
         }
         else if (compareType === 'Last 6 Months weekly average') {
+            const current = 98.45;
+            const previous = 97.78;
+            const percentChange = ((current - previous) / previous * 100).toFixed(2);
             mockResult = {
-                selected: { label: 'Last 6 Months Weekly Average', value: 97.78, unit: '%' },
-                current: { label: 'Current Period', value: 98.45, unit: '%' },
-                percentChange: '0.68',
+                selected: { label: 'Last 6 Months Weekly Average', value: previous, unit: '%' },
+                current: { label: 'Current Period', value: current, unit: '%' },
+                percentChange: percentChange,
                 error: false
             };
         }
         else if (compareType === 'YTD weekly average') {
+            const current = 98.45;
+            const previous = 98.01;
+            const percentChange = ((current - previous) / previous * 100).toFixed(2);
             mockResult = {
-                selected: { label: 'YTD Weekly Average', value: 98.01, unit: '%' },
-                current: { label: 'Current Period', value: 98.45, unit: '%' },
-                percentChange: '0.45',
+                selected: { label: 'YTD Weekly Average', value: previous, unit: '%' },
+                current: { label: 'Current Period', value: current, unit: '%' },
+                percentChange: percentChange,
                 error: false
             };
         }
         else if (compareType === 'Availability with Target (99.99%)') {
+            const current = 98.45;
+            const target = 99.99;
+            const percentChange = ((current - target) / target * 100).toFixed(2);
             mockResult = {
-                selected: { label: 'Target Availability', value: 99.99, unit: '%' },
-                current: { label: 'Current Period', value: 98.45, unit: '%' },
-                percentChange: '-1.54',
+                selected: { label: 'Target Availability', value: target, unit: '%' },
+                current: { label: 'Current Period', value: current, unit: '%' },
+                percentChange: percentChange,
                 error: false
             };
         }
@@ -995,26 +1180,32 @@ const SystemAvailabilityWidget = (_props) => {
                 }
                 return 'Selected Timeframe';
             };
+            const current = 98.67;
+            const previous = 97.93;
+            const percentChange = ((current - previous) / previous * 100).toFixed(2);
             mockResult = {
                 selected: {
                     label: formatDateRange(range1),
-                    value: 97.93,
+                    value: previous,
                     unit: '%'
                 },
                 current: {
                     label: formatDateRange(range2),
-                    value: 98.67,
+                    value: current,
                     unit: '%'
                 },
-                percentChange: '0.75',
+                percentChange: percentChange,
                 error: false
             };
         }
         else {
+            const current = 98.45;
+            const previous = 99.85;
+            const percentChange = ((current - previous) / previous * 100).toFixed(2);
             mockResult = {
-                selected: { label: compareType, value: 99.85, unit: '%' },
-                current: { label: 'Current Period', value: 98.45, unit: '%' },
-                percentChange: '-1.40',
+                selected: { label: compareType, value: previous, unit: '%' },
+                current: { label: 'Current Period', value: current, unit: '%' },
+                percentChange: percentChange,
                 error: false
             };
         }
@@ -1022,8 +1213,11 @@ const SystemAvailabilityWidget = (_props) => {
     };
     // Mock data - replace with actual data from your API
     const getAllSystemsData = () => {
-        // Different data based on time period
-        const periodData = {
+        // Different data based on LocationKey (1 = site, 3 = building)
+        const isSite = props.LocationKey === '1';
+        // Different data based on time period and location
+        const periodData = isSite ? {
+            // Site data (LocationKey = 1)
             '7 Days': {
                 overall: 98.45,
                 equipment: [
@@ -1060,13 +1254,54 @@ const SystemAvailabilityWidget = (_props) => {
                     { name: 'Water', value: 94.6, color: '#7ED321' }
                 ]
             }
+        } : {
+            // Building data (LocationKey = 3)
+            '7 Days': {
+                overall: 96.78,
+                equipment: [
+                    { name: 'HVAC', value: 97.5, color: '#4A90E2' },
+                    { name: 'Lighting', value: 96.2, color: '#F5A623' },
+                    { name: 'CCTV', value: 95.8, color: '#BD10E0' },
+                    { name: 'Water', value: 94.1, color: '#7ED321' }
+                ]
+            },
+            'Month': {
+                overall: 95.92,
+                equipment: [
+                    { name: 'HVAC', value: 96.8, color: '#4A90E2' },
+                    { name: 'Lighting', value: 95.4, color: '#F5A623' },
+                    { name: 'CCTV', value: 94.9, color: '#BD10E0' },
+                    { name: 'Water', value: 93.2, color: '#7ED321' }
+                ]
+            },
+            'Quarter': {
+                overall: 96.34,
+                equipment: [
+                    { name: 'HVAC', value: 97.2, color: '#4A90E2' },
+                    { name: 'Lighting', value: 95.8, color: '#F5A623' },
+                    { name: 'CCTV', value: 95.4, color: '#BD10E0' },
+                    { name: 'Water', value: 93.8, color: '#7ED321' }
+                ]
+            },
+            'Year': {
+                overall: 95.67,
+                equipment: [
+                    { name: 'HVAC', value: 96.9, color: '#4A90E2' },
+                    { name: 'Lighting', value: 95.2, color: '#F5A623' },
+                    { name: 'CCTV', value: 94.7, color: '#BD10E0' },
+                    { name: 'Water', value: 92.8, color: '#7ED321' }
+                ]
+            }
         };
         const currentPeriodData = periodData[selectedTimePeriod] || periodData['7 Days'];
         return Object.assign(Object.assign({}, currentPeriodData), { target: 99.99, belowTarget: Number((99.99 - currentPeriodData.overall).toFixed(2)) });
     };
     const getSystemSpecificData = (system) => {
+        // Different data based on LocationKey (1 = site, 3 = building)
+        const isSite = props.LocationKey === '1';
         // Different data based on time period and system
-        const systemPeriodData = {
+        const systemPeriodData = isSite ? {
+            // Site data (LocationKey = 1)
             '7 Days': {
                 'HVAC': { overall: 99.2, target: 99.99, belowTarget: 0.79 },
                 'Lighting': { overall: 97.8, target: 99.99, belowTarget: 2.19 },
@@ -1091,15 +1326,44 @@ const SystemAvailabilityWidget = (_props) => {
                 'CCTV': { overall: 97.1, target: 99.99, belowTarget: 2.89 },
                 'Water': { overall: 94.6, target: 99.99, belowTarget: 5.39 }
             }
+        } : {
+            // Building data (LocationKey = 3)
+            '7 Days': {
+                'HVAC': { overall: 97.5, target: 99.99, belowTarget: 2.49 },
+                'Lighting': { overall: 96.2, target: 99.99, belowTarget: 3.79 },
+                'CCTV': { overall: 95.8, target: 99.99, belowTarget: 4.19 },
+                'Water': { overall: 94.1, target: 99.99, belowTarget: 5.89 }
+            },
+            'Month': {
+                'HVAC': { overall: 96.8, target: 99.99, belowTarget: 3.19 },
+                'Lighting': { overall: 95.4, target: 99.99, belowTarget: 4.59 },
+                'CCTV': { overall: 94.9, target: 99.99, belowTarget: 5.09 },
+                'Water': { overall: 93.2, target: 99.99, belowTarget: 6.79 }
+            },
+            'Quarter': {
+                'HVAC': { overall: 97.2, target: 99.99, belowTarget: 2.79 },
+                'Lighting': { overall: 95.8, target: 99.99, belowTarget: 4.19 },
+                'CCTV': { overall: 95.4, target: 99.99, belowTarget: 4.59 },
+                'Water': { overall: 93.8, target: 99.99, belowTarget: 6.19 }
+            },
+            'Year': {
+                'HVAC': { overall: 96.9, target: 99.99, belowTarget: 3.09 },
+                'Lighting': { overall: 95.2, target: 99.99, belowTarget: 4.79 },
+                'CCTV': { overall: 94.7, target: 99.99, belowTarget: 5.29 },
+                'Water': { overall: 92.8, target: 99.99, belowTarget: 7.19 }
+            }
         };
         const periodData = systemPeriodData[selectedTimePeriod] || systemPeriodData['7 Days'];
         return periodData[system] || getAllSystemsData();
     };
     const currentData = selectedSystem === 'All' ? getAllSystemsData() : getSystemSpecificData(selectedSystem);
     const getTrendData = () => {
-        // Generate different data based on selected time period
+        // Different data based on LocationKey (1 = site, 3 = building)
+        const isSite = props.LocationKey === '1';
+        // Generate different data based on selected time period and location
         if (selectedTimePeriod === '7 Days') {
-            const baseData = [
+            const baseData = isSite ? [
+                // Site data
                 { day: 'Mon', All: 98.5, HVAC: 99.3, Lighting: 98.1, CCTV: 96.8, Water: 95.5, target: 99.99 },
                 { day: 'Tue', All: 97.8, HVAC: 98.9, Lighting: 97.2, CCTV: 96.1, Water: 94.8, target: 99.99 },
                 { day: 'Wed', All: 98.9, HVAC: 99.4, Lighting: 98.5, CCTV: 97.2, Water: 95.9, target: 99.99 },
@@ -1107,6 +1371,15 @@ const SystemAvailabilityWidget = (_props) => {
                 { day: 'Fri', All: 98.6, HVAC: 99.1, Lighting: 98.2, CCTV: 96.9, Water: 95.4, target: 99.99 },
                 { day: 'Sat', All: 99.1, HVAC: 99.5, Lighting: 98.7, CCTV: 97.6, Water: 96.2, target: 99.99 },
                 { day: 'Sun', All: 98.45, HVAC: 99.2, Lighting: 97.8, CCTV: 96.5, Water: 95.3, target: 99.99 }
+            ] : [
+                // Building data
+                { day: 'Mon', All: 96.8, HVAC: 97.6, Lighting: 96.3, CCTV: 95.9, Water: 94.2, target: 99.99 },
+                { day: 'Tue', All: 96.2, HVAC: 97.1, Lighting: 95.8, CCTV: 95.4, Water: 93.7, target: 99.99 },
+                { day: 'Wed', All: 97.1, HVAC: 97.8, Lighting: 96.5, CCTV: 96.1, Water: 94.5, target: 99.99 },
+                { day: 'Thu', All: 95.9, HVAC: 96.8, Lighting: 95.4, CCTV: 95.0, Water: 93.2, target: 99.99 },
+                { day: 'Fri', All: 96.9, HVAC: 97.5, Lighting: 96.4, CCTV: 96.0, Water: 94.3, target: 99.99 },
+                { day: 'Sat', All: 97.3, HVAC: 97.9, Lighting: 96.8, CCTV: 96.4, Water: 94.7, target: 99.99 },
+                { day: 'Sun', All: 96.78, HVAC: 97.5, Lighting: 96.2, CCTV: 95.8, Water: 94.1, target: 99.99 }
             ];
             return baseData.map(item => ({
                 day: item.day,
@@ -1115,11 +1388,18 @@ const SystemAvailabilityWidget = (_props) => {
             }));
         }
         else if (selectedTimePeriod === 'Month') {
-            const baseData = [
+            const baseData = isSite ? [
+                // Site data
                 { day: 'Week 1', All: 98.2, HVAC: 99.1, Lighting: 97.8, CCTV: 97.2, Water: 95.5, target: 99.99 },
                 { day: 'Week 2', All: 97.6, HVAC: 98.7, Lighting: 96.9, CCTV: 96.5, Water: 94.8, target: 99.99 },
                 { day: 'Week 3', All: 97.4, HVAC: 98.5, Lighting: 96.7, CCTV: 96.2, Water: 94.2, target: 99.99 },
                 { day: 'Week 4', All: 97.85, HVAC: 98.8, Lighting: 97.2, CCTV: 96.8, Water: 94.9, target: 99.99 }
+            ] : [
+                // Building data
+                { day: 'Week 1', All: 96.3, HVAC: 97.1, Lighting: 95.8, CCTV: 95.2, Water: 93.5, target: 99.99 },
+                { day: 'Week 2', All: 95.7, HVAC: 96.6, Lighting: 95.2, CCTV: 94.7, Water: 93.0, target: 99.99 },
+                { day: 'Week 3', All: 95.5, HVAC: 96.4, Lighting: 95.0, CCTV: 94.5, Water: 92.8, target: 99.99 },
+                { day: 'Week 4', All: 95.92, HVAC: 96.8, Lighting: 95.4, CCTV: 94.9, Water: 93.2, target: 99.99 }
             ];
             return baseData.map(item => ({
                 day: item.day,
@@ -1128,10 +1408,16 @@ const SystemAvailabilityWidget = (_props) => {
             }));
         }
         else if (selectedTimePeriod === 'Quarter') {
-            const baseData = [
+            const baseData = isSite ? [
+                // Site data
                 { day: 'Jan', All: 97.8, HVAC: 98.9, Lighting: 97.2, CCTV: 96.8, Water: 95.2, target: 99.99 },
                 { day: 'Feb', All: 98.3, HVAC: 99.2, Lighting: 97.8, CCTV: 97.4, Water: 96.1, target: 99.99 },
                 { day: 'Mar', All: 98.12, HVAC: 99.1, Lighting: 97.6, CCTV: 97.2, Water: 95.8, target: 99.99 }
+            ] : [
+                // Building data
+                { day: 'Jan', All: 96.0, HVAC: 96.9, Lighting: 95.5, CCTV: 95.0, Water: 93.4, target: 99.99 },
+                { day: 'Feb', All: 96.5, HVAC: 97.3, Lighting: 96.0, CCTV: 95.5, Water: 94.0, target: 99.99 },
+                { day: 'Mar', All: 96.34, HVAC: 97.2, Lighting: 95.8, CCTV: 95.4, Water: 93.8, target: 99.99 }
             ];
             return baseData.map(item => ({
                 day: item.day,
@@ -1140,11 +1426,18 @@ const SystemAvailabilityWidget = (_props) => {
             }));
         }
         else if (selectedTimePeriod === 'Year') {
-            const baseData = [
+            const baseData = isSite ? [
+                // Site data
                 { day: 'Q1', All: 97.8, HVAC: 98.9, Lighting: 97.2, CCTV: 96.8, Water: 95.2, target: 99.99 },
                 { day: 'Q2', All: 98.4, HVAC: 99.3, Lighting: 97.9, CCTV: 97.5, Water: 96.3, target: 99.99 },
                 { day: 'Q3', All: 98.6, HVAC: 99.5, Lighting: 98.1, CCTV: 97.8, Water: 96.8, target: 99.99 },
                 { day: 'Q4', All: 97.95, HVAC: 98.9, Lighting: 97.4, CCTV: 97.1, Water: 94.6, target: 99.99 }
+            ] : [
+                // Building data
+                { day: 'Q1', All: 95.8, HVAC: 96.8, Lighting: 95.3, CCTV: 94.8, Water: 93.2, target: 99.99 },
+                { day: 'Q2', All: 96.2, HVAC: 97.2, Lighting: 95.7, CCTV: 95.2, Water: 93.7, target: 99.99 },
+                { day: 'Q3', All: 96.4, HVAC: 97.4, Lighting: 95.9, CCTV: 95.4, Water: 94.0, target: 99.99 },
+                { day: 'Q4', All: 95.67, HVAC: 96.9, Lighting: 95.2, CCTV: 94.7, Water: 92.8, target: 99.99 }
             ];
             return baseData.map(item => ({
                 day: item.day,
@@ -1156,6 +1449,15 @@ const SystemAvailabilityWidget = (_props) => {
         return [];
     };
     const trendData = getTrendData();
+    // Modal styles are now handled by the dt-water-compare-modal CSS class
+    // No additional overrides needed
+    // Set DateRangePicker as ready after component mounts
+    React.useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsDatePickerReady(true);
+        }, 100);
+        return () => clearTimeout(timer);
+    }, []);
     return (React.createElement("div", { className: "widget-container" },
         React.createElement("div", { className: "widget-header", onClick: () => setIsGraphCollapsed(!isGraphCollapsed) },
             React.createElement("div", { className: "widget-header-left" },
@@ -1204,6 +1506,22 @@ const SystemAvailabilityWidget = (_props) => {
                                     borderBottom: '6px solid rgba(0, 0, 0, 0.9)'
                                 } })))))),
             React.createElement("div", { className: "widget-header-right" },
+                React.createElement("button", { className: "recent-cases-btn", onClick: (e) => { e.stopPropagation(); setShowUnavailabilityModal(true); }, style: {
+                        background: 'rgba(255, 77, 79, 0.1)',
+                        color: '#FF4D4F',
+                        border: '1px solid rgba(255, 77, 79, 0.3)',
+                        borderRadius: '4px',
+                        padding: '4px 8px',
+                        fontSize: '11px',
+                        cursor: 'pointer',
+                        marginRight: '8px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '4px'
+                    } },
+                    React.createElement("svg", { width: "12", height: "12", viewBox: "0 0 24 24", fill: "currentColor" },
+                        React.createElement("path", { d: "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M13,17H11V15H13V17M13,13H11V7H13V13Z" })),
+                    "Recent Cases"),
                 React.createElement("button", { className: "compare-btn", onClick: (e) => { e.stopPropagation(); setShowComparePUEModal(true); } }, "Compare"),
                 React.createElement("div", { className: "expand-icon" },
                     React.createElement("svg", { width: "24", height: "24", viewBox: "0 0 24 24", fill: "currentColor", style: {
@@ -1323,7 +1641,7 @@ const SystemAvailabilityWidget = (_props) => {
                 React.createElement("div", { className: "cooling-compare-modal-content modal-body" },
                     React.createElement("div", { className: "cooling-compare-options" },
                         React.createElement("div", { className: "cooling-compare-section" },
-                            React.createElement("label", null, "Compare Target Availability with:"),
+                            React.createElement("label", null, "Compare Current Availability with:"),
                             React.createElement("div", { className: "cooling-select-container" },
                                 React.createElement("select", { id: "compare-type", value: compareType, onChange: (e) => {
                                         const newCompareType = e.target.value;
@@ -1332,13 +1650,35 @@ const SystemAvailabilityWidget = (_props) => {
                                         setRange1({ start: null, end: null });
                                         setRange2({ start: null, end: null });
                                     }, className: "cooling-compare-select" }, COPDdOptions.map((opt) => (React.createElement("option", { key: opt.value, value: opt.value }, opt.label))))),
-                            compareType === "Any timeframe vs any timeframe" && (React.createElement("div", { className: "cooling-compare-advanced" },
+                            compareType === "Any timeframe vs any timeframe" && isDatePickerReady && (React.createElement("div", { className: "cooling-compare-advanced" },
                                 React.createElement("div", { className: "cooling-compare-advanced-range1" },
                                     React.createElement("label", { className: "cooling-compare-label-bold cooling-compare-label-margin" }, "Timeframe 1:"),
-                                    React.createElement(components_1.DateRangePicker, { startDate: range1.start, endDate: range1.end, onChange: (startDate, endDate) => setRange1({ start: startDate, end: endDate }) })),
+                                    React.createElement(components_1.DateRangePicker, {
+                                        startDate: range1.start,
+                                        endDate: range1.end,
+                                        onChange: (startDate, endDate) => {
+                                            try {
+                                                setRange1({ start: startDate, end: endDate });
+                                            }
+                                            catch (error) {
+                                                console.error('DateRangePicker error:', error);
+                                            }
+                                        }
+                                    })),
                                 React.createElement("div", { className: "cooling-compare-advanced-range2" },
                                     React.createElement("label", { className: "cooling-compare-label-bold cooling-compare-label-margin" }, "Timeframe 2:"),
-                                    React.createElement(components_1.DateRangePicker, { startDate: range2.start, endDate: range2.end, onChange: (startDate, endDate) => setRange2({ start: startDate, end: endDate }) })))),
+                                    React.createElement(components_1.DateRangePicker, {
+                                        startDate: range2.start,
+                                        endDate: range2.end,
+                                        onChange: (startDate, endDate) => {
+                                            try {
+                                                setRange2({ start: startDate, end: endDate });
+                                            }
+                                            catch (error) {
+                                                console.error('DateRangePicker error:', error);
+                                            }
+                                        }
+                                    })))),
                             React.createElement("div", { style: { marginTop: '16px' } },
                                 React.createElement("button", { style: { background: "#42A5F5" }, className: "cooling-CalculateCompare-btn", onClick: () => calculateComparison(compareType, range1, range2), disabled: compareType === "Any timeframe vs any timeframe" && (!range1.start || !range1.end || !range2.start || !range2.end) }, "COMPARE"))),
                         (compareType !== "Any timeframe vs any timeframe" || (compareType === "Any timeframe vs any timeframe" && comparisonResult)) &&
@@ -1386,8 +1726,112 @@ const SystemAvailabilityWidget = (_props) => {
                                                         ? "#FF4D4F"
                                                         : "#fff",
                                             } },
-                                            Math.abs(parseFloat(comparisonResult.percentChange)).toFixed(1),
-                                            "%"))))))))))));
+                                            Math.abs(parseFloat(comparisonResult.percentChange)).toFixed(2),
+                                            "%"))))))))),
+            React.createElement(components_1.Modal, { show: showUnavailabilityModal, onClose: () => setShowUnavailabilityModal(false), title: "Recent 5 Cases of System Unavailability", className: "dt-water-compare-modal" },
+                React.createElement("div", { className: "unavailability-cases-content", style: {
+                        maxHeight: '70vh',
+                        overflowY: 'auto',
+                        padding: '16px'
+                    } },
+                    React.createElement("div", { className: "cases-summary", style: {
+                            marginBottom: '20px',
+                            padding: '12px',
+                            backgroundColor: 'rgba(255, 77, 79, 0.1)',
+                            borderRadius: '8px',
+                            border: '1px solid rgba(255, 77, 79, 0.2)'
+                        } },
+                        React.createElement("div", { style: { display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' } },
+                            React.createElement("svg", { width: "16", height: "16", viewBox: "0 0 24 24", fill: "#FF4D4F" },
+                                React.createElement("path", { d: "M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M13,17H11V15H13V17M13,13H11V7H13V13Z" })),
+                            React.createElement("span", { style: { fontWeight: '600', color: '#FF4D4F' } }, "System Unavailability Summary")),
+                        React.createElement("div", { style: { fontSize: '14px', color: '#ffffff', opacity: 0.8 } }, "Showing the last 5 cases with time duration and affected equipment details")),
+                    React.createElement("div", { className: "cases-list" }, recentUnavailabilityCases.map((caseItem, index) => (React.createElement("div", { key: caseItem.id, className: "case-item", style: {
+                            border: '1px solid rgba(255, 255, 255, 0.1)',
+                            borderRadius: '8px',
+                            padding: '16px',
+                            marginBottom: '12px',
+                            backgroundColor: 'rgba(255, 255, 255, 0.02)',
+                            position: 'relative'
+                        } },
+                        React.createElement("div", { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '12px' } },
+                            React.createElement("div", { style: { display: 'flex', alignItems: 'center', gap: '8px' } },
+                                React.createElement("div", { style: {
+                                        width: '8px',
+                                        height: '8px',
+                                        borderRadius: '50%',
+                                        backgroundColor: getSeverityColor(caseItem.severity)
+                                    } }),
+                                React.createElement("span", { style: { fontWeight: '600', color: '#ffffff' } },
+                                    caseItem.system,
+                                    " System"),
+                                React.createElement("span", { style: {
+                                        padding: '2px 6px',
+                                        borderRadius: '4px',
+                                        fontSize: '11px',
+                                        backgroundColor: getSeverityColor(caseItem.severity),
+                                        color: '#ffffff',
+                                        fontWeight: '500'
+                                    } }, caseItem.severity)),
+                            React.createElement("span", { style: {
+                                    padding: '2px 8px',
+                                    borderRadius: '4px',
+                                    fontSize: '11px',
+                                    backgroundColor: caseItem.status === 'Resolved' ? 'rgba(76, 175, 80, 0.2)' : 'rgba(255, 152, 0, 0.2)',
+                                    color: caseItem.status === 'Resolved' ? '#4CAF50' : '#FF9800',
+                                    border: `1px solid ${caseItem.status === 'Resolved' ? 'rgba(76, 175, 80, 0.3)' : 'rgba(255, 152, 0, 0.3)'}`
+                                } }, caseItem.status)),
+                        React.createElement("div", { style: { marginBottom: '12px' } },
+                            React.createElement("div", { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' } },
+                                React.createElement("span", { style: { fontSize: '12px', color: '#ffffff', opacity: 0.7 } }, "Duration:"),
+                                React.createElement("span", { style: { fontSize: '14px', fontWeight: '600', color: '#FF4D4F' } }, caseItem.duration)),
+                            React.createElement("div", { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '12px', color: '#ffffff', opacity: 0.8 } },
+                                React.createElement("span", null,
+                                    "Start: ",
+                                    formatDateTime(caseItem.startTime)),
+                                React.createElement("span", null,
+                                    "End: ",
+                                    formatDateTime(caseItem.endTime)))),
+                        React.createElement("div", null,
+                            React.createElement("span", { style: { fontSize: '12px', color: '#ffffff', opacity: 0.7 } }, "Affected Equipment:"),
+                            React.createElement("div", { style: {
+                                    display: 'flex',
+                                    flexWrap: 'wrap',
+                                    gap: '6px',
+                                    marginTop: '6px'
+                                } }, caseItem.equipment.map((equipment, eqIndex) => (React.createElement("button", { key: eqIndex, onClick: () => handleEquipmentRedirect(equipment), style: {
+                                    padding: '4px 8px',
+                                    borderRadius: '4px',
+                                    fontSize: '11px',
+                                    backgroundColor: 'rgba(74, 144, 226, 0.2)',
+                                    color: '#4A90E2',
+                                    border: '1px solid rgba(74, 144, 226, 0.3)',
+                                    cursor: 'pointer',
+                                    transition: 'all 0.2s ease',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: '4px'
+                                }, onMouseEnter: (e) => {
+                                    e.currentTarget.style.backgroundColor = 'rgba(74, 144, 226, 0.3)';
+                                    e.currentTarget.style.transform = 'translateY(-1px)';
+                                }, onMouseLeave: (e) => {
+                                    e.currentTarget.style.backgroundColor = 'rgba(74, 144, 226, 0.2)';
+                                    e.currentTarget.style.transform = 'translateY(0)';
+                                } },
+                                React.createElement("svg", { width: "10", height: "10", viewBox: "0 0 24 24", fill: "currentColor" },
+                                    React.createElement("path", { d: "M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" })),
+                                equipment))))))))),
+                    React.createElement("div", { style: {
+                            marginTop: '20px',
+                            padding: '12px',
+                            backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                            borderRadius: '6px',
+                            border: '1px solid rgba(255, 255, 255, 0.1)',
+                            fontSize: '12px',
+                            color: '#ffffff',
+                            opacity: 0.7,
+                            textAlign: 'center'
+                        } }, "Click on equipment names to view detailed information and maintenance history"))))));
 };
 exports.SystemAvailabilityWidget = SystemAvailabilityWidget;
 
@@ -1432,7 +1876,7 @@ const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components")
 // Import Recharts dynamically to avoid TypeScript issues
 const Recharts = __webpack_require__(/*! recharts */ "recharts");
 const { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area } = Recharts;
-const SystemReliabilityWidget = (_props) => {
+const SystemReliabilityWidget = (props) => {
     const [selectedSystem, setSelectedSystem] = React.useState('All');
     const [selectedTrendPeriod, setSelectedTrendPeriod] = React.useState('6 Months');
     const [showComparePUEModal, setShowComparePUEModal] = React.useState(false);
@@ -1523,7 +1967,10 @@ const SystemReliabilityWidget = (_props) => {
     };
     // Mock MTTF data - replace with actual data from your API
     const getMTTFData = () => {
-        const systemData = {
+        // Different data based on LocationKey (1 = site, 3 = building)
+        const isSite = props.LocationKey === '1';
+        const systemData = isSite ? {
+            // Site data (LocationKey = 1)
             'All': {
                 current: 21.4,
                 lastMonth: 20.5,
@@ -1554,6 +2001,38 @@ const SystemReliabilityWidget = (_props) => {
                 change: 4.5,
                 unit: 'd'
             }
+        } : {
+            // Building data (LocationKey = 3)
+            'All': {
+                current: 17.2,
+                lastMonth: 16.8,
+                change: 2.4,
+                unit: 'd'
+            },
+            'HVAC': {
+                current: 24.1,
+                lastMonth: 23.5,
+                change: 2.6,
+                unit: 'd'
+            },
+            'Lighting': {
+                current: 15.6,
+                lastMonth: 16.2,
+                change: -3.7,
+                unit: 'd'
+            },
+            'CCTV': {
+                current: 12.9,
+                lastMonth: 11.8,
+                change: 9.3,
+                unit: 'd'
+            },
+            'Water': {
+                current: 18.5,
+                lastMonth: 17.9,
+                change: 3.4,
+                unit: 'd'
+            }
         };
         return systemData[selectedSystem] || systemData['All'];
     };
@@ -1569,14 +2048,25 @@ const SystemReliabilityWidget = (_props) => {
     const currentMTTF = getMTTFData();
     // Monthly MTTF trend data
     const getTrendData = () => {
+        // Different data based on LocationKey (1 = site, 3 = building)
+        const isSite = props.LocationKey === '1';
         if (selectedTrendPeriod === '6 Months') {
-            const baseData = [
+            const baseData = isSite ? [
+                // Site data
                 { month: 'Aug', All: 475, HVAC: 578, Lighting: 432, CCTV: 367, Water: 523 },
                 { month: 'Sep', All: 472, HVAC: 565, Lighting: 428, CCTV: 378, Water: 518 },
                 { month: 'Oct', All: 453, HVAC: 548, Lighting: 415, CCTV: 352, Water: 498 },
                 { month: 'Nov', All: 440, HVAC: 535, Lighting: 398, CCTV: 341, Water: 487 },
                 { month: 'Dec', All: 502, HVAC: 642, Lighting: 458, CCTV: 379, Water: 528 },
                 { month: 'Jan', All: 513, HVAC: 684, Lighting: 437, CCTV: 379, Water: 552 }
+            ] : [
+                // Building data (lower values)
+                { month: 'Aug', All: 380, HVAC: 462, Lighting: 346, CCTV: 294, Water: 418 },
+                { month: 'Sep', All: 378, HVAC: 452, Lighting: 342, CCTV: 302, Water: 414 },
+                { month: 'Oct', All: 362, HVAC: 438, Lighting: 332, CCTV: 282, Water: 398 },
+                { month: 'Nov', All: 352, HVAC: 428, Lighting: 318, CCTV: 273, Water: 390 },
+                { month: 'Dec', All: 402, HVAC: 514, Lighting: 366, CCTV: 303, Water: 422 },
+                { month: 'Jan', All: 410, HVAC: 547, Lighting: 350, CCTV: 303, Water: 442 }
             ];
             return baseData.map(item => ({
                 month: item.month,
@@ -1584,7 +2074,8 @@ const SystemReliabilityWidget = (_props) => {
             }));
         }
         else {
-            const baseData = [
+            const baseData = isSite ? [
+                // Site data
                 { month: 'Feb 23', All: 489, HVAC: 598, Lighting: 445, CCTV: 389, Water: 535 },
                 { month: 'Mar 23', All: 497, HVAC: 612, Lighting: 438, CCTV: 395, Water: 542 },
                 { month: 'Apr 23', All: 476, HVAC: 589, Lighting: 422, CCTV: 371, Water: 521 },
@@ -1597,6 +2088,20 @@ const SystemReliabilityWidget = (_props) => {
                 { month: 'Nov 23', All: 440, HVAC: 535, Lighting: 398, CCTV: 341, Water: 487 },
                 { month: 'Dec 23', All: 502, HVAC: 642, Lighting: 458, CCTV: 379, Water: 528 },
                 { month: 'Jan 24', All: 513, HVAC: 684, Lighting: 437, CCTV: 379, Water: 552 }
+            ] : [
+                // Building data (lower values)
+                { month: 'Feb 23', All: 391, HVAC: 478, Lighting: 356, CCTV: 311, Water: 428 },
+                { month: 'Mar 23', All: 398, HVAC: 490, Lighting: 350, CCTV: 316, Water: 434 },
+                { month: 'Apr 23', All: 381, HVAC: 471, Lighting: 338, CCTV: 297, Water: 417 },
+                { month: 'May 23', All: 374, HVAC: 461, Lighting: 343, CCTV: 286, Water: 407 },
+                { month: 'Jun 23', All: 380, HVAC: 466, Lighting: 353, CCTV: 290, Water: 412 },
+                { month: 'Jul 23', All: 378, HVAC: 458, Lighting: 348, CCTV: 298, Water: 405 },
+                { month: 'Aug 23', All: 380, HVAC: 462, Lighting: 346, CCTV: 294, Water: 418 },
+                { month: 'Sep 23', All: 378, HVAC: 452, Lighting: 342, CCTV: 302, Water: 414 },
+                { month: 'Oct 23', All: 362, HVAC: 438, Lighting: 332, CCTV: 282, Water: 398 },
+                { month: 'Nov 23', All: 352, HVAC: 428, Lighting: 318, CCTV: 273, Water: 390 },
+                { month: 'Dec 23', All: 402, HVAC: 514, Lighting: 366, CCTV: 303, Water: 422 },
+                { month: 'Jan 24', All: 410, HVAC: 547, Lighting: 350, CCTV: 303, Water: 442 }
             ];
             return baseData.map(item => ({
                 month: item.month,
@@ -1746,7 +2251,7 @@ const SystemReliabilityWidget = (_props) => {
                 React.createElement("div", { className: "cooling-compare-modal-content modal-body" },
                     React.createElement("div", { className: "cooling-compare-options" },
                         React.createElement("div", { className: "cooling-compare-section" },
-                            React.createElement("label", null, "Compare Target MTTF with:"),
+                            React.createElement("label", null, "Compare Current MTTF with:"),
                             React.createElement("div", { className: "cooling-select-container" },
                                 React.createElement("select", { id: "compare-type", value: compareType, onChange: (e) => {
                                         const newCompareType = e.target.value;
@@ -1855,15 +2360,15 @@ const SystemAvailabilityWidget_1 = __webpack_require__(/*! ./components/SystemAv
 const SystemReliabilityWidget_1 = __webpack_require__(/*! ./components/SystemReliabilityWidget */ "./src/components/SystemReliabilityWidget.tsx");
 const ResilienceWidget_1 = __webpack_require__(/*! ./components/ResilienceWidget */ "./src/components/ResilienceWidget.tsx");
 __webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
-const Fault_left_panelWidget = (_props) => {
+const Fault_left_panelWidget = (props) => {
     const containerRef = React.useRef(null);
     return (React.createElement("div", { className: "main-container dark-mode", ref: containerRef },
         React.createElement("div", { className: "glass-bg-fp" },
-            React.createElement(SystemAvailabilityWidget_1.SystemAvailabilityWidget, null),
+            React.createElement(SystemAvailabilityWidget_1.SystemAvailabilityWidget, { LocationKey: props.LocationKey, uxpContext: props.uxpContext }),
             React.createElement("div", { style: { marginTop: '6px' } },
-                React.createElement(SystemReliabilityWidget_1.SystemReliabilityWidget, null)),
+                React.createElement(SystemReliabilityWidget_1.SystemReliabilityWidget, { LocationKey: props.LocationKey, uxpContext: props.uxpContext })),
             React.createElement("div", { style: { marginTop: '6px' } },
-                React.createElement(ResilienceWidget_1.ResilienceWidget, null)))));
+                React.createElement(ResilienceWidget_1.ResilienceWidget, { LocationKey: props.LocationKey, uxpContext: props.uxpContext })))));
 };
 /**
  * Register as a Widget
@@ -1877,7 +2382,21 @@ const Fault_left_panelWidget = (_props) => {
         // h: 12,
         // minH: 12,
         // minW: 12
-        }
+        },
+        props: [
+            {
+                "name": "LocationKey",
+                "label": "Location Key",
+                "type": "string",
+                "placeholder": "Location key"
+            },
+            {
+                "name": "LocationName",
+                "label": "Location Name",
+                "type": "string",
+                "placeholder": "Location Name"
+            }
+        ]
     }
 });
 /**
