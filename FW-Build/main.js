@@ -109189,7 +109189,7 @@ const NavigationToolBar = (props) => {
             onClick: () => {
                 console.log('📊 Navigating to Dashboard page');
                 // Navigate to dashboard page - you can customize this URL as needed
-                window.open('/dashboard', '_blank');
+                window.open('/Apps/UXP/portals/c2o-kpi-dashboard', '_blank');
                 // window.location.href = '/dashboard';
             }
         }
@@ -110083,6 +110083,9 @@ const ThreeDViewerWidget = (props) => {
         const handleCategoryFilter = (event) => {
             const { categories, showAll = false } = event.detail;
             console.log('🔸 CATEGORY FILTER EVENT:', { categories, showAll });
+            // Switch to dynamic widgets (hide asset widgets) when category filter is triggered
+            setShowDynamicAssetWidgets(false);
+            setShowDynamicWidgets(true);
             if (showAll) {
                 setShowAllCategories(true);
                 setActiveCategories([]);
@@ -110786,6 +110789,9 @@ const ThreeDViewerWidget = (props) => {
             // Ensure we're not in background mode
             setShowBackground(false);
             setModelLoaded(true);
+            // Switch to dynamic widgets (hide asset widgets)
+            setShowDynamicAssetWidgets(false);
+            setShowDynamicWidgets(true);
             console.log('=== HANDLE DOUBLE CLICK DEBUG ===');
             console.log('Mesh name:', mesh.name);
             console.log('Current model:', currentModel);
@@ -111364,6 +111370,9 @@ const ThreeDViewerWidget = (props) => {
             cleanupScene();
             setIsLoading(true);
             console.log(`Loading model with alarm: ${modelPath}, mesh: ${meshName}`);
+            // Switch to dynamic widgets (hide asset widgets)
+            setShowDynamicAssetWidgets(false);
+            setShowDynamicWidgets(true);
             // Get active flow
             const flow = activeModelFlow || (yield ModelFlowService_1.modelFlowService.getActiveFlow());
             setActiveModelFlow(flow);
@@ -111786,6 +111795,9 @@ const ThreeDViewerWidget = (props) => {
                             cleanupScene();
                             setIsLoading(true);
                             console.log(`Loading model from history: ${historyItem.modelPath}`);
+                            // Switch to dynamic widgets (hide asset widgets)
+                            setShowDynamicAssetWidgets(false);
+                            setShowDynamicWidgets(true);
                             // Set active flow
                             const flow = activeModelFlow;
                             // Use the selected model path from history
