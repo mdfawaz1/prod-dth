@@ -106232,7 +106232,7 @@ const TopNavbar = (props) => {
                             React.createElement("span", null, "Select an item"),
                             React.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", width: "16", height: "16", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round" },
                                 React.createElement("polyline", { points: "6 9 12 15 18 9" })))),
-                    React.createElement("div", { className: "user-menu-logout", onClick: () => window.location.href = '/logout' }, "Logout")))))));
+                    React.createElement("div", { className: "user-menu-logout", onClick: () => window.location.href = '/Apps/Auth/userlogin' }, "Logout")))))));
 };
 const ConfigForm = ({ initialConfig, onSave, onCancel }) => {
     const [config, setConfig] = React.useState(initialConfig);
@@ -109189,7 +109189,7 @@ const NavigationToolBar = (props) => {
             onClick: () => {
                 console.log('📊 Navigating to Dashboard page');
                 // Navigate to dashboard page - you can customize this URL as needed
-                window.open('/Apps/UXP/portals/c2o-kpi-dashboard', '_blank');
+                window.open('/Apps/UXP/portal/c2o-kpi-dashboard', '_blank');
                 // window.location.href = '/dashboard';
             }
         }
