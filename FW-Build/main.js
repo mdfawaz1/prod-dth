@@ -102987,7 +102987,7 @@ const MeshConfigurationScreen = ({ isOpen, onClose, meshes, selectedMesh, onConf
     const [currentMesh, setCurrentMesh] = React.useState(null);
     const [config, setConfig] = React.useState(null);
     const [categories] = React.useState([
-        'default', 'fire-safety', 'acmv', 'operations', 'security', 'electrical'
+        'default', 'fire-safety', 'acmv', 'operations', 'security', 'electrical', 'water meters', 'power meters', 'IAQ', 'BTU', 'occupancy', 'temperature', 'people counting'
     ]);
     const [saveStatus, setSaveStatus] = React.useState(null);
     const [savedConfigCount, setSavedConfigCount] = React.useState(0);
