@@ -117294,7 +117294,7 @@ const updateMeshCapsulePositionAndVisibility = (mesh, currentCamera, engine, sce
     const isAlarm = ((_b = mesh.metadata) === null || _b === void 0 ? void 0 : _b.isAlarm) || false;
     // Distance thresholds
     const maxVisibleDistance = 200; // Capsules hidden beyond this distance
-    const minVisibleDistance = 5; // Capsules hidden when too close
+    const minVisibleDistance = 0; // Capsules hidden when too close
     const fadeStartDistance = 120; // Start fading at 120 units
     const blurStartDistance = 150; // Start blur at 150 units
     // Hide capsules when camera is far away to prevent overlapping
