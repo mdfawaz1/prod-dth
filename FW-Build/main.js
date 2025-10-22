@@ -18924,6 +18924,23 @@ module.exports = exports;
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/CrowdSystemConfigurator.scss":
+/*!**********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/CrowdSystemConfigurator.scss ***!
+  \**********************************************************************************************************************************/
+/***/ ((module, exports, __webpack_require__) => {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, ".crowd-system-configurator {\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  background-color: rgba(25, 30, 40, 0.98);\n  border-radius: 12px;\n  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);\n  width: 90%;\n  max-width: 600px;\n  max-height: 90vh;\n  display: flex;\n  flex-direction: column;\n  color: #fff;\n  backdrop-filter: blur(20px);\n  border: 1px solid rgba(60, 70, 80, 0.8);\n  z-index: 1500;\n}\n@keyframes fadeInOut {\n  0% {\n    opacity: 0;\n    transform: translateY(-10px);\n  }\n  20% {\n    opacity: 1;\n    transform: translateY(0);\n  }\n  80% {\n    opacity: 1;\n    transform: translateY(0);\n  }\n  100% {\n    opacity: 0;\n    transform: translateY(-10px);\n  }\n}\n.crowd-system-configurator .loading {\n  padding: 40px;\n  text-align: center;\n  font-size: 16px;\n  color: rgba(255, 255, 255, 0.7);\n}\n.crowd-system-configurator .configurator-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 20px 24px;\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  background-color: rgba(0, 0, 0, 0.3);\n}\n.crowd-system-configurator .configurator-header h2 {\n  margin: 0;\n  font-size: 20px;\n  font-weight: 600;\n  color: #fff;\n}\n.crowd-system-configurator .configurator-header .close-button {\n  background: none;\n  border: none;\n  color: rgba(255, 255, 255, 0.6);\n  font-size: 28px;\n  cursor: pointer;\n  width: 32px;\n  height: 32px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px;\n  transition: all 0.2s ease;\n}\n.crowd-system-configurator .configurator-header .close-button:hover {\n  background-color: rgba(255, 255, 255, 0.1);\n  color: rgba(255, 255, 255, 0.9);\n}\n.crowd-system-configurator .configurator-content {\n  flex: 1;\n  overflow-y: auto;\n  padding: 24px;\n}\n.crowd-system-configurator .configurator-content .info-section {\n  margin-bottom: 24px;\n}\n.crowd-system-configurator .configurator-content .info-section p {\n  margin: 0 0 12px 0;\n  color: rgba(255, 255, 255, 0.7);\n  font-size: 14px;\n  line-height: 1.6;\n}\n.crowd-system-configurator .configurator-content .info-section .model-info {\n  background-color: rgba(59, 130, 246, 0.1);\n  border: 1px solid rgba(59, 130, 246, 0.3);\n  border-radius: 6px;\n  padding: 12px 16px;\n  font-size: 14px;\n  color: #93bbff;\n}\n.crowd-system-configurator .configurator-content .info-section .model-info strong {\n  color: #fff;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group {\n  margin-bottom: 20px;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group label {\n  display: block;\n  margin-bottom: 8px;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group label .label-text {\n  font-weight: 500;\n  color: rgba(255, 255, 255, 0.9);\n  font-size: 14px;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group label .label-hint {\n  display: block;\n  font-size: 12px;\n  color: rgba(255, 255, 255, 0.5);\n  margin-top: 2px;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .form-input {\n  width: 100%;\n  padding: 10px 12px;\n  background-color: rgba(0, 0, 0, 0.3);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 6px;\n  color: #fff;\n  font-size: 14px;\n  transition: all 0.2s ease;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .form-input:focus {\n  outline: none;\n  border-color: rgba(59, 130, 246, 0.6);\n  background-color: rgba(0, 0, 0, 0.5);\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .form-input::placeholder {\n  color: rgba(255, 255, 255, 0.3);\n}\n.crowd-system-configurator .configurator-content .config-section .form-group.checkbox-group .checkbox-label {\n  display: flex;\n  align-items: flex-start;\n  cursor: pointer;\n  padding: 12px;\n  background-color: rgba(0, 0, 0, 0.2);\n  border-radius: 6px;\n  transition: background-color 0.2s ease;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group.checkbox-group .checkbox-label:hover {\n  background-color: rgba(0, 0, 0, 0.3);\n}\n.crowd-system-configurator .configurator-content .config-section .form-group.checkbox-group .checkbox-label input[type=checkbox] {\n  margin-right: 10px;\n  margin-top: 2px;\n  cursor: pointer;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group.checkbox-group .checkbox-label span {\n  display: block;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group.checkbox-group .checkbox-label span:first-of-type {\n  font-weight: 500;\n  color: rgba(255, 255, 255, 0.9);\n  font-size: 14px;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group.checkbox-group .checkbox-label .checkbox-hint {\n  font-size: 12px;\n  color: rgba(255, 255, 255, 0.5);\n  margin-top: 2px;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container {\n  position: relative;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container .dropdown-trigger {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: 10px 12px;\n  background-color: rgba(0, 0, 0, 0.3);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 6px;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container .dropdown-trigger:hover {\n  border-color: rgba(255, 255, 255, 0.3);\n  background-color: rgba(0, 0, 0, 0.4);\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container .dropdown-trigger .dropdown-arrow {\n  color: rgba(255, 255, 255, 0.5);\n  font-size: 12px;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container .dropdown-menu {\n  position: absolute;\n  top: calc(100% + 4px);\n  left: 0;\n  right: 0;\n  background-color: rgba(25, 30, 40, 0.98);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  border-radius: 6px;\n  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);\n  z-index: 100;\n  max-height: 300px;\n  overflow: hidden;\n  display: flex;\n  flex-direction: column;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container .dropdown-menu .dropdown-search {\n  padding: 10px 12px;\n  background-color: rgba(0, 0, 0, 0.3);\n  border: none;\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  color: #fff;\n  font-size: 14px;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container .dropdown-menu .dropdown-search:focus {\n  outline: none;\n  background-color: rgba(0, 0, 0, 0.4);\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container .dropdown-menu .dropdown-search::placeholder {\n  color: rgba(255, 255, 255, 0.4);\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container .dropdown-menu .dropdown-options {\n  flex: 1;\n  overflow-y: auto;\n  padding: 4px;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container .dropdown-menu .dropdown-options .dropdown-option {\n  padding: 8px 12px;\n  cursor: pointer;\n  border-radius: 4px;\n  transition: background-color 0.2s ease;\n  font-size: 14px;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container .dropdown-menu .dropdown-options .dropdown-option:hover {\n  background-color: rgba(255, 255, 255, 0.1);\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container .dropdown-menu .dropdown-options .dropdown-option.selected {\n  background-color: rgba(59, 130, 246, 0.3);\n  color: #93bbff;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container .dropdown-menu .dropdown-options .dropdown-option.checkbox-option {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .dropdown-container .dropdown-menu .dropdown-options .dropdown-option.checkbox-option input[type=checkbox] {\n  cursor: pointer;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .selected-items {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 6px;\n  margin-top: 8px;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .selected-items .selected-tag {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  padding: 4px 8px;\n  background-color: rgba(59, 130, 246, 0.2);\n  border: 1px solid rgba(59, 130, 246, 0.4);\n  border-radius: 4px;\n  font-size: 12px;\n  color: #93bbff;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .selected-items .selected-tag .remove-tag {\n  background: none;\n  border: none;\n  color: rgba(255, 255, 255, 0.6);\n  cursor: pointer;\n  padding: 0;\n  font-size: 16px;\n  line-height: 1;\n  transition: color 0.2s ease;\n}\n.crowd-system-configurator .configurator-content .config-section .form-group .selected-items .selected-tag .remove-tag:hover {\n  color: rgba(255, 255, 255, 0.9);\n}\n.crowd-system-configurator .configurator-footer {\n  display: flex;\n  justify-content: flex-end;\n  gap: 12px;\n  padding: 20px 24px;\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  background-color: rgba(0, 0, 0, 0.3);\n}\n.crowd-system-configurator .configurator-footer .btn {\n  padding: 10px 20px;\n  border: none;\n  border-radius: 6px;\n  font-size: 14px;\n  font-weight: 500;\n  cursor: pointer;\n  transition: all 0.2s ease;\n}\n.crowd-system-configurator .configurator-footer .btn.btn-secondary {\n  background-color: rgba(255, 255, 255, 0.1);\n  color: rgba(255, 255, 255, 0.9);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n}\n.crowd-system-configurator .configurator-footer .btn.btn-secondary:hover {\n  background-color: rgba(255, 255, 255, 0.2);\n}\n.crowd-system-configurator .configurator-footer .btn.btn-primary {\n  background-color: rgba(59, 130, 246, 0.8);\n  color: #fff;\n}\n.crowd-system-configurator .configurator-footer .btn.btn-primary:hover:not(:disabled) {\n  background-color: rgb(59, 130, 246);\n}\n.crowd-system-configurator .configurator-footer .btn.btn-primary:disabled {\n  opacity: 0.5;\n  cursor: not-allowed;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/DetailsLayer.scss":
 /*!***********************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/DetailsLayer.scss ***!
@@ -96900,6 +96917,631 @@ exports["default"] = CCTVWidget;
 
 /***/ }),
 
+/***/ "./src/components/CalloutMetadataConfigurator.tsx":
+/*!********************************************************!*\
+  !*** ./src/components/CalloutMetadataConfigurator.tsx ***!
+  \********************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const React = __importStar(__webpack_require__(/*! react */ "react"));
+const CalloutMetadataService_1 = __webpack_require__(/*! ../services/CalloutMetadataService */ "./src/services/CalloutMetadataService.ts");
+const CalloutMetadataConfigurator = ({ loadedMeshes, currentModel, onClose }) => {
+    var _a, _b, _c, _d;
+    const [metadata, setMetadata] = React.useState([]);
+    const [selectedMesh, setSelectedMesh] = React.useState('');
+    const [editingItem, setEditingItem] = React.useState(null);
+    const [isCreating, setIsCreating] = React.useState(false);
+    const [loading, setLoading] = React.useState(false);
+    const [searchTerm, setSearchTerm] = React.useState('');
+    const [filterBy, setFilterBy] = React.useState('all');
+    // Form state for editing/creating
+    const [formData, setFormData] = React.useState({
+        meshName: '',
+        locationKey: '',
+        assetKey: '',
+        equipmentId: '',
+        systemId: '',
+        tags: [],
+        modelPath: currentModel || undefined,
+        defaultConfig: {
+            title: '',
+            subtitle: '',
+            description: '',
+            status: 'online',
+            value: '',
+            unit: '',
+            placement: 'right',
+            showTarget: true,
+            showLine: true
+        },
+        isActive: true
+    });
+    // Load existing metadata on component mount
+    React.useEffect(() => {
+        loadMetadata();
+    }, [currentModel]);
+    const loadMetadata = () => __awaiter(void 0, void 0, void 0, function* () {
+        setLoading(true);
+        try {
+            // Load ALL metadata first to debug
+            const allData = yield CalloutMetadataService_1.calloutMetadataService.getAllMetadata();
+            console.log(`Found ${allData.length} total callout metadata entries`);
+            // Then filter by current model if needed
+            const filteredData = currentModel
+                ? allData.filter(item => !item.modelPath || item.modelPath === currentModel)
+                : allData;
+            console.log(`After filtering by model "${currentModel}": ${filteredData.length} entries`);
+            setMetadata(filteredData);
+        }
+        catch (error) {
+            console.error('Error loading callout metadata:', error);
+        }
+        setLoading(false);
+    });
+    const handleSave = () => __awaiter(void 0, void 0, void 0, function* () {
+        if (!formData.meshName) {
+            alert('Mesh name is required');
+            return;
+        }
+        setLoading(true);
+        try {
+            const dataToSave = Object.assign(Object.assign({}, formData), { meshName: formData.meshName, modelPath: currentModel || undefined, tags: Array.isArray(formData.tags) ? formData.tags :
+                    (formData.tags || '').split(',').map(tag => tag.trim()).filter(Boolean), lastUpdated: Date.now() });
+            yield CalloutMetadataService_1.calloutMetadataService.saveMetadata(dataToSave);
+            yield loadMetadata();
+            handleCancel();
+            // Show success feedback
+            const feedback = document.createElement('div');
+            feedback.style.cssText = `
+                position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
+                background: rgba(16, 185, 129, 0.9); color: white; padding: 10px 20px;
+                border-radius: 6px; z-index: 3000; font-size: 14px; font-weight: 500;
+            `;
+            feedback.textContent = editingItem ? 'Metadata updated successfully!' : 'Metadata created successfully!';
+            document.body.appendChild(feedback);
+            setTimeout(() => feedback.remove(), 3000);
+        }
+        catch (error) {
+            console.error('Error saving metadata:', error);
+            alert('Error saving metadata. Please try again.');
+        }
+        setLoading(false);
+    });
+    const handleEdit = (item) => {
+        setEditingItem(item);
+        setFormData(Object.assign(Object.assign({}, item), { tags: Array.isArray(item.tags) ? item.tags : [] }));
+        setIsCreating(false);
+    };
+    const handleCreate = () => {
+        setIsCreating(true);
+        setEditingItem(null);
+        setFormData({
+            meshName: selectedMesh,
+            locationKey: '',
+            assetKey: '',
+            equipmentId: '',
+            systemId: '',
+            tags: [],
+            modelPath: currentModel || undefined,
+            defaultConfig: {
+                title: '',
+                subtitle: '',
+                description: '',
+                status: 'online',
+                value: '',
+                unit: '',
+                placement: 'right',
+                showTarget: true,
+                showLine: true
+            },
+            isActive: true
+        });
+    };
+    const handleCancel = () => {
+        setEditingItem(null);
+        setIsCreating(false);
+        setFormData({
+            meshName: '',
+            locationKey: '',
+            assetKey: '',
+            equipmentId: '',
+            systemId: '',
+            tags: [],
+            modelPath: currentModel || undefined,
+            defaultConfig: {
+                title: '',
+                subtitle: '',
+                description: '',
+                status: 'online',
+                value: '',
+                unit: '',
+                placement: 'right',
+                showTarget: true,
+                showLine: true
+            },
+            isActive: true
+        });
+    };
+    const handleDelete = (item) => __awaiter(void 0, void 0, void 0, function* () {
+        if (!confirm(`Delete metadata for "${item.meshName}"?`))
+            return;
+        setLoading(true);
+        try {
+            yield CalloutMetadataService_1.calloutMetadataService.deleteMetadata(item.meshName, item.modelPath);
+            yield loadMetadata();
+            // Show success feedback
+            const feedback = document.createElement('div');
+            feedback.style.cssText = `
+                position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
+                background: rgba(239, 68, 68, 0.9); color: white; padding: 10px 20px;
+                border-radius: 6px; z-index: 3000; font-size: 14px; font-weight: 500;
+            `;
+            feedback.textContent = 'Metadata deleted successfully!';
+            document.body.appendChild(feedback);
+            setTimeout(() => feedback.remove(), 3000);
+        }
+        catch (error) {
+            console.error('Error deleting metadata:', error);
+            alert('Error deleting metadata. Please try again.');
+        }
+        setLoading(false);
+    });
+    const handleBulkCreate = () => __awaiter(void 0, void 0, void 0, function* () {
+        const meshesWithoutMetadata = loadedMeshes.filter(mesh => !metadata.find(m => m.meshName === mesh.name));
+        if (meshesWithoutMetadata.length === 0) {
+            alert('All meshes already have metadata configured');
+            return;
+        }
+        const bulkData = meshesWithoutMetadata.map(mesh => ({
+            meshName: mesh.name,
+            modelPath: currentModel || undefined,
+            defaultConfig: {
+                title: mesh.name.replace(/_/g, ' ').replace(/([A-Z])/g, ' $1').trim(),
+                subtitle: 'Auto-generated',
+                status: 'online',
+                placement: 'right',
+                showTarget: true,
+                showLine: true
+            },
+            isActive: true,
+            lastUpdated: Date.now()
+        }));
+        setLoading(true);
+        try {
+            yield CalloutMetadataService_1.calloutMetadataService.bulkSaveMetadata(bulkData);
+            yield loadMetadata();
+            // Show success feedback
+            const feedback = document.createElement('div');
+            feedback.style.cssText = `
+                position: fixed; top: 20px; left: 50%; transform: translateX(-50%);
+                background: rgba(16, 185, 129, 0.9); color: white; padding: 10px 20px;
+                border-radius: 6px; z-index: 3000; font-size: 14px; font-weight: 500;
+            `;
+            feedback.textContent = `Created metadata for ${bulkData.length} meshes!`;
+            document.body.appendChild(feedback);
+            setTimeout(() => feedback.remove(), 3000);
+        }
+        catch (error) {
+            console.error('Error creating bulk metadata:', error);
+            alert('Error creating bulk metadata. Please try again.');
+        }
+        setLoading(false);
+    });
+    // Filter metadata based on search and filter criteria
+    const filteredMetadata = React.useMemo(() => {
+        let filtered = metadata;
+        // Apply search filter
+        if (searchTerm) {
+            filtered = filtered.filter(item => {
+                var _a, _b, _c, _d, _e, _f;
+                return item.meshName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                    ((_a = item.locationKey) === null || _a === void 0 ? void 0 : _a.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                    ((_b = item.assetKey) === null || _b === void 0 ? void 0 : _b.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                    ((_c = item.equipmentId) === null || _c === void 0 ? void 0 : _c.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                    ((_d = item.systemId) === null || _d === void 0 ? void 0 : _d.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                    ((_f = (_e = item.defaultConfig) === null || _e === void 0 ? void 0 : _e.title) === null || _f === void 0 ? void 0 : _f.toLowerCase().includes(searchTerm.toLowerCase()));
+            });
+        }
+        // Apply category filter
+        if (filterBy !== 'all') {
+            filtered = filtered.filter(item => {
+                const value = item[filterBy];
+                return value && String(value).trim() !== '';
+            });
+        }
+        return filtered;
+    }, [metadata, searchTerm, filterBy]);
+    // Get available meshes for selection
+    const availableMeshes = React.useMemo(() => {
+        return loadedMeshes.filter(mesh => !metadata.find(m => m.meshName === mesh.name));
+    }, [loadedMeshes, metadata]);
+    return (React.createElement("div", { style: {
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.8)',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            zIndex: 2000,
+            backdropFilter: 'blur(4px)'
+        } },
+        React.createElement("div", { style: {
+                width: '85vw',
+                maxWidth: '1000px',
+                height: '50vh',
+                backgroundColor: 'rgba(25, 25, 25, 0.98)',
+                borderRadius: '12px',
+                boxShadow: '0 20px 40px rgba(0, 0, 0, 0.4)',
+                border: '1px solid rgba(255, 255, 255, 0.1)',
+                display: 'flex',
+                flexDirection: 'column',
+                overflow: 'hidden'
+            } },
+            React.createElement("div", { style: {
+                    padding: '16px 20px',
+                    borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    backgroundColor: 'rgba(0, 0, 0, 0.3)'
+                } },
+                React.createElement("div", null,
+                    React.createElement("h2", { style: { margin: 0, color: 'white', fontSize: '20px', fontWeight: '600' } }, "\uD83C\uDFF7\uFE0F Callout Metadata Configuration"),
+                    React.createElement("p", { style: { margin: '4px 0 0', color: 'rgba(255, 255, 255, 0.7)', fontSize: '14px' } },
+                        "Configure mesh identifiers for callout triggers",
+                        currentModel && React.createElement("span", null,
+                            " \u2022 Model: ",
+                            currentModel.split('/').pop()))),
+                React.createElement("button", { onClick: onClose, style: {
+                        background: 'none',
+                        border: 'none',
+                        fontSize: '24px',
+                        color: 'rgba(255, 255, 255, 0.6)',
+                        cursor: 'pointer',
+                        transition: 'color 0.2s ease',
+                        width: '32px',
+                        height: '32px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center'
+                    }, onMouseEnter: (e) => e.currentTarget.style.color = 'rgba(255, 255, 255, 0.9)', onMouseLeave: (e) => e.currentTarget.style.color = 'rgba(255, 255, 255, 0.6)' }, "\u00D7")),
+            React.createElement("div", { style: {
+                    padding: '12px 20px',
+                    borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+                    backgroundColor: 'rgba(0, 0, 0, 0.2)'
+                } },
+                React.createElement("div", { style: { display: 'flex', gap: '12px', alignItems: 'center', flexWrap: 'wrap' } },
+                    React.createElement("input", { type: "text", placeholder: "Search metadata...", value: searchTerm, onChange: (e) => setSearchTerm(e.target.value), style: {
+                            padding: '8px 12px',
+                            borderRadius: '6px',
+                            border: '1px solid rgba(255, 255, 255, 0.2)',
+                            backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                            color: 'white',
+                            fontSize: '14px',
+                            minWidth: '200px'
+                        } }),
+                    React.createElement("select", { value: filterBy, onChange: (e) => setFilterBy(e.target.value), style: {
+                            padding: '8px 12px',
+                            borderRadius: '6px',
+                            border: '1px solid rgba(255, 255, 255, 0.2)',
+                            backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                            color: 'white',
+                            fontSize: '14px'
+                        } },
+                        React.createElement("option", { value: "all" }, "All Items"),
+                        React.createElement("option", { value: "locationKey" }, "With Location Key"),
+                        React.createElement("option", { value: "assetKey" }, "With Asset Key"),
+                        React.createElement("option", { value: "equipmentId" }, "With Equipment ID"),
+                        React.createElement("option", { value: "systemId" }, "With System ID")),
+                    React.createElement("div", { style: { marginLeft: 'auto', display: 'flex', gap: '8px' } },
+                        availableMeshes.length > 0 && (React.createElement("div", { style: { display: 'flex', gap: '8px', alignItems: 'center' } },
+                            React.createElement("select", { value: selectedMesh, onChange: (e) => setSelectedMesh(e.target.value), style: {
+                                    padding: '8px 12px',
+                                    borderRadius: '6px',
+                                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                                    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                    color: 'white',
+                                    fontSize: '14px',
+                                    minWidth: '150px'
+                                } },
+                                React.createElement("option", { value: "" }, "Select mesh..."),
+                                availableMeshes.map(mesh => (React.createElement("option", { key: mesh.name, value: mesh.name }, mesh.name)))),
+                            React.createElement("button", { onClick: handleCreate, disabled: !selectedMesh, style: {
+                                    padding: '8px 16px',
+                                    borderRadius: '6px',
+                                    border: 'none',
+                                    backgroundColor: selectedMesh ? 'rgba(16, 185, 129, 0.8)' : 'rgba(107, 114, 128, 0.5)',
+                                    color: 'white',
+                                    fontSize: '14px',
+                                    fontWeight: '500',
+                                    cursor: selectedMesh ? 'pointer' : 'not-allowed',
+                                    transition: 'background-color 0.2s ease'
+                                } }, "\u2795 Create"))),
+                        availableMeshes.length > 1 && (React.createElement("button", { onClick: handleBulkCreate, disabled: loading, style: {
+                                padding: '8px 16px',
+                                borderRadius: '6px',
+                                border: 'none',
+                                backgroundColor: 'rgba(59, 130, 246, 0.8)',
+                                color: 'white',
+                                fontSize: '14px',
+                                fontWeight: '500',
+                                cursor: 'pointer',
+                                transition: 'background-color 0.2s ease'
+                            } },
+                            "\uD83D\uDCE6 Bulk Create (",
+                            availableMeshes.length,
+                            ")"))))),
+            React.createElement("div", { style: { flex: 1, display: 'flex', overflow: 'hidden' } },
+                React.createElement("div", { style: {
+                        width: (isCreating || editingItem) ? '60%' : '100%',
+                        borderRight: (isCreating || editingItem) ? '1px solid rgba(255, 255, 255, 0.1)' : 'none',
+                        overflow: 'auto',
+                        padding: '12px 20px'
+                    } },
+                    loading && (React.createElement("div", { style: {
+                            textAlign: 'center',
+                            color: 'rgba(255, 255, 255, 0.7)',
+                            padding: '40px',
+                            fontSize: '16px'
+                        } }, "Loading metadata...")),
+                    !loading && filteredMetadata.length === 0 && (React.createElement("div", { style: {
+                            textAlign: 'center',
+                            color: 'rgba(255, 255, 255, 0.7)',
+                            padding: '40px',
+                            fontSize: '16px'
+                        } },
+                        searchTerm || filterBy !== 'all' ? 'No metadata matches your search criteria' : 'No metadata configured yet',
+                        React.createElement("div", { style: { fontSize: '14px', marginTop: '8px' } }, availableMeshes.length > 0 ? 'Select a mesh above to create metadata' : 'No meshes available in current model'))),
+                    filteredMetadata.map((item) => {
+                        var _a;
+                        return (React.createElement("div", { key: `${item.meshName}-${item.modelPath || 'default'}`, style: {
+                                backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                                border: '1px solid rgba(255, 255, 255, 0.1)',
+                                borderRadius: '8px',
+                                padding: '16px',
+                                marginBottom: '12px',
+                                transition: 'all 0.2s ease'
+                            } },
+                            React.createElement("div", { style: { display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '12px' } },
+                                React.createElement("div", null,
+                                    React.createElement("h4", { style: { margin: 0, color: 'white', fontSize: '16px', fontWeight: '500' } }, item.meshName),
+                                    ((_a = item.defaultConfig) === null || _a === void 0 ? void 0 : _a.title) && (React.createElement("p", { style: { margin: '4px 0 0', color: 'rgba(255, 255, 255, 0.7)', fontSize: '14px' } }, item.defaultConfig.title))),
+                                React.createElement("div", { style: { display: 'flex', gap: '8px' } },
+                                    React.createElement("button", { onClick: () => handleEdit(item), style: {
+                                            padding: '6px 12px',
+                                            borderRadius: '4px',
+                                            border: 'none',
+                                            backgroundColor: 'rgba(59, 130, 246, 0.7)',
+                                            color: 'white',
+                                            fontSize: '12px',
+                                            fontWeight: '500',
+                                            cursor: 'pointer'
+                                        } }, "\u270F\uFE0F Edit"),
+                                    React.createElement("button", { onClick: () => handleDelete(item), style: {
+                                            padding: '6px 12px',
+                                            borderRadius: '4px',
+                                            border: 'none',
+                                            backgroundColor: 'rgba(239, 68, 68, 0.7)',
+                                            color: 'white',
+                                            fontSize: '12px',
+                                            fontWeight: '500',
+                                            cursor: 'pointer'
+                                        } }, "\uD83D\uDDD1\uFE0F Delete"))),
+                            React.createElement("div", { style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '8px' } },
+                                item.locationKey && (React.createElement("div", { style: { fontSize: '12px' } },
+                                    React.createElement("span", { style: { color: 'rgba(255, 255, 255, 0.6)' } }, "Location:"),
+                                    React.createElement("span", { style: { color: '#10b981', fontWeight: '500', marginLeft: '4px' } }, item.locationKey))),
+                                item.assetKey && (React.createElement("div", { style: { fontSize: '12px' } },
+                                    React.createElement("span", { style: { color: 'rgba(255, 255, 255, 0.6)' } }, "Asset:"),
+                                    React.createElement("span", { style: { color: '#3b82f6', fontWeight: '500', marginLeft: '4px' } }, item.assetKey))),
+                                item.equipmentId && (React.createElement("div", { style: { fontSize: '12px' } },
+                                    React.createElement("span", { style: { color: 'rgba(255, 255, 255, 0.6)' } }, "Equipment:"),
+                                    React.createElement("span", { style: { color: '#f59e0b', fontWeight: '500', marginLeft: '4px' } }, item.equipmentId))),
+                                item.systemId && (React.createElement("div", { style: { fontSize: '12px' } },
+                                    React.createElement("span", { style: { color: 'rgba(255, 255, 255, 0.6)' } }, "System:"),
+                                    React.createElement("span", { style: { color: '#8b5cf6', fontWeight: '500', marginLeft: '4px' } }, item.systemId)))),
+                            item.tags && item.tags.length > 0 && (React.createElement("div", { style: { marginTop: '8px' } }, item.tags.map(tag => (React.createElement("span", { key: tag, style: {
+                                    display: 'inline-block',
+                                    padding: '2px 8px',
+                                    borderRadius: '12px',
+                                    backgroundColor: 'rgba(107, 114, 128, 0.3)',
+                                    color: 'rgba(255, 255, 255, 0.8)',
+                                    fontSize: '11px',
+                                    marginRight: '6px',
+                                    marginTop: '4px'
+                                } }, tag)))))));
+                    })),
+                (isCreating || editingItem) && (React.createElement("div", { style: { width: '40%', padding: '12px 20px', overflow: 'auto', backgroundColor: 'rgba(0, 0, 0, 0.1)' } },
+                    React.createElement("h3", { style: { margin: '0 0 16px', color: 'white', fontSize: '18px', fontWeight: '500' } }, isCreating ? '➕ Create Metadata' : '✏️ Edit Metadata'),
+                    React.createElement("div", { style: { display: 'flex', flexDirection: 'column', gap: '12px' } },
+                        React.createElement("div", null,
+                            React.createElement("label", { style: { display: 'block', marginBottom: '4px', color: 'rgba(255, 255, 255, 0.8)', fontSize: '14px', fontWeight: '500' } }, "Mesh Name *"),
+                            React.createElement("input", { type: "text", value: formData.meshName || '', onChange: (e) => setFormData(Object.assign(Object.assign({}, formData), { meshName: e.target.value })), disabled: !isCreating, style: {
+                                    width: '100%',
+                                    padding: '8px 12px',
+                                    borderRadius: '6px',
+                                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                                    backgroundColor: isCreating ? 'rgba(0, 0, 0, 0.3)' : 'rgba(107, 114, 128, 0.2)',
+                                    color: 'white',
+                                    fontSize: '14px'
+                                } })),
+                        React.createElement("div", null,
+                            React.createElement("label", { style: { display: 'block', marginBottom: '4px', color: 'rgba(255, 255, 255, 0.8)', fontSize: '14px', fontWeight: '500' } }, "Location Key"),
+                            React.createElement("input", { type: "text", value: formData.locationKey || '', onChange: (e) => setFormData(Object.assign(Object.assign({}, formData), { locationKey: e.target.value })), placeholder: "e.g., 23", style: {
+                                    width: '100%',
+                                    padding: '8px 12px',
+                                    borderRadius: '6px',
+                                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                                    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                    color: 'white',
+                                    fontSize: '14px'
+                                } })),
+                        React.createElement("div", null,
+                            React.createElement("label", { style: { display: 'block', marginBottom: '4px', color: 'rgba(255, 255, 255, 0.8)', fontSize: '14px', fontWeight: '500' } }, "Asset Key"),
+                            React.createElement("input", { type: "text", value: formData.assetKey || '', onChange: (e) => setFormData(Object.assign(Object.assign({}, formData), { assetKey: e.target.value })), placeholder: "e.g., 1001", style: {
+                                    width: '100%',
+                                    padding: '8px 12px',
+                                    borderRadius: '6px',
+                                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                                    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                    color: 'white',
+                                    fontSize: '14px'
+                                } })),
+                        React.createElement("div", null,
+                            React.createElement("label", { style: { display: 'block', marginBottom: '4px', color: 'rgba(255, 255, 255, 0.8)', fontSize: '14px', fontWeight: '500' } }, "Equipment ID"),
+                            React.createElement("input", { type: "text", value: formData.equipmentId || '', onChange: (e) => setFormData(Object.assign(Object.assign({}, formData), { equipmentId: e.target.value })), placeholder: "e.g., 5001", style: {
+                                    width: '100%',
+                                    padding: '8px 12px',
+                                    borderRadius: '6px',
+                                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                                    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                    color: 'white',
+                                    fontSize: '14px'
+                                } })),
+                        React.createElement("div", null,
+                            React.createElement("label", { style: { display: 'block', marginBottom: '4px', color: 'rgba(255, 255, 255, 0.8)', fontSize: '14px', fontWeight: '500' } }, "System ID"),
+                            React.createElement("input", { type: "text", value: formData.systemId || '', onChange: (e) => setFormData(Object.assign(Object.assign({}, formData), { systemId: e.target.value })), placeholder: "e.g., 100", style: {
+                                    width: '100%',
+                                    padding: '8px 12px',
+                                    borderRadius: '6px',
+                                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                                    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                    color: 'white',
+                                    fontSize: '14px'
+                                } })),
+                        React.createElement("div", null,
+                            React.createElement("label", { style: { display: 'block', marginBottom: '4px', color: 'rgba(255, 255, 255, 0.8)', fontSize: '14px', fontWeight: '500' } }, "Tags (comma-separated)"),
+                            React.createElement("input", { type: "text", value: Array.isArray(formData.tags) ? formData.tags.join(', ') : formData.tags || '', onChange: (e) => setFormData(Object.assign(Object.assign({}, formData), { tags: e.target.value.split(',').map(tag => tag.trim()).filter(Boolean) })), placeholder: "e.g., hvac, sensor, critical", style: {
+                                    width: '100%',
+                                    padding: '8px 12px',
+                                    borderRadius: '6px',
+                                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                                    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                    color: 'white',
+                                    fontSize: '14px'
+                                } })),
+                        React.createElement("div", { style: { borderTop: '1px solid rgba(255, 255, 255, 0.1)', paddingTop: '12px', marginTop: '8px' } },
+                            React.createElement("h4", { style: { margin: '0 0 12px', color: 'rgba(255, 255, 255, 0.9)', fontSize: '16px' } }, "Default Callout Config"),
+                            React.createElement("div", null,
+                                React.createElement("label", { style: { display: 'block', marginBottom: '4px', color: 'rgba(255, 255, 255, 0.8)', fontSize: '14px', fontWeight: '500' } }, "Title"),
+                                React.createElement("input", { type: "text", value: ((_a = formData.defaultConfig) === null || _a === void 0 ? void 0 : _a.title) || '', onChange: (e) => setFormData(Object.assign(Object.assign({}, formData), { defaultConfig: Object.assign(Object.assign({}, formData.defaultConfig), { title: e.target.value }) })), placeholder: "Callout title", style: {
+                                        width: '100%',
+                                        padding: '8px 12px',
+                                        borderRadius: '6px',
+                                        border: '1px solid rgba(255, 255, 255, 0.2)',
+                                        backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                        color: 'white',
+                                        fontSize: '14px',
+                                        marginBottom: '8px'
+                                    } })),
+                            React.createElement("div", null,
+                                React.createElement("label", { style: { display: 'block', marginBottom: '4px', color: 'rgba(255, 255, 255, 0.8)', fontSize: '14px', fontWeight: '500' } }, "Subtitle"),
+                                React.createElement("input", { type: "text", value: ((_b = formData.defaultConfig) === null || _b === void 0 ? void 0 : _b.subtitle) || '', onChange: (e) => setFormData(Object.assign(Object.assign({}, formData), { defaultConfig: Object.assign(Object.assign({}, formData.defaultConfig), { subtitle: e.target.value }) })), placeholder: "Callout subtitle", style: {
+                                        width: '100%',
+                                        padding: '8px 12px',
+                                        borderRadius: '6px',
+                                        border: '1px solid rgba(255, 255, 255, 0.2)',
+                                        backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                        color: 'white',
+                                        fontSize: '14px',
+                                        marginBottom: '8px'
+                                    } })),
+                            React.createElement("div", { style: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' } },
+                                React.createElement("div", null,
+                                    React.createElement("label", { style: { display: 'block', marginBottom: '4px', color: 'rgba(255, 255, 255, 0.8)', fontSize: '14px', fontWeight: '500' } }, "Status"),
+                                    React.createElement("select", { value: ((_c = formData.defaultConfig) === null || _c === void 0 ? void 0 : _c.status) || 'online', onChange: (e) => setFormData(Object.assign(Object.assign({}, formData), { defaultConfig: Object.assign(Object.assign({}, formData.defaultConfig), { status: e.target.value }) })), style: {
+                                            width: '100%',
+                                            padding: '8px 12px',
+                                            borderRadius: '6px',
+                                            border: '1px solid rgba(255, 255, 255, 0.2)',
+                                            backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                            color: 'white',
+                                            fontSize: '14px'
+                                        } },
+                                        React.createElement("option", { value: "online" }, "Online"),
+                                        React.createElement("option", { value: "warning" }, "Warning"),
+                                        React.createElement("option", { value: "error" }, "Error"),
+                                        React.createElement("option", { value: "maintenance" }, "Maintenance"))),
+                                React.createElement("div", null,
+                                    React.createElement("label", { style: { display: 'block', marginBottom: '4px', color: 'rgba(255, 255, 255, 0.8)', fontSize: '14px', fontWeight: '500' } }, "Placement"),
+                                    React.createElement("select", { value: ((_d = formData.defaultConfig) === null || _d === void 0 ? void 0 : _d.placement) || 'right', onChange: (e) => setFormData(Object.assign(Object.assign({}, formData), { defaultConfig: Object.assign(Object.assign({}, formData.defaultConfig), { placement: e.target.value }) })), style: {
+                                            width: '100%',
+                                            padding: '8px 12px',
+                                            borderRadius: '6px',
+                                            border: '1px solid rgba(255, 255, 255, 0.2)',
+                                            backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                                            color: 'white',
+                                            fontSize: '14px'
+                                        } },
+                                        React.createElement("option", { value: "left" }, "Left"),
+                                        React.createElement("option", { value: "right" }, "Right"))))),
+                        React.createElement("div", { style: { display: 'flex', gap: '8px', marginTop: '16px', paddingTop: '16px', borderTop: '1px solid rgba(255, 255, 255, 0.1)' } },
+                            React.createElement("button", { onClick: handleCancel, style: {
+                                    flex: 1,
+                                    padding: '10px 16px',
+                                    borderRadius: '6px',
+                                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                                    backgroundColor: 'rgba(107, 114, 128, 0.3)',
+                                    color: 'white',
+                                    fontSize: '14px',
+                                    fontWeight: '500',
+                                    cursor: 'pointer'
+                                } }, "Cancel"),
+                            React.createElement("button", { onClick: handleSave, disabled: !formData.meshName || loading, style: {
+                                    flex: 1,
+                                    padding: '10px 16px',
+                                    borderRadius: '6px',
+                                    border: 'none',
+                                    backgroundColor: formData.meshName && !loading ? 'rgba(16, 185, 129, 0.8)' : 'rgba(107, 114, 128, 0.5)',
+                                    color: 'white',
+                                    fontSize: '14px',
+                                    fontWeight: '500',
+                                    cursor: formData.meshName && !loading ? 'pointer' : 'not-allowed'
+                                } }, loading ? 'Saving...' : (isCreating ? 'Create' : 'Save'))))))))));
+};
+exports["default"] = CalloutMetadataConfigurator;
+
+
+/***/ }),
+
 /***/ "./src/components/CameraWalkthroughControls.scss":
 /*!*******************************************************!*\
   !*** ./src/components/CameraWalkthroughControls.scss ***!
@@ -97339,6 +97981,525 @@ exports["default"] = CameraWalkthroughControls;
 
 /***/ }),
 
+/***/ "./src/components/CarpetHeatmapConfigurator.tsx":
+/*!******************************************************!*\
+  !*** ./src/components/CarpetHeatmapConfigurator.tsx ***!
+  \******************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const React = __importStar(__webpack_require__(/*! react */ "react"));
+const appConfig_1 = __webpack_require__(/*! ../config/appConfig */ "./src/config/appConfig.ts");
+const DEFAULT_CONFIGS = {
+    temperature: {
+        gradient: {
+            '0.0': 'transparent',
+            '0.25': 'blue',
+            '0.5': 'green',
+            '0.75': 'yellow',
+            '1.0': 'red'
+        },
+        valueRange: { min: 18, max: 28 },
+        unit: '°C',
+        radius: 40,
+        maxOpacity: 0.8,
+        minOpacity: 0,
+        blur: 0.75
+    },
+    humidity: {
+        gradient: {
+            '0.0': 'transparent',
+            '0.25': '#ffffcc',
+            '0.5': '#a1dab4',
+            '0.75': '#41b6c4',
+            '1.0': '#2c7fb8'
+        },
+        valueRange: { min: 30, max: 70 },
+        unit: '%',
+        radius: 40,
+        maxOpacity: 0.8,
+        minOpacity: 0,
+        blur: 0.75
+    },
+    occupancy: {
+        gradient: {
+            '0.0': 'transparent',
+            '0.25': '#fee5d9',
+            '0.5': '#fcae91',
+            '0.75': '#fb6a4a',
+            '1.0': '#de2d26'
+        },
+        valueRange: { min: 0, max: 10 },
+        unit: 'people',
+        radius: 50,
+        maxOpacity: 0.9,
+        minOpacity: 0,
+        blur: 0.85
+    },
+    airQuality: {
+        gradient: {
+            '0.0': 'transparent',
+            '0.25': '#00ff00',
+            '0.5': '#ffff00',
+            '0.75': '#ff7e00',
+            '1.0': '#ff0000'
+        },
+        valueRange: { min: 0, max: 500 },
+        unit: 'AQI',
+        radius: 45,
+        maxOpacity: 0.7,
+        minOpacity: 0,
+        blur: 0.8
+    },
+    custom: {
+        gradient: {
+            '0.0': 'transparent',
+            '0.25': '#4575b4',
+            '0.5': '#abd9e9',
+            '0.75': '#fee090',
+            '1.0': '#d73027'
+        },
+        valueRange: { min: 0, max: 100 },
+        unit: '',
+        radius: 40,
+        maxOpacity: 0.8,
+        minOpacity: 0,
+        blur: 0.75
+    }
+};
+const CarpetHeatmapConfigurator = ({ currentModel, loadedMeshes, carpetHeatmapManager, onClose, onToggleHeatmap }) => {
+    var _a, _b;
+    const [isEnabled, setIsEnabled] = React.useState(false);
+    const [selectedMesh, setSelectedMesh] = React.useState('DSTA_CARPETS');
+    const [dataType, setDataType] = React.useState('temperature');
+    const [config, setConfig] = React.useState(DEFAULT_CONFIGS.temperature);
+    const [dataPoints, setDataPoints] = React.useState([]);
+    const [isLoading, setIsLoading] = React.useState(false);
+    const [isSaving, setIsSaving] = React.useState(false);
+    const [editingPointIndex, setEditingPointIndex] = React.useState(null);
+    // Load saved configuration on mount
+    React.useEffect(() => {
+        loadConfiguration();
+    }, [currentModel, selectedMesh]);
+    const loadConfiguration = () => __awaiter(void 0, void 0, void 0, function* () {
+        var _c;
+        if (!currentModel)
+            return;
+        setIsLoading(true);
+        try {
+            const response = yield fetch(`${(0, appConfig_1.getApiUrl)()}/carpet-heatmap/${encodeURIComponent(currentModel)}/${encodeURIComponent(selectedMesh)}`);
+            if (response.ok) {
+                const savedConfig = yield response.json();
+                setIsEnabled(savedConfig.enabled);
+                setDataType(savedConfig.dataType);
+                setConfig({
+                    radius: savedConfig.radius,
+                    maxOpacity: savedConfig.maxOpacity,
+                    minOpacity: savedConfig.minOpacity,
+                    blur: savedConfig.blur,
+                    gradient: savedConfig.gradient,
+                    valueRange: savedConfig.valueRange,
+                    unit: savedConfig.unit
+                });
+                setDataPoints(savedConfig.data || []);
+                // If enabled in database, apply the configuration
+                if (savedConfig.enabled && onToggleHeatmap) {
+                    const fullConfig = Object.assign(Object.assign({}, savedConfig), { disableAnimation: true, disableRandomData: true, temperatureRange: savedConfig.valueRange, initialData: {
+                            max: ((_c = savedConfig.valueRange) === null || _c === void 0 ? void 0 : _c.max) || 100,
+                            data: savedConfig.data || []
+                        } });
+                    onToggleHeatmap(true, fullConfig);
+                }
+            }
+        }
+        catch (error) {
+            console.error('Error loading carpet heatmap configuration:', error);
+        }
+        finally {
+            setIsLoading(false);
+        }
+    });
+    const handleDataTypeChange = (newDataType) => {
+        setDataType(newDataType);
+        const defaultConfig = DEFAULT_CONFIGS[newDataType];
+        setConfig(defaultConfig);
+        // Generate sample data points for the new type
+        const sampleData = generateSampleData(newDataType);
+        setDataPoints(sampleData);
+    };
+    const generateSampleData = (type) => {
+        var _a, _b;
+        const config = DEFAULT_CONFIGS[type];
+        const min = ((_a = config.valueRange) === null || _a === void 0 ? void 0 : _a.min) || 0;
+        const max = ((_b = config.valueRange) === null || _b === void 0 ? void 0 : _b.max) || 100;
+        return [
+            { sensorId: 'SENSOR_001', x: 140, y: 120, value: min + (max - min) * 0.6 },
+            { sensorId: 'SENSOR_002', x: 200, y: 150, value: min + (max - min) * 0.8 },
+            { sensorId: 'SENSOR_003', x: 300, y: 200, value: min + (max - min) * 0.4 },
+            { sensorId: 'SENSOR_004', x: 400, y: 300, value: min + (max - min) * 0.7 },
+            { sensorId: 'SENSOR_005', x: 150, y: 350, value: min + (max - min) * 0.9 },
+            { sensorId: 'SENSOR_006', x: 250, y: 400, value: min + (max - min) * 0.3 },
+            { sensorId: 'SENSOR_007', x: 350, y: 100, value: min + (max - min) * 0.5 },
+            { sensorId: 'SENSOR_008', x: 450, y: 450, value: min + (max - min) * 0.75 }
+        ];
+    };
+    const handleToggle = () => __awaiter(void 0, void 0, void 0, function* () {
+        var _d;
+        const newEnabled = !isEnabled;
+        setIsEnabled(newEnabled);
+        const fullConfig = Object.assign(Object.assign({}, config), { modelPath: currentModel || '', meshName: selectedMesh, enabled: newEnabled, dataType, data: dataPoints, disableAnimation: true, disableRandomData: true, temperatureRange: config.valueRange, initialData: {
+                max: ((_d = config.valueRange) === null || _d === void 0 ? void 0 : _d.max) || 100,
+                data: dataPoints
+            } });
+        // Call the parent toggle handler
+        if (onToggleHeatmap) {
+            onToggleHeatmap(newEnabled, fullConfig);
+        }
+        // Save to backend
+        saveConfiguration(fullConfig);
+    });
+    const saveConfiguration = (configToSave) => __awaiter(void 0, void 0, void 0, function* () {
+        if (!currentModel)
+            return;
+        setIsSaving(true);
+        try {
+            const response = yield fetch(`${(0, appConfig_1.getApiUrl)()}/carpet-heatmap`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(Object.assign(Object.assign({}, configToSave), { modelPath: currentModel, meshName: selectedMesh })),
+            });
+            if (!response.ok) {
+                throw new Error('Failed to save configuration');
+            }
+        }
+        catch (error) {
+            console.error('Error saving carpet heatmap configuration:', error);
+        }
+        finally {
+            setIsSaving(false);
+        }
+    });
+    const handleAddDataPoint = () => {
+        var _a, _b, _c;
+        // Generate a unique sensor ID
+        const existingSensorIds = dataPoints.map(p => p.sensorId);
+        let newSensorNumber = dataPoints.length + 1;
+        let newSensorId = `SENSOR_${String(newSensorNumber).padStart(3, '0')}`;
+        // Ensure uniqueness
+        while (existingSensorIds.includes(newSensorId)) {
+            newSensorNumber++;
+            newSensorId = `SENSOR_${String(newSensorNumber).padStart(3, '0')}`;
+        }
+        const newPoint = {
+            sensorId: newSensorId,
+            x: 256,
+            y: 256,
+            value: (((_a = config.valueRange) === null || _a === void 0 ? void 0 : _a.min) || 0) + ((((_b = config.valueRange) === null || _b === void 0 ? void 0 : _b.max) || 100) - (((_c = config.valueRange) === null || _c === void 0 ? void 0 : _c.min) || 0)) / 2
+        };
+        setDataPoints([...dataPoints, newPoint]);
+    };
+    const handleUpdateDataPoint = (index, field, value) => {
+        const updated = [...dataPoints];
+        updated[index] = Object.assign(Object.assign({}, updated[index]), { [field]: value });
+        setDataPoints(updated);
+    };
+    const handleDeleteDataPoint = (index) => {
+        setDataPoints(dataPoints.filter((_, i) => i !== index));
+    };
+    const handleApplyChanges = () => {
+        var _a;
+        const fullConfig = Object.assign(Object.assign({}, config), { modelPath: currentModel || '', meshName: selectedMesh, enabled: isEnabled, dataType, data: dataPoints, disableAnimation: true, disableRandomData: true, temperatureRange: config.valueRange, initialData: {
+                max: ((_a = config.valueRange) === null || _a === void 0 ? void 0 : _a.max) || 100,
+                data: dataPoints
+            } });
+        // Update the heatmap if enabled
+        if (isEnabled && onToggleHeatmap) {
+            onToggleHeatmap(true, fullConfig);
+        }
+        // Save to backend
+        saveConfiguration(fullConfig);
+    };
+    const availableMeshes = loadedMeshes
+        .filter(mesh => mesh.name && !mesh.name.includes('__root__'))
+        .map(mesh => mesh.name);
+    return (React.createElement("div", { style: {
+            backgroundColor: 'rgba(25, 25, 25, 0.95)',
+            borderRadius: '8px',
+            padding: '20px',
+            width: '600px',
+            maxHeight: '80vh',
+            overflowY: 'auto',
+            color: 'white'
+        } },
+        React.createElement("div", { style: {
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                marginBottom: '20px'
+            } },
+            React.createElement("h3", { style: { margin: 0 } }, "\uD83C\uDF21\uFE0F Carpet Heatmap Configuration"),
+            React.createElement("button", { onClick: onClose, style: {
+                    background: 'none',
+                    border: 'none',
+                    color: 'rgba(255, 255, 255, 0.6)',
+                    fontSize: '24px',
+                    cursor: 'pointer'
+                } }, "\u00D7")),
+        React.createElement("div", { style: {
+                backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                padding: '15px',
+                borderRadius: '6px',
+                marginBottom: '20px'
+            } },
+            React.createElement("label", { style: {
+                    display: 'flex',
+                    alignItems: 'center',
+                    cursor: 'pointer'
+                } },
+                React.createElement("input", { type: "checkbox", checked: isEnabled, onChange: handleToggle, style: {
+                        width: '20px',
+                        height: '20px',
+                        marginRight: '10px',
+                        cursor: 'pointer'
+                    } }),
+                React.createElement("span", { style: { fontSize: '16px', fontWeight: 'bold' } }, "Enable Carpet Heatmap"))),
+        React.createElement("div", { style: { marginBottom: '20px' } },
+            React.createElement("label", { style: { display: 'block', marginBottom: '8px', fontWeight: 'bold' } }, "Target Mesh"),
+            React.createElement("select", { value: selectedMesh, onChange: (e) => setSelectedMesh(e.target.value), disabled: !isEnabled, style: {
+                    width: '100%',
+                    padding: '10px',
+                    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                    borderRadius: '4px',
+                    color: 'white',
+                    fontSize: '14px'
+                } }, availableMeshes.map(meshName => (React.createElement("option", { key: meshName, value: meshName }, meshName))))),
+        React.createElement("div", { style: { marginBottom: '20px' } },
+            React.createElement("label", { style: { display: 'block', marginBottom: '8px', fontWeight: 'bold' } }, "Data Type"),
+            React.createElement("div", { style: { display: 'flex', gap: '10px', flexWrap: 'wrap' } }, ['temperature', 'humidity', 'occupancy', 'airQuality', 'custom'].map(type => (React.createElement("button", { key: type, onClick: () => handleDataTypeChange(type), disabled: !isEnabled, style: {
+                    padding: '8px 16px',
+                    backgroundColor: dataType === type ? 'rgba(59, 130, 246, 0.7)' : 'rgba(255, 255, 255, 0.1)',
+                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                    borderRadius: '4px',
+                    color: 'white',
+                    cursor: isEnabled ? 'pointer' : 'not-allowed',
+                    fontSize: '14px',
+                    fontWeight: dataType === type ? 'bold' : 'normal',
+                    textTransform: 'capitalize',
+                    transition: 'all 0.2s ease'
+                } }, type))))),
+        React.createElement("div", { style: {
+                backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                padding: '15px',
+                borderRadius: '6px',
+                marginBottom: '20px'
+            } },
+            React.createElement("h4", { style: { marginTop: 0, marginBottom: '15px' } }, "Configuration"),
+            React.createElement("div", { style: { marginBottom: '15px' } },
+                React.createElement("label", { style: { display: 'block', marginBottom: '5px', fontSize: '14px' } },
+                    "Value Range (",
+                    config.unit || 'units',
+                    ")"),
+                React.createElement("div", { style: { display: 'flex', gap: '10px' } },
+                    React.createElement("input", { type: "number", value: ((_a = config.valueRange) === null || _a === void 0 ? void 0 : _a.min) || 0, onChange: (e) => setConfig(Object.assign(Object.assign({}, config), { valueRange: Object.assign(Object.assign({}, config.valueRange), { min: parseFloat(e.target.value) }) })), disabled: !isEnabled, style: {
+                            flex: 1,
+                            padding: '8px',
+                            backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                            border: '1px solid rgba(255, 255, 255, 0.2)',
+                            borderRadius: '4px',
+                            color: 'white'
+                        }, placeholder: "Min" }),
+                    React.createElement("span", { style: { alignSelf: 'center' } }, "to"),
+                    React.createElement("input", { type: "number", value: ((_b = config.valueRange) === null || _b === void 0 ? void 0 : _b.max) || 100, onChange: (e) => setConfig(Object.assign(Object.assign({}, config), { valueRange: Object.assign(Object.assign({}, config.valueRange), { max: parseFloat(e.target.value) }) })), disabled: !isEnabled, style: {
+                            flex: 1,
+                            padding: '8px',
+                            backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                            border: '1px solid rgba(255, 255, 255, 0.2)',
+                            borderRadius: '4px',
+                            color: 'white'
+                        }, placeholder: "Max" }))),
+            React.createElement("div", { style: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px' } },
+                React.createElement("div", null,
+                    React.createElement("label", { style: { display: 'block', marginBottom: '5px', fontSize: '14px' } }, "Radius"),
+                    React.createElement("input", { type: "number", value: config.radius || 40, onChange: (e) => setConfig(Object.assign(Object.assign({}, config), { radius: parseInt(e.target.value) })), disabled: !isEnabled, style: {
+                            width: '100%',
+                            padding: '8px',
+                            backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                            border: '1px solid rgba(255, 255, 255, 0.2)',
+                            borderRadius: '4px',
+                            color: 'white'
+                        } })),
+                React.createElement("div", null,
+                    React.createElement("label", { style: { display: 'block', marginBottom: '5px', fontSize: '14px' } }, "Blur"),
+                    React.createElement("input", { type: "number", step: "0.05", value: config.blur || 0.75, onChange: (e) => setConfig(Object.assign(Object.assign({}, config), { blur: parseFloat(e.target.value) })), disabled: !isEnabled, style: {
+                            width: '100%',
+                            padding: '8px',
+                            backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                            border: '1px solid rgba(255, 255, 255, 0.2)',
+                            borderRadius: '4px',
+                            color: 'white'
+                        } })))),
+        React.createElement("div", { style: {
+                backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                padding: '15px',
+                borderRadius: '6px',
+                marginBottom: '20px'
+            } },
+            React.createElement("div", { style: {
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    marginBottom: '15px'
+                } },
+                React.createElement("h4", { style: { margin: 0 } },
+                    "Data Points (",
+                    dataPoints.length,
+                    ")"),
+                React.createElement("button", { onClick: handleAddDataPoint, disabled: !isEnabled, style: {
+                        padding: '6px 12px',
+                        backgroundColor: 'rgba(16, 185, 129, 0.7)',
+                        border: 'none',
+                        borderRadius: '4px',
+                        color: 'white',
+                        cursor: isEnabled ? 'pointer' : 'not-allowed',
+                        fontSize: '14px'
+                    } }, "+ Add Point")),
+            React.createElement("div", { style: { maxHeight: '200px', overflowY: 'auto' } }, dataPoints.map((point, index) => (React.createElement("div", { key: index, style: {
+                    display: 'flex',
+                    gap: '10px',
+                    alignItems: 'center',
+                    marginBottom: '10px',
+                    padding: '10px',
+                    backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                    borderRadius: '4px',
+                    flexWrap: 'wrap'
+                } },
+                React.createElement("div", { style: {
+                        width: '100%',
+                        marginBottom: '8px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '10px'
+                    } },
+                    React.createElement("span", { style: {
+                            fontSize: '11px',
+                            color: 'rgba(255, 255, 255, 0.7)',
+                            fontWeight: 'bold',
+                            minWidth: '50px'
+                        } }, "Sensor:"),
+                    React.createElement("input", { type: "text", value: point.sensorId, onChange: (e) => {
+                            const updated = [...dataPoints];
+                            updated[index] = Object.assign(Object.assign({}, updated[index]), { sensorId: e.target.value });
+                            setDataPoints(updated);
+                        }, disabled: !isEnabled, style: {
+                            flex: 1,
+                            padding: '6px',
+                            backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                            border: '1px solid rgba(255, 255, 255, 0.2)',
+                            borderRadius: '4px',
+                            color: 'white',
+                            fontSize: '12px',
+                            fontFamily: 'monospace'
+                        }, placeholder: "Sensor ID" })),
+                React.createElement("input", { type: "number", value: point.x, onChange: (e) => handleUpdateDataPoint(index, 'x', parseFloat(e.target.value)), disabled: !isEnabled, style: {
+                        width: '80px',
+                        padding: '6px',
+                        backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                        border: '1px solid rgba(255, 255, 255, 0.2)',
+                        borderRadius: '4px',
+                        color: 'white',
+                        fontSize: '12px'
+                    }, placeholder: "X" }),
+                React.createElement("input", { type: "number", value: point.y, onChange: (e) => handleUpdateDataPoint(index, 'y', parseFloat(e.target.value)), disabled: !isEnabled, style: {
+                        width: '80px',
+                        padding: '6px',
+                        backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                        border: '1px solid rgba(255, 255, 255, 0.2)',
+                        borderRadius: '4px',
+                        color: 'white',
+                        fontSize: '12px'
+                    }, placeholder: "Y" }),
+                React.createElement("input", { type: "number", value: point.value.toFixed(1), onChange: (e) => handleUpdateDataPoint(index, 'value', parseFloat(e.target.value)), disabled: !isEnabled, style: {
+                        width: '100px',
+                        padding: '6px',
+                        backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                        border: '1px solid rgba(255, 255, 255, 0.2)',
+                        borderRadius: '4px',
+                        color: 'white',
+                        fontSize: '12px'
+                    }, placeholder: "Value" }),
+                React.createElement("span", { style: { fontSize: '12px', color: 'rgba(255, 255, 255, 0.6)' } }, config.unit),
+                React.createElement("button", { onClick: () => handleDeleteDataPoint(index), disabled: !isEnabled, style: {
+                        padding: '4px 8px',
+                        backgroundColor: 'rgba(239, 68, 68, 0.7)',
+                        border: 'none',
+                        borderRadius: '4px',
+                        color: 'white',
+                        cursor: isEnabled ? 'pointer' : 'not-allowed',
+                        fontSize: '12px'
+                    } }, "\u00D7")))))),
+        React.createElement("div", { style: { display: 'flex', justifyContent: 'flex-end', gap: '10px' } },
+            React.createElement("button", { onClick: onClose, style: {
+                    padding: '10px 20px',
+                    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                    border: '1px solid rgba(255, 255, 255, 0.2)',
+                    borderRadius: '4px',
+                    color: 'white',
+                    cursor: 'pointer',
+                    fontSize: '14px'
+                } }, "Cancel"),
+            React.createElement("button", { onClick: handleApplyChanges, disabled: !isEnabled || isSaving, style: {
+                    padding: '10px 20px',
+                    backgroundColor: 'rgba(59, 130, 246, 0.7)',
+                    border: 'none',
+                    borderRadius: '4px',
+                    color: 'white',
+                    cursor: isEnabled && !isSaving ? 'pointer' : 'not-allowed',
+                    fontSize: '14px',
+                    fontWeight: 'bold'
+                } }, isSaving ? 'Saving...' : 'Apply Changes'))));
+};
+exports["default"] = CarpetHeatmapConfigurator;
+
+
+/***/ }),
+
 /***/ "./src/components/CircularMenu.css":
 /*!*****************************************!*\
   !*** ./src/components/CircularMenu.css ***!
@@ -97607,7 +98768,11 @@ const WidgetSceneConfigurationModal_1 = __importDefault(__webpack_require__(/*! 
 const views_1 = __webpack_require__(/*! ../tools/views */ "./src/tools/views.tsx");
 const SkyboxConfigurationModal_1 = __importDefault(__webpack_require__(/*! ./SkyboxConfigurationModal */ "./src/components/SkyboxConfigurationModal.tsx"));
 const appConfig_1 = __webpack_require__(/*! ../config/appConfig */ "./src/config/appConfig.ts");
+const HeatmapConfigurator_1 = __importDefault(__webpack_require__(/*! ./HeatmapConfigurator */ "./src/components/HeatmapConfigurator.tsx"));
+const CalloutMetadataConfigurator_1 = __importDefault(__webpack_require__(/*! ./CalloutMetadataConfigurator */ "./src/components/CalloutMetadataConfigurator.tsx"));
+const CrowdSystemConfigurator_1 = __importDefault(__webpack_require__(/*! ./CrowdSystemConfigurator */ "./src/components/CrowdSystemConfigurator.tsx"));
 const CrowdNavigationControls_1 = __webpack_require__(/*! ./CrowdNavigationControls */ "./src/components/CrowdNavigationControls.tsx");
+const CarpetHeatmapConfigurator_1 = __importDefault(__webpack_require__(/*! ./CarpetHeatmapConfigurator */ "./src/components/CarpetHeatmapConfigurator.tsx"));
 const IAQPlaybackConfigurator_1 = __importDefault(__webpack_require__(/*! ./IAQPlaybackConfigurator */ "./src/components/IAQPlaybackConfigurator.tsx"));
 const ConfiguratorDropdown = ({ widgets, currentModel, navigationHistory, loadedModelsList, onSceneChange, onAddToScene, onMeshConfigOpen, onAssetCalloutConfigOpen, currentCamera, scene, loadedMeshes, currentModelId, uxpContext, instanceId, showPlacementDialog, inNavbar = false, companyConfig = { name: "3D Building Viewer", logoUrl: "./src/assets/logo.svg" }, onSaveCompanyConfig = () => { }, userRole = "", 
 // Add skybox config prop with default
@@ -98180,6 +99345,42 @@ carpetHeatmapManager, onToggleCarpetHeatmap }) => {
                     React.createElement("span", { style: { marginRight: '10px' } }, "\uD83C\uDF0C"),
                     "Skybox Configuration"),
                 React.createElement("button", { onClick: () => {
+                        setShowHeatmapConfigModal(true);
+                        setIsOpen(false);
+                    }, style: {
+                        display: 'flex',
+                        alignItems: 'center',
+                        padding: '10px 12px',
+                        borderRadius: '6px',
+                        border: 'none',
+                        backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                        cursor: 'pointer',
+                        textAlign: 'left',
+                        fontWeight: '500',
+                        color: 'white',
+                        transition: 'background-color 0.2s ease'
+                    }, onMouseEnter: (e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)', onMouseLeave: (e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)' },
+                    React.createElement("span", { style: { marginRight: '10px' } }, "\uD83C\uDF21\uFE0F"),
+                    "Heatmap Configuration"),
+                React.createElement("button", { onClick: () => {
+                        setShowCarpetHeatmapModal(true);
+                        setIsOpen(false);
+                    }, style: {
+                        display: 'flex',
+                        alignItems: 'center',
+                        padding: '10px 12px',
+                        borderRadius: '6px',
+                        border: 'none',
+                        backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                        cursor: 'pointer',
+                        textAlign: 'left',
+                        fontWeight: '500',
+                        color: 'white',
+                        transition: 'background-color 0.2s ease'
+                    }, onMouseEnter: (e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)', onMouseLeave: (e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)' },
+                    React.createElement("span", { style: { marginRight: '10px' } }, "\uD83D\uDD25"),
+                    "Carpet Heatmap Configuration"),
+                React.createElement("button", { onClick: () => {
                         setShowIAQPlaybackModal(true);
                         setIsOpen(false);
                     }, style: {
@@ -98215,6 +99416,69 @@ carpetHeatmapManager, onToggleCarpetHeatmap }) => {
                     }, onMouseEnter: (e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)', onMouseLeave: (e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)' },
                     React.createElement("span", { style: { marginRight: '10px' } }, "\uD83C\uDFF7\uFE0F"),
                     "Callout Metadata Configuration"),
+                React.createElement("button", { onClick: () => {
+                        setShowCrowdSystemConfigModal(true);
+                        setIsOpen(false);
+                    }, style: {
+                        display: 'flex',
+                        alignItems: 'center',
+                        padding: '10px 12px',
+                        borderRadius: '6px',
+                        border: 'none',
+                        backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                        cursor: 'pointer',
+                        textAlign: 'left',
+                        fontWeight: '500',
+                        color: 'white',
+                        transition: 'background-color 0.2s ease'
+                    }, onMouseEnter: (e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)', onMouseLeave: (e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)' },
+                    React.createElement("span", { style: { marginRight: '10px' } }, "\uD83D\uDEB6"),
+                    "Crowd System Configuration"),
+                React.createElement("button", { onClick: () => setActiveComponent(activeComponent === 'crowdNavigation' ? null : 'crowdNavigation'), style: {
+                        display: 'flex',
+                        alignItems: 'center',
+                        padding: '10px 12px',
+                        borderRadius: '6px',
+                        border: 'none',
+                        backgroundColor: activeComponent === 'crowdNavigation'
+                            ? 'rgba(79, 70, 229, 0.4)' // Highlighted active state with indigo color
+                            : 'rgba(255, 255, 255, 0.1)',
+                        cursor: 'pointer',
+                        textAlign: 'left',
+                        fontWeight: '500',
+                        color: 'white',
+                        transition: 'background-color 0.2s ease'
+                    }, onMouseEnter: (e) => {
+                        if (activeComponent !== 'crowdNavigation') {
+                            e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+                        }
+                    }, onMouseLeave: (e) => {
+                        if (activeComponent !== 'crowdNavigation') {
+                            e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+                        }
+                    } },
+                    React.createElement("span", { style: { marginRight: '10px' } }, "\uD83D\uDEB8"),
+                    "Crowd Navigation Controls"),
+                React.createElement("button", { onClick: () => {
+                        if (onAssetCalloutConfigOpen) {
+                            onAssetCalloutConfigOpen();
+                            setIsOpen(false);
+                        }
+                    }, style: {
+                        display: 'flex',
+                        alignItems: 'center',
+                        padding: '10px 12px',
+                        borderRadius: '6px',
+                        border: 'none',
+                        backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                        cursor: 'pointer',
+                        textAlign: 'left',
+                        fontWeight: '500',
+                        color: 'white',
+                        transition: 'background-color 0.2s ease'
+                    }, onMouseEnter: (e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)', onMouseLeave: (e) => e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)' },
+                    React.createElement("span", { style: { marginRight: '10px' } }, "\uD83D\uDD14"),
+                    "Asset Callout Mappings"),
                 React.createElement("button", { onClick: () => {
                         onMeshConfigOpen();
                         setIsOpen(false);
@@ -98587,6 +99851,46 @@ carpetHeatmapManager, onToggleCarpetHeatmap }) => {
                             // Show a notification
                             alert('API URL updated. You may need to refresh the page for all changes to take effect.');
                         }, onCancel: () => setShowBaseUrlConfigModal(false) }))))),
+        showHeatmapConfigModal && (React.createElement("div", { style: {
+                position: 'fixed',
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                zIndex: 1000
+            } },
+            React.createElement(HeatmapConfigurator_1.default, { currentModel: currentModel, loadedMeshes: loadedMeshes, showAsButton: false, onClose: () => setShowHeatmapConfigModal(false) }))),
+        showCalloutMetadataModal && (React.createElement(CalloutMetadataConfigurator_1.default, { loadedMeshes: loadedMeshes, currentModel: currentModel, onClose: () => setShowCalloutMetadataModal(false) })),
+        showCrowdSystemConfigModal && (React.createElement("div", { style: {
+                position: 'fixed',
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                zIndex: 1000
+            } },
+            React.createElement(CrowdSystemConfigurator_1.default, { currentModel: currentModel, loadedMeshes: loadedMeshes, onClose: () => setShowCrowdSystemConfigModal(false) }))),
+        showCarpetHeatmapModal && (React.createElement("div", { style: {
+                position: 'fixed',
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                zIndex: 1000
+            } },
+            React.createElement(CarpetHeatmapConfigurator_1.default, { currentModel: currentModel, loadedMeshes: loadedMeshes, carpetHeatmapManager: carpetHeatmapManager, onClose: () => setShowCarpetHeatmapModal(false), onToggleHeatmap: onToggleCarpetHeatmap }))),
         showIAQPlaybackModal && (React.createElement("div", { style: {
                 position: 'fixed',
                 top: 0,
@@ -100323,6 +101627,281 @@ exports.CrowdNavigationControls = CrowdNavigationControls;
 
 /***/ }),
 
+/***/ "./src/components/CrowdSystemConfigurator.scss":
+/*!*****************************************************!*\
+  !*** ./src/components/CrowdSystemConfigurator.scss ***!
+  \*****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var api = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./CrowdSystemConfigurator.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/CrowdSystemConfigurator.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.id, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/components/CrowdSystemConfigurator.tsx":
+/*!****************************************************!*\
+  !*** ./src/components/CrowdSystemConfigurator.tsx ***!
+  \****************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const React = __importStar(__webpack_require__(/*! react */ "react"));
+const CrowdSystemService_1 = __webpack_require__(/*! ../services/CrowdSystemService */ "./src/services/CrowdSystemService.ts");
+__webpack_require__(/*! ./CrowdSystemConfigurator.scss */ "./src/components/CrowdSystemConfigurator.scss");
+const CrowdSystemConfigurator = ({ currentModel, loadedMeshes, onClose }) => {
+    var _a, _b, _c;
+    const [config, setConfig] = React.useState({
+        modelPath: currentModel || '',
+        groundMeshName: 'DSTA_CARPETS',
+        obstaclePatterns: ['DSTA_WALLS', 'DSTA_Glass Panels', 'DSTA_Doors_004_primitive0', 'AHU-A-10-1_primitive1', 'AHU-A-10-2_primitive1'],
+        crowdSize: 10,
+        useSimpleAgents: false,
+        agentModelPath: 'https://raw.githubusercontent.com/RazaGR/babylon/master/male3.babylon',
+        isEnabled: true
+    });
+    const [isLoading, setIsLoading] = React.useState(true);
+    const [isSaving, setIsSaving] = React.useState(false);
+    const [availableMeshes, setAvailableMeshes] = React.useState([]);
+    const [showGroundMeshDropdown, setShowGroundMeshDropdown] = React.useState(false);
+    const [showObstacleDropdown, setShowObstacleDropdown] = React.useState(false);
+    const [groundMeshSearch, setGroundMeshSearch] = React.useState('');
+    const [obstacleSearch, setObstacleSearch] = React.useState('');
+    // Load configuration on mount
+    React.useEffect(() => {
+        if (currentModel) {
+            loadConfiguration();
+        }
+        // Extract unique mesh names
+        const meshNames = Array.from(new Set(loadedMeshes
+            .filter(mesh => mesh.name && mesh.name !== '__root__')
+            .map(mesh => mesh.name))).sort();
+        setAvailableMeshes(meshNames);
+    }, [currentModel, loadedMeshes]);
+    const loadConfiguration = () => __awaiter(void 0, void 0, void 0, function* () {
+        if (!currentModel)
+            return;
+        try {
+            setIsLoading(true);
+            const loadedConfig = yield CrowdSystemService_1.crowdSystemService.getConfigForModel(currentModel);
+            if (loadedConfig) {
+                setConfig(loadedConfig);
+            }
+            else {
+                // If no config exists, keep the default config but update the modelPath
+                setConfig(prev => (Object.assign(Object.assign({}, prev), { modelPath: currentModel })));
+            }
+        }
+        catch (error) {
+            console.error('Error loading crowd system config:', error);
+        }
+        finally {
+            setIsLoading(false);
+        }
+    });
+    const handleSave = () => __awaiter(void 0, void 0, void 0, function* () {
+        if (!currentModel)
+            return;
+        try {
+            setIsSaving(true);
+            yield CrowdSystemService_1.crowdSystemService.saveConfig(Object.assign(Object.assign({}, config), { modelPath: currentModel }));
+            // Show success message
+            const successMsg = document.createElement('div');
+            successMsg.style.cssText = `
+                position: fixed;
+                top: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: #10b981;
+                color: white;
+                padding: 12px 24px;
+                border-radius: 6px;
+                font-weight: 500;
+                z-index: 9999;
+                animation: fadeInOut 3s ease-in-out;
+            `;
+            successMsg.textContent = 'Crowd system configuration saved successfully!';
+            document.body.appendChild(successMsg);
+            setTimeout(() => successMsg.remove(), 3000);
+            onClose();
+        }
+        catch (error) {
+            console.error('Error saving crowd system config:', error);
+            alert('Failed to save configuration');
+        }
+        finally {
+            setIsSaving(false);
+        }
+    });
+    const handleGroundMeshSelect = (meshName) => {
+        setConfig(prev => {
+            if (!prev)
+                return prev;
+            return Object.assign(Object.assign({}, prev), { groundMeshName: meshName });
+        });
+        setShowGroundMeshDropdown(false);
+        setGroundMeshSearch('');
+    };
+    const handleObstacleToggle = (meshName) => {
+        setConfig(prev => {
+            if (!prev)
+                return prev;
+            const patterns = prev.obstaclePatterns || [];
+            const isSelected = patterns.includes(meshName);
+            if (isSelected) {
+                return Object.assign(Object.assign({}, prev), { obstaclePatterns: patterns.filter(p => p !== meshName) });
+            }
+            else {
+                return Object.assign(Object.assign({}, prev), { obstaclePatterns: [...patterns, meshName] });
+            }
+        });
+    };
+    const filteredGroundMeshes = availableMeshes.filter(mesh => mesh.toLowerCase().includes(groundMeshSearch.toLowerCase()));
+    const filteredObstacleMeshes = availableMeshes.filter(mesh => mesh.toLowerCase().includes(obstacleSearch.toLowerCase()));
+    if (isLoading) {
+        return (React.createElement("div", { className: "crowd-system-configurator" },
+            React.createElement("div", { className: "loading" }, "Loading configuration...")));
+    }
+    return (React.createElement("div", { className: "crowd-system-configurator" },
+        React.createElement("div", { className: "configurator-header" },
+            React.createElement("h2", null, "\uD83D\uDEB6 Crowd System Configuration"),
+            React.createElement("button", { className: "close-button", onClick: onClose }, "\u00D7")),
+        React.createElement("div", { className: "configurator-content" },
+            React.createElement("div", { className: "info-section" },
+                React.createElement("p", null, "Configure the crowd navigation system for the current model. This configuration will be saved and automatically applied when the model loads."),
+                React.createElement("div", { className: "model-info" },
+                    React.createElement("strong", null, "Current Model:"),
+                    " ",
+                    currentModel || 'None')),
+            React.createElement("div", { className: "config-section" },
+                React.createElement("div", { className: "form-group" },
+                    React.createElement("label", null,
+                        React.createElement("span", { className: "label-text" }, "Ground Mesh"),
+                        React.createElement("span", { className: "label-hint" }, "The mesh where agents will walk")),
+                    React.createElement("div", { className: "dropdown-container" },
+                        React.createElement("div", { className: "dropdown-trigger", onClick: () => setShowGroundMeshDropdown(!showGroundMeshDropdown) },
+                            React.createElement("span", null, (config === null || config === void 0 ? void 0 : config.groundMeshName) || 'Select ground mesh'),
+                            React.createElement("span", { className: "dropdown-arrow" }, "\u25BC")),
+                        showGroundMeshDropdown && (React.createElement("div", { className: "dropdown-menu" },
+                            React.createElement("input", { type: "text", className: "dropdown-search", placeholder: "Search meshes...", value: groundMeshSearch, onChange: (e) => { var _a; return setGroundMeshSearch(((_a = e.target) === null || _a === void 0 ? void 0 : _a.value) || ''); }, onClick: (e) => e.stopPropagation() }),
+                            React.createElement("div", { className: "dropdown-options" }, filteredGroundMeshes.map(mesh => (React.createElement("div", { key: mesh, className: `dropdown-option ${mesh === (config === null || config === void 0 ? void 0 : config.groundMeshName) ? 'selected' : ''}`, onClick: () => handleGroundMeshSelect(mesh) }, mesh)))))))),
+                React.createElement("div", { className: "form-group" },
+                    React.createElement("label", null,
+                        React.createElement("span", { className: "label-text" }, "Obstacle Patterns"),
+                        React.createElement("span", { className: "label-hint" }, "Meshes that agents will avoid")),
+                    React.createElement("div", { className: "dropdown-container" },
+                        React.createElement("div", { className: "dropdown-trigger", onClick: () => setShowObstacleDropdown(!showObstacleDropdown) },
+                            React.createElement("span", null,
+                                ((_a = config === null || config === void 0 ? void 0 : config.obstaclePatterns) === null || _a === void 0 ? void 0 : _a.length) || 0,
+                                " obstacles selected"),
+                            React.createElement("span", { className: "dropdown-arrow" }, "\u25BC")),
+                        showObstacleDropdown && (React.createElement("div", { className: "dropdown-menu multi-select" },
+                            React.createElement("input", { type: "text", className: "dropdown-search", placeholder: "Search meshes...", value: obstacleSearch, onChange: (e) => { var _a; return setObstacleSearch(((_a = e.target) === null || _a === void 0 ? void 0 : _a.value) || ''); }, onClick: (e) => e.stopPropagation() }),
+                            React.createElement("div", { className: "dropdown-options" }, filteredObstacleMeshes.map(mesh => {
+                                var _a, _b;
+                                return (React.createElement("div", { key: mesh, className: `dropdown-option checkbox-option ${((_a = config === null || config === void 0 ? void 0 : config.obstaclePatterns) === null || _a === void 0 ? void 0 : _a.includes(mesh)) ? 'selected' : ''}`, onClick: () => handleObstacleToggle(mesh) },
+                                    React.createElement("input", { type: "checkbox", checked: ((_b = config === null || config === void 0 ? void 0 : config.obstaclePatterns) === null || _b === void 0 ? void 0 : _b.includes(mesh)) || false, readOnly: true }),
+                                    React.createElement("span", null, mesh)));
+                            }))))),
+                    ((_b = config === null || config === void 0 ? void 0 : config.obstaclePatterns) === null || _b === void 0 ? void 0 : _b.length) > 0 && (React.createElement("div", { className: "selected-items" }, (_c = config === null || config === void 0 ? void 0 : config.obstaclePatterns) === null || _c === void 0 ? void 0 : _c.map(pattern => (React.createElement("span", { key: pattern, className: "selected-tag" },
+                        pattern,
+                        React.createElement("button", { className: "remove-tag", onClick: () => handleObstacleToggle(pattern) }, "\u00D7"))))))),
+                React.createElement("div", { className: "form-group" },
+                    React.createElement("label", null,
+                        React.createElement("span", { className: "label-text" }, "Crowd Size"),
+                        React.createElement("span", { className: "label-hint" }, "Number of agents in the crowd")),
+                    React.createElement("input", { type: "number", min: "1", max: "50", value: (config === null || config === void 0 ? void 0 : config.crowdSize) || 10, onChange: (e) => setConfig(prev => { var _a; return (Object.assign(Object.assign({}, prev), { crowdSize: parseInt(((_a = e.target) === null || _a === void 0 ? void 0 : _a.value) || '10') || 10 })); }), className: "form-input" })),
+                React.createElement("div", { className: "form-group" },
+                    React.createElement("label", null,
+                        React.createElement("span", { className: "label-text" }, "Agent Model URL"),
+                        React.createElement("span", { className: "label-hint" }, "URL to the 3D model for agents")),
+                    React.createElement("input", { type: "text", value: (config === null || config === void 0 ? void 0 : config.agentModelPath) || '', onChange: (e) => {
+                            const value = e.target.value;
+                            console.log('Agent Model Path onChange:', value);
+                            setConfig(prev => {
+                                console.log('Previous config:', prev);
+                                const newConfig = Object.assign(Object.assign({}, prev), { agentModelPath: value });
+                                console.log('New config:', newConfig);
+                                return newConfig;
+                            });
+                        }, className: "form-input", placeholder: "https://example.com/model.babylon" })),
+                React.createElement("div", { className: "form-group checkbox-group" },
+                    React.createElement("label", { className: "checkbox-label" },
+                        React.createElement("input", { type: "checkbox", checked: (config === null || config === void 0 ? void 0 : config.useSimpleAgents) || false, onChange: (e) => {
+                                var _a;
+                                const checked = ((_a = e.target) === null || _a === void 0 ? void 0 : _a.checked) || false;
+                                setConfig(prev => (Object.assign(Object.assign({}, prev), { useSimpleAgents: checked })));
+                            } }),
+                        React.createElement("span", null, "Use Simple Agents"),
+                        React.createElement("span", { className: "checkbox-hint" }, "Use basic cylinders instead of 3D models (better performance)"))),
+                React.createElement("div", { className: "form-group checkbox-group" },
+                    React.createElement("label", { className: "checkbox-label" },
+                        React.createElement("input", { type: "checkbox", checked: (config === null || config === void 0 ? void 0 : config.isEnabled) || false, onChange: (e) => {
+                                var _a;
+                                const checked = ((_a = e.target) === null || _a === void 0 ? void 0 : _a.checked) || false;
+                                setConfig(prev => (Object.assign(Object.assign({}, prev), { isEnabled: checked })));
+                            } }),
+                        React.createElement("span", null, "Enable Crowd System"),
+                        React.createElement("span", { className: "checkbox-hint" }, "Automatically start crowd system when model loads")))),
+            React.createElement("div", { className: "configurator-footer" },
+                React.createElement("button", { className: "btn btn-secondary", onClick: onClose }, "Cancel"),
+                React.createElement("button", { className: "btn btn-primary", onClick: handleSave, disabled: isSaving || !currentModel }, isSaving ? 'Saving...' : 'Save Configuration')))));
+};
+exports["default"] = CrowdSystemConfigurator;
+
+
+/***/ }),
+
 /***/ "./src/components/DebugWidgetUploader.tsx":
 /*!************************************************!*\
   !*** ./src/components/DebugWidgetUploader.tsx ***!
@@ -101312,6 +102891,831 @@ const EnvironmentControls = (props) => {
                             : 'No environmental effects active'))))));
 };
 exports["default"] = EnvironmentControls;
+
+
+/***/ }),
+
+/***/ "./src/components/HeatmapConfigurator.tsx":
+/*!************************************************!*\
+  !*** ./src/components/HeatmapConfigurator.tsx ***!
+  \************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const React = __importStar(__webpack_require__(/*! react */ "react"));
+const axios_1 = __importDefault(__webpack_require__(/*! axios */ "./node_modules/axios/dist/browser/axios.cjs"));
+const appConfig_1 = __webpack_require__(/*! ../config/appConfig */ "./src/config/appConfig.ts");
+// Sensor type configurations
+const SENSOR_TYPES = {
+    temperature: {
+        label: 'Temperature',
+        unit: '°C',
+        minValue: -20,
+        maxValue: 50,
+        defaultValue: 20,
+        color: '#3b82f6'
+    },
+    humidity: {
+        label: 'Humidity',
+        unit: '%',
+        minValue: 0,
+        maxValue: 100,
+        defaultValue: 50,
+        color: '#06b6d4'
+    },
+    occupancy: {
+        label: 'Occupancy',
+        unit: ' people',
+        minValue: 0,
+        maxValue: 50,
+        defaultValue: 5,
+        color: '#8b5cf6'
+    },
+    airQuality: {
+        label: 'Air Quality',
+        unit: ' ppm',
+        minValue: 0,
+        maxValue: 1000,
+        defaultValue: 350,
+        color: '#10b981'
+    },
+    noise: {
+        label: 'Noise Level',
+        unit: ' dB',
+        minValue: 0,
+        maxValue: 120,
+        defaultValue: 45,
+        color: '#f59e0b'
+    },
+    light: {
+        label: 'Light Level',
+        unit: ' lux',
+        minValue: 0,
+        maxValue: 2000,
+        defaultValue: 500,
+        color: '#fbbf24'
+    },
+    pressure: {
+        label: 'Pressure',
+        unit: ' hPa',
+        minValue: 950,
+        maxValue: 1050,
+        defaultValue: 1013,
+        color: '#ef4444'
+    }
+};
+// 2D Mesh Visualizer Component
+const MeshVisualizer = ({ selectedMesh, sensorData, onSensorPlace, onSensorSelect, selectedSensorIndex }) => {
+    const canvasRef = React.useRef(null);
+    const [meshBounds, setMeshBounds] = React.useState(null);
+    // Calculate mesh bounds
+    React.useEffect(() => {
+        if (!selectedMesh)
+            return;
+        const boundingInfo = selectedMesh.getBoundingInfo();
+        if (boundingInfo) {
+            const min = boundingInfo.boundingBox.minimumWorld;
+            const max = boundingInfo.boundingBox.maximumWorld;
+            const bounds = {
+                min: { x: min.x, y: min.y, z: min.z },
+                max: { x: max.x, y: max.y, z: max.z },
+                center: {
+                    x: (min.x + max.x) / 2,
+                    y: (min.y + max.y) / 2,
+                    z: (min.z + max.z) / 2
+                },
+                size: {
+                    x: max.x - min.x,
+                    y: max.y - min.y,
+                    z: max.z - min.z
+                }
+            };
+            setMeshBounds(bounds);
+        }
+    }, [selectedMesh]);
+    // Draw the 2D visualization with actual mesh shape
+    React.useEffect(() => {
+        if (!meshBounds || !canvasRef.current || !selectedMesh)
+            return;
+        const canvas = canvasRef.current;
+        const ctx = canvas.getContext('2d');
+        if (!ctx)
+            return;
+        const padding = 20;
+        const availableWidth = canvas.width - (padding * 2);
+        const availableHeight = canvas.height - (padding * 2);
+        // Calculate scale to fit mesh in canvas
+        const scaleX = availableWidth / meshBounds.size.x;
+        const scaleZ = availableHeight / meshBounds.size.z;
+        const scale = Math.min(scaleX, scaleZ);
+        // Clear canvas
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        // Get mesh vertices for actual shape
+        const vertices = selectedMesh.getVerticesData("position");
+        const indices = selectedMesh.getIndices();
+        // Draw actual mesh shape (top-down projection)
+        if (vertices && indices) {
+            ctx.strokeStyle = '#4b5563';
+            ctx.lineWidth = 2;
+            ctx.setLineDash([]);
+            // Calculate offset to center the mesh
+            const meshWidth = meshBounds.size.x * scale;
+            const meshHeight = meshBounds.size.z * scale;
+            const offsetX = (canvas.width - meshWidth) / 2;
+            const offsetY = (canvas.height - meshHeight) / 2;
+            // Draw mesh triangles outline
+            ctx.beginPath();
+            for (let i = 0; i < indices.length; i += 3) {
+                const i1 = indices[i] * 3;
+                const i2 = indices[i + 1] * 3;
+                const i3 = indices[i + 2] * 3;
+                // Get world coordinates for triangle vertices
+                const x1 = vertices[i1];
+                const z1 = vertices[i1 + 2];
+                const x2 = vertices[i2];
+                const z2 = vertices[i2 + 2];
+                const x3 = vertices[i3];
+                const z3 = vertices[i3 + 2];
+                // Convert to canvas coordinates
+                const canvasX1 = offsetX + (x1 - meshBounds.min.x) * scale;
+                const canvasY1 = offsetY + (z1 - meshBounds.min.z) * scale;
+                const canvasX2 = offsetX + (x2 - meshBounds.min.x) * scale;
+                const canvasY2 = offsetY + (z2 - meshBounds.min.z) * scale;
+                const canvasX3 = offsetX + (x3 - meshBounds.min.x) * scale;
+                const canvasY3 = offsetY + (z3 - meshBounds.min.z) * scale;
+                // Draw triangle outline
+                ctx.moveTo(canvasX1, canvasY1);
+                ctx.lineTo(canvasX2, canvasY2);
+                ctx.lineTo(canvasX3, canvasY3);
+                ctx.lineTo(canvasX1, canvasY1);
+            }
+            ctx.stroke();
+            // Fill the mesh area with a subtle background
+            ctx.fillStyle = 'rgba(59, 130, 246, 0.1)';
+            ctx.fill();
+            // Draw bounding box for reference
+            ctx.strokeStyle = '#6b7280';
+            ctx.lineWidth = 1;
+            ctx.setLineDash([5, 5]);
+            ctx.strokeRect(offsetX, offsetY, meshWidth, meshHeight);
+            // Draw grid within the bounding area
+            ctx.strokeStyle = '#374151';
+            ctx.lineWidth = 1;
+            ctx.setLineDash([2, 2]);
+            const gridSize = 20;
+            for (let i = offsetX; i <= offsetX + meshWidth; i += gridSize) {
+                ctx.beginPath();
+                ctx.moveTo(i, offsetY);
+                ctx.lineTo(i, offsetY + meshHeight);
+                ctx.stroke();
+            }
+            for (let i = offsetY; i <= offsetY + meshHeight; i += gridSize) {
+                ctx.beginPath();
+                ctx.moveTo(offsetX, i);
+                ctx.lineTo(offsetX + meshWidth, i);
+                ctx.stroke();
+            }
+            // Draw coordinate axes
+            ctx.setLineDash([]);
+            ctx.strokeStyle = '#6b7280';
+            ctx.lineWidth = 1;
+            // Center lines
+            const centerX = offsetX + meshWidth / 2;
+            const centerY = offsetY + meshHeight / 2;
+            ctx.beginPath();
+            ctx.moveTo(centerX, offsetY);
+            ctx.lineTo(centerX, offsetY + meshHeight);
+            ctx.moveTo(offsetX, centerY);
+            ctx.lineTo(offsetX + meshWidth, centerY);
+            ctx.stroke();
+            // Draw axis labels
+            ctx.fillStyle = '#9ca3af';
+            ctx.font = '12px sans-serif';
+            ctx.textAlign = 'center';
+            ctx.fillText('X', offsetX + meshWidth + 10, centerY + 4);
+            ctx.fillText('Z', centerX, offsetY - 5);
+            // Draw sensors
+            sensorData.forEach((sensor, index) => {
+                // Convert 3D coordinates to 2D canvas coordinates
+                const relativeX = (sensor.x - meshBounds.min.x) / meshBounds.size.x;
+                const relativeZ = (sensor.z - meshBounds.min.z) / meshBounds.size.z;
+                const canvasX = offsetX + relativeX * meshWidth;
+                const canvasY = offsetY + relativeZ * meshHeight;
+                // Draw sensor pin
+                const isSelected = index === selectedSensorIndex;
+                const sensorType = sensor.sensorType || 'temperature';
+                const sensorConfig = SENSOR_TYPES[sensorType];
+                ctx.fillStyle = isSelected ? '#ef4444' : ((sensorConfig === null || sensorConfig === void 0 ? void 0 : sensorConfig.color) || '#3b82f6');
+                ctx.strokeStyle = '#fff';
+                ctx.lineWidth = 2;
+                // Pin shape
+                ctx.beginPath();
+                ctx.arc(canvasX, canvasY, isSelected ? 8 : 6, 0, 2 * Math.PI);
+                ctx.fill();
+                ctx.stroke();
+                // Sensor label with appropriate unit
+                ctx.fillStyle = '#fff';
+                ctx.font = isSelected ? 'bold 10px sans-serif' : '9px sans-serif';
+                ctx.textAlign = 'center';
+                const displayValue = sensorConfig ?
+                    `${Math.round(sensor.value)}${sensorConfig.unit}` :
+                    `${Math.round(sensor.value)}`;
+                ctx.fillText(displayValue, canvasX, canvasY + 3);
+                // Sensor ID below pin
+                ctx.fillStyle = '#9ca3af';
+                ctx.font = '8px sans-serif';
+                ctx.fillText(sensor.sensorId || `${(sensorConfig === null || sensorConfig === void 0 ? void 0 : sensorConfig.label) || 'Sensor'} ${index + 1}`, canvasX, canvasY + 18);
+            });
+            // Draw mesh info
+            ctx.fillStyle = '#d1d5db';
+            ctx.font = '12px sans-serif';
+            ctx.textAlign = 'left';
+            ctx.fillText(`Mesh: ${selectedMesh.name}`, padding, 20);
+            ctx.fillText(`Size: ${meshBounds.size.x.toFixed(1)} × ${meshBounds.size.z.toFixed(1)}`, padding, 35);
+            // Show sensor breakdown by type
+            const sensorsByType = sensorData.reduce((acc, sensor) => {
+                const type = sensor.sensorType || 'temperature';
+                acc[type] = (acc[type] || 0) + 1;
+                return acc;
+            }, {});
+            ctx.fillText(`Sensors: ${sensorData.length}`, padding, 50);
+            let yOffset = 65;
+            Object.entries(sensorsByType).forEach(([type, count]) => {
+                const typeConfig = SENSOR_TYPES[type];
+                if (typeConfig) {
+                    ctx.fillStyle = typeConfig.color;
+                    ctx.fillRect(padding, yOffset - 10, 8, 8);
+                    ctx.fillStyle = '#d1d5db';
+                    ctx.fillText(`${typeConfig.label}: ${count}`, padding + 12, yOffset);
+                    yOffset += 15;
+                }
+            });
+        }
+    }, [meshBounds, sensorData, selectedSensorIndex]);
+    // Handle canvas click for sensor placement
+    const handleCanvasClick = (e) => {
+        if (!meshBounds || !canvasRef.current)
+            return;
+        const canvas = canvasRef.current;
+        const rect = canvas.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const clickY = e.clientY - rect.top;
+        const padding = 20;
+        const availableWidth = canvas.width - (padding * 2);
+        const availableHeight = canvas.height - (padding * 2);
+        const scaleX = availableWidth / meshBounds.size.x;
+        const scaleZ = availableHeight / meshBounds.size.z;
+        const scale = Math.min(scaleX, scaleZ);
+        const meshWidth = meshBounds.size.x * scale;
+        const meshHeight = meshBounds.size.z * scale;
+        const offsetX = (canvas.width - meshWidth) / 2;
+        const offsetY = (canvas.height - meshHeight) / 2;
+        // Check if click is within mesh bounds
+        if (clickX >= offsetX && clickX <= offsetX + meshWidth &&
+            clickY >= offsetY && clickY <= offsetY + meshHeight) {
+            // Check if clicking on existing sensor
+            let clickedSensor = -1;
+            sensorData.forEach((sensor, index) => {
+                const relativeX = (sensor.x - meshBounds.min.x) / meshBounds.size.x;
+                const relativeZ = (sensor.z - meshBounds.min.z) / meshBounds.size.z;
+                const canvasX = offsetX + relativeX * meshWidth;
+                const canvasY = offsetY + relativeZ * meshHeight;
+                const distance = Math.sqrt(Math.pow((clickX - canvasX), 2) + Math.pow((clickY - canvasY), 2));
+                if (distance <= 10) { // 10px radius for selection
+                    clickedSensor = index;
+                }
+            });
+            if (clickedSensor >= 0) {
+                onSensorSelect(clickedSensor);
+            }
+            else {
+                // Convert canvas coordinates back to 3D world coordinates
+                const relativeX = (clickX - offsetX) / meshWidth;
+                const relativeZ = (clickY - offsetY) / meshHeight;
+                const worldX = meshBounds.min.x + relativeX * meshBounds.size.x;
+                const worldZ = meshBounds.min.z + relativeZ * meshBounds.size.z;
+                onSensorPlace(worldX, worldZ);
+            }
+        }
+    };
+    return (React.createElement("div", { style: {
+            border: '2px solid #374151',
+            borderRadius: '8px',
+            backgroundColor: '#1f2937',
+            padding: '10px'
+        } },
+        React.createElement("div", { style: {
+                marginBottom: '10px',
+                fontSize: '14px',
+                color: '#d1d5db',
+                textAlign: 'center'
+            } },
+            React.createElement("strong", null, "2D Mesh View (Top-Down)"),
+            React.createElement("div", { style: { fontSize: '12px', color: '#9ca3af', marginTop: '5px' } }, "Click to place sensors \u2022 Click existing sensors to edit")),
+        React.createElement("canvas", { ref: canvasRef, width: 500, height: 400, style: {
+                border: '1px solid #4b5563',
+                borderRadius: '4px',
+                cursor: 'crosshair',
+                backgroundColor: '#111827'
+            }, onClick: handleCanvasClick })));
+};
+// Simple Sensor Editor Component
+const SensorEditor = ({ sensor, sensorIndex, onSensorChange, onDeleteSensor }) => {
+    var _a, _b, _c;
+    // Local state for input values to prevent re-render issues
+    const [localValues, setLocalValues] = React.useState({
+        x: (sensor === null || sensor === void 0 ? void 0 : sensor.x) || 0,
+        y: (sensor === null || sensor === void 0 ? void 0 : sensor.y) || 0,
+        z: (sensor === null || sensor === void 0 ? void 0 : sensor.z) || 0,
+        value: (sensor === null || sensor === void 0 ? void 0 : sensor.value) || 0,
+        sensorType: (sensor === null || sensor === void 0 ? void 0 : sensor.sensorType) || 'temperature',
+        sensorId: (sensor === null || sensor === void 0 ? void 0 : sensor.sensorId) || ''
+    });
+    // Update local values when sensor changes
+    React.useEffect(() => {
+        if (sensor) {
+            setLocalValues({
+                x: sensor.x,
+                y: sensor.y,
+                z: sensor.z,
+                value: sensor.value,
+                sensorType: sensor.sensorType || 'temperature',
+                sensorId: sensor.sensorId || ''
+            });
+        }
+    }, [sensor, sensorIndex]);
+    const handleLocalChange = (field, inputValue) => {
+        let valueToSet;
+        if (field === 'sensorType' || field === 'sensorId') {
+            valueToSet = inputValue;
+        }
+        else {
+            const numValue = parseFloat(inputValue);
+            valueToSet = isNaN(numValue) ? 0 : numValue;
+        }
+        setLocalValues(prev => (Object.assign(Object.assign({}, prev), { [field]: valueToSet })));
+    };
+    const handleBlur = (field) => {
+        if (field === 'sensorType') {
+            onSensorChange(field, localValues.sensorType);
+        }
+        else if (field === 'sensorId') {
+            onSensorChange(field, localValues.sensorId);
+        }
+        else {
+            onSensorChange(field, localValues[field]);
+        }
+    };
+    const handleApplyChanges = () => {
+        onSensorChange('x', localValues.x);
+        onSensorChange('y', localValues.y);
+        onSensorChange('z', localValues.z);
+        onSensorChange('value', localValues.value);
+        onSensorChange('sensorId', localValues.sensorId);
+        // Apply sensor type but with a flag to preserve value
+        onSensorChange('sensorType', localValues.sensorType, true); // Add preserve flag
+    };
+    if (!sensor || sensorIndex === null) {
+        return (React.createElement("div", { style: {
+                padding: '20px',
+                textAlign: 'center',
+                color: '#9ca3af',
+                backgroundColor: '#374151',
+                borderRadius: '8px',
+                border: '1px solid #4b5563'
+            } },
+            React.createElement("div", { style: { fontSize: '16px', marginBottom: '10px' } }, "No sensor selected"),
+            React.createElement("div", { style: { fontSize: '14px' } }, "Click on a sensor pin in the 2D view to edit its properties")));
+    }
+    return (React.createElement("div", { style: {
+            backgroundColor: '#374151',
+            padding: '20px',
+            borderRadius: '8px',
+            border: '2px solid #ef4444'
+        } },
+        React.createElement("div", { style: {
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                marginBottom: '20px'
+            } },
+            React.createElement("h4", { style: { margin: 0, color: '#fff' } },
+                "Editing Sensor ",
+                sensorIndex + 1),
+            React.createElement("div", { style: { display: 'flex', gap: '10px' } },
+                React.createElement("button", { onClick: handleApplyChanges, style: {
+                        padding: '6px 12px',
+                        backgroundColor: '#10b981',
+                        color: '#fff',
+                        border: 'none',
+                        borderRadius: '4px',
+                        cursor: 'pointer',
+                        fontSize: '12px'
+                    } }, "Apply Changes"),
+                React.createElement("button", { onClick: onDeleteSensor, style: {
+                        padding: '6px 12px',
+                        backgroundColor: '#ef4444',
+                        color: '#fff',
+                        border: 'none',
+                        borderRadius: '4px',
+                        cursor: 'pointer',
+                        fontSize: '12px'
+                    } }, "Delete"))),
+        React.createElement("div", { style: { marginBottom: '20px' } },
+            React.createElement("label", { style: { display: 'block', marginBottom: '8px', color: '#d1d5db', fontSize: '14px' } }, "Sensor Type:"),
+            React.createElement("select", { value: localValues.sensorType, onChange: (e) => {
+                    const newType = e.target.value;
+                    const typeConfig = SENSOR_TYPES[newType];
+                    handleLocalChange('sensorType', newType);
+                    if (typeConfig) {
+                        handleLocalChange('value', typeConfig.defaultValue.toString());
+                    }
+                    // Immediately apply the sensor type change
+                    onSensorChange('sensorType', newType);
+                }, style: {
+                    width: '100%',
+                    padding: '8px',
+                    borderRadius: '4px',
+                    border: '1px solid #4b5563',
+                    backgroundColor: '#4b5563',
+                    color: '#fff',
+                    fontSize: '14px'
+                } }, Object.entries(SENSOR_TYPES).map(([key, config]) => (React.createElement("option", { key: key, value: key }, config.label))))),
+        React.createElement("div", { style: { marginBottom: '20px' } },
+            React.createElement("label", { style: { display: 'block', marginBottom: '8px', color: '#d1d5db', fontSize: '14px' } }, "Sensor ID:"),
+            React.createElement("input", { type: "text", value: localValues.sensorId, onChange: (e) => handleLocalChange('sensorId', e.target.value), onBlur: () => handleBlur('sensorId'), style: {
+                    width: '100%',
+                    padding: '8px',
+                    borderRadius: '4px',
+                    border: '1px solid #4b5563',
+                    backgroundColor: '#4b5563',
+                    color: '#fff',
+                    fontSize: '14px'
+                }, placeholder: "e.g., Temp-1, HUM-001, HVAC-Zone-A" }),
+            React.createElement("div", { style: { fontSize: '11px', color: '#9ca3af', marginTop: '4px' } }, "Custom identifier for this sensor (used in API calls)")),
+        React.createElement("div", { style: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px' } },
+            React.createElement("div", null,
+                React.createElement("label", { style: { display: 'block', marginBottom: '8px', color: '#d1d5db', fontSize: '14px' } }, "X Coordinate (Left/Right):"),
+                React.createElement("input", { type: "text", value: localValues.x, onChange: (e) => handleLocalChange('x', e.target.value), onBlur: () => handleBlur('x'), style: {
+                        width: '100%',
+                        padding: '8px',
+                        borderRadius: '4px',
+                        border: '1px solid #4b5563',
+                        backgroundColor: '#4b5563',
+                        color: '#fff',
+                        fontSize: '14px'
+                    }, placeholder: "0.0" })),
+            React.createElement("div", null,
+                React.createElement("label", { style: { display: 'block', marginBottom: '8px', color: '#d1d5db', fontSize: '14px' } }, "Z Coordinate (Forward/Back):"),
+                React.createElement("input", { type: "text", value: localValues.z, onChange: (e) => handleLocalChange('z', e.target.value), onBlur: () => handleBlur('z'), style: {
+                        width: '100%',
+                        padding: '8px',
+                        borderRadius: '4px',
+                        border: '1px solid #4b5563',
+                        backgroundColor: '#4b5563',
+                        color: '#fff',
+                        fontSize: '14px'
+                    }, placeholder: "0.0" })),
+            React.createElement("div", null,
+                React.createElement("label", { style: { display: 'block', marginBottom: '8px', color: '#d1d5db', fontSize: '14px' } }, "Y Coordinate (Height):"),
+                React.createElement("input", { type: "text", value: localValues.y, onChange: (e) => handleLocalChange('y', e.target.value), onBlur: () => handleBlur('y'), style: {
+                        width: '100%',
+                        padding: '8px',
+                        borderRadius: '4px',
+                        border: '1px solid #4b5563',
+                        backgroundColor: '#4b5563',
+                        color: '#fff',
+                        fontSize: '14px'
+                    }, placeholder: "1.0" })),
+            React.createElement("div", null,
+                React.createElement("label", { style: { display: 'block', marginBottom: '8px', color: '#d1d5db', fontSize: '14px' } },
+                    ((_a = SENSOR_TYPES[localValues.sensorType]) === null || _a === void 0 ? void 0 : _a.label) || 'Value',
+                    "(",
+                    ((_b = SENSOR_TYPES[localValues.sensorType]) === null || _b === void 0 ? void 0 : _b.unit) || '',
+                    "):"),
+                React.createElement("input", { type: "text", value: localValues.value, onChange: (e) => handleLocalChange('value', e.target.value), onBlur: () => handleBlur('value'), style: {
+                        width: '100%',
+                        padding: '8px',
+                        borderRadius: '4px',
+                        border: '1px solid #4b5563',
+                        backgroundColor: '#4b5563',
+                        color: '#fff',
+                        fontSize: '14px'
+                    }, placeholder: ((_c = SENSOR_TYPES[localValues.sensorType]) === null || _c === void 0 ? void 0 : _c.defaultValue.toString()) || "0" }))),
+        React.createElement("div", { style: { marginTop: '15px', fontSize: '12px', color: '#9ca3af' } }, "\uD83D\uDCA1 Tip: Changes are applied automatically when you click outside a field, or click \"Apply Changes\"")));
+};
+const HeatmapConfigurator = ({ currentModel, loadedMeshes = [], showAsButton = true, onClose }) => {
+    const [showModal, setShowModal] = React.useState(false);
+    const [selectedMesh, setSelectedMesh] = React.useState('');
+    const [selectedMeshObject, setSelectedMeshObject] = React.useState(null);
+    const [sensorData, setSensorData] = React.useState([]);
+    const [loading, setLoading] = React.useState(false);
+    const [selectedSensorIndex, setSelectedSensorIndex] = React.useState(null);
+    // Get meshes that can have heatmaps (e.g., floor surfaces)
+    const heatmapEligibleMeshes = loadedMeshes.filter(mesh => mesh.name && (mesh.name.toLowerCase().includes('carpet') ||
+        mesh.name.toLowerCase().includes('floor') ||
+        mesh.name.toLowerCase().includes('ground') ||
+        mesh.name.toLowerCase().includes('surface')));
+    // Update selected mesh object when mesh selection changes
+    React.useEffect(() => {
+        if (selectedMesh) {
+            const meshObj = loadedMeshes.find(mesh => mesh.name === selectedMesh);
+            setSelectedMeshObject(meshObj);
+        }
+        else {
+            setSelectedMeshObject(null);
+        }
+    }, [selectedMesh, loadedMeshes]);
+    const handleMeshChange = (meshName) => {
+        setSelectedMesh(meshName);
+        setSensorData([]); // Clear sensors when changing mesh
+        setSelectedSensorIndex(null);
+    };
+    const handleSensorPlace = (x, z) => {
+        const defaultType = 'temperature';
+        const typeConfig = SENSOR_TYPES[defaultType];
+        // Generate a user-friendly sensor ID based on existing sensors of the same type
+        const existingSensorsOfType = sensorData.filter(s => s.sensorType === defaultType);
+        const nextNumber = existingSensorsOfType.length + 1;
+        const defaultSensorId = `Temp-${nextNumber}`;
+        const newSensor = {
+            x: Math.round(x * 100) / 100,
+            y: 1.0,
+            z: Math.round(z * 100) / 100,
+            value: typeConfig.defaultValue,
+            sensorType: defaultType,
+            unit: typeConfig.unit,
+            minValue: typeConfig.minValue,
+            maxValue: typeConfig.maxValue,
+            sensorId: defaultSensorId,
+            label: `${typeConfig.label} ${defaultSensorId}: ${typeConfig.defaultValue}${typeConfig.unit}`
+        };
+        setSensorData([...sensorData, newSensor]);
+        setSelectedSensorIndex(sensorData.length); // Select the new sensor
+    };
+    const handleSensorSelect = (index) => {
+        setSelectedSensorIndex(index);
+    };
+    const handleSensorChange = (field, value, preserveValue = false) => {
+        if (selectedSensorIndex === null)
+            return;
+        console.log(`🔧 Sensor change: field=${field}, value=${value}, index=${selectedSensorIndex}, preserveValue=${preserveValue}`);
+        const updatedData = [...sensorData];
+        const currentSensor = updatedData[selectedSensorIndex];
+        if (field === 'sensorType' && typeof value === 'string') {
+            // When sensor type changes, update related fields
+            const typeConfig = SENSOR_TYPES[value];
+            const newValue = preserveValue ? currentSensor.value : typeConfig.defaultValue;
+            // Only auto-generate sensorId if it's currently using the old pattern or is empty
+            const shouldUpdateSensorId = !currentSensor.sensorId ||
+                currentSensor.sensorId.match(/^[a-z]+_\d{3}$/i);
+            let newSensorId = currentSensor.sensorId;
+            if (shouldUpdateSensorId) {
+                // Generate user-friendly ID based on sensor type
+                const existingSensorsOfType = sensorData.filter(s => s.sensorType === value && s !== currentSensor);
+                const nextNumber = existingSensorsOfType.length + 1;
+                const typePrefix = value === 'temperature' ? 'Temp' :
+                    value === 'humidity' ? 'Hum' :
+                        value === 'airQuality' ? 'AQ' :
+                            value === 'occupancy' ? 'Occ' :
+                                value === 'noise' ? 'Noise' :
+                                    value === 'light' ? 'Light' :
+                                        value === 'pressure' ? 'Press' : 'Sensor';
+                newSensorId = `${typePrefix}-${nextNumber}`;
+            }
+            const newSensor = Object.assign(Object.assign({}, currentSensor), { sensorType: value, unit: typeConfig.unit, minValue: typeConfig.minValue, maxValue: typeConfig.maxValue, value: newValue, sensorId: newSensorId, label: `${typeConfig.label} ${currentSensor.sensorId || newSensorId}: ${newValue}${typeConfig.unit}` });
+            console.log('🔧 Updated sensor with new type:', newSensor);
+            updatedData[selectedSensorIndex] = newSensor;
+        }
+        else if (field === 'value' && typeof value === 'number') {
+            const sensorType = currentSensor.sensorType || 'temperature';
+            const typeConfig = SENSOR_TYPES[sensorType];
+            updatedData[selectedSensorIndex] = Object.assign(Object.assign({}, currentSensor), { [field]: value, label: `${(typeConfig === null || typeConfig === void 0 ? void 0 : typeConfig.label) || 'Sensor'} ${currentSensor.sensorId || selectedSensorIndex + 1}: ${value}${(typeConfig === null || typeConfig === void 0 ? void 0 : typeConfig.unit) || ''}` });
+        }
+        else if (field === 'sensorId' && typeof value === 'string') {
+            // Update sensor ID and label
+            const sensorType = currentSensor.sensorType || 'temperature';
+            const typeConfig = SENSOR_TYPES[sensorType];
+            updatedData[selectedSensorIndex] = Object.assign(Object.assign({}, currentSensor), { sensorId: value, label: `${(typeConfig === null || typeConfig === void 0 ? void 0 : typeConfig.label) || 'Sensor'} ${value || selectedSensorIndex + 1}: ${currentSensor.value}${(typeConfig === null || typeConfig === void 0 ? void 0 : typeConfig.unit) || ''}` });
+        }
+        else {
+            updatedData[selectedSensorIndex] = Object.assign(Object.assign({}, currentSensor), { [field]: value });
+        }
+        setSensorData(updatedData);
+    };
+    const handleDeleteSensor = () => {
+        if (selectedSensorIndex === null)
+            return;
+        const newSensorData = sensorData.filter((_, i) => i !== selectedSensorIndex);
+        setSensorData(newSensorData);
+        setSelectedSensorIndex(null);
+    };
+    const handleLoadExistingData = () => __awaiter(void 0, void 0, void 0, function* () {
+        if (!currentModel || !selectedMesh)
+            return;
+        setLoading(true);
+        try {
+            const response = yield axios_1.default.get(`${(0, appConfig_1.getApiUrl)()}/heatmap-data/${encodeURIComponent(currentModel)}/${encodeURIComponent(selectedMesh)}`);
+            console.log('🔍 Loaded heatmap data from database:', response.data);
+            if (response.data && response.data.length > 0) {
+                setSensorData(response.data.map((point, index) => {
+                    console.log(`🔍 Processing point ${index}:`, {
+                        sensorId: point.sensorId,
+                        sensorType: point.sensorType,
+                        value: point.value,
+                        label: point.label
+                    });
+                    const sensorType = point.sensorType || 'temperature';
+                    const typeConfig = SENSOR_TYPES[sensorType];
+                    // Use the actual sensorId from the database, or generate fallback if missing
+                    const actualSensorId = point.sensorId || `${sensorType}_${String(index + 1).padStart(3, '0')}`;
+                    console.log(`🔍 Using sensorId: ${actualSensorId} (original: ${point.sensorId})`);
+                    return {
+                        x: point.x,
+                        y: point.y,
+                        z: point.z,
+                        value: point.value,
+                        sensorType: sensorType,
+                        unit: point.unit || ((typeConfig === null || typeConfig === void 0 ? void 0 : typeConfig.unit) || '°C'),
+                        minValue: point.minValue !== undefined ? point.minValue : ((typeConfig === null || typeConfig === void 0 ? void 0 : typeConfig.minValue) || 0),
+                        maxValue: point.maxValue !== undefined ? point.maxValue : ((typeConfig === null || typeConfig === void 0 ? void 0 : typeConfig.maxValue) || 100),
+                        sensorId: actualSensorId,
+                        label: point.label || `${(typeConfig === null || typeConfig === void 0 ? void 0 : typeConfig.label) || 'Sensor'} ${actualSensorId}: ${point.value}${(typeConfig === null || typeConfig === void 0 ? void 0 : typeConfig.unit) || ''}`
+                    };
+                }));
+                setSelectedSensorIndex(null); // Clear selection
+            }
+        }
+        catch (error) {
+            console.error('Error loading existing heatmap data:', error);
+        }
+        finally {
+            setLoading(false);
+        }
+    });
+    const handleSave = () => __awaiter(void 0, void 0, void 0, function* () {
+        if (!currentModel || !selectedMesh || sensorData.length === 0) {
+            alert('Please select a mesh and add at least one sensor');
+            return;
+        }
+        setLoading(true);
+        try {
+            console.log('💾 Saving heatmap data:', {
+                modelPath: currentModel,
+                meshName: selectedMesh,
+                dataPoints: sensorData
+            });
+            const response = yield axios_1.default.post(`${(0, appConfig_1.getApiUrl)()}/heatmap-data`, {
+                modelPath: currentModel,
+                meshName: selectedMesh,
+                dataPoints: sensorData
+            });
+            if (response.data) {
+                alert(`Heatmap data saved successfully! ${response.data.count} sensors configured.`);
+                setShowModal(false);
+                if (onClose)
+                    onClose();
+            }
+        }
+        catch (error) {
+            console.error('Error saving heatmap data:', error);
+            alert('Error saving heatmap data. Please try again.');
+        }
+        finally {
+            setLoading(false);
+        }
+    });
+    const handleCloseModal = () => {
+        setShowModal(false);
+        if (onClose)
+            onClose();
+    };
+    // Don't show if no model loaded or no eligible meshes
+    if (!currentModel || heatmapEligibleMeshes.length === 0) {
+        return null;
+    }
+    const ModalContent = () => (React.createElement("div", { style: {
+            backgroundColor: '#1f2937',
+            padding: '20px',
+            borderRadius: '8px',
+            width: '900px',
+            maxHeight: '90vh',
+            overflowY: 'auto',
+            color: '#fff'
+        } },
+        React.createElement("h3", { style: { marginBottom: '20px', color: '#fff' } }, "Configure Heatmap Data"),
+        React.createElement("div", { style: { marginBottom: '20px' } },
+            React.createElement("label", { style: { display: 'block', marginBottom: '5px' } }, "Select Mesh:"),
+            React.createElement("select", { value: selectedMesh, onChange: (e) => handleMeshChange(e.target.value), style: {
+                    width: '100%',
+                    padding: '8px',
+                    borderRadius: '4px',
+                    border: '1px solid #374151',
+                    backgroundColor: '#374151',
+                    color: '#fff'
+                } },
+                React.createElement("option", { value: "" }, "Select a mesh..."),
+                heatmapEligibleMeshes.map(mesh => (React.createElement("option", { key: mesh.name, value: mesh.name }, mesh.name))))),
+        selectedMesh && (React.createElement("div", { style: { marginBottom: '20px' } },
+            React.createElement("button", { onClick: handleLoadExistingData, disabled: loading, style: {
+                    padding: '8px 16px',
+                    backgroundColor: '#3b82f6',
+                    color: '#fff',
+                    border: 'none',
+                    borderRadius: '4px',
+                    cursor: 'pointer',
+                    marginRight: '10px'
+                } }, loading ? 'Loading...' : 'Load Existing Data'),
+            React.createElement("span", { style: { fontSize: '12px', color: '#9ca3af' } },
+                "Click on the 2D view to place sensors \u2022 Total sensors: ",
+                sensorData.length))),
+        selectedMeshObject && (React.createElement("div", { style: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' } },
+            React.createElement(MeshVisualizer, { selectedMesh: selectedMeshObject, sensorData: sensorData, onSensorPlace: handleSensorPlace, onSensorSelect: handleSensorSelect, selectedSensorIndex: selectedSensorIndex }),
+            React.createElement(SensorEditor, { sensor: selectedSensorIndex !== null ? sensorData[selectedSensorIndex] : null, sensorIndex: selectedSensorIndex, onSensorChange: handleSensorChange, onDeleteSensor: handleDeleteSensor }))),
+        React.createElement("div", { style: { display: 'flex', justifyContent: 'flex-end', gap: '10px', marginTop: '20px' } },
+            React.createElement("button", { onClick: handleCloseModal, style: {
+                    padding: '8px 16px',
+                    backgroundColor: '#6b7280',
+                    color: '#fff',
+                    border: 'none',
+                    borderRadius: '4px',
+                    cursor: 'pointer'
+                } }, "Cancel"),
+            React.createElement("button", { onClick: handleSave, disabled: loading || sensorData.length === 0, style: {
+                    padding: '8px 16px',
+                    backgroundColor: sensorData.length > 0 ? '#3b82f6' : '#6b7280',
+                    color: '#fff',
+                    border: 'none',
+                    borderRadius: '4px',
+                    cursor: sensorData.length > 0 ? 'pointer' : 'not-allowed'
+                } }, loading ? 'Saving...' : `Save Configuration (${sensorData.length} sensors)`))));
+    if (!showAsButton) {
+        // Return just the modal content for use inside ConfiguratorDropdown
+        return React.createElement(ModalContent, null);
+    }
+    return (React.createElement(React.Fragment, null,
+        React.createElement("div", { className: "heatmap-config-button", onClick: () => setShowModal(true), title: "Configure Heatmap Data", style: {
+                padding: '8px 12px',
+                background: 'rgba(55, 65, 81, 0.9)',
+                borderRadius: '6px',
+                cursor: 'pointer',
+                marginRight: '10px',
+                color: '#fff',
+                fontSize: '14px',
+                border: '1px solid rgba(156, 163, 175, 0.3)'
+            } }, "\uD83C\uDF21\uFE0F Heatmap"),
+        showModal && (React.createElement("div", { style: {
+                position: 'fixed',
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                zIndex: 1000
+            } },
+            React.createElement(ModalContent, null)))));
+};
+exports["default"] = HeatmapConfigurator;
 
 
 /***/ }),
@@ -109764,8 +112168,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 // Disable console.log globally
-// const originalConsoleLog = console.log;
-// console.log = () => {};
+const originalConsoleLog = console.log;
+console.log = () => { };
 const React = __importStar(__webpack_require__(/*! react */ "react"));
 const uxp_1 = __webpack_require__(/*! ./uxp */ "./src/uxp.ts");
 const components_1 = __webpack_require__(/*! uxp/components */ "uxp/components");
