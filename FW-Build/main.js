@@ -104121,7 +104121,8 @@ const ModelFlowEditor = ({ isOpen, onClose, onFlowChange }) => {
                 'DR_DH1 Louver Panel_2050x2900 [2818672]',
                 'Basic Wall 20mm thk Plastering-skimcoat [2966041]',
                 'Floor EC_Apron Slab-RC 150 [1740805]',
-                'Obj_Pigmented Concrete - 10A11_37'
+                'Obj_Pigmented Concrete - 10A11_37',
+                'Line253_primitive0', 'Line001_primitive0', 'Line047_primitive0', 'Line058_primitive0', 'Line068_primitive0', 'Line076_primitive0', 'Line084_primitive0', 'Line099_primitive0', 'Line108_primitive0', 'Line118_primitive0', 'Line451_primitive0', 'Line152_primitive0', 'Line163_primitive0', 'Line170_primitive0', 'Line177_primitive0', 'Line183_primitive0', 'Line190_primitive0', 'Line197_primitive0', 'Line204_primitive0', 'Line211_primitive0', 'Line218_primitive0', 'Line225_primitive0', 'Line232_primitive0', 'Line239_primitive0', 'Object001_primitive0', 'Line449_primitive0', 'Line450_primitive1', 'Line442_primitive0', 'Line443_primitive0', 'Line441_primitive0', 'Line444_primitive0', 'Line445_primitive0', 'Line446_primitive1', 'Line447_primitive1', 'Line448_primitive0'
             ];
         };
         const availableMeshes = getSourceModelMeshes();
