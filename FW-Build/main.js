@@ -106526,7 +106526,7 @@ const ModelFlowEditor = ({ isOpen, onClose, onFlowChange }) => {
                 'Basic Wall 20mm thk Plastering-skimcoat [2966041]',
                 'Floor EC_Apron Slab-RC 150 [1740805]',
                 'Obj_Pigmented Concrete - 10A11_37',
-                'Line253_primitive0', 'Line001_primitive0', 'Line047_primitive0', 'Line058_primitive0', 'Line068_primitive0', 'Line076_primitive0', 'Line084_primitive0', 'Line099_primitive0', 'Line108_primitive0', 'Line118_primitive0', 'Line451_primitive0', 'Line152_primitive0', 'Line163_primitive0', 'Line170_primitive0', 'Line177_primitive0', 'Line183_primitive0', 'Line190_primitive0', 'Line197_primitive0', 'Line204_primitive0', 'Line211_primitive0', 'Line218_primitive0', 'Line225_primitive0', 'Line232_primitive0', 'Line239_primitive0', 'Object001_primitive0', 'Line449_primitive0', 'Line450_primitive1', 'Line442_primitive0', 'Line443_primitive0', 'Line441_primitive0', 'Line444_primitive0', 'Line445_primitive0', 'Line446_primitive1', 'Line447_primitive1', 'Line448_primitive0'
+                'Line253_primitive0', 'Line001_primitive0', 'Line047_primitive0', 'Line058_primitive0', 'Line068_primitive0', 'Line076_primitive0', 'Line084_primitive0', 'Line099_primitive0', 'Line108_primitive0', 'Line118_primitive0', 'Line451_primitive0', 'Line152_primitive0', 'Line163_primitive0', 'Line170_primitive0', 'Line177_primitive0', 'Line183_primitive0', 'Line190_primitive0', 'Line197_primitive0', 'Line204_primitive0', 'Line211_primitive0', 'Line218_primitive0', 'Line225_primitive0', 'Line232_primitive0', 'Line239_primitive0', 'Object001_primitive0', 'Line449_primitive0', 'Line450_primitive1', 'Line442_primitive0', 'Line443_primitive0', 'Line441_primitive0', 'Line444_primitive0', 'Line445_primitive0', 'Line446_primitive1', 'Line447_primitive1', 'Line448_primitive0', 'Object176', 'Object171'
             ];
         };
         const availableMeshes = getSourceModelMeshes();
@@ -113928,6 +113928,10 @@ const ThreeDViewerWidget = (props) => {
                     if (mesh.name === "comfort" || mesh.name === "LG3 Ceiling Cassette Air Conditioner-Inverter(2TR)4 Sta_396e091" || mesh.name === "Floor EC_150mm THK with Water Proofing [1725448]" || mesh.name === "DPA_PK_STRAIGHT ARROW_primitive63") {
                         console.log("Found ventilation pipe or air conditioner, applying pulsing effect to:", mesh.name);
                         (0, meshGlow_1.createPulsingGlowEffect1)(mesh, scene);
+                    }
+                    if (mesh.name === "roof" || mesh.name === "DSTA_ROOF WALL" || mesh.name === "DSTA_False Ceiling" || mesh.name === "DSTA_Roof" || mesh.name === "DSTA_WALLS_ROOF" || mesh.name === "DSTA_FALSE CEILING" || mesh.name === "DSTA_WALLS_009" || mesh.name === "DSTA_Ceiling Walls_001" || mesh.name === "DSTA_WALLS_006" || mesh.name === "DSTA_Ceiling" || mesh.name === "Ceiling") {
+                        console.log(`Removing mesh: ${mesh.name}`);
+                        mesh.dispose();
                     }
                 });
             }
